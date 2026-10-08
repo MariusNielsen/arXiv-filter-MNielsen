@@ -1,0 +1,338 @@
+{
+ "feed": [
+  {
+   "day": "2026-10-08",
+   "paper": {
+    "abstract": "Let $H_n$ be the one-dimensional Honda formal group of height $n$ over $\\mathbf F_{p^n}$ and let \\[ R_n=W(\\mathbf F_{p^n})[[u_1,\\ldots,u_{n-1}]],\\qquad A_n=R_n/(p). \\] We prove, for every height $n$ and every prime $p$, that the prime ideals of $A_n$ stable under an open subgroup of the Morava stabilizer group are exactly the height ideals $(u_1,\\ldots,u_j)$. We also prove that a stable prime of $R_n$ avoiding $p$ is zero. The resulting radical-ideal classification implies the Hovey-Strickland classification of thick tensor ideals in the category of dualizable $K(n)$-local spectra via the forward implication of Barthel-Heard-Naumann.\n  The special-fiber argument is local and geometric. After cutting an invariant prime by a one-parameter curve, we construct from the Cartier structure equation a smooth formal quotient $\\mathcal{Q}$ and a distinguished subgroup $\\mathcal{H}$. The generic fiber of $\\mathcal{H}$ is identified with the deformation space of connected-\\'etale extensions. A Cartier obstruction map from the full Honda endomorphism order is compared with evaluation on Tate vectors through completed universal covers. Fargues-Fontaine vector bundles give a period-detection statement. Chai's rigidity theorem then promotes detection by homomorphisms to formal Zariski density after a renormalization of the valuation. A uniform fixed-jet argument transfers this density to Morava-stabilizer orbits. The generic-fiber assertion is proved separately from the Gross-Hopkins period map.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Chenglong Ma"
+    ],
+    "categories": [
+     "math.NT",
+     "math.AT"
+    ],
+    "date": "2026-10-08",
+    "link": "https://arxiv.org/abs/2610.10072",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.10072",
+    "pid": "2610.10072",
+    "reasons": [
+     "title: lubin-tate",
+     "abstract: k(n)-local"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Invariant Primes in Lubin-Tate Space and Hovey-Strickland at Every Height",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-08",
+   "paper": {
+    "abstract": "We disprove the classical version of the Borsuk-Ulam-flavored conjecture, due to Baum-D{\\k{a}}browski-Hajac, that free actions $X\\times \\mathbb{G}\\to X$ on non-empty compact Hausdorff spaces by non-trivial compact groups admit no equivariant maps $X*\\mathbb{G}\\to X$. Specifically, among non-trivial compact abelian $\\mathbb{G}$, the conjecture fails precisely when $\\mathbb{G}$ is torsion-free profinite.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Alexandru Chirvasitu",
+     "Alexander D\\k{a}browski"
+    ],
+    "categories": [
+     "math.AT",
+     "math.GN",
+     "math.GR"
+    ],
+    "date": "2026-10-08",
+    "link": "https://arxiv.org/abs/2610.10111",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.10111",
+    "pid": "2610.10111",
+    "reasons": [
+     "title: equivariant"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Nullhomotopic equivariant shifts and Borsuk-Ulam-compatible compact abelian groups",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-08",
+   "paper": {
+    "abstract": "$\\mathbb{Z}_p$-folded surfaces are a class of oriented folded surfaces with a fundamental $H_2(\\mathbb{Z}/p\\mathbb{Z})$ class. In this paper we study the $\\mathbb{Z}_p$-folded surfaces that embed in $3$-manifolds. This perspective naturally leads to the definition of the $\\mathbb{Z}_p$-Thurston norm, which generalises the $\\mathbb{Z}_2$-Thurston norm of Jaco, Rubinstein and Tillmann and adapts Turaev's definition of $\\theta$. We define canonical $\\mathbb{Z}_p$-folded surfaces, which connect the theory of $\\mathbb{Z}_p$-folded surfaces to the study of one-vertex $3$-manifold triangulations, and we relate their Euler characteristic to the $\\mathbb{Z}_p$-Thurston norm. We generalise a classical result of Bredon and Wood by proving that the maximum Euler characteristic of a non-separating non-empty $\\mathbb{Z}_3$-folded surface embedded in $L(3n,1)$ is $2-n$ for $n\\in\\mathbb{Z}^{>0}$, determining the $\\mathbb{Z}_3$-Thurston norm in these cases. We conclude by demonstrating the motivating application of this theory to the study of generalised triangulations by proving that any generalised triangulation of the lens space $L(3n,1)$ must have at least $n$ tetrahedra. This final result is a preview of joint work with Spreer in which we determine the exact complexity of $L(3n,1)$ using more sophisticated techniques.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "William Hobkirk"
+    ],
+    "categories": [
+     "math.GT",
+     "math.AT"
+    ],
+    "date": "2026-10-08",
+    "link": "https://arxiv.org/abs/2610.09422",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.09422",
+    "pid": "2610.09422",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "$\\mathbb{Z}_p$-folded surfaces and the $\\mathbb{Z}_p$-Thurston norm",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-08",
+   "paper": {
+    "abstract": "The computational complexity of simplicial homology has been studied since the question was raised by Kaibel and Pfetsch, and clique homology was later shown to be $\\mathsf{QMA}_1$-hard by Crichigno and Kohler. King and Kohler subsequently introduced the weighted, spectrally gapped version considered here and developed a reduction intended to establish the same hardness result in this setting.\n  We give a complete proof of the hard direction. The earlier King-Kohler argument contains a gap in the analysis of the nontrivially folded local gadgets, so the required topological and spectral properties have to be re-established on the clique complexes actually produced by the reduction. This is not a local repair of the published proof: the argument requires a new analysis of the local topology, the filtered cochain complexes, and the interaction of many overlapping gadgets.\n  Our proof uses exact finite certificates for the local combinatorial data and relative homology to determine the effect of each gadget on the encoded qubit space. We then prove the finite-dimensional filtered-Hodge statement needed to recover the corresponding rank-one low-energy penalty and derive a quantitative global estimate that transfers the source-Hamiltonian promise gap to the final weighted Hodge Laplacian. Consequently, for fixed efficiently computable $k(n)$ and inverse-polynomial $\\gamma(n)$, weighted gapped clique homology is $\\mathsf{QMA}_1(\\mathcal G)$-hard. The previously known $\\mathsf{QMA}$-containment argument is logically independent of the gap and remains unaffected.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Tal Barak"
+    ],
+    "categories": [
+     "quant-ph",
+     "math.AT"
+    ],
+    "date": "2026-10-08",
+    "link": "https://arxiv.org/abs/2610.03584",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.03584",
+    "pid": "2610.03584",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A Complete Proof of $\\mathsf{QMA}_1$-Hardness for Weighted Gapped Clique Homology",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-08",
+   "paper": {
+    "abstract": "In this note, for every topological colored nonsymmetric operad with CW spaces in each arity we construct a homotopy isomorphism with a CW homotopy operad (i.e. all higher homotopies are cellular with respect to the product structure and CW structure on cubes) not changing its objects. By using the two-sided bar construction, we rectify this to a homotopy isomorphism with a strict CW operad. This applies more generally to topological algebras over colored operads in sets. In the case of diagrams of finite CW complexes over finite posets, the resulting diagram consists of finite CW spaces enhancing the Quillen adjunction between simplicial sets and topological spaces. As a byproduct, we produce an embedding of topological homotopy algebras over operads into the presheaf category over the branch resolution for the category of $P$-trees generalizing the known case of topological operads.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Eduardo Hoefel",
+     "Grigory Solomadin"
+    ],
+    "categories": [
+     "math.AT",
+     "math.CT"
+    ],
+    "date": "2026-10-08",
+    "link": "https://arxiv.org/abs/2610.09945",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.09945",
+    "pid": "2610.09945",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Cellular approximations for nonsymmetric homotopy operads",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-08",
+   "paper": {
+    "abstract": "Farrell and Jones showed that negatively curved manifolds in dimension $\\geq 5$ are topologically rigid in the sense that homotopy equivalence implies homeomorphism. In the smooth category, the result does not hold even for hyperbolic manifolds, and there are negatively curved manifolds $N$ homotopy equivalent to a given hyperbolic manifold $M$ but not diffeomorphic. For complex hyperbolic manifolds, the analogous construction is demonstrated only in dimensions of the form $8n+2$. In this paper, we prove this result in many other dimensions. The main approach involves the use of $EO$-theory of complex projective spaces to construct suitable examples of exotic spheres. These theories may be viewed as a version of real $K$-theory, and are defined at each prime $p$. The computation also yields positive results about the existence of free smooth $S^1$ and $S^3$ actions on exotic spheres which do not bound parallelizable manifolds.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Samik Basu",
+     "Akashdwip Biswas"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-08",
+    "link": "https://arxiv.org/abs/2610.10070",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.10070",
+    "pid": "2610.10070",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Exotic structures on hyperbolic manifolds via the EO-theory of Projective Spaces",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-08",
+   "paper": {
+    "abstract": "Let $\\mathcal{G}(G,A,\\alpha)$ be a discrete 2-group, given as the {categorical} extension of an ordinary group $G$ by an abelian group $A$. We define principal $\\mathcal{G}$-bundles over a manifold in terms of \\v{C}ech data over a good open cover. In the case of the manifold $S^2$, we calculate this bicategory explicitly, and identify its 2-skeleton. We compare with the holonomy bicategory $\\mathrm{Fun}(*/\\!\\!/ \\pi_{\\le 2}(S^2), * /\\!\\!/ \\mathcal{G})$, and provide a concrete equivalence between the two.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Emily Cliff",
+     "Yves Lolelo",
+     "Sandrine St-Cyr"
+    ],
+    "categories": [
+     "math.AT",
+     "math.CT"
+    ],
+    "date": "2026-10-08",
+    "link": "https://arxiv.org/abs/2610.10402",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.10402",
+    "pid": "2610.10402",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Flat principal 2-group bundles on $S^2$ and their holonomy",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-08",
+   "paper": {
+    "abstract": "We study the conjectural characteristic class analogue of the Hodge index theorem for singular complex algebraic varieties, formulated by Brasselet-Sch\\\"urmann-Yokura which expresses the Goresky-MacPherson homology $L$-classes in terms of suitable Hodge-theoretic $L$-classes, for quotient spaces $X/G$, where $G$ is a finite group and $X$ is a pure-dimensional complex projective variety. Assuming that an equivariant $K$-theoretical version of the conjecture holds for $X$, we show that the characteristic class conjecture holds for $X/G$. Without assuming the equivariant $K$-theoretical version, we show that the characteristic class conjecture holds for $X/G$, provided that it holds for all fixed point sets $X^g$ and that a suitable normally nonsingular inclusion assumption is satisfied. Our approach is to work in equivariant analytic $K$-homology and equivariant algebraic $G$-theory and to identify the corresponding localized classes. On the analytic side, we identify the Banagl-Zagier equivariant $L$-classes with localized Chern character of the equivariant $K$-homology class of the signature operator defined by Banagl-Leichtnam-Piazza. On the algebraic side, we compute the localization of the equivariant motivic Hodge-Chern class transformation of the intersection Hodge module.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Mohammadali Aligholi"
+    ],
+    "categories": [
+     "math.AG",
+     "math.AT"
+    ],
+    "date": "2026-10-08",
+    "link": "https://arxiv.org/abs/2610.09171",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.09171",
+    "pid": "2610.09171",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "On the conjectural Hodge index theorem for finite quotient spaces of singular varieties",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-08",
+   "paper": {
+    "abstract": "We present a scalable method for computing persistence pairing graphs from large cubical filtrations and use it to test whether graph organization among persistent classes contains information beyond persistence intervals alone. The method cancels equal-value pairs before global reduction, constructs the compressed complex in streaming form, and recovers graph transitions from one persistence reduction through projected relations and triangular event solves. We apply the method to 119 signed distance volumes from the DRP-372 porous media collection for permeability prediction. Each 256-cubed volume induces more than 135 million cubical cells before contraction, whereas the median compressed complex contains 37,471 generators. In validation grouped by material family, adding persistence pairing graph descriptors improves prediction over persistence summaries under both Ridge regression and partial least squares regression. In the stricter experiment that holds out one source project at a time, Ridge retains a modest improvement over persistence alone, although additional benefit beyond geometry and persistence is not consistent across projects. Two null models show that the observed persistence and graph coupling and edge target organization are strongly nonrandom, but neither uniquely explains the predictive improvement; the useful signal appears to reside mainly in coarser graph and event organization. Spatial analyses likewise distinguish persistence magnitude from graph prominence and reveal nonlocal organization among algebraically related persistence events. These results show that persistence pairing graphs provide structurally informative summaries beyond the barcode while exposing domain dependence and representative sensitivity that motivate more invariant relational descriptors.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "John Rick Manzanares"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-08",
+    "link": "https://arxiv.org/abs/2610.09897",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.09897",
+    "pid": "2610.09897",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Scalable persistence pairing graphs on scalar fields with an application to porous media",
+    "watched": []
+   }
+  }
+ ],
+ "hexagon_since": null,
+ "seen": {
+  "2008.08852": "2026-10-08",
+  "2011.14649": "2026-10-08",
+  "2109.01210": "2026-10-08",
+  "2109.01213": "2026-10-08",
+  "2109.14655": "2026-10-08",
+  "2205.10613": "2026-10-08",
+  "2209.07495": "2026-10-08",
+  "2209.12998": "2026-10-08",
+  "2401.00866": "2026-10-08",
+  "2405.20395": "2026-10-08",
+  "2409.06553": "2026-10-08",
+  "2410.10552": "2026-10-08",
+  "2411.17370": "2026-10-08",
+  "2501.16259": "2026-10-08",
+  "2502.13867": "2026-10-08",
+  "2505.04581": "2026-10-08",
+  "2507.01226": "2026-10-08",
+  "2510.11865": "2026-10-08",
+  "2511.19282": "2026-10-08",
+  "2511.21648": "2026-10-08",
+  "2512.24783": "2026-10-08",
+  "2602.22899": "2026-10-08",
+  "2605.08394": "2026-10-08",
+  "2605.25935": "2026-10-08",
+  "2605.26768": "2026-10-08",
+  "2605.30530": "2026-10-08",
+  "2606.01371": "2026-10-08",
+  "2607.02218": "2026-10-08",
+  "2607.17026": "2026-10-08",
+  "2607.17124": "2026-10-08",
+  "2608.01031": "2026-10-08",
+  "2608.03434": "2026-10-08",
+  "2608.08538": "2026-10-08",
+  "2608.11308": "2026-10-08",
+  "2608.22714": "2026-10-08",
+  "2609.10912": "2026-10-08",
+  "2609.11106": "2026-10-08",
+  "2609.26269": "2026-10-08",
+  "2609.28435": "2026-10-08",
+  "2609.38068": "2026-10-08",
+  "2609.38675": "2026-10-08",
+  "2609.39536": "2026-10-08",
+  "2609.39707": "2026-10-08",
+  "2609.39745": "2026-10-08",
+  "2610.03100": "2026-10-08",
+  "2610.03584": "2026-10-08",
+  "2610.05441": "2026-10-08",
+  "2610.07280": "2026-10-08",
+  "2610.07648": "2026-10-08",
+  "2610.08935": "2026-10-08",
+  "2610.08998": "2026-10-08",
+  "2610.09171": "2026-10-08",
+  "2610.09269": "2026-10-08",
+  "2610.09270": "2026-10-08",
+  "2610.09295": "2026-10-08",
+  "2610.09298": "2026-10-08",
+  "2610.09312": "2026-10-08",
+  "2610.09319": "2026-10-08",
+  "2610.09331": "2026-10-08",
+  "2610.09368": "2026-10-08",
+  "2610.09419": "2026-10-08",
+  "2610.09422": "2026-10-08",
+  "2610.09437": "2026-10-08",
+  "2610.09475": "2026-10-08",
+  "2610.09523": "2026-10-08",
+  "2610.09542": "2026-10-08",
+  "2610.09672": "2026-10-08",
+  "2610.09694": "2026-10-08",
+  "2610.09714": "2026-10-08",
+  "2610.09739": "2026-10-08",
+  "2610.09812": "2026-10-08",
+  "2610.09826": "2026-10-08",
+  "2610.09833": "2026-10-08",
+  "2610.09836": "2026-10-08",
+  "2610.09868": "2026-10-08",
+  "2610.09897": "2026-10-08",
+  "2610.09945": "2026-10-08",
+  "2610.09962": "2026-10-08",
+  "2610.09982": "2026-10-08",
+  "2610.10035": "2026-10-08",
+  "2610.10070": "2026-10-08",
+  "2610.10072": "2026-10-08",
+  "2610.10103": "2026-10-08",
+  "2610.10111": "2026-10-08",
+  "2610.10115": "2026-10-08",
+  "2610.10147": "2026-10-08",
+  "2610.10209": "2026-10-08",
+  "2610.10212": "2026-10-08",
+  "2610.10230": "2026-10-08",
+  "2610.10290": "2026-10-08",
+  "2610.10402": "2026-10-08",
+  "2610.10410": "2026-10-08",
+  "2610.10418": "2026-10-08",
+  "2610.10439": "2026-10-08",
+  "2610.10451": "2026-10-08",
+  "2610.10509": "2026-10-08",
+  "2610.10537": "2026-10-08"
+ }
+}
