@@ -199,8 +199,11 @@ def strip_version(arxiv_id: str) -> str:
     return re.sub(r"v\d+$", "", arxiv_id)
 
 
+XML_ILLEGAL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\ufffe\uffff]")
+
+
 def parse_arxiv_rss(xml: str) -> list[Paper]:
-    root = ET.fromstring(xml)
+    root = ET.fromstring(XML_ILLEGAL.sub("", xml))
     out = []
     for it in root.iter("item"):
         desc = it.findtext("description") or ""
@@ -233,7 +236,7 @@ def _rss_date(s: str) -> str:
 
 
 def parse_atom(xml: str, source: str) -> tuple[list[Paper], int]:
-    root = ET.fromstring(xml)
+    root = ET.fromstring(XML_ILLEGAL.sub("", xml))
     total = int(root.findtext("os:totalResults", default="0", namespaces=NS) or 0)
     out = []
     for e in root.findall("atom:entry", NS):
@@ -585,31 +588,48 @@ def run_daily(cfg, authors, kws, fixtures: Path | None = None):
     if hex_dates:
         st["hexagon_since"] = max(hex_dates)
 
-    if not shown:
-        print("Nothing new; leaving the page unchanged.")
+    # The day's page accumulates: a second run on the same day adds to it rather than replacing it.
+    last = st.get("last_page") or {}
+    if not last and st.get("feed"):
+        # state from before pages were stored: rebuild the last day from the feed history
+        d0 = max(d["day"] for d in st["feed"])
+        last = {"day": d0, "papers": [d["paper"] for d in st["feed"] if d["day"] == d0]}
+    page = [Paper.from_json(d) for d in last.get("papers", [])] if last.get("day") == today else []
+    page = sorted(page + shown, key=lambda p: (p.tier, p.title.lower()))
+    if not page and last.get("papers"):
+        # nothing new today (weekend, re-run): re-render the last page so template changes still apply
+        today_page = last["day"]
+        page = [Paper.from_json(d) for d in last["papers"]]
+        print("Nothing new; re-rendering the last page.")
+    else:
+        today_page = today
+    if not page:
+        print("Nothing to show yet.")
         save_state(st)
         return 0
 
-    matches = [p for p in shown if p.tier <= 3]
-    feed_items = [p for p in shown if p.tier <= 4]   # the feed also carries the always-shown categories
-    sub = f"{today} · {len(matches)} matches, {len(shown) - len(matches)} others"
+    matches = [p for p in page if p.tier <= 3]
+    sub = f"{today_page} · {len(matches)} matches, {len(page) - len(matches)} others"
     if errors:
         sub += " · source errors: " + "; ".join(errors)
     DOCS.mkdir(exist_ok=True)
     (DOCS / "archive").mkdir(exist_ok=True)
-    (DOCS / "index.html").write_text(render_page(cfg["output"]["site_title"], shown, cfg, sub, nav_html()), encoding="utf-8")
-    (DOCS / "archive" / f"{today}.html").write_text(
-        render_page(f"{cfg['output']['site_title']} · {today}", shown, cfg, sub, nav_html("../")), encoding="utf-8")
+    (DOCS / "index.html").write_text(render_page(cfg["output"]["site_title"], page, cfg, sub, nav_html()), encoding="utf-8")
+    (DOCS / "archive" / f"{today_page}.html").write_text(
+        render_page(f"{cfg['output']['site_title']} · {today_page}", page, cfg, sub, nav_html("../")), encoding="utf-8")
     write_archive_index(cfg)
+    st["last_page"] = {"day": today_page, "papers": [p.to_json() for p in page]}
 
     cutoff = (dt.date.today() - dt.timedelta(days=cfg["output"].get("feed_days", 21))).isoformat()
     st["feed"] = [d for d in st.get("feed", []) if d["day"] >= cutoff]
+    feed_items = [p for p in shown if p.tier <= 4]   # only papers new in this run; includes always-shown categories
     st["feed"] = [{"day": today, "paper": p.to_json()} for p in feed_items] + st["feed"]
     (DOCS / "feed.xml").write_text(render_atom(st["feed"], cfg), encoding="utf-8")
     save_state(st)
     print(sub)
-    for p in matches:
-        print(f"  [{p.tier}] {p.title}  <- {'; '.join(p.reasons)}")
+    for p in shown:
+        if p.tier <= 3:
+            print(f"  [{p.tier}] {p.title}  <- {'; '.join(p.reasons)}")
     return 0
 
 
