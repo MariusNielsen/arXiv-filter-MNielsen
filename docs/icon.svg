@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#8a2c1f"/>
+  <!-- axes (content kept inside Android's 80% safe zone) -->
+  <path d="M112 112V400H400" fill="none" stroke="#fbf3ea" stroke-opacity="0.55" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- h0 tower and h1 line -->
+  <path d="M176 344V232M176 344L264 256" stroke="#fbf3ea" stroke-width="12" stroke-linecap="round"/>
+  <!-- d2 differential: one column left, two rows up -->
+  <path d="M339 317L280 200" stroke="#f6b9a6" stroke-width="16" stroke-linecap="round"/>
+  <path d="M276 248L280 200L321 225" stroke="#f6b9a6" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <g fill="#fbf3ea">
+    <circle cx="176" cy="344" r="22"/>
+    <circle cx="176" cy="232" r="22"/>
+    <circle cx="264" cy="256" r="22"/>
+    <circle cx="352" cy="344" r="22"/>
+  </g>
+  <circle cx="264" cy="168" r="22" fill="none" stroke="#fbf3ea" stroke-width="10"/>
+</svg>

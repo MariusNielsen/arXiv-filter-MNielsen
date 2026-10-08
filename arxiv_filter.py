@@ -425,6 +425,14 @@ def esc(s: str) -> str:
     return html.escape(s or "", quote=True)
 
 
+def head_links(cfg) -> str:
+    b = esc(cfg["output"]["base_url"])
+    return (f'<link rel="manifest" href="{b}manifest.webmanifest"><meta name="theme-color" content="#8a2c1f">'
+            f'<link rel="icon" type="image/png" sizes="32x32" href="{b}favicon-32.png">'
+            f'<link rel="icon" type="image/svg+xml" href="{b}icon.svg">'
+            f'<link rel="apple-touch-icon" href="{b}apple-touch-icon.png">')
+
+
 def render_paper(p: Paper) -> str:
     authors = ", ".join(f"<b>{esc(a)}</b>" if a in p.watched else esc(a) for a in p.authors)
     chips = [f'<span class="chip why">{esc(r)}</span>' for r in p.reasons]
@@ -474,7 +482,7 @@ def render_page(title: str, papers: list[Paper], cfg, subtitle: str = "", nav: s
                         f'{esc(", ".join(rest_cats))}</summary><ul>{"".join(li(p) for p in tiers[5])}</ul></details>')
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{esc(title)}</title><link rel="alternate" type="application/atom+xml" href="{esc(cfg['output']['base_url'])}feed.xml">
+<title>{esc(title)}</title>{head_links(cfg)}<link rel="alternate" type="application/atom+xml" href="{esc(cfg['output']['base_url'])}feed.xml">
 <style>{CSS}</style></head><body><main>
 <header><h1>{esc(title)}</h1><nav>{nav}</nav></header>
 <p class="meta">{esc(subtitle)}</p>
@@ -507,12 +515,12 @@ def render_atom(items: list[dict], cfg) -> str:
 </feed>"""
 
 
-def write_archive_index():
+def write_archive_index(cfg):
     days = sorted((p.stem for p in (DOCS / "archive").glob("20*.html")), reverse=True)
     items = "".join(f'<li><a href="{d}.html">{d}</a></li>' for d in days)
     (DOCS / "archive" / "index.html").write_text(
         f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-        f'<title>Archive</title><style>{CSS}</style></head><body><main><header><h1>Archive</h1>'
+        f'<title>Archive</title>{head_links(cfg)}<style>{CSS}</style></head><body><main><header><h1>Archive</h1>'
         f'<nav>{nav_html("../")}</nav></header><ul>{items}</ul></main></body></html>', encoding="utf-8")
 
 
@@ -592,7 +600,7 @@ def run_daily(cfg, authors, kws, fixtures: Path | None = None):
     (DOCS / "index.html").write_text(render_page(cfg["output"]["site_title"], shown, cfg, sub, nav_html()), encoding="utf-8")
     (DOCS / "archive" / f"{today}.html").write_text(
         render_page(f"{cfg['output']['site_title']} · {today}", shown, cfg, sub, nav_html("../")), encoding="utf-8")
-    write_archive_index()
+    write_archive_index(cfg)
 
     cutoff = (dt.date.today() - dt.timedelta(days=cfg["output"].get("feed_days", 21))).isoformat()
     st["feed"] = [d for d in st.get("feed", []) if d["day"] >= cutoff]
