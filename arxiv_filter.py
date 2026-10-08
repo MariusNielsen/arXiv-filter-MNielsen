@@ -358,13 +358,14 @@ def classify(p: Paper, cfg, authors: Authors, kws: Keywords) -> Paper:
 
     # restricted categories (e.g. math.RT): keep only on the listed conditions
     rules = cfg.get("category_rules") or {}
-    if in_subs and all(c in rules for c in in_subs) and p.tier < 9:
+    if in_subs and all(c in rules for c in in_subs) and p.tier < 4:
         allowed = set().union(*(rules[c] for c in in_subs))
         ok = ("author" in allowed and author_counts) or \
              ("strong_title" in allowed and bool(kt)) or \
              ("strong" in allowed and bool(kt or ka))
         if not ok:
-            p.tier = 9
+            rest = any(c in cfg.get("rest_categories", []) for c in in_subs)
+            p.tier = 4 if rest else 9
     # outside your categories entirely: only authors or strong keywords
     if not in_subs and p.tier < 9 and not (author_counts or kt or ka):
         p.tier = 9
@@ -441,7 +442,8 @@ def render_paper(p: Paper) -> str:
 <div class="links">{''.join(links)}</div></article>"""
 
 
-def render_page(title: str, papers: list[Paper], cfg, subtitle: str = "", nav: str = "") -> str:
+def render_page(title: str, papers: list[Paper], cfg, subtitle: str = "", nav: str = "",
+                group_rest: bool = False) -> str:
     tiers = {t: [p for p in papers if p.tier == t] for t in TIER_NAMES}
     body = []
     for t in (1, 2, 3):
@@ -451,10 +453,20 @@ def render_page(title: str, papers: list[Paper], cfg, subtitle: str = "", nav: s
     if not any(tiers[t] for t in (1, 2, 3)):
         body.append('<p class="empty">No matches.</p>')
     if tiers[4]:
-        rest = "".join(f'<li><a href="{esc(p.link)}">{esc(p.title)}</a> <span class="meta">— {esc(", ".join(p.authors[:4]))}'
-                       f'{" et al." if len(p.authors) > 4 else ""}</span></li>' for p in tiers[4])
-        body.append(f'<details class="rest"><summary>{TIER_NAMES[4]} · {len(tiers[4])} unmatched in '
-                    f'{esc(", ".join(cfg.get("rest_categories", [])))}</summary><ul>{rest}</ul></details>')
+        li = lambda p: (f'<li><a href="{esc(p.link)}">{esc(p.title)}</a> <span class="meta">— {esc(", ".join(p.authors[:4]))}'
+                        f'{" et al." if len(p.authors) > 4 else ""}</span></li>')
+        rest_cats = cfg.get("rest_categories", [])
+        if group_rest:
+            # one collapsible list per category, each paper under its first subscribed category
+            body.append(f"<h2>Unmatched · {len(tiers[4])}</h2>")
+            for c in rest_cats:
+                grp = [p for p in tiers[4] if next((x for x in p.categories if x in rest_cats), None) == c]
+                if grp:
+                    body.append(f'<details class="rest"><summary>{esc(c)} · {len(grp)}</summary>'
+                                f'<ul>{"".join(li(p) for p in grp)}</ul></details>')
+        else:
+            body.append(f'<details class="rest"><summary>{TIER_NAMES[4]} · {len(tiers[4])} unmatched in '
+                        f'{esc(", ".join(rest_cats))}</summary><ul>{"".join(li(p) for p in tiers[4])}</ul></details>')
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)}</title><link rel="alternate" type="application/atom+xml" href="{esc(cfg['output']['base_url'])}feed.xml">
@@ -612,14 +624,16 @@ def run_backtest(cfg, authors, kws, days: int):
     for p in papers:
         p.announce = "new"  # treat API results like announcements
     papers = merge(papers)
+    # backtest lists the unmatched papers of every category, so blind spots are visible
+    cfg = {**cfg, "rest_categories": list(cfg["categories"])}
     for p in papers:
         classify(p, cfg, authors, kws)
     shown = sorted([p for p in papers if p.tier < 9], key=lambda p: (p.tier, p.title.lower()))
     counts = {t: sum(p.tier == t for p in shown) for t in (1, 2, 3, 4)}
     sub = (f"Backtest {start:%Y-%m-%d} → {end:%Y-%m-%d}: {len(papers)} papers scanned (API reported {total}); "
-           f"{counts[1]} author, {counts[2]} title, {counts[3]} abstract matches; {counts[4]} unmatched in rest categories")
+           f"{counts[1]} author, {counts[2]} title, {counts[3]} abstract matches; {counts[4]} unmatched (listed by category below)")
     DOCS.mkdir(exist_ok=True)
-    (DOCS / "backtest.html").write_text(render_page("Backtest", shown, cfg, sub, nav_html()), encoding="utf-8")
+    (DOCS / "backtest.html").write_text(render_page("Backtest", shown, cfg, sub, nav_html(), group_rest=True), encoding="utf-8")
     print(sub)
     return 0
 
