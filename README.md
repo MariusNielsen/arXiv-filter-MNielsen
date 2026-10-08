@@ -8,8 +8,9 @@ publishes to GitHub Pages:
 - **Atom feed:** `…/feed.xml` (last 21 days of matches)
 - **Archive:** `…/archive/`
 
-Sections: followed authors → keyword in title → keyword in abstract → collapsed
-"rest" of math.AT/KT. Each paper shows why it matched.
+Sections: followed authors → keyword in title → keyword in abstract → every other
+math.AT paper (incl. cross-lists) → collapsed "rest" of math.KT. Each paper shows why
+it matched. The backtest additionally lists unmatched papers of all categories.
 
 ## Files you edit
 
@@ -17,7 +18,7 @@ Sections: followed authors → keyword in title → keyword in abstract → coll
 |---|---|
 | `authors.yaml` | `always` / `watch` author lists, with name variants |
 | `keywords.yaml` | `strong` patterns (title or abstract), `title_only` patterns |
-| `config.yaml` | categories, which categories get a "rest" list, RT restrictions, your papers |
+| `config.yaml` | categories, always-shown categories (math.AT), "rest" categories, RT restrictions, your papers |
 
 Editing a file on github.com (works from the phone too) takes effect at the next run.
 

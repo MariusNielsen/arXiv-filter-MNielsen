@@ -1,9 +1,13 @@
 # Categories whose daily arXiv announcements are scanned.
 categories: [math.AT, math.AG, math.CT, math.KT, math.RT]
 
+# Every paper in these categories (primary or cross-listed) is shown, as full
+# entries, in an "Other in ..." section below the matches. Also included in the feed.
+always_show_categories: [math.AT]
+
 # Unmatched papers from these categories are listed in the collapsed
-# "Rest of today" section. math.AG / math.RT are left out: too many papers.
-rest_categories: [math.AT, math.KT]
+# "Rest of today" section. math.AG / math.RT / math.CT are left out: too many papers.
+rest_categories: [math.KT]
 
 # Per-category restrictions. A paper whose ONLY subscribed categories are
 # restricted ones is kept only if it satisfies one of the listed conditions:

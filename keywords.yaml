@@ -21,7 +21,7 @@ strong:
   - adams spectral sequence
   - chromatic (homotopy|splitting|convergence|redshift|nullstellensatz)
   - morava [ek][- ]theor
-  - \b[ekt]\(n\)[- ]local
+  - \b[ekt]\([^)]{1,5}\)[- ](local|theor|homolog)
   - lubin[- ]tate
   - \bcomodules?\b
   - \bfranke
@@ -41,6 +41,36 @@ strong:
   - spectral (algebraic geometry|stack|scheme)
   - moduli (stack )?of (oriented )?formal groups
   - even periodi
+  # classical stable homotopy
+  - stable (homotopy )?stems?
+  - hopf invariant
+  - kervaire
+  - adams (conjecture|operation)
+  - \bj-homomorphism|image of j\b
+  - ring spectr
+  - goerss[- ]hopkins
+  - brown[- ]comenetz|anderson dual
+  - syntomic
+  # equivariant / global homotopy
+  - mackey functor
+  - genuine (equivariant|[a-z]-spectr|[a-z]-)
+  - \b[gc]_?[a-z0-9]*-spectr
+  - global (homotopy|spectr|infinity)
+  # infinity-categories / higher algebra (\infty and ∞ both normalize to "infinity")
+  - infinity[- ]?(categor|operad|topo|groupoid|cosmo)
+  - \(infinity, ?[0-9n]\)
+  - higher (categor|algebra|topos|operad)
+  - presentabl[ey]
+  - (co)?cartesian fibration
+  - straightening
+  - (complete )?segal (space|categor|condition)
+  - quasi-?categor
+  - (op)?lax (co)?limit
+  - \bpr\^[lr]\b
+  - \be_(infinity|[0-9nk]|k\+1|n\+1)[- ](ring|algebra|operad|monoidal)
+  - goodwillie
+  - condensed (spectr|anima|math|set)
+  - pyknotic
   # tt-geometry, exact categories (your papers)
   - tensor[- ]triangulat
   - \btt[- ]geometr
@@ -64,6 +94,8 @@ title_only:
   - exact (infinity[- ])?categor
   - \btopos\b
   - \btc\b
+  - six[- ]functor
+  - obstruction theor
   - \bredshift\b
   - t[- ]structure
   - \bpicard

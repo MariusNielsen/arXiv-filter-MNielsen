@@ -312,7 +312,8 @@ TIER_NAMES = {
     1: "Followed authors",
     2: "Keyword in title",
     3: "Keyword in abstract",
-    4: "Rest of today",
+    4: "Other in math.AT",   # renamed from config (always_show_categories) at render time
+    5: "Rest of today",
 }
 
 
@@ -351,8 +352,10 @@ def classify(p: Paper, cfg, authors: Authors, kws: Keywords) -> Paper:
         p.tier = 2
     elif ka:
         p.tier = 3
-    elif in_subs and any(c in cfg.get("rest_categories", []) for c in in_subs):
+    elif in_subs and any(c in cfg.get("always_show_categories", []) for c in in_subs):
         p.tier = 4
+    elif in_subs and any(c in cfg.get("rest_categories", []) for c in in_subs):
+        p.tier = 5
     else:
         p.tier = 9
 
@@ -365,7 +368,7 @@ def classify(p: Paper, cfg, authors: Authors, kws: Keywords) -> Paper:
              ("strong" in allowed and bool(kt or ka))
         if not ok:
             rest = any(c in cfg.get("rest_categories", []) for c in in_subs)
-            p.tier = 4 if rest else 9
+            p.tier = 5 if rest else 9
     # outside your categories entirely: only authors or strong keywords
     if not in_subs and p.tier < 9 and not (author_counts or kt or ka):
         p.tier = 9
@@ -446,27 +449,29 @@ def render_page(title: str, papers: list[Paper], cfg, subtitle: str = "", nav: s
                 group_rest: bool = False) -> str:
     tiers = {t: [p for p in papers if p.tier == t] for t in TIER_NAMES}
     body = []
-    for t in (1, 2, 3):
+    always = cfg.get("always_show_categories", [])
+    names = {**TIER_NAMES, 4: f"Other in {', '.join(always)}" if always else TIER_NAMES[4]}
+    for t in (1, 2, 3, 4):
         if tiers[t]:
-            body.append(f"<h2>{TIER_NAMES[t]} · {len(tiers[t])}</h2>")
+            body.append(f"<h2>{names[t]} · {len(tiers[t])}</h2>")
             body += [render_paper(p) for p in tiers[t]]
     if not any(tiers[t] for t in (1, 2, 3)):
         body.append('<p class="empty">No matches.</p>')
-    if tiers[4]:
+    if tiers[5]:
         li = lambda p: (f'<li><a href="{esc(p.link)}">{esc(p.title)}</a> <span class="meta">— {esc(", ".join(p.authors[:4]))}'
                         f'{" et al." if len(p.authors) > 4 else ""}</span></li>')
         rest_cats = cfg.get("rest_categories", [])
         if group_rest:
             # one collapsible list per category, each paper under its first subscribed category
-            body.append(f"<h2>Unmatched · {len(tiers[4])}</h2>")
+            body.append(f"<h2>Unmatched · {len(tiers[5])}</h2>")
             for c in rest_cats:
-                grp = [p for p in tiers[4] if next((x for x in p.categories if x in rest_cats), None) == c]
+                grp = [p for p in tiers[5] if next((x for x in p.categories if x in rest_cats), None) == c]
                 if grp:
                     body.append(f'<details class="rest"><summary>{esc(c)} · {len(grp)}</summary>'
                                 f'<ul>{"".join(li(p) for p in grp)}</ul></details>')
         else:
-            body.append(f'<details class="rest"><summary>{TIER_NAMES[4]} · {len(tiers[4])} unmatched in '
-                        f'{esc(", ".join(rest_cats))}</summary><ul>{"".join(li(p) for p in tiers[4])}</ul></details>')
+            body.append(f'<details class="rest"><summary>{TIER_NAMES[5]} · {len(tiers[5])} unmatched in '
+                        f'{esc(", ".join(rest_cats))}</summary><ul>{"".join(li(p) for p in tiers[5])}</ul></details>')
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)}</title><link rel="alternate" type="application/atom+xml" href="{esc(cfg['output']['base_url'])}feed.xml">
@@ -578,6 +583,7 @@ def run_daily(cfg, authors, kws, fixtures: Path | None = None):
         return 0
 
     matches = [p for p in shown if p.tier <= 3]
+    feed_items = [p for p in shown if p.tier <= 4]   # the feed also carries the always-shown categories
     sub = f"{today} · {len(matches)} matches, {len(shown) - len(matches)} others"
     if errors:
         sub += " · source errors: " + "; ".join(errors)
@@ -590,7 +596,7 @@ def run_daily(cfg, authors, kws, fixtures: Path | None = None):
 
     cutoff = (dt.date.today() - dt.timedelta(days=cfg["output"].get("feed_days", 21))).isoformat()
     st["feed"] = [d for d in st.get("feed", []) if d["day"] >= cutoff]
-    st["feed"] = [{"day": today, "paper": p.to_json()} for p in matches] + st["feed"]
+    st["feed"] = [{"day": today, "paper": p.to_json()} for p in feed_items] + st["feed"]
     (DOCS / "feed.xml").write_text(render_atom(st["feed"], cfg), encoding="utf-8")
     save_state(st)
     print(sub)
@@ -629,9 +635,9 @@ def run_backtest(cfg, authors, kws, days: int):
     for p in papers:
         classify(p, cfg, authors, kws)
     shown = sorted([p for p in papers if p.tier < 9], key=lambda p: (p.tier, p.title.lower()))
-    counts = {t: sum(p.tier == t for p in shown) for t in (1, 2, 3, 4)}
+    counts = {t: sum(p.tier == t for p in shown) for t in (1, 2, 3, 4, 5)}
     sub = (f"Backtest {start:%Y-%m-%d} → {end:%Y-%m-%d}: {len(papers)} papers scanned (API reported {total}); "
-           f"{counts[1]} author, {counts[2]} title, {counts[3]} abstract matches; {counts[4]} unmatched (listed by category below)")
+           f"{counts[1]} author, {counts[2]} title, {counts[3]} abstract matches; {counts[4]} other math.AT; {counts[5]} unmatched (listed by category below)")
     DOCS.mkdir(exist_ok=True)
     (DOCS / "backtest.html").write_text(render_page("Backtest", shown, cfg, sub, nav_html(), group_rest=True), encoding="utf-8")
     print(sub)
