@@ -446,13 +446,13 @@ def render_paper(p: Paper) -> str:
         chips.append('<span class="chip">Hexagon</span>')
     if p.ai_mode in AI_LABEL:
         chips.append(f'<span class="chip warn">{AI_LABEL[p.ai_mode]}</span>')
-    links = [f'<a href="{esc(p.link)}">abstract</a>', f'<a href="{esc(p.pdf)}">pdf</a>']
-    links += [f'<a href="{esc(u)}">{esc(s)}</a>' for s, u in p.other_links.items()]
+    links = [f'<a href="{esc(p.link)}" target="_blank" rel="noopener">abstract</a>', f'<a href="{esc(p.pdf)}" target="_blank" rel="noopener">pdf</a>']
+    links += [f'<a href="{esc(u)}" target="_blank" rel="noopener">{esc(s)}</a>' for s, u in p.other_links.items()]
     pid = p.pid.replace("hexagon:", "")
-    return f"""<article><h3><a href="{esc(p.link)}">{esc(p.title)}</a></h3>
+    return f"""<article><h3><a href="{esc(p.link)}" target="_blank" rel="noopener">{esc(p.title)}</a></h3>
 <div class="meta">{authors} · <span>{esc(pid)}</span></div>
 <div class="chips">{''.join(chips)}</div>
-<details><summary>Abstract</summary><p>{esc(p.abstract)}</p></details>
+<details open><summary>Abstract</summary><p>{esc(p.abstract)}</p></details>
 <div class="links">{''.join(links)}</div></article>"""
 
 
@@ -469,7 +469,7 @@ def render_page(title: str, papers: list[Paper], cfg, subtitle: str = "", nav: s
     if not any(tiers[t] for t in (1, 2, 3)):
         body.append('<p class="empty">No matches.</p>')
     if tiers[5]:
-        li = lambda p: (f'<li><a href="{esc(p.link)}">{esc(p.title)}</a> <span class="meta">— {esc(", ".join(p.authors[:4]))}'
+        li = lambda p: (f'<li><a href="{esc(p.link)}" target="_blank" rel="noopener">{esc(p.title)}</a> <span class="meta">— {esc(", ".join(p.authors[:4]))}'
                         f'{" et al." if len(p.authors) > 4 else ""}</span></li>')
         rest_cats = cfg.get("rest_categories", [])
         if group_rest:
@@ -505,7 +505,7 @@ def render_atom(items: list[dict], cfg) -> str:
         p = Paper.from_json(d["paper"])
         why = "; ".join(p.reasons)
         content = (f"<p><b>{esc(why)}</b></p><p>{esc(', '.join(p.authors))}</p><p>{esc(p.abstract)}</p>"
-                   f'<p><a href="{esc(p.link)}">abstract</a> · <a href="{esc(p.pdf)}">pdf</a></p>')
+                   f'<p><a href="{esc(p.link)}" target="_blank" rel="noopener">abstract</a> · <a href="{esc(p.pdf)}" target="_blank" rel="noopener">pdf</a></p>')
         entries.append(f"""<entry><title>{esc(p.title)}</title><id>{esc(p.link)}</id>
 <link href="{esc(p.link)}"/><updated>{d['day']}T06:00:00Z</updated>
 {''.join(f'<author><name>{esc(a)}</name></author>' for a in p.authors)}

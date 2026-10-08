@@ -74,9 +74,7 @@ always:
   - Matthew Morrow
   - Daniel Isaksen
   - Bogdan Gheorghe
-
-watch:
-  # single appearance in refs.bib, or rarely-posting
+  # --- promoted from watch (Oct 2026) ---
   - Tomer Schlank
   - Dustin Clausen
   - Peter Scholze
@@ -88,18 +86,21 @@ watch:
   - Gijs Heuts
   - Marc Hoyois
   - Paul Balmer
-  - name: Ivo Dell'Ambrogio
-    variants: [Ivo DellAmbrogio]
   - Clark Barwick
   - Jonas McCandless
   - Itamar Mor
-  - J. D. Quigley
   - Fabian Hebestreit
   - Ferdinand Wagner
   - Paul Goerss
   - Michael Hopkins
   - Joseph Ayoub
   - Martin Gallauer
+
+watch:
+  # single appearance in refs.bib, or rarely-posting
+  - name: Ivo Dell'Ambrogio
+    variants: [Ivo DellAmbrogio]
+  - J. D. Quigley
   - Mauro Porta
   - Federico Binda
   - David Gepner
