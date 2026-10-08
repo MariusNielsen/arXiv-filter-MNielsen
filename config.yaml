@@ -13,6 +13,10 @@ rest_categories: [math.AT, math.KT]
 category_rules:
   math.RT: [author, strong_title]
 
+# Broad title_only keywords (motivic, picard, nilpoten, equivariant, ...) only count
+# for papers in at least one of these categories.
+title_only_categories: [math.AT, math.KT, math.CT]
+
 # arXiv announce types to consider. Replacements are shown only for watched authors.
 announce_types: [new, cross]
 show_replacements_for_authors: true

@@ -325,6 +325,10 @@ def classify(p: Paper, cfg, authors: Authors, kws: Keywords) -> Paper:
             p.watched.add(a)
             p.reasons.append(("author: " if authors.tier[hit] == "always" else "author (watch): ") + hit)
     kt, kto, ka = kws.hits(p.title, p.abstract)
+    # broad title-only keywords (motivic, picard, nilpoten, ...) only count in these categories
+    broad_cats = cfg.get("title_only_categories")
+    if broad_cats and not any(c in broad_cats for c in p.categories):
+        kto = []
     p.reasons += [f"title: {k}" for k in kt + kto] + [f"abstract: {k}" for k in ka]
 
     always_author = any(authors.tier[authors.match(a)] == "always" for a in p.watched)
@@ -588,11 +592,19 @@ def run_backtest(cfg, authors, kws, days: int):
     start = end - dt.timedelta(days=days)
     cats = " OR ".join(f"cat:{c}" for c in cfg["categories"])
     q = f"({cats}) AND submittedDate:[{start:%Y%m%d%H%M} TO {end:%Y%m%d%H%M}]"
-    papers, offset, total = [], 0, None
+    papers, offset, total, empty = [], 0, None, 0
     while total is None or offset < min(total, 30000):
-        batch, total = parse_atom(api_query("https://export.arxiv.org/api/query", q, start=offset, n=1000), "arxiv")
+        batch, t = parse_atom(api_query("https://export.arxiv.org/api/query", q, start=offset, n=500), "arxiv")
+        total = max(total or 0, t)
         if not batch:
-            break
+            # the arXiv API intermittently returns an empty page mid-pagination: retry, don't stop
+            empty += 1
+            print(f"empty page at {offset}/{total} (retry {empty})", file=sys.stderr)
+            if empty > 6:
+                break
+            time.sleep(10)
+            continue
+        empty = 0
         papers += batch
         offset += len(batch)
         print(f"fetched {offset}/{total}", file=sys.stderr)
@@ -604,7 +616,7 @@ def run_backtest(cfg, authors, kws, days: int):
         classify(p, cfg, authors, kws)
     shown = sorted([p for p in papers if p.tier < 9], key=lambda p: (p.tier, p.title.lower()))
     counts = {t: sum(p.tier == t for p in shown) for t in (1, 2, 3, 4)}
-    sub = (f"Backtest {start:%Y-%m-%d} → {end:%Y-%m-%d}: {len(papers)} papers scanned; "
+    sub = (f"Backtest {start:%Y-%m-%d} → {end:%Y-%m-%d}: {len(papers)} papers scanned (API reported {total}); "
            f"{counts[1]} author, {counts[2]} title, {counts[3]} abstract matches; {counts[4]} unmatched in rest categories")
     DOCS.mkdir(exist_ok=True)
     (DOCS / "backtest.html").write_text(render_page("Backtest", shown, cfg, sub, nav_html()), encoding="utf-8")
