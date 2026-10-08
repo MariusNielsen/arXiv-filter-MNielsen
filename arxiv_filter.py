@@ -428,6 +428,21 @@ def esc(s: str) -> str:
     return html.escape(s or "", quote=True)
 
 
+# When installed as a standalone app on Android, outside links would open in an in-app
+# "custom tab". Send them to the real Chrome app instead via an Android intent link.
+# Desktop and normal browser tabs are unaffected; long-press still copies the real URL.
+OPEN_IN_CHROME_JS = """<script>(function(){try{
+var standalone=matchMedia('(display-mode: standalone)').matches||matchMedia('(display-mode: minimal-ui)').matches;
+if(!standalone||!/Android/i.test(navigator.userAgent))return;
+document.addEventListener('click',function(e){
+var a=e.target.closest&&e.target.closest('a[href^="http"]');if(!a)return;
+var u=new URL(a.href);if(u.origin===location.origin)return;
+e.preventDefault();
+location.href='intent://'+u.host+u.pathname+u.search+'#Intent;scheme='+u.protocol.replace(':','')
++';package=com.android.chrome;S.browser_fallback_url='+encodeURIComponent(a.href)+';end';
+},true);}catch(_){}})();</script>"""
+
+
 def head_links(cfg) -> str:
     b = esc(cfg["output"]["base_url"])
     return (f'<link rel="manifest" href="{b}manifest.webmanifest"><meta name="theme-color" content="#8a2c1f">'
@@ -490,7 +505,7 @@ def render_page(title: str, papers: list[Paper], cfg, subtitle: str = "", nav: s
 <header><h1>{esc(title)}</h1><nav>{nav}</nav></header>
 <p class="meta">{esc(subtitle)}</p>
 {''.join(body)}
-</main></body></html>"""
+</main>{OPEN_IN_CHROME_JS}</body></html>"""
 
 
 def nav_html(prefix: str = "") -> str:
@@ -524,7 +539,7 @@ def write_archive_index(cfg):
     (DOCS / "archive" / "index.html").write_text(
         f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
         f'<title>Archive</title>{head_links(cfg)}<style>{CSS}</style></head><body><main><header><h1>Archive</h1>'
-        f'<nav>{nav_html("../")}</nav></header><ul>{items}</ul></main></body></html>', encoding="utf-8")
+        f'<nav>{nav_html("../")}</nav></header><ul>{items}</ul></main>{OPEN_IN_CHROME_JS}</body></html>', encoding="utf-8")
 
 
 # --------------------------------------------------------------------------- state
