@@ -1,0 +1,71 @@
+# Patterns are Python regular expressions, matched case-insensitively against a
+# normalized form of title/abstract:
+#   - lowercase, accents stripped (Pstrągowski -> pstragowski)
+#   - TeX commands removed (\mathrm{Syn}_E -> syn_e, $K(n)$-local -> k(n)-local)
+#   - all dashes (-, --, en/em dash) become "-"
+# Use stems rather than listing inflections. \b is a word boundary.
+
+# Strong: specific enough to count anywhere in title or abstract.
+strong:
+  # synthetic / filtered / deformations
+  - synthetic spectr
+  - \bsyn_e\b
+  - synthetic (analogue|deformation|adams|category)
+  - filtered (spectr|stack|ring spectr|e_?infinity)
+  - \bdescendab
+  - nilpotence exponent
+  - nilpotent(ly)? complet
+  - descent spectral sequence
+  # Adams-type spectral sequences, chromatic
+  - adams[- ]novikov
+  - adams spectral sequence
+  - chromatic (homotopy|splitting|convergence|redshift|nullstellensatz)
+  - morava [ek][- ]theor
+  - \b[ekt]\(n\)[- ]local
+  - lubin[- ]tate
+  - \bcomodules?\b
+  - \bfranke
+  - telescope conjecture
+  - algebraicity
+  # trace methods / prismatic
+  - topological (hochschild|cyclic|restriction) homology
+  - \bthh\b
+  - prismatic
+  - \bprisms?\b
+  - even filtration
+  - motivic filtration
+  - cyclotomic spectr
+  - \bcyclonic
+  - polygonic
+  # spectral algebraic geometry / stacks
+  - dirac geometr
+  - spectral (algebraic geometry|stack|scheme)
+  - moduli (stack )?of (oriented )?formal groups
+  - even periodi
+  # tt-geometry, exact categories (your papers)
+  - tensor[- ]triangulat
+  - \btt[- ]geometr
+  - balmer spectr
+  - smashing spectr
+  - stable envelope
+  - hopfological
+  - presentable stable
+  # sheaves of spaces
+  - sheaves of (spaces|anima)
+  - (infinity|∞)?[- ]?topoi\b
+
+# Title only: too common in abstracts to be useful there.
+title_only:
+  - \bmotivic\b
+  - \bdescent\b
+  - stable homotopy
+  - spectral sequence
+  - trace method
+  - \bnilpoten
+  - exact (infinity[- ])?categor
+  - \btopos\b
+  - \btc\b
+  - \bredshift\b
+  - t[- ]structure
+  - \bpicard
+  - equivariant

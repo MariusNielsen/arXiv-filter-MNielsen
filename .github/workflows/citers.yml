@@ -1,0 +1,31 @@
+name: monthly citers
+
+on:
+  schedule:
+    - cron: "17 5 1 * *"   # 1st of each month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: filter
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python arxiv_filter.py --refresh-citers
+      - name: Commit
+        run: |
+          git config user.name "arxiv-filter-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add citers_suggested.yaml
+          git diff --cached --quiet || git commit -m "citers $(date -u +%F)"
+          git push

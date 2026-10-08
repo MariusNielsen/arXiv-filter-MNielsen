@@ -1,0 +1,40 @@
+# Categories whose daily arXiv announcements are scanned.
+categories: [math.AT, math.AG, math.CT, math.KT, math.RT]
+
+# Unmatched papers from these categories are listed in the collapsed
+# "Rest of today" section. math.AG / math.RT are left out: too many papers.
+rest_categories: [math.AT, math.KT]
+
+# Per-category restrictions. A paper whose ONLY subscribed categories are
+# restricted ones is kept only if it satisfies one of the listed conditions:
+#   author        - a watched author
+#   strong_title  - a strong keyword in the title
+#   strong        - a strong keyword anywhere
+category_rules:
+  math.RT: [author, strong_title]
+
+# arXiv announce types to consider. Replacements are shown only for watched authors.
+announce_types: [new, cross]
+show_replacements_for_authors: true
+
+sources:
+  arxiv: true
+  arxiv_author_search: true   # catches watched authors posting outside your categories
+  hexagon: true               # hexagonmath.org, arXiv-compatible API
+
+hexagon:
+  # Label works by mathlake:authorshipMode; set drop_ai_generated to hide
+  # works whose mode is "no-human-author-claimed".
+  drop_ai_generated: false
+
+# Your own arXiv papers: used by --refresh-citers (monthly) to suggest
+# authors who cite you. Please check these are all yours.
+my_papers:
+  - 2506.02598   # The presentable stable envelope of an exact category (with Winges)
+  - 2602.20835   # The formal spectrum of a tensor-triangulated category (with Heard)
+  - 2606.19485   # Hopfological algebra, revisited (with Gómez, Jasso)
+
+output:
+  site_title: "arXiv filter"
+  feed_days: 21          # how many days of matches the Atom feed keeps
+  base_url: "https://mariusnielsen.github.io/arXiv-filter-MNielsen/"

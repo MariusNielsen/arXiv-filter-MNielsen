@@ -1,0 +1,53 @@
+name: daily filter
+
+on:
+  schedule:
+    # 04:30 UTC = 06:30 Berlin (summer) / 05:30 (winter). arXiv announces at 00:00 UTC (20:00 New York),
+    # Sunday-Thursday nights, so Mon-Fri mornings have new listings. Weekend runs just find nothing new.
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "daily | backtest | citers"
+        default: daily
+      days:
+        description: "backtest window in days"
+        default: "90"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: filter
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Daily run
+        if: github.event_name == 'schedule' || inputs.mode == 'daily'
+        run: python arxiv_filter.py
+
+      - name: Backtest
+        if: inputs.mode == 'backtest'
+        run: python arxiv_filter.py --backtest "${{ inputs.days }}"
+
+      - name: Refresh citers
+        if: inputs.mode == 'citers'
+        run: python arxiv_filter.py --refresh-citers
+
+      - name: Commit results
+        run: |
+          git config user.name "arxiv-filter-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A docs state citers_suggested.yaml 2>/dev/null || git add -A docs state
+          git diff --cached --quiet || git commit -m "update $(date -u +%F)"
+          git push

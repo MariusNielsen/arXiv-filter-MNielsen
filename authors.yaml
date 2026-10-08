@@ -1,0 +1,115 @@
+# Author watchlist for the arXiv filter.
+# Matching: compare normalized (diacritics stripped, lowercase) "first last" against
+# each variant. Match on FULL names, not surname + initial: several of these surnames
+# are shared with active authors in math.RT/math.AG (Henning Krause, other Wilsons, Hahns, Xus...).
+#
+# tier: always  -> shown at the top every time
+# tier: watch   -> shown at the top only if the paper also lands in your categories
+#                  or hits a keyword (cheap way to keep low-signal names without noise)
+# '# cited' marks authors cited in your filtered-stacks paper (from master.aux)
+
+always:
+  # --- collaborators (arXiv: 2506.02598, 2602.20835, 2606.19485; filtered stacks paper) ---
+  - Christoph Winges
+  - Drew Heard
+  - name: Juan Omar Gómez
+    variants: [Juan Omar Gomez, J. O. Gomez]
+  - Gustavo Jasso            # posts in math.RT, which is in your categories
+  - name: Torgeir Aambø
+    variants: [Torgeir Aambo]
+  - name: Sven van Nigtevecht
+    variants: [S. van Nigtevecht]
+  # --- cite your papers (Semantic Scholar, Oct 2026) ---
+  - Victor Saunier
+  # --- most frequent in refs.bib (2+ distinct works) ---
+  - Akhil Mathew  # cited
+  - name: Piotr Pstrągowski  # cited
+    variants: [Piotr Pstragowski]
+  - Thomas Nikolaus  # cited
+  - Jacob Lurie  # cited
+  - Robert Burklund  # cited
+  - Jeremy Hahn  # cited
+  - name: Andrew Senger  # cited
+    variants: [Andy Senger]
+  - Rune Haugseng  # cited
+  - Beren Sanders
+  - Tobias Barthel
+  - Ko Aoki  # cited
+  - Gregory Arone
+  - Aaron Mazel-Gee
+  - David Ayala
+  - Nick Rozenblyum
+  - Saul Glasman
+  - Jay Shah
+  - Niko Naumann
+  - Denis Nardin
+  - Irakli Patchkoria
+  - Achim Krause          # NOT Henning Krause (math.RT)
+  - Benjamin Antieau  # cited
+  - Lars Hesselholt  # cited
+  - Jack Morgan Davies  # cited
+  - Shaul Barkan  # cited
+  - Shachar Carmeli  # cited
+  - Allen Yuan  # cited
+  - Sil Linskens  # cited
+  - Luca Pol
+  - Tom Bachmann
+  - Markus Land
+  - Michael Ching
+  # --- added to the paper by hand (recent, topical) ---
+  - Arpon Raksit  # cited
+  - Dylan Wilson  # cited
+  - Tyler Lawson  # cited
+  - Zhouli Xu
+  - William Balderrama  # cited
+  - Christian Carrick  # cited
+  - Sanath K. Devalapurkar  # cited
+  - Tasos Moulinos  # cited
+  - Maxime Ramzi  # cited
+  - Rok Gregoric  # cited
+  - Alice Hedenlund  # cited
+  - Jiacheng Liang  # cited
+  # --- from the earlier seed list, not in refs.bib ---
+  - Bhargav Bhatt
+  - Matthew Morrow
+  - Daniel Isaksen
+  - Bogdan Gheorghe
+
+watch:
+  # single appearance in refs.bib, or rarely-posting
+  - Tomer Schlank
+  - Dustin Clausen
+  - Peter Scholze
+  - Justin Noel
+  - Lennart Meier
+  - Georg Tamme
+  - Vesna Stojanoska
+  - Bastiaan Cnossen
+  - Gijs Heuts
+  - Marc Hoyois
+  - Paul Balmer
+  - name: Ivo Dell'Ambrogio
+    variants: [Ivo DellAmbrogio]
+  - Clark Barwick
+  - Jonas McCandless
+  - Itamar Mor
+  - J. D. Quigley
+  - Fabian Hebestreit
+  - Ferdinand Wagner
+  - Paul Goerss
+  - Michael Hopkins
+  - Joseph Ayoub
+  - Martin Gallauer
+  - Mauro Porta
+  - Federico Binda
+  - David Gepner
+  - Christian Wimmer
+  - Lior Yanovski  # cited
+  - Asaf Horev  # cited
+  - Fernando Abellán  # cited
+  - Andrea Gagna  # cited
+  - Julie Creemers  # cited (master's thesis)
+
+# Dropped from refs.bib (textbook/thesis/inactive on arXiv for this purpose):
+# Elmendorf, Kriz, Mandell, May (cited, but EKMM), Hovey, Sadofsky, Eugster, Pridham,
+# Mazza, Kock, Pitsch, Moritz Groth, Steinebrunner, Vezzani
