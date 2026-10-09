@@ -1,6 +1,293 @@
 {
  "feed": [
   {
+   "day": "2026-10-09",
+   "paper": {
+    "abstract": "We show that integers act invertibly on a derived scheme $S$ if and only if they act invertibly on the reduced motivic suspension spectrum of the affine line in $\\mathrm{MS}_S$. As a consequence, over regular locally noetherian schemes and derived schemes on which some nonzero integer acts as zero, the motivic sphere spectrum is $\\mathbf{A}^1$-invariant after inverting primes that are not invertible in the base scheme. In particular, over regular locally noetherian $\\mathbf{Q}$-schemes, the motivic sphere spectrum is $\\mathbf{A}^1$-invariant.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Viktor Burghardt"
+    ],
+    "categories": [
+     "math.AG",
+     "math.AT",
+     "math.KT"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.11802",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.11802",
+    "pid": "2610.11802",
+    "reasons": [
+     "title: motivic"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Loyalty of the affine line in motivic homotopy theory",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-09",
+   "paper": {
+    "abstract": "We develop a semisimple obstruction theory for finite-length abelian categories. To each object \\(X\\) we associate a canonical obstruction subobject \\(\\mathcal O(X)\\), consisting of the part invisible to all morphisms into semisimple objects. The quotient \\(X/\\mathcal O(X)\\) is semisimple and universal among such morphisms, yielding a canonical semisimplification reflector and characterizing semisimplicity by the vanishing of obstruction. Iterating the construction gives an obstruction filtration which, in finite-length module categories, recovers the classical radical filtration and Loewy theory. Obstruction is also heart-dependent: under Happel--Reiten--Smal{\\o} tilting, extension data can appear as new obstruction layers, leading to obstruction shadows and visible torsion. Thus classical radical theory arises as the fixed-heart module-theoretic instance of a categorical framework for semisimple reconstruction, persistence, and variation of heart.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Joe Gildea"
+    ],
+    "categories": [
+     "math.CT"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.11497",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.11497",
+    "pid": "2610.11497",
+    "reasons": [
+     "title: obstruction theor"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Universal Semisimple Reconstruction and Obstruction Theory",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-09",
+   "paper": {
+    "abstract": "In this paper, we study the tensor triangular geometry of band algebras $RB$, where $B$ is a finite left regular band and $R$ is a commutative Noetherian ring. We show that the Balmer spectrum of $\\Perf(RB)$ is homeomorphic to $\\Spec R\\times L_B$, where $L_B$ is the support lattice of $B$. We also show that there is a bijection between the localizing ideals of $D(RB)$ and the stable subsets of $\\Spec R\\times L_B$. As a consequence, the telescope conjecture holds for $D(RB)$. Finally, we construct a band $B$ such that the generalized Nerves of Steel Conjecture fails for the non-rigid tensor triangulated category $\\Perf(RB)$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Peng Xu"
+    ],
+    "categories": [
+     "math.CT"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.11979",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.11979",
+    "pid": "2610.11979",
+    "reasons": [
+     "abstract: telescope conjecture",
+     "abstract: tensor triangulat",
+     "abstract: balmer spectr"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Tensor triangular geometry of band algebras",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-09",
+   "paper": {
+    "abstract": "In this paper, we study the rational realization of the gap-two product $K(\\Q,n)\\times K(\\Q,n+2)$ as the classifying space $\\B(X)$ for a simply-connected $\\pi$-finite space $X$ with rational homology of finite type. We prove that $K(\\Q,n)\\times K(\\Q,n+2)$ can be realized as $\\B(X)$ up to rational homotopy equivalence if and only if $n=3,4$ or $4m+2$ for $m\\geq 1$. Moreover, we determine all their minimal Sullivan models up to isomorphism. The rational homotopy type of such $X$ is unique for $n=3$ or $4m+2$ for $m\\geq 1$; there exist infinitely many rational homotopy types of such $X$ for $n=4$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Yang Bai",
+     "Xiugui Liu",
+     "Jiaxi Zha"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.11671",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.11671",
+    "pid": "2610.11671",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A complete classification of the rational realization of gap-two products of Eilenberg--MacLane spaces as classifying spaces",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-09",
+   "paper": {
+    "abstract": "For $n\\ge1$, we study representations of a simplicial group $G$ in the full $\\infty$-subcategory of simplicial vector spaces whose normalized homology is concentrated in degrees $0,\\ldots,n-1$, retaining its full mapping spaces. The resulting functor category depends only on the $n$-truncated homotopy type of $\\mathbf{B}G$ and admits projectively bifibrant strict diagram and simplicial group-algebra module models. If restriction along a specified map $f:G\\to H$ is an equivalence, then $\\pi_0(f)$ is a group isomorphism; the proof uses ordinary extension and restriction of scalars. Yet for every $n\\ge2$ and prime $q$ invertible in $k$, the nontrivial source $K(\\mathbb Z/q,n-1)$ has the same $n$-representation category with vertex evaluation as the trivial group. The group-algebra augmentation is a weak equivalence, so the constant functor is also an equivalence for untruncated representations. Thus $n$-representations depend only on the $n$-truncation of $\\mathbf{B}G$, but need not determine that truncation, even together with vertex evaluation.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Zhangqi Pan"
+    ],
+    "categories": [
+     "math.AT",
+     "math.CT"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.11576",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.11576",
+    "pid": "2610.11576",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A Note on n-Representations of Simplicial Groups",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-09",
+   "paper": {
+    "abstract": "Let $M$ be a closed, smooth or topological $n$-manifold, with $n \\geq 4$. We construct a homotopy highly cartesian square relating the space ${\\mathcal E}(M (\\ell))$ of homotopy self-equivalences of $M$ (in a suitable range) over the Postnikov $\\ell$-sections of its stable normal microbundle, and an $(\\infty + n)$-fold loop space representing an associated (normal) bordism theory. This implies the existence of braids of interlocking exact sequences involving the homotopy groups of ${\\mathcal E}(M(\\ell))$ and certain Lashof bordism groups, leading to a conceptual explanation and broad generalization of earlier work of Hambleton--Kreck for closed, oriented $4$-manifolds.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Ian Hambleton",
+     "Kursat Sozer"
+    ],
+    "categories": [
+     "math.AT",
+     "math.GT"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.11110",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.11110",
+    "pid": "2610.11110",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Braidings of Self-Equivalences and Bordism",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-09",
+   "paper": {
+    "abstract": "We study several fundamental properties of the category $\\mathbf{Kur}$ introduced in \\cite{Kim1}. By defining fibrations and weak equivalences, we show that morphisms with manifold targets admit homotopy fiber products; this is then applied to obtain a notion of generalized intersections of two submanifolds. A definition of the Weinstein category in the context of Kuranishi spaces is also presented. Finally, we establish that $\\mathbf{Kur}$ forms a category of fibrant objects in the sense of Brown \\cite{Brown}, and discuss its homotopy category $\\operatorname{Ho}(\\mathbf{Kur})$.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Taesu Kim"
+    ],
+    "categories": [
+     "math.SG",
+     "math.AT"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.11594",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.11594",
+    "pid": "2610.11594",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Kuranishi spaces in a category of fibrant objects and their homotopy fiber products",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-09",
+   "paper": {
+    "abstract": "Multiparameter complex processes, based on the Costa-Farber model, provide a common framework for growing random simplicial complexes, including the Linial-Meshulam and random flag complex processes. We establish laws of large numbers for persistent Betti numbers of these processes and prove that, after a deterministic time change and normalization, their persistence diagrams converge weakly in probability to a deterministic finite measure. Its quadrant masses are determined by universal limits of normalized persistent Betti numbers, characterized by an explicit finite-dimensional optimization problem. We extend the diagram convergence to integrals of continuous functions with polynomial growth in the death coordinate and controlled singularities at the diagonal. These results yield convergence of additive and multiplicative lifetime measures and total persistence. We further deduce convergence in optimal transport distance. The proofs combine local weak convergence of simplicial pairs, spectral analysis of compressed Laplacians accounting for dependence through shared faces, and quantitative estimates for large death coordinates and short lifetimes.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Masanori Hino",
+     "Shu Kanazawa"
+    ],
+    "categories": [
+     "math.PR",
+     "math.AT"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.12197",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.12197",
+    "pid": "2610.12197",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Limit Theorems for Persistent Homology of Multiparameter Complex Processes",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-09",
+   "paper": {
+    "abstract": "We revisit the relation between the Kontsevich commutative graph complex and the homology of $\\GL(n,\\Z)$ found by Brown--Chan--Galatius--Payne using the sharbly complex of Ash--Miller--Patzt.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Peter Patzt",
+     "Thomas Willwacher"
+    ],
+    "categories": [
+     "math.AT",
+     "math.KT",
+     "math.QA"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.12263",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.12263",
+    "pid": "2610.12263",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "The graph complex and the homology of the general linear groups revisited",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-09",
+   "paper": {
+    "abstract": "Let $f:(\\C^n,0)\\to(\\C,0)$ be a holomorphic germ with an isolated critical point at the origin, and let $\\varphi_f$ be the negative gradient flow of $\\re f$ with respect to a Riemannian metric. We show that the origin is an isolated invariant set of $\\varphi_f$ and that its Conley index is the suspension of the Milnor fiber, \\[ h(\\varphi_f,\\{0\\})\\;\\simeq\\;\\Sigma F_f\\;\\simeq\\;\\bigvee_{\\mu(f)}S^n , \\] so that $\\mu(f)=\\rank \\CH_n(\\varphi_f,\\{0\\};\\Z)$: the Milnor number is the rank of the homological Conley index of the flow in degree $n$. The proof uses continuation to a holomorphic morsification of $f$. Since $\\im f$ is a first integral of the flow, after a rotation of the target through an angle avoiding finitely many values there are no connecting orbits between the $\\mu(f)$ nondegenerate rest points that result, and the sum property of the Conley index applies. McCord's theorem then recovers the Poincar\\'e--Hopf index of $-\\nabla\\re f$.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Jean-Paul Brasselet",
+     "Nivaldo Grulha"
+    ],
+    "categories": [
+     "math.DS",
+     "math.AT"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.10896",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.10896",
+    "pid": "2610.10896",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "The Milnor Fiber as a Local Conley Index",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-09",
+   "paper": {
+    "abstract": "Let $A$ and $X$ be connected based CW complexes with $H_1(A;\\mathbb Q)\\neq 0$, and let $m\\geq 1$ be the least degree with $\\widetilde H_m(X;\\mathbb Q)\\neq0$. We prove that the Bousfield--Kan rational completion map of $A\\vee X$ induces a map on $H_{2m}(-;\\mathbb Q)$ whose cokernel has dimension at least $2^{\\aleph_0}$. In particular, $A\\vee X$ is $\\mathbb Q$-bad.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Nikita Golub"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.12255",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.12255",
+    "pid": "2610.12255",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Wedges, Rational completion and $\\mathbb Q$-bad spaces",
+    "watched": []
+   }
+  },
+  {
    "day": "2026-10-08",
    "paper": {
     "abstract": "A Fourier\u2013Mukai equivalence between smooth proper complex varieties of common even dimension preserves the topological signature. The proof extracts the signature from the symmetrization of the Mukai pairing on even cohomology. Combining this observation with known derived invariants and the Hochschild\u2013Kostant\u2013Rosenberg decomposition shows that derived-equivalent smooth projective fourfolds over any field of characteristic zero have the same Hodge numbers. This argument and text was produced by ChatGPT 5.6 Sol.",
@@ -552,500 +839,269 @@
  ],
  "hexagon_since": "2026-10-08",
  "last_page": {
-  "day": "2026-10-08",
+  "day": "2026-10-09",
   "papers": [
    {
-    "abstract": "A Fourier\u2013Mukai equivalence between smooth proper complex varieties of common even dimension preserves the topological signature. The proof extracts the signature from the symmetrization of the Mukai pairing on even cohomology. Combining this observation with known derived invariants and the Hochschild\u2013Kostant\u2013Rosenberg decomposition shows that derived-equivalent smooth projective fourfolds over any field of characteristic zero have the same Hodge numbers. This argument and text was produced by ChatGPT 5.6 Sol.",
-    "ai_mode": "no-human-author-claimed",
+    "abstract": "We show that integers act invertibly on a derived scheme $S$ if and only if they act invertibly on the reduced motivic suspension spectrum of the affine line in $\\mathrm{MS}_S$. As a consequence, over regular locally noetherian schemes and derived schemes on which some nonzero integer acts as zero, the motivic sphere spectrum is $\\mathbf{A}^1$-invariant after inverting primes that are not invertible in the base scheme. In particular, over regular locally noetherian $\\mathbf{Q}$-schemes, the motivic sphere spectrum is $\\mathbf{A}^1$-invariant.",
+    "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Benjamin Antieau",
-     "Andrei C\u0103ld\u0103raru",
-     "Ruoxi Li",
-     "Akhil Mathew",
-     "Joshua Mundinger",
-     "Noah Olander",
-     "Martin Olsson"
-    ],
-    "categories": [
-     "math.AG"
-    ],
-    "date": "2026-09-26",
-    "link": "https://hexagonmath.org/abs/2609.00104v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2609.00104v1",
-    "pid": "hexagon:2609.00104",
-    "reasons": [
-     "author: Benjamin Antieau",
-     "author: Akhil Mathew"
-    ],
-    "source": "hexagon",
-    "tier": 1,
-    "title": "Derived invariance of the signature and Hodge numbers of fourfolds",
-    "watched": [
-     "Akhil Mathew",
-     "Benjamin Antieau"
-    ]
-   },
-   {
-    "abstract": "We construct finite free group schemes of rank four and exponent eight as stabilizers in a smooth two-dimensional affine group. We first compute the complete local deformation ring of the invariant space of constants and squares in characteristic two, using six Grassmannian coordinates. For every Artinian specialization, evaluation at the identity has a finite free rank-four stabilizer. Its fourth-power morphism is $(x,y)\\mapsto(2bxy,2axy)$, and its eighth-power morphism is trivial. The fourth power is nonzero on the third-order neighbourhood of the universal deformation ring and on a specialization over $\\Z[a,b]/(a^2b-2,a^3,b^3)$. We give complete formulas for the latter group scheme. Right translation preserves the chosen quadratic space exactly when it contains the square of the scalar character. This identifies $(2a,2b)$ as the common obstruction to fourth-power vanishing, normality of the stabilizer, and two-sidedness in an equivalent cyclic-module construction.",
-    "ai_mode": "no-human-author-claimed",
-    "announce": "new",
-    "authors": [
-     "Akhil Mathew"
-    ],
-    "categories": [
-     "math.AG"
-    ],
-    "date": "2026-09-27",
-    "link": "https://hexagonmath.org/abs/2609.00110v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2609.00110v1",
-    "pid": "hexagon:2609.00110",
-    "reasons": [
-     "author: Akhil Mathew"
-    ],
-    "source": "hexagon",
-    "tier": 1,
-    "title": "Frobenius orbit maps and rank-four group schemes",
-    "watched": [
-     "Akhil Mathew"
-    ]
-   },
-   {
-    "abstract": "We deduce from Bhatt's graded Cohen--Macaulay and vanishing results that an integer-graded absolute integral closure of a weighted polynomial ring over $\\Z_p$, modulo $p$, is free with basis degrees smaller than the sum of the weights. A direct $p$-adic expansion turns this degree bound into a uniform solution of the cusp relation modulo nilpotents. Consequently every ring $R$ admits a faithfully flat algebra with seminormal reduction, and every invertible $R[T]$-module becomes free after a faithfully flat extension of $R$, answering a question of Drinfeld.",
-    "ai_mode": "no-human-author-claimed",
-    "announce": "new",
-    "authors": [
-     "Akhil Mathew"
-    ],
-    "categories": [
-     "math.AC",
-     "math.AG"
-    ],
-    "date": "2026-09-26",
-    "link": "https://hexagonmath.org/abs/2609.00105v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2609.00105v1",
-    "pid": "hexagon:2609.00105",
-    "reasons": [
-     "author: Akhil Mathew"
-    ],
-    "source": "hexagon",
-    "tier": 1,
-    "title": "Graded absolute integral closures and Picard groups",
-    "watched": [
-     "Akhil Mathew"
-    ]
-   },
-   {
-    "abstract": "For every Hochschild diagonal of a smooth projective complex variety, a Fourier\u2013Mukai equivalence preserves both the ordinary Hodge-number sum and the sum signed by the parity of the antiholomorphic degree. The latter is the signature of a Hermitian form obtained from the generalized Mukai pairing. In dimension five these invariants determine $h^{0,3}$ and $h^{1,4}$ and reduce the unrestricted Hodge-number problem to two numerical parameters, one of which is the possible failure of invariance of $h^{0,2}$. Albanese methods remove this structure-sheaf ambiguity when the Albanese image has dimension at least three. The general fivefold case remains open, while a theorem of Abuaf proves invariance of all Hodge numbers for fivefolds with trivial canonical bundle.",
-    "ai_mode": "no-human-author-claimed",
-    "announce": "new",
-    "authors": [
-     "Benjamin Antieau"
-    ],
-    "categories": [
-     "math.AG"
-    ],
-    "date": "2026-09-30",
-    "link": "https://hexagonmath.org/abs/2609.00147v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2609.00147v1",
-    "pid": "hexagon:2609.00147",
-    "reasons": [
-     "author: Benjamin Antieau"
-    ],
-    "source": "hexagon",
-    "tier": 1,
-    "title": "Signed Mukai diagonals and derived equivalences of fivefolds",
-    "watched": [
-     "Benjamin Antieau"
-    ]
-   },
-   {
-    "abstract": "We establish rational Swan induction for ordinary perfect modules over the finite-local sphere $L_n^{p,f}\\mathbb S$. For a finite abelian ambient group, subgroups of $p$-rank at most $n+1$ suffice, and this bound is sharp. The proof combines cyclic homotopy fixed points in telescopic spectra with the isotropy filtration of a chromatic quotient of finite genuine spectra. The result proves Conjecture~7.22 of Clausen--Mathew--Naumann--Noel for Morava $E$-theory and gives a new proof of their chromatic upper bound for the algebraic $K$-theory of $L_n^{p,f}\\mathbb S$-linear categories. The quotient argument also produces finite complexes realizing the induction relations. We formulate the problem of explicit realizations and give two geometric models at the prime two.",
-    "ai_mode": "no-human-author-claimed",
-    "announce": "new",
-    "authors": [
-     "Akhil Mathew"
-    ],
-    "categories": [
-     "math.AT",
-     "math.KT"
-    ],
-    "date": "2026-09-27",
-    "link": "https://hexagonmath.org/abs/2609.00112v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2609.00112v1",
-    "pid": "hexagon:2609.00112",
-    "reasons": [
-     "author: Akhil Mathew",
-     "abstract: morava e-theor"
-    ],
-    "source": "hexagon",
-    "tier": 1,
-    "title": "Swan induction for the finite-local sphere",
-    "watched": [
-     "Akhil Mathew"
-    ]
-   },
-   {
-    "abstract": "For every odd prime $p$, we construct a regular strictly henselian local ring $A$ whose generic fibre has \\'etale cohomology classes in $H^2_{\\et}(A[1/p],\\mu_p^{\\otimes2})$ which are not sums of cup products of degree-one classes. The ring is the strict henselization of a local ring on a finite-type arithmetic scheme. A unit on a principal divisor gives an element of order $p$ in $SK_1(A[1/p])$, detected by its localization boundary on the special fibre. Adams--Riemann--Roch and the connectivity of the motivic filtration show that this element has nonzero image in $H^3_{\\mot}(A[1/p],\\Z(2))$. The integral coefficient sequence then gives the cohomological obstruction. Only the eigenvalues $4$ and $8$ of $\\psi^2$ are needed.",
-    "ai_mode": "no-human-author-claimed",
-    "announce": "new",
-    "authors": [
-     "Akhil Mathew"
+     "Viktor Burghardt"
     ],
     "categories": [
      "math.AG",
+     "math.AT",
      "math.KT"
     ],
-    "date": "2026-09-27",
-    "link": "https://hexagonmath.org/abs/2609.00111v1",
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.11802",
     "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2609.00111v1",
-    "pid": "hexagon:2609.00111",
+    "pdf": "https://arxiv.org/pdf/2610.11802",
+    "pid": "2610.11802",
     "reasons": [
-     "author: Akhil Mathew",
-     "abstract: motivic filtration"
-    ],
-    "source": "hexagon",
-    "tier": 1,
-    "title": "Torsion in $K_1$ and $p$-adic vanishing cycles",
-    "watched": [
-     "Akhil Mathew"
-    ]
-   },
-   {
-    "abstract": "We prove that for every odd prime $p$ there is a height $n$ for which the map $L_{n-1}S_p \\to L_{n-1}\\L_{K(n)}S_p$ is not injective on homotopy groups, hence not the inclusion of a wedge summand. In particular, for such pairs $(n,p)$ the weak chromatic splitting conjecture is false. More precisely, we prove the conjecture fails for $(n,p) = (3,3)$ and for all pairs $(n,p)$ with $p \\le n < \\sqrt{2}(p-1)$. In particular, the conjecture fails for $(n,p) = (p,p)$ for every odd prime $p$. This disproof was produced autonomously by Claude in a session working on Freyd's generating hypothesis with no human in the loop. This note is a human write-up of the disproof. We did not contribute any ideas.",
-    "ai_mode": "human",
-    "announce": "new",
-    "authors": [
-     "Agnes Beaudry",
-     "Tomer Schlank"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-10-07",
-    "link": "https://hexagonmath.org/abs/2610.00138v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2610.00138v1",
-    "pid": "hexagon:2610.00138",
-    "reasons": [
-     "author (watch): Tomer Schlank",
-     "title: chromatic splitting"
-    ],
-    "source": "hexagon",
-    "tier": 1,
-    "title": "Weak chromatic splitting fails at n = p for every odd prime p",
-    "watched": [
-     "Tomer Schlank"
-    ]
-   },
-   {
-    "abstract": "Let $H_n$ be the one-dimensional Honda formal group of height $n$ over $\\mathbf F_{p^n}$ and let \\[ R_n=W(\\mathbf F_{p^n})[[u_1,\\ldots,u_{n-1}]],\\qquad A_n=R_n/(p). \\] We prove, for every height $n$ and every prime $p$, that the prime ideals of $A_n$ stable under an open subgroup of the Morava stabilizer group are exactly the height ideals $(u_1,\\ldots,u_j)$. We also prove that a stable prime of $R_n$ avoiding $p$ is zero. The resulting radical-ideal classification implies the Hovey-Strickland classification of thick tensor ideals in the category of dualizable $K(n)$-local spectra via the forward implication of Barthel-Heard-Naumann.\n  The special-fiber argument is local and geometric. After cutting an invariant prime by a one-parameter curve, we construct from the Cartier structure equation a smooth formal quotient $\\mathcal{Q}$ and a distinguished subgroup $\\mathcal{H}$. The generic fiber of $\\mathcal{H}$ is identified with the deformation space of connected-\\'etale extensions. A Cartier obstruction map from the full Honda endomorphism order is compared with evaluation on Tate vectors through completed universal covers. Fargues-Fontaine vector bundles give a period-detection statement. Chai's rigidity theorem then promotes detection by homomorphisms to formal Zariski density after a renormalization of the valuation. A uniform fixed-jet argument transfers this density to Morava-stabilizer orbits. The generic-fiber assertion is proved separately from the Gross-Hopkins period map.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Chenglong Ma"
-    ],
-    "categories": [
-     "math.NT",
-     "math.AT"
-    ],
-    "date": "2026-10-08",
-    "link": "https://arxiv.org/abs/2610.10072",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.10072",
-    "pid": "2610.10072",
-    "reasons": [
-     "title: lubin-tate",
-     "abstract: k(n)-local"
+     "title: motivic"
     ],
     "source": "arxiv",
     "tier": 2,
-    "title": "Invariant Primes in Lubin-Tate Space and Hovey-Strickland at Every Height",
+    "title": "Loyalty of the affine line in motivic homotopy theory",
     "watched": []
    },
    {
-    "abstract": "We disprove the classical version of the Borsuk-Ulam-flavored conjecture, due to Baum-D{\\k{a}}browski-Hajac, that free actions $X\\times \\mathbb{G}\\to X$ on non-empty compact Hausdorff spaces by non-trivial compact groups admit no equivariant maps $X*\\mathbb{G}\\to X$. Specifically, among non-trivial compact abelian $\\mathbb{G}$, the conjecture fails precisely when $\\mathbb{G}$ is torsion-free profinite.",
+    "abstract": "We develop a semisimple obstruction theory for finite-length abelian categories. To each object \\(X\\) we associate a canonical obstruction subobject \\(\\mathcal O(X)\\), consisting of the part invisible to all morphisms into semisimple objects. The quotient \\(X/\\mathcal O(X)\\) is semisimple and universal among such morphisms, yielding a canonical semisimplification reflector and characterizing semisimplicity by the vanishing of obstruction. Iterating the construction gives an obstruction filtration which, in finite-length module categories, recovers the classical radical filtration and Loewy theory. Obstruction is also heart-dependent: under Happel--Reiten--Smal{\\o} tilting, extension data can appear as new obstruction layers, leading to obstruction shadows and visible torsion. Thus classical radical theory arises as the fixed-heart module-theoretic instance of a categorical framework for semisimple reconstruction, persistence, and variation of heart.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Alexandru Chirvasitu",
-     "Alexander D\\k{a}browski"
+     "Joe Gildea"
     ],
     "categories": [
-     "math.AT",
-     "math.GN",
-     "math.GR"
+     "math.CT"
     ],
-    "date": "2026-10-08",
-    "link": "https://arxiv.org/abs/2610.10111",
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.11497",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.10111",
-    "pid": "2610.10111",
+    "pdf": "https://arxiv.org/pdf/2610.11497",
+    "pid": "2610.11497",
     "reasons": [
-     "title: equivariant"
+     "title: obstruction theor"
     ],
     "source": "arxiv",
     "tier": 2,
-    "title": "Nullhomotopic equivariant shifts and Borsuk-Ulam-compatible compact abelian groups",
+    "title": "Universal Semisimple Reconstruction and Obstruction Theory",
     "watched": []
    },
    {
-    "abstract": "$\\mathbb{Z}_p$-folded surfaces are a class of oriented folded surfaces with a fundamental $H_2(\\mathbb{Z}/p\\mathbb{Z})$ class. In this paper we study the $\\mathbb{Z}_p$-folded surfaces that embed in $3$-manifolds. This perspective naturally leads to the definition of the $\\mathbb{Z}_p$-Thurston norm, which generalises the $\\mathbb{Z}_2$-Thurston norm of Jaco, Rubinstein and Tillmann and adapts Turaev's definition of $\\theta$. We define canonical $\\mathbb{Z}_p$-folded surfaces, which connect the theory of $\\mathbb{Z}_p$-folded surfaces to the study of one-vertex $3$-manifold triangulations, and we relate their Euler characteristic to the $\\mathbb{Z}_p$-Thurston norm. We generalise a classical result of Bredon and Wood by proving that the maximum Euler characteristic of a non-separating non-empty $\\mathbb{Z}_3$-folded surface embedded in $L(3n,1)$ is $2-n$ for $n\\in\\mathbb{Z}^{>0}$, determining the $\\mathbb{Z}_3$-Thurston norm in these cases. We conclude by demonstrating the motivating application of this theory to the study of generalised triangulations by proving that any generalised triangulation of the lens space $L(3n,1)$ must have at least $n$ tetrahedra. This final result is a preview of joint work with Spreer in which we determine the exact complexity of $L(3n,1)$ using more sophisticated techniques.",
+    "abstract": "In this paper, we study the tensor triangular geometry of band algebras $RB$, where $B$ is a finite left regular band and $R$ is a commutative Noetherian ring. We show that the Balmer spectrum of $\\Perf(RB)$ is homeomorphic to $\\Spec R\\times L_B$, where $L_B$ is the support lattice of $B$. We also show that there is a bijection between the localizing ideals of $D(RB)$ and the stable subsets of $\\Spec R\\times L_B$. As a consequence, the telescope conjecture holds for $D(RB)$. Finally, we construct a band $B$ such that the generalized Nerves of Steel Conjecture fails for the non-rigid tensor triangulated category $\\Perf(RB)$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Peng Xu"
+    ],
+    "categories": [
+     "math.CT"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.11979",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.11979",
+    "pid": "2610.11979",
+    "reasons": [
+     "abstract: telescope conjecture",
+     "abstract: tensor triangulat",
+     "abstract: balmer spectr"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Tensor triangular geometry of band algebras",
+    "watched": []
+   },
+   {
+    "abstract": "In this paper, we study the rational realization of the gap-two product $K(\\Q,n)\\times K(\\Q,n+2)$ as the classifying space $\\B(X)$ for a simply-connected $\\pi$-finite space $X$ with rational homology of finite type. We prove that $K(\\Q,n)\\times K(\\Q,n+2)$ can be realized as $\\B(X)$ up to rational homotopy equivalence if and only if $n=3,4$ or $4m+2$ for $m\\geq 1$. Moreover, we determine all their minimal Sullivan models up to isomorphism. The rational homotopy type of such $X$ is unique for $n=3$ or $4m+2$ for $m\\geq 1$; there exist infinitely many rational homotopy types of such $X$ for $n=4$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Yang Bai",
+     "Xiugui Liu",
+     "Jiaxi Zha"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.11671",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.11671",
+    "pid": "2610.11671",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A complete classification of the rational realization of gap-two products of Eilenberg--MacLane spaces as classifying spaces",
+    "watched": []
+   },
+   {
+    "abstract": "For $n\\ge1$, we study representations of a simplicial group $G$ in the full $\\infty$-subcategory of simplicial vector spaces whose normalized homology is concentrated in degrees $0,\\ldots,n-1$, retaining its full mapping spaces. The resulting functor category depends only on the $n$-truncated homotopy type of $\\mathbf{B}G$ and admits projectively bifibrant strict diagram and simplicial group-algebra module models. If restriction along a specified map $f:G\\to H$ is an equivalence, then $\\pi_0(f)$ is a group isomorphism; the proof uses ordinary extension and restriction of scalars. Yet for every $n\\ge2$ and prime $q$ invertible in $k$, the nontrivial source $K(\\mathbb Z/q,n-1)$ has the same $n$-representation category with vertex evaluation as the trivial group. The group-algebra augmentation is a weak equivalence, so the constant functor is also an equivalence for untruncated representations. Thus $n$-representations depend only on the $n$-truncation of $\\mathbf{B}G$, but need not determine that truncation, even together with vertex evaluation.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Zhangqi Pan"
+    ],
+    "categories": [
+     "math.AT",
+     "math.CT"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.11576",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.11576",
+    "pid": "2610.11576",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A Note on n-Representations of Simplicial Groups",
+    "watched": []
+   },
+   {
+    "abstract": "Let $M$ be a closed, smooth or topological $n$-manifold, with $n \\geq 4$. We construct a homotopy highly cartesian square relating the space ${\\mathcal E}(M (\\ell))$ of homotopy self-equivalences of $M$ (in a suitable range) over the Postnikov $\\ell$-sections of its stable normal microbundle, and an $(\\infty + n)$-fold loop space representing an associated (normal) bordism theory. This implies the existence of braids of interlocking exact sequences involving the homotopy groups of ${\\mathcal E}(M(\\ell))$ and certain Lashof bordism groups, leading to a conceptual explanation and broad generalization of earlier work of Hambleton--Kreck for closed, oriented $4$-manifolds.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Ian Hambleton",
+     "Kursat Sozer"
+    ],
+    "categories": [
+     "math.AT",
+     "math.GT"
+    ],
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.11110",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.11110",
+    "pid": "2610.11110",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Braidings of Self-Equivalences and Bordism",
+    "watched": []
+   },
+   {
+    "abstract": "We study several fundamental properties of the category $\\mathbf{Kur}$ introduced in \\cite{Kim1}. By defining fibrations and weak equivalences, we show that morphisms with manifold targets admit homotopy fiber products; this is then applied to obtain a notion of generalized intersections of two submanifolds. A definition of the Weinstein category in the context of Kuranishi spaces is also presented. Finally, we establish that $\\mathbf{Kur}$ forms a category of fibrant objects in the sense of Brown \\cite{Brown}, and discuss its homotopy category $\\operatorname{Ho}(\\mathbf{Kur})$.",
     "ai_mode": "",
     "announce": "cross",
     "authors": [
-     "William Hobkirk"
+     "Taesu Kim"
     ],
     "categories": [
-     "math.GT",
+     "math.SG",
      "math.AT"
     ],
-    "date": "2026-10-08",
-    "link": "https://arxiv.org/abs/2610.09422",
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.11594",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.09422",
-    "pid": "2610.09422",
+    "pdf": "https://arxiv.org/pdf/2610.11594",
+    "pid": "2610.11594",
     "reasons": [],
     "source": "arxiv",
     "tier": 4,
-    "title": "$\\mathbb{Z}_p$-folded surfaces and the $\\mathbb{Z}_p$-Thurston norm",
+    "title": "Kuranishi spaces in a category of fibrant objects and their homotopy fiber products",
     "watched": []
    },
    {
-    "abstract": "The computational complexity of simplicial homology has been studied since the question was raised by Kaibel and Pfetsch, and clique homology was later shown to be $\\mathsf{QMA}_1$-hard by Crichigno and Kohler. King and Kohler subsequently introduced the weighted, spectrally gapped version considered here and developed a reduction intended to establish the same hardness result in this setting.\n  We give a complete proof of the hard direction. The earlier King-Kohler argument contains a gap in the analysis of the nontrivially folded local gadgets, so the required topological and spectral properties have to be re-established on the clique complexes actually produced by the reduction. This is not a local repair of the published proof: the argument requires a new analysis of the local topology, the filtered cochain complexes, and the interaction of many overlapping gadgets.\n  Our proof uses exact finite certificates for the local combinatorial data and relative homology to determine the effect of each gadget on the encoded qubit space. We then prove the finite-dimensional filtered-Hodge statement needed to recover the corresponding rank-one low-energy penalty and derive a quantitative global estimate that transfers the source-Hamiltonian promise gap to the final weighted Hodge Laplacian. Consequently, for fixed efficiently computable $k(n)$ and inverse-polynomial $\\gamma(n)$, weighted gapped clique homology is $\\mathsf{QMA}_1(\\mathcal G)$-hard. The previously known $\\mathsf{QMA}$-containment argument is logically independent of the gap and remains unaffected.",
+    "abstract": "Multiparameter complex processes, based on the Costa-Farber model, provide a common framework for growing random simplicial complexes, including the Linial-Meshulam and random flag complex processes. We establish laws of large numbers for persistent Betti numbers of these processes and prove that, after a deterministic time change and normalization, their persistence diagrams converge weakly in probability to a deterministic finite measure. Its quadrant masses are determined by universal limits of normalized persistent Betti numbers, characterized by an explicit finite-dimensional optimization problem. We extend the diagram convergence to integrals of continuous functions with polynomial growth in the death coordinate and controlled singularities at the diagonal. These results yield convergence of additive and multiplicative lifetime measures and total persistence. We further deduce convergence in optimal transport distance. The proofs combine local weak convergence of simplicial pairs, spectral analysis of compressed Laplacians accounting for dependence through shared faces, and quantitative estimates for large death coordinates and short lifetimes.",
     "ai_mode": "",
     "announce": "cross",
     "authors": [
-     "Tal Barak"
+     "Masanori Hino",
+     "Shu Kanazawa"
     ],
     "categories": [
-     "quant-ph",
+     "math.PR",
      "math.AT"
     ],
-    "date": "2026-10-08",
-    "link": "https://arxiv.org/abs/2610.03584",
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.12197",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.03584",
-    "pid": "2610.03584",
+    "pdf": "https://arxiv.org/pdf/2610.12197",
+    "pid": "2610.12197",
     "reasons": [],
     "source": "arxiv",
     "tier": 4,
-    "title": "A Complete Proof of $\\mathsf{QMA}_1$-Hardness for Weighted Gapped Clique Homology",
+    "title": "Limit Theorems for Persistent Homology of Multiparameter Complex Processes",
     "watched": []
    },
    {
-    "abstract": "We explain a Lean 4 formalization of the classical Seifert van Kampen theorem for the full fundamental groupoid. For an arbitrary topological space covered by two open subsets, the inclusion-induced square of ordinary continuous-path fundamental groupoids is a pushout in the category of categories. Every point is retained as an object; no basepoint, connectedness, or separation hypothesis is required. The development identifies an auxiliary directed path category for the indiscrete preorder with Mathlib's fundamental groupoid through strictly inverse functors and naturality equalities. It then assembles the pushout universal property from attributed path-subdivision and homotopy-grid helpers adapted from the directed-topology formalization of Basold, Bruin, and Lawson. We describe the descent construction, its transfer to ordinary fundamental groupoids, and the statement and verification boundaries of the exact artifact registered in Palomar. This is an expository account of a classical theorem and an existing formal artifact, with no claim of mathematical novelty or formalization priority.",
-    "ai_mode": "no-human-author-claimed",
-    "announce": "new",
-    "authors": [
-     "Arthur",
-     "David Barros Hulak",
-     "Ruy J. G. B. de Queiroz"
-    ],
-    "categories": [
-     "math.AT",
-     "math.CT"
-    ],
-    "date": "2026-09-30",
-    "link": "https://hexagonmath.org/abs/2609.00152v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2609.00152v1",
-    "pid": "hexagon:2609.00152",
-    "reasons": [],
-    "source": "hexagon",
-    "tier": 4,
-    "title": "A Lean Formalization of the Classical Seifert van Kampen Groupoid Theorem",
-    "watched": []
-   },
-   {
-    "abstract": "In this note, for every topological colored nonsymmetric operad with CW spaces in each arity we construct a homotopy isomorphism with a CW homotopy operad (i.e. all higher homotopies are cellular with respect to the product structure and CW structure on cubes) not changing its objects. By using the two-sided bar construction, we rectify this to a homotopy isomorphism with a strict CW operad. This applies more generally to topological algebras over colored operads in sets. In the case of diagrams of finite CW complexes over finite posets, the resulting diagram consists of finite CW spaces enhancing the Quillen adjunction between simplicial sets and topological spaces. As a byproduct, we produce an embedding of topological homotopy algebras over operads into the presheaf category over the branch resolution for the category of $P$-trees generalizing the known case of topological operads.",
+    "abstract": "We revisit the relation between the Kontsevich commutative graph complex and the homology of $\\GL(n,\\Z)$ found by Brown--Chan--Galatius--Payne using the sharbly complex of Ash--Miller--Patzt.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Eduardo Hoefel",
-     "Grigory Solomadin"
+     "Peter Patzt",
+     "Thomas Willwacher"
     ],
     "categories": [
      "math.AT",
-     "math.CT"
+     "math.KT",
+     "math.QA"
     ],
-    "date": "2026-10-08",
-    "link": "https://arxiv.org/abs/2610.09945",
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.12263",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.09945",
-    "pid": "2610.09945",
+    "pdf": "https://arxiv.org/pdf/2610.12263",
+    "pid": "2610.12263",
     "reasons": [],
     "source": "arxiv",
     "tier": 4,
-    "title": "Cellular approximations for nonsymmetric homotopy operads",
+    "title": "The graph complex and the homology of the general linear groups revisited",
     "watched": []
    },
    {
-    "abstract": "Let $E$ be a nonempty finite set. A shade map on $E$ is a map $T:\\mathcal{P}(E)\\rightarrow\\mathcal{P}(E)$ such that toggling an element $u\\notin T(F)$ in the input $F$ does not change $T(F)$. We prove that, if $T$ is an inclusion-reversing shade map and $G\\subseteq E$, then the simplicial complex \\[ \\{F\\subseteq E\\mid G\\subseteq T(F)\\} \\] is collapsible. Equivalently, if $S$ is an inclusion-preserving shade map, then the Alexander dual of \\[ \\{F\\subseteq E\\mid G\\not \\subseteq S(F)\\} \\] is collapsible. This is an Alexander-dual companion to the shade-map collapsibility theorem in \\emph{The Elser nuclei sum revisited}. The proof first matches all faces on which $T(F)\\neq E$ by a toggle. The remaining faces, characterized by $T(F)=E$, form the free convex set complex of an associated antimatroidal quasi-closure operator. We give a self-contained recursive acyclic matching on this complex. For ordinary convex geometries, Korte--Lov\u00e1sz--Schrader prove the stronger fact that the free convex set system is non-evasive.",
-    "ai_mode": "mixed",
-    "announce": "new",
+    "abstract": "Let $f:(\\C^n,0)\\to(\\C,0)$ be a holomorphic germ with an isolated critical point at the origin, and let $\\varphi_f$ be the negative gradient flow of $\\re f$ with respect to a Riemannian metric. We show that the origin is an isolated invariant set of $\\varphi_f$ and that its Conley index is the suspension of the Milnor fiber, \\[ h(\\varphi_f,\\{0\\})\\;\\simeq\\;\\Sigma F_f\\;\\simeq\\;\\bigvee_{\\mu(f)}S^n , \\] so that $\\mu(f)=\\rank \\CH_n(\\varphi_f,\\{0\\};\\Z)$: the Milnor number is the rank of the homological Conley index of the flow in degree $n$. The proof uses continuation to a holomorphic morsification of $f$. Since $\\im f$ is a first integral of the flow, after a rotation of the target through an angle avoiding finitely many values there are no connecting orbits between the $\\mu(f)$ nondegenerate rest points that result, and the sum property of the Conley index applies. McCord's theorem then recovers the Poincar\\'e--Hopf index of $-\\nabla\\re f$.",
+    "ai_mode": "",
+    "announce": "cross",
     "authors": [
-     "Darij Grinberg"
+     "Jean-Paul Brasselet",
+     "Nivaldo Grulha"
     ],
     "categories": [
-     "math.CO",
+     "math.DS",
      "math.AT"
     ],
-    "date": "2026-09-30",
-    "link": "https://hexagonmath.org/abs/2609.00142v1",
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.10896",
     "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2609.00142v1",
-    "pid": "hexagon:2609.00142",
+    "pdf": "https://arxiv.org/pdf/2610.10896",
+    "pid": "2610.10896",
     "reasons": [],
-    "source": "hexagon",
+    "source": "arxiv",
     "tier": 4,
-    "title": "Collapsibility of Alexander duals for shade maps",
+    "title": "The Milnor Fiber as a Local Conley Index",
     "watched": []
    },
    {
-    "abstract": "A systematic way to construct Poisson brackets on moduli stacks in algebraic geometry is through shifted Poisson structures on derived stacks. The standard construction, due to Calaque--Pantev--To{\\\"e}n--Vaqui{\\'e}--Vezzosi, imports Gelfand--Kazhdan formal geometry to derived stacks in order to establish formal descent for polyvector fields. The result is a graded Lie algebra which we call the ``crystalline'' polyvector fields on a derived stack. Using instead the formal derived geometry machinery of Gaitsgory--Rozenblyum, we construct a graded Lie algebra of ``infinitesimal'' polyvector fields which has a direct geometric interpretation: it governs deformations of the formal shifted cotangent stack, together with its canonical exact symplectic form. Our main result is an equivalence between crystalline and infinitesimal polyvector fields on a derived stack as graded Lie algebra objects, providing a deformation-theoretic perspective on the graded Lie algebra constructed by Calaque--Pantev--To{\\\"e}n--Vaqui{\\'e}--Vezzosi.",
-    "ai_mode": "human",
-    "announce": "new",
-    "authors": [
-     "Aleksandr Karapetyan"
-    ],
-    "categories": [
-     "math.AG",
-     "math.AT",
-     "math.SG"
-    ],
-    "date": "2026-10-04",
-    "link": "https://hexagonmath.org/abs/2610.00030v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2610.00030v1",
-    "pid": "hexagon:2610.00030",
-    "reasons": [],
-    "source": "hexagon",
-    "tier": 4,
-    "title": "Crystalline and infinitesimal Poisson stacks",
-    "watched": []
-   },
-   {
-    "abstract": "Farrell and Jones showed that negatively curved manifolds in dimension $\\geq 5$ are topologically rigid in the sense that homotopy equivalence implies homeomorphism. In the smooth category, the result does not hold even for hyperbolic manifolds, and there are negatively curved manifolds $N$ homotopy equivalent to a given hyperbolic manifold $M$ but not diffeomorphic. For complex hyperbolic manifolds, the analogous construction is demonstrated only in dimensions of the form $8n+2$. In this paper, we prove this result in many other dimensions. The main approach involves the use of $EO$-theory of complex projective spaces to construct suitable examples of exotic spheres. These theories may be viewed as a version of real $K$-theory, and are defined at each prime $p$. The computation also yields positive results about the existence of free smooth $S^1$ and $S^3$ actions on exotic spheres which do not bound parallelizable manifolds.",
+    "abstract": "Let $A$ and $X$ be connected based CW complexes with $H_1(A;\\mathbb Q)\\neq 0$, and let $m\\geq 1$ be the least degree with $\\widetilde H_m(X;\\mathbb Q)\\neq0$. We prove that the Bousfield--Kan rational completion map of $A\\vee X$ induces a map on $H_{2m}(-;\\mathbb Q)$ whose cokernel has dimension at least $2^{\\aleph_0}$. In particular, $A\\vee X$ is $\\mathbb Q$-bad.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Samik Basu",
-     "Akashdwip Biswas"
+     "Nikita Golub"
     ],
     "categories": [
      "math.AT"
     ],
-    "date": "2026-10-08",
-    "link": "https://arxiv.org/abs/2610.10070",
+    "date": "2026-10-09",
+    "link": "https://arxiv.org/abs/2610.12255",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.10070",
-    "pid": "2610.10070",
+    "pdf": "https://arxiv.org/pdf/2610.12255",
+    "pid": "2610.12255",
     "reasons": [],
     "source": "arxiv",
     "tier": 4,
-    "title": "Exotic structures on hyperbolic manifolds via the EO-theory of Projective Spaces",
-    "watched": []
-   },
-   {
-    "abstract": "Let $\\mathcal{G}(G,A,\\alpha)$ be a discrete 2-group, given as the {categorical} extension of an ordinary group $G$ by an abelian group $A$. We define principal $\\mathcal{G}$-bundles over a manifold in terms of \\v{C}ech data over a good open cover. In the case of the manifold $S^2$, we calculate this bicategory explicitly, and identify its 2-skeleton. We compare with the holonomy bicategory $\\mathrm{Fun}(*/\\!\\!/ \\pi_{\\le 2}(S^2), * /\\!\\!/ \\mathcal{G})$, and provide a concrete equivalence between the two.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Emily Cliff",
-     "Yves Lolelo",
-     "Sandrine St-Cyr"
-    ],
-    "categories": [
-     "math.AT",
-     "math.CT"
-    ],
-    "date": "2026-10-08",
-    "link": "https://arxiv.org/abs/2610.10402",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.10402",
-    "pid": "2610.10402",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Flat principal 2-group bundles on $S^2$ and their holonomy",
-    "watched": []
-   },
-   {
-    "abstract": "We study the conjectural characteristic class analogue of the Hodge index theorem for singular complex algebraic varieties, formulated by Brasselet-Sch\\\"urmann-Yokura which expresses the Goresky-MacPherson homology $L$-classes in terms of suitable Hodge-theoretic $L$-classes, for quotient spaces $X/G$, where $G$ is a finite group and $X$ is a pure-dimensional complex projective variety. Assuming that an equivariant $K$-theoretical version of the conjecture holds for $X$, we show that the characteristic class conjecture holds for $X/G$. Without assuming the equivariant $K$-theoretical version, we show that the characteristic class conjecture holds for $X/G$, provided that it holds for all fixed point sets $X^g$ and that a suitable normally nonsingular inclusion assumption is satisfied. Our approach is to work in equivariant analytic $K$-homology and equivariant algebraic $G$-theory and to identify the corresponding localized classes. On the analytic side, we identify the Banagl-Zagier equivariant $L$-classes with localized Chern character of the equivariant $K$-homology class of the signature operator defined by Banagl-Leichtnam-Piazza. On the algebraic side, we compute the localization of the equivariant motivic Hodge-Chern class transformation of the intersection Hodge module.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Mohammadali Aligholi"
-    ],
-    "categories": [
-     "math.AG",
-     "math.AT"
-    ],
-    "date": "2026-10-08",
-    "link": "https://arxiv.org/abs/2610.09171",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.09171",
-    "pid": "2610.09171",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "On the conjectural Hodge index theorem for finite quotient spaces of singular varieties",
-    "watched": []
-   },
-   {
-    "abstract": "The finite-dimensional Pauli problem asks how many measurements in orthonormal bases determine every pure state of a \\(d\\)-level quantum system up to a global phase. Four bases always suffice, and the answer is known to be three for \\(d=2\\) and four for \\(d=3\\) and \\(d\\geq5\\). Dimension four remained open because the embedding argument used in other dimensions fails there: the pure-state space \\(\\mathbb{CP}^3\\) embeds in \\(\\R^9\\), the space of the nine independent probabilities of three bases. We show that three bases do not suffice in \\(\\C^4\\), so exactly four are needed. The same argument shows that no ten vectors in \\(\\C^4\\) do phase retrieval. Since eleven vectors are known to suffice, the smallest phase-retrieval frame and the smallest rank-one POVM distinguishing all pure states in \\(\\C^4\\) both have eleven elements. All three lower bounds follow from one statement: every six-dimensional real space of traceless Hermitian \\(4\\times4\\) matrices with a common isotropic vector, that is, a nonzero \\(e\\) with \\(e^*Te=0\\) for all \\(T\\) in the space, contains a nonzero matrix of rank at most two. We prove it with complex \\(K\\)-theory: otherwise, an odd unitary map on the five-sphere would have a \\(K^1\\)-class that is nonzero by antipodal symmetry but vanishes because of the isotropic vector.",
-    "ai_mode": "no-human-author-claimed",
-    "announce": "new",
-    "authors": [
-     "Dmitry Grinko"
-    ],
-    "categories": [
-     "quant-ph",
-     "math.AT",
-     "math.KT"
-    ],
-    "date": "2026-09-29",
-    "link": "https://hexagonmath.org/abs/2609.00126v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2609.00126v1",
-    "pid": "hexagon:2609.00126",
-    "reasons": [],
-    "source": "hexagon",
-    "tier": 4,
-    "title": "Pauli problem in dimension 4",
-    "watched": []
-   },
-   {
-    "abstract": "We present a scalable method for computing persistence pairing graphs from large cubical filtrations and use it to test whether graph organization among persistent classes contains information beyond persistence intervals alone. The method cancels equal-value pairs before global reduction, constructs the compressed complex in streaming form, and recovers graph transitions from one persistence reduction through projected relations and triangular event solves. We apply the method to 119 signed distance volumes from the DRP-372 porous media collection for permeability prediction. Each 256-cubed volume induces more than 135 million cubical cells before contraction, whereas the median compressed complex contains 37,471 generators. In validation grouped by material family, adding persistence pairing graph descriptors improves prediction over persistence summaries under both Ridge regression and partial least squares regression. In the stricter experiment that holds out one source project at a time, Ridge retains a modest improvement over persistence alone, although additional benefit beyond geometry and persistence is not consistent across projects. Two null models show that the observed persistence and graph coupling and edge target organization are strongly nonrandom, but neither uniquely explains the predictive improvement; the useful signal appears to reside mainly in coarser graph and event organization. Spatial analyses likewise distinguish persistence magnitude from graph prominence and reveal nonlocal organization among algebraically related persistence events. These results show that persistence pairing graphs provide structurally informative summaries beyond the barcode while exposing domain dependence and representative sensitivity that motivate more invariant relational descriptors.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "John Rick Manzanares"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-10-08",
-    "link": "https://arxiv.org/abs/2610.09897",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.09897",
-    "pid": "2610.09897",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Scalable persistence pairing graphs on scalar fields with an application to porous media",
+    "title": "Wedges, Rational completion and $\\mathbb Q$-bad spaces",
     "watched": []
    }
   ]
  },
  "seen": {
+  "0912.0727": "2026-10-09",
+  "1701.02945": "2026-10-09",
+  "1704.07574": "2026-10-09",
+  "1903.10793": "2026-10-09",
   "2008.08852": "2026-10-08",
   "2011.14649": "2026-10-08",
   "2109.01210": "2026-10-08",
@@ -1055,43 +1111,82 @@
   "2209.07495": "2026-10-08",
   "2209.12998": "2026-10-08",
   "2401.00866": "2026-10-08",
+  "2402.08262": "2026-10-09",
+  "2405.12559": "2026-10-09",
   "2405.20395": "2026-10-08",
+  "2405.21062": "2026-10-09",
+  "2406.07414": "2026-10-09",
+  "2408.01788": "2026-10-09",
   "2409.06553": "2026-10-08",
+  "2409.18348": "2026-10-09",
   "2410.10552": "2026-10-08",
   "2411.17370": "2026-10-08",
   "2501.16259": "2026-10-08",
   "2502.13867": "2026-10-08",
   "2505.04581": "2026-10-08",
   "2507.01226": "2026-10-08",
+  "2508.17485": "2026-10-09",
+  "2510.02195": "2026-10-09",
+  "2510.05813": "2026-10-09",
   "2510.11865": "2026-10-08",
   "2511.19282": "2026-10-08",
   "2511.21648": "2026-10-08",
+  "2511.22603": "2026-10-09",
+  "2512.00201": "2026-10-09",
   "2512.24783": "2026-10-08",
   "2602.22899": "2026-10-08",
+  "2603.04298": "2026-10-09",
+  "2603.12441": "2026-10-09",
+  "2603.26450": "2026-10-09",
+  "2604.15843": "2026-10-09",
+  "2604.16296": "2026-10-09",
+  "2604.17043": "2026-10-09",
+  "2604.24508": "2026-10-09",
+  "2604.25023": "2026-10-09",
+  "2604.25463": "2026-10-09",
   "2605.08394": "2026-10-08",
+  "2605.21337": "2026-10-09",
   "2605.25935": "2026-10-08",
   "2605.26768": "2026-10-08",
   "2605.30530": "2026-10-08",
   "2606.01371": "2026-10-08",
+  "2606.02854": "2026-10-09",
+  "2606.15758": "2026-10-09",
+  "2607.00322": "2026-10-09",
   "2607.02218": "2026-10-08",
+  "2607.16945": "2026-10-09",
   "2607.17026": "2026-10-08",
   "2607.17124": "2026-10-08",
+  "2607.19882": "2026-10-09",
   "2608.01031": "2026-10-08",
   "2608.03434": "2026-10-08",
+  "2608.07849": "2026-10-09",
   "2608.08538": "2026-10-08",
   "2608.11308": "2026-10-08",
+  "2608.22434": "2026-10-09",
   "2608.22714": "2026-10-08",
+  "2608.25445": "2026-10-09",
+  "2609.01298": "2026-10-09",
+  "2609.01358": "2026-10-09",
+  "2609.10349": "2026-10-09",
   "2609.10912": "2026-10-08",
   "2609.11106": "2026-10-08",
+  "2609.15909": "2026-10-09",
+  "2609.20567": "2026-10-09",
+  "2609.25539": "2026-10-09",
   "2609.26269": "2026-10-08",
+  "2609.27916": "2026-10-09",
   "2609.28435": "2026-10-08",
+  "2609.29568": "2026-10-09",
   "2609.38068": "2026-10-08",
   "2609.38675": "2026-10-08",
   "2609.39536": "2026-10-08",
   "2609.39707": "2026-10-08",
   "2609.39745": "2026-10-08",
+  "2610.03069": "2026-10-09",
   "2610.03100": "2026-10-08",
   "2610.03584": "2026-10-08",
+  "2610.04516": "2026-10-09",
   "2610.05441": "2026-10-08",
   "2610.07280": "2026-10-08",
   "2610.07648": "2026-10-08",
@@ -1143,6 +1238,66 @@
   "2610.10451": "2026-10-08",
   "2610.10509": "2026-10-08",
   "2610.10537": "2026-10-08",
+  "2610.10652": "2026-10-09",
+  "2610.10708": "2026-10-09",
+  "2610.10775": "2026-10-09",
+  "2610.10777": "2026-10-09",
+  "2610.10784": "2026-10-09",
+  "2610.10821": "2026-10-09",
+  "2610.10828": "2026-10-09",
+  "2610.10880": "2026-10-09",
+  "2610.10896": "2026-10-09",
+  "2610.10925": "2026-10-09",
+  "2610.10930": "2026-10-09",
+  "2610.10940": "2026-10-09",
+  "2610.11013": "2026-10-09",
+  "2610.11032": "2026-10-09",
+  "2610.11101": "2026-10-09",
+  "2610.11109": "2026-10-09",
+  "2610.11110": "2026-10-09",
+  "2610.11276": "2026-10-09",
+  "2610.11326": "2026-10-09",
+  "2610.11340": "2026-10-09",
+  "2610.11406": "2026-10-09",
+  "2610.11427": "2026-10-09",
+  "2610.11497": "2026-10-09",
+  "2610.11545": "2026-10-09",
+  "2610.11565": "2026-10-09",
+  "2610.11576": "2026-10-09",
+  "2610.11594": "2026-10-09",
+  "2610.11671": "2026-10-09",
+  "2610.11708": "2026-10-09",
+  "2610.11785": "2026-10-09",
+  "2610.11800": "2026-10-09",
+  "2610.11802": "2026-10-09",
+  "2610.11864": "2026-10-09",
+  "2610.11905": "2026-10-09",
+  "2610.11925": "2026-10-09",
+  "2610.11979": "2026-10-09",
+  "2610.12013": "2026-10-09",
+  "2610.12071": "2026-10-09",
+  "2610.12078": "2026-10-09",
+  "2610.12079": "2026-10-09",
+  "2610.12080": "2026-10-09",
+  "2610.12091": "2026-10-09",
+  "2610.12092": "2026-10-09",
+  "2610.12175": "2026-10-09",
+  "2610.12192": "2026-10-09",
+  "2610.12197": "2026-10-09",
+  "2610.12221": "2026-10-09",
+  "2610.12222": "2026-10-09",
+  "2610.12234": "2026-10-09",
+  "2610.12255": "2026-10-09",
+  "2610.12261": "2026-10-09",
+  "2610.12263": "2026-10-09",
+  "2610.12277": "2026-10-09",
+  "2610.12280": "2026-10-09",
+  "2610.12288": "2026-10-09",
+  "2610.12330": "2026-10-09",
+  "2610.12331": "2026-10-09",
+  "2610.12344": "2026-10-09",
+  "2610.12364": "2026-10-09",
+  "2610.12384": "2026-10-09",
   "hexagon:2609.00001": "2026-10-08",
   "hexagon:2609.00102": "2026-10-08",
   "hexagon:2609.00104": "2026-10-08",
@@ -1231,6 +1386,9 @@
   "hexagon:2610.00155": "2026-10-08",
   "hexagon:2610.00156": "2026-10-08",
   "hexagon:2610.00157": "2026-10-08",
-  "hexagon:2610.00159": "2026-10-08"
+  "hexagon:2610.00159": "2026-10-08",
+  "hexagon:2610.00160": "2026-10-09",
+  "hexagon:2610.00162": "2026-10-09",
+  "hexagon:2610.00163": "2026-10-09"
  }
 }
