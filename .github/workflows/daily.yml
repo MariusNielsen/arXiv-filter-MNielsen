@@ -2,9 +2,14 @@ name: daily filter
 
 on:
   schedule:
-    # 04:30 UTC = 06:30 Berlin (summer) / 05:30 (winter). arXiv announces at 00:00 UTC (20:00 New York),
-    # Sunday-Thursday nights, so Mon-Fri mornings have new listings. Weekend runs just find nothing new.
-    - cron: "30 4 * * *"
+    # arXiv announces at 00:00 UTC (20:00 New York), Sunday-Thursday nights, so Mon-Fri mornings
+    # have new listings. GitHub sometimes delays or silently drops scheduled runs, so there are
+    # backups; runs are idempotent (a later run the same day merges into that day's page).
+    # Odd minutes avoid the top-of-hour congestion. Times in UTC (Berlin = UTC+2 summer / +1 winter).
+    - cron: "17 4 * * *"
+    - cron: "43 5 * * *"
+    - cron: "11 7 * * *"
+    - cron: "37 9 * * *"
   workflow_dispatch:
     inputs:
       mode:

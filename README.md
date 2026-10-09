@@ -1,7 +1,7 @@
 # arXiv filter
 
 Daily filtered digest of arXiv (math.AT, AG, CT, KT, RT) and hexagonmath.org,
-by followed authors and keywords. Runs on GitHub Actions at 06:30 Berlin and
+by followed authors and keywords. Runs on GitHub Actions around 06:15 Berlin (with backup runs until ~11:40) and
 publishes to GitHub Pages:
 
 - **Digest:** `https://mariusnielsen.github.io/arXiv-filter-MNielsen/`
