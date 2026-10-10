@@ -548,6 +548,30 @@ def save_state(st: dict):
 # --------------------------------------------------------------------------- modes
 
 
+def export_day(day: str, papers: list[Paper], cfg):
+    """Write every classified paper of the day (unmatched ones too) to docs/data/<day>.json,
+    merging with earlier runs of the same day. Read by the recommendation task."""
+    out = DOCS / "data"
+    out.mkdir(parents=True, exist_ok=True)
+    f = out / f"{day}.json"
+    old = json.loads(f.read_text()) if f.exists() else {"papers": []}
+    by_id = {d["pid"]: d for d in old["papers"]}
+    for p in papers:
+        d = p.to_json()
+        d.pop("watched", None)
+        d["watched_authors"] = sorted(p.watched)
+        by_id[p.pid] = d
+    rows = sorted(by_id.values(), key=lambda d: (d["tier"], d["title"].lower()))
+    f.write_text(json.dumps({"day": day, "updated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+                             "categories": cfg["categories"], "papers": rows}, ensure_ascii=False, indent=0))
+    # keep three weeks of daily files and an index of what exists
+    files = sorted(out.glob("20??-??-??.json"))
+    for old_f in files[:-21]:
+        old_f.unlink()
+    days = sorted((x.stem for x in out.glob("20??-??-??.json")), reverse=True)
+    (out / "index.json").write_text(json.dumps({"days": days, "latest": days[0] if days else None}))
+
+
 def run_daily(cfg, authors, kws, fixtures: Path | None = None):
     st = load_state()
     today = dt.date.today().isoformat()
@@ -582,6 +606,8 @@ def run_daily(cfg, authors, kws, fixtures: Path | None = None):
         classify(p, cfg, authors, kws)
     shown = sorted([p for p in papers if p.tier < 9], key=lambda p: (p.tier, p.title.lower()))
 
+    if papers:
+        export_day(today, papers, cfg)
     for p in papers:
         st["seen"][p.pid] = today
     hex_dates = [p.date for p in papers if p.source == "hexagon" and p.date]
