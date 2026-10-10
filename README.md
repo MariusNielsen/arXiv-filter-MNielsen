@@ -40,3 +40,15 @@ Editing a file on github.com (works from the phone too) takes effect at the next
   `hexagon.drop_ai_generated: true` in `config.yaml` to hide AI-generated ones.
 
 Local: `pip install pyyaml && python arxiv_filter.py`.
+
+## Recommendations
+
+A Claude scheduled task ("arXiv digest recommendations", weekdays 07:47 and 12:47 Berlin)
+reads `docs/data/<day>.json`, judges every paper (including the ones the rules hide)
+against an interest profile, and writes the day to the digest page on claude.ai, which
+records the papers you open and your Interesting / Not for me ratings. The profile and
+weekly keyword/author suggestions are updated from that feedback.
+
+- `recommender/INSTRUCTIONS.md`: what each run does (edit to change its behaviour)
+- `recommender/profile_seed.md`: the starting interest profile
+- `recommender/build_day.py`: assembles the page record for a day
