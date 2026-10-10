@@ -56,6 +56,9 @@ version conflict, re-read and redo that one write.
    - a recommended paper that was neither opened nor voted on for 3 or more days is weak
      negative evidence for that kind of recommendation;
    - his notes override inferences.
+   - feedback with `day` = "backtest" comes from his review of the recommender's picks over a
+     past 90-day window; it is ordinary evidence, and it is the most direct measure of which
+     kinds of recommendation he does and does not want.
    Record concrete patterns ("opened 4 of 5 condensed-math papers", "voted down two
    TDA papers") in a short "Signals" section with dates; drop stale or one-off signals
    when space runs out. Do not invent interests that the evidence does not support.
