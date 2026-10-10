@@ -694,6 +694,16 @@ def run_backtest(cfg, authors, kws, days: int):
            f"{counts[1]} author, {counts[2]} title, {counts[3]} abstract matches; {counts[4]} other math.AT; {counts[5]} unmatched (listed by category below)")
     DOCS.mkdir(exist_ok=True)
     (DOCS / "backtest.html").write_text(render_page("Backtest", shown, cfg, sub, nav_html(), group_rest=True), encoding="utf-8")
+    # every scanned paper, with its tier and submission date, for testing the recommender
+    rows = []
+    for p in papers:
+        d = p.to_json()
+        d.pop("watched", None)
+        d["watched_authors"] = sorted(p.watched)
+        rows.append(d)
+    (DOCS / "data").mkdir(parents=True, exist_ok=True)
+    (DOCS / "data" / "backtest.json").write_text(json.dumps(
+        {"from": f"{start:%Y-%m-%d}", "to": f"{end:%Y-%m-%d}", "papers": rows}, ensure_ascii=False))
     print(sub)
     return 0
 
