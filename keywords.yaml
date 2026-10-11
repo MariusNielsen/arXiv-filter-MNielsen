@@ -71,6 +71,14 @@ strong:
   - goodwillie
   - condensed (spectr|anima|math|set)
   - pyknotic
+  # added from the 90-day backtest ratings (Oct 2026)
+  - motivic (homotopy|spectr|sphere|steenrod|cohomolog|stable)
+  - algebraic k-theor
+  - duali[sz]able (additive |stable |presentable )?categor
+  - bousfield (lattice|class)
+  - slice filtration
+  - power operation
+  - stable module categor
   # tt-geometry, exact categories (your papers)
   - tensor[- ]triangula(t|r)
   - \btt[- ]geometr
@@ -96,6 +104,8 @@ title_only:
   - \btc\b
   - six[- ]functor
   - obstruction theor
+  - higher morita
+  - koszul dual
   - \bredshift\b
   - t[- ]structure
   - \bpicard

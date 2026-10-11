@@ -53,8 +53,8 @@ version conflict, re-read and redo that one write.
    characters), keeping its section structure:
    - an Interesting vote is strong evidence; Not for me is strong evidence against;
    - an opened paper without a vote is weak positive evidence;
-   - a recommended paper that was neither opened nor voted on for 3 or more days is weak
-     negative evidence for that kind of recommendation;
+   - a paper he neither opened nor rated is neutral: he leaves papers unrated when they
+     are neither interesting nor uninteresting to him, so draw no conclusion from it;
    - his notes override inferences.
    - feedback with `day` = "backtest" comes from his review of the recommender's picks over a
      past 90-day window; it is ordinary evidence, and it is the most direct measure of which
