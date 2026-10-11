@@ -1,6 +1,6 @@
 {
 "day": "2026-10-11",
-"updated": "2026-10-11T10:53:26+00:00",
+"updated": "2026-10-11T13:59:48+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -9,6 +9,29 @@
 "math.RT"
 ],
 "papers": [
+{
+"pid": "hexagon:2610.00193",
+"title": "A characterization of cut-percolating bigraphs",
+"abstract": "Conlon and Lee introduced reflection bigraphs and cut-percolation in their study of graph norms. We prove that, for connected bigraphs, these two notions coincide, confirming their prediction.",
+"authors": [
+"Václav Rozhoň"
+],
+"categories": [
+"math.CO",
+"math.GR",
+"cs.DM"
+],
+"link": "https://hexagonmath.org/abs/2610.00193v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00193v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-11",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
 {
 "pid": "hexagon:2610.00182",
 "title": "A counterexample to Han’s conjecture over arbitrary fields",
@@ -55,6 +78,29 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00192",
+"title": "A Machine-Checked Kernel for Federated Automated Adjudication: Credibility Lattice Completion, Certificate Lifecycle Invariants, Certified Numerical Anchors, and a Parameterized Rice Template",
+"abstract": "We present a formally specified and machine-checked kernel for a federated automated adjudication system, in which independent computational lines judge mathematical and operational claims and deposit their verdicts, evidence, and certificates in a shared ledger. The kernel comprises five components. (i) A three-rung, three-track credibility lattice obtained as a completion of a legacy five-element poset: the completion is justified by an exhaustive enumeration over all 11^{3}=1331 ordered triples and is fully re-formalized in Lean 4, where the equational lattice laws, the order axioms, and the extremality properties of join and meet are all proved by the decide procedure over the finite carrier. (ii) A five-state certificate lifecycle machine with nine legal transitions and machine-checked invariants, likewise re-formalized in Lean 4; the formalization caught a specification flaw in one invariant (the originally stated grant-gating condition is false), and we report the corrected, machine-proved form. (iii) Certified numerical anchors: uniqueness of the gauged fixed point of circulant entropic-optimal-transport (Sinkhorn) systems, established by a Krawczyk interval operator with outward rounding across a six-instance family (k in {6,10 }, varepsilon in {1,1/2,1/5 }, later extended to ten instances), together with a second anchor family of five auction-algorithm assignment instances certified by interval dual brackets. We state plainly that the certification of these numerical anchors is carried by the Python interval-arithmetic layer; the attempted port to the Lean 4 interval library leancert is blocked by structural capability boundaries of that library (absence of the logarithm from its supported expression grammar and infeasibility of its determinant computation at the required dimensions), and the Lean files are formal statements, not machine-verified certificates. (iv) A parameterized Lean 4 template for Rice-type undecidability, consisting of a bridge theorem, an extensionality lemma, an instantiation generator, and discharged instances of increasing difficulty. (v) A minimal trusted computing base result: the soundness of an interval certificate checker (accept implies correctness), itself machine-proved in Lean 4. All Lean artifacts were verified on cloud infrastructure (Axiom Axle, environment lean-4.28.0) under the strict verify_proof channel, with axiom audits restricted to propext, Classical.choice, and Quot.sound, and no sorryAx. Empirical fuzzing over three certificate families observed zero false accepts; we report rule-of-three 95% upper bounds on the false-accept rate and explicitly do not claim a guarantee.",
+"authors": [
+"Chepin Zhang"
+],
+"categories": [
+"cs.LO",
+"math.LO",
+"cs.MS"
+],
+"link": "https://hexagonmath.org/abs/2610.00192v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00192v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-11",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2610.00180",
 "title": "A variational formula for affine semicircular determinants",
 "abstract": "We express the Fuglede--Kadison determinant of an affine pencil in free semicircular operators as an infimum over positive definite matrices. The infimum is attained if and only if the pencil is boundedly invertible, in which case its minimizer is unique. At zero constant term, a scalar rescaling recovers the determinant-capacity identity of Mai and Speicher. For selfadjoint coefficients we compare the formula with a strictly constrained Hilbert--Schmidt variational principle and establish ordered min--max formulas under their respective positivity hypotheses. Strictly positive pencils admit a minimum over a linear matrix inequality. Applications to Brown measure include a uniform determinant lower bound, restrictions on atoms, radial distribution formulas, and a Hessian formula for the regularized density. The text of this manuscript was generated entirely by OpenAI's large language model Astra.",
@@ -70,6 +116,29 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-10-10",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00190",
+"title": "Aging in Spherical Spin Glass Dynamics",
+"abstract": "We study Langevin dynamics for the pure spherical $p$-spin glass with $p\\ge3$, with covariance $Nq^p$ and generator $\\Delta_S+\\beta\\nabla_SH_N\\cdot\\nabla_S$, started from a uniform point independent of the disorder. We let the dimension tend to infinity on fixed time horizons and study the long-time behavior of the resulting hard-spherical Cugliandolo–Kurchan equations for the correlation $C$ and the response $R$. At every positive temperature, their solution has a unique stationary limit at bounded time differences, which satisfies the fluctuation–dissipation theorem (FDT), and its energy converges. For $\\beta\\ge\\beta_{\\mathrm d}$, where $\\beta_{\\mathrm d}$ is the dynamical transition, we show that the plateau $q$ of the stationary correlation is the larger solution of the marginality relation $\\beta^2p(p-1)q^{p-2}(1-q)^2=1$, and we compute the limiting energy. Correlations with every fixed earlier state tend to zero. The limits of large waiting time and large time difference therefore do not commute, which proves aging of the correlation, including at the transition point. We also prove that the response at a late time, as a function of the time difference, converges to its stationary profile in $L^2$ and uniformly over all earlier times; that FDT in the later time holds uniformly over all earlier times; and that the integral of the squared violation of FDT in the earlier time tends to zero, while for $\\beta>\\beta_{\\mathrm d}$ the positive part $(\\partial_sC-R)_+$ of this violation keeps a positive integrated mass. For $\\beta\\ge\\beta_{\\mathrm d}$, the stationary correlation approaches its plateau as a power law, with the exponent predicted by mode-coupling theory and a finite positive amplitude. For the cubic model and $\\beta\\ge\\beta_{\\mathrm d}$, including the transition point, we prove a lower bound on the total susceptibility and a product inequality for correlations at three times; for $\\beta>\\beta_{\\mathrm d}$, we prove, for each fixed level below the plateau, an explicit asymptotic lower bound on the first passage time to that level multiplied by the entropy production during the passage. The aging proofs for the cubic and quartic models represent the correlation by vectors in a Hilbert space indexed by trees, and general pure interactions are treated with averages over finitely many independent futures and established algorithmic threshold bounds. The full fluctuation–dissipation relation of the aging regime and the time scale of aging remain open.",
+"authors": [
+"P. M. Aronow",
+"Patrick Lopatto"
+],
+"categories": [
+"math.PR",
+"math.MP"
+],
+"link": "https://hexagonmath.org/abs/2610.00190v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00190v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-11",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
@@ -131,6 +200,28 @@
 ],
 "link": "https://hexagonmath.org/abs/2610.00189v1",
 "pdf": "https://hexagonmath.org/pdf/2610.00189v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-11",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00191",
+"title": "BRUDNO’S FAMILIES OF EQUAL SUMS OF SIXTH POWERS AND BREMNER’S K3 SURFACE",
+"abstract": "Brudno (1970, 1976) and Brudno–Kaplansky (1974) found an elliptic family and a degree-four polynomial family of solutions of x^6 + y^6 + z^6 = u^6 + v^6 + w^6. We explain both in terms of the K3 surface V ⊂P5, the complete intersection of three quadrics studied by Bremner (1981) and Kuwata (2007). The Brudno–Kaplansky curve is Cremona’s curve 480f4 and is the fibre at λ=∞ of the elliptic pencil on V that Bremner calls the Brudno pencil; the curve z^2 = x^4 + 38x^2y^2 + y^4 of 1970 is 480f1, and the classical recursions of Lebesgue and Desboves that Brudno iterated are the multiplication maps [2] and [−3] on it. Brudno’s 1976 quartic is the unique rational curve of degree four on V (Bremner’s Theorem 4.4) and a section of the Brudno pencil; its parameter is the fibre coordinate λ, and the involution Brudno noticed is a linear symmetry of V. Using the Mordell–Weil lattice of the pencil we prove a closed formula for the degree of a section, deg C_S = 2⟨S−γ/4, S−γ/4⟩, enumerate all sections of degree ≤12 (four of them new, of degrees 7,10,11,11), and enumerate, by a lattice computation, all smooth rational curves of degree ≤12 on V over Q(i) and over Q, reproducing Bremner’s theorems and testing his conjecture. A census of the 74 primitive solutions with all terms ≤ 1343 identifies which of them lie on V, on known curves, on sections, and on fibres of jumping rank, and records some phenomena off V. In the second part we compute equations and parametrisations of the 48 new curves that are not sections and show that seven of the eight census solutions on no known curve lie on them, leaving a single unexplained point; we determine the geometry over C of the sextic fourfold M6, of the threefold W= M6 ∩M2 (which has exactly 710 nodes and defect 95) and of V (transcendental lattice U(2) ⊕⟨12⟩, zeta function through the newform 320f2), and discuss in what sense the geometry drives the arithmetic; and we show that Bremner’s conjecture follows, with non-explicit finite sets, from the theorems of Sterk and Bright–Logan–van Luijk, describe how to make it explicit (Borcherds–Shimada), and run the first step of Bremner’s own cone procedure, which identifies the degree-8 pencil involutions that the proof requires.",
+"authors": [
+"Alon Amit"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2610.00191v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00191v1",
 "source": "hexagon",
 "announce": "new",
 "date": "2026-10-11",
