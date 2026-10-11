@@ -1,0 +1,188 @@
+{
+"day": "2026-10-11",
+"updated": "2026-10-11T10:53:26+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2610.00182",
+"title": "A counterexample to Han’s conjecture over arbitrary fields",
+"abstract": "Based on the constructions of Kong–Liu–Shen and Liu–Shen, we give a counterexample to Han’s conjecture over every field.",
+"authors": [
+"琪越 唐"
+],
+"categories": [
+"math.RT",
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2610.00182v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00182v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-10",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00188",
+"title": "A counterexample to Vaught's Conjecture for $L_{\\omega_1,\\omega}$",
+"abstract": "We construct a sentence of $L_{\\omega_1,\\omega}$ having exactly $\\aleph_1$ many countable models up to isomorphism, but no perfect set of non-isomorphic models. This disproves Vaught's conjecture for infinitary logic. The construction follows a framework devised by Robin Knight, and the proof has been formally verified in Lean.",
+"authors": [
+"Nathanael L. Ackerman",
+"Cameron Freer",
+"Robin W. Knight"
+],
+"categories": [
+"math.LO"
+],
+"link": "https://hexagonmath.org/abs/2610.00188v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00188v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-10",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00180",
+"title": "A variational formula for affine semicircular determinants",
+"abstract": "We express the Fuglede--Kadison determinant of an affine pencil in free semicircular operators as an infimum over positive definite matrices. The infimum is attained if and only if the pencil is boundedly invertible, in which case its minimizer is unique. At zero constant term, a scalar rescaling recovers the determinant-capacity identity of Mai and Speicher. For selfadjoint coefficients we compare the formula with a strictly constrained Hilbert--Schmidt variational principle and establish ordered min--max formulas under their respective positivity hypotheses. Strictly positive pencils admit a minimum over a linear matrix inequality. Applications to Brown measure include a uniform determinant lower bound, restrictions on atoms, radial distribution formulas, and a Hessian formula for the regularized density. The text of this manuscript was generated entirely by OpenAI's large language model Astra.",
+"authors": [
+"Sheng Yin"
+],
+"categories": [
+"math.OA",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2610.00180v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00180v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-10",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00187",
+"title": "An Irrationality Measure for Catalan's Constant",
+"abstract": "Building on OpenAI's recent proof that Catalan's constant $G=\\sum_{j\\ge0}(-1)^j/(2j+1)^2$ is irrational, we prove that \\[ \\left|G-\\frac ab\\right|>b^{-61\\,300} \\] for all integers $a$ and all sufficiently large integers $b$. Thus the irrationality exponent of $G$ is at most $61\\,300$; without the prime number theorem in the final step the same argument gives $182\\,500$. The previous best bound, due to Jha, is $10^8$. The new ingredient is a perturbation estimate for OpenAI's determinant, viewed as a polynomial $\\Delta_N(X)$ in the constant: on the interval $|x-G|\\le e^{-412N}$ the polynomial moves by no more than OpenAI's bound for $|\\Delta_N(G)|$. It is proved by a quadrature formula for the coefficient of the constant, an Andr\\'eief identity with fixed columns, a generalized Vandermonde bound, and OpenAI's energy method rerun for configurations with fewer points. Every step, including the final theorem, is formalized in Lean~4 on top of OpenAI's formalization, without \\texttt{sorry} and with only the standard axioms.",
+"authors": [
+"Sean Litsey"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00187v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00187v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-10",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00185",
+"title": "Arithmetic progressions with prescribed lp gaps",
+"abstract": "For every $n\\ge3$ and $p\\in[1,\\infty)\\setminus\\{1,2,\\ldots,n-1\\}$, we prove that every measurable subset of $\\mathbf{R}^d$ of positive upper Banach density, with $d\\ge2^{n-2}+1$, contains an $n$-term arithmetic progression with every sufficiently large prescribed $\\ell^p$ gap.",
+"authors": [
+"Vjekoslav Kovač"
+],
+"categories": [
+"math.CA",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00185v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00185v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-10",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00189",
+"title": "Bruck loops with abelian inner mapping groups: a short proof",
+"abstract": "Phillips and Stanovský proved that a Bruck loop with abelian inner mapping group has central nilpotency class at most two and asked for a human-friendly proof. We give a short self-contained proof: a displacement cocycle produces a commutant-valued endomorphism, right alternativity for commutant elements forces its image to be fixed, and cocycle rigidity makes that image central. This yields the abelian center quotient.",
+"authors": [
+"Bartosz Naskrecki"
+],
+"categories": [
+"math.GR"
+],
+"link": "https://hexagonmath.org/abs/2610.00189v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00189v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-11",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00186",
+"title": "Stark units for real quadratic fields and reciprocity laws",
+"abstract": "We prove that every value of the arithmetic finite quantum dilogarithms constructed by Radchenko and Wheeler (arXiv:2609.21892) is an algebraic unit, and determine the Artin action for arbitrary quadratic pseudolattices. In particular, the associated Stark units belong to the predicted ray class fields and have the predicted Galois action. We use finite Fourier transforms and distribution relations to obtain Frobenius congruences. We also give conductor bounds for individual values and obtain the unitary conjugates needed for Zauner's conjecture.",
+"authors": [
+"Danylo Radchenko",
+"Campbell Wheeler"
+],
+"categories": [
+"math.NT",
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2610.00186v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00186v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-10",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00178",
+"title": "Unconditional implications of the Quasi-Riemann Hypothesis",
+"abstract": "This record identifies published conclusions formerly obtained under RH or GRH whose proofs require only a fixed zero-free half-plane for Dirichlet $L$-functions, with further applications of finite-order Hecke $L$-functions over $\\mathbb Q(\\sqrt{-3})$. The input is the $7/8$ theorem stated in the recent OpenAI manuscript claiming to prove the quasi-Riemann Hypothesis. We give the uniform analytic deductions explicitly and distinguish them from previously established algebraic and combinatorial results used in the proofs. An accompanying audit records the source verification and rejected candidates. No theorem about all number-field or automorphic $L$-functions is inferred from the Dirichlet statement; the pure cubic and cubic-nonresidue applications separately identify the precise fixed-field Hecke input.",
+"authors": [
+"Shubhrajit Bhattacharya"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00178v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00178v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-10",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
