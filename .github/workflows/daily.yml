@@ -10,6 +10,10 @@ on:
     - cron: "43 5 * * *"
     - cron: "11 7 * * *"
     - cron: "37 9 * * *"
+  # Reliable start: a Claude scheduled task pushes trigger/kick.txt each weekday morning
+  # (GitHub's own cron has been running hours late on this repository).
+  push:
+    paths: ["trigger/**"]
   workflow_dispatch:
     inputs:
       mode:
@@ -38,7 +42,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Daily run
-        if: github.event_name == 'schedule' || inputs.mode == 'daily'
+        if: github.event_name != 'workflow_dispatch' || inputs.mode == 'daily'
         run: python arxiv_filter.py
 
       - name: Backtest
