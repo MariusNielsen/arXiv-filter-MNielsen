@@ -87,18 +87,24 @@ version conflict, re-read and redo that one write.
 7. **Update the index.** meta/index `days` = D added to the existing list, newest first,
    at most 21 entries. Delete `days/<x>` documents that fall off the list.
 
-8. **Suggestions, weekly.** If `meta/state.last_suggestions` is missing or more than 6
+8. **Requests in his notes.** If the notes ask for a change to the followed authors or the
+   keywords (for example "follow X"), you cannot make it yourself: put it at the top of
+   meta/suggestions right away, marked as his request, so it is visible on the page until
+   someone applies it. Check `authors.yaml` / `keywords.yaml` in the clone first and say
+   so if it is already there.
+
+9. **Suggestions, weekly.** If `meta/state.last_suggestions` is missing or more than 6
    days old, and there is at least some feedback, write meta/suggestions: at most 8
    concrete proposed edits to `keywords.yaml` / `authors.yaml` in the repository
    (pattern or name, add or remove, one-line evidence each). Read the current files in
    the clone first so you do not propose what is already there. Do not edit the
    repository yourself.
 
-9. **Record state.** meta/state `{last_day: D, last_source_updated: <data file updated>,
+10. **Record state.** meta/state `{last_day: D, last_source_updated: <data file updated>,
    feedback_seen: <number of feedback docs>, last_suggestions: <date if written, else
    previous>, last_run: <now ISO>}`.
 
-10. **Finish** with a two-line summary: the day processed, how many papers were scanned
+11. **Finish** with a two-line summary: the day processed, how many papers were scanned
     and recommended, and whether the profile or suggestions changed.
 
 Never write anything other than the documents above, never push to the repository, and
