@@ -1,6 +1,6 @@
 {
 "day": "2026-10-12",
-"updated": "2026-10-12T08:18:48+00:00",
+"updated": "2026-10-12T16:42:30+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -312,6 +312,28 @@
 "announce": "cross",
 "date": "2026-10-12",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00200",
+"title": "A quasi-Riemann hypothesis for Dedekind zeta functions",
+"abstract": "Recent work on Artin's primitive root conjecture establishes a zero-free half-plane $\\Rea s>1-10^{-6}$ for finite-order Hecke $L$-functions over cyclotomic fields containing $e^{2\\pi i/12}$. Following their strategy, we prove that if $K$ is any number field, then the Dedekind zeta function $\\zeta_K(s)$ does not vanish in the half-plane $\\Rea s>1-1/6000$. As a corollary, the $L$-function of any finite-order Hecke character defined over $K$ also does not vanish in the half-plane $\\Rea s > 1-1/6000$. The proofs were generated and verified in Lean using AxiomProver. Compared to the work on Artin's primitive root conjecture, the hardest part was the formalization of the work of Kazhdan and Patterson on metaplectic forms in order to accommodate all number fields.",
+"authors": [
+"Dean Cureton",
+"Jesse Thorner"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00200v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00200v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-12",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -794,6 +816,50 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00199",
+"title": "Finite Field Riesz-Frechet Representation",
+"abstract": "We derive a Riesz-Frechet representation for bounded linear functionals defined on the inner product spaces over sub-valued finite fields.",
+"authors": [
+"K. MAHESH KRISHNA"
+],
+"categories": [
+"math.FA",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2610.00199v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00199v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-12",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00201",
+"title": "Finite quantum theta functions for skew-symmetrizable seeds",
+"abstract": "For integral compatible skew-symmetrizable seeds, finite quantum theta functions form a bar-invariant, mutation-compatible basis of an algebra between the cluster and upper cluster algebras. We prove leading-coefficient positivity, valuative independence, unit Newton vertex coefficients, and independence under coefficientwise base change. We obtain upper theta bases for large cluster complexes, reddening classes, and Markov matrices and their one-way acyclic extensions. In mutation-acyclic classes, these are also bases of the cluster algebra.",
+"authors": [
+"琪越 唐"
+],
+"categories": [
+"math.QA",
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2610.00201v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00201v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2610.13100",
 "title": "Finiteness of planar central configurations of five bodies for all positive masses",
 "abstract": "We prove that for every choice of five positive masses the planar five-body problem has finitely many central configurations up to similarity. This settles Smale's sixth problem for five bodies in the plane. Albouy and Kaloshin proved it for masses outside a closed algebraic subset of codimension two. We follow their method. Infinitely many central configurations would give an algebraic curve of complex solutions. At the places at infinity of the curve the valuations of the mutual distances must balance. We determine the possible valuation vectors at all positive masses, together with the mass conditions under which each can occur. We treat limits in which four bodies form a cluster of zero potential energy by expanding the potential, which is constant along the curve, at a place. This excludes, at every positive mass, one of the two diagrams in which such clusters occur, and part of the other. The same expansion excludes one further diagram at every positive mass. What remains is an exact analysis, by computer algebra, of the sets of mass conditions that can hold together at positive masses. Exact rational certificates show that the balance fails under each of them, except on a few one-parameter families of masses, which we treat separately. On the rays through $(1,4,4,4,4)$ and $(1,1,4,4,4)$ the certificates do not apply. On the first ray they cannot apply: there the complex equations have a continuum of solutions, as Albouy and Kaloshin observed. On these rays we count the real central configurations: there are 306 and 294 up to orientation-preserving similarity. The certificates, the programs that check them and a proof of the theorem in the Lean proof assistant are available.",
@@ -1183,6 +1249,28 @@
 "announce": "replace-cross",
 "date": "2026-10-12",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00198",
+"title": "Infinitely Many Elliptic Curves of Exact Ranks Five, Six, and Seven",
+"abstract": "We prove that for each $r\\in\\{5,6,7\\}$, there exist infinitely many elliptic curves over $\\mathbb{Q}$, pairwise nonisomorphic over $\\overline{\\mathbb{Q}}$, whose Mordell–Weil rank over $\\mathbb{Q}$ is exactly $r$. Zywina recently proved the analogous statement for $0\\le r\\le 4$ over every number field, and our proof follows his strategy. For each $r$, we give an explicit pair of $2$-isogenous elliptic curves whose discriminants are, up to constants, products of powers of twelve binary linear forms in two integer parameters. The families are obtained from Zywina's curves of rank four, or from a related pair of curves, by base change along a conic. Explicit rational points give lower bounds for the images of the two descent maps. We specialize at parameters in a fixed congruence class at which the twelve linear forms, divided by fixed constants, take prime values. There, necessary local conditions in the descent become linear equations over $\\mathbb{F}_2$, and their solution spaces have the same dimensions as the lower bounds. The coefficients of these equations are determined by the congruence class up to a single sign, and both values of this sign give the same bound. The Green–Tao–Ziegler theorem on linear equations in primes then gives infinitely many such specializations, with infinitely many $j$-invariants.",
+"authors": [
+"P. M. Aronow",
+"Patrick Lopatto"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00198v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00198v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-12",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
