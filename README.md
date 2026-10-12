@@ -1,7 +1,7 @@
 # arXiv filter
 
 Daily filtered digest of arXiv (math.AT, AG, CT, KT, RT) and hexagonmath.org,
-by followed authors and keywords. Runs on GitHub Actions around 06:15 Berlin (with backup runs until ~11:40) and
+by followed authors and keywords. Runs on GitHub Actions at about 06:05 Berlin on weekdays (started by a Claude scheduled task that pushes `trigger/kick.txt`, since GitHub's own cron runs hours late; the cron entries remain as a fallback) and
 publishes to GitHub Pages:
 
 - **Digest:** `https://mariusnielsen.github.io/arXiv-filter-MNielsen/`
@@ -43,7 +43,8 @@ Local: `pip install pyyaml && python arxiv_filter.py`.
 
 ## Recommendations
 
-A Claude scheduled task ("arXiv digest recommendations", weekdays 07:47 and 12:47 Berlin)
+A Claude scheduled task ("arXiv digest recommendations", weekdays 07:47 and 12:47 Berlin;
+the 12:47 pass catches late days and does nothing otherwise)
 reads `docs/data/<day>.json`, judges every paper (including the ones the rules hide)
 against an interest profile, and writes the day to the digest page on claude.ai, which
 records the papers you open and your Interesting / Not for me ratings. The profile and
