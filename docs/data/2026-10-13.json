@@ -1,6 +1,6 @@
 {
 "day": "2026-10-13",
-"updated": "2026-10-13T12:56:15+00:00",
+"updated": "2026-10-13T17:05:34+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -113,6 +113,28 @@
 "announce": "new",
 "date": "2026-10-13",
 "ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00221",
+"title": "Deterministic Integer 3SUM in O(n^1.999017) Time via a Sharper Binomial-Tail Analysis",
+"abstract": "We refine the analysis of the deterministic integer 3SUM algorithm of Alman and Vassilevska Williams (arXiv:2610.06783v1). Within their framework of thin matrix products and reductions through Exact Triangle, we obtain a worst-case running time of O(n^1.999017) for polynomially bounded integer inputs on a word RAM with O(log n)-bit words. The main refinement retains the binomial tail in the preprocessing cost instead of replacing it immediately by a uniform geometric bound. An entropy estimate yields a strictly larger preprocessing saving exponent, while preserving the query algorithm and its complexity. With explicit rational parameters c = 21, theta = 0.11202, a = 0.05665, and s = 0.06945, the resulting 3SUM exponent is 1.999016414375 + o(1), giving the stated fixed exponent with a positive margin. Separately, retuning the existing analysis without the tail refinement gives O(n^1.999073). We account for encoding, queries, prime selection, instance construction, witness scanning, and parameter rounding. The numerical inequalities are certified using exact rational interval arithmetic with explicit logarithm remainder bounds. Independent computations provide additional consistency checks. The contribution is a refinement of an existing algorithmic analysis, rather than a new matrix multiplication construction or reduction. No complete Lean formalization of the improved running-time bounds is claimed, and no global optimality or priority claim is made.",
+"authors": [
+"宇轩 徐"
+],
+"categories": [
+"cs.DS",
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2610.00221v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00221v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-13",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
