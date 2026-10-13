@@ -1,6 +1,6 @@
 {
 "day": "2026-10-13",
-"updated": "2026-10-13T11:54:21+00:00",
+"updated": "2026-10-13T12:56:15+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -27,6 +27,28 @@
 "ai_mode": "human",
 "other_links": {},
 "tier": 4,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00216",
+"title": "A seven-eighths zero-free half-plane for unitary Weil L-functions",
+"abstract": "We prove that for every number field $F$ and every finite-dimensional continuous unitary representation $r$ of the global Weil group $W_F$, the $L$-function $L_F(s,r)$ has no zeros in $\\operatorname{Re} s>7/8$, and that its only poles in this half-plane are at $s=1+it$, with order equal to the multiplicity of $\\mathcal N_F^{it}$ in $r$. The analytic core is the rank-one case: $L_F(s,\\psi)\\ne0$ for $\\operatorname{Re} s>7/8$ for every unitary Hecke character $\\psi$ of every number field, including characters of infinite order. This extends the cubic-theta method of the OpenAI quasi-Riemann preprint, which treats finite-order characters over $\\mathbb Q(\\sqrt{-3})$, by transferring its estimates to number fields containing $\\mu_{12}$ and to families of fixed infinity type, followed by an abelian descent. Brauer induction and Frobenius reciprocity then give the result in every dimension. Consequences include the same half-plane for all Artin $L$-functions and their unitary Hecke twists, an effective Chebotarev theorem, cuspidal weight-one newforms, and CM motives after the appropriate weight shift.",
+"authors": [
+"Boyang Hu"
+],
+"categories": [
+"math.NT",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2610.00216v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00216v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-13",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
 "reasons": [],
 "watched_authors": []
 },
