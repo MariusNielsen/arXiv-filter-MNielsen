@@ -1,6 +1,31 @@
 {
  "feed": [
   {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "A finite free chain model for the homology of a Hausdorff ample groupoid \\(G\\) is cut out of the Matui complex by a finite clopen partition of each nerve space. We ask what such a model must supply and isolate three requirements: a single model that is a quasi-isomorphism, a chain of models that is a complete system with ranks and transition maps read off the presenting data, and a bound on the number of atoms in terms of the presenting cover. An \\(n\\)-Helly axiom on the presenting covers supplies none of them, being satisfied by every finite atomization for every \\(n\\), and a \\(1\\)-Helly family of \\(N\\) compact open sets can have \\(2^{N}-1\\) atoms. We show that a laminar presentation, a laminar basis of compact open sets in each nerve degree, supplies the third, and the second as soon as it is countable: the atoms of a finite laminar family are exactly its nonempty nodes, so a subordinate model has rank at most the number of members presenting it, the subordinate models of finite height form a complete system containing, for a countable presentation, a chain that is itself complete, and the transition maps are the least-ancestor maps of the presenting subfamilies. Every second countable Hausdorff ample groupoid admits one, and the choice is made in each nerve degree separately, laminarity not being stable under products. The first requirement is a restriction on \\(G\\): the homology of a model is finitely generated over a Noetherian ring, whereas \\(H_0\\) over \\(\\mathbb Z\\) is not for the unit groupoid on a Cantor set or for the CAR groupoid, and a truncated model carries free homology of arbitrary rank in arbitrarily high odd degree where the groupoid has none. The chain-level statements are accompanied by a Lean 4 formalization.",
+    "ai_mode": "human",
+    "announce": "new",
+    "authors": [
+     "Luciano Melodia"
+    ],
+    "categories": [
+     "math.KT",
+     "math.AT"
+    ],
+    "date": "2026-10-13",
+    "link": "https://hexagonmath.org/abs/2610.00218v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2610.00218v1",
+    "pid": "hexagon:2610.00218",
+    "reasons": [],
+    "source": "hexagon",
+    "tier": 4,
+    "title": "A Note on Laminar Presentations and Finite Chain Models for Ample Groupoid Homology",
+    "watched": []
+   }
+  },
+  {
    "day": "2026-10-13",
    "paper": {
     "abstract": "In this note we study extension of standard Euclidean degree in nonlinear analysis to the setting of general oriented topological manifolds. The axiomatization of Euclidean degree is adapted to this setting. Existence and uniqueness are proven. The existence does not rely on smooth approximations as in the Euclidean case -- this is irrelevant for manifolds which do not admit a smooth structure and could be ambiguous for manifolds admitting many smooth structures. Rather, we rely on a cohomological approach using only topological information. When compared to the Euclidean case, we think this approach makes the proofs simpler and more transparent. The standard notion of a degree of maps between closed oriented manifolds studied in algebraic topology is recovered as a special case. A generalization of the notion of winding number is developed and related to the notion of degree. The familiar composition formula of the Euclidean degree is also obtained in this context.",
@@ -1079,29 +1104,30 @@
    }
   }
  ],
- "hexagon_since": "2026-10-13",
+ "hexagon_since": "2026-10-14",
  "last_page": {
-  "day": "2026-10-13",
+  "day": "2026-10-14",
   "papers": [
    {
-    "abstract": "In this note we study extension of standard Euclidean degree in nonlinear analysis to the setting of general oriented topological manifolds. The axiomatization of Euclidean degree is adapted to this setting. Existence and uniqueness are proven. The existence does not rely on smooth approximations as in the Euclidean case -- this is irrelevant for manifolds which do not admit a smooth structure and could be ambiguous for manifolds admitting many smooth structures. Rather, we rely on a cohomological approach using only topological information. When compared to the Euclidean case, we think this approach makes the proofs simpler and more transparent. The standard notion of a degree of maps between closed oriented manifolds studied in algebraic topology is recovered as a special case. A generalization of the notion of winding number is developed and related to the notion of degree. The familiar composition formula of the Euclidean degree is also obtained in this context.",
+    "abstract": "A finite free chain model for the homology of a Hausdorff ample groupoid \\(G\\) is cut out of the Matui complex by a finite clopen partition of each nerve space. We ask what such a model must supply and isolate three requirements: a single model that is a quasi-isomorphism, a chain of models that is a complete system with ranks and transition maps read off the presenting data, and a bound on the number of atoms in terms of the presenting cover. An \\(n\\)-Helly axiom on the presenting covers supplies none of them, being satisfied by every finite atomization for every \\(n\\), and a \\(1\\)-Helly family of \\(N\\) compact open sets can have \\(2^{N}-1\\) atoms. We show that a laminar presentation, a laminar basis of compact open sets in each nerve degree, supplies the third, and the second as soon as it is countable: the atoms of a finite laminar family are exactly its nonempty nodes, so a subordinate model has rank at most the number of members presenting it, the subordinate models of finite height form a complete system containing, for a countable presentation, a chain that is itself complete, and the transition maps are the least-ancestor maps of the presenting subfamilies. Every second countable Hausdorff ample groupoid admits one, and the choice is made in each nerve degree separately, laminarity not being stable under products. The first requirement is a restriction on \\(G\\): the homology of a model is finitely generated over a Noetherian ring, whereas \\(H_0\\) over \\(\\mathbb Z\\) is not for the unit groupoid on a Cantor set or for the CAR groupoid, and a truncated model carries free homology of arbitrary rank in arbitrarily high odd degree where the groupoid has none. The chain-level statements are accompanied by a Lean 4 formalization.",
     "ai_mode": "human",
     "announce": "new",
     "authors": [
-     "Stoyan Apostolov"
+     "Luciano Melodia"
     ],
     "categories": [
+     "math.KT",
      "math.AT"
     ],
-    "date": "2026-10-12",
-    "link": "https://hexagonmath.org/abs/2610.00211v1",
+    "date": "2026-10-13",
+    "link": "https://hexagonmath.org/abs/2610.00218v1",
     "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2610.00211v1",
-    "pid": "hexagon:2610.00211",
+    "pdf": "https://hexagonmath.org/pdf/2610.00218v1",
+    "pid": "hexagon:2610.00218",
     "reasons": [],
     "source": "hexagon",
     "tier": 4,
-    "title": "Axiomatic degree theory on topological manifolds",
+    "title": "A Note on Laminar Presentations and Finite Chain Models for Ample Groupoid Homology",
     "watched": []
    }
   ]
@@ -1523,8 +1549,11 @@
   "hexagon:2610.00214": "2026-10-13",
   "hexagon:2610.00215": "2026-10-13",
   "hexagon:2610.00216": "2026-10-13",
+  "hexagon:2610.00218": "2026-10-14",
   "hexagon:2610.00219": "2026-10-13",
   "hexagon:2610.00220": "2026-10-13",
-  "hexagon:2610.00221": "2026-10-13"
+  "hexagon:2610.00221": "2026-10-13",
+  "hexagon:2610.00226": "2026-10-14",
+  "hexagon:2610.00228": "2026-10-14"
  }
 }
