@@ -182,7 +182,7 @@ def http_get(url: str, retries: int = 4, pause: float = 3.0) -> str:
     last = None
     for i in range(retries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Cache-Control": "no-cache", "Pragma": "no-cache"})
             with urllib.request.urlopen(req, timeout=60) as r:
                 return r.read().decode("utf-8")
         except urllib.error.HTTPError as e:
@@ -268,9 +268,31 @@ def parse_atom(xml: str, source: str) -> tuple[list[Paper], int]:
     return out, total
 
 
+class StaleFeed(Exception):
+    """The arXiv feed still shows an earlier announcement than the current one."""
+
+
+def expected_announcement_date(now: dt.datetime | None = None) -> dt.date:
+    """Date (New York) of the newest arXiv announcement that should exist now.
+    Announcements go out at 20:00 New York Sunday-Thursday and are dated the next day."""
+    from zoneinfo import ZoneInfo
+    ny = (now or dt.datetime.now(dt.timezone.utc)).astimezone(ZoneInfo("America/New_York"))
+    d = ny.date() if ny.hour < 20 else ny.date() + dt.timedelta(days=1)
+    while d.weekday() >= 5:          # Sat/Sun carry no announcement: the latest is Friday's
+        d -= dt.timedelta(days=1)
+    return d
+
+
 def fetch_arxiv_rss(cfg) -> list[Paper]:
     cats = "+".join(cfg["categories"])
-    return parse_arxiv_rss(http_get(f"https://rss.arxiv.org/rss/{cats}"))
+    xml = http_get(f"https://rss.arxiv.org/rss/{cats}?nocache={int(time.time())}")
+    m = re.search(r"<channel>.*?<pubDate>([^<]+)</pubDate>", xml, re.S)
+    if m:
+        feed_date = dt.datetime.strptime(m.group(1)[:16], "%a, %d %b %Y").date()
+        want = expected_announcement_date()
+        if feed_date < want:
+            raise StaleFeed(f"arXiv feed is dated {feed_date}, expected {want}")
+    return parse_arxiv_rss(xml)
 
 
 def api_query(base: str, search: str, start=0, n=200, sort="submittedDate") -> str:
@@ -294,7 +316,7 @@ def fetch_author_search(authors: Authors, days: int = 4) -> list[Paper]:
         q = f"({' OR '.join(terms[i:i + 15])}) AND submittedDate:[{since} TO {now}]"
         papers, _ = parse_atom(api_query("https://export.arxiv.org/api/query", q, n=100), "arxiv")
         out += papers
-        time.sleep(3.1)
+        time.sleep(6)
     return out
 
 
@@ -572,6 +594,52 @@ def export_day(day: str, papers: list[Paper], cfg):
     (out / "index.json").write_text(json.dumps({"days": days, "latest": days[0] if days else None}))
 
 
+def run_backfills(st, cfg, authors, kws):
+    """Process lines 'DAY FROM TO' in trigger/backfill.txt (FROM/TO = YYYYMMDDHHMM UTC submission
+    window, as the arXiv API understands it): papers from that window that were never seen are
+    exported as DAY's data file and archive page. Each line is processed once."""
+    f = ROOT / "trigger" / "backfill.txt"
+    if not f.exists():
+        return
+    done = set(st.setdefault("backfills_done", []))
+    cats = " OR ".join(f"cat:{c}" for c in cfg["categories"])
+    for line in f.read_text().splitlines():
+        parts = line.split("#")[0].split()
+        if len(parts) != 3 or line.strip() in done:
+            continue
+        day, start, end = parts
+        try:
+            q = f"({cats}) AND submittedDate:[{start} TO {end}]"
+            got, offset, total = [], 0, None
+            while total is None or offset < total:
+                batch, total = parse_atom(api_query("https://export.arxiv.org/api/query", q, start=offset, n=500), "arxiv")
+                if not batch:
+                    break
+                got += batch
+                offset += len(batch)
+                time.sleep(4)
+        except Exception as e:
+            print(f"WARNING backfill {day}: {e}", file=sys.stderr)
+            continue
+        for p in got:
+            p.announce = "new"
+        new = [p for p in merge(got) if p.pid not in st["seen"]]
+        for p in new:
+            classify(p, cfg, authors, kws)
+            st["seen"][p.pid] = day
+        if new:
+            export_day(day, new, cfg)
+            shown = sorted([p for p in new if p.tier < 9], key=lambda p: (p.tier, p.title.lower()))
+            matches = sum(p.tier <= 3 for p in shown)
+            sub = f"{day} · {matches} matches, {len(shown) - matches} others · filled in afterwards"
+            (DOCS / "archive").mkdir(parents=True, exist_ok=True)
+            (DOCS / "archive" / f"{day}.html").write_text(
+                render_page(f"{cfg['output']['site_title']} · {day}", shown, cfg, sub, nav_html("../")), encoding="utf-8")
+            write_archive_index(cfg)
+        print(f"backfill {day}: {len(got)} fetched, {len(new)} new")
+        st["backfills_done"].append(line.strip())
+
+
 def run_daily(cfg, authors, kws, fixtures: Path | None = None):
     st = load_state()
     today = dt.date.today().isoformat()
@@ -595,12 +663,23 @@ def run_daily(cfg, authors, kws, fixtures: Path | None = None):
             papers += parse_atom((fixtures / "author_search.xml").read_text(), "arxiv")[0]
     else:
         if src.get("arxiv", True):
-            papers += attempt("arXiv RSS", lambda: fetch_arxiv_rss(cfg))
+            try:
+                papers += fetch_arxiv_rss(cfg)
+            except StaleFeed as e:
+                # Do nothing at all: marking the old listing as seen would hide nothing, but
+                # the run would otherwise publish a near-empty day. A later run picks it up.
+                print(f"{e}; leaving everything unchanged until the feed is updated.")
+                return 0
+            except Exception as e:
+                errors.append(f"arXiv RSS: {e}")
+                print(f"WARNING arXiv RSS: {e}", file=sys.stderr)
         if src.get("arxiv_author_search", True):
             papers += attempt("arXiv author search", lambda: fetch_author_search(authors))
         if src.get("hexagon", True):
             papers += attempt("Hexagon", lambda: fetch_hexagon(cfg, st.get("hexagon_since")))
 
+    if not fixtures:
+        run_backfills(st, cfg, authors, kws)
     papers = [p for p in merge(papers) if p.pid not in st["seen"]]
     for p in papers:
         classify(p, cfg, authors, kws)

@@ -35,8 +35,11 @@ version conflict, re-read and redo that one write.
 
 ## Steps
 
-1. **Load data.** Clone the repo. Read `docs/data/index.json`; let D be `latest`, and
-   read `docs/data/D.json`. If there is no data, end the run.
+1. **Load data.** Clone the repo. Read `docs/data/index.json`. The days to process are the
+   (at most 3) newest days in its list whose `days/<day>` document in the store is missing
+   or has a `source_updated` different from that day's data file `updated` (a day can be
+   filled in afterwards). Let D range over them, newest last; read each `docs/data/D.json`.
+   If there are none and nothing else changed (step 3), end the run.
 
 2. **Read the store.** `get` meta/state, meta/profile, meta/notes; `list` the
    `feedback` collection (limit 1000, follow `next_cursor`). If meta/profile does not
@@ -44,9 +47,9 @@ version conflict, re-read and redo that one write.
 
 3. **Decide whether there is work.** New feedback = feedback documents whose
    `voted_at` or `opened_at` is later than `meta/state.last_run` (all of them if there
-   is no state). If `meta/state.last_day == D` and `last_source_updated` equals the data
-   file's `updated`, and there is no new feedback and the notes have not changed since
-   `last_run`, end the run with a one-line message. Otherwise continue.
+   is no state). If there are no days to process (step 1), no new feedback and the notes
+   have not changed since `last_run`, end the run with a one-line message. Otherwise
+   continue; steps 5 to 7 run once for each day D to process.
 
 4. **Update the profile** (only when there is new feedback or changed notes). Rewrite
    the profile text so it stays a compact, current description (at most about 5000
