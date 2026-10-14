@@ -1,5 +1,402 @@
 {
+ "backfills_done": [
+  "2026-10-13 202610091800 202610121800   # stale feed on 2026-10-13"
+ ],
  "feed": [
+  {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "We prove that no nontrivial finite group $G$ satisfies the equivariant generating hypothesis of Bohmann, even when all $RO(H)$-graded homotopy groups are tested for every subgroup $H\\leq G$. For each $G$, we construct ghosts on finite $G$-spectra with arbitrarily long nonzero composition powers. We also prove that the homotopy-module functors are nonfull and construct non-equivalent finite $G$-spectra with isomorphic full homotopy modules.\n  A central ingredient of our proof is the natural ghost operation $\\Psi=(p-[C_p/e])(1-g)$ on $C_p$-spectra. Motivated by Ma--Xu's examples in the motivic settings, we apply this operation to both a two-cell complex and products of complex projective spaces with cyclic permutation action, which produces arbitrarily long nonzero ghost powers. We also construct a ghost on an explicit four-cell complex that is detected in the derived category over the group ring.",
+    "ai_mode": "",
+    "announce": "replace",
+    "authors": [
+     "Sihao Ma",
+     "XiaoLin Danny Shi",
+     "Zhouli Xu",
+     "Shangjie Zhang"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2609.24390",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2609.24390",
+    "pid": "2609.24390",
+    "reasons": [
+     "author: Zhouli Xu",
+     "title: equivariant",
+     "abstract: g-spectr"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "Equivariant generating hypotheses for finite groups",
+    "watched": [
+     "Zhouli Xu"
+    ]
+   }
+  },
+  {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "We prove an unstraightening result for lax transformations between functors from an arbitrary $(\\infty,2)$-category to that of $(\\infty,2)$-categories. We apply this to study partially (op)lax and weighted (co)limits, giving fibrational descriptions of such (co)limits for diagrams valued in $(\\infty,2)$-categories, to characterize adjoints in $(\\infty,2)$-categories of functors and (op)lax transformations, and to prove a mate correspondence between lax transformations that are componentwise right adjoints and oplax transformations that are componentwise left adjoints, for such transformations among functors between arbitrary $(\\infty,2)$-categories.",
+    "ai_mode": "",
+    "announce": "replace",
+    "authors": [
+     "Fernando Abell\\'an",
+     "Andrea Gagna",
+     "Rune Haugseng"
+    ],
+    "categories": [
+     "math.CT",
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2404.03971",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2404.03971",
+    "pid": "2404.03971",
+    "reasons": [
+     "author (watch): Fernando Abell\u00e1n",
+     "author (watch): Andrea Gagna",
+     "author: Rune Haugseng",
+     "title: (infinity,2)",
+     "title: straightening"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "Straightening for lax transformations and adjunctions of $(\\infty,2)$-categories",
+    "watched": [
+     "Andrea Gagna",
+     "Fernando Abell\\'an",
+     "Rune Haugseng"
+    ]
+   }
+  },
+  {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "We characterize the central extensions, in the sense of the categorical theory of central extensions of Janelidze and Kelly, relative to the Birkhoff subcategory of $n$-nilpotent objects of a semi-abelian and algebraically coherent category. An extension $f \\colon A \\to B$ with kernel $K$ turns out to be central precisely when the iterated Huq commutator $[A,[A,\\dots,[A,K]\\dots]]$, with $n$ occurrences of $A$, vanishes. For $n=2$ this condition reads $[A,[K,A]] = 0$, that is, $[K,A]$ is a central subobject of $A$. In the special case of groups this description was obtained by Everaert and the first author. The present proof is categorical, and applies in particular to Lie algebras, to crossed modules, to cocommutative Hopf algebras over a field, and to any category of interest.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Marino Gran",
+     "James R. A. Gray"
+    ],
+    "categories": [
+     "math.CT",
+     "math.GR",
+     "math.RA"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.17389",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.17389",
+    "pid": "2610.17389",
+    "reasons": [
+     "title: nilpoten"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "A characterization of central extensions relative to n-nilpotent objects",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "Let $\\mathcal O$ be the Lubin--Tate deformation ring of a one-dimensional commutative formal group of finite height $n\\geq1$ over a perfect field $k$ of characteristic $p$. We identify Rezk's Witt filtration $\\{I_d\\}$ with the divisibility filtration of integral trace pairings on subgroup algebras of fixed source lifts. This gives the geometric recursion \\[\n  I_{d+1}=pI_d+J_{d,z}\\qquad(d\\geq0), \\] where $J_{d,z}$ defines the targets of order-$p^d$ quotient isogenies from a $W(k)$-valued lift $z$ of the closed point. The corrected ideal is independent of $z$.\n  We also compute the cokernel of the universal source trace pairing over $\\mathcal O$: it is $\\bigoplus_{j=1}^d(\\mathcal O/p^j)^{r_j-r_{j-1}}$, where $r_j$ counts order-$p^j$ subgroups of $(\\mathbf Q_p/\\mathbf Z_p)^n$. The same duality extends the generic trace along two-step isogeny flags to an integral surjection, even when the flag-forgetting map is not flat. This computes composition in the subring of weighted trace operations. Applications include sharp projector denominators and congruence fibre products for full-torsion loci.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Andrea Taccani"
+    ],
+    "categories": [
+     "math.AT",
+     "math.NT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.18246",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.18246",
+    "pid": "2610.18246",
+    "reasons": [
+     "title: lubin-tate"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Integral trace duality and the Witt filtration on Lubin--Tate space",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "We identify the $(\\infty,1)$-category presented by the dagger Bergner, dagger Joyal, and dagger Rezk models of Parts I and II with that of univalent flagged dagger $(\\infty,1)$-categories. We first construct a realization--nerve adjunction between reversal simplicial anima and Hermitian flags. We prove that its nerve restricts to an equivalence between flagged dagger $(\\infty,1)$-categories and dagger Segal anima, under which univalence corresponds to unitary completeness. We then construct the adjunctions for univalentization and Hermitian completion and identify univalentization with unitary completion.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Keima Akasaka"
+    ],
+    "categories": [
+     "math.CT",
+     "math-ph",
+     "math.AT",
+     "math.MP"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.17311",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.17311",
+    "pid": "2610.17311",
+    "reasons": [
+     "title: (infinity,1)"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Models for dagger $(\\infty,1)$-categories III: Univalent flagged dagger $(\\infty,1)$-categories and unitarily complete dagger Segal anima",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "We propose a of definition conjugate stack for a class of suitable $\\mathbb{E}_3$-$\\mathrm{MU}$-algebras that includes the truncated Brown-Peterson spectra $\\mathrm{BP}\\langle n \\rangle$ for all heights $n$. Then we calculate part of $\\mathrm{BP}\\langle n \\rangle^{\\mathrm{conj}}$ as a quotient stack in terms of Witt vectors. To perform this computation we study generalized Thom spectra and their relative Topological Hochschild Homology. We exhibit the Eilenberg-Mac Lane spectrum $\\mathrm{H}\\mathbb{F}_2$ as a $\\mathbb{E}_3$-$\\mathrm{MU}$-Thom spectrum, the $p$-local Eilenberg-Mac Lane spectra $\\mathrm{H}\\mathbb{Z}/p^n$ (except for $\\mathrm{H}\\mathbb{Z}/4$) and $\\mathrm{H}\\mathbb{Z}_{(p)}$ as $\\mathbb{E}_3$-$\\mathrm{MU}_{(p)}$-Thom spectra, and the connective complex K-theory spectrum $ku$ as $\\mathbb{E}_1$-$\\mathrm{MU}$-Thom spectra. We accompany these ``go\" results with ``no-go\" results that show these ``go\" results do not admit $\\mathbb{E}_{\\infty}$-refinements.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Preston Cranford"
+    ],
+    "categories": [
+     "math.KT",
+     "math.AG",
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.18754",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.18754",
+    "pid": "2610.18754",
+    "reasons": [
+     "abstract: topological hochschild homology"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Generalized Thom Spectra, Conjugate Stacks, and truncated Brown-Peterson Spectra",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "We investigate Eduard Hanslicks formalist aesthetics through the prism of Category Theory",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Ilyas Khan"
+    ],
+    "categories": [
+     "math.CT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.17388",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.17388",
+    "pid": "2610.17388",
+    "reasons": [
+     "abstract: prism"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Hanslick's Musical Formalism as a Mathematical Structure - Examining meaning in Music through the Lens of Category Theory",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "We prove that the Becker-Gottlieb transfer is not functorial, even on rational cohomology. More precisely, for any even $n \\ge 4$, we construct a fibration $f \\colon X \\to S^{n+1}$ with fiber $S^2 \\vee S^n$, and an oriented $S^1$-bundle $g \\colon Y \\to X$ such that the transfer of $f \\circ g$ is non-trivial on rational cohomology. Since the transfer of an oriented $S^1$-bundle vanishes, this implies that the transfer of $f \\circ g$ and the composite of the transfers of $f$ and $g$ induce different maps on rational cohomology and are thus not homotopic.\n  The proof that the transfer of $f \\circ g$ is non-trivial uses the rational models for the Becker--Gottlieb and THH transfers obtained in previous work of the authors. In the appendix, we provide a second, more involved, proof that relies on constructing explicit $C_\\infty$-algebra models for odd spherical fibrations (including circle bundles), which might be of independent interest.\n  Concurrently, another counterexample (of very different flavor) was found by Georg Lehner, Cary Malkiewich, and the first author.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Florian Naef",
+     "Robin Stoll"
+    ],
+    "categories": [
+     "math.AT",
+     "math.KT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.18718",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.18718",
+    "pid": "2610.18718",
+    "reasons": [
+     "abstract: thh"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "The Becker-Gottlieb transfer is not functorial: An example using $C_\\infty$-algebras",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "We consider the image of the comparison homomorphism from bounded cohomology to ordinary cohomology. Its dimension is called the bounded Betti number. In our earlier work we proved that the total bounded Betti number of a closed Riemannian $n$-manifold satisfying $\\Ric\\geq -(n-1)$ and $\\Diam\\leq D$ is bounded by a constant depending only on $n$ and $D$. The original proof used the amenability of the images of sufficiently small local fundamental groups. Since that work was written, Kapovitch and Wilking proved Gromov's generalized Margulis lemma under a lower Ricci curvature bound. Their theorem gives the stronger conclusion that these local groups are uniformly virtually nilpotent. We explain how their result supplies a direct modern input for the bounded Betti number theorem. We also discuss the topological meaning of the bounded part of ordinary cohomology and its relation to the $\\ell^1$-seminorm on homology.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Zhongmin Shen",
+     "Jyh-Yang Wu"
+    ],
+    "categories": [
+     "math.DG",
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.18530",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.18530",
+    "pid": "2610.18530",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Curvature, diameter and bounded Betti numbers",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "Furusho, Hirose and Komiyama reformulated the pentagon equation using an involution called the flip, which led to a new characterisation of the graded Grothendieck-Teichm\\\"uller group $\\mathsf{GRT}_1$. We show that the flip is a reflection in the cyclic structure of the operad of framed Drinfeld-Kohno Lie algebras, with the framings removed. Applying the reflection twice to the pentagon gives the two-cycle relation for every Drinfeld associator. This relation is precisely the condition for cyclic compatibility on the associativity morphism, giving a new proof that $\\mathsf{GRT}_1$ acts by cyclic automorphisms of parenthesized ribbon chord diagrams.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Chandan Singh"
+    ],
+    "categories": [
+     "math.QA",
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.17482",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.17482",
+    "pid": "2610.17482",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Cyclic reflections and the flip equation for the graded Grothendieck-Teichm\\\"uller group",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "Persistent homology summarizes the topological evolution of a graph as persistence diagrams (PDs). Generating graphs whose topology matches a target descriptor is increasingly important, yet existing topology-aware generative models rely on soft regularization, producing graphs whose PDs may only be approximately similar. We initiate a principled investigation of the generation problem: produce graphs that realize a target PD exactly. We propose two approaches guided by the implicit local and global constraints a target PD imposes. The local approach builds degree-based PD-equivalent graphs iteratively, and we prove that every output realizes the target PD and that every degree-based PD-equivalent graph is reachable. However, as shown thereafter, local generation necessarily trades off between sample diversity and reaching infeasible states. We therefore recast generation as a global constraint satisfaction problem with a complete encoding solvable by modern constraint programming solvers. This is applicable to any vertex-based permutation equivariant filtration scheme and is minimal under the degree filtration. Experiments on four standard graph generation benchmarks confirm that both methods realize the target PD exactly. Together, our methods provide a principled treatment of strict topology-compliant graph generation. Code is available at https://github.com/Aalto-QuML/ExactCompliance.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Mattie Ji",
+     "Indradyumna Roy",
+     "Vikas Garg"
+    ],
+    "categories": [
+     "cs.LG",
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.18856",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.18856",
+    "pid": "2610.18856",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Exact Topological Compliance: Generating Persistence-Equivalent Graphs",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "We propose the study of the class of groups that fix a point for every continuous action on any convex compact space. Oliver completed the corresponding program of classifying the finite groups that have this fixed-point property in finite dimensions.\n  Turning to infinite groups, the Schauder--Tychonoff theorem establishes that the integers have the fixed-point property, but this has not been shown for any other infinite, finitely generated group. We establish a local transfer principle and use it to show, as a proof of concept, that $\\mathbf{Z} \\times (\\mathbf{Z}/p\\mathbf{Z})$ belongs to this class of groups.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Nicolas Monod",
+     "Omer Tamuz",
+     "Lizzy Teryoshin"
+    ],
+    "categories": [
+     "math.GR",
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.18070",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.18070",
+    "pid": "2610.18070",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Groups with the fixed-point property",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "We show by explicit counterexample that the Becker--Gottlieb transfer cannot be made functorial. A different counterexample using rational homotopy theory was discovered concurrently by the third author and Robin Stoll.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Georg Lehner",
+     "Cary Malkiewich",
+     "Florian Naef"
+    ],
+    "categories": [
+     "math.AT",
+     "math.KT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.18720",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.18720",
+    "pid": "2610.18720",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "The Becker--Gottlieb transfer is not functorial: An example based on units of group rings",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-14",
+   "paper": {
+    "abstract": "The independence complex of the Kneser graph $\\KG(n,k)$ is the simplicial complex of pairwise intersecting families of $n$-subsets of $[2n+k]$; equivalently, it is a Vietoris--Rips complex of the $n$-subsets of $[2n+k]$ under the symmetric-difference metric. Feng and Wang asked whether, for $n=3$, its reduced homology is nontrivial only in dimensions $6$ and $9$, and conjectured the rank in dimension $9$. We answer the question affirmatively over the rationals and determine all the associated Betti numbers. For every $k\\ge0$, the only nonzero reduced Betti numbers using rationals of $\\Ind(\\KG(3,k))$ are \\[\n  \\beta_6=\\binom{k+5}{7}+29\\binom{k+6}{7}\n  \\qquad\\text{and}\\qquad\n  \\beta_9=\\binom{k+6}{6}. \\] The proof uses an inductive decomposition based on a simplicial retraction and Barmak's star clusters, Dowker duality together with Jonsson's computation of the homology of complexes of graphs with bounded covering number, and a relative Mayer--Vietoris spectral sequence which reduces the problem to the six-element sets.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Ziqin Feng"
+    ],
+    "categories": [
+     "math.CO",
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.17394",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.17394",
+    "pid": "2610.17394",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "The rational homology of independence complexes of Kneser graphs on triples",
+    "watched": []
+   }
+  },
   {
    "day": "2026-10-14",
    "paper": {
@@ -1109,6 +1506,219 @@
   "day": "2026-10-14",
   "papers": [
    {
+    "abstract": "We prove that no nontrivial finite group $G$ satisfies the equivariant generating hypothesis of Bohmann, even when all $RO(H)$-graded homotopy groups are tested for every subgroup $H\\leq G$. For each $G$, we construct ghosts on finite $G$-spectra with arbitrarily long nonzero composition powers. We also prove that the homotopy-module functors are nonfull and construct non-equivalent finite $G$-spectra with isomorphic full homotopy modules.\n  A central ingredient of our proof is the natural ghost operation $\\Psi=(p-[C_p/e])(1-g)$ on $C_p$-spectra. Motivated by Ma--Xu's examples in the motivic settings, we apply this operation to both a two-cell complex and products of complex projective spaces with cyclic permutation action, which produces arbitrarily long nonzero ghost powers. We also construct a ghost on an explicit four-cell complex that is detected in the derived category over the group ring.",
+    "ai_mode": "",
+    "announce": "replace",
+    "authors": [
+     "Sihao Ma",
+     "XiaoLin Danny Shi",
+     "Zhouli Xu",
+     "Shangjie Zhang"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2609.24390",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2609.24390",
+    "pid": "2609.24390",
+    "reasons": [
+     "author: Zhouli Xu",
+     "title: equivariant",
+     "abstract: g-spectr"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "Equivariant generating hypotheses for finite groups",
+    "watched": [
+     "Zhouli Xu"
+    ]
+   },
+   {
+    "abstract": "We prove an unstraightening result for lax transformations between functors from an arbitrary $(\\infty,2)$-category to that of $(\\infty,2)$-categories. We apply this to study partially (op)lax and weighted (co)limits, giving fibrational descriptions of such (co)limits for diagrams valued in $(\\infty,2)$-categories, to characterize adjoints in $(\\infty,2)$-categories of functors and (op)lax transformations, and to prove a mate correspondence between lax transformations that are componentwise right adjoints and oplax transformations that are componentwise left adjoints, for such transformations among functors between arbitrary $(\\infty,2)$-categories.",
+    "ai_mode": "",
+    "announce": "replace",
+    "authors": [
+     "Fernando Abell\\'an",
+     "Andrea Gagna",
+     "Rune Haugseng"
+    ],
+    "categories": [
+     "math.CT",
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2404.03971",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2404.03971",
+    "pid": "2404.03971",
+    "reasons": [
+     "author (watch): Fernando Abell\u00e1n",
+     "author (watch): Andrea Gagna",
+     "author: Rune Haugseng",
+     "title: (infinity,2)",
+     "title: straightening"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "Straightening for lax transformations and adjunctions of $(\\infty,2)$-categories",
+    "watched": [
+     "Andrea Gagna",
+     "Fernando Abell\\'an",
+     "Rune Haugseng"
+    ]
+   },
+   {
+    "abstract": "We characterize the central extensions, in the sense of the categorical theory of central extensions of Janelidze and Kelly, relative to the Birkhoff subcategory of $n$-nilpotent objects of a semi-abelian and algebraically coherent category. An extension $f \\colon A \\to B$ with kernel $K$ turns out to be central precisely when the iterated Huq commutator $[A,[A,\\dots,[A,K]\\dots]]$, with $n$ occurrences of $A$, vanishes. For $n=2$ this condition reads $[A,[K,A]] = 0$, that is, $[K,A]$ is a central subobject of $A$. In the special case of groups this description was obtained by Everaert and the first author. The present proof is categorical, and applies in particular to Lie algebras, to crossed modules, to cocommutative Hopf algebras over a field, and to any category of interest.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Marino Gran",
+     "James R. A. Gray"
+    ],
+    "categories": [
+     "math.CT",
+     "math.GR",
+     "math.RA"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.17389",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.17389",
+    "pid": "2610.17389",
+    "reasons": [
+     "title: nilpoten"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "A characterization of central extensions relative to n-nilpotent objects",
+    "watched": []
+   },
+   {
+    "abstract": "Let $\\mathcal O$ be the Lubin--Tate deformation ring of a one-dimensional commutative formal group of finite height $n\\geq1$ over a perfect field $k$ of characteristic $p$. We identify Rezk's Witt filtration $\\{I_d\\}$ with the divisibility filtration of integral trace pairings on subgroup algebras of fixed source lifts. This gives the geometric recursion \\[\n  I_{d+1}=pI_d+J_{d,z}\\qquad(d\\geq0), \\] where $J_{d,z}$ defines the targets of order-$p^d$ quotient isogenies from a $W(k)$-valued lift $z$ of the closed point. The corrected ideal is independent of $z$.\n  We also compute the cokernel of the universal source trace pairing over $\\mathcal O$: it is $\\bigoplus_{j=1}^d(\\mathcal O/p^j)^{r_j-r_{j-1}}$, where $r_j$ counts order-$p^j$ subgroups of $(\\mathbf Q_p/\\mathbf Z_p)^n$. The same duality extends the generic trace along two-step isogeny flags to an integral surjection, even when the flag-forgetting map is not flat. This computes composition in the subring of weighted trace operations. Applications include sharp projector denominators and congruence fibre products for full-torsion loci.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Andrea Taccani"
+    ],
+    "categories": [
+     "math.AT",
+     "math.NT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.18246",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.18246",
+    "pid": "2610.18246",
+    "reasons": [
+     "title: lubin-tate"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Integral trace duality and the Witt filtration on Lubin--Tate space",
+    "watched": []
+   },
+   {
+    "abstract": "We identify the $(\\infty,1)$-category presented by the dagger Bergner, dagger Joyal, and dagger Rezk models of Parts I and II with that of univalent flagged dagger $(\\infty,1)$-categories. We first construct a realization--nerve adjunction between reversal simplicial anima and Hermitian flags. We prove that its nerve restricts to an equivalence between flagged dagger $(\\infty,1)$-categories and dagger Segal anima, under which univalence corresponds to unitary completeness. We then construct the adjunctions for univalentization and Hermitian completion and identify univalentization with unitary completion.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Keima Akasaka"
+    ],
+    "categories": [
+     "math.CT",
+     "math-ph",
+     "math.AT",
+     "math.MP"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.17311",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.17311",
+    "pid": "2610.17311",
+    "reasons": [
+     "title: (infinity,1)"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Models for dagger $(\\infty,1)$-categories III: Univalent flagged dagger $(\\infty,1)$-categories and unitarily complete dagger Segal anima",
+    "watched": []
+   },
+   {
+    "abstract": "We propose a of definition conjugate stack for a class of suitable $\\mathbb{E}_3$-$\\mathrm{MU}$-algebras that includes the truncated Brown-Peterson spectra $\\mathrm{BP}\\langle n \\rangle$ for all heights $n$. Then we calculate part of $\\mathrm{BP}\\langle n \\rangle^{\\mathrm{conj}}$ as a quotient stack in terms of Witt vectors. To perform this computation we study generalized Thom spectra and their relative Topological Hochschild Homology. We exhibit the Eilenberg-Mac Lane spectrum $\\mathrm{H}\\mathbb{F}_2$ as a $\\mathbb{E}_3$-$\\mathrm{MU}$-Thom spectrum, the $p$-local Eilenberg-Mac Lane spectra $\\mathrm{H}\\mathbb{Z}/p^n$ (except for $\\mathrm{H}\\mathbb{Z}/4$) and $\\mathrm{H}\\mathbb{Z}_{(p)}$ as $\\mathbb{E}_3$-$\\mathrm{MU}_{(p)}$-Thom spectra, and the connective complex K-theory spectrum $ku$ as $\\mathbb{E}_1$-$\\mathrm{MU}$-Thom spectra. We accompany these ``go\" results with ``no-go\" results that show these ``go\" results do not admit $\\mathbb{E}_{\\infty}$-refinements.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Preston Cranford"
+    ],
+    "categories": [
+     "math.KT",
+     "math.AG",
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.18754",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.18754",
+    "pid": "2610.18754",
+    "reasons": [
+     "abstract: topological hochschild homology"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Generalized Thom Spectra, Conjugate Stacks, and truncated Brown-Peterson Spectra",
+    "watched": []
+   },
+   {
+    "abstract": "We investigate Eduard Hanslicks formalist aesthetics through the prism of Category Theory",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Ilyas Khan"
+    ],
+    "categories": [
+     "math.CT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.17388",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.17388",
+    "pid": "2610.17388",
+    "reasons": [
+     "abstract: prism"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Hanslick's Musical Formalism as a Mathematical Structure - Examining meaning in Music through the Lens of Category Theory",
+    "watched": []
+   },
+   {
+    "abstract": "We prove that the Becker-Gottlieb transfer is not functorial, even on rational cohomology. More precisely, for any even $n \\ge 4$, we construct a fibration $f \\colon X \\to S^{n+1}$ with fiber $S^2 \\vee S^n$, and an oriented $S^1$-bundle $g \\colon Y \\to X$ such that the transfer of $f \\circ g$ is non-trivial on rational cohomology. Since the transfer of an oriented $S^1$-bundle vanishes, this implies that the transfer of $f \\circ g$ and the composite of the transfers of $f$ and $g$ induce different maps on rational cohomology and are thus not homotopic.\n  The proof that the transfer of $f \\circ g$ is non-trivial uses the rational models for the Becker--Gottlieb and THH transfers obtained in previous work of the authors. In the appendix, we provide a second, more involved, proof that relies on constructing explicit $C_\\infty$-algebra models for odd spherical fibrations (including circle bundles), which might be of independent interest.\n  Concurrently, another counterexample (of very different flavor) was found by Georg Lehner, Cary Malkiewich, and the first author.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Florian Naef",
+     "Robin Stoll"
+    ],
+    "categories": [
+     "math.AT",
+     "math.KT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.18718",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.18718",
+    "pid": "2610.18718",
+    "reasons": [
+     "abstract: thh"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "The Becker-Gottlieb transfer is not functorial: An example using $C_\\infty$-algebras",
+    "watched": []
+   },
+   {
     "abstract": "A finite free chain model for the homology of a Hausdorff ample groupoid \\(G\\) is cut out of the Matui complex by a finite clopen partition of each nerve space. We ask what such a model must supply and isolate three requirements: a single model that is a quasi-isomorphism, a chain of models that is a complete system with ranks and transition maps read off the presenting data, and a bound on the number of atoms in terms of the presenting cover. An \\(n\\)-Helly axiom on the presenting covers supplies none of them, being satisfied by every finite atomization for every \\(n\\), and a \\(1\\)-Helly family of \\(N\\) compact open sets can have \\(2^{N}-1\\) atoms. We show that a laminar presentation, a laminar basis of compact open sets in each nerve degree, supplies the third, and the second as soon as it is countable: the atoms of a finite laminar family are exactly its nonempty nodes, so a subordinate model has rank at most the number of members presenting it, the subordinate models of finite height form a complete system containing, for a countable presentation, a chain that is itself complete, and the transition maps are the least-ancestor maps of the presenting subfamilies. Every second countable Hausdorff ample groupoid admits one, and the choice is made in each nerve degree separately, laminarity not being stable under products. The first requirement is a restriction on \\(G\\): the homology of a model is finitely generated over a Noetherian ring, whereas \\(H_0\\) over \\(\\mathbb Z\\) is not for the unit groupoid on a Cantor set or for the CAR groupoid, and a truncated model carries free homology of arbitrary rank in arbitrarily high odd degree where the groupoid has none. The chain-level statements are accompanied by a Lean 4 formalization.",
     "ai_mode": "human",
     "announce": "new",
@@ -1129,6 +1739,145 @@
     "tier": 4,
     "title": "A Note on Laminar Presentations and Finite Chain Models for Ample Groupoid Homology",
     "watched": []
+   },
+   {
+    "abstract": "We consider the image of the comparison homomorphism from bounded cohomology to ordinary cohomology. Its dimension is called the bounded Betti number. In our earlier work we proved that the total bounded Betti number of a closed Riemannian $n$-manifold satisfying $\\Ric\\geq -(n-1)$ and $\\Diam\\leq D$ is bounded by a constant depending only on $n$ and $D$. The original proof used the amenability of the images of sufficiently small local fundamental groups. Since that work was written, Kapovitch and Wilking proved Gromov's generalized Margulis lemma under a lower Ricci curvature bound. Their theorem gives the stronger conclusion that these local groups are uniformly virtually nilpotent. We explain how their result supplies a direct modern input for the bounded Betti number theorem. We also discuss the topological meaning of the bounded part of ordinary cohomology and its relation to the $\\ell^1$-seminorm on homology.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Zhongmin Shen",
+     "Jyh-Yang Wu"
+    ],
+    "categories": [
+     "math.DG",
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.18530",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.18530",
+    "pid": "2610.18530",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Curvature, diameter and bounded Betti numbers",
+    "watched": []
+   },
+   {
+    "abstract": "Furusho, Hirose and Komiyama reformulated the pentagon equation using an involution called the flip, which led to a new characterisation of the graded Grothendieck-Teichm\\\"uller group $\\mathsf{GRT}_1$. We show that the flip is a reflection in the cyclic structure of the operad of framed Drinfeld-Kohno Lie algebras, with the framings removed. Applying the reflection twice to the pentagon gives the two-cycle relation for every Drinfeld associator. This relation is precisely the condition for cyclic compatibility on the associativity morphism, giving a new proof that $\\mathsf{GRT}_1$ acts by cyclic automorphisms of parenthesized ribbon chord diagrams.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Chandan Singh"
+    ],
+    "categories": [
+     "math.QA",
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.17482",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.17482",
+    "pid": "2610.17482",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Cyclic reflections and the flip equation for the graded Grothendieck-Teichm\\\"uller group",
+    "watched": []
+   },
+   {
+    "abstract": "Persistent homology summarizes the topological evolution of a graph as persistence diagrams (PDs). Generating graphs whose topology matches a target descriptor is increasingly important, yet existing topology-aware generative models rely on soft regularization, producing graphs whose PDs may only be approximately similar. We initiate a principled investigation of the generation problem: produce graphs that realize a target PD exactly. We propose two approaches guided by the implicit local and global constraints a target PD imposes. The local approach builds degree-based PD-equivalent graphs iteratively, and we prove that every output realizes the target PD and that every degree-based PD-equivalent graph is reachable. However, as shown thereafter, local generation necessarily trades off between sample diversity and reaching infeasible states. We therefore recast generation as a global constraint satisfaction problem with a complete encoding solvable by modern constraint programming solvers. This is applicable to any vertex-based permutation equivariant filtration scheme and is minimal under the degree filtration. Experiments on four standard graph generation benchmarks confirm that both methods realize the target PD exactly. Together, our methods provide a principled treatment of strict topology-compliant graph generation. Code is available at https://github.com/Aalto-QuML/ExactCompliance.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Mattie Ji",
+     "Indradyumna Roy",
+     "Vikas Garg"
+    ],
+    "categories": [
+     "cs.LG",
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.18856",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.18856",
+    "pid": "2610.18856",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Exact Topological Compliance: Generating Persistence-Equivalent Graphs",
+    "watched": []
+   },
+   {
+    "abstract": "We propose the study of the class of groups that fix a point for every continuous action on any convex compact space. Oliver completed the corresponding program of classifying the finite groups that have this fixed-point property in finite dimensions.\n  Turning to infinite groups, the Schauder--Tychonoff theorem establishes that the integers have the fixed-point property, but this has not been shown for any other infinite, finitely generated group. We establish a local transfer principle and use it to show, as a proof of concept, that $\\mathbf{Z} \\times (\\mathbf{Z}/p\\mathbf{Z})$ belongs to this class of groups.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Nicolas Monod",
+     "Omer Tamuz",
+     "Lizzy Teryoshin"
+    ],
+    "categories": [
+     "math.GR",
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.18070",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.18070",
+    "pid": "2610.18070",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Groups with the fixed-point property",
+    "watched": []
+   },
+   {
+    "abstract": "We show by explicit counterexample that the Becker--Gottlieb transfer cannot be made functorial. A different counterexample using rational homotopy theory was discovered concurrently by the third author and Robin Stoll.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Georg Lehner",
+     "Cary Malkiewich",
+     "Florian Naef"
+    ],
+    "categories": [
+     "math.AT",
+     "math.KT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.18720",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.18720",
+    "pid": "2610.18720",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "The Becker--Gottlieb transfer is not functorial: An example based on units of group rings",
+    "watched": []
+   },
+   {
+    "abstract": "The independence complex of the Kneser graph $\\KG(n,k)$ is the simplicial complex of pairwise intersecting families of $n$-subsets of $[2n+k]$; equivalently, it is a Vietoris--Rips complex of the $n$-subsets of $[2n+k]$ under the symmetric-difference metric. Feng and Wang asked whether, for $n=3$, its reduced homology is nontrivial only in dimensions $6$ and $9$, and conjectured the rank in dimension $9$. We answer the question affirmatively over the rationals and determine all the associated Betti numbers. For every $k\\ge0$, the only nonzero reduced Betti numbers using rationals of $\\Ind(\\KG(3,k))$ are \\[\n  \\beta_6=\\binom{k+5}{7}+29\\binom{k+6}{7}\n  \\qquad\\text{and}\\qquad\n  \\beta_9=\\binom{k+6}{6}. \\] The proof uses an inductive decomposition based on a simplicial retraction and Barmak's star clusters, Dowker duality together with Jonsson's computation of the homology of complexes of graphs with bounded covering number, and a relative Mayer--Vietoris spectral sequence which reduces the problem to the six-element sets.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Ziqin Feng"
+    ],
+    "categories": [
+     "math.CO",
+     "math.AT"
+    ],
+    "date": "2026-10-14",
+    "link": "https://arxiv.org/abs/2610.17394",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.17394",
+    "pid": "2610.17394",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "The rational homology of independence complexes of Kneser graphs on triples",
+    "watched": []
    }
   ]
  },
@@ -1136,7 +1885,9 @@
   "0804.0460": "2026-10-12",
   "0912.0727": "2026-10-09",
   "1701.02945": "2026-10-09",
+  "1702.07509": "2026-10-14",
   "1704.07574": "2026-10-09",
+  "1712.06392": "2026-10-14",
   "1902.02630": "2026-10-12",
   "1903.10793": "2026-10-09",
   "2008.08852": "2026-10-08",
@@ -1145,43 +1896,95 @@
   "2109.01210": "2026-10-08",
   "2109.01213": "2026-10-08",
   "2109.14655": "2026-10-08",
+  "2201.07767": "2026-10-14",
+  "2205.02292": "2026-10-14",
   "2205.10613": "2026-10-08",
   "2209.07495": "2026-10-08",
   "2209.12998": "2026-10-08",
+  "2211.08510": "2026-10-14",
+  "2211.11456": "2026-10-14",
+  "2304.13411": "2026-10-14",
+  "2305.06922": "2026-10-14",
+  "2305.14138": "2026-10-14",
+  "2305.18609": "2026-10-14",
+  "2307.16657": "2026-10-14",
   "2309.05012": "2026-10-12",
+  "2310.13319": "2026-10-14",
   "2310.18062": "2026-10-12",
+  "2312.00594": "2026-10-14",
   "2401.00866": "2026-10-08",
+  "2401.03484": "2026-10-14",
   "2402.08262": "2026-10-09",
+  "2404.00945": "2026-10-14",
+  "2404.03971": "2026-10-14",
   "2404.04730": "2026-10-12",
   "2405.01428": "2026-10-12",
   "2405.01429": "2026-10-12",
+  "2405.01845": "2026-10-14",
   "2405.12559": "2026-10-09",
   "2405.18398": "2026-10-12",
   "2405.20395": "2026-10-08",
   "2405.21062": "2026-10-09",
   "2406.03584": "2026-10-12",
   "2406.07414": "2026-10-09",
+  "2407.01849": "2026-10-14",
+  "2407.05859": "2026-10-14",
   "2408.01788": "2026-10-09",
+  "2408.03111": "2026-10-14",
+  "2408.17301": "2026-10-14",
   "2409.06553": "2026-10-08",
+  "2409.08370": "2026-10-14",
   "2409.18348": "2026-10-09",
   "2410.10552": "2026-10-08",
+  "2410.13168": "2026-10-14",
+  "2410.18245": "2026-10-14",
   "2411.17370": "2026-10-08",
   "2412.08469": "2026-10-12",
   "2501.13761": "2026-10-12",
+  "2501.15832": "2026-10-14",
   "2501.16259": "2026-10-08",
   "2501.16267": "2026-10-12",
+  "2501.19101": "2026-10-14",
+  "2502.10379": "2026-10-14",
+  "2502.12547": "2026-10-14",
   "2502.13867": "2026-10-08",
+  "2502.18453": "2026-10-14",
+  "2502.20942": "2026-10-14",
   "2503.19751": "2026-10-12",
+  "2503.20570": "2026-10-14",
+  "2504.01701": "2026-10-14",
+  "2504.05134": "2026-10-14",
+  "2504.11403": "2026-10-14",
   "2505.04581": "2026-10-08",
+  "2505.05220": "2026-10-14",
+  "2505.07297": "2026-10-14",
   "2505.11596": "2026-10-12",
+  "2505.16285": "2026-10-14",
+  "2505.24416": "2026-10-14",
+  "2506.10519": "2026-10-14",
+  "2506.23632": "2026-10-14",
   "2507.01226": "2026-10-08",
   "2507.02852": "2026-10-12",
+  "2508.01294": "2026-10-14",
+  "2508.15022": "2026-10-14",
   "2508.17485": "2026-10-09",
+  "2509.07476": "2026-10-14",
+  "2509.11664": "2026-10-14",
+  "2509.19298": "2026-10-14",
   "2509.19479": "2026-10-12",
+  "2509.20167": "2026-10-14",
+  "2510.02065": "2026-10-14",
   "2510.02195": "2026-10-09",
+  "2510.03953": "2026-10-14",
   "2510.05813": "2026-10-09",
   "2510.08250": "2026-10-12",
   "2510.11865": "2026-10-08",
+  "2510.12035": "2026-10-14",
+  "2510.24868": "2026-10-14",
+  "2511.02425": "2026-10-14",
+  "2511.06555": "2026-10-14",
+  "2511.08528": "2026-10-14",
+  "2511.14675": "2026-10-14",
   "2511.18395": "2026-10-12",
   "2511.19282": "2026-10-08",
   "2511.21648": "2026-10-08",
@@ -1189,22 +1992,39 @@
   "2512.00201": "2026-10-09",
   "2512.22432": "2026-10-12",
   "2512.24783": "2026-10-08",
+  "2601.05369": "2026-10-14",
+  "2601.16557": "2026-10-14",
+  "2601.16889": "2026-10-14",
+  "2601.20804": "2026-10-14",
   "2602.04140": "2026-10-12",
+  "2602.15748": "2026-10-14",
   "2602.22899": "2026-10-08",
   "2602.23942": "2026-10-12",
+  "2603.02606": "2026-10-14",
   "2603.04298": "2026-10-09",
   "2603.12441": "2026-10-09",
+  "2603.25710": "2026-10-14",
   "2603.26450": "2026-10-09",
+  "2603.27709": "2026-10-14",
   "2604.04505": "2026-10-12",
+  "2604.06479": "2026-10-14",
   "2604.15843": "2026-10-09",
   "2604.16296": "2026-10-09",
   "2604.17043": "2026-10-09",
+  "2604.17589": "2026-10-14",
+  "2604.17757": "2026-10-14",
   "2604.24508": "2026-10-09",
   "2604.25023": "2026-10-09",
   "2604.25463": "2026-10-09",
+  "2605.00704": "2026-10-14",
   "2605.08394": "2026-10-08",
+  "2605.09828": "2026-10-14",
+  "2605.10273": "2026-10-14",
+  "2605.11156": "2026-10-14",
   "2605.11909": "2026-10-12",
+  "2605.13425": "2026-10-14",
   "2605.21337": "2026-10-09",
+  "2605.24796": "2026-10-14",
   "2605.25935": "2026-10-08",
   "2605.26556": "2026-10-12",
   "2605.26768": "2026-10-08",
@@ -1213,37 +2033,73 @@
   "2606.01466": "2026-10-12",
   "2606.02854": "2026-10-09",
   "2606.07627": "2026-10-12",
+  "2606.11551": "2026-10-14",
   "2606.15758": "2026-10-09",
   "2606.16431": "2026-10-12",
   "2606.18440": "2026-10-12",
+  "2606.21717": "2026-10-14",
+  "2606.25516": "2026-10-14",
+  "2606.26281": "2026-10-14",
   "2607.00322": "2026-10-09",
+  "2607.01889": "2026-10-14",
   "2607.02218": "2026-10-08",
+  "2607.02281": "2026-10-14",
+  "2607.11198": "2026-10-14",
+  "2607.14188": "2026-10-14",
+  "2607.15366": "2026-10-14",
+  "2607.16153": "2026-10-14",
   "2607.16945": "2026-10-09",
+  "2607.16957": "2026-10-14",
   "2607.17026": "2026-10-08",
   "2607.17124": "2026-10-08",
+  "2607.18599": "2026-10-14",
   "2607.19882": "2026-10-09",
   "2607.23275": "2026-10-12",
+  "2607.23495": "2026-10-14",
   "2607.25036": "2026-10-12",
+  "2607.26926": "2026-10-14",
   "2608.01031": "2026-10-08",
   "2608.03434": "2026-10-08",
+  "2608.03601": "2026-10-14",
+  "2608.04462": "2026-10-14",
   "2608.07849": "2026-10-09",
   "2608.08538": "2026-10-08",
   "2608.11308": "2026-10-08",
+  "2608.13012": "2026-10-14",
+  "2608.13375": "2026-10-14",
   "2608.13798": "2026-10-12",
+  "2608.14475": "2026-10-14",
   "2608.18928": "2026-10-12",
+  "2608.19921": "2026-10-14",
   "2608.22434": "2026-10-09",
   "2608.22714": "2026-10-08",
+  "2608.24719": "2026-10-14",
   "2608.25445": "2026-10-09",
+  "2608.25626": "2026-10-14",
+  "2608.27425": "2026-10-14",
+  "2608.27834": "2026-10-14",
   "2608.28372": "2026-10-12",
   "2608.29485": "2026-10-12",
+  "2608.30734": "2026-10-14",
+  "2609.01173": "2026-10-14",
   "2609.01298": "2026-10-09",
   "2609.01358": "2026-10-09",
+  "2609.03601": "2026-10-14",
   "2609.04816": "2026-10-12",
   "2609.10349": "2026-10-09",
+  "2609.10440": "2026-10-14",
   "2609.10912": "2026-10-08",
   "2609.11106": "2026-10-08",
+  "2609.13687": "2026-10-14",
+  "2609.15419": "2026-10-14",
+  "2609.15698": "2026-10-14",
   "2609.15909": "2026-10-09",
+  "2609.18936": "2026-10-14",
   "2609.20567": "2026-10-09",
+  "2609.22414": "2026-10-14",
+  "2609.23440": "2026-10-14",
+  "2609.23556": "2026-10-14",
+  "2609.24390": "2026-10-14",
   "2609.25539": "2026-10-09",
   "2609.26269": "2026-10-08",
   "2609.27916": "2026-10-09",
@@ -1251,21 +2107,33 @@
   "2609.28495": "2026-10-12",
   "2609.29568": "2026-10-09",
   "2609.31729": "2026-10-12",
+  "2609.33679": "2026-10-14",
   "2609.33826": "2026-10-12",
+  "2609.37839": "2026-10-14",
   "2609.38068": "2026-10-08",
+  "2609.38664": "2026-10-14",
   "2609.38675": "2026-10-08",
+  "2609.39293": "2026-10-14",
   "2609.39536": "2026-10-08",
   "2609.39707": "2026-10-08",
   "2609.39745": "2026-10-08",
+  "2610.02034": "2026-10-14",
+  "2610.02244": "2026-10-14",
+  "2610.02690": "2026-10-14",
   "2610.03069": "2026-10-09",
+  "2610.03081": "2026-10-14",
   "2610.03100": "2026-10-08",
   "2610.03584": "2026-10-08",
   "2610.04516": "2026-10-09",
+  "2610.04730": "2026-10-14",
   "2610.05441": "2026-10-08",
   "2610.05892": "2026-10-12",
+  "2610.06382": "2026-10-14",
   "2610.06435": "2026-10-12",
+  "2610.06746": "2026-10-14",
   "2610.07280": "2026-10-08",
   "2610.07648": "2026-10-08",
+  "2610.07833": "2026-10-14",
   "2610.08935": "2026-10-08",
   "2610.08998": "2026-10-08",
   "2610.09171": "2026-10-08",
@@ -1416,6 +2284,163 @@
   "2610.13931": "2026-10-12",
   "2610.13933": "2026-10-12",
   "2610.13939": "2026-10-12",
+  "2610.14002": "2026-10-14",
+  "2610.14045": "2026-10-14",
+  "2610.14083": "2026-10-14",
+  "2610.14165": "2026-10-13",
+  "2610.14189": "2026-10-13",
+  "2610.14198": "2026-10-13",
+  "2610.14243": "2026-10-13",
+  "2610.14273": "2026-10-13",
+  "2610.14275": "2026-10-13",
+  "2610.14276": "2026-10-13",
+  "2610.14278": "2026-10-13",
+  "2610.14377": "2026-10-13",
+  "2610.14420": "2026-10-13",
+  "2610.14467": "2026-10-13",
+  "2610.14491": "2026-10-13",
+  "2610.14502": "2026-10-13",
+  "2610.14506": "2026-10-13",
+  "2610.14535": "2026-10-13",
+  "2610.14540": "2026-10-13",
+  "2610.14608": "2026-10-13",
+  "2610.14638": "2026-10-13",
+  "2610.14744": "2026-10-13",
+  "2610.14758": "2026-10-13",
+  "2610.14814": "2026-10-13",
+  "2610.14872": "2026-10-13",
+  "2610.14874": "2026-10-13",
+  "2610.14914": "2026-10-13",
+  "2610.14931": "2026-10-13",
+  "2610.14991": "2026-10-13",
+  "2610.15006": "2026-10-13",
+  "2610.15037": "2026-10-13",
+  "2610.15080": "2026-10-13",
+  "2610.15099": "2026-10-13",
+  "2610.15147": "2026-10-13",
+  "2610.15161": "2026-10-13",
+  "2610.15261": "2026-10-13",
+  "2610.15266": "2026-10-13",
+  "2610.15276": "2026-10-13",
+  "2610.15278": "2026-10-13",
+  "2610.15347": "2026-10-13",
+  "2610.15386": "2026-10-13",
+  "2610.15432": "2026-10-13",
+  "2610.15434": "2026-10-13",
+  "2610.15487": "2026-10-13",
+  "2610.15517": "2026-10-13",
+  "2610.15521": "2026-10-13",
+  "2610.15550": "2026-10-13",
+  "2610.15551": "2026-10-13",
+  "2610.15599": "2026-10-13",
+  "2610.15607": "2026-10-13",
+  "2610.15648": "2026-10-13",
+  "2610.15668": "2026-10-13",
+  "2610.15688": "2026-10-13",
+  "2610.15762": "2026-10-13",
+  "2610.15803": "2026-10-13",
+  "2610.15817": "2026-10-13",
+  "2610.15822": "2026-10-13",
+  "2610.15831": "2026-10-13",
+  "2610.15841": "2026-10-13",
+  "2610.15887": "2026-10-13",
+  "2610.15923": "2026-10-13",
+  "2610.15926": "2026-10-13",
+  "2610.16080": "2026-10-13",
+  "2610.16112": "2026-10-13",
+  "2610.16205": "2026-10-13",
+  "2610.16214": "2026-10-13",
+  "2610.16230": "2026-10-13",
+  "2610.16241": "2026-10-13",
+  "2610.16307": "2026-10-13",
+  "2610.16332": "2026-10-13",
+  "2610.16350": "2026-10-13",
+  "2610.16362": "2026-10-13",
+  "2610.16376": "2026-10-13",
+  "2610.16386": "2026-10-13",
+  "2610.16403": "2026-10-13",
+  "2610.16407": "2026-10-13",
+  "2610.16408": "2026-10-13",
+  "2610.16445": "2026-10-13",
+  "2610.16454": "2026-10-13",
+  "2610.16541": "2026-10-13",
+  "2610.16606": "2026-10-13",
+  "2610.16658": "2026-10-13",
+  "2610.16706": "2026-10-13",
+  "2610.16724": "2026-10-13",
+  "2610.16727": "2026-10-13",
+  "2610.16760": "2026-10-13",
+  "2610.16783": "2026-10-13",
+  "2610.16827": "2026-10-13",
+  "2610.16853": "2026-10-13",
+  "2610.16877": "2026-10-13",
+  "2610.16931": "2026-10-13",
+  "2610.16951": "2026-10-13",
+  "2610.16962": "2026-10-13",
+  "2610.17028": "2026-10-13",
+  "2610.17044": "2026-10-13",
+  "2610.17060": "2026-10-13",
+  "2610.17070": "2026-10-13",
+  "2610.17135": "2026-10-13",
+  "2610.17147": "2026-10-13",
+  "2610.17169": "2026-10-13",
+  "2610.17173": "2026-10-13",
+  "2610.17196": "2026-10-13",
+  "2610.17270": "2026-10-14",
+  "2610.17311": "2026-10-14",
+  "2610.17317": "2026-10-14",
+  "2610.17325": "2026-10-14",
+  "2610.17357": "2026-10-14",
+  "2610.17388": "2026-10-14",
+  "2610.17389": "2026-10-14",
+  "2610.17394": "2026-10-14",
+  "2610.17432": "2026-10-14",
+  "2610.17441": "2026-10-14",
+  "2610.17476": "2026-10-14",
+  "2610.17482": "2026-10-14",
+  "2610.17525": "2026-10-14",
+  "2610.17536": "2026-10-14",
+  "2610.17646": "2026-10-14",
+  "2610.17676": "2026-10-14",
+  "2610.17737": "2026-10-14",
+  "2610.17769": "2026-10-14",
+  "2610.17781": "2026-10-14",
+  "2610.17783": "2026-10-14",
+  "2610.17798": "2026-10-14",
+  "2610.17817": "2026-10-14",
+  "2610.17852": "2026-10-14",
+  "2610.17875": "2026-10-14",
+  "2610.17878": "2026-10-14",
+  "2610.17888": "2026-10-14",
+  "2610.17964": "2026-10-14",
+  "2610.17985": "2026-10-14",
+  "2610.17988": "2026-10-14",
+  "2610.18070": "2026-10-14",
+  "2610.18094": "2026-10-14",
+  "2610.18170": "2026-10-14",
+  "2610.18221": "2026-10-14",
+  "2610.18226": "2026-10-14",
+  "2610.18239": "2026-10-14",
+  "2610.18246": "2026-10-14",
+  "2610.18302": "2026-10-14",
+  "2610.18324": "2026-10-14",
+  "2610.18346": "2026-10-14",
+  "2610.18394": "2026-10-14",
+  "2610.18395": "2026-10-14",
+  "2610.18489": "2026-10-14",
+  "2610.18530": "2026-10-14",
+  "2610.18562": "2026-10-14",
+  "2610.18595": "2026-10-14",
+  "2610.18620": "2026-10-14",
+  "2610.18643": "2026-10-14",
+  "2610.18680": "2026-10-14",
+  "2610.18718": "2026-10-14",
+  "2610.18720": "2026-10-14",
+  "2610.18754": "2026-10-14",
+  "2610.18788": "2026-10-14",
+  "2610.18801": "2026-10-14",
+  "2610.18805": "2026-10-14",
+  "2610.18856": "2026-10-14",
   "hexagon:2609.00001": "2026-10-08",
   "hexagon:2609.00102": "2026-10-08",
   "hexagon:2609.00104": "2026-10-08",
