@@ -1,6 +1,6 @@
 {
 "day": "2026-10-15",
-"updated": "2026-10-15T04:05:53+00:00",
+"updated": "2026-10-15T09:13:30+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -584,6 +584,27 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-10-14",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00258",
+"title": "An Intrinsic Formula for the Ray–West Correction Term",
+"abstract": "For a nonempty permutation $\\beta$ of length $m$, let $g_2(\\beta)$ denote the number of distinct permutations of length $m+2$ containing $\\beta$. Ray and West showed that $$ g_2(\\beta)=\\frac{m^4+2m^3+m^2+4m+4-2j(\\beta)}{2}, \\qquad 0\\le j(\\beta)\\le m-1, $$ but their correction term was not expressed as a statistic of $\\beta$. This was posed explicitly as Problem 3.7 by Vatter. We give a polynomial-time formula defined entirely from $\\beta$: $j(\\beta)=L(\\beta)+R(\\beta)$, where $L$ counts licensed gaps and $R$ counts anchor-free two-deletion classes containing a collision whose canonical alignment support is a permutation interval. We also derive the Ray–West bound intrinsically and characterize its upper-bound equality cases as precisely the layered or reverse-layered permutations. The proof is combinatorial. Exact computation is used only for independent corroboration; the accompanying proof-and-replay archive contains the full proof supplement and bounded verification. This preliminary technical report was first deposited on Zenodo on August 9, 2026: https://doi.org/10.5281/zenodo.21857882.",
+"authors": [
+"Donald Poindexter"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00258v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00258v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-15",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
@@ -1700,6 +1721,28 @@
 "announce": "new",
 "date": "2026-10-15",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00257",
+"title": "Sequential Games",
+"abstract": "We formulate a time-series game in which each player chooses a hidden Markov model (HMM) as a mixed strategy. The HMM generates a finite, variable-length sequence of probability vectors, and the payoff is assigned to the completed game as the sum of its stage rewards. We prove a conditional Nash-equilibrium existence result for games with a common finite bound on output lengths. The proof applies a fixed-point argument to the best-response correspondence when each player's admissible HMM-density set is nonempty, convex, and compact in $(L^1)$, and the completed-game payoff is bounded and measurable. A common BV bound together with $(L^1)$-closedness can ensure compactness; closure under suitable disjoint-state mixtures can ensure convexity. These properties do not follow from the HMM representation or BV regularity alone and must be verified for a specified model. Consistent estimation of HMM densities may support computation, but by itself does not establish equilibrium existence or replace the theorem's assumptions.",
+"authors": [
+"Rajesh Dachiraju"
+],
+"categories": [
+"math.FA",
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2610.00257v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00257v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-15",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
