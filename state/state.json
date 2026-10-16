@@ -4,6 +4,421 @@
  ],
  "feed": [
   {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "It is well known that the $[0,1]$ and $[0,2]$ Postnikov truncations of the units of the topological $K$-theories $\\glone \\KO$ and $\\glone \\KU$, respectively, are split, and that the splitting is provided by the ($\\Z/2$-graded) line bundles. In this paper we give a similar splitting for the $[0,1]$-truncation of the units of algebraic $K$-theory, considered as a sheaf on affine schemes. A crucial step is to produce the splitting for $\\glone K(\\Z)$. Along the way we also give a complete calculation of the connective spectrum of strict units of $K(\\Z)$ and $K(\\F_\\ell)$ for a prime $\\ell$. Finally, we show that the units of algebraic $K$-theory do not split as a presheaf. In fact we show they do not even split pointwise.",
+    "ai_mode": "",
+    "announce": "replace",
+    "authors": [
+     "Shachar Carmeli",
+     "Kiran Luecke"
+    ],
+    "categories": [
+     "math.KT",
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2410.10126",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2410.10126",
+    "pid": "2410.10126",
+    "reasons": [
+     "author: Shachar Carmeli",
+     "title: algebraic k-theor"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "The spectrum of units of algebraic $K$-theory",
+    "watched": [
+     "Shachar Carmeli"
+    ]
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "We develop an operadic theory of anti-splitting and anti-replication for binary operads. For a binary operad $\\opd$, we define its anti-bisuccessor $\\ABSu(\\opd)$ and anti-trisuccessor $\\ATSu(\\opd)$, with the property that an operation of $\\opd$ splits into a negative sum of two or three operations, yielding canonical operad morphisms $\\opd \\to\\ABSu(\\opd)$ and $\\opd\\to\\ATSu(\\opd)$. For binary quadratic operads, the process gives Manin black products, \\[ \\ABSu(\\opd) \\cong \\antiprelie \\bullet \\opd,\n  \\qquad\n  \\ATSu(\\opd)\\cong \\antipostlie\\bullet\\opd. \\] Dually, we introduce the anti-duplicator \\(\\ADup(\\mathcal P)\\) and anti-triplicator \\(\\ATrip(\\mathcal P)\\) and prove \\[\n  \\ADup(\\opd^!)\\cong \\ABSu(\\opd)^!,\n  \\qquad\n  \\ATrip(\\opd^!)\\cong \\ATSu(\\opd)^!. \\] Consequently, the anti-duplicator gives a new way to calculate Manin white products. %, in particular, $\\ADup(\\opd)\\cong \\antiperm\\circ\\opd$. The framework recovers known anti-splittings, including anti-dendriform, anti-pre-Lie, and anti-pre-Poisson structures, in a uniform operadic form and produces further examples and dual pairs.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Chengming Bai",
+     "Li Guo",
+     "Yunhe Sheng",
+     "You Wang"
+    ],
+    "categories": [
+     "math.RA",
+     "math-ph",
+     "math.AT",
+     "math.MP"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.21365",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.21365",
+    "pid": "2610.21365",
+    "reasons": [
+     "title: koszul dual"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Anti-successors and anti-replicators, Manin products and Koszul duality",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "We establish a global equivariant refinement of the theorem of Snaith that presents the complex $K$-theory spectrum as a localization of the suspension spectrum of $\\mathbb C P^\\infty$. We prove that the morphism of ultra-commutative global ring spectra from $\\Sigma^\\infty_+ B_{\\text{gl}} U(1)$ that classifies the tautological $U(1)$-representation exhibits the global $K$-theory spectrum as a specific localization, in both the $\\infty$-categories of ultra-commutative ring spectra and of commutative global ring spectra. The classes to be inverted are certain representation-graded $U(n)$-equivariant homotopy classes of $\\Sigma^\\infty_+ B_{\\text{gl}} U(1)$, the pre-Bott classes. We also show that for every compact Lie group $G$, the $G$-equivariant $K$-theory spectrum is a telescopic localization of $\\Sigma^\\infty_+ B_G U(1)$ by the pre-Bott classes of all unitary $G$-representations.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Stefan Schwede"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.21675",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.21675",
+    "pid": "2610.21675",
+    "reasons": [
+     "title: equivariant",
+     "abstract: ring spectr",
+     "abstract: infinity-categor"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Equivariant $K$-theory as a global localization",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "Let $k$ be a local field of characteristic $p>0$. We show that syntomic cohomology over $k$, with coefficients, and defined using Dodd's theory of $F$-gauges, satisfies local Tate duality. We also prove that syntomic cohomology over the ring of integers of $k$, again with coefficients, is Lagrangian with respect to the duality pairing. Finally, we show that, for $p>2$, these results recover Shatz's duality and Milne's orthogonality results for the cohomology of finite flat group schemes of $p$-power order over $k$.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Christopher Lazda"
+    ],
+    "categories": [
+     "math.NT",
+     "math.AG"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.21622",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.21622",
+    "pid": "2610.21622",
+    "reasons": [
+     "title: syntomic"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Local Tate duality for syntomic cohomology in positive characteristic",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "Deformation theory studies how varieties and other algebro-geometric objects vary in families. A central part of the subject is formal deformation theory, where one deforms over an Artinian base; such deformation problems are governed by Lie algebraic models. We pose the question of deforming varieties over nilpotent but not necessarily Artinian bases. These turn out to be classified by the same Lie algebraic models plus some topological structure. More precisely, we will consider partition Lie algebroids in the category of ultrasolid modules, a variation of the solid modules of Clausen and Scholze that give a well-behaved category akin to topological modules. To approach this result, we decompose deformation problems into n-nilpotent layers. Each of these layers is individually easier to understand, and is classified by simpler variants of partition Lie algebras.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Sof\\'ia Marlasca Aparicio"
+    ],
+    "categories": [
+     "math.AG",
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.20801",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.20801",
+    "pid": "2610.20801",
+    "reasons": [
+     "title: nilpoten"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Nilpotent Deformation Theory via Ultrasolid Algebra",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "We introduce and develop the theory of distributivity for base categories equipped with so-called atomic orbital subcategories, with an eye towards applications in equivariant homotopy theory. This extends the important framework in Nardin's thesis and supplies several crucial details on distributivity missing from the treatment therein. As our main technical result, we provide a parametrised distributive version of the universal property of \"partial cocompletions with relations\". We then employ this to construct a distributively normed symmetric monoidal structure on presentable categories. In turn, by specialising to the case of equivariant homotopy theory for compact Lie groups G, we show that the category of genuine G-spectra is normed idempotent, so that we obtain the structure of multiplicative norms on G-spectra along inclusions of finite index subgroups.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Kaif Hilman",
+     "Branko Juran",
+     "Natalie Stewart"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.22074",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.22074",
+    "pid": "2610.22074",
+    "reasons": [
+     "title: higher algebra",
+     "title: equivariant",
+     "abstract: genuine g-spectr",
+     "abstract: g-spectr",
+     "abstract: presentable"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Normed idempotence of spectra and distributivity in equivariant higher algebra",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "For any non-zero $\\mathbb{E}_4$-ring $R$, we prove that an $n$-fold direct sum of suspensions of $R$ cannot admit an exhaustive filtration by fewer than $n$ cells. We do this by showing that certain integral representations of the symmetric group lift to Schur functors on additively $\\mathbb{E}_3$-monoidal $\\infty$-categories. We then reduce the statement to a vanishing fact for rational Schur functors due to Deligne.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Anish Chedalavada",
+     "Florian Riedel"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.22162",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.22162",
+    "pid": "2610.22162",
+    "reasons": [
+     "title: e_4-ring",
+     "abstract: infinity-categor"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "The invariant cell number property for $\\mathbb{E}_4$-rings",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "We construct simply connected, closed smooth manifolds whose rational homotopy types are elliptic and whose homology nilpotency exceeds rational category by arbitrarily large amounts. This separates short models from short quotients of minimal models. The construction starts from an explicit family of minimal Sullivan algebras with finite-dimensional cohomology. A finite quotient establishes Poincar\\'e duality and gives an upper bound for homology nilpotency, while a closed orientation functional computes rational category. Two forced primitives yield the lower bound. An even regrading separates the relevant weights, extending this obstruction to every graded acyclic differential ideal. Rational surgery realizes the resulting models in their formal dimensions, with vanishing rational Pontryagin classes and arbitrarily large rational connectivity. The ratio of homology nilpotency to rational category tends to four thirds. Finally, under an external spherical stabilization statement, attaching a single cone can increase homology nilpotency by an arbitrarily large amount while leaving rational category unchanged.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Paul-Eug\\`ene Parent"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.21280",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.21280",
+    "pid": "2610.21280",
+    "reasons": [
+     "title: nilpoten"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Unbounded Nilpotency Gaps on Rationally Elliptic Manifolds",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "Real Betti realization is a symmetric monoidal functor from the category of motivic spectra to that of topological spectra, extending the functor that associates to a scheme over $\\mathbb{R}$ the space of its real points. In this article, we identify the $\\mathcal{E}_1$-ring structure on the real realization of $\\mathsf{ko}$, the very effective cover of Hermitian K-theory $\\mathsf{KO}$, by an explicit 2-local fracture square, as being equivalent to $\\mathsf{L}(\\mathbb{R})_{\\geq 0}$, the connective L-theory spectrum of $\\mathbb{R}$. Along the way, we also compute the real realization of other motivic ring spectra: motivic cohomology $\\mathsf{H}\\mathbb{Z}$ and $\\mathsf{H}\\mathbb{Z}/2$, the variant $\\widetilde{\\mathsf{H}\\mathbb{Z}}$, $\\mathsf{KO}$, the very effective cover $\\mathsf{kgl}$ of algebraic K-theory $\\mathsf{KGL}$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Julie Bannwart"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.20688",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.20688",
+    "pid": "2610.20688",
+    "reasons": [
+     "abstract: ring spectr",
+     "abstract: e_1-ring",
+     "abstract: motivic spectr",
+     "abstract: algebraic k-theor"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "The real Betti realization of very effective Hermitian K-theory",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "We resolve a conjecture of S. Plotnick from 1983 concerning the homotopy type of four-dimensional knot complements. We show that the exteriors of two branched twist spins of the trefoil, which were shown by Plotnick not to be homotopy equivalent as boundary pairs and hence not homeomorphic, are in fact simple homotopy equivalent. The main ingredient of the proof is the construction of an explicit element of augmentation $49$ in the integral group ring of $\\operatorname{SL}_2(\\mathbb{F}_5)$ which is a unit modulo the group norm and commutes with the element inducing the monodromy on the fundamental group.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Tommy Hofmann",
+     "John Nicholson"
+    ],
+    "categories": [
+     "math.GT",
+     "math.AT",
+     "math.NT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.21051",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.21051",
+    "pid": "2610.21051",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A counterexample to a conjecture of Plotnick on knot exteriors",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "Global transfer systems are combinatorial objects that parametrize intermediate levels of structures and properties in globally equivariant homotopy theory. In this paper we study the lattice of global transfer systems, expanding beyond the case of abelian groups which was computed by the second author. The main result is a proof that the irreducible elements of the lattice of global transfer systems are strictly controlled by subgroups of groups which we refer to as endopure. From the irreducible elements one can recover the whole lattice, and studying these endopure subgroups leads us to a wide range of new phenomena and computations.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Scott Balchin",
+     "Miguel Barrero"
+    ],
+    "categories": [
+     "math.AT",
+     "math.GR"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.22141",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.22141",
+    "pid": "2610.22141",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Global transfer systems and endopurity of subgroups",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "Bouc's hook cycles span the rational top homology of the matching complex of $K_{2k+1}$. We prove that their integral saturation quotient has exponent exactly $2^{\\lfloor k/2\\rfloor}$ for every $k\\geq1$, and construct divided-power cycles attaining this bound. For $k\\geq2$, the homology lattice is not isomorphic to the standard integral hook lattice as an $\\mathfrak S_{2k+1}$-module. For circulant complexes, we determine the integral dihedral homology modules of $\\operatorname{Ind}(C_{3s}^{s-1})$, $\\operatorname{Ind}(C_{3s+1}^{s-1})$ and $\\operatorname{Ind}(C_{3s+2}^{s-1})$, for $s\\geq3$, $s\\geq2$ and $s\\geq3$, respectively, and classify the least scalar lifts of all primitive equivariant quotients to the rank-one module with trivial rotation and negative reflection. Tate localization relates prime-order gluing to fixed-point homology under a free, single-degree homology hypothesis. Explicit cycle subgroups separate saturation defects from obstructions to equivariant sections. For circulant independence complexes with jumps two and three, we prove an eight-periodic ordinary homotopy classification and a fixed-space obstruction to uniform representation suspensions. For every fixed nonempty bounded positive jump set, a finite-state construction gives a rational critical-face series.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Qihang Wang",
+     "Weiye Li"
+    ],
+    "categories": [
+     "math.CO",
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.22082",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.22082",
+    "pid": "2610.22082",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Integral homology lattices of matching and circulant complexes",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "We give homotopy-theoretic proofs of the principal results of non-simply connected Poincar\\'e surgery. These include the Fundamental Theorem of Poincar\\'e surgery, the Poincar\\'e transversality exact sequence, and the construction of Poincar\\'e handle structures. All results apply in dimensions~$\\ge 8$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "John R. Klein"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.21100",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.21100",
+    "pid": "2610.21100",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Non-simply connected Poincar\\'e surgery",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "In this paper we construct a theory of Postnikov invariants for (complete) homotopy Lie algebras that is preserved by the integration functor of Robert-Nicoud and Vallette. This result is in the same vein as Berglund's theorem, which relates the homology groups underlying a nilpotent homotopy Lie algebra to the homotopy groups of the associated space. We then deduce an integration functor from filtered Chevalley-Eilenberg homology groups to group cohomology groups.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Clovis Chabertier"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.21953",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.21953",
+    "pid": "2610.21953",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Postnikov invariants for rational spaces",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "paper": {
+    "abstract": "Let $T=\\langle f,g\\mid f^{l}=g^{m}=W^{n}=1\\rangle$ be a generalised triangle group in which $W$ is the Farey word of a rational slope $q=r/s$, and suppose that $T$ is the fundamental group of a hyperbolic $3$-orbifold whose singular locus has no spherical vertices. Let $G=\\langle f,g\\mid f^{l}=g^{m}=W^{n}\\rangle$ be the associated central extension. We compute an explicit free resolution of the trivial module over $\\mathbb{Z}G$ of minimal length, with differentials given in closed form by Fox derivatives. From this resolution we deduce an explicit free resolution over $\\mathbb{Z}T$ which is $2$-periodic in degrees at least two, and we compute the integral homology and cohomology of both groups. Strebel treated the classical family $q=0/1$ in 1983. Since then only the family $q=1/2$ has been treated, by Ellis and Williams, and for that family our resolution over $\\mathbb{Z}T$ has strictly smaller rank in every degree.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Sean P. Carroll",
+     "Thomas Csizmadia",
+     "Jeroen Schillewaert"
+    ],
+    "categories": [
+     "math.GR",
+     "math.AT",
+     "math.GT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.20932",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.20932",
+    "pid": "2610.20932",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Resolutions of orbifold generalised triangle groups",
+    "watched": []
+   }
+  },
+  {
    "day": "2026-10-15",
    "paper": {
     "abstract": "We determine the $RO(C_2)$-graded $k\\mathbb R$-Hurewicz image, where $k \\mathbb R$ denotes the connective Atiyah's Real $K$-theory spectrum. As a consequence, we obtain four infinite families in the $RO(C_2)$-graded equivariant stable stems that are $C_2$-equivariant refinements of the classical $\\mu$-families. Using a $C_2$-equivariant $v_{1,0}$-self map, we explicitly construct an equivariant Adams periodicity operator $P_{C_2}$ that captures these $v_1$-periodicity phenomena in the $C_2$-stable stems.",
@@ -1720,271 +2135,378 @@
    }
   }
  ],
- "hexagon_since": "2026-10-15",
+ "hexagon_since": "2026-10-16",
  "last_page": {
-  "day": "2026-10-15",
+  "day": "2026-10-16",
   "papers": [
    {
-    "abstract": "We determine the $RO(C_2)$-graded $k\\mathbb R$-Hurewicz image, where $k \\mathbb R$ denotes the connective Atiyah's Real $K$-theory spectrum. As a consequence, we obtain four infinite families in the $RO(C_2)$-graded equivariant stable stems that are $C_2$-equivariant refinements of the classical $\\mu$-families. Using a $C_2$-equivariant $v_{1,0}$-self map, we explicitly construct an equivariant Adams periodicity operator $P_{C_2}$ that captures these $v_1$-periodicity phenomena in the $C_2$-stable stems.",
+    "abstract": "It is well known that the $[0,1]$ and $[0,2]$ Postnikov truncations of the units of the topological $K$-theories $\\glone \\KO$ and $\\glone \\KU$, respectively, are split, and that the splitting is provided by the ($\\Z/2$-graded) line bundles. In this paper we give a similar splitting for the $[0,1]$-truncation of the units of algebraic $K$-theory, considered as a sheaf on affine schemes. A crucial step is to produce the splitting for $\\glone K(\\Z)$. Along the way we also give a complete calculation of the connective spectrum of strict units of $K(\\Z)$ and $K(\\F_\\ell)$ for a prime $\\ell$. Finally, we show that the units of algebraic $K$-theory do not split as a presheaf. In fact we show they do not even split pointwise.",
     "ai_mode": "",
-    "announce": "new",
+    "announce": "replace",
     "authors": [
-     "Sihao Ma",
-     "Xiaolin Danny Shi",
-     "Zhouli Xu",
-     "Albert Jinghui Yang",
-     "Shangjie Zhang"
+     "Shachar Carmeli",
+     "Kiran Luecke"
     ],
     "categories": [
+     "math.KT",
      "math.AT"
     ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.19606",
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2410.10126",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.19606",
-    "pid": "2610.19606",
+    "pdf": "https://arxiv.org/pdf/2410.10126",
+    "pid": "2410.10126",
     "reasons": [
-     "author: Zhouli Xu",
-     "abstract: stable stems"
+     "author: Shachar Carmeli",
+     "title: algebraic k-theor"
     ],
     "source": "arxiv",
     "tier": 1,
-    "title": "The $RO(C_2)$-graded Hurewicz image of Atiyah's Real K-theory",
+    "title": "The spectrum of units of algebraic $K$-theory",
     "watched": [
-     "Zhouli Xu"
+     "Shachar Carmeli"
     ]
    },
    {
-    "abstract": "We study the category of constructible $p$-Kummer-\\'{e}tale sheaves on the log adic generic fiber $(\\mathrm{X},\\mathcal{M}_{\\mathrm{D}})_\\eta$ for the stratification induced by a horizontal normal crossings divisor $\\mathrm{D}$, showing that it is antiequivalent to a category of finitely generated unit Laurent crystals on the log prismatic site. We give a local description of finitely generated unit crystals on a framed log affine in terms of $(\\varphi,\\Gamma)$-modules, and show pushforward compatibility for strict log smooth proper morphisms.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Dylan Pentland"
-    ],
-    "categories": [
-     "math.AG",
-     "math.NT"
-    ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.20466",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.20466",
-    "pid": "2610.20466",
-    "reasons": [
-     "title: prismatic"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "A prismatic Riemann-Hilbert correspondence",
-    "watched": []
-   },
-   {
-    "abstract": "The category of all topological spaces and homotopy classes of maps is cartesian closed. In fact, the $(\\infty, 1)$-category of all topological spaces and continuous maps, localised at homotopy equivalences, is cartesian closed. We model the exponential object using a topological space whose points are continuous maps equipped with putative neighbourhood filters. In general, this topological space will not even be $T_1$-separated, but the evaluation map induces a natural weak homotopy equivalence witnessing the universal property.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Zhen Lin Low"
-    ],
-    "categories": [
-     "math.AT",
-     "math.CT"
-    ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.20428",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.20428",
-    "pid": "2610.20428",
-    "reasons": [
-     "abstract: (infinity, 1)"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "The classical homotopy category is cartesian closed",
-    "watched": []
-   },
-   {
-    "abstract": "We prove that every mod $k$ integral cycle $T$ of sufficiently high codimension in an oriented Riemannian manifold $\\mathcal{M}$ can be approximated in flat norm by a cycle which is a $\\mathbb{Z}_k$-smooth submanifold $\\Sigma$ of nearly the same area, up to a singular set of codimension 5. If in addition $T$ belongs to a mod $k$ homology class admitting an embedded $\\mathbb{Z}_k$-smooth manifold representative, then $\\Sigma$ can be taken fully regular, up to the codimension one stratum of classical singularities. This extends the smooth approximation theory to cycles with coefficients in $\\mathbb{Z}/k\\mathbb{Z}$ in stable regimes. Moreover, we provide examples showing the impossibility of locally approximating minimizing cycles by smooth or $\\mathbb{Z}_k$-smooth submanifolds, even in homology classes with smooth or $\\mathbb{Z}_k$-smooth representatives.",
+    "abstract": "We develop an operadic theory of anti-splitting and anti-replication for binary operads. For a binary operad $\\opd$, we define its anti-bisuccessor $\\ABSu(\\opd)$ and anti-trisuccessor $\\ATSu(\\opd)$, with the property that an operation of $\\opd$ splits into a negative sum of two or three operations, yielding canonical operad morphisms $\\opd \\to\\ABSu(\\opd)$ and $\\opd\\to\\ATSu(\\opd)$. For binary quadratic operads, the process gives Manin black products, \\[ \\ABSu(\\opd) \\cong \\antiprelie \\bullet \\opd,\n  \\qquad\n  \\ATSu(\\opd)\\cong \\antipostlie\\bullet\\opd. \\] Dually, we introduce the anti-duplicator \\(\\ADup(\\mathcal P)\\) and anti-triplicator \\(\\ATrip(\\mathcal P)\\) and prove \\[\n  \\ADup(\\opd^!)\\cong \\ABSu(\\opd)^!,\n  \\qquad\n  \\ATrip(\\opd^!)\\cong \\ATSu(\\opd)^!. \\] Consequently, the anti-duplicator gives a new way to calculate Manin white products. %, in particular, $\\ADup(\\opd)\\cong \\antiperm\\circ\\opd$. The framework recovers known anti-splittings, including anti-dendriform, anti-pre-Lie, and anti-pre-Poisson structures, in a uniform operadic form and produces further examples and dual pairs.",
     "ai_mode": "",
     "announce": "cross",
     "authors": [
-     "Gianmarco Caldini",
-     "Anna Skorobogatova"
-    ],
-    "categories": [
-     "math.DG",
-     "math.AT"
-    ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.20499",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.20499",
-    "pid": "2610.20499",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "$\\mathbb{Z}_k$-smooth approximation of mod $k$ integral cycles",
-    "watched": []
-   },
-   {
-    "abstract": "Symmetries of a quantum field theory or a quantum lattice model are expected to be described not by a group but by a homotopy type, whose homotopy groups are the higher symmetry groups and whose Postnikov invariants encode 't Hooft anomalies. We propose a homotopy-theoretic definition of 't Hooft anomalies based on the structure of localized symmetries in the operator-algebraic approach. The input is a crossed precosheaf: a collection of groups attached to regions of space, equipped with pairings recording that the commutator of two transformations localized in two regions is localized in their intersection. To a crossed precosheaf and a finite family of regions we attach a pointed connected homotopy type, the Cech-Loday classifying space. As the family of regions ranges over finite covers of space, the classifying spaces form a pro-object in the homotopy category. There is a canonical map from the ordinary classifying space of the symmetry group to this pro-type. Composing this map with a group action gives an anomaly whose nontriviality obstructs gauging. In favorable cases, the Cech-Loday space is essentially independent of the cover. In such cases, the homotopy fiber of the canonical map is a candidate for the classifying space of the higher group of symmetries. We give examples of crossed precosheaves arising from gauge transformations in continuum field theory and from quantum cellular automata and finite-depth circuits. For quantum spin systems in one and two dimensions, our construction recovers the Else-Nayak index and its generalizations to two dimensions.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Anton Kapustin",
-     "Shixiong Xu"
-    ],
-    "categories": [
-     "math-ph",
-     "cond-mat.str-el",
-     "hep-th",
-     "math.AT",
-     "math.MP"
-    ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.19004",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.19004",
-    "pid": "2610.19004",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Anomalies, higher symmetries, and homotopy theory I: crossed precosheaves and a nonabelian Cech construction",
-    "watched": []
-   },
-   {
-    "abstract": "This paper addresses the computation of persistent homology for filtrations of cellular cosheaves over a fixed cell complex, where the algebraic data vary along the filtration while the underlying topological structure remains unchanged. We extend methods from discrete Morse theory to this setting, establishing conditions under which chain complexes can be reduced while preserving the associated persistence module. Building on these results, we introduce \"FilteredScythe\", an algorithm that identifies Morse matchings compatible with all stages of the filtration and performs reductions using Schur complements, based on the exist \"Scythe\" algorithm. We prove the correctness of these reductions and establish bounds on the algorithm's time and space complexity.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Neria Baris"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.20376",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.20376",
-    "pid": "2610.20376",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Discrete Morse Theory for Computing Filtered Cosheaf Homology",
-    "watched": []
-   },
-   {
-    "abstract": "This is my written Laudatio for Graeme Segal on receiving the Chern Medal at the 2026 International Congress of Mathematicians. I make some general remarks about Segal's qualities as a mathematician. Then I discuss the origins of his work on classifying spaces of categories and Gamma-spaces. In the last section I describe his axiom system for Wick-rotated quantum field theory and some of his subsequent work in the area. Of course, this is necessarily only a small slice of Segal's total research output.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Daniel S. Freed"
-    ],
-    "categories": [
-     "math.AT",
-     "hep-th",
-     "math-ph",
-     "math.MP"
-    ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.19012",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.19012",
-    "pid": "2610.19012",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "On the work of Graeme Segal",
-    "watched": []
-   },
-   {
-    "abstract": "We show that every vineyard can be decomposed into vines, that is, every path in the space of persistence diagrams $\\mathcal{D}$ can be decomposed into a sequence of paths in $\\mathbb R^2$. Moreover, we characterize which spaces $X$ have the property that every continuous map $X\\to \\mathcal{D}$ has such a decomposition. Our results hold not just for $\\mathcal{D}$, but also for many other spaces of unordered tuples.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Michael Hull",
-     "Thomas Payne",
-     "Thomas Weighill"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.20046",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.20046",
-    "pid": "2610.20046",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Real Tree Vineyards have Vines",
-    "watched": []
-   },
-   {
-    "abstract": "Let $f,g\\in\\mathbb{Z}[t]$ be products of cyclotomic polynomials such that either $g/\\gcd(f,g)$ or $f/\\gcd(f,g)$ (or both) is squarefree. We give explicit formulae for the invariant factors of $f(C_g)$, where $C_g$ is the companion matrix of $g$, expressing them in terms of the indices and multiplicities of the cyclotomic factors of $f$ and $g$. A more compact formula holds for the circulant case $g(t)=t^n-1$, assuming that every cyclotomic factor shared by $f$ and $g$ has multiplicity $1$ in $f$. We discuss applications to several topics, including abelianizations of cyclically presented groups, homology groups of cyclic branched covers of knots, adjacency matrices and shifted graph Laplacians, $K$-theory, and Smith forms of matrix powers. For example, for two families of hyperbolic knots we give the first integral homology in every covering degree; or, when $g$ is squarefree, we determine the least eventual period of the Smith forms of powers of $f(C_g)$.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Vanni Noferini",
-     "Gerald Williams"
+     "Chengming Bai",
+     "Li Guo",
+     "Yunhe Sheng",
+     "You Wang"
     ],
     "categories": [
      "math.RA",
+     "math-ph",
+     "math.AT",
+     "math.MP"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.21365",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.21365",
+    "pid": "2610.21365",
+    "reasons": [
+     "title: koszul dual"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Anti-successors and anti-replicators, Manin products and Koszul duality",
+    "watched": []
+   },
+   {
+    "abstract": "We establish a global equivariant refinement of the theorem of Snaith that presents the complex $K$-theory spectrum as a localization of the suspension spectrum of $\\mathbb C P^\\infty$. We prove that the morphism of ultra-commutative global ring spectra from $\\Sigma^\\infty_+ B_{\\text{gl}} U(1)$ that classifies the tautological $U(1)$-representation exhibits the global $K$-theory spectrum as a specific localization, in both the $\\infty$-categories of ultra-commutative ring spectra and of commutative global ring spectra. The classes to be inverted are certain representation-graded $U(n)$-equivariant homotopy classes of $\\Sigma^\\infty_+ B_{\\text{gl}} U(1)$, the pre-Bott classes. We also show that for every compact Lie group $G$, the $G$-equivariant $K$-theory spectrum is a telescopic localization of $\\Sigma^\\infty_+ B_G U(1)$ by the pre-Bott classes of all unitary $G$-representations.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Stefan Schwede"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.21675",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.21675",
+    "pid": "2610.21675",
+    "reasons": [
+     "title: equivariant",
+     "abstract: ring spectr",
+     "abstract: infinity-categor"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Equivariant $K$-theory as a global localization",
+    "watched": []
+   },
+   {
+    "abstract": "Let $k$ be a local field of characteristic $p>0$. We show that syntomic cohomology over $k$, with coefficients, and defined using Dodd's theory of $F$-gauges, satisfies local Tate duality. We also prove that syntomic cohomology over the ring of integers of $k$, again with coefficients, is Lagrangian with respect to the duality pairing. Finally, we show that, for $p>2$, these results recover Shatz's duality and Milne's orthogonality results for the cohomology of finite flat group schemes of $p$-power order over $k$.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Christopher Lazda"
+    ],
+    "categories": [
+     "math.NT",
+     "math.AG"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.21622",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.21622",
+    "pid": "2610.21622",
+    "reasons": [
+     "title: syntomic"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Local Tate duality for syntomic cohomology in positive characteristic",
+    "watched": []
+   },
+   {
+    "abstract": "Deformation theory studies how varieties and other algebro-geometric objects vary in families. A central part of the subject is formal deformation theory, where one deforms over an Artinian base; such deformation problems are governed by Lie algebraic models. We pose the question of deforming varieties over nilpotent but not necessarily Artinian bases. These turn out to be classified by the same Lie algebraic models plus some topological structure. More precisely, we will consider partition Lie algebroids in the category of ultrasolid modules, a variation of the solid modules of Clausen and Scholze that give a well-behaved category akin to topological modules. To approach this result, we decompose deformation problems into n-nilpotent layers. Each of these layers is individually easier to understand, and is classified by simpler variants of partition Lie algebras.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Sof\\'ia Marlasca Aparicio"
+    ],
+    "categories": [
+     "math.AG",
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.20801",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.20801",
+    "pid": "2610.20801",
+    "reasons": [
+     "title: nilpoten"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Nilpotent Deformation Theory via Ultrasolid Algebra",
+    "watched": []
+   },
+   {
+    "abstract": "We introduce and develop the theory of distributivity for base categories equipped with so-called atomic orbital subcategories, with an eye towards applications in equivariant homotopy theory. This extends the important framework in Nardin's thesis and supplies several crucial details on distributivity missing from the treatment therein. As our main technical result, we provide a parametrised distributive version of the universal property of \"partial cocompletions with relations\". We then employ this to construct a distributively normed symmetric monoidal structure on presentable categories. In turn, by specialising to the case of equivariant homotopy theory for compact Lie groups G, we show that the category of genuine G-spectra is normed idempotent, so that we obtain the structure of multiplicative norms on G-spectra along inclusions of finite index subgroups.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Kaif Hilman",
+     "Branko Juran",
+     "Natalie Stewart"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.22074",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.22074",
+    "pid": "2610.22074",
+    "reasons": [
+     "title: higher algebra",
+     "title: equivariant",
+     "abstract: genuine g-spectr",
+     "abstract: g-spectr",
+     "abstract: presentable"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Normed idempotence of spectra and distributivity in equivariant higher algebra",
+    "watched": []
+   },
+   {
+    "abstract": "For any non-zero $\\mathbb{E}_4$-ring $R$, we prove that an $n$-fold direct sum of suspensions of $R$ cannot admit an exhaustive filtration by fewer than $n$ cells. We do this by showing that certain integral representations of the symmetric group lift to Schur functors on additively $\\mathbb{E}_3$-monoidal $\\infty$-categories. We then reduce the statement to a vanishing fact for rational Schur functors due to Deligne.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Anish Chedalavada",
+     "Florian Riedel"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.22162",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.22162",
+    "pid": "2610.22162",
+    "reasons": [
+     "title: e_4-ring",
+     "abstract: infinity-categor"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "The invariant cell number property for $\\mathbb{E}_4$-rings",
+    "watched": []
+   },
+   {
+    "abstract": "We construct simply connected, closed smooth manifolds whose rational homotopy types are elliptic and whose homology nilpotency exceeds rational category by arbitrarily large amounts. This separates short models from short quotients of minimal models. The construction starts from an explicit family of minimal Sullivan algebras with finite-dimensional cohomology. A finite quotient establishes Poincar\\'e duality and gives an upper bound for homology nilpotency, while a closed orientation functional computes rational category. Two forced primitives yield the lower bound. An even regrading separates the relevant weights, extending this obstruction to every graded acyclic differential ideal. Rational surgery realizes the resulting models in their formal dimensions, with vanishing rational Pontryagin classes and arbitrarily large rational connectivity. The ratio of homology nilpotency to rational category tends to four thirds. Finally, under an external spherical stabilization statement, attaching a single cone can increase homology nilpotency by an arbitrarily large amount while leaving rational category unchanged.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Paul-Eug\\`ene Parent"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.21280",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.21280",
+    "pid": "2610.21280",
+    "reasons": [
+     "title: nilpoten"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Unbounded Nilpotency Gaps on Rationally Elliptic Manifolds",
+    "watched": []
+   },
+   {
+    "abstract": "Real Betti realization is a symmetric monoidal functor from the category of motivic spectra to that of topological spectra, extending the functor that associates to a scheme over $\\mathbb{R}$ the space of its real points. In this article, we identify the $\\mathcal{E}_1$-ring structure on the real realization of $\\mathsf{ko}$, the very effective cover of Hermitian K-theory $\\mathsf{KO}$, by an explicit 2-local fracture square, as being equivalent to $\\mathsf{L}(\\mathbb{R})_{\\geq 0}$, the connective L-theory spectrum of $\\mathbb{R}$. Along the way, we also compute the real realization of other motivic ring spectra: motivic cohomology $\\mathsf{H}\\mathbb{Z}$ and $\\mathsf{H}\\mathbb{Z}/2$, the variant $\\widetilde{\\mathsf{H}\\mathbb{Z}}$, $\\mathsf{KO}$, the very effective cover $\\mathsf{kgl}$ of algebraic K-theory $\\mathsf{KGL}$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Julie Bannwart"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.20688",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.20688",
+    "pid": "2610.20688",
+    "reasons": [
+     "abstract: ring spectr",
+     "abstract: e_1-ring",
+     "abstract: motivic spectr",
+     "abstract: algebraic k-theor"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "The real Betti realization of very effective Hermitian K-theory",
+    "watched": []
+   },
+   {
+    "abstract": "We resolve a conjecture of S. Plotnick from 1983 concerning the homotopy type of four-dimensional knot complements. We show that the exteriors of two branched twist spins of the trefoil, which were shown by Plotnick not to be homotopy equivalent as boundary pairs and hence not homeomorphic, are in fact simple homotopy equivalent. The main ingredient of the proof is the construction of an explicit element of augmentation $49$ in the integral group ring of $\\operatorname{SL}_2(\\mathbb{F}_5)$ which is a unit modulo the group norm and commutes with the element inducing the monodromy on the fundamental group.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Tommy Hofmann",
+     "John Nicholson"
+    ],
+    "categories": [
+     "math.GT",
+     "math.AT",
+     "math.NT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.21051",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.21051",
+    "pid": "2610.21051",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A counterexample to a conjecture of Plotnick on knot exteriors",
+    "watched": []
+   },
+   {
+    "abstract": "Global transfer systems are combinatorial objects that parametrize intermediate levels of structures and properties in globally equivariant homotopy theory. In this paper we study the lattice of global transfer systems, expanding beyond the case of abelian groups which was computed by the second author. The main result is a proof that the irreducible elements of the lattice of global transfer systems are strictly controlled by subgroups of groups which we refer to as endopure. From the irreducible elements one can recover the whole lattice, and studying these endopure subgroups leads us to a wide range of new phenomena and computations.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Scott Balchin",
+     "Miguel Barrero"
+    ],
+    "categories": [
+     "math.AT",
+     "math.GR"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.22141",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.22141",
+    "pid": "2610.22141",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Global transfer systems and endopurity of subgroups",
+    "watched": []
+   },
+   {
+    "abstract": "Bouc's hook cycles span the rational top homology of the matching complex of $K_{2k+1}$. We prove that their integral saturation quotient has exponent exactly $2^{\\lfloor k/2\\rfloor}$ for every $k\\geq1$, and construct divided-power cycles attaining this bound. For $k\\geq2$, the homology lattice is not isomorphic to the standard integral hook lattice as an $\\mathfrak S_{2k+1}$-module. For circulant complexes, we determine the integral dihedral homology modules of $\\operatorname{Ind}(C_{3s}^{s-1})$, $\\operatorname{Ind}(C_{3s+1}^{s-1})$ and $\\operatorname{Ind}(C_{3s+2}^{s-1})$, for $s\\geq3$, $s\\geq2$ and $s\\geq3$, respectively, and classify the least scalar lifts of all primitive equivariant quotients to the rank-one module with trivial rotation and negative reflection. Tate localization relates prime-order gluing to fixed-point homology under a free, single-degree homology hypothesis. Explicit cycle subgroups separate saturation defects from obstructions to equivariant sections. For circulant independence complexes with jumps two and three, we prove an eight-periodic ordinary homotopy classification and a fixed-space obstruction to uniform representation suspensions. For every fixed nonempty bounded positive jump set, a finite-state construction gives a rational critical-face series.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Qihang Wang",
+     "Weiye Li"
+    ],
+    "categories": [
+     "math.CO",
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.22082",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.22082",
+    "pid": "2610.22082",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Integral homology lattices of matching and circulant complexes",
+    "watched": []
+   },
+   {
+    "abstract": "We give homotopy-theoretic proofs of the principal results of non-simply connected Poincar\\'e surgery. These include the Fundamental Theorem of Poincar\\'e surgery, the Poincar\\'e transversality exact sequence, and the construction of Poincar\\'e handle structures. All results apply in dimensions~$\\ge 8$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "John R. Klein"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.21100",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.21100",
+    "pid": "2610.21100",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Non-simply connected Poincar\\'e surgery",
+    "watched": []
+   },
+   {
+    "abstract": "In this paper we construct a theory of Postnikov invariants for (complete) homotopy Lie algebras that is preserved by the integration functor of Robert-Nicoud and Vallette. This result is in the same vein as Berglund's theorem, which relates the homology groups underlying a nilpotent homotopy Lie algebra to the homotopy groups of the associated space. We then deduce an integration functor from filtered Chevalley-Eilenberg homology groups to group cohomology groups.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Clovis Chabertier"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.21953",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.21953",
+    "pid": "2610.21953",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Postnikov invariants for rational spaces",
+    "watched": []
+   },
+   {
+    "abstract": "Let $T=\\langle f,g\\mid f^{l}=g^{m}=W^{n}=1\\rangle$ be a generalised triangle group in which $W$ is the Farey word of a rational slope $q=r/s$, and suppose that $T$ is the fundamental group of a hyperbolic $3$-orbifold whose singular locus has no spherical vertices. Let $G=\\langle f,g\\mid f^{l}=g^{m}=W^{n}\\rangle$ be the associated central extension. We compute an explicit free resolution of the trivial module over $\\mathbb{Z}G$ of minimal length, with differentials given in closed form by Fox derivatives. From this resolution we deduce an explicit free resolution over $\\mathbb{Z}T$ which is $2$-periodic in degrees at least two, and we compute the integral homology and cohomology of both groups. Strebel treated the classical family $q=0/1$ in 1983. Since then only the family $q=1/2$ has been treated, by Ellis and Williams, and for that family our resolution over $\\mathbb{Z}T$ has strictly smaller rank in every degree.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Sean P. Carroll",
+     "Thomas Csizmadia",
+     "Jeroen Schillewaert"
+    ],
+    "categories": [
      "math.GR",
-     "math.KT"
+     "math.AT",
+     "math.GT"
     ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.19205",
+    "date": "2026-10-16",
+    "link": "https://arxiv.org/abs/2610.20932",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.19205",
-    "pid": "2610.19205",
+    "pdf": "https://arxiv.org/pdf/2610.20932",
+    "pid": "2610.20932",
     "reasons": [],
     "source": "arxiv",
-    "tier": 5,
-    "title": "Invariant factors from products of cyclotomic polynomials, with applications",
-    "watched": []
-   },
-   {
-    "abstract": "Our previous work established the mapping cone Chern character on the even-degree side, using the powers of the mapping cone curvature associated with the given mapping cone connection. In this paper, we carry out the odd-degree version using a trivial mapping cone connection and an automorphism on a trivial complex vector bundle. This version is based on the related odd-degree transgression.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Hao Zhuang"
-    ],
-    "categories": [
-     "math.DG",
-     "math.KT"
-    ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.20300",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.20300",
-    "pid": "2610.20300",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 5,
-    "title": "Odd mapping cone Chern character",
-    "watched": []
-   },
-   {
-    "abstract": "We study operator systems arising from Peter-Weyl and Dirac spectral truncations of $\\mathrm{SU}(2)$ in the sense of Connes-Van Suijlekom. We determine operator system invariants for these systems, including the $C^*$-envelope and uniform bounds on the propagation number. For Peter-Weyl truncations, we find $\\mathrm{prop} \\leq 2$ for all connected compact Lie groups, generalizing known results for the torus. We also carry out an analysis of the spectral localizer by Loring and Schulz-Baldes on $\\mathrm{SU}(2)$. In this analysis, we find numerical evidence that an index map for operator systems previously proposed by Van Suijlekom only captures the right information in a suitable interval of the parameter $\\kappa$, instead of the limit $\\kappa \\downarrow 0$.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Matt Verhoeven"
-    ],
-    "categories": [
-     "math.OA",
-     "math.KT"
-    ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.19791",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.19791",
-    "pid": "2610.19791",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 5,
-    "title": "Spectral truncations of SU(2) and the spectral localizer",
+    "tier": 4,
+    "title": "Resolutions of orbifold generalised triangle groups",
     "watched": []
    }
   ]
@@ -2012,6 +2534,7 @@
   "2209.12998": "2026-10-08",
   "2211.08510": "2026-10-14",
   "2211.11456": "2026-10-14",
+  "2212.07085": "2026-10-16",
   "2304.13411": "2026-10-14",
   "2305.06922": "2026-10-14",
   "2305.14138": "2026-10-14",
@@ -2020,7 +2543,10 @@
   "2309.05012": "2026-10-12",
   "2310.13319": "2026-10-14",
   "2310.18062": "2026-10-12",
+  "2311.07356": "2026-10-16",
+  "2311.13408": "2026-10-16",
   "2312.00594": "2026-10-14",
+  "2312.05740": "2026-10-16",
   "2401.00866": "2026-10-08",
   "2401.03484": "2026-10-14",
   "2401.10528": "2026-10-15",
@@ -2038,6 +2564,7 @@
   "2405.21062": "2026-10-09",
   "2406.03584": "2026-10-12",
   "2406.07414": "2026-10-09",
+  "2406.13438": "2026-10-16",
   "2407.01849": "2026-10-14",
   "2407.05859": "2026-10-14",
   "2408.01788": "2026-10-09",
@@ -2046,10 +2573,12 @@
   "2409.06553": "2026-10-08",
   "2409.08370": "2026-10-14",
   "2409.18348": "2026-10-09",
+  "2410.10126": "2026-10-16",
   "2410.10552": "2026-10-08",
   "2410.13168": "2026-10-14",
   "2410.18245": "2026-10-14",
   "2411.17370": "2026-10-08",
+  "2412.00234": "2026-10-16",
   "2412.08469": "2026-10-12",
   "2412.18592": "2026-10-15",
   "2501.13761": "2026-10-12",
@@ -2057,16 +2586,20 @@
   "2501.16259": "2026-10-08",
   "2501.16267": "2026-10-12",
   "2501.19101": "2026-10-14",
+  "2502.03642": "2026-10-16",
   "2502.10379": "2026-10-14",
   "2502.12547": "2026-10-14",
   "2502.13867": "2026-10-08",
+  "2502.16304": "2026-10-16",
   "2502.18453": "2026-10-14",
   "2502.20942": "2026-10-14",
+  "2503.19250": "2026-10-16",
   "2503.19751": "2026-10-12",
   "2503.20570": "2026-10-14",
   "2504.01701": "2026-10-14",
   "2504.05134": "2026-10-14",
   "2504.11403": "2026-10-14",
+  "2505.00680": "2026-10-16",
   "2505.04581": "2026-10-08",
   "2505.05220": "2026-10-14",
   "2505.07297": "2026-10-14",
@@ -2088,6 +2621,7 @@
   "2509.19298": "2026-10-14",
   "2509.19479": "2026-10-12",
   "2509.20167": "2026-10-14",
+  "2509.25629": "2026-10-16",
   "2510.02065": "2026-10-14",
   "2510.02195": "2026-10-09",
   "2510.03953": "2026-10-14",
@@ -2099,6 +2633,7 @@
   "2510.26199": "2026-10-15",
   "2511.02425": "2026-10-14",
   "2511.06555": "2026-10-14",
+  "2511.07060": "2026-10-16",
   "2511.08528": "2026-10-14",
   "2511.09875": "2026-10-15",
   "2511.14675": "2026-10-14",
@@ -2111,9 +2646,11 @@
   "2512.24783": "2026-10-08",
   "2601.03036": "2026-10-15",
   "2601.05369": "2026-10-14",
+  "2601.11084": "2026-10-16",
   "2601.16557": "2026-10-14",
   "2601.16889": "2026-10-14",
   "2601.20804": "2026-10-14",
+  "2601.22591": "2026-10-16",
   "2601.23247": "2026-10-15",
   "2602.04140": "2026-10-12",
   "2602.10000": "2026-10-15",
@@ -2123,13 +2660,17 @@
   "2602.23942": "2026-10-12",
   "2603.02606": "2026-10-14",
   "2603.04298": "2026-10-09",
+  "2603.07301": "2026-10-16",
+  "2603.11440": "2026-10-16",
   "2603.12441": "2026-10-09",
+  "2603.14539": "2026-10-16",
   "2603.25710": "2026-10-14",
   "2603.26450": "2026-10-09",
   "2603.27709": "2026-10-14",
   "2604.00289": "2026-10-15",
   "2604.04505": "2026-10-12",
   "2604.06479": "2026-10-14",
+  "2604.06979": "2026-10-16",
   "2604.15843": "2026-10-09",
   "2604.16296": "2026-10-09",
   "2604.17043": "2026-10-09",
@@ -2141,12 +2682,14 @@
   "2604.25463": "2026-10-09",
   "2604.26370": "2026-10-15",
   "2605.00704": "2026-10-14",
+  "2605.07956": "2026-10-16",
   "2605.08394": "2026-10-08",
   "2605.09828": "2026-10-14",
   "2605.10273": "2026-10-14",
   "2605.11156": "2026-10-14",
   "2605.11909": "2026-10-12",
   "2605.13425": "2026-10-14",
+  "2605.18065": "2026-10-16",
   "2605.21337": "2026-10-09",
   "2605.24796": "2026-10-14",
   "2605.25935": "2026-10-08",
@@ -2156,6 +2699,7 @@
   "2606.01371": "2026-10-08",
   "2606.01466": "2026-10-12",
   "2606.02626": "2026-10-15",
+  "2606.02826": "2026-10-16",
   "2606.02854": "2026-10-09",
   "2606.07627": "2026-10-12",
   "2606.11551": "2026-10-14",
@@ -2170,7 +2714,9 @@
   "2607.01889": "2026-10-14",
   "2607.02218": "2026-10-08",
   "2607.02281": "2026-10-14",
+  "2607.06543": "2026-10-16",
   "2607.11198": "2026-10-14",
+  "2607.11639": "2026-10-16",
   "2607.12183": "2026-10-15",
   "2607.14188": "2026-10-14",
   "2607.15366": "2026-10-14",
@@ -2179,6 +2725,7 @@
   "2607.16957": "2026-10-14",
   "2607.17026": "2026-10-08",
   "2607.17124": "2026-10-08",
+  "2607.17801": "2026-10-16",
   "2607.18599": "2026-10-14",
   "2607.19882": "2026-10-09",
   "2607.23275": "2026-10-12",
@@ -2195,13 +2742,16 @@
   "2608.08538": "2026-10-08",
   "2608.11308": "2026-10-08",
   "2608.13012": "2026-10-14",
+  "2608.13165": "2026-10-16",
   "2608.13375": "2026-10-14",
   "2608.13798": "2026-10-12",
+  "2608.14145": "2026-10-16",
   "2608.14475": "2026-10-14",
   "2608.18928": "2026-10-12",
   "2608.19921": "2026-10-14",
   "2608.22434": "2026-10-09",
   "2608.22714": "2026-10-08",
+  "2608.24256": "2026-10-16",
   "2608.24719": "2026-10-14",
   "2608.25445": "2026-10-09",
   "2608.25626": "2026-10-14",
@@ -2209,6 +2759,7 @@
   "2608.27834": "2026-10-14",
   "2608.28372": "2026-10-12",
   "2608.29485": "2026-10-12",
+  "2608.30417": "2026-10-16",
   "2608.30734": "2026-10-14",
   "2609.01173": "2026-10-14",
   "2609.01298": "2026-10-09",
@@ -2220,7 +2771,10 @@
   "2609.10349": "2026-10-09",
   "2609.10440": "2026-10-14",
   "2609.10912": "2026-10-08",
+  "2609.11009": "2026-10-16",
   "2609.11106": "2026-10-08",
+  "2609.12074": "2026-10-16",
+  "2609.12416": "2026-10-16",
   "2609.13687": "2026-10-14",
   "2609.15419": "2026-10-14",
   "2609.15698": "2026-10-14",
@@ -2242,6 +2796,7 @@
   "2609.31729": "2026-10-12",
   "2609.33679": "2026-10-14",
   "2609.33826": "2026-10-12",
+  "2609.35353": "2026-10-16",
   "2609.37839": "2026-10-14",
   "2609.38068": "2026-10-08",
   "2609.38664": "2026-10-14",
@@ -2257,6 +2812,7 @@
   "2610.03069": "2026-10-09",
   "2610.03081": "2026-10-14",
   "2610.03100": "2026-10-08",
+  "2610.03582": "2026-10-16",
   "2610.03584": "2026-10-08",
   "2610.04516": "2026-10-09",
   "2610.04730": "2026-10-14",
@@ -2270,6 +2826,7 @@
   "2610.07833": "2026-10-14",
   "2610.07929": "2026-10-15",
   "2610.08226": "2026-10-15",
+  "2610.08334": "2026-10-16",
   "2610.08935": "2026-10-08",
   "2610.08998": "2026-10-08",
   "2610.09171": "2026-10-08",
@@ -2625,6 +3182,70 @@
   "2610.20499": "2026-10-15",
   "2610.20520": "2026-10-15",
   "2610.20575": "2026-10-15",
+  "2610.20688": "2026-10-16",
+  "2610.20801": "2026-10-16",
+  "2610.20825": "2026-10-16",
+  "2610.20932": "2026-10-16",
+  "2610.20956": "2026-10-16",
+  "2610.20991": "2026-10-16",
+  "2610.21039": "2026-10-16",
+  "2610.21051": "2026-10-16",
+  "2610.21053": "2026-10-16",
+  "2610.21065": "2026-10-16",
+  "2610.21092": "2026-10-16",
+  "2610.21093": "2026-10-16",
+  "2610.21100": "2026-10-16",
+  "2610.21193": "2026-10-16",
+  "2610.21198": "2026-10-16",
+  "2610.21272": "2026-10-16",
+  "2610.21280": "2026-10-16",
+  "2610.21303": "2026-10-16",
+  "2610.21341": "2026-10-16",
+  "2610.21358": "2026-10-16",
+  "2610.21365": "2026-10-16",
+  "2610.21446": "2026-10-16",
+  "2610.21494": "2026-10-16",
+  "2610.21497": "2026-10-16",
+  "2610.21507": "2026-10-16",
+  "2610.21529": "2026-10-16",
+  "2610.21535": "2026-10-16",
+  "2610.21544": "2026-10-16",
+  "2610.21576": "2026-10-16",
+  "2610.21585": "2026-10-16",
+  "2610.21622": "2026-10-16",
+  "2610.21675": "2026-10-16",
+  "2610.21752": "2026-10-16",
+  "2610.21762": "2026-10-16",
+  "2610.21822": "2026-10-16",
+  "2610.21829": "2026-10-16",
+  "2610.21838": "2026-10-16",
+  "2610.21859": "2026-10-16",
+  "2610.21894": "2026-10-16",
+  "2610.21904": "2026-10-16",
+  "2610.21920": "2026-10-16",
+  "2610.21921": "2026-10-16",
+  "2610.21926": "2026-10-16",
+  "2610.21927": "2026-10-16",
+  "2610.21953": "2026-10-16",
+  "2610.21960": "2026-10-16",
+  "2610.21981": "2026-10-16",
+  "2610.22058": "2026-10-16",
+  "2610.22059": "2026-10-16",
+  "2610.22074": "2026-10-16",
+  "2610.22082": "2026-10-16",
+  "2610.22111": "2026-10-16",
+  "2610.22141": "2026-10-16",
+  "2610.22156": "2026-10-16",
+  "2610.22161": "2026-10-16",
+  "2610.22162": "2026-10-16",
+  "2610.22171": "2026-10-16",
+  "2610.22203": "2026-10-16",
+  "2610.22226": "2026-10-16",
+  "2610.22247": "2026-10-16",
+  "2610.22251": "2026-10-16",
+  "2610.22279": "2026-10-16",
+  "2610.22326": "2026-10-16",
+  "2610.22359": "2026-10-16",
   "hexagon:2609.00001": "2026-10-08",
   "hexagon:2609.00102": "2026-10-08",
   "hexagon:2609.00104": "2026-10-08",
@@ -2786,8 +3407,24 @@
   "hexagon:2610.00251": "2026-10-15",
   "hexagon:2610.00252": "2026-10-15",
   "hexagon:2610.00253": "2026-10-15",
+  "hexagon:2610.00254": "2026-10-16",
+  "hexagon:2610.00256": "2026-10-16",
   "hexagon:2610.00257": "2026-10-15",
   "hexagon:2610.00258": "2026-10-15",
-  "hexagon:2610.00259": "2026-10-15"
+  "hexagon:2610.00259": "2026-10-15",
+  "hexagon:2610.00260": "2026-10-16",
+  "hexagon:2610.00261": "2026-10-16",
+  "hexagon:2610.00265": "2026-10-16",
+  "hexagon:2610.00266": "2026-10-16",
+  "hexagon:2610.00268": "2026-10-16",
+  "hexagon:2610.00269": "2026-10-16",
+  "hexagon:2610.00270": "2026-10-16",
+  "hexagon:2610.00271": "2026-10-16",
+  "hexagon:2610.00272": "2026-10-16",
+  "hexagon:2610.00273": "2026-10-16",
+  "hexagon:2610.00274": "2026-10-16",
+  "hexagon:2610.00275": "2026-10-16",
+  "hexagon:2610.00278": "2026-10-16",
+  "hexagon:2610.00280": "2026-10-16"
  }
 }
