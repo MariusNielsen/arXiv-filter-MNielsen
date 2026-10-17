@@ -1,6 +1,6 @@
 {
 "day": "2026-10-17",
-"updated": "2026-10-17T08:38:46+00:00",
+"updated": "2026-10-17T13:08:03+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -242,6 +242,49 @@
 "announce": "new",
 "date": "2026-10-16",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00299",
+"title": "Polylogarithmic Descent for Almost All Collatz Orbits in Natural Density",
+"abstract": "Korec proved that, for each fixed θ > log 3/log 4, almost every positive integer n has a Collatz iterate below n^θ in natural density. Tao proved descent below every prescribed diverging threshold in logarithmic density. We obtain polylogarithmic descent in ordinary natural density within logarithmically many steps, with bounds on the preceding orbit values. The shortcut map T sends even n to n/2 and odd n to (3n+1)/2. The unaccelerated map Col sends even n to n/2 and odd n to 3n+1. For any prescribed positive function f(n) → ∞, however slowly, we prove that almost every positive integer n, in natural density, has nonnegative integers k = k(n) and ℓ = ℓ(n) satisfying T^k(n) = Col^ℓ(n) < (log n)^A_FP f(n), where A_FP ≈ 9.9911 is an explicit exponent. The shortcut time is k = c_* log n + O_f(√(log n log log n)), where c_* = 2/log(4/3). The leading time c_* log n is predicted by the average logarithmic contraction of the equally weighted multipliers 1/2 and 3/2. The unaccelerated time is ℓ = (3/2)c_* log n + O_f(√(log n log log n)). Both orbits are bounded by nf(n) up to their respective times. For each fixed A > A_FP, put q = A/(2A_FP) − 1/2. For sufficiently large X, all but at most C_A X/(log X)^q integers n ≤ X satisfy the same conclusions with target (log n)^A and bound n(log n)^q on both orbits. The constant C_A and the time-error constants depend only on A. The proof counts finite parity sequences exactly and follows first passages through decreasing thresholds. We count later failures among the original starting values, without assuming that values reached after a descent are uniformly distributed. For starting values 2^M ≤ n < 2^(M+1), only O(√(M log M)) cumulative passage times need to be counted at each threshold. A finite random-walk survival estimate supplies the additional saving needed at the critical exponent. Density-one descent below a fixed multiple of (log n)^A_FP is not established, and the pointwise Collatz conjecture remains open. The theorem for arbitrary f is formalized in Lean 4 with Mathlib and registered as PALOMAR-2026-08-26-000005, version 4.",
+"authors": [
+"Idris Ali Shaik"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00299v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00299v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00294",
+"title": "Rational points on elliptic curves that are primitive modulo a positive proportion of primes",
+"abstract": "In 1977, Lang and Trotter conjectured that, subject to certain necessary arithmetic restrictions, a rational point $P$ of infinite order on an elliptic curve $E$ over $\\Q$ should generate its reduction modulo infinitely many primes $p$---and indeed should do so for a specified positive density of primes. However, to date, even this infinitude was not known unconditionally for any explicit pair $(E,P)$. For the curve $E:y^2=x^3-2x$ and point $P=(2,2)$, we prove the existence of infinitely many---and indeed a positive lower density of---primes for which the reduction of $P$ generates $E(\\F_p)$. More precisely, we prove that a common zero-free half-plane $\\Re s>1-1/N$ for Dedekind zeta functions gives a lower density of at least $c/(N\\log N)$, with $c>0$ independent of $N$. The announced theorem of Cureton and Thorner provides $N=32$. Our proof combines this input with the marked Type~II estimates of OpenAI, a sieve with varying cofactor, and estimates for division fields and heights. The same method also applies to other CM elliptic curves and points.",
+"authors": [
+"Manjul Bhargava"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2610.00294v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00294v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
