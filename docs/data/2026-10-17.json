@@ -1,0 +1,251 @@
+{
+"day": "2026-10-17",
+"updated": "2026-10-17T08:38:46+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2610.00287",
+"title": "Integral tail signatures and the Hilbert--Smith conjecture",
+"abstract": "The obstruction to an effective $p$-adic manifold action is an integer signature tail. On asymptotically controlled rational modules over one fixed free $C_p$-space, finite-cover Mayer--Vietoris makes the difference between $p$ copies and quotient-permutation tensoring nilpotent. Every degree-four class therefore has eventually $p$-divisible signatures. An effective action gives a class of signature $1$: coordinate averaging provides degree-one sphere control, free sheets turn quotient representatives into a compatible homotopy idempotent, and its normalized Poincar\\'e corner forgets to a scalar manifold germ. Successive localization boundaries recover one copy of $\\CP^2$, up to sign. The resulting contradiction proves the Hilbert--Smith conjecture.",
+"authors": [
+"Alexander Dabrowski"
+],
+"categories": [
+"math.GT",
+"math.AT",
+"math.GR",
+"math.KT"
+],
+"link": "https://hexagonmath.org/abs/2610.00287v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00287v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 4,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00284",
+"title": "A fourteen-dimensional biperfect Lie bialgebra",
+"abstract": "We construct a fourteen-dimensional Lie bialgebra for which both the underlying Lie algebra and its dual are perfect. The construction is defined over $\\mathbb{Q}$ and is self-dual over $\\mathbb{C}$. It gives an affirmative answer to Question 4.1(3) of Etingof--Gelaki--Guralnick--Saxl, arXiv:9912068. Its twenty-eight-dimensional Drinfeld double is quasitriangular with injective cobracket, also answering Question 4.1(4).",
+"authors": [
+"Pavel I Etingof"
+],
+"categories": [
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2610.00284v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00284v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00291",
+"title": "A nontrivial critical window for autocatalytic emergence in the binary polymer model",
+"abstract": "The limiting probability is determined for a reflexively autocatalytic and food-generated (RAF) set in two reversible binary-polymer models. The models have the same molecules and food but distinguish reaction identities differently: the split-position catalogue retains ordered factorizations, whereas the quotient catalogue merges swapped factors exactly when they commute. With independent molecule--reaction catalysis, one mark shared by both directions, and mean catalysis $f_n$ per molecule satisfying $f_n/n\\to\\lambda>0$, the RAF probability converges in either model to $\\Theta_\\nu(\\lambda)=S_\\nu(1-e^{-\\lambda}),\\qquad \\nu\\in\\{\\mathrm{sp},\\mathrm{qt}\\},$ where $S_\\nu$ is the survival probability of infinite ordinary reversible food closure in the corresponding independent open-reaction field. Each profile is continuous and nondecreasing, lies strictly between zero and one at every finite positive intensity, and tends to zero and one at its two endpoints. Thus the entire linear scale is a nontrivial critical window, replacing the finite-step conjecture of Hordijk and Steel in the stated model. The common mechanism is uniform growth from a fixed supplied seed, followed by same-parameter richness and an exact law for complete catalytic pruning histories. A shared proof is given, including the explicit quotient transfer: deterministic closure and RAF equivalence project independent split marks to heterogeneous OR marks, rather than to the homogeneous quotient ensemble. The profiles satisfy $\\Theta_\\mathrm{sp}(\\lambda/2)\\le\\Theta_\\mathrm{qt}(\\lambda)\\le\\Theta_\\mathrm{sp}(\\lambda)$; productive food gateways give the conventional bounds $\\Theta_\\mathrm{sp}(\\lambda)\\le1-e^{-32\\lambda}$ and $\\Theta_\\mathrm{qt}(\\lambda)\\le1-e^{-30\\lambda}$. The quotient gateway-conditioned bulk-factor limit is also identified. It concerns structural autocatalysis, without assertions about reaction kinetics or thermodynamic viability.",
+"authors": [
+"Michael Mislan"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2610.00291v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00291v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00292",
+"title": "A Probabilistic Proof of a Positivstellensatz of Baldi-Sinn-Telek-Weigert",
+"abstract": "The AI gives a probabilistic proof of a uniform-denominator Positivstellensatz of Baldi--Sinn--Telek--Weigert for Laurent polynomials whose induced homogeneous form is strictly positive on the nonnegative part of a projective toric variety. Only this abstract was human-written. Three classical tools from mathematical statistics and probability theory were used by the AI: the Barndorff-Nielsen completion of discrete exponential families, sufficiency-based invariance under exponential tilting following Halmos--Savage and Van Campenhout--Cover, and the conditional limit theorem (equivalence of ensembles) of Diaconis--Freedman.",
+"authors": [
+"Colin Tan"
+],
+"categories": [
+"math.AG",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2610.00292v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00292v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00281",
+"title": "Almost all Markoff numbers are unique.",
+"abstract": "A Markoff number is the largest coordinate of a positive integer solution of $a^2+b^2+c^2=3abc$. Frobenius conjectured in 1913 that every Markoff number is the largest coordinate of exactly one such solution with $a\\le b\\le c$. We prove that the conjecture holds for almost all Markoff numbers: the proportion of exceptions among the Markoff numbers up to $X$ tends to $0$ as $X\\to\\infty$. Two such solutions with the same largest coordinate give simple closed geodesics of equal length on the modular torus, that is, primitive homology classes $v,w$ with equal values $N(v)=N(w)$ of the McShane--Rivin stable norm $N$. Estimates for the boundary of the unit ball of $N$ reduce the problem to the equations $N(Gv)=N(v)$ with $G$ a rational linear map. For each $G$ that is not a symmetry of the torus, a zero-one law for the $3$-adic analytic dynamics of the mapping class group on the Markoff surface shows that the solutions $v$ have density zero.",
+"authors": [
+"William Y. Chen"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00281v2",
+"pdf": "https://hexagonmath.org/pdf/2610.00281v2",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00290",
+"title": "Finite Valuation Words and Terminal Obstructions for the Accelerated Syracuse Map",
+"abstract": "We develop a finite-word obstruction framework for the accelerated Syracuse map on positive odd integers. A finite valuation word determines an exact iterate formula and a unique realization class modulo a power of two; compatible infinite prefixes define a natural two-adic inverse-limit object together with least positive representatives. The first part records the exact finite-word congruence machinery, finite-descent equivalence, terminal-surplus identity, terminal-ceiling break criterion, bad-prefix windows, activated density collapse, stabilization criterion, and strict-jump bookkeeping. The second part uses these tools to isolate terminal obstruction classes for a hypothetical counterexample: a bounded branch leading to a nontrivial accelerated cycle, and an unbounded eventual no-jump branch, successively reduced through a chain of geometric and combinatorial normal forms to a packet-surplus compensation target. The resulting reduction spine is lossless: Collatz follows from exclusion of nontrivial accelerated cycles together with a packet-surplus, or stronger record-ladder, compensation theorem for the unbounded branch. As a closed module, we include a closed class-exclusion theorem showing that no eventually periodic infinite low-surplus valuation chain is realized by a positive odd integer. On the bounded branch, we further record, as an explicit unproved roadmap step, that the terminal-ceiling strict-jump obstruction reduces to a single recurrent valuation-mismatch statement. This manuscript proves the architecture stated in its theorems, propositions, lemmas, and corollaries; it states the remaining terminal exclusions explicitly as problems, conjectures, or roadmap steps, and does not claim a completed proof of the full Collatz conjecture.",
+"authors": [
+"Tosho Karadzhov"
+],
+"categories": [
+"math.NT",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2610.00290v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00290v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00286",
+"title": "Gallai's conjecture with two exceptional even vertices",
+"abstract": "Gallai conjectured that every connected finite simple graph on n vertices admits an edge partition into at most ⌈n/2⌉ simple paths. Botler and Sambinelli proved this when every even-degree vertex has at most three even neighbours. Fan, Hou and Zhou exempted one designated even vertex of positive degree and ensured that at least two paths ended there. Xie obtained the same endpoint conclusion for either of two adjacent designated even vertices, in separate partitions, when every other even vertex has at most three even neighbours. We prove that the same endpoint conclusion holds without requiring the two designated even vertices to be adjacent. Let F be the subgraph induced by the even-degree vertices of a connected finite simple graph G on n vertices, and let h and x be distinct vertices of F. Suppose every other vertex of F has degree at most three in F. Then for each of h and x there is an edge partition into at most ⌈n/2⌉ simple paths, at least two of which end at that vertex. Consequently, Gallai's bound holds whenever at most two vertices of F have degree greater than three. The two choices may use different partitions. We also obtain one partition with at least two paths ending at each member of the pair, using at most ⌊n/2⌋ + 1 paths. At odd order this is Gallai's bound. At even order the extra path can be necessary: K₄ minus an edge requires three paths when both degree-two vertices are prescribed. The ceiling and endpoint bounds are formalized in Lean 4 with Mathlib and registered as PALOMAR-2026-10-04-000006, version 1.",
+"authors": [
+"Idris Ali Shaik"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00286v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00286v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00289",
+"title": "Linchpin Theorems",
+"abstract": "A proof assistant checks a formal proposition. It does not check that the proposition expresses the mathematics that its author intended. This distinction becomes pressing when large bodies of mathematics are autoformalized. We propose the use of linchpin theorems: statements whose meanings can be audited with relatively little mathematical infrastructure, and whose proofs connect them to substantial results. Examples range from sphere packing and the classification of Lie algebras to regularity theory, the Weil conjectures, and computational complexity.",
+"authors": [
+"Thomas Hales"
+],
+"categories": [
+"math.GM"
+],
+"link": "https://hexagonmath.org/abs/2610.00289v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00289v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00282",
+"title": "Noncommutative Maccone-Pati Uncertainty Principles",
+"abstract": "Let $\\mathcal{E}$ be a Hilbert C*-module over a unital C*-algebra $\\mathcal{A}$. Let $A: \\mathcal{D}(A) \\subseteq \\mathcal{E} \\to \\mathcal{E}$ and $B: \\mathcal{D}(B)\\subseteq \\mathcal{E}\\to \\mathcal{E}$ be possibly unbounded self-adjoint morphisms. Then for all $x \\in \\mathcal{D}(AB)\\cap \\mathcal{D}(BA)$ with $\\langle x, x \\rangle =1$, we show that \\begin{align*} (1) \\quad\\quad\\quad d_x(A)^2+d_x(B)^2&\\geq \\mp \\langle \\{A,B\\}x, x \\rangle +\\langle (A\\pm B)x, y \\rangle\\langle y, (A\\pm B)x \\rangle\\pm \\{\\langle Ax, x \\rangle, \\langle Bx, x \\rangle\\}, \\\\ &\\quad \\forall y \\in \\mathcal{E} \\text{ satisfying } \\|y\\|\\leq 1 \\text{ and } \\langle x,y \\rangle =0 \\end{align*} \\begin{align*} (2) \\quad \\quad \\quad d_x(A)^2+d_x(B)^2&\\geq \\mp i\\langle [A,B]x, x \\rangle +\\langle (A\\pm iB)x, y \\rangle\\langle y, (A\\pm iB)x \\rangle \\mp i[\\langle Ax, x \\rangle, \\langle Bx, x \\rangle], \\\\ &\\quad \\forall y \\in \\mathcal{E} \\text{ satisfying } \\|y\\|\\leq 1 \\text{ and } \\langle x,y \\rangle =0. \\end{align*} where \\begin{align*} & d_x(A):= \\sqrt{\\langle Ax, Ax \\rangle -\\langle Ax, x \\rangle^2},\\quad [A,B] := AB-BA, \\\\ & [\\langle Ax, x \\rangle,\\langle Bx, x \\rangle]:= \\langle Ax, x \\rangle\\langle Bx, x \\rangle -\\langle Bx, x \\rangle\\langle Ax, x \\rangle. \\end{align*} We call Inequalities (1) and (2) as noncommutative Maccone-Pati uncertainty principles. They reduce to uncertainty principles derived by Maccone and Pati [\\textit{Phys. Rev. Lett., 2014}] whenever $\\mathcal{A}=\\mathbb{C}$.",
+"authors": [
+"K. MAHESH KRISHNA"
+],
+"categories": [
+"math.OA",
+"math.MP"
+],
+"link": "https://hexagonmath.org/abs/2610.00282v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00282v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-16",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00285",
+"title": "One of β(4), β(6),..., β(36) is irrational",
+"abstract": "Let $\\beta(s)=\\sum_{m\\ge 0}(-1)^m(2m+1)^{-s}$ be Dirichlet's beta function. We prove that at least one of the seventeen numbers $\\beta(4),\\beta(6),\\dots,\\beta(36)$ is irrational. All previous explicit results of this kind that we know of include $\\beta(2)$, Catalan's constant; our statement does not involve $\\beta(2)$ at all. The proof uses the linear forms $L_n=\\sum_{t\\ge0}(-1)^tR_n''(t)$ attached to a very-well-poised rational function $R_n$ with triple integer zeros and half-integer poles. The second derivative, a $\\beta$-analogue of a device of Rivoal, removes $\\beta(2)$, and a symmetry removes the odd values. The zeros of $R_n$ run through the region of its poles, which makes every prime $p>n$ harmless. The common denominators are controlled by a $p$-adic analysis and an arithmetic integral that we bound with an exact rational certificate. The size of $L_n$ is bounded by an elementary estimate on the real axis, and its nonvanishing for infinitely many $n$ follows from a saddle-point analysis along a certified contour. The whole proof, including every numerical certificate, has been formalised in Lean 4 with Mathlib and checked by the Lean kernel, using only Lean's three standard axioms.",
+"authors": [
+"Shawn Krisman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00285v2",
+"pdf": "https://hexagonmath.org/pdf/2610.00285v2",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00279",
+"title": "Pattern-avoiding binary arrays and a Stirling-type table: explicit formulas, exact recurrence orders, and non-D-finiteness",
+"abstract": "Let $a_k(n)$ be the number of $n\\times k$ binary arrays in which no row contains $001$ or $010$ and no column contains $001$ or $011$ as three consecutive entries (OEIS A207123). Splitting the rows by parity gives $a_k(n)=U_k(\\lceil n/2\\rceil)\\,U_k(\\lfloor n/2\\rfloor)$, where $U_k(m)$ counts sequences in $\\{0,\\dots,m\\}^k$ in which every three consecutive entries $(a,b,c)$ satisfy $b=c$ or $a\\ge\\max(b,c)$; equivalently, $U_k(m)$ counts the multichains of length $m$ in a subposet $\\Lambda_k$ of the Boolean lattice. We prove three main results. First, for each $m$ the minimal order of a linear recurrence in $k$ is exactly $3m+1$, and a unique factorization into blocks gives a positive double-sum formula for $U_k(m)$ in terms of Stirling and $r$-Stirling numbers. Second, the bivariate generating function is not D-finite, and every polynomial-coefficient recurrence that holds on a quadrant is a left multiple of the defining four-term recurrence; the same holds for an associated Stirling-type triangle $N(k,q)$, and $U$ is not Stirling-like in the sense of Kauers. Third, the numerators $h_k(t)$ of $\\sum_mU_k(m)t^m=h_k(t)/(1-t)^{k+1}$, analogues of the Eulerian polynomials, have only simple real zeros; equivalently, the chain polynomials of the posets $\\Lambda_k$ are real-rooted, and the rows of $N$ are log-concave. We also determine all binomial shapes with nonnegative parameters in which $U_k(m)$ is a single sum, and show that the near-diagonal entries $N(k,k-d)$ are polynomials in $k$ starting exactly at $k=2d+2$. The reduction, the exact orders, the explicit formula, the non-D-finiteness, the description of the quadrant recurrences and the near-diagonal theorem are formalized in Lean 4 with Mathlib.",
+"authors": [
+"Yunkun Song"
+],
+"categories": [
+"math.CO",
+"cs.SC"
+],
+"link": "https://hexagonmath.org/abs/2610.00279v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00279v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
