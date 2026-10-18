@@ -1,0 +1,560 @@
+{
+"day": "2026-10-18",
+"updated": "2026-10-18T08:55:17+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2610.00315",
+"title": "Dense Algebraic Loci of Hodge Classes",
+"abstract": "We prove unconditionally that the Hodge conjecture is equivalent to two statements about abelian varieties, that the locus on which either statement holds is dense in every family and is either the whole family or a meagre set, and that the real multiplications by $\\sqrt5$, $\\sqrt6$, $\\sqrt7$ and by the cubic fields $\\QQ(\\zeta_{7})^{+}$ and $\\QQ(\\zeta_{9})^{+}$ are algebraic on explicit families of K3 surfaces, the cubic ones on the surfaces of Mumford type whose quaternion algebra is ramified at two real places. For each of the two statements we build the object it needs next, a complex on a product of two Weil fourfolds and a class on an abelian fourteenfold, prove what it does, and prove at which step it stops. Both statements remain open.",
+"authors": [
+"Deep Bhattacharjee",
+"Ushashi Bhattacharya"
+],
+"categories": [
+"math.AG",
+"math.KT",
+"math.NT",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2610.00315v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00315v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 5,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00330",
+"title": "A construction of the sphere-packing magic functions in dimensions 8 and 24",
+"abstract": "We develop an alternative route to the solutions of the sphere-packing problem in dimensions 8 and 24, through the auxiliary functions in the Cohn--Elkies Fourier bound. In each dimension we construct a radial Schwartz function with the prescribed lattice zeros by solving a countable system of linear equations in absolutely summable coefficients. We prove existence and uniqueness after normalization, without using the known magic functions or Fourier interpolation. Through a Cauchy boundary problem, solutions of the homogeneous equations are identified with global sections of a rank-six holomorphic vector bundle over the compactified modular curve of the full modular group, with its orbifold structure retained. Riemann--Roch shows that this bundle has Euler characteristic one, forcing a nonzero global section and hence a nontrivial solution of the equations. A separate argument proves uniqueness after normalization. An equivalent positive operator equation has a bounded inverse. The construction is motivated by the coefficient method for planar circle packing. A subsequent comparison identifies our solutions with the functions of Viazovska and of Cohn, Kumar, Miller, Radchenko, and Viazovska. The route to sphere packing is not yet independent in its entirety: we do not prove the required global sign inequalities from the coefficient equations. Those inequalities are inherited from the known functions after identification.",
+"authors": [
+"Thomas Hales"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00330v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00330v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00295",
+"title": "A converse to the discrete four-vertex theorem",
+"abstract": "Tabachnikov asked whether every cyclic sequence of positive numbers with at least two local maxima and two local minima is the sequence of radii of the circles through consecutive vertex triples of a convex polygon whose circumcenters lie inside the corresponding vertex angles. We prove this for every n ≥ 4, with extrema counted as plateaus. This is the sharp form: by Dahlberg’s discrete four-vertex theorem the condition is also necessary for nonconstant sequences. Locally near every nonconstant admissible sequence the polygon can be chosen to depend continuously (indeed C1) on the sequence, but in general not globally: we give an explicit path of admissible hexagon data along which no continuous choice of realizing polygons exists. The existence and continuity results are formalized in Lean 4 with Mathlib. We also prove the corresponding characterization for circles tangent to three consecutive supporting lines, using a separate tangential-polygon construction and Wegner’s forward theorem.",
+"authors": [
+"Kristoffer Josefsson"
+],
+"categories": [
+"math.MG",
+"math.DG"
+],
+"link": "https://hexagonmath.org/abs/2610.00295v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00295v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00303",
+"title": "A Counterexample to Beauville's Stability Conjecture",
+"abstract": "We construct a morphism $f: X\\to Y$ from a genus-two curve to an elliptic curve such that $f_*\\mathcal L$ is unstable for every $\\mathcal L\\in\\Pic^3(X)$. This gives a counterexample to a conjecture of Beauville.",
+"authors": [
+"Yi Gu",
+"Lifan Guan"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2610.00303v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00303v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00318",
+"title": "A graph with three card types and five vertex orbits",
+"abstract": "We prove that the answer to part~(b) of Problem~20.71 of the Kourovka Notebook is yes: there is a connected graph on $63$ vertices with exactly three isomorphism types of vertex-deleted subgraphs whose automorphism group has five orbits on the vertices. The graph is a Cayley graph of a Suzuki $2$-group of order $64$ with one vertex removed.",
+"authors": [
+"Deep Bhattacharjee",
+"Ushashi Bhattacharya"
+],
+"categories": [
+"math.CO",
+"math.GR"
+],
+"link": "https://hexagonmath.org/abs/2610.00318v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00318v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00308",
+"title": "A Polynomial Separation for Adaptive Fourier-Overlap Parity Decision Trees",
+"abstract": "Consider the parity decision tree rule that, at every nonconstant restriction, queries a nonzero character maximizing the intersection of the current Fourier support with its translate. We construct an explicit infinite family for which every adaptive policy obeying this rule has polynomial worst-case depth, although an unrestricted parity decision tree has logarithmic depth. For every $\\ell\\geq1$, let $R=2^\\ell$. Our function has $n=4\\ell-1+R^2\\ell+R$ input bits and exactly $k=R^6-R^5+R$ nonzero Fourier coefficients. Every history-dependent maximizing policy terminates and computes the function, but has a feasible path of length at least $R>k^{1/6}$; an explicit unrestricted tree has depth at most $5\\ell\\leq\\log_2 k$. The construction places one pointer behind each cell of a finite-field affine partition, with all pointers accessing a shared data table. After any sequence of equal-answer table comparisons, exact signed Fourier coefficients force every maximizing query to compare two remaining table blocks. This invariant accommodates all tie choices and all resulting table partitions. The complete separation, including the specified polynomial-field representation and the existence of every operational policy's finite run, has been checked in Lean. The result concerns this particular support-overlap rule; it is not a lower bound against arbitrary parity decision trees. HAL deposit: hal-05800236v1.",
+"authors": [
+"YURAN XIU"
+],
+"categories": [
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2610.00308v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00308v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00306",
+"title": "A Product Formula for Partition-Restricted Boundary Hypermatrix Counts",
+"abstract": "We prove the Koprowski--Lewis product conjecture for nondegenerate $2\\times(k+1)\\times k$ hypermatrices over finite fields with two partition-shaped layers of prescribed zeros. The result holds for every positive $k$, every finite field, and every admissible pair of partitions. After fixing the first slice, nondegeneracy is equivalent to simplicity of a partial linear map. Applying the simple-extension theorem of Arora, Ram, and Venkateswarlu inside the successive allowed row spaces gives the product directly. We include an elementary proof of that extension theorem and justify the equivalence with the defining projective critical locus of the hyperdeterminant. The complete counting statement and its semantic equivalences have been checked in Lean. HAL deposit: hal-05800194v1.",
+"authors": [
+"YURAN XIU"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00306v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00306v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00298",
+"title": "Almost all simple lengths are unique up to isometry",
+"abstract": "For every fixed hyperbolic torus with one cusp or one geodesic boundary, we prove that, among simple curves of length at most $L$, the number of isometry orbits and the number of distinct lengths differ by $o(L^2)$. Thus almost every complete length level is a single isometry orbit of at most six curves, and multiplicity converges in mean to the generic orbit size. The modular specialization is exactly Chen's density theorem for Markoff uniqueness. We also prove the full Schmutz--Schaller bound for every punctured torus having a simple trace that is not an algebraic integer, including any transcendental trace, and for dense families with integral traces. More strongly, every rational length class on these surfaces contains at most two curves. Transcendental twists give multiplicity one, while symmetric families with geodesic boundary attain the sharp bounds four and six. The density proof extends Chen's method using the stable-norm estimates of Doan-Li-Nguyen.",
+"authors": [
+"Nhat Minh Doan"
+],
+"categories": [
+"math.GT",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00298v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00298v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00304",
+"title": "An explicit finite cylinder cover of the regular tetrahedron saving $3.86\\times10^{-4}$ below the half-area bound",
+"abstract": "We give an explicit cover of a regular tetrahedron by $4096$ cylinders with compact triangular perpendicular bases. The sum of their base areas, divided by the tetrahedron's minimum orthogonal projection area, lies in $[0.499613830783714148,\\,0.499613830783714149)$. Thus the saving below $1/2$ exceeds $0.000386169216285851$. The construction uses a finite tilt in the angular-sector framework of OpenAI's September 2026 preprint and rationally specified radial cutoffs. Coverage is certified by exact linear-programming dual witnesses, and independently verified by exhaustive rational polyhedron clipping. We describe the geometric reduction, the certificate obligations, and reproducible verification of the full closed tetrahedron and the perpendicular base areas. No optimality is asserted.",
+"authors": [
+"Ricardo Pinho"
+],
+"categories": [
+"math.MG",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00304v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00304v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00313",
+"title": "Attracting oscillations in sequential distributive multisite phosphorylation",
+"abstract": "The sequential distributive $n$-site phosphorylation cycle with one kinase and one phosphatase admits attracting positive periodic orbits under mass-action kinetics for every $n\\ge3$. An explicit three-site family has a fixed positive equilibrium, a transversal imaginary-eigenvalue crossing, a stable complementary spectrum and a negative first Lyapunov coefficient. A site-addition argument extends the supercritical Hopf bifurcation to every larger site count. Together with the one-site calculation and Vassena's two-site exclusion, this makes three the exact threshold for Hopf bifurcation in this family. Dynamic sequestration of the shared enzymes supplies the feedback: the equilibrium, productive fluxes and statically eliminated vector field remain fixed while stability changes. Further results compare enzyme clamps and selective reduction, quantify flux and amplitude laws, validate two finite-amplitude attracting orbits, and give a driven thermodynamic realization. Exact algebra and interval certificates support the quantitative claims; numerical continuation is distinguished from proof. A registered Lean theorem independently establishes an existential affine family with attracting periodic orbits for every $n\\ge3$. The manuscript's arbitrary-parent site-addition theorem and its quantitative extensions go beyond that registered statement.",
+"authors": [
+"Michael Mislan"
+],
+"categories": [
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2610.00313v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00313v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00297",
+"title": "Bounds for Erdős Problem #188: $7\\le k\\le 60$",
+"abstract": "Let $\\ell_k$ denote $k$ collinear points with consecutive distances $1$. Erdős Problem #188 asks for the least $k$ such that the plane can be colored red and blue with no two red points at distance $1$ and no blue copy of $\\ell_k$. Previous work gives $6\\le k\\le 6330$, with the lower bound due to Tsaturian and the upper bound due to Currier, Mody, Xie and Zhang. We prove $7\\le k\\le 60$. For the lower bound we show that every red/blue coloring of the plane contains two red points at distance $1$ or a blue $\\ell_6$, following the skeleton of Arman and Tsaturian's proof in three dimensions; four distance lemmas are reduced to explicit unsatisfiable propositional formulas, certified by DRAT proofs. For the upper bound we give an explicit periodic coloring whose red set consists of $90$ closed regular $24$-gons of $48$ different sizes, all of diameter less than $0.999$, in each period, with rational centers and sizes. Any two cells are either far apart (all distances between their points exceed $1$) or close together (all distances are less than $1$), which is checked in exact arithmetic for all periodic translates and rules out red unit pairs. That every $\\ell_{60}$ contains a red point is proved by a computer-assisted verification: for every unit direction $u$, the sets $R-ju$, $j=0,\\dots,59$, cover the period torus, with every inclusion checked in rigorous ball arithmetic. A second, separately written program, based on a reduction to one-dimensional covering problems solved in outward-rounded interval arithmetic, confirms this. The computations, the verification code and drafts of the text were produced with AI tools under the author's direction; all proof certificates and verification programs are public (doi:10.5281/zenodo.23405962).",
+"authors": [
+"Carson Crocker"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00297v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00297v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00319",
+"title": "Every odd antihole is strongly chromatic-choosable",
+"abstract": "We prove the complete Fiujlaali--McDonald conjecture on odd antiholes unconditionally: for every $\\ell\\ge3$ the only assignments of $(\\ell-1)$-element lists from which the odd antihole $\\cbar{2\\ell-1}$ cannot be coloured are the constant ones. Consequently, an odd-hole-free $k$-critical graph of maximum degree $\\Delta$ containing an odd antihole of length $2(\\Delta-k)+7$ is that antihole.",
+"authors": [
+"Deep Bhattacharjee",
+"Ushashi Bhattacharya"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00319v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00319v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00300",
+"title": "Low-rank Grothendieck rings: an AI-assisted classification project, constructions, and open problems",
+"abstract": "We present a public research project on the Grothendieck rings of complex fusion categories of rank at most eight. The project reports unrestricted classification theorems in ranks two, three, and four, and classifications within specified fusion-multiplicity bounds in ranks five through eight, with two rank-six categorification questions unresolved. Its resources include research manuscripts, an exact fusion-ring census, verification code, and an interactive atlas. We describe seven constructions that are promising candidates for new tensor categories, subject to a separate assessment of their novelty up to tensor equivalence. We also state the two open problems explicitly. This announcement records the project's claims and their verification status; it invites independent mathematical review and does not provide a new proof of the complete classification.",
+"authors": [
+"Sebastien Palcoux"
+],
+"categories": [
+"math.QA",
+"math.CT"
+],
+"link": "https://hexagonmath.org/abs/2610.00300v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00300v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00317",
+"title": "No lattice tiling of $\\mathbb{Z}^{35}$ or $\\mathbb{Z}^{805}$ by Lee balls of radius three",
+"abstract": "We prove that there is no lattice tiling of $\\mathbb{Z}^{35}$ or of $\\mathbb{Z}^{805}$ by Lee balls of radius three. These were the only cases left open by Xiao and Zhou among the Lee balls of dimension at least three and radius at least two with fewer than $2^{30}$ points, so the lattice Golomb--Welch conjecture holds for all of them.",
+"authors": [
+"Deep Bhattacharjee",
+"Ushashi Bhattacharya"
+],
+"categories": [
+"math.CO",
+"math.MG",
+"math.NT",
+"cs.IT"
+],
+"link": "https://hexagonmath.org/abs/2610.00317v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00317v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00314",
+"title": "Non-unique vanishing-viscosity solutions of 2D Euler with vorticity in $L^p$",
+"abstract": "For every finite $p>2$, we construct one real compactly supported zero-circulation initial vorticity in $L^1(\\mathbb R^2)\\cap L^p(\\mathbb R^2)$ whose unforced Navier--Stokes evolutions have two distinct strong vanishing-viscosity accumulation paths. Both limits are renormalized unforced Euler solutions with the same strong initial trace. The construction uses a fixed infinite concentric stack, a smooth unstable fourfold profile, actual positive scalar envelopes, and a finite nonlinear expansion retaining the interacting harmonic histories. Discounted source history is controlled through the complete prospective receiver stop, and exact-cap normalization yields a depth-uniform outgoing reset. Protected first crossings, phase degree and a sparse phase assignment then separate the two limits. The analytical preliminaries, finite-sector spectral scope, source-reference comparison and uniform parameter order are included in the proof.",
+"authors": [
+"Umberto Pappalettera",
+"Massimo Sorella"
+],
+"categories": [
+"math.AP"
+],
+"link": "https://hexagonmath.org/abs/2610.00314v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00314v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00311",
+"title": "On Landau--Siegel zeros",
+"abstract": "This is a variant of the short OpenAI proof that there do not exist Landau-Siegel zeros.",
+"authors": [
+"Ben  Green"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00311v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00311v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00309",
+"title": "Quantitative analysis of critical-window profiles for autocatalytic emergence",
+"abstract": "The critical-window law for reflexively autocatalytic and food-generated (RAF) sets in the reversible binary-polymer model states that, when the mean number of reactions catalysed per molecule grows like $\\lambda n$, the RAF probability converges to $S_\\nu(1-\\mathrm{e}^{-\\lambda})$, where $S_\\nu$ is the probability that ordinary reversible closure of the food set is unbounded in an infinite field of independently open reaction channels. The law is known for the ordered split-position catalogue ($\\nu=\\mathrm{sp}$) and for the commuting-factor quotient catalogue ($\\nu=\\mathrm{qt}$). It is an existence theorem: it names the limit but says nothing effective about its value, its shape near zero, or what a finite network actually does. This paper answers those three questions. For both profiles, a construction gives a terminating algorithm which, given rational openness $a$ and rational tolerance $\\varepsilon$, returns a rational interval of width below $\\varepsilon$ containing $S_\\nu(a)$, with an explicit approximation error $1/m+(2^{L+1}-2)(1-a^{L+1})^r$ for a computable seed length $L$ and record index $r$, uniform on every openness interval bounded away from zero. The key estimate is a finite-cap record contraction proved without conditioning on survival and without independence between repair attempts. Second, tracking total word length along productive closure histories replaces a coefficient of order $\\binom{J}{r}$ over enormous channel caps by $C_r^\\nu\\le36^r2^{r(r-1)/2}$, giving $\\log S_\\nu(a)\\le-\\log^2(1/a)/(2\\log2)+O(\\log(1/a))$ and exact certificates such as $S_\\nu(10^{-20})<10^{-629}$. Third, at fixed word length $n$ the probability that some singleton RAF exists is exactly $1-(1-p)^{248}$ (split) or $1-(1-p)^{234}$ (quotient), so the finite RAF probability is linear in $p$ at zero while the limiting profile is flatter than every power; this order-of-limits effect is quantified with rational two-sided predictions and two fully explicit examples at $n=16$. Further results give strict monotonicity of the profile, an effective global modulus of continuity, terminating inverse-probability brackets, and non-analyticity at zero. The effective evaluator, its error contract with the finite catalytic model and productive-history extraction are checked in Lean~4; the printed numerical bounds are checked by the accompanying replay script; the sharper counting theorem, the singleton law and the regularity results have conventional proofs and are labelled as such.",
+"authors": [
+"Michael Mislan"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2610.00309v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00309v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00307",
+"title": "Set Cover by Cyclic Rotations Is NP-Complete",
+"abstract": "Given an explicitly listed binary pattern of positive length $n$ and a nonnegative integer $b$ in binary, can at most $b$ cyclic rotations of the pattern cover all $n$ positions? We prove that this decision problem is NP-complete. The reduction constructs a pattern in a cyclic group of polynomial order and outputs its entire indicator word. Its principal ingredient is a replicated-marker construction: a cover within the budget must choose one translate in every layer, and each failed difference constraint leaves a block of more holes than the remaining translates can cover. Combining this construction with the known embedding of graph cliques into circulant graphs using distinct three-term sums gives a polynomial-time reduction from $3$SAT. The theorem allows every subset, including the empty pattern, and every binary budget. A Lean formalization checks the mathematical reduction, the full-word polynomial-time programs, NP membership, and the unconditional NP-hardness foundation. HAL deposit: hal-05800233v1.",
+"authors": [
+"YURAN XIU"
+],
+"categories": [
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2610.00307v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00307v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00312",
+"title": "Sharp equilibrium and stable-state capacities of multisite phosphorylation",
+"abstract": "For the sequential distributive $n$-site phosphorylation cycle with one kinase and one phosphatase, the maximal number of positive equilibria is $2n-1$ and the maximal number of locally asymptotically stable equilibria is $n$, for every $n\\ge1$. The stable-state ceiling includes nonhyperbolic attractors. Both bounds are attained simultaneously at common conserved totals by rational positive rate constants and rational hyperbolic equilibria: $n$ sinks alternate with $n-1$ saddles, each with one unstable direction. This configuration persists on a nonempty open subset of the full parameter space. An explicit polynomial recurrence and interlacing construct the equilibria. Stability follows by separating equilibrium geometry from kinetic time scales, retaining enzyme-bound substrate in the slow variables, and controlling a path matrix with positive rank-one feedback. Further results give a diagonal Lyapunov certificate, a quantitative eigenvalue splitting law, exact finite-size witnesses and a three-site robustness and recovery certificate. An accompanying registered Lean theorem establishes equilibrium attainment; the broader capacity results are proved here by conventional arguments.",
+"authors": [
+"Michael Mislan"
+],
+"categories": [
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2610.00312v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00312v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00320",
+"title": "The $\\mathfrak{sl}(2)$ weight system at $c=-3/32$ extends to a graph 4-invariant",
+"abstract": "We prove unconditionally the conjecture of Fomichev, Karev, Pavutnitskiy and Usanov that the specialization of the $\\mathfrak{sl}(2)$ weight system at $c=-3/32$ extends to a $4$-invariant of graphs. The extension is $\\xi(G)=(-32)^{-n}S_G(-2)$, where $S_G(N)$ counts with signs the assignments of $2$-element subsets of $\\{1,\\dots,N\\}$ to the $n$ vertices of $G$.",
+"authors": [
+"Deep Bhattacharjee",
+"Ushashi Bhattacharya"
+],
+"categories": [
+"math.CO",
+"math.GT",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2610.00320v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00320v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00301",
+"title": "The Exact Junta Bound for Degree-Two Boolean Functions on q-ary Hamming Cubes",
+"abstract": "We determine the maximum number of relevant variables of a Boolean function of degree at most two on a finite alphabet. For every integer $q\\geq2$, this maximum is exactly $\\max\\{4,q+1\\}$. Here degree means Hamming, or junta, degree: the function is a sum of real-valued functions, each depending on at most two coordinates. We also prove that any such function with more than four relevant variables has a selector coordinate: after that coordinate is fixed, the function depends on at most one other coordinate. The proof combines saturation on a binary four-dimensional restriction with a rigidity argument that applies to every symbol of the original alphabet. Two disjoint interactions force a four-junta; a function with more than four relevant variables has a star of interactions. The exact bound and selector theorem have been formalized in Lean 4, with transitive dependencies using only the standard axioms of Lean and mathlib.",
+"authors": [
+"YURAN XIU"
+],
+"categories": [
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2610.00301v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00301v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00302",
+"title": "The Grothendieck construction between the telescope monad and contextads",
+"abstract": "A telescope is a list of stages in which each stage is a family indexed over the Grothendieck construction of the previous ones. The telescope monad stacks stages as the free-monoid 2-monad on spans, whereas a contextad collapses two stages into one by a dependent sum. This paper derives both from the span of single stages, and thereby explains why the strict algebras of the telescope monad are contextads. The link is the Grothendieck extension of a span. Because it is monoidal and preserves coproducts, it turns the telescopes into the free monad on the extension of the span of stages and the stage contextad into the Grothendieck monad, whose Kleisli arrows are the contextful arrows. The main theorem identifies the stage contextad with the pseudo-algebra of the telescope monad transported from the display contextad. Its structure map is the dependent sum, which the extension turns into the iterated multiplication of the Grothendieck monad.",
+"authors": [
+"Kotaro Kamiya"
+],
+"categories": [
+"math.CT",
+"cs.MS"
+],
+"link": "https://hexagonmath.org/abs/2610.00302v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00302v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00322",
+"title": "The Willow Transform and the Blind Zone Theorem: A Sharp Obstruction in the Turán Hierarchy for the Riemann ξ-Function",
+"abstract": "Let Ξ(t)=ξ(1/2+it) denote the Riemann ξ-function in the critical-line parametrisation, let Ξ(t)=Σ_{k≥0}(-1)^k c_k t^{2k} be its even Taylor expansion at the origin, and let D(n,r)=det[c_{n+i-j}]_{i,j=0}^{r-1} be the associated Toeplitz minors. By the Schoenberg--Edrei characterisation of Pólya frequency sequences, positivity of D(n,r) for all n≥0 and all r≥1 is equivalent to the Riemann hypothesis (RH); for each fixed r the inequalities D(n,r)≥0 supply a necessary condition for RH, and for r=2 they were proved unconditionally by Csordas, Norfolk and Varga, so that the second level of the resulting hierarchy is not discriminating. We show that this failure of discrimination persists far beyond level 2, and we determine the range over which it does so: every level r≤43 is non-discriminating. Parametrising the zeros of the generating function G(z)=Σ_{k≥0}c_k z^k by β_j=-1/z_j, the dual Jacobi--Trudi identity yields the exact identity D(n,r)=c_0^r s_{(r^n)}(β), where s_{(r^n)} denotes the Schur function of the rectangular partition (r^n) in the alphabet β. A zero of ζ off the critical line contributes to β a conjugate pair ρ e^{±iθ} whose argument θ coincides with the vertical angle of the corresponding violating pair, whereas zeros on the critical line contribute positive real variables. For an alphabet of cardinality two we prove the closed form s_{(a,b)}(ρ e^{iθ}, ρ e^{-iθ}) = ρ^{a+b} sin((a+1-b)θ)/sin θ = ρ^{a+b} U_{a-b}(cos θ), where U_k is the Chebyshev polynomial of the second kind; the sign is therefore governed by the criterion U_k(cos θ)>0 if and only if (k+1)θ<π. Through the coproduct expansion s_λ(X⊔Y)=Σ_μ s_μ(X)s_{λ/μ}(Y), the Littlewood--Richardson expansion s_{λ/μ}=Σ_ν c^λ_{μν}s_ν of each skew factor, and the positivity of Schur functions on positive real alphabets, the sign analysis reduces to two-variable constituents. Since c^λ_{μν}>0 forces ν⊆λ=(r^n), the index k=ν_1-ν_2 of each constituent is bounded by the number of columns r and is independent of the shift n. All constituents then have the same sign, so no cancellation occurs. The same bound persists for an alphabet containing several conjugate pairs: iterating the coproduct over the pairs and using the fact that the entry 1 occurs at most once in each column of a semistandard tableau bounds every constituent index by ν_1≤r, independently of the number of pairs. This yields the following result. Blind Zone Theorem. Let the alphabet contain any number of violating pairs, each subtending a vertical angle at most θ_max, and suppose θ_max<π/(r+1). Then every minor D(n,r') with r'≤r is strictly positive, notwithstanding the presence of non-real zeros. The critical strip together with γ_1=14.134725141... forces θ≤θ_max=2 arctan(1/(2γ_1))=0.07071826... radians, whence π/θ_max=44.424...; consequently every order r≤43 is non-discriminating: for all n≥0 and all r≤43 the minor D(n,r) is positive if RH fails and non-negative if RH holds, so no minor of order r≤43 can certify either the truth or the falsity of RH. The bound is on the order r and not on the shift n; the corresponding n-based assertion is false, and the mechanism responsible is exhibited in the remarks section. The threshold is established for an arbitrary number of violating pairs; the case of several pairs is settled in the coproduct section and requires no separation condition on the moduli and no bound on the number of pairs. No claim of a proof of the Riemann hypothesis is made.",
+"authors": [
+"Changxia Lin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00322v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00322v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00305",
+"title": "Three conjectures on the first two graph eigenvalues",
+"abstract": "Let λ₁(G) ≥ λ₂(G) be the two largest adjacency eigenvalues of a finite simple graph G on at least two vertices. We resolve the three conjectures appearing as 1.15–1.17 in Kannan, Kumar and Pragada. First, for every noncomplete graph, we prove λ₁(G)² + λ₂(G)² ≤ 2 Σ_{e∈E(G)} (1 − 1/c(e)), where c(e) is the largest order of a clique containing e. Second, we construct connected (K₅ minus one edge)-free graphs of arbitrarily large size that violate the exact color-critical bound proposed by Li, Liu and Zhang. Third, for every fixed F with χ(F) = r + 1 ≥ 3, we prove, uniformly over F-free graphs with m = e(G) → ∞, λ₁(G)² + λ₂(G)² ≤ 2(1 − 1/r)m − ((r − 2)/r)Δ(G) + o_F(m), where Δ(G) is the maximum degree. The coefficient of the degree term is best possible. The arguments use the half-plane complete-positivity theorem of Coutinho, Liu, Spier, Tang and Zhang, together with an explicit connected construction, weighted clique removal and spectral separation of vertices of high degree. Theorems 1.1–1.3 are formalized in Lean 4 and registered as PALOMAR-2026-10-15-000015 v1, PALOMAR-2026-10-16-000012 v1 and PALOMAR-2026-10-17-000005 v1, respectively.",
+"authors": [
+"Idris Ali Shaik"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00305v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00305v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00316",
+"title": "Tools for proving that graphs are not graceful",
+"abstract": "A graph with $m$ edges is graceful if its vertices can be labeled with distinct integers in $[0,m]$ whose edge differences are exactly $1,\\dots,m$. Graceful labelings have been constructed for sixty years, but there are few general methods for showing that a graph is not graceful. We start from a single generating-function identity that restates gracefulness, and derive three tools from it: residues at roots of unity, extending the classical parity condition; positivity on the unit circle, which amounts exactly to the Goemans–Williamson max-cut relaxation tested against the minimum of the Dirichlet kernel; and the label interval itself, which forces dense subgraphs to spread out. The consequences include new families of ungraceful graphs: every edge-transitive graph that contains $K_6$, the Paley graphs $P(q)$ with $q\\ge37$, the Kneser graphs $K(n,k)$ with $n\\ge5.61k$, almost every $d$-regular graph with $d\\ge84$, and the polarity graphs $\\mathrm{ER}_q$ with $q\\ge23$, which contain no $4$-cycle at all. For positivity we also determine exactly what the method can prove.",
+"authors": [
+"Boon Suan Ho"
+],
+"categories": [
+"math.CO",
+"cs.DM"
+],
+"link": "https://hexagonmath.org/abs/2610.00316v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00316v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
