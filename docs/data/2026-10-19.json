@@ -1,6 +1,6 @@
 {
 "day": "2026-10-19",
-"updated": "2026-10-19T04:06:29+00:00",
+"updated": "2026-10-19T14:38:45+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -748,6 +748,28 @@
 "announce": "cross",
 "date": "2026-10-19",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00361",
+"title": "Arithmetic structure in a complete atlas of power-residue runs below $2^{32}$: Rabung profiles, Kummer densities, norm dependencies, and local codes",
+"abstract": "We study the arithmetic behind long runs in a complete census of power-residue colourings below $2^{32}$, covering every admissible order $2\\le r\\le9$. The dataset contains $203\\,280\\,221$ primes and $677\\,591\\,249$ profiles, with exact quadratic four-window counts at every odd prime. A bounded study of its deep tail identifies algebraic windows with fewer independent character conditions than their lengths suggest. We certify their power-class groups and conjugate-root overlaps, obtaining exact Kummer densities for fixed templates, including eight additional order-four models. In a quadratic family, eleven constant positions force twenty-six neutral positions at odd character orders. In two further families, norm identities generate all remaining higher-root relations. A length-$53$ cubic realizes a three-wise independent binary code whose monochromatic probability is $4096$ times that of independent signs; its local run law is computed exactly. A separate stratified million-profile ternary sample is analysed with the same finite catalogue filter applied to the data and to an independent-colour comparator. Finite census statements, selected explanations and asymptotic template laws concern distinct populations. No universal law of global maxima or finite-range error estimate for the template densities is asserted.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00361v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00361v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1712,6 +1734,27 @@
 "reasons": [
 "title: nilpoten"
 ],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00346",
+"title": "Optimal windowed test functions for bounding analytic ranks of elliptic curves",
+"abstract": "Assuming the Generalized Riemann Hypothesis, the explicit formula for the L-function of an elliptic curve E/Q bounds the analytic rank of E in terms of the traces a_p for p < e^(2L), for any admissible test function supported on a window [-L,L]. In rank computations this test function is usually fixed in advance, typically to a Fejer-type kernel; optimising it for an individual L-function goes back to Booker, and an earlier test on quadratic twists of rank about 7 found the gain to be small. We choose, for each individual curve, the test function that minimises the resulting bound within a finite-dimensional space supported on [-L,L], certify the result, and measure the gain systematically, up to the current record curves. The minimiser is the solution of a linear system with the Gram matrix of the Weil quadratic form of E, and the optimal bound equals the reciprocal of the corresponding reproducing kernel at the central point, which we call the radix Riemanniana of E. Because the Fejer-type kernel lies in this space, the optimised bound is never weaker. We certify every bound with ball arithmetic, check the prime-side evaluation against the zero side computed independently from the zeros of L(E,s), and benchmark against the fixed kernel on 1642 curves from Cremona's tables, 2500 curves from the Stein-Watkins database and a set of curves with conductors up to 3*10^16. Depending on the sample and on the stopping criterion, the number of primes required to pin down the analytic rank decreases by 8-23% in aggregate. For individual curves of large conductor the decrease ranges from 0% to 43%. Within each sample the gain is largest at rank 0 and decreases with the rank; it grows again, and by a much larger factor, in the regime of large rank and large conductor where the computation is most expensive. On the smallest-conductor curves of rank 28-31 in the ICARM leaderboard the optimised kernel needs 84-85% fewer primes to certify the rank. For the current record, the rank-32 curve #4239 of Elkies, Klagsbrun and Li, it certifies r_an<=32 under GRH with 2.53*10^9 primes - the first upper bound for this curve - and hence r_an=32 under GRH and BSD, while the fixed kernel, certified at L=12.40 with 2 481 819 193 primes, is still 0.39 above the target. On all 395 leaderboard curves of rank 24-31, with primes below 10^10, the optimised kernel certifies r_an<= r on 379 curves and the fixed kernel on 372; where both succeed the fixed kernel needs a median of 4.0 times as many primes. We validate the fixed-kernel baseline by reproducing every published value of Bober and of Klagsbrun, Sherman and Weigandt with an independent implementation.",
+"authors": [
+"Sabrina Hackfort"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00346v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00346v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
 "watched_authors": []
 },
 {
