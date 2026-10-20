@@ -1,6 +1,6 @@
 {
 "day": "2026-10-20",
-"updated": "2026-10-20T06:06:24+00:00",
+"updated": "2026-10-20T14:28:00+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -3431,6 +3431,28 @@
 "announce": "replace-cross",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00407",
+"title": "Optimal bounds for the length and number of unit fraction representations",
+"abstract": "This paper gives a human-written exposition and simplification of proofs that were recently posted by OpenAI. We prove that every $a/b\\in (0, 1)$ can be written as the sum of $O(\\log\\log b)$ many distinct unit fractions. We also prove that the number of representations of $1$ as the sum of $k$ distinct unit fractions grows doubly exponentially in $k$.",
+"authors": [
+"Thomas Bloom",
+"Wouter van Doorn"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00407v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00407v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-20",
+"ai_mode": "human",
 "other_links": {},
 "tier": 9,
 "reasons": [],
