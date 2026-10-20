@@ -1,6 +1,6 @@
 {
 "day": "2026-10-20",
-"updated": "2026-10-20T04:04:59+00:00",
+"updated": "2026-10-20T05:05:08+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -637,6 +637,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00396",
+"title": "A reduction of the Gorenstein symmetry conjecture to gendo-symmetric algebras",
+"abstract": "Over any field, the Gorenstein symmetry conjecture for finite-dimensional algebras is equivalent to its restriction to gendo-symmetric algebras.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2610.00396v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00396v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2610.26364",
 "title": "A Sarkisov Involution from a Rational Cubic Curve on a Quartic Double Solid",
 "abstract": "Building on an earlier classification of smooth weak Fano threefolds of Picard number two with small anticanonical morphism, we prove that Case~28 of the table of E1-E1 links from that classification is geometrically realizable. We construct the link by blowing up a smooth rational cubic curve on a degree-two del Pezzo threefold $V_2$, realized as a quartic double solid. A lattice calculation on an anticanonical K3 surface shows that the anticanonical morphism of the blow-up is small, and the covering involution of the anticanonical double cover realizes the flop. The resulting Sarkisov link is a birational involution with the numerical invariants of E1-E1 Case~28.",
@@ -702,6 +723,31 @@
 "announce": "cross",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00395",
+"title": "Additive Rounding for LP-Tight Three-Item Bin Packing",
+"abstract": "We consider bin-packing instances with \\(3m\\) items of sizes in \\((1/4,1/2)\\), total size \\(m\\), and configuration linear programming value \\(m\\). Let \\(d\\) be the relative dimension of the polytope of zero-sum multiplicity patterns obtained by centering sizes at \\(1/3\\). We determine the maximum additive integrality gap for every \\(d\\le10\\). It is zero for \\(d\\le4\\) and one for \\(5\\le d\\le10\\). More generally, a representation of the multiplicity vector by at most five zero-sum patterns admits an integral packing, and a representation by at most eleven patterns requires at most one additional bin. The integral-packing result has a structural proof; the additive-one result combines structural restrictions with exact finite enumeration. For arbitrary \\(d\\), we construct an LP-tight subinstance with at most \\(6d+3\\) items and no smaller additive gap. An integer representation preserving the signs of triple sums then yields a finite rational family attaining the worst gap, which is computable in time \\(2^{O((d+1)^2)}\\). Finally, we construct a sharp family with simplex pattern polytopes and a linearly growing zero-sum matching deficit. Its eleven-dimensional member violates the zero-sum remainder condition used in the ten-dimensional proof. Thus the bound of eleven fractional patterns in that condition is sharp.",
+"authors": [
+"Ruixue Yuan",
+"Da Teng",
+"Zhenyu Sun"
+],
+"categories": [
+"math.OC",
+"math.CO",
+"cs.DS"
+],
+"link": "https://hexagonmath.org/abs/2610.00395v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00395v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "human",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -840,6 +886,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00353",
+"title": "Arithmetic reconstruction and error recovery from three quadratic traces",
+"abstract": "We study completely multiplicative sign functions $h$ through their values at positive integers of the forms $n^2+1$, $n^2+2$ and $n^2-2$, with observed indices $1\\le n\\le N$. First occurrences of prime factors give a canonical information set and a complete, prefix-compatible family of parity relations, each involving at most $\\lfloor\\log_2N\\rfloor+3$ readings. These relations yield exact bounded-distance repair, including corrupted information coordinates, in time $N^{O(1)}(4+\\lfloor\\log_2N\\rfloor)^t$ for $t$ errors; erasures enter through an explicit rank parameter. We then construct arithmetic redundancy without estimating a quadratic regulator. If $h(p)=-1$ and $K=\\log N/\\log\\max(3,p)$, the three traces contain at least $\\exp(\\exp(c\\log K/\\log\\log K))$ negative readings for every fixed $0<c<\\log2$ and sufficiently large $K$, uniformly in the prime $p$ and all other prime signs. The same number of each sign occurs on one trace between $N^\\alpha$ and $N$, for each fixed $\\alpha<1$. The proof combines short reconstruction certificates, Lehmer divisibility and balanced divisors. Coprime blocks give compact access to these families without factoring large recurrence terms. Under independent reading noise with fixed erasure probability $0\\le a<1$ and conditional flip probability $0\\le b<1/2$, every source prefix $P=\\lfloor\\exp((\\log N)^\\delta)\\rfloor$, for fixed $0<\\delta<1$, is recoverable from $O(P)$ readings with polynomially small failure probability in $P$ and preparation polynomial in the numerical $P$ and $\\log N$. A fixed positive erasure rate nevertheless leaves exponentially many assignments of observed large-prime signs. No positive-density inverse for unrestricted sources is asserted.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.IT"
+],
+"link": "https://hexagonmath.org/abs/2610.00353v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00353v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2604.03763",
 "title": "Arithmetic volume of Shtukas and Langlands duality",
 "abstract": "We extend the work of Feng--Yun--Zhang relating the arithmetic volume of Shtukas with derivatives of zeta functions by allowing arbitrary coweights for split semisimple algebraic groups. As in their original work, the formula involves some numbers called eigenweights. We obtain uniform formulas for the eigenweights in terms of the Langlands dual group, marking the first structural role for the dual group in such formulas governing derivatives of L-functions.",
@@ -971,6 +1039,27 @@
 "announce": "replace",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00392",
+"title": "Cartan determinants in finite representation type over arbitrary fields",
+"abstract": "Let \\(A\\) be a finite-dimensional representation-finite algebra over an arbitrary field, and let \\(M\\) be a nonzero finite-dimensional right \\(A\\)-module. We prove that \\(\\operatorname{End}_A(M)\\) has Cartan determinant one whenever it has finite global dimension. In particular, the Cartan determinant conjecture holds for representation-finite algebras over arbitrary fields.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2610.00392v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00392v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1160,6 +1249,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00348",
+"title": "Classical correspondences between per-prime Tate curves: a matching obstruction",
+"abstract": "For the complex Tate curves E_p = C*/p^Z attached to primes, we compute the classical divisorial correspondence groups. For distinct primes, Hom(E_p,E_q) is nonzero exactly when log(p)log(q) belongs to 4 pi^2 Q. If log(p)log(q)/(4 pi^2) = u/v in lowest positive terms, this group has rank one and its generator has isogeny degree uv. The isogeny relation between distinct primes is a partial matching: unconditionally, each prime has at most one partner. These rigidity statements specialize results of Winkelmann; the explicit Hom generator and degree are included here. Outside the matching, the Neron-Severi group of E_p x E_q consists of the two fiber classes, which act trivially on H^1. On every diagonal surface End(E_p) = Z, by Gelfond-Schneider, and the intersection profile of multiplication graphs is independent of p. Consequently no connected classical correspondence system can involve three distinct prime fibers. Version 2 withdraws the broader universal no-go assertion of version 1 and states the exact cross-fiber support restriction required by the obstruction.",
+"authors": [
+"Kunal Tyagi"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2610.00348v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00348v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2610.25003",
 "title": "Classification of twisted Yangians as coideal subalgebras of Yangians",
 "abstract": "Let $\\mathfrak g$ be a complex simple Lie algebra with an involution $\\omega$. We classify the homogeneous right coideal subalgebras of the Yangian of $\\mathfrak g$ whose classical limit is the enveloping algebra of the twisted current algebra, embedded in the standard way, without assuming any formula for the coaction. For nontrivial $\\omega$, they form a family parametrized by a spectral parameter and an element of the center of the fixed-point subalgebra; for $\\omega=\\mathrm{id}$, only a spectral parameter occurs. All members of the family are isomorphic as graded algebras, through explicit isomorphisms. In particular, the twisted Yangians with a central correction introduced by Huang and Lu are coideal quantizations, and the $\\imath$Yangian of quasi-split type $\\mathsf A_{2n}$ is isomorphic to the traditional twisted Yangian studied by MacKay and by Belliard and Regelskis. The PBW property is proved uniformly from the classical affine Serre relations, without quantum defining relations. We also recover finite presentations in split and quasi-split types and verify the technical hypotheses of the quantum duality principle used by Lu, Wang, and Weekes.",
@@ -1342,6 +1453,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00356",
+"title": "Correlation laws and identifiability of multiplicative functions on quadratic traces",
+"abstract": "We study which completely multiplicative sign functions can be identified from the statistics of $h(n^2+1)$, $h(n^2+2)$ and $h(n^2-2)$. In a class of finite products of quadratic characters of odd prime conductor, completed without zeros and modified at primes with summable inverse square roots, diagonal correlations of orders two and four determine the function. The second-order data recover the conductor and prime corrections, leaving exactly the ramified local signs undetermined. Fourth-order detectors recover those signs, including at the small primes; the inverse also extends to quadratic components at two. No bounded horizon suffices uniformly: for every prescribed window, two finite-conductor sources can share its complete law and disagree with density arbitrarily close to one half on each trace. For an arbitrary prescribed source $h$, we construct factors $fg=h$ such that, for each factor separately, the three traces jointly have the uniform word law at every horizon. The choice is continuous and computable relative to $h$, with a finite bound uniform in $h$ for approximation of a canonical synchronous coupling. The same choice treats every horizon sequence $o(\\log\\log N)$. The factors need not be independent. Their synchronous empirical law projects exactly to the product's empirical word law; when a limiting canonical coupling exists, it retains the product's word law, which need not identify $h$ as a function.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2610.00356v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00356v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2610.26085",
 "title": "Counting Irreducible Components of the Semistable Global Nilpotent Cone",
 "abstract": "We discuss various methods for parametrizing and counting irreducible components of the global nilpotent cone of semistable $G$-Higgs bundles on a smooth complex curve. By restricting our study to the case of generically regular components following previous work of Faergeman and Raskin, we obtain explicit counts of semistable generically regular irreducible components for $G = \\mathrm{SL}_n$, and give the first examples of such counts outside type A. These numbers are obtained by counting points in some natural polytopes associated to $G$, but our method requires a finer analysis in cases where the center of the group $G$ is disconnected.",
@@ -1358,6 +1491,28 @@
 "announce": "new",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00368",
+"title": "Deciding D-stability is coNP-hard",
+"abstract": "The computational difficulty of D-stability, raised by Chen, Fan and Yu (1995, doi:10.1016/0167-6911(94)00036-U), is addressed by an explicit integer-matrix reduction from PARTITION. For positive weights of total 2T, the construction produces a matrix of order m + 4 that is D-stable exactly when no subset has weight T. When an equal split exists, some positive diagonal scaling has an eigenvalue with strictly positive real part. A Pell recursion supplies the parameters, with a logarithmic search bound and an explicit bound on every matrix entry. These bounds give polynomial binary output length. Together with the classical NP-completeness of PARTITION, the reduction yields coNP-hardness of D-stability and D-semistability, and NP-hardness of strict D-instability, even for a four-dimensional core with attachments at one coordinate. The hardness is in the weak sense for binary encoding. Running-time analysis and the trivial-instance cases are treated conventionally; registered Lean statements verify the explicit arithmetic encoding, bounds and promise dichotomy.",
+"authors": [
+"Michael Mislan"
+],
+"categories": [
+"cs.CC",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2610.00368v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00368v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1689,6 +1844,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00388",
+"title": "Exact interfaces for modular autocatalytic networks",
+"abstract": "We study which information about an autocatalytic reaction network suffices for exact composition with other modules. For the maximum amplification factor, threshold-indexed species-price cones compose by exact set operations, while scalar optima do not. Autocatalytic child-selection cores are reconstructed from complete, uniquely matched ordinary-core anchors using alternating exchange paths and certified rational semipositivity tests. For irreducible unary diluted source networks, positive-composition certificates characterize growth, criticality and extinction under arbitrary species degradation; a related certificate identifies partial-actuation stabilizability. Further manuscript results treat factor interactions, exact boundary traces, contextual indistinguishability and junction-tree composition under running intersection and scope extensionality. Separator width bounds message arity, without a runtime claim. Eleven foundation statements are Palomar registered in Lean 4; the broader historical formalization and conventional extensions retain their separately documented scope. Thermodynamic and passive-tail examples illustrate exact interfaces and information loss. Structural amplification and linear onset conclusions are distinguished from nonlinear kinetic dynamics.",
+"authors": [
+"Michael Mislan"
+],
+"categories": [
+"math.OC",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00388v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00388v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2509.03993",
 "title": "Explicit computation of the generic degree of the generalized Verschiebung in rank two",
 "abstract": "The purpose of this paper is to apply previous work on dormant opers to the study of the moduli space of stable bundles in positive characteristic. We affirmatively resolve the rank $2$ case of a conjecture proposed by the second author, which predicts a direct relationship between the number of higher-level dormant $\\mathrm{PGL}_2$-opers and the generic degree of the generalized Verschiebung map for rank $2$ stable bundles induced by Frobenius pull-back. As a consequence, for a general smooth projective curve of genus $g>1$ in characteristic $p>2$, we obtain a procedure for explicitly determining these generic degrees by counting certain combinatorial objects and, in particular, compute $\\mathrm{deg}(\\mathrm{Ver}^2_1)$ as a polynomial in $p$ for $3\\leq g\\leq 10$.",
@@ -1938,6 +2115,27 @@
 "abstract: presentable",
 "abstract: segal condition"
 ],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00344",
+"title": "Image Reconstruction from Projections using Fourier Slice Theorem",
+"abstract": "We study the problem of image reconstruction from projection data by combining the Fourier Slice Theorem with scattered-data approximation in the Fourier domain. The unknown image is assumed to belong to the space of functions of bounded variation (BV), allowing discontinuities that naturally arise in practical tomography. In contrast to conventional band-limited formulations, no assumption is imposed that the image itself is band-limited. Instead, the finite bandwidth is attributed to the image acquisition system through the detector response, finite sampling resolution, and associated measurement process. Consequently, the measured Radon projections contain only a finite range of spatial frequencies, and the reconstruction objective is the recovery of the instrument-limited image determined by the measurable Fourier bandwidth. To exploit the structure of the Fourier Slice Theorem, we introduce a symmetric embedding of the image on the torus together with the corresponding symmetrization of the Radon data. The resulting Fourier transform becomes real-valued and even, allowing the Fourier-transformed projection data to be interpreted as real-valued scattered samples of the two-dimensional Fourier transform on a fixed bounded frequency domain. This reformulates image reconstruction as a scattered-data interpolation problem in the Fourier domain. The interpolation problem is analyzed using the recently developed approximation theory for multivariate BV functions from scattered data. The resulting convergence error is expressed in terms of the total reconstruction error separating into an instrument error, determined solely by the finite bandwidth of the acquisition system, and a reconstruction error arising from interpolation of the measured Fourier data. The proposed framework provides a mathematically rigorous and physically realistic formulation of Fourier-slice tomography in which the limitations of the imaging hardware are distinguished from the accuracy of the reconstruction algorithm. Numerical experiments demonstrate the applicability of the method to image reconstruction from limited projection data and validate the predicted convergence behaviour.",
+"authors": [
+"Rajesh Dachiraju"
+],
+"categories": [
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2610.00344v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00344v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
 "watched_authors": []
 },
 {
@@ -2213,6 +2411,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00389",
+"title": "Linear-size autocatalytic sets are asymptotically absent in the sparse binary polymer model",
+"abstract": "In the sparse binary polymer model with reversible ligation and cleavage, we prove that for every fixed food horizon, fixed nonnegative catalysis intensity and fixed linear reaction budget, the probability of a nonempty reflexively autocatalytic and food-generated set within that budget tends to zero, at rate O(1/n). The probability that a single molecule catalyses a self-constructing reaction set also vanishes, cleavage included. A productive-prefix argument excludes bounded catalyst counts, while an injective acyclic dependency encoding supplies a factorial saving in the count of productive reaction supports. Consequences include divergence of minimum RAF size relative to polymer length and of minimum catalyst count, together with conditional forms. Combining the lower bound with the published quadratic-witness result of Hordijk and Steel gives a superlinear-to-quadratic window. The principal estimates and consequences are formalized in Lean 4 against the literal split-position model; the published upper-witness input is cited separately.",
+"authors": [
+"Michael Mislan"
+],
+"categories": [
+"math.PR",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00389v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00389v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2610.24918",
 "title": "Local Converse Theorems for $k$-Middle Supercuspidal Representations of $p$-adic $\\text{GL}(kn)$",
 "abstract": "Let $\\text{F}$ be a non-archimedean local field of characteristic zero with residual characteristic $p$. In this paper, we study local converse theorems for $k$-middle supercuspidal representations of $\\text{GL}(kn, \\text{F})$ via explicit computations of twisted gamma factors on the Galois side, under the assumptions $p \\nmid kn$ and $q_{\\text{F}}>(k-1)^2$. Our results provide further evidence for a conjecture of the third-named author and Stevens on depth bounds for the twisting representations in the local converse theorem. For odd $k \\ge 3$, we obtain infinitely many families of supercuspidal representations for which the bound $\\left\\lfloor \\frac{kn}{2} \\right\\rfloor$ in the local converse theorem is not sharp.",
@@ -2231,6 +2451,28 @@
 "announce": "new",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00355",
+"title": "Local freedom and capacity barriers in quadratic trace reconstruction",
+"abstract": "A completely multiplicative sign function is determined by its values on $n^2+1$, $n^2+2$, and $n^2-2$, but exact determination does not quantify how many readings detect a negative prime sign. We distinguish three losses of information: partial compatibility tests, geometric restrictions on certificates, and fractional relaxation of signed constraints. After fixing a prime head, we describe the exact fibre of a window and the parity constraints joining two windows. For any fixed head and any sequence $H_N=N^{o(1)}$, one table with $o(N)$ negative entries passes every $H_N$-window test and every two-reading test. A separate finite table passes these tests without any global source. We bound certificate capacity - fractional packing under unit reading loads - for narrow and binary certificates and for low-degree transport libraries whose links cancel odd prime valuations in pairs. A fixed algebraic curve of certificates for a target prime $p$ has at most logarithmic capacity, or capacity at most one when a reading is constant; in the infinite unanchored case its common poles have field $\\mathbb{Q}(\\sqrt p)$. Conversely, selected values of $n^2+1$ can force linearly many errors while the capacity of all certificates stays bounded. Two internally disjoint pair families compose without loss on their existing readings, whereas sixteen actual values exhibit $\\operatorname{Pack}=3<\\operatorname{Cap}=4<\\mu=5$. The selected-sample constructions do not give an upper bound for the minimum on a complete prefix.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00355v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00355v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2936,6 +3178,73 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00351",
+"title": "Prime noise, polynomial observations and trace-preserving completion of multiplicative functions",
+"abstract": "For every prescribed completely multiplicative sign function, every integer polynomial irreducible over $\\mathbb{Q}$ of degree at least two and eventually positive, and every prescribed prefix, we construct a completion preserving the polynomial trace and the prefix exactly, with vanishing correlations along all fixed admissible affine families. The changed primes have relative density zero, although the changed integers have asymptotic density one half and the changed primes have infinite harmonic mass. One noise trajectory has these properties almost surely at all positive real times. The construction combines a classical root-free prime reservoir with decreasing clock rates. Its probabilistic input is affine regularisation against arbitrary bounded weights fixed before the noise, uniformly in time after a vanishing delay. Marks retain their possibly non-convergent empirical distribution. For non-selective noise, the local channel acts through irreducible factors rather than output coordinates; square identities determine its invariant characters, and rational constants supply a time-evolving random translation. The proofs separate arithmetic moments, temporal concentration and finite Fourier analysis. The constant-source existence case already follows from work of Klurman-Mangerel-Teräväinen. The conclusions concern the constructed function, not new cancellation for the unperturbed source.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.PR",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2610.00351v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00351v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00352",
+"title": "Prime perturbations of polynomial observations: instability and incidence criteria",
+"abstract": "The cost of changing prime signs depends on how the resulting multiplicative function is observed. On a fixed prime support of finite harmonic sum, we prove that existence of a polynomial mean for every sign assignment is equivalent to uniform prime truncation and uniform convergence to local products. The criterion applies separately to ordinary and logarithmic means. For independent activations with finite expected harmonic cost, the almost-sure truncation defect is the averaged large-prime parity probability, not a sum of incidences. These criteria separate averaging methods and observation geometries. One common support is logarithmically stable for every fixed polynomial and every assignment, yet a fixed perturbation of $(-1)^{v_2(n)}$ on that support has divergent ordinary means on $n^2+1,n^2+2,n^2-2$. Collective upper sieves give stability at critical counting exponents without critical summability, and harmonic stability on rectangles whose side lengths have asymptotically equal logarithms. For widths $X^\\alpha$, Gaussian prime estimates give the matching universal budget threshold when $119/500<\\alpha<1$; the negative result concerns only the sum of two squares. Around every completely multiplicative sign function, fixed perturbations of arbitrarily small $\\sum p^{-\\sigma}$ cost can have divergent logarithmic means on $n^2+1$ for $125/164<\\sigma\\leq1$. A positive oscillation bound is common to this range, although the starting scales may depend on $\\sigma$. Window laws further distinguish all origins from almost all origins.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2610.00352v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00352v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00349",
+"title": "Prime-Star Localization and Second-Order Spectra of Finite Divisibility Cover Graphs",
+"abstract": "Let G_X be the graph on the positive integers n <= X in which n is joined to np whenever p is prime and np <= X. Let A_X be its adjacency matrix, let lambda_1(A_X) be its spectral radius, and let pi(X) count the primes up to X. Then lambda_1(A_X)^2 = pi(X) + 4 sum_{p <= X} 1/(p - 1) + o(1). More generally, fix a finite set S of primes and retain only the positive integers divisible by none of the primes in S. Let a_1 < a_2 < ... list these integers, and let pi_S count the primes outside S. For every fixed j, the j-th largest positive eigenvalue satisfies lambda_j(A_{S,X})^2 = pi_S(X/a_j) + 4 sum_{p <= X, p not in S} 1/(p - 1) + c(a_j) + o_{S,j}(1), where c(a) = sum_{q divides a, q prime} (q - 5)/(q - 1). The proof splits the edges according to whether their prime label exceeds sqrt(X). The large-prime edges form disjoint stars, while the remaining adjacency has norm of order X^(1/4)/sqrt(log X) but zero first-order matrix element on each star eigenvector. An explicit first-exit resolvent calculation gives a degree-ratio correction with remainder O_{S,j}(1/log X) and localization of the extreme eigenvectors. The prime number theorem and Mertens estimates then evaluate that correction as 4 log log X plus an explicit constant, yielding the displayed o(1) formula. The same constant-layer formula and localization hold uniformly for retained centres a <= (log X)^(1/2-epsilon), with finite-sum error O_{S,epsilon}(a^2/log X). The paired positive and negative modes also yield uniform centre--shell adjacency evolution. The explicit finite correction determines its phase with uniform o(1) error whenever |t| = o(sqrt(X log X)/a^(5/2)). The uniform finite-prime-sum law, its largest-eigenvalue specialization, and the explicit-frequency centre--shell dynamics theorem are formalized in Lean 4 and registered in the Palomar Registry as PALOMAR-2026-08-29-000017, version 2.",
+"authors": [
+"Idris Ali Shaik"
+],
+"categories": [
+"math.CO",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00349v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00349v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2610.25811",
 "title": "Principal bundles in supersymmetry",
 "abstract": "We discuss rather basic problems on super principal bundles for $C^{\\infty}$-supermanifolds (over $\\mathbb{R}$) and analytic supermanifolds over a complete field of arbitrary characteristic. Sharper answers are obtained for $C^{\\infty}$-supermanifolds and for homogeneous supermanifolds. Among others, it is proved for $C^{\\infty}$-supermanifolds that given a $C^{\\infty}$-supermanifold $B$ and a super Lie group $G$, there is a natural one-to-one correspondence (up to isomorphism) between the $G$-super principal bundles over $B$ and the $G_{\\mathrm{rd}}$-principal bundles over $B_{\\mathrm{rd}}$, where $G_{\\mathrm{rd}}$ (resp., $B_{\\mathrm{rd}}$) denotes the ordinary Lie group (resp., manifold) associated with $G$ (resp., $B$). To prove this, we show a generalized, equivariant version of the renowned Batchelor Theorem.",
@@ -3191,6 +3500,48 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00397",
+"title": "Reduction of the Gorenstein symmetry conjecture to finite prime fields",
+"abstract": "We prove that the Gorenstein symmetry conjecture for finite-dimensional algebras over arbitrary fields is equivalent to its restriction to the finite prime fields. A counterexample specializes to a finite field without changing its dimension or its finite self-injective dimension. In characteristic zero, a counterexample yields counterexamples of one fixed dimension over every prime field outside a finite set.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2610.00397v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00397v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00350",
+"title": "Reflected sign patterns of the Liouville function at every large total",
+"abstract": "For signs $s,t$, let $N_{s,t}(N)$ count the ordered representations $N=n+(N-n)$ with $\\lambda(n)=s$ and $\\lambda(N-n)=t$. We prove that, for every fixed $\\varepsilon>0$, all four counts are at least $c_\\varepsilon N^{1-\\varepsilon}$ at every sufficiently large integer total. The constants are ineffective through Siegel's theorem. The same conclusion holds uniformly for completely multiplicative sign functions whose positive primes satisfy $\\sum_{f(p)=1}p^{-\\theta}\\le M$, with fixed $0<\\theta<1$ and $M$. Separately, at each sufficiently large prime $p$, both patterns with product $(-1/p)$ have at least $p/(4(\\log p)^{96})$ representations. All four satisfy this stronger bound in six reduced classes modulo $24$ and outside one very sparse family of primes. The proof combines finite reflection-to-dilation propagation, a short-product spectral test, reconstruction from the units, and signed counting of prime disagreements. For the uniform extension, candidates are united before a common exceptional population is removed. None of the conclusions gives a positive-density bound or cancellation of the reflected correlation at every total.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00350v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00350v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2610.26635",
 "title": "Rigidity of algebraic sets with small distortion",
 "abstract": "We prove that for positive integers $k$, $n$, and $d>1$, there is a maximal $c(k,n,d)>1$ such that if $X \\subset \\mathbb{C}^n$ is a connected $k$-dimensional complex algebraic set with degree at most $d$ and $dist(X) < c(k,n,d)$, then $X$ must be a complex affine linear subspace, where $dist(X)$ denotes the distortion of $X$ and is given by the supremum of the ratios $d_{inner}(p, q)/d_{outer}(p, q)$ for all $p,q\\in X$ with $p\\not= q$. We also prove that $c(1,n,d)=\\sqrt{2}$ for any positive integers $k$ and $n$. This result provides a sharp rigidity phenomenon for curves in the $c$-LNE category, showing that near-isometric behavior of the inner and outer metrics forces the curve to be as simple as possible.",
@@ -3254,6 +3605,29 @@
 "announce": "replace",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00354",
+"title": "Selective normality and algebraic rigidity of multiplicative traces",
+"abstract": "A completely multiplicative sign function may be changed so that two quadratic traces remain identical at every index while a third becomes normal. We classify this freedom for the traces $n^2+1$, $n^2+2$ and $n^2-2$. After two traces and a finite prefix have been protected, a monic irreducible polynomial can be made normal from every prescribed source exactly when the field generated by one of its roots contains neither protected quadratic field. In the complementary case, every value of the polynomial is already fixed. A single decidable set of primes of relative density zero supports a continuous, relatively computable completion treating all admissible polynomials jointly, with uniform bounds for each fixed observation family. The proof combines weighted root counts with a sieve for moments whose order increases with the observation scale, followed by a selection using exact finite normalisers. We also give a sufficient condition on prime availability, explicit sparser reservoirs, and a divergent reservoir on which some sources have no completion with a convergent ordinary mean, despite convergence of all fixed word laws in probability. For larger protected families, the obstruction is governed by odd products of quadratic square classes. An explicit example distinguishes certificates for every numerical value from a rational norm identity in the variable.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.PR",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2610.00354v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00354v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-18",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -3349,6 +3723,29 @@
 "announce": "replace",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00376",
+"title": "Slow Equilibration and Persistent Stationary Correlations in Spherical Spin Glasses",
+"abstract": "We study the Langevin dynamics of spherical mixed $p$-spin glasses at fixed temperature, on time scales exponential in the dimension $N$. Below the static transition temperature, the dynamics started from the uniform distribution on the sphere stays at total variation distance close to one from the Gibbs measure up to a time exponential in $N$, with probability tending to one. We prove this for pure models of degree at least four at every such temperature, and for mixtures of minimum degree at least four that satisfy an explicit condition on a function of one variable. It extends to initial distributions that are independent of the disorder or depend weakly on it. Between the dynamical and static transition temperatures, we show for general finite mixtures that, with probability exponentially close to one, the generator has exponentially many exponentially small eigenvalues; a fixed part of the centered spin lies in the corresponding slow modes; the stationary spin correlation stays above every level below $q_*^2$ up to an exponential time, where $q_*$ is an explicit root of the plateau equation of the physics literature; the dynamics started from most points of the Gibbs measure stays far from equilibrium; and the two endpoints of the stationary dynamics share mutual information at least linear in $N$. With probability tending to one, the correlation stays above every level below $q_*$. Near the dynamical transition, exponentially many eigenvalues stay below $e^{-cN}$, where $c$ is proportional to an explicit power of the distance to the transition.",
+"authors": [
+"P. M. Aronow",
+"Patrick Lopatto"
+],
+"categories": [
+"math.PR",
+"math.MP"
+],
+"link": "https://hexagonmath.org/abs/2610.00376v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00376v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -4048,6 +4445,28 @@
 "announce": "replace",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00390",
+"title": "Unconstrained detection of productive autocatalytic cores is NP-complete",
+"abstract": "We prove NP-completeness of deciding whether a finite reversible reaction network contains a productive autocatalytic core when neither a target species nor an allowed-food set is specified. The input is a binary encoding of literal nonnegative integer reactant and product matrices, with a signed real flow on each reaction identity. A nonsingular square-witness characterization gives polynomial certificates. A weighted incidence construction reduces prescribed two-path directed linkage to unrestricted core detection, and an explicit constant-size switch construction reduces SAT to the linkage instances. Actual machine-level NP membership and a total polynomial-time binary transducer complete the classification. The terminal theorem is verified in Lean 4. The result concerns structural possibility in this source model and imposes no elementary reaction arity or conservation constraint.",
+"authors": [
+"Michael Mislan"
+],
+"categories": [
+"cs.CC",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00390v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00390v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
