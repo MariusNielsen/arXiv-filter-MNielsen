@@ -6,6 +6,34 @@
   {
    "day": "2026-10-20",
    "paper": {
+    "abstract": "We construct a height-five prime ideal $P$ in the six-variable formal power series ring $R$ over $\\mathbb{Q}$ such that $P^{(2)}\\not\\subseteq\\mathfrak{m}P$, thus providing a prime-ideal counterexample to the Eisenbud--Mazur conjecture (with $\\mathbb{Q}$ being the coefficient field). The ideal is the kernel of an explicit quadratic parametrization over a number field of degree $28$ over $\\mathbb{Q}$. A witness has order three, with leading term the determinant of a symmetric $3\\times3$ matrix. We construct the witness by eliminating critical values to all orders and then straightening the resulting formal curve. Interpolation at the $28$ nodes of an arrangement of eight lines supplies the required lifting maps. A rational linear functional on third and fourth jets certifies nonmembership in $\\mathfrak{m}P$. The construction also yields an unmixed radical ideal with $28$ smooth branches over $\\mathbb{C}$, and provides a counterexample to the more general form of the Eisenbud--Mazur conjecture stated by More (with $\\mathbb{C}$ being the coefficient field). Finally, the prime ideal counterexample descends to the localized polynomial ring $\\mathbb{Q}[x_0,\\ldots,x_5]_{(x_0,\\ldots,x_5)}$, where a polynomial witness with the same fourth jet exists. All finite identities used in the proof admit exact verification.",
+    "ai_mode": "mixed",
+    "announce": "new",
+    "authors": [
+     "Chung Pang Mok",
+     "Yiqi Xu"
+    ],
+    "categories": [
+     "math.AC",
+     "math.AG"
+    ],
+    "date": "2026-10-19",
+    "link": "https://hexagonmath.org/abs/2610.00384v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2610.00384v1",
+    "pid": "hexagon:2610.00384",
+    "reasons": [
+     "abstract: straightening"
+    ],
+    "source": "hexagon",
+    "tier": 3,
+    "title": "A counterexample to the Eisenbud\u2013Mazur conjecture",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-20",
+   "paper": {
     "abstract": "We exhibit the $p$-complete $\\mathbb{C}$-motivic Eilenberg-Mac Lane spectra $\\mathrm{M}\\mathbb{F}_p$ and $(\\mathrm{M}\\mathbb{Z})_p^{\\wedge}$ as $\\mathbb{E_3}$-$\\mathrm{MGL}_p^{\\wedge}$-motivic Thom spectra over the motivic $\\mathbb{G}_m$-loop spaces $\\Omega_{\\mathbb{G}_m}\\mathrm{BGL}$ and $\\Omega_{\\mathbb{G}_m}\\mathrm{BSL}$, respectively. Furthermore, for $p=2$, we compute the $\\mathrm{MGL}_2^{\\wedge}$-relative $\\mathbb{G}_m$-Hochschild Homology $\\mathbb{G}_m \\odot^{\\mathrm{MGL}_2^{\\wedge}} {-}$, recently introduced by Bachmann-Burklund-Dundas-{\\O}stv{\\ae}r, of $\\mathrm{M}\\mathbb{F}_2$ and $(\\mathrm{M}\\mathbb{Z})_2^{\\wedge}$ to be $\\mathrm{M}\\mathbb{F}_2[\\mathrm{BGL}]$ and $(\\mathrm{M}\\mathbb{Z})_2^{\\wedge}[\\mathrm{BSL}]$ as $\\mathbb{E}_2$-$\\mathrm{M}\\mathbb{F}_2$-algebras and $\\mathbb{E}_2$-$(\\mathrm{M}\\mathbb{Z})_2^{\\wedge}$-algebras, respectively.",
     "ai_mode": "",
     "announce": "new",
@@ -2929,7 +2957,7 @@
    }
   }
  ],
- "hexagon_since": "2026-10-19",
+ "hexagon_since": "2026-10-20",
  "last_page": {
   "day": "2026-10-20",
   "papers": [
@@ -3053,6 +3081,31 @@
     "source": "arxiv",
     "tier": 2,
     "title": "Refined proper descent for left completed sheaves on locally compact Hausdorff spaces",
+    "watched": []
+   },
+   {
+    "abstract": "We construct a height-five prime ideal $P$ in the six-variable formal power series ring $R$ over $\\mathbb{Q}$ such that $P^{(2)}\\not\\subseteq\\mathfrak{m}P$, thus providing a prime-ideal counterexample to the Eisenbud--Mazur conjecture (with $\\mathbb{Q}$ being the coefficient field). The ideal is the kernel of an explicit quadratic parametrization over a number field of degree $28$ over $\\mathbb{Q}$. A witness has order three, with leading term the determinant of a symmetric $3\\times3$ matrix. We construct the witness by eliminating critical values to all orders and then straightening the resulting formal curve. Interpolation at the $28$ nodes of an arrangement of eight lines supplies the required lifting maps. A rational linear functional on third and fourth jets certifies nonmembership in $\\mathfrak{m}P$. The construction also yields an unmixed radical ideal with $28$ smooth branches over $\\mathbb{C}$, and provides a counterexample to the more general form of the Eisenbud--Mazur conjecture stated by More (with $\\mathbb{C}$ being the coefficient field). Finally, the prime ideal counterexample descends to the localized polynomial ring $\\mathbb{Q}[x_0,\\ldots,x_5]_{(x_0,\\ldots,x_5)}$, where a polynomial witness with the same fourth jet exists. All finite identities used in the proof admit exact verification.",
+    "ai_mode": "mixed",
+    "announce": "new",
+    "authors": [
+     "Chung Pang Mok",
+     "Yiqi Xu"
+    ],
+    "categories": [
+     "math.AC",
+     "math.AG"
+    ],
+    "date": "2026-10-19",
+    "link": "https://hexagonmath.org/abs/2610.00384v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2610.00384v1",
+    "pid": "hexagon:2610.00384",
+    "reasons": [
+     "abstract: straightening"
+    ],
+    "source": "hexagon",
+    "tier": 3,
+    "title": "A counterexample to the Eisenbud\u2013Mazur conjecture",
     "watched": []
    },
    {
@@ -4567,13 +4620,33 @@
   "hexagon:2610.00362": "2026-10-19",
   "hexagon:2610.00365": "2026-10-19",
   "hexagon:2610.00368": "2026-10-20",
+  "hexagon:2610.00375": "2026-10-20",
   "hexagon:2610.00376": "2026-10-20",
+  "hexagon:2610.00378": "2026-10-20",
+  "hexagon:2610.00379": "2026-10-20",
+  "hexagon:2610.00380": "2026-10-20",
+  "hexagon:2610.00381": "2026-10-20",
+  "hexagon:2610.00382": "2026-10-20",
+  "hexagon:2610.00383": "2026-10-20",
+  "hexagon:2610.00384": "2026-10-20",
+  "hexagon:2610.00385": "2026-10-20",
+  "hexagon:2610.00386": "2026-10-20",
+  "hexagon:2610.00387": "2026-10-20",
   "hexagon:2610.00388": "2026-10-20",
   "hexagon:2610.00389": "2026-10-20",
   "hexagon:2610.00390": "2026-10-20",
+  "hexagon:2610.00391": "2026-10-20",
   "hexagon:2610.00392": "2026-10-20",
+  "hexagon:2610.00393": "2026-10-20",
+  "hexagon:2610.00394": "2026-10-20",
   "hexagon:2610.00395": "2026-10-20",
   "hexagon:2610.00396": "2026-10-20",
-  "hexagon:2610.00397": "2026-10-20"
+  "hexagon:2610.00397": "2026-10-20",
+  "hexagon:2610.00398": "2026-10-20",
+  "hexagon:2610.00399": "2026-10-20",
+  "hexagon:2610.00400": "2026-10-20",
+  "hexagon:2610.00401": "2026-10-20",
+  "hexagon:2610.00402": "2026-10-20",
+  "hexagon:2610.00403": "2026-10-20"
  }
 }

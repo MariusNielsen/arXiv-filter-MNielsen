@@ -1,6 +1,6 @@
 {
 "day": "2026-10-20",
-"updated": "2026-10-20T05:05:08+00:00",
+"updated": "2026-10-20T06:06:24+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -128,6 +128,31 @@
 "tier": 2,
 "reasons": [
 "title: descent"
+],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00384",
+"title": "A counterexample to the Eisenbud–Mazur conjecture",
+"abstract": "We construct a height-five prime ideal $P$ in the six-variable formal power series ring $R$ over $\\mathbb{Q}$ such that $P^{(2)}\\not\\subseteq\\mathfrak{m}P$, thus providing a prime-ideal counterexample to the Eisenbud--Mazur conjecture (with $\\mathbb{Q}$ being the coefficient field). The ideal is the kernel of an explicit quadratic parametrization over a number field of degree $28$ over $\\mathbb{Q}$. A witness has order three, with leading term the determinant of a symmetric $3\\times3$ matrix. We construct the witness by eliminating critical values to all orders and then straightening the resulting formal curve. Interpolation at the $28$ nodes of an arrangement of eight lines supplies the required lifting maps. A rational linear functional on third and fourth jets certifies nonmembership in $\\mathfrak{m}P$. The construction also yields an unmixed radical ideal with $28$ smooth branches over $\\mathbb{C}$, and provides a counterexample to the more general form of the Eisenbud--Mazur conjecture stated by More (with $\\mathbb{C}$ being the coefficient field). Finally, the prime ideal counterexample descends to the localized polynomial ring $\\mathbb{Q}[x_0,\\ldots,x_5]_{(x_0,\\ldots,x_5)}$, where a polynomial witness with the same fourth jet exists. All finite identities used in the proof admit exact verification.",
+"authors": [
+"Chung Pang Mok",
+"Yiqi Xu"
+],
+"categories": [
+"math.AC",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2610.00384v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00384v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 3,
+"reasons": [
+"abstract: straightening"
 ],
 "watched_authors": []
 },
@@ -519,6 +544,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00399",
+"title": "A covering-strip and moment certificate for Korenblum's constant",
+"abstract": "We give an explicit certificate for c_2>=54/125=0.432, where c_2 is Korenblum's constant for the Bergman space. This is an unrefereed preprint. The construction combines an elementary two-zero Schwarz estimate on the covering strip of an annulus, the classical hyperbolic Jung inequality, and Wikström's moment-duality criterion. A rational twelve-atom measure with a Lebesgue tail satisfies the required inequalities for every moment index. Two independently implemented exact checkers, one using Arb and one using only integer interval arithmetic, verify the quantitative hypotheses. The best public certified lower bound located in the accompanying priority audit is Wikström's 0.4263. Neither optimality nor a new version of Jung's theorem is claimed.",
+"authors": [
+"Ricardo Pinho"
+],
+"categories": [
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2610.00399v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00399v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2511.01245",
 "title": "A curiously slowly mixing Markov chain",
 "abstract": "We study a Markov chain with very different mixing rates depending on how mixing is measured. The chain is the \"Burnside process on the hypercube $C_2^n$.\" Started at the all-zeros state, it mixes in a bounded number of steps, no matter how large $n$ is, in $\\ell^1$ and in $\\ell^2$. And started at general $x$, it mixes in at most $\\log n$ steps in $\\ell^1$. But, in $\\ell^2$, it takes $\\frac{n}{\\log n}$ steps for most starting $x$. The $\\ell^2$ mixing results follow from an explicit diagonalization of the Markov chain into binomial-coefficient-valued eigenvectors.",
@@ -637,6 +683,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00381",
+"title": "A proof of the second pinching theorem in dimension four",
+"abstract": "Let M⁴ be a closed connected manifold minimally immersed in the unit sphere S⁵(1), and let h be its second fundamental form. We prove that constant S = |h|² > 4 implies S > 8. No constancy of tr(h³) is assumed. The proof combines integral curvature identities with a joint estimate for two contractions of the symmetrized Hessian. The remaining algebraic inequality is verified in Mathematica using exact rational arithmetic. The code and data are included in the supplementary material.",
+"authors": [
+"JINXI ZHANG"
+],
+"categories": [
+"math.DG"
+],
+"link": "https://hexagonmath.org/abs/2610.00381v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00381v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2610.00396",
 "title": "A reduction of the Gorenstein symmetry conjecture to gendo-symmetric algebras",
 "abstract": "Over any field, the Gorenstein symmetry conjecture for finite-dimensional algebras is equivalent to its restriction to gendo-symmetric algebras.",
@@ -729,6 +796,29 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00386",
+"title": "A transfer theorem for Weil classes on Prym--Tyurin factors of Galois covers",
+"abstract": "Let $K$ be an imaginary quadratic field, $G$ a finite group, $\\sigma$ an irreducible representation of $G$ with character field $K$, and $S$ a connected component of a Hurwitz space of $G$-covers of $\\mathbb{P}^1$ with fixed local monodromy. When the $\\sigma$-isotypic factors of the Jacobians are abelian $2n$-folds of Weil type for $K$, we prove that the Weil classes of every polarized abelian $2n$-fold of Weil type for $K$ with Hermitian discriminant $\\mathfrak{d}$ are algebraic, provided three conditions hold: a lattice condition (L) on the characters of a group of multiplicative type attached to the cover, dominance (D) of the period map of $S$, and the equality of the Hermitian discriminant of the family over $S$ with $\\mathfrak{d}$. None of the conditions refers to a particular group. The Hodge conjecture for every power of a member $A$ follows when the special Mumford--Tate group of $A$ itself is $SU_H$; a statement about the generic member of the family does not suffice, and members with smaller Hodge group are not treated here. Positive instances of the conditions are verified by finite input certificates, so a new example needs new certificates, whose validation may need its own arguments, and no new transfer proof. The theorem recovers the case $G=G_{32}$, $K=\\mathbb{Q}(\\sqrt{-3})$, $\\mathfrak{d}=-2$ of the author's earlier preprint (hexagon:2610.00246), with every step of that proof an instance of a general lemma. A second source of cycles, balanced combinations of several characters of one subgroup, is available conditionally on a theorem of an unrefereed manuscript on abelian covers. With it the datum $(\\mathbb{Q}(i),[-3])$ carried by $W(E_8)\\cdot\\mu_4$ satisfies every hypothesis, so, conditionally on that theorem, the Weil classes of every abelian sixfold of Weil type for $\\mathbb{Q}(i)$ with discriminant $-3$ are algebraic. For this datum the Schoen-only condition (L) fails. A companion preprint applies the transfer theorem, with new tools, to prove that the Weil classes of every abelian sixfold of Weil type for $\\mathbb{Q}(\\sqrt{-3})$, of every Hermitian discriminant, are algebraic. We also state what the theorem cannot reach. This version, with its computational certificates, is archived on Zenodo: https://doi.org/10.5281/zenodo.23422651",
+"authors": [
+"Benjamin Severn"
+],
+"categories": [
+"math.AG",
+"math.GR",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00386v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00386v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2610.00395",
 "title": "Additive Rounding for LP-Tight Three-Item Bin Packing",
 "abstract": "We consider bin-packing instances with \\(3m\\) items of sizes in \\((1/4,1/2)\\), total size \\(m\\), and configuration linear programming value \\(m\\). Let \\(d\\) be the relative dimension of the polytope of zero-sum multiplicity patterns obtained by centering sizes at \\(1/3\\). We determine the maximum additive integrality gap for every \\(d\\le10\\). It is zero for \\(d\\le4\\) and one for \\(5\\le d\\le10\\). More generally, a representation of the multiplicity vector by at most five zero-sum patterns admits an integral packing, and a representation by at most eleven patterns requires at most one additional bin. The integral-packing result has a structural proof; the additive-one result combines structural restrictions with exact finite enumeration. For arbitrary \\(d\\), we construct an LP-tight subinstance with at most \\(6d+3\\) items and no smaller additive gap. An integer representation preserving the signs of triple sums then yields a finite rational family attaining the worst gap, which is computable in time \\(2^{O((d+1)^2)}\\). Finally, we construct a sharp family with simplex pattern polytopes and a linearly growing zero-sum matching deficit. Its eleven-dimensional member violates the zero-sum remainder condition used in the ten-dimensional proof. Thus the bound of eleven fractional patterns in that condition is sharp.",
@@ -770,6 +860,29 @@
 "announce": "replace",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00393",
+"title": "Algebraicity of the $\\mathrm{G}_2$-invariant tensors on Yun's exceptional motives",
+"abstract": "Zhiwei Yun constructed, from a rigid Hecke eigensheaf for $\\mathrm{G}_2$ on $\\mathbb{P}^1$ minus three points, a family of rank-seven motives whose motivic Galois groups are dense in $\\mathrm{G}_2$. We show that on this family the invariant cubic form is the class of an algebraic cycle: at every Hodge-generic parameter, every rational Hodge class on every tensor construction of the rank-seven piece is algebraic, and at every parameter the transported $\\mathrm{G}_2$-invariant tensors are algebraic. The cycles are top components of Satake convolution fibres transported by Hecke correspondences. The projector that cuts out the rank-seven piece is made algebraic by a canonical weighted resolution of Yun's boundary divisor, built on the moduli stack of bundles from the stabiliser tori of its points, together with a characteristic-zero census of those points and a cycle-class comparison on varieties with quotient singularities. Yun announced that the cubic is motivated in Andr\\'e's sense; the step from motivated to algebraic is new. This version, with its computational certificates and review bundle, is archived on Zenodo: https://doi.org/10.5281/zenodo.23478625",
+"authors": [
+"Benjamin Severn"
+],
+"categories": [
+"math.AG",
+"math.RT",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00393v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00393v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -840,6 +953,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00394",
+"title": "An explicit counterexample to the six-neighbor square tiling conjecture",
+"abstract": "Luo, Sun and Wu conjectured that in a locally finite square tiling of the complex plane in which each square intersects exactly six others, all squares have the same size. We construct a counterexample by surrounding a ten-square core with alternating rectangular shells, each formed by six squares. The only point-only contacts occur at the three four-square points in the core; all subsequent contacts have positive length. A two-state induction shows that every new square has four contacts when inserted and acquires two more at the next shell. The nested rectangles exhaust the plane, so the construction is locally finite and gives a counterexample on the whole plane.",
+"authors": [
+"Chunlei  Liu",
+"Aijin Lin"
+],
+"categories": [
+"cs.DM"
+],
+"link": "https://hexagonmath.org/abs/2610.00394v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00394v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2604.04793",
 "title": "An infinite series of Gorenstein local algebras failing the affine homogeneity property",
 "abstract": "We provide an infinite series of commutative finite-dimensional Gorenstein local algebras $A_n$ for $n \\ge 2$. We give an elementary proof that the maximal ideal of every algebra $A_n$ possesses a one-dimensional subspace that is different from the socle and invariant under the automorphism group of $A_n$. The latter implies that the algebras $A_n$ fail the affine homogeneity property. We also discuss some consequences concerning additive actions on projective hypersurfaces, related to the generalized Hassett-Tschinkel correspondence for these algebras.",
@@ -863,6 +998,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00391",
+"title": "An intrinsic interval-deletion characterization of digraph support families",
+"abstract": "For a finite directed graph with loops allowed, its supported subsets are those in which every vertex has an in-neighbour within the subset. We characterize exactly which set families arise this way on their original ground set. Starting from the power set, a legal step chooses an inclusion-maximal remaining nonmember, selects a previously unused root absent from every target-family member below it, and deletes the rooted interval. A family is a digraph support family if and only if some legal deletion sequence reaches it. The maximal residual set may follow any fixed valid policy; only roots require branching. Successful traces have at most one step per vertex and reconstruct a realizing digraph. Consequences include exact root sets and trace length, a finite recognizer, conventional NP membership for explicit lists, projection, deletion and product closure, and RAF realizability criteria using the published antimatroid characterization. The characterization and selected consequences and trace-checking interfaces are verified in Lean 4; conventional statements and computational examples are identified separately.",
+"authors": [
+"Michael Mislan"
+],
+"categories": [
+"math.CO",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2610.00391v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00391v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2507.15632",
 "title": "Any-Dimensional Polynomial Optimization via de Finetti Theorems",
 "abstract": "Polynomial optimization problems often arise in sequences indexed by dimension, and it is of interest to compute bounds on the optimal values of all problems in the sequence. Examples include certifying inequalities between symmetric functions or graph homomorphism densities that hold over vectors and graphs of all sizes, and computing the value of mean-field games viewed as limits of games with a growing number of players. In this paper, we study such any-dimensional polynomial problems using the theory of representation stability, and we develop a systematic framework to produce hierarchies of improving bounds on their limiting optimal values. Our bounds are obtained by solving finite-dimensional polynomial optimization problems (or their relaxations). These bounds converge at explicit rates as a consequence of new de Finetti-type theorems pertaining to sequences of random arrays projecting onto each other in different ways. The proofs of these theorems are based on applying results from probability to representations of certain categories. We apply our framework to produce new bounds on problems arising in a number of application domains such as mean-field games, extremal graph theory, and symmetric function theory, and we illustrate our methods via numerical experiments.",
@@ -880,6 +1037,27 @@
 "announce": "replace-cross",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00400",
+"title": "Approximations in lp and Morrey sequence spaces.",
+"abstract": "In this paper we introduce positive order differences for sequences and study approximations in lp and Morrey sequence spaces.",
+"authors": [
+"Nickolai Kudryavtsev"
+],
+"categories": [
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2610.00400v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00400v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "human",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -948,6 +1126,30 @@
 "announce": "replace",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00382",
+"title": "BLLM: Beyond the LLM with Deep Human-Mind-AI",
+"abstract": "A system that improves itself keeps every change that passes a check, so a check that makes errors lets mistakes pile up. We compute the least checking that keeps such a system sound. It is an entropy of the costs of the changes, and an endless chain of improvements stays sound at finite cost exactly when that entropy is finite. A stack of checked layers costs more than its layers would cost alone. We also compute how many guesses a proposer needs before a right one appears: human authors come close to this least number, and language models need 1.5 to 4.3 times as many. Anaxia, an engine built on these laws, rebuilt the published 2016 counterexample to Steinberg's conjecture from the rules of a colouring problem alone. The engine is a work in progress, and its rules and search are being revised and extended for the open problems it has not yet settled.",
+"authors": [
+"Deep Bhattacharjee",
+"Ushashi Bhattacharya"
+],
+"categories": [
+"cs.AI",
+"math.PR",
+"cs.IT"
+],
+"link": "https://hexagonmath.org/abs/2610.00382v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00382v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1429,6 +1631,27 @@
 "reasons": [
 "title: hopf invariant"
 ],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00385",
+"title": "Convolution Smoothing in the Turán Hierarchy: The Blind Zone Extends from Order 43 to Order 61, and Empirically to Order 68",
+"abstract": "Let Xi(t)=xi(1/2+it) be the Riemann xi-function on the critical line, Xi(t)=sum_{k>=0}(-1)^k c_k t^{2k} its even Taylor expansion, and D(n,r)=det[c_{n+i-j}]_{i,j=0}^{r-1} the associated Toeplitz minors. Writing G(z)=sum_{k>=0}c_k z^k and beta_j=-1/z_j for the zeros of G, the dual Jacobi-Trudi identity gives D(n,r)=c_0^r s_{(r^n)}(beta), the Schur function of the rectangular partition (r^n) in the alphabet beta. Positivity of D(n,r) for all n>=0 and all r>=1 is equivalent to the Riemann hypothesis (RH) by the Schoenberg-Edrei characterisation of Polya frequency sequences; for each fixed r, the inequalities D(n,r)>=0 are a necessary condition, and for r=2 they hold unconditionally. A previous paper of the author proved that every level r<=43 is blind: the minors D(n,r) stay positive even in the presence of non-real zeros. The mechanism there was the two-variable Chebyshev criterion U_k(cos theta)>0 iff (k+1)theta<pi, together with the uniform bound theta<=theta_max=2 arctan(1/(2 gamma_1)) =0.07071826... The present paper shows that the bound 43 is not the truth but an artefact of ignoring two structural features of the true alphabet. First, the evenness Xi(-t)=Xi(t) forces every zero of G to occur with multiplicity two in beta, so the relevant constituent is not U_r but the self-convolution W_r = sum_{i=0}^{r} U_i(cos theta) U_{r-i}(cos theta), with generating function sum_{r>=0} W_r z^r = 1/(1-2z cos theta + z^2)^2. We prove the identity W_r = (1/2) U'_{r+1}(cos theta) and the pole-free sign criterion of Lemma (sign), and we show that W_r>0 for all r<=61 while W_62<0: the convolution of the Chebyshev sequence against itself smooths away the sign change that occurs at U_44, pushing the threshold from 43 to 61. Secondly, the zeros on the critical line contribute a positive real sub-alphabet whose complete symmetric functions h_i(X)>0 convolve with the violating part, h_r(X union Y)=sum_{i+j=r} h_i(X) h_j(Y), pushing the threshold further. Main theorem (proved). For every r<=61 and every n=1, and regardless of whether RH is true, D(1,r)>0. Consequently the first 61 levels of the Turan hierarchy are blind on the shift-1 row. High-precision computation of the full rectangular Schur functions s_{(r^n)}(beta) on the true alphabet (truncated at N critical-line zeros) shows that the first discriminating order is r*=69 at shift n=1 and n=3, so that all orders r<=68 are blind; the value is stable under truncation (N=45,60,80 all give 69). A scaling law r* ~ 1.5 pi/theta is observed across two and a half decades of the violating offset. At shift n=2 no negative minor was found for any r<=400, suggesting a qualitatively stronger phenomenon. The number 61 is proved; the number 68 is numerical, and the Status section separates the two without ambiguity. No claim of a proof of RH is made.",
+"authors": [
+"Changxia Lin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00385v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00385v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
 "watched_authors": []
 },
 {
@@ -2092,6 +2315,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00403",
+"title": "Hall polynomials for representation-finite algebras",
+"abstract": "We prove the Hall polynomial existence conjecture for representation-finite algebras over finite fields.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2610.00403v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00403v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-20",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2604.24568",
 "title": "Hyper-Operations and Coherent Plasmas over $\\mathbb{F}_1$",
 "abstract": "The additive structure of $\\mathbb{F}_1$-modules (in the sense of Segal's $\\Gamma$-sets) differs fundamentally from that of abelian groups: addition is encoded through a family of $n$-ary hyper-operations that are multivalued and need not satisfy classical associativity. We establish a \\emph{law of generalized associativity} showing that, despite this failure of strict associativity, every $n$-ary sum is contained in the iterated hypersum associated with any partition of its inputs. This enables us to give a hyper-additive description on $\\pi_0$ of Schwede's linearization functor $-\\otimes_{\\mathbb{F}_1} \\mathbb{Z}: \\mathbb{F}_1\\mathbf{Mod} \\to \\mathbf{Ab}$ that universally strictifies the hyper-additive structure of $\\mathbb{F}_1$-modules into classical abelian group addition. We then introduce coherent plasmas, whose algebraic structure encodes the coherence condition inherent in $\\mathbb{F}_1$-modules. We construct fully faithful nerves for these structures and their finite-arity truncations, yielding a compatible tower of adjunctions, as well as a coherent Segal condition that characterizes the essential image. The levels of these nerves are represented by powerset plasmas $P_n$, which arise as algebraic realizations of representable $\\Gamma$-sets, analogous to standard simplices in geometric realization.",
@@ -2177,6 +2421,27 @@
 "announce": "new",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00401",
+"title": "Irrationality measures for $G\\pm5\\pi^2/48$ and $L(2,\\chi_{-3})$",
+"abstract": "Building on OpenAI's determinant method for the irrationality of Catalan's constant $G=\\sum_{j\\ge0}(-1)^j/(2j+1)^2$, we prove \\[ \\begin{gathered} \\mu\\Bigl(G-\\frac{5\\pi^2}{48}\\Bigr)\\le 38.35,\\qquad \\mu\\Bigl(G+\\frac{5\\pi^2}{48}\\Bigr)\\le 38.35,\\\\ \\mu\\bigl(L(2,\\chi_{-3})\\bigr)\\le 23.82 , \\end{gathered} \\] where $\\mu$ is the irrationality exponent. We know of no earlier irrationality measure for $G\\pm5\\pi^2/48$. For $L(2,\\chi_{-3})$, which Calegari, Dimitrov and Tang proved irrational, the previous best bound we know of is their effective bound $\\mu\\le24781$. The approximations come from determinants of \\emph{rectangular} L\\\"owner matrices of digamma differences at integer nodes. We bound their denominators with $p$-adic assignment problems and rank deficits modulo $p$. We prove nonvanishing modulo a prime by reducing it to bordered Krylov determinants, which we evaluate through Jacobi matrices and Darboux transformations. We bound their size with Andr\\'eief's identity and a certified lower bound for a discrete logarithmic energy. Every result is formalized in Lean~4, with no unproved steps and only the standard axioms.",
+"authors": [
+"Sean Litsey"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00401v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00401v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-20",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2479,6 +2744,30 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00402",
+"title": "Lower and Upper Bounds for Glauber Dynamics from Typical States of the Low-Temperature Sherrington–Kirkpatrick Model",
+"abstract": "We study the heat-bath (Glauber) dynamics of the Sherrington–Kirkpatrick model at zero external field and fixed inverse temperature $\\beta>1$. We sample the disorder $J$ and an initial configuration $X_0$ from its Gibbs measure. Let $T^J(X_0)$ be the time at which the transition law, conditional on $J$ and the realized $X_0$, first comes within total-variation distance $1/4$ of equilibrium. In continuous time, with rate one per site, we prove that, for every fixed $\\omega\\in(0,1/4)$, with probability tending to one, \\[ A_\\beta n^{7/30}<\\log T^J(X_0)\\le n^{1-\\omega}, \\] where $A_\\beta>0$ depends only on $\\beta$. Corresponding bounds hold for the discrete-time chain. These results strengthen OpenAI’s typical-start lower and upper bounds while following their proof architectures. The lower-bound argument introduces a three-replica comparison with a cubic pressure deficit and uses Aronow and Lopatto’s quantitative mean-bias estimate. The upper-bound argument combines a pathwise information–energy cancellation, concentration estimates on a growing mesh, and optimized exponents. We also complete Lean formalizations of two known results: OpenAI’s fluctuation-scale theorem, giving variance $n^{1/3+o(1)}$ for the log partition function, and its mean-bias consequence of order at least $n^{-5/6-\\varepsilon}$ for every fixed $\\varepsilon>0$. The formal development proves the positive-Laplace-window input needed for the fluctuation theorem. Five specified result groups are formalized, including the continuous-time dynamics upper bound.",
+"authors": [
+"P. M. Aronow",
+"Patrick Lopatto"
+],
+"categories": [
+"math.PR",
+"math.MP",
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2610.00402v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00402v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2610.25771",
 "title": "Lusztig's asymptotic algebra and a cell factorisation for the second lowest two-sided cell in type $\\tilde{B}_n$",
 "abstract": "We determine Lusztig's asymptotic algebra for the second lowest two-sided cell~$\\Delta_1$ in the equal parameter extended affine Weyl group $\\tilde{\\mathsf{B}}_n$ for all $n\\geq 2$, realising it as a full matrix algebra over the representation ring of $\\mathsf{Sp}_{2n-2}(\\CC)\\times C_2$ with $C_2$ the group of order~$2$. Our result is an explicit isomorphism of based rings, determining the image of each basis element $\\mathsf{t}_w$ of the asymptotic algebra. As a consequence we verify that Lusztig's original conjecture from 1989 on the structure of the asymptotic algebra holds for this cell. A key ingredient in our proof is a refinement of Shi's description of~$\\Delta_1$, giving an explicit parametrisation of the elements of this cell (a \\textit{cell factorisation}). This cell factorisation simultaneously describes all intersections of left and right cells, with uniqueness and length-additivity of expressions. Applications include a classification of the involutions in $\\Delta_1$, and a calculation of the length generating functions for $\\Delta_1$ and the right cells in~$\\Delta_1$.",
@@ -2739,6 +3028,70 @@
 "announce": "new",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00383",
+"title": "Non-flat toroidal compactifications of the universal abelian variety in genus five and above",
+"abstract": "We prove that two mixed Delaunay--Voronoi models of the universal abelian variety are not flat in genus five: the classical model over the second-Voronoi compactification and the model over the finite cover that records a symmetric theta divisor. Both counterexamples arise from the same monoid-theoretic obstruction: two inequivalent minimal elements in one fibre-degree slice acquire a common positive translate. The ordinary Delaunay cells and cones are certified by exact all-lattice-point computations; after this geometric input, the obstruction is verified by the integer calculations displayed below. Combining the genus-five example in the fixed-theta model with a theorem of Nakamura--Sugawara gives the sharp threshold: the morphism is flat exactly in genera at most four.",
+"authors": [
+"David Holmes"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2610.00383v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00383v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00380",
+"title": "Note on variable role-reversals",
+"abstract": "In [1], the author uses variable role-reversals only when $\\theta < \\frac{45}{89} - \\varepsilon$. In this note, we shall discuss how to use variable role-reversals when $\\frac{45}{89} - \\varepsilon \\leqslant \\theta < \\frac{11}{20} - \\varepsilon$.",
+"authors": [
+"Runbo Li"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00380v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00380v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00379",
+"title": "Octonionic Heisenberg-Robertson-Schrodinger and Maccone-Pati Uncertainty Principles",
+"abstract": "Let $\\mathcal{O}$ be an octonionic Hilbert space. Let $A: \\mathcal{D}(A)\\subseteq \\mathcal{O}\\to \\mathcal{O}$ and $B:\\mathcal{D}(B)\\subseteq \\mathcal{O}\\to \\mathcal{O}$ be possibly unbounded self-adjoint linear operators. Then for all $h \\in \\mathcal{D}(AB)\\cap \\mathcal{D}(BA)$ with $\\|h\\|=1$, we show that \\begin{align*} (1) \\quad \\quad \\quad \\Delta _h(A)\\Delta _h(B)\\geq \\frac{\\sqrt{|\\langle \\{A,B\\}h, h \\rangle -2\\langle Ah, h \\rangle\\langle Bh, h \\rangle|^2+|\\langle [A,B]h, h \\rangle |^2}}{2} \\end{align*} and \\begin{align*} (2) \\quad \\quad \\quad \\Delta _h(A)^2+ \\Delta _h(B)^2 \\geq \\frac{|\\langle (A+B)h, y \\rangle|^2+|\\langle (A-B)h, y \\rangle|^2}{2}, \\quad \\forall y \\in \\mathcal{O} \\text{ satisfying } \\|y\\|\\leq1 \\text{ and } \\langle h, y \\rangle =0, \\end{align*} where $ \\Delta _h(A):= \\|Ah-\\langle Ah, h \\rangle h \\|$. We call Inequality (1) as octonionic Heisenberg-Robertson-Schrodinger uncertainty principle and Inequality (2) as octonionic Maccone-Pati uncertainty principle.",
+"authors": [
+"K. MAHESH KRISHNA"
+],
+"categories": [
+"math.MP",
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2610.00379v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00379v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "human",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -3268,6 +3621,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00398",
+"title": "Products of $p$-adic logarithms of algebraic numbers that are not linear forms in logarithms, and a machine-checked $p$-adic linear-subgroup theorem",
+"abstract": "Let $p$ be a prime, $\\mathbb{C}_p$ the completion of an algebraic closure of $\\mathbb{Q}_p$, $\\overline{\\mathbb{Q}}$ the algebraic numbers in $\\mathbb{C}_p$, $L$ the $\\mathbb{Q}$-vector space of $p$-adic logarithms of algebraic numbers, and $\\mathcal{L}=\\overline{\\mathbb{Q}}+\\overline{\\mathbb{Q}}L$ the space of $p$-adic linear forms in logarithms of algebraic numbers with algebraic coefficients. We prove, in Lean 4 with Mathlib and from the three standard axioms only, that $\\log_p 2\\cdot\\log_p(3+\\sqrt2)\\notin\\mathcal{L}$ for every prime $p\\equiv\\pm3 \\pmod 8$, together with a family of similar statements for real quadratic fields, and the general principle behind them: if $\\sigma$ is a continuous automorphism of $\\mathbb{C}_p$ fixing a nonzero $t\\in L$ and moving $u\\in L$ to a conjugate $\\sigma u\\neq\\pm u$ of finite orbit, then $tu\\notin\\mathcal{L}$. This is G. Diaz's use of complex conjugation with an element of $\\mathrm{Gal}(\\overline{\\mathbb{Q}}_p/\\mathbb{Q}_p)$ in its place; the complex analogue $\\log 2\\cdot\\log(3+\\sqrt2)\\notin\\mathcal{L}$ is open. The deep input is Roy's form of Waldschmidt's linear-subgroup theorem for $\\mathbb{G}_a^{d_0}\\times\\mathbb{G}_m^{d_1}$ over $\\mathbb{C}_p$, with a derivative subspace, which we also prove in Lean, from Philippon's multiplicity estimate; the strong six exponentials theorem and the inhomogeneous Baker--Brumer theorem in two logarithms over $\\mathbb{C}_p$ follow. The $p$-adic linear-subgroup theorem has been used since Laurent and Roy, but we were unable to locate a proof written for $\\mathbb{C}_p$ of the version with derivatives. The Lean development is the proof of record; the paper explains the statements, the route, and how to check the certificate. The code is available at https://github.com/telaviv/p-adic-log-products.",
+"authors": [
+"Shawn Krisman"
+],
+"categories": [
+"math.NT",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2610.00398v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00398v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2610.25321",
 "title": "Projective Decomposition and Intersection Cohomology of Rigid Spaces",
 "abstract": "We prove a rigid analytic analogue of the Beilinson--Bernstein--Deligne decomposition theorem for projective morphisms over $p$-adic fields, with $\\mathbf{Q}_\\ell$-coefficients for every prime $\\ell$, including $\\ell=p$. As an application, we show that the $p$-adic intersection cohomology of every proper rigid analytic space is de Rham. We also establish an independent criterion for de Rham intersection cohomology with local coefficients in terms of the dimension of the boundary, yielding further results for curves, surfaces, and finite covers. For finite coefficients of characteristic different from $p$, we obtain isotropic analytic upper bounds for singular support and prove that singular support is analytic and Lagrangian for complexes supported in dimension at most one.",
@@ -3404,6 +3779,27 @@
 "announce": "cross",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00375",
+"title": "Ramanujan's prime counting inequality holds for all x ≥ 38,358,837,683: ranges from the zeros, a spectral barrier, and trade-offs",
+"abstract": "Ramanujan proved that $\\pi(x)^2 < \\frac{ex}{\\log x}\\pi(x/e)$ for all sufficiently large $x$. Let $N_R$ be the least integer such that this holds for every real $x \\ge N_R$. Dudek and Platt showed that the Riemann hypothesis implies $N_R = 38{,}358{,}837{,}683$. We prove that $N_R = 38{,}358{,}837{,}683$. To our knowledge, this is the first determination of $N_R$ without assuming the Riemann hypothesis. The proof uses the zero-free half-plane $\\mathrm{Re}s > 7/8$ of a recent OpenAI preprint. Its main statement for $\\zeta$ is formalized in Lean 4 and has been rebuilt independently; its written proof has not been peer reviewed. The deduction is our Theorem B: if $\\zeta(s) \\ne 0$ for $\\mathrm{Re}s > 0.945092$, then $N_R = 38{,}358{,}837{,}683$. The proof of Theorem B uses only refereed inputs, together with Bhattacharjee's correction of a theorem of Büthe. Relying only on the peer-reviewed literature, and on preprints where stated, we also prove the following by rigorous computer-assisted interval arithmetic. (A) The inequality holds for $38{,}358{,}837{,}683 \\le x \\le e^{753.98}$. The previous range ended at $e^{103}$. (C) It holds for $x \\ge e^{3035.01}$. This replaces Axler's threshold $e^{3158.442}$, whose proof applies a lemma of Dudek and Platt in a case where that lemma's proof is defective. (B′, D) Either of the following also suffices: a zero-free region $\\beta \\le 1 - 1/(1.7373\\log|\\gamma|)$ above height $3\\cdot10^{12}$, or RH verified to height $4.1602\\cdot10^{14}$. We tabulate the trade-off between the two. (E) Arguments that use only non-negativity, analytic continuation and the poles up to height $T$ cannot go beyond $e^{754.40}$ when $T = 3\\cdot10^{12}$. So (A) is optimal among such arguments to within 0.41 in $\\log x$. Building on Bhattacharjee's discovery that the constant $E_2$ in Büthe's Theorem 1 lacks a factor $\\log(3c)$, we show that the affected rows of the Broadbent–Kadiri–Lumley–Ng–Wilk table inherit the error, by 1.3–2.2% after re-optimization. We also trace the consequences in the literature.",
+"authors": [
+"Sayed Barez"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00375v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00375v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -3746,6 +4142,29 @@
 "announce": "new",
 "date": "2026-10-19",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00378",
+"title": "Smooth Local Isometric Embeddings of Riemannian Manifolds in Optimal Dimension",
+"abstract": "We prove that every smooth Riemannian manifold of dimension \\(n\\ge 5\\) admits a smooth local isometric embedding into \\(\\mathbb{R}^{n(n+1)/2}\\). This extends the classical Janet–Cartan theorem from real-analytic to arbitrary smooth metrics in these dimensions, achieving the optimal universal ambient dimension without curvature or genericity assumptions. The proof constructs characteristic waves around a flat immersion whose second fundamental form has full normal rank. Their Hermitian quadratic mean generates the required metric correction, while linear responses cancel oscillatory quadratic interactions and the remaining linear strain. Exact Fourier localization yields an iteration converging in \\(C^\\infty\\) on a fixed neighborhood.The detailed geometric and microlocal constructions are proved in the appendices.",
+"authors": [
+"Wenchang Yang",
+"Yi Wang"
+],
+"categories": [
+"math.DG",
+"math.AP"
+],
+"link": "https://hexagonmath.org/abs/2610.00378v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00378v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -4588,6 +5007,29 @@
 "announce": "new",
 "date": "2026-10-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00387",
+"title": "Weil classes on every abelian sixfold of Weil type for $\\mathbb{Q}(\\sqrt{-3})$",
+"abstract": "We prove that the Weil classes of every polarized complex abelian sixfold of Weil type for $K=\\mathbb{Q}(\\sqrt{-3})$, of every Hermitian discriminant, are algebraic. The same holds for every abelian eightfold of Weil type for $K$ of signature $(4,4)$ with split discriminant, and every power of such a sixfold whose special Mumford--Tate group is $SU_H$ satisfies the Hodge conjecture. The proof applies the transfer theorem of the companion preprint to the Shephard--Todd group $G_{34}$ with twenty reflections as local monodromies, and passes from eightfolds to sixfolds by a compensation argument. Two general tools are proved on the way. If every local monodromy of a transfer datum is conjugate to its inverse, the lattice condition of the transfer theorem follows from Brauer's induction theorem. Dominance of the period map follows from exact data at a maximal degeneration, by the nilpotent orbit theorem. We also give an explicit higher-dimensional form of Schoen's compensation argument, which shows that one decided cell of $2n$-folds, $n\\ge4$, decides every cell of sixfolds over the same imaginary quadratic field. No outside unrefereed manuscript is used. This version, with its computational certificates, is archived on Zenodo: https://doi.org/10.5281/zenodo.23422649",
+"authors": [
+"Benjamin Severn"
+],
+"categories": [
+"math.AG",
+"math.GR",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00387v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00387v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-19",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
