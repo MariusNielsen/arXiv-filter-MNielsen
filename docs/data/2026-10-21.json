@@ -1,6 +1,6 @@
 {
 "day": "2026-10-21",
-"updated": "2026-10-21T04:05:04+00:00",
+"updated": "2026-10-21T14:36:20+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -85,6 +85,52 @@
 "title: motivic",
 "abstract: motivic spectr",
 "abstract: algebraic k-theor"
+],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00434",
+"title": "Counterexamples to the Two-Bases Conjecture for the Tutte Polynomial",
+"abstract": "We disprove the two-bases conjecture of Chávez-Lomelí, Merino, Noble, and Ramírez-Ibañez (Conjecture 5.8 in *Some Inequalities for the Tutte Polynomial*), which asserts that \\(\\max\\{T_M(2,0),T_M(0,2)\\}\\ge T_M(1,1)\\) whenever a matroid contains two disjoint bases or its ground set is the union of two bases. We construct a connected, self-dual, rationally representable matroid \\(M\\) of rank \\(32\\) on \\(64\\) elements whose ground set is partitioned into two bases, but for which \\[ T_M(2,0)=T_M(0,2)=263656235940864 <275621102802945=T_M(1,1). \\] The construction extends to an explicit infinite family \\(M_m\\) of rank \\(2m\\) on \\(4m\\) elements such that \\[ \\frac{\\max\\{T_{M_m}(2,0),T_{M_m}(0,2)\\}}{T_{M_m}(1,1)}\\longrightarrow0. \\] Consequently, the corresponding additive and multiplicative Merino–Welsh inequalities also fail under the two-bases hypothesis. We additionally construct a simple and cosimple matroid on \\(60\\) elements whose ground set is partitioned into two bases and for which \\(T_M(2,0)<T_M(1,1)\\). This disproves the simple-matroid, two-bases-covering formulation of Conjecture 4.2 of Merino, Ibañez, and Rodríguez; its dual disproves the corresponding cosimple-matroid, two-disjoint-bases formulation. The constructions and inequalities are established by explicit rank functions, exact Tutte-polynomial evaluations, and elementary coefficient estimates.",
+"authors": [
+"Jungang Chen"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00434v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00434v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 3,
+"reasons": [
+"abstract: presentable"
+],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00430",
+"title": "Highly Connected Counterexamples to the Multiplicative Merino–Welsh Inequality",
+"abstract": "For every integer \\(k\\ge 3\\), we construct \\(k\\)-connected matroids representable over every infinite field, with girth \\(k\\), arbitrarily large cogirth, and Merino–Welsh quotient \\[ \\Phi(M)=\\frac{T_M(1,1)^2}{T_M(2,0)T_M(0,2)} \\] tending to infinity. In particular, this disproves **Conjecture 7.2 of Csikvári (2026)**, which asserts the multiplicative Merino–Welsh inequality for simple and cosimple matroids, and therefore also the stronger **Conjecture 7.3** therein, as observed by its author. Our examples are rank truncations of direct sums of \\(k\\)-element circuits. We give a 3-connected counterexample on 1011 elements of rank 433, certified by exact integer arithmetic, and a 6048-element counterexample admitting a proof without computation. Taking the direct sum of a counterexample with its dual also gives a negative answer to **Problem 4.3 of Beke, Csáji, Csikvári, and Pituk (2024)**: the original maximum and additive Merino–Welsh inequalities can fail for simple and cosimple matroids. The same construction disproves **Conjecture 2 of Knauer, Martínez-Sandoval, and Merino (2026)**: for every fixed \\(g\\ge 3\\), \\(\\Phi\\) is unbounded even among matroids having both girth and cogirth exactly \\(g\\). The dual direct-sum examples need not be connected; these constructions do not disprove the graphical or binary versions.",
+"authors": [
+"Jungang Chen"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00430v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00430v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 3,
+"reasons": [
+"abstract: presentable"
 ],
 "watched_authors": []
 },
@@ -638,6 +684,50 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00426",
+"title": "An explicit upper-bound certificate for the essential minimum of the Zhang–Zagier height",
+"abstract": "We give an exact certificate proving $C_{82}<0.2534449$ for the essential minimum of $h(\\alpha)+h(1-\\alpha)$, where $h$ is the absolute logarithmic Weil height. We use Doche's limit-point method, building on Grinsztajn's factor library and, in particular, Épi's unequal-multiplicity construction. We retain Épi's denominator factors, add Doche's $P_7$, and add 25 numerator factors found by LP-dual-weighted evaluation lattices with LLL. Joint linear-program re-optimisation is followed by exact rational rounding. Two separately written ball-arithmetic checkers certify the bound; a further adversarial computational audit accepts the certificate.",
+"authors": [
+"Ricardo Pinho"
+],
+"categories": [
+"math.NT",
+"math.OC"
+],
+"link": "https://hexagonmath.org/abs/2610.00426v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00426v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00425",
+"title": "An explicit upper-bound certificate for the Schur–Siegel–Smyth trace constant",
+"abstract": "We document an explicit certificate proving $C_{86}<1.8117251$ for the smallest limiting trace-to-degree ratio of totally positive algebraic integers. The construction uses the primal problem of Orloski and Talebizadeh Sardari, with their four-polynomial set enlarged to eleven. A discretised solution is rounded to a rational step density, then normalised to a probability measure. Exact rational calculations and rigorous ball-arithmetic inequalities verify Smith's sufficient criterion for an arithmetic measure. An independently written agent checker accepts the certificate and rejects four corrupted controls. This note records the proof, data provenance, reproduction results and limitations of the previously released certificate; it makes no optimality claim.",
+"authors": [
+"Ricardo Pinho"
+],
+"categories": [
+"math.NT",
+"math.OC"
+],
+"link": "https://hexagonmath.org/abs/2610.00425v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00425v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2402.11697",
 "title": "Apollonian carpets and the boundary of the Kahler cone of a hyperkahler manifold",
 "abstract": "The ample cone of a compact Kahler $n$-manifold $M$ is the intersection of its Kahler cone and the real subspace generated by integer (1,1)-classes. Its isotropic boundary is the set of all points $\\eta$ on its boundary such that $\\int_M \\eta^n=0$. We are interested in the relation between the shape of the isotropic boundary of the ample cone of a hyperkahler manifold and the dynamics of its holomorphic automorphism group $G$. In this case, the projectivization of the ample cone is realized as an open, locally polyhedral subset in a hyperbolic space $H$. The isotropic boundary $S$ is realized as a subset of the hyperbolic boundary (the absolute) $A$ of $H$, which is naturally identified with a Euclidean sphere. It is clear that the isotropic boundary $S$ contains the limit set of $G$ acting on its ample cone. We prove that, conversely, all irrational points on $S$ belong to the limit set. Using a result of N. Shah about limiting distributions of curves under geodesic flow on hyperbolic manifolds, we prove that every real analytic curve in $S$ is contained in a geodesic sphere in $S$,and in presence of such curves the limit set is the closure of the union of these geodesic spheres. We study the geometry of such fractal sets, called Apollonian carpets, and establish the link between the Apollonian carpet and the structure of the automorphism group.",
@@ -686,6 +776,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00435",
+"title": "Area Nondecreasing Drawstrings and Counterexamples to Euclidean Rigidity and Zero Mass Stability",
+"abstract": "Building on the drawstring construction of Kazaras--Xu, we develop a localized refinement that contracts prescribed curves while preserving positive scalar curvature and without decreasing two-dimensional area. As two applications, we disprove part~(b) of Gromov's Euclidean $C^0$ rigidity conjecture and Sormani's zero mass stability conjecture.",
+"authors": [
+"Jiangcheng You",
+"Heng Zhang"
+],
+"categories": [
+"math.DG"
+],
+"link": "https://hexagonmath.org/abs/2610.00435v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00435v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2610.00411",
 "title": "Beyond the Event Horizon: An Operator-First Theory of Persistent Geometry and Black Hole Dynamics",
 "abstract": "A black hole carries one wall of each kind. Its horizon is a geometric fold: in the right coordinate it is smooth, and nothing breaks there. Its innermost stable circular orbit is a spectral wall, a Jordan block where steady circling turns into a plunge. This paper builds both kinds of wall exactly in a setting where every step can be proved and computed, and then compares them, structurally, with black holes. The setting is the shape space of four bodies. Its kinetic metric is the Bures metric of a real qutrit, and its one genuine wall, the coplanar configurations, is a fold at finite distance. Across it a tetrahedron meets its mirror image. The transport operator A(H) = TH + HT − 2Tr(TH)G is self-adjoint in the kinetic metric. Read in the Gram frame, its back-coupling vanishes like σ₃², and it forms a Jordan block whose square-root branch is exactly the orientation double cover. Lifted to the cover, it is analytic, and the wall point is a plain double point at the tip of a cone with slope 2|t₁−t₂|√(1−δ²). Both readings are exact. What a single eigenvector reports can fail at the wall; the eigenvalue pair and its trace-log ledger come through exact, and a loop through the mirror leaves a sign. New in edition 10 - Reflection and refraction on the projector metric. A wave meeting a step in the metric reflects through the metric along the step and the Clairaut constant C alone: Γ = (√(a₁−C) − √(a₂−C)) / (√(a₁−C) + √(a₂−C)). The transverse metric drops out at a sharp step. Total reflection begins exactly where a geodesic turns, so the optical threshold is a turning point. A change of spectral gap reflects with the peel coordinate tanh(½ ln Δ₂/Δ₁). - One Gram determinant does two jobs: it sets the wave admittance, and it caps the Berry curvature a path can feel (the angle safeguard of the intrinsic quantum geometric tensor). - Mirror and matched load. The polar stratum is a perfect mirror, |Γ| = 1. A Killing horizon, polar in the same sense, is a matched load, Γ = 0. - The photon ring, read by the same generator as the ISCO: each half orbit dims an image by e^−π = 0.0432, a value that belongs to the uncharged hole alone; charge lowers it. - The fermion record: its offset is a point on the same reflection chart, tanh(ħω/2k_BT_H). - The reflection tests were pre-registered before they ran, and each was pushed several ways: 400 random sharp steps, three smooth profiles, reciprocity, flux balance, the transverse metric in a thick layer, total reflection, and the gap form. Main results - The coplanar wall is a fold, and its distance is a Bures angle: arcsin√ε = arccos√F. - Quantum Fisher information on the shape space is eight times the shape kinetic energy wherever the rank is constant, and fidelity is blind to the mirror. - Two kinds of wall: spectral (a Jordan block in every frame) and geometric (a fold that a signed coordinate unfolds). The ISCO is spectral, at the point where gravity's effective power p = 2 + 6M/r reaches the inverse cube. The horizon is geometric. - Any distance potential is even across the wall, with stiffness 2∂V/∂w₃. A thin disk holds the shape at its own frequency ν. Gravity holds the square at ω = √(2(2√2−1)); its exact potential along the lifted square is given in closed form, and its stiffness turns over for a rhombus thinner than diagonal ratio k* = 0.144557. - Structural comparisons: Petrov types through Majorana stars (Kerr is type D), merging ringdown overtones, the horizon's surface resistance as a matched load (376.73 Ω), Bell violation by a Hawking pair, Ramanujan's mock theta functions, and the mirror rule for knots. The metric throughout is the intrinsic kinetic metric of the shape space, never a spacetime metric. Every statement about black holes is a structural comparison, and every claim carries its grade (derived, measured, cited, or structural) where it is made. Files - bh_paper_v10_1.pdf: the paper (56 pages). - bh_paper_v10_1.html: the web edition, with its cover; it runs no scripts. - bh_mixer_v10.html: the Event Horizon Mixer, edition 10. It runs offline in any browser and computes every curve live: the photon-ring orbits, the layered step, the reflection chart with the horizon and the fermion record, the sine guard, and the tip-and-tail matrices. Its Synchronize mode drives every eye from one wall dial, and its \"Synchronize the universe\" eye shows the connection energy draining as a ring of fields falls into step. - bh_v10_1_code_and_sources.zip: LaTeX source, figures, every check script with its saved output, the pre-registrations, the proof log and the ideas ledger, and a README. Each script states its kill condition before it runs (Python 3: numpy, scipy, sympy, mpmath, matplotlib). AI-assisted: the ideas and research direction are the author's; AI tools were used for literature search, computation, drafting and typesetting, and every number was checked by the scripts in the archive.",
@@ -727,6 +839,28 @@
 "announce": "replace",
 "date": "2026-10-21",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00440",
+"title": "Chemical heredity without genetic templates",
+"abstract": "We prove two quantitative forms of chemical heredity that do not rely on copying a genetic sequence. In the first model, a population of four compartments carries three prescribed catalyst types that compete for a shared local fuel. Two types are present from the start; a third is supplied for a fixed seeding period, after which all catalyst input stops. We prove that, with failure probability at most 0.004517975690072193, a single finite-stock process acquires the third type and keeps all three present in both daughters of every division, delivers three million catalytic conversion credits on a fixed per-site schedule, and rebuilds the population's copy reserves eleven times, interleaved with ten divisions. The proof controls acquisition, catalytic service, recovery and resource consumption on one stochastic history; it does not assume that a compartment stays replenished between recovery and division. In the second model, an imperfect parent copies its majority conformation into an independent racemic blank, after which both outputs undergo cooperative restoration while spontaneous errors continue. At 4,000 molecules per compartment, 100 successive copying cycles succeed with probability at least 0.999, uniformly over a box of rate parameters. Complete conventional proofs and explicit finite certificates are supplied. The central finite-stock theorem, though not the restoration result, also has a machine-checked Lean formalization. A converse for random division explains why unlinked information units and linked carriers face different loss mechanisms. These results establish acquisition and retained function under prescribed chemistry and operations; chemically generated successive innovations and open-ended evolution require additional mechanisms.",
+"authors": [
+"Michael Mislan"
+],
+"categories": [
+"math.PR",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2610.00440v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00440v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -826,6 +960,48 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00436",
+"title": "Counterexamples to the weakly Gorenstein symmetry conjecture",
+"abstract": "We construct a 29-dimensional algebra which is left weakly Gorenstein and is not right weakly Gorenstein. We also construct a 145-dimensional gendo-symmetric algebra with the same property. Both constructions work over every field containing an element of infinite multiplicative order. These examples disprove the weakly Gorenstein symmetry conjecture.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2610.00436v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00436v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00431",
+"title": "Counterexamples to Three Conjectures of Ok on Tutte-Polynomial Deletion Ratios",
+"abstract": "We disprove Conjectures 7.2.1, 7.2.2, and 7.2.3 from Seongmin Ok's thesis *Aspects of the Tutte Polynomial*. Conjecture 7.2.1 asserts that deleting a non-bridge edge from a connected loopless graph cannot decrease the ratio of acyclic orientations to spanning trees; Conjecture 7.2.2 strengthens this to monotonicity of T_{G-e}(x,2-x)/T_G(x,2-x) on 0 ≤ x ≤ 2. Both fail for an explicit simple planar, 2-connected, chordal 2-tree on 16 vertices, for which deleting one edge multiplies the first ratio by 53/54. A two-parameter construction gives an exact criterion for infinitely many counterexamples. Conjecture 7.2.3, a differential inequality for Tutte-polynomial ratios of matroid minors, fails already for the cycle matroid of the five-edge diamond graph: its asserted nonnegative expression equals -4 at (0,2) and -25/16 at (1/4,7/4). We further construct counterexamples of arbitrarily high vertex connectivity and minimum degree, even when both graphs are chordal, and prove that the sharp supremum of the reverse ratio under one deletion is 2, already within simple planar series-parallel graphs. These counterexamples do not disprove the Merino–Welsh inequalities.",
+"authors": [
+"Jungang Chen"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00431v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00431v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2508.07060",
 "title": "Descent problem for certificate of non-negativity on semi-algebraic sets",
 "abstract": "Let $F$ be a subfield of $\\mathbb R$ and let $K$ be a basic closed semi-algebraic set in $\\mathbb R$ with $\\partial K\\subset F$. Let $\\mathcal N$ be the natural choice of generators of $K$. We show that if $f\\in F[x]$ is $\\geq 0$ on $K$, then $f$ can be written as $$f=\\sum_{e\\in\\{0,1\\}^s } a_e\\sigma_e g^e $$ where $a_e\\in F_{\\geq 0}$, $\\sigma_e\\in \\sum F[x]^2$ and $g^{e}=g_1^{e_1} \\cdots g_s^{e_s}$. In other words, the preordering $T_{\\mathcal N}$ of $F[x]$ is saturated. In case $F=\\mathbb R$, this result is due to Kuhlmann and Marshall. As an application, we prove that if $K$ is compact, then $M_{\\mathcal N}=T_{\\mathcal N}=Pos(K)$. In other words, the quadratic module $M_{\\mathcal N}$ of $F[x]$ is saturated.",
@@ -844,6 +1020,27 @@
 "announce": "replace",
 "date": "2026-10-21",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00421",
+"title": "Disjoint union activation of difference distance magic labelings",
+"abstract": "A graph is difference distance magic orientable (DDMO) if its vertices can be labeled bijectively by consecutive positive integers and its edges oriented so that the incoming and outgoing neighbor-label sums agree at every vertex. We give an affirmative answer to the disjoint-union question posed by Aceska et al. in January 2026: two copies of the non-DDMO graph K₃,₃ have a DDMO disjoint union. More precisely, for k ≥ 1 and r ≥ 0, the graph consisting of k disjoint copies of K₃,₃ and r isolated vertices is difference distance magic orientable if and only if k is even or r ≥ 1. The proof reduces fixed-label bipartite orientations to signed zero sums and applies classical Skolem and hooked Skolem pairings. A compatible fixed labeling of K₃,₃ has exactly two orientations, related by reversal. We prove that twelve vertices is the minimum order of a DDMO graph whose connected components are all non-DDMO in isolation. A separate exact computer-assisted classification shows that two disjoint copies of K₃,₃ form the unique graph attaining that minimum.",
+"authors": [
+"Daniel Adam Pyle"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00421v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00421v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-20",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -992,6 +1189,27 @@
 "abstract: topological hochschild homology",
 "abstract: genuine equivariant"
 ],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00428",
+"title": "Every algebraic number is a critical value of an integer polynomial",
+"abstract": "We arrived at an independent proof of Petrov's theorem. For every irreducible $f \\in \\Z[x]$ of positive degree there are $g \\in \\Z[x]$ and an irreducible $F \\in \\Z[x]$ of positive degree with $F \\mid g'$ and $F^{2} \\mid f \\circ g$. Equivalently, every algebraic number is a critical value of an integer polynomial, so the set of critical values of $\\Z[x]$ is exactly $\\overline{\\Q}$. The construction is explicit. We classify $g \\in \\Z[x]$ with critical value $\\alpha$, and find a lower bound for $\\deg g$. The proof was assisted by AI, and has been formalized in Lean.",
+"authors": [
+"Ricardo Acuna"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00428v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00428v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
 "watched_authors": []
 },
 {
@@ -1219,6 +1437,27 @@
 "announce": "new",
 "date": "2026-10-21",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00433",
+"title": "Highly connected counterexamples to the permutation Tutte inequality",
+"abstract": "We disprove Conjecture 7.3 of Csikvári, Around the Merino–Welsh conjecture: improving Jackson's inequality, which asserts that $\\widetilde T_H(2,0)\\widetilde T_H(0,2)\\ge1$ for every bipartite graph $H$ of minimum degree at least two. For each integer $k\\ge2$, we construct an explicit sequence of finite simple balanced bipartite graphs whose minimum degree and vertex connectivity are both exactly $k$. The graphs admit automorphisms interchanging their two vertex classes, and both $\\widetilde T_H(2,0)$ and $\\widetilde T_H(0,2)$ tend to zero along the sequence. Consequently, no fixed minimum-degree or connectivity threshold ensures the inequality, and even the corresponding maximum and additive inequalities fail in these classes. The construction consists of a complete bipartite core with additional vertices of degree $k$ attached to disjoint $k$-element subsets on each side. A one-variable integral bound gives explicit exponential decay for each fixed $k$ and a sufficient size threshold. We also give a 1000-vertex, 2-connected example whose two axis values are each less than $7/10$, certified by exact rational arithmetic. These are statements about the permutation Tutte polynomial; a failure of a local permutation inequality alone does not give a counterexample to a graph or matroid Merino–Welsh inequality.",
+"authors": [
+"Jungang Chen"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00433v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00433v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1541,6 +1780,28 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-10-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00438",
+"title": "Optimal affinity of autocatalytic networks beyond gross stoichiometry",
+"abstract": "An explicit reversible autocatalytic network has a unique global maximum of controlled production whose affinity exponential is strictly below its gross stoichiometric seed ratio. This refutes the proposed general lower bound. We identify a response-profile capacity that retains the missing kinetic information, analyze a literal recycling family approaching the source boundary and give a zero-diagonal counterexample. Under the stated rooted accessibility and response hypotheses, a local mass-action realization theorem makes the capacity sharp; an explicit power family supplies global maxima, while interacting cores delimit broader claims. The registered Lean project verifies the original refutation and checks the explicit witness against the literature conventions. Broader historical formal evidence and conventional arguments are distinguished in the manuscript and supporting claim map.",
+"authors": [
+"Michael Mislan"
+],
+"categories": [
+"math.DS",
+"math.OC"
+],
+"link": "https://hexagonmath.org/abs/2610.00438v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00438v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
@@ -2126,6 +2387,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00420",
+"title": "The Riemann Hypothesis on Young's Lattice",
+"abstract": "This work establishes a novel structural connection between the Riemann Hypothesis and Young's Lattice through partition-indexed harmonic numbers and the Generalized Assembly Theorem. We establish a new family of equivalences for the conjecture, define the partition-based harmonic numbers $H_n^{\\boldsymbol{\\lambda}}$, and reformulate the Riemann Hypothesis as the Young's Lattice equivalence: $$\\sum_{\\substack{k \\in \\mathbb{N} \\\\ \\boldsymbol{\\lambda} \\, \\vdash \\, k}} \\frac{H_n^{\\boldsymbol{\\lambda}}}{\\boldsymbol{\\lambda}!} \\, a_k > \\sum_{d \\mid n} d$$ for every $n \\in \\mathbb{N}$, where $\\boldsymbol{\\lambda} \\vdash k$ denotes a partition of $k$, $\\boldsymbol{\\lambda}!$ is the partition factorial, and $a_k = \\frac{1}{k} + \\dots + \\frac{1}{k^2}$ or $a_k=\\log(k+1)$. We then prove the Generalized Assembly Theorem, which shows that the assembly sum $\\mathfrak{S}_n^m = \\sum_{k=1}^{n} \\sum_{\\boldsymbol{\\lambda} \\in \\wp_k^{k+m-1}} H_n^{\\boldsymbol{\\lambda}}$ equals $n$ for every excess parameter $m-1$, providing a systematic framework to analyze divisor bounds through the branch decomposition of the partition-indexed series. The resulting structure yields an exact, non-asymptotic realization of the divisors of $n$. Finally, we propose and explore a hierarchical expansion connecting the exponential of the Euler--Mascheroni constant, $e^\\gamma$, to Multiple Zeta Values under Abel summability. $$e^\\gamma = 1 + \\sum_{a\\ge2} \\frac1{a!} \\sum_{m\\ge0} (-1)^m\\zeta^{\\mathrm{A}}(a+m) + \\sum_{a,b\\ge2} \\frac1{a!\\,b!} \\sum_{m,n\\ge0} (-1)^{m+n}\\zeta^{\\mathrm{A}}(a+m,b+n) + \\cdots$$",
+"authors": [
+"José Damián Espinosa"
+],
+"categories": [
+"math.NT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00420v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00420v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-20",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2606.10052",
 "title": "The span-squares adjunction",
 "abstract": "We show a universal property of the span $\\infty$-category that yields a description of functors defined on this category. For this, we view the span construction as a functor from double $\\infty$-categories to $\\infty$-categories, and show that this functor admits a right adjoint defined by the double $\\infty$-categories of squares. As an application, we obtain a model for the localization of an $\\infty$-category in terms of a span $\\infty$-category and also give another proof of the model given by the relative nerve. Moreover, using the span-squares adjunction, we obtain new proofs of the equivalences between different models of algebraic $K$-theory, given by the $\\Q$-, the $\\oS$-, the cobordism model, and the squares construction.",
@@ -2213,6 +2496,27 @@
 "announce": "new",
 "date": "2026-10-21",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00427",
+"title": "Total mutual visibility in Fibonacci and Lucas cubes",
+"abstract": "A set of vertices is total mutual-visible if every pair of graph vertices has a shortest path whose internal vertices avoid the set. We prove that the total mutual-visibility numbers of the n-dimensional Fibonacci and Lucas cubes both have order ρⁿ/n, where ρ > 1 satisfies ρ³ = ρ² + 1. The eligible Fibonacci words are exactly those avoiding 11 for which zero padding avoids 0000. Their induced graph decomposes into fibres of recognizing subsets of maximal independent sets of a path, and each fibre is a Cartesian product of smaller Fibonacci cubes. Total visibility becomes open packing in these fibres. An elementary coloring and counting argument proves the order of growth. Typical degree and free-dimension estimates, together with a classical binary-code asymptotic, sharpen the normalized bounds to constants 4.032058… and 6.346255…. We give the cyclic analogue, an exact component inventory, and reproducible exact values through dimension 20 for Fibonacci cubes and 16 for Lucas cubes. Neither a leading asymptotic constant nor a closed formula in every dimension is established.",
+"authors": [
+"Daniel Adam Pyle"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00427v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00427v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2329,6 +2633,112 @@
 "announce": "new",
 "date": "2026-10-21",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00439",
+"title": "Unistationarity of Type II_l and Type V autocatalytic cores with nonnegative degradation",
+"abstract": "We prove that reversible Type II_l autocatalytic cores with l at least three and Type V cores admit at most one positive stationary state when every degradation rate is nonnegative. The Type II result assumes source-minimality, while the Type V statement uses its literal normal form. Strictly positive reaction rate constants are retained throughout. A reduction to the fork skeleton, source-exhaustion identities and diagonal current criteria control both positive-loss and boundary cases, including internal chains. We also derive determinant estimates and local continuation results, with small-degradation existence and stability under the stated hypotheses. The main nonnegative-degradation uniqueness theorem is registered in Lean 4; the manuscript and supporting claim map distinguish the formal interface from additional conventional results.",
+"authors": [
+"Michael Mislan"
+],
+"categories": [
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2610.00439v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00439v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00437",
+"title": "Unistationarity of Type II_l autocatalytic cores",
+"abstract": "We prove unistationarity of reversible Type II_l autocatalytic cores with l at least three under strictly positive degradation. The source-minimal wiring forces source exhaustion and unit return tails, allowing comparison of positive stationary states through current ratios, chain reduction and a cyclic determinant argument. The proof includes separated stems and the exceptional coincident three-fork branch, with all internal chain species retained. Exact six- and seven-species reversible mass-action examples show that the minimality assumptions cannot be dropped: both admit two distinct positive stationary states with strictly positive rates and losses. The principal uniqueness theorem has a complete registered Lean formalization. The manuscript distinguishes that theorem, broader historical formal evidence and conventional exact calculations; the supplied claim map records the boundaries of each.",
+"authors": [
+"Michael Mislan"
+],
+"categories": [
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2610.00437v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00437v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00422",
+"title": "Waring--Goldbach Problem: One square, four fifth powers and fifteen sixth powers",
+"abstract": "We prove that for every sufficiently large even integer $n$, the equation $$ n = p_1^2 + p_2^5 + p_3^5 + p_4^5 + p_5^5 + p_6^6 + \\cdots + p_{20}^6 $$ has a solution with all $p_j$ prime.",
+"authors": [
+"Runbo Li"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00422v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00422v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-20",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00423",
+"title": "Waring--Goldbach Problem: One square, four fifth powers and twenty-two seventh powers",
+"abstract": "We prove that for every sufficiently large odd integer $n$, the equation $$ n = p_1^2 + p_2^5 + p_3^5 + p_4^5 + p_5^5 + p_6^7 + \\cdots + p_{27}^7 $$ has a solution with all $p_j$ prime.",
+"authors": [
+"Runbo Li"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00423v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00423v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-20",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00441",
+"title": "Zero-divisor methods for absolute concentration robustness",
+"abstract": "We study the relation between absolute concentration robustness and zero divisors in steady-state coordinate rings. Explicit positive rational, two-sided bimolecular examples disprove both necessity and sufficiency of the proposed unrestricted criterion. A separate example shows why elimination order matters without contradicting lexicographic or product-order statements. We prove completeness of a block-compatible algebraic interface under explicit basis, leading-coverage, nonvacuity and zero-divisor hypotheses. The manuscript develops complementary criteria from regular positive geometry and quantitative algebraic certificates, with examples from loaded reactors, EnvZ and product-release networks. Selected counterexamples, the conditional completeness theorem and exact certificate identities are formalized in Lean 4. Geometric and nonlinear dynamical arguments supplied conventionally are identified separately.",
+"authors": [
+"Michael Mislan"
+],
+"categories": [
+"math.AC",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2610.00441v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00441v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-21",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],

@@ -6,6 +6,58 @@
   {
    "day": "2026-10-21",
    "paper": {
+    "abstract": "We disprove the two-bases conjecture of Ch\u00e1vez-Lomel\u00ed, Merino, Noble, and Ram\u00edrez-Iba\u00f1ez (Conjecture 5.8 in *Some Inequalities for the Tutte Polynomial*), which asserts that \\(\\max\\{T_M(2,0),T_M(0,2)\\}\\ge T_M(1,1)\\) whenever a matroid contains two disjoint bases or its ground set is the union of two bases. We construct a connected, self-dual, rationally representable matroid \\(M\\) of rank \\(32\\) on \\(64\\) elements whose ground set is partitioned into two bases, but for which \\[ T_M(2,0)=T_M(0,2)=263656235940864 <275621102802945=T_M(1,1). \\] The construction extends to an explicit infinite family \\(M_m\\) of rank \\(2m\\) on \\(4m\\) elements such that \\[ \\frac{\\max\\{T_{M_m}(2,0),T_{M_m}(0,2)\\}}{T_{M_m}(1,1)}\\longrightarrow0. \\] Consequently, the corresponding additive and multiplicative Merino\u2013Welsh inequalities also fail under the two-bases hypothesis. We additionally construct a simple and cosimple matroid on \\(60\\) elements whose ground set is partitioned into two bases and for which \\(T_M(2,0)<T_M(1,1)\\). This disproves the simple-matroid, two-bases-covering formulation of Conjecture 4.2 of Merino, Iba\u00f1ez, and Rodr\u00edguez; its dual disproves the corresponding cosimple-matroid, two-disjoint-bases formulation. The constructions and inequalities are established by explicit rank functions, exact Tutte-polynomial evaluations, and elementary coefficient estimates.",
+    "ai_mode": "no-human-author-claimed",
+    "announce": "new",
+    "authors": [
+     "Jungang Chen"
+    ],
+    "categories": [
+     "math.CO"
+    ],
+    "date": "2026-10-21",
+    "link": "https://hexagonmath.org/abs/2610.00434v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2610.00434v1",
+    "pid": "hexagon:2610.00434",
+    "reasons": [
+     "abstract: presentable"
+    ],
+    "source": "hexagon",
+    "tier": 3,
+    "title": "Counterexamples to the Two-Bases Conjecture for the Tutte Polynomial",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-21",
+   "paper": {
+    "abstract": "For every integer \\(k\\ge 3\\), we construct \\(k\\)-connected matroids representable over every infinite field, with girth \\(k\\), arbitrarily large cogirth, and Merino\u2013Welsh quotient \\[ \\Phi(M)=\\frac{T_M(1,1)^2}{T_M(2,0)T_M(0,2)} \\] tending to infinity. In particular, this disproves **Conjecture 7.2 of Csikv\u00e1ri (2026)**, which asserts the multiplicative Merino\u2013Welsh inequality for simple and cosimple matroids, and therefore also the stronger **Conjecture 7.3** therein, as observed by its author. Our examples are rank truncations of direct sums of \\(k\\)-element circuits. We give a 3-connected counterexample on 1011 elements of rank 433, certified by exact integer arithmetic, and a 6048-element counterexample admitting a proof without computation. Taking the direct sum of a counterexample with its dual also gives a negative answer to **Problem 4.3 of Beke, Cs\u00e1ji, Csikv\u00e1ri, and Pituk (2024)**: the original maximum and additive Merino\u2013Welsh inequalities can fail for simple and cosimple matroids. The same construction disproves **Conjecture 2 of Knauer, Mart\u00ednez-Sandoval, and Merino (2026)**: for every fixed \\(g\\ge 3\\), \\(\\Phi\\) is unbounded even among matroids having both girth and cogirth exactly \\(g\\). The dual direct-sum examples need not be connected; these constructions do not disprove the graphical or binary versions.",
+    "ai_mode": "no-human-author-claimed",
+    "announce": "new",
+    "authors": [
+     "Jungang Chen"
+    ],
+    "categories": [
+     "math.CO"
+    ],
+    "date": "2026-10-21",
+    "link": "https://hexagonmath.org/abs/2610.00430v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2610.00430v1",
+    "pid": "hexagon:2610.00430",
+    "reasons": [
+     "abstract: presentable"
+    ],
+    "source": "hexagon",
+    "tier": 3,
+    "title": "Highly Connected Counterexamples to the Multiplicative Merino\u2013Welsh Inequality",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-21",
+   "paper": {
     "abstract": "We develop a general theory of analytic prismatization with $\\mathbb{Q}_p$-coefficients in rigid analytic geometry over $\\mathbb{Q}_p$. We prove an equivalence of perfect complexes on the perfect analytic prismatization modulo Frobenius with perfect complexes on the relative Fargues--Fontaine curve for any smooth partially proper rigid analytic variety. In particular, we explain how this equivalence conceptualizes the decompletion techniques by passing to locally analytic vectors which appear in (geometric) Sen theory",
     "ai_mode": "",
     "announce": "new",
@@ -3209,7 +3261,7 @@
    }
   }
  ],
- "hexagon_since": "2026-10-20",
+ "hexagon_since": "2026-10-21",
  "last_page": {
   "day": "2026-10-21",
   "papers": [
@@ -3290,6 +3342,52 @@
     "source": "arxiv",
     "tier": 2,
     "title": "On the Motivic K-Theories of Classifying Spaces of Cyclic 2-Groups",
+    "watched": []
+   },
+   {
+    "abstract": "We disprove the two-bases conjecture of Ch\u00e1vez-Lomel\u00ed, Merino, Noble, and Ram\u00edrez-Iba\u00f1ez (Conjecture 5.8 in *Some Inequalities for the Tutte Polynomial*), which asserts that \\(\\max\\{T_M(2,0),T_M(0,2)\\}\\ge T_M(1,1)\\) whenever a matroid contains two disjoint bases or its ground set is the union of two bases. We construct a connected, self-dual, rationally representable matroid \\(M\\) of rank \\(32\\) on \\(64\\) elements whose ground set is partitioned into two bases, but for which \\[ T_M(2,0)=T_M(0,2)=263656235940864 <275621102802945=T_M(1,1). \\] The construction extends to an explicit infinite family \\(M_m\\) of rank \\(2m\\) on \\(4m\\) elements such that \\[ \\frac{\\max\\{T_{M_m}(2,0),T_{M_m}(0,2)\\}}{T_{M_m}(1,1)}\\longrightarrow0. \\] Consequently, the corresponding additive and multiplicative Merino\u2013Welsh inequalities also fail under the two-bases hypothesis. We additionally construct a simple and cosimple matroid on \\(60\\) elements whose ground set is partitioned into two bases and for which \\(T_M(2,0)<T_M(1,1)\\). This disproves the simple-matroid, two-bases-covering formulation of Conjecture 4.2 of Merino, Iba\u00f1ez, and Rodr\u00edguez; its dual disproves the corresponding cosimple-matroid, two-disjoint-bases formulation. The constructions and inequalities are established by explicit rank functions, exact Tutte-polynomial evaluations, and elementary coefficient estimates.",
+    "ai_mode": "no-human-author-claimed",
+    "announce": "new",
+    "authors": [
+     "Jungang Chen"
+    ],
+    "categories": [
+     "math.CO"
+    ],
+    "date": "2026-10-21",
+    "link": "https://hexagonmath.org/abs/2610.00434v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2610.00434v1",
+    "pid": "hexagon:2610.00434",
+    "reasons": [
+     "abstract: presentable"
+    ],
+    "source": "hexagon",
+    "tier": 3,
+    "title": "Counterexamples to the Two-Bases Conjecture for the Tutte Polynomial",
+    "watched": []
+   },
+   {
+    "abstract": "For every integer \\(k\\ge 3\\), we construct \\(k\\)-connected matroids representable over every infinite field, with girth \\(k\\), arbitrarily large cogirth, and Merino\u2013Welsh quotient \\[ \\Phi(M)=\\frac{T_M(1,1)^2}{T_M(2,0)T_M(0,2)} \\] tending to infinity. In particular, this disproves **Conjecture 7.2 of Csikv\u00e1ri (2026)**, which asserts the multiplicative Merino\u2013Welsh inequality for simple and cosimple matroids, and therefore also the stronger **Conjecture 7.3** therein, as observed by its author. Our examples are rank truncations of direct sums of \\(k\\)-element circuits. We give a 3-connected counterexample on 1011 elements of rank 433, certified by exact integer arithmetic, and a 6048-element counterexample admitting a proof without computation. Taking the direct sum of a counterexample with its dual also gives a negative answer to **Problem 4.3 of Beke, Cs\u00e1ji, Csikv\u00e1ri, and Pituk (2024)**: the original maximum and additive Merino\u2013Welsh inequalities can fail for simple and cosimple matroids. The same construction disproves **Conjecture 2 of Knauer, Mart\u00ednez-Sandoval, and Merino (2026)**: for every fixed \\(g\\ge 3\\), \\(\\Phi\\) is unbounded even among matroids having both girth and cogirth exactly \\(g\\). The dual direct-sum examples need not be connected; these constructions do not disprove the graphical or binary versions.",
+    "ai_mode": "no-human-author-claimed",
+    "announce": "new",
+    "authors": [
+     "Jungang Chen"
+    ],
+    "categories": [
+     "math.CO"
+    ],
+    "date": "2026-10-21",
+    "link": "https://hexagonmath.org/abs/2610.00430v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2610.00430v1",
+    "pid": "hexagon:2610.00430",
+    "reasons": [
+     "abstract: presentable"
+    ],
+    "source": "hexagon",
+    "tier": 3,
+    "title": "Highly Connected Counterexamples to the Multiplicative Merino\u2013Welsh Inequality",
     "watched": []
    },
    {
@@ -4889,6 +4987,25 @@
   "hexagon:2610.00414": "2026-10-21",
   "hexagon:2610.00417": "2026-10-21",
   "hexagon:2610.00418": "2026-10-21",
-  "hexagon:2610.00419": "2026-10-21"
+  "hexagon:2610.00419": "2026-10-21",
+  "hexagon:2610.00420": "2026-10-21",
+  "hexagon:2610.00421": "2026-10-21",
+  "hexagon:2610.00422": "2026-10-21",
+  "hexagon:2610.00423": "2026-10-21",
+  "hexagon:2610.00425": "2026-10-21",
+  "hexagon:2610.00426": "2026-10-21",
+  "hexagon:2610.00427": "2026-10-21",
+  "hexagon:2610.00428": "2026-10-21",
+  "hexagon:2610.00430": "2026-10-21",
+  "hexagon:2610.00431": "2026-10-21",
+  "hexagon:2610.00433": "2026-10-21",
+  "hexagon:2610.00434": "2026-10-21",
+  "hexagon:2610.00435": "2026-10-21",
+  "hexagon:2610.00436": "2026-10-21",
+  "hexagon:2610.00437": "2026-10-21",
+  "hexagon:2610.00438": "2026-10-21",
+  "hexagon:2610.00439": "2026-10-21",
+  "hexagon:2610.00440": "2026-10-21",
+  "hexagon:2610.00441": "2026-10-21"
  }
 }
