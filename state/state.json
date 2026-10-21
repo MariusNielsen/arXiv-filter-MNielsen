@@ -4,6 +4,258 @@
  ],
  "feed": [
   {
+   "day": "2026-10-21",
+   "paper": {
+    "abstract": "We develop a general theory of analytic prismatization with $\\mathbb{Q}_p$-coefficients in rigid analytic geometry over $\\mathbb{Q}_p$. We prove an equivalence of perfect complexes on the perfect analytic prismatization modulo Frobenius with perfect complexes on the relative Fargues--Fontaine curve for any smooth partially proper rigid analytic variety. In particular, we explain how this equivalence conceptualizes the decompletion techniques by passing to locally analytic vectors which appear in (geometric) Sen theory",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Johannes Ansch\\\"utz",
+     "Arthur-C\\'esar Le Bras",
+     "Juan Esteban Rodr\\'iguez Camargo",
+     "Peter Scholze"
+    ],
+    "categories": [
+     "math.AG",
+     "math.NT"
+    ],
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.27918",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.27918",
+    "pid": "2610.27918",
+    "reasons": [
+     "author: Peter Scholze"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "Rational analytic prismatization",
+    "watched": [
+     "Peter Scholze"
+    ]
+   }
+  },
+  {
+   "day": "2026-10-21",
+   "paper": {
+    "abstract": "We show that for almost every finite dimensional complex representation $W$ of $SO(2)$ the associated complex projective space $\\mathbb{C}P(W)_+$ does not have the rational stable homotopy type of a specific wedge of representation spheres constructed from a chosen filtration of $\\mathbb{C}P(W)_+$. This contrasts with the case for representations of finite Abelian groups where such an equivalence does hold.\n  In the finite group case, the splitting result provides us with a classification result for projective spaces up to rational stable equivalence. In light of the non-splitting as a particular wedge of spheres in the case of projective spaces of $SO(2)$-representations, we also prove a separate classification theorem.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Kian Lush"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.28039",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.28039",
+    "pid": "2610.28039",
+    "reasons": [
+     "title: stable homotopy",
+     "title: equivariant"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Complex Projective Spaces in Rational $SO(2)$-Equivariant Stable Homotopy Theory",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-21",
+   "paper": {
+    "abstract": "We compute the $2$-completed integral motivic homology, effective algebraic $K$-theory, and very effective Hermitian $K$-theory of the geometric classifying spaces $B\\mu_{2^n}$, $n\\geq 2$, over algebraically closed and real closed fields. We first carry out the corresponding classical calculations and, then obtain the motivic results using motivic spectral sequences and comparison techniques. The results reveal the classical $2$-torsion together with motivic $\\tau$-periodicity and $\\rho$-torsion.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Prerna Dhankhar"
+    ],
+    "categories": [
+     "math.AT",
+     "math.KT"
+    ],
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.27016",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.27016",
+    "pid": "2610.27016",
+    "reasons": [
+     "title: motivic",
+     "abstract: motivic spectr",
+     "abstract: algebraic k-theor"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "On the Motivic K-Theories of Classifying Spaces of Cyclic 2-Groups",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-21",
+   "paper": {
+    "abstract": "Let $R$ be a Noetherian regular local ring of mixed characteristic and dimension four, and let $r$ be a member of a regular system of parameters. We prove that every finitely generated projective module over $R[1/r]$ is free. We also prove that $\\mathrm{Sp}_4(R[1/r])$ acts transitively on unimodular columns of length four and that every determinant orientation of a rank-two projective module is induced by a basis. The argument reduces freeness to two vanishing results: the degree-three Zariski cohomology of the naive degree-four Milnor--Witt sheaf and the alternating Witt group of $R[1/r]$. We establish these results using integral degree-two algebraic $K$-theory, supported hermitian $K$-theory, and local motivic cohomology. A finite-rank symplectic comparison relates the image of the completion obstruction to Milnor--Witt multiplication and yields the required symplectic frames.",
+    "ai_mode": "no-human-author-claimed",
+    "announce": "new",
+    "authors": [
+     "Yunpeng Li"
+    ],
+    "categories": [
+     "math.KT",
+     "math.AC"
+    ],
+    "date": "2026-10-20",
+    "link": "https://hexagonmath.org/abs/2610.00404v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2610.00404v1",
+    "pid": "hexagon:2610.00404",
+    "reasons": [
+     "abstract: motivic cohomolog",
+     "abstract: algebraic k-theor"
+    ],
+    "source": "hexagon",
+    "tier": 3,
+    "title": "Quillen's local parameter conjecture in dimension four",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-21",
+   "paper": {
+    "abstract": "Let $k$ be a perfect field of characteristic $p>0$. Ekedahl proved an equivalence of triangulated categories between bounded coherent complexes over the Raynaud ring and complexes of $F$-gauges. We give a geometric proof, independent of his proof, that the de Rham-Witt realization is a symmetric monoidal equivalence of stable $\\infty$-categories between perfect $F$-gauges and bounded coherent complexes over the Raynaud ring with Ekedahl's completed star product, as expected by Illusie. The geometry comes from topological restriction homology: $\\mathrm{TR}^r(k;\\mathbf Z_p)^{hS^1}$ is an iterated fibre product of copies of $\\mathrm{TC}^-(k;\\mathbf Z_p)$, and taking even stacks before and after the fibre product gives the genuine and the naive $r$-Nygaard stacks. Pushforward from the genuine to the naive $r$-Nygaard stack realizes Andriopoulos' $r$-Nygaard filtrations, which interpolate between the Nygaard filtration at $r=1$ and the Hodge-Witt filtration at $r=\\infty$. On the genuine $r$-Nygaard stack, which is a chain of Nygaard charts, restriction and Frobenius come from the inclusions of sub-chains, Verschiebung from duality, and the differential as a Bockstein operator, and the relations of the star product become projection formulas. As applications, we deduce Ekedahl's K\\\"unneth formula and Poincar\\'e duality for de Rham-Witt cohomology from their counterparts for $F$-gauge cohomology, and show that the special-value formulas of Illusie and of Mondal over finite fields are equivalent.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Yuanning Zhang"
+    ],
+    "categories": [
+     "math.AG",
+     "math.AT",
+     "math.NT"
+    ],
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.28149",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.28149",
+    "pid": "2610.28149",
+    "reasons": [
+     "abstract: topological restriction homology",
+     "abstract: genuine r-",
+     "abstract: infinity-categor"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "The stacky approach to de Rham-Witt cohomology",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-21",
+   "paper": {
+    "abstract": "In this note, we elaborate on a result of Krannich--Kupers--Mehzer on Disc-presheaves. We show that equivalences of $2$-truncated Disc-presheaves of manifolds yields homotopy equivalences with trivial normal invariant. As an application, we show that two closed, simply connected manifolds are homeomorphic if and only if their $2$-truncated Disc-presheaves are equivalent.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Oliver H. Wang"
+    ],
+    "categories": [
+     "math.AT",
+     "math.GT"
+    ],
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.26895",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.26895",
+    "pid": "2610.26895",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Disc-presheaves and normal invariants",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-21",
+   "paper": {
+    "abstract": "The classical Dold--Kan correspondence identifies simplicial modules with connective chain complexes. Using Morita theory, we construct a Dold--Kan-type correspondence for every linear category carrying a suitable action of the maximum-preserving simplicial operators. The construction functorially assigns a Morita-equivalent normalized category to every such linear category. In particular, we obtain Dold--Kan-type correspondences for all crossed simplicial groups. We prove a rank formula for the normalized hom-modules and show that a crossed simplicial group is self-dual precisely when its underlying simplicial set of automorphism groups has dimension one. Furthermore, we construct normalization-compatible self-dualities and recover the Dwyer--Kan correspondence for duplicial, paracyclic and N-cyclic modules.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Florian Warg"
+    ],
+    "categories": [
+     "math.CT",
+     "math.AT",
+     "math.KT",
+     "math.QA"
+    ],
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.28138",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.28138",
+    "pid": "2610.28138",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Dold--Kan Correspondences via Morita Normalization",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-21",
+   "paper": {
+    "abstract": "This book presents calculations of the $2$-primary components of the homotopy groups $\\pi_i(\\mathit{SO}(n))$ for all $23\\leq i\\leq 28$ and all $n$, as well as some $\\pi_{29}(\\mathit{SO}(n))$, with explicit generators.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Yoshihiro Hirato",
+     "Jin-ho Lee",
+     "Toshiyuki Miyauchi",
+     "Juno Mukai",
+     "Mariko Ohara",
+     "Juxin Yang"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.28447",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.28447",
+    "pid": "2610.28447",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Homotopy Groups of Special Orthogonal Groups in Degrees 23 to 29",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-10-21",
+   "paper": {
+    "abstract": "The Euler characteristic transform (ECT) is a computable topological signature for shapes embedded in Euclidean space. Existing ECT stability results control changes in the transform through deterministic geometric perturbation bounds, but many data-generating mechanisms produce perturbations that are random and unbounded in the worst case. In such settings a uniform deterministic bound may be unavailable or too pessimistic. This paper formulates a probabilistic stability-transfer principle for one-dimensional ECT stability: a deterministic stability estimate is combined with a tail bound for the induced geometric error to obtain a high-probability ECT error bound. We instantiate this principle using the stability theorem of Marsh and Beers for embeddings of finite one-dimensional CW complexes. The resulting consequences cover ambient displacement fields conditionally on admissibility and supremum-tail estimates, and finite landmark perturbations with reconstruction. For landmark perturbations, bounded, sub-Gaussian, sub-exponential, and polynomial-tail noise assumptions give explicit high-probability ECT stability bounds. The framework isolates a geometric stochastic component that arises in shape analysis pipelines across biological morphology, medical imaging, molecular structure analysis, and remote sensing.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Vanja Stojanovi\\'c"
+    ],
+    "categories": [
+     "math.AT",
+     "math.PR"
+    ],
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.26870",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.26870",
+    "pid": "2610.26870",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Probabilistic Stability Transfer for One-Dimensional Euler Characteristic Transforms",
+    "watched": []
+   }
+  },
+  {
    "day": "2026-10-20",
    "paper": {
     "abstract": "We construct a height-five prime ideal $P$ in the six-variable formal power series ring $R$ over $\\mathbb{Q}$ such that $P^{(2)}\\not\\subseteq\\mathfrak{m}P$, thus providing a prime-ideal counterexample to the Eisenbud--Mazur conjecture (with $\\mathbb{Q}$ being the coefficient field). The ideal is the kernel of an explicit quadratic parametrization over a number field of degree $28$ over $\\mathbb{Q}$. A witness has order three, with leading term the determinant of a symmetric $3\\times3$ matrix. We construct the witness by eliminating critical values to all orders and then straightening the resulting formal curve. Interpolation at the $28$ nodes of an arrangement of eight lines supplies the required lifting maps. A rational linear functional on third and fourth jets certifies nonmembership in $\\mathfrak{m}P$. The construction also yields an unmixed radical ideal with $28$ smooth branches over $\\mathbb{C}$, and provides a counterexample to the more general form of the Eisenbud--Mazur conjecture stated by More (with $\\mathbb{C}$ being the coefficient field). Finally, the prime ideal counterexample descends to the localized polynomial ring $\\mathbb{Q}[x_0,\\ldots,x_5]_{(x_0,\\ldots,x_5)}$, where a polynomial witness with the same fourth jet exists. All finite identities used in the proof admit exact verification.",
@@ -2959,409 +3211,298 @@
  ],
  "hexagon_since": "2026-10-20",
  "last_page": {
-  "day": "2026-10-20",
+  "day": "2026-10-21",
   "papers": [
    {
-    "abstract": "We exhibit the $p$-complete $\\mathbb{C}$-motivic Eilenberg-Mac Lane spectra $\\mathrm{M}\\mathbb{F}_p$ and $(\\mathrm{M}\\mathbb{Z})_p^{\\wedge}$ as $\\mathbb{E_3}$-$\\mathrm{MGL}_p^{\\wedge}$-motivic Thom spectra over the motivic $\\mathbb{G}_m$-loop spaces $\\Omega_{\\mathbb{G}_m}\\mathrm{BGL}$ and $\\Omega_{\\mathbb{G}_m}\\mathrm{BSL}$, respectively. Furthermore, for $p=2$, we compute the $\\mathrm{MGL}_2^{\\wedge}$-relative $\\mathbb{G}_m$-Hochschild Homology $\\mathbb{G}_m \\odot^{\\mathrm{MGL}_2^{\\wedge}} {-}$, recently introduced by Bachmann-Burklund-Dundas-{\\O}stv{\\ae}r, of $\\mathrm{M}\\mathbb{F}_2$ and $(\\mathrm{M}\\mathbb{Z})_2^{\\wedge}$ to be $\\mathrm{M}\\mathbb{F}_2[\\mathrm{BGL}]$ and $(\\mathrm{M}\\mathbb{Z})_2^{\\wedge}[\\mathrm{BSL}]$ as $\\mathbb{E}_2$-$\\mathrm{M}\\mathbb{F}_2$-algebras and $\\mathbb{E}_2$-$(\\mathrm{M}\\mathbb{Z})_2^{\\wedge}$-algebras, respectively.",
+    "abstract": "We develop a general theory of analytic prismatization with $\\mathbb{Q}_p$-coefficients in rigid analytic geometry over $\\mathbb{Q}_p$. We prove an equivalence of perfect complexes on the perfect analytic prismatization modulo Frobenius with perfect complexes on the relative Fargues--Fontaine curve for any smooth partially proper rigid analytic variety. In particular, we explain how this equivalence conceptualizes the decompletion techniques by passing to locally analytic vectors which appear in (geometric) Sen theory",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Preston Cranford"
+     "Johannes Ansch\\\"utz",
+     "Arthur-C\\'esar Le Bras",
+     "Juan Esteban Rodr\\'iguez Camargo",
+     "Peter Scholze"
     ],
     "categories": [
-     "math.AT",
      "math.AG",
-     "math.KT"
+     "math.NT"
     ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.26771",
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.27918",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.26771",
-    "pid": "2610.26771",
+    "pdf": "https://arxiv.org/pdf/2610.27918",
+    "pid": "2610.27918",
     "reasons": [
-     "title: motivic"
+     "author: Peter Scholze"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "Rational analytic prismatization",
+    "watched": [
+     "Peter Scholze"
+    ]
+   },
+   {
+    "abstract": "We show that for almost every finite dimensional complex representation $W$ of $SO(2)$ the associated complex projective space $\\mathbb{C}P(W)_+$ does not have the rational stable homotopy type of a specific wedge of representation spheres constructed from a chosen filtration of $\\mathbb{C}P(W)_+$. This contrasts with the case for representations of finite Abelian groups where such an equivalence does hold.\n  In the finite group case, the splitting result provides us with a classification result for projective spaces up to rational stable equivalence. In light of the non-splitting as a particular wedge of spheres in the case of projective spaces of $SO(2)$-representations, we also prove a separate classification theorem.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Kian Lush"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.28039",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.28039",
+    "pid": "2610.28039",
+    "reasons": [
+     "title: stable homotopy",
+     "title: equivariant"
     ],
     "source": "arxiv",
     "tier": 2,
-    "title": "$\\mathbb{C}$-Motivic Eilenberg-Mac Lane Spectra as $\\mathrm{MGL}$-Motivic Thom Spectra and Normed $\\mathbb{G}_m$-Hochschild Homology",
+    "title": "Complex Projective Spaces in Rational $SO(2)$-Equivariant Stable Homotopy Theory",
     "watched": []
    },
    {
-    "abstract": "In this paper, we construct explicit Dennis trace maps from algebraic $K$-theory to Hochschild homology for dg module and curved dg comodule categories, and prove their compatibility with derived Koszul duality. For this, we construct a natural chain map $\\tau$ from the chains on the newly defined thickened nerve to the total complex of the dg cyclic nerve, with explicit formulas incorporating morphisms and coherent higher homotopies, which generalizes McCarthy's approach. This $\\tau$ construction works both for modules over dg algebras and for cdg comodules over counital conilpotent curved dg coalgebras. Combining the $\\tau$ with the dg-enriched Waldhausen $S_\\bullet$-construction and a Hochschild delooping theorem yields the Dennis trace maps. For thick subcategories corresponding under derived Koszul duality, we prove that the induced $K$-theory equivalences and Hochschild homology isomorphisms fit into natural commutative diagrams with these trace maps.",
+    "abstract": "We compute the $2$-completed integral motivic homology, effective algebraic $K$-theory, and very effective Hermitian $K$-theory of the geometric classifying spaces $B\\mu_{2^n}$, $n\\geq 2$, over algebraically closed and real closed fields. We first carry out the corresponding classical calculations and, then obtain the motivic results using motivic spectral sequences and comparison techniques. The results reveal the classical $2$-torsion together with motivic $\\tau$-periodicity and $\\rho$-torsion.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Maozhou Huang"
+     "Prerna Dhankhar"
     ],
     "categories": [
+     "math.AT",
      "math.KT"
     ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.25485",
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.27016",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.25485",
-    "pid": "2610.25485",
+    "pdf": "https://arxiv.org/pdf/2610.27016",
+    "pid": "2610.27016",
     "reasons": [
-     "title: koszul dual",
-     "abstract: comodule",
+     "title: motivic",
+     "abstract: motivic spectr",
      "abstract: algebraic k-theor"
     ],
     "source": "arxiv",
     "tier": 2,
-    "title": "An explicit Dennis trace and its compatibility with Koszul duality",
+    "title": "On the Motivic K-Theories of Classifying Spaces of Cyclic 2-Groups",
     "watched": []
    },
    {
-    "abstract": "Motivated by the desire to turn the cobordism hypothesis (a statement about the universal property of some $n$-category of bordisms) into a $1$-categorical statement, we prove that all $n$-categories can be modeled by \\emph{$n$-cospan contexts}: these are $1$-categories equipped with a collection of iterated cospans that satisfy a composition property in terms of pushouts. In particular, we construct an adjunction from $\\mathsf{Cat}_n$ to the category of $n$-cospan contexts which simultaneously generalizes the $n$-fold span construction of Haugseng and the twisted arrow category construction (when $n = 1$).",
-    "ai_mode": "",
+    "abstract": "Let $R$ be a Noetherian regular local ring of mixed characteristic and dimension four, and let $r$ be a member of a regular system of parameters. We prove that every finitely generated projective module over $R[1/r]$ is free. We also prove that $\\mathrm{Sp}_4(R[1/r])$ acts transitively on unimodular columns of length four and that every determinant orientation of a rank-two projective module is induced by a basis. The argument reduces freeness to two vanishing results: the degree-three Zariski cohomology of the naive degree-four Milnor--Witt sheaf and the alternating Witt group of $R[1/r]$. We establish these results using integral degree-two algebraic $K$-theory, supported hermitian $K$-theory, and local motivic cohomology. A finite-rank symplectic comparison relates the image of the completion obstruction to Milnor--Witt multiplication and yields the required symplectic frames.",
+    "ai_mode": "no-human-author-claimed",
     "announce": "new",
     "authors": [
-     "Lorenzo Riva"
+     "Yunpeng Li"
     ],
     "categories": [
-     "math.CT",
-     "math.AT"
+     "math.KT",
+     "math.AC"
     ],
     "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.24473",
+    "link": "https://hexagonmath.org/abs/2610.00404v1",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.24473",
-    "pid": "2610.24473",
+    "pdf": "https://hexagonmath.org/pdf/2610.00404v1",
+    "pid": "hexagon:2610.00404",
     "reasons": [
-     "title: higher categor"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "Cospan contexts and higher categories",
-    "watched": []
-   },
-   {
-    "abstract": "In general, it is interesting to investigate the complexity of simplicial maps under various topological constraints. In this paper, we consider maps between (triangulated oriented rational homology) manifolds with non-zero Hopf invariant and establish bounds on the simplicial complexity of the fiber of a regular point. The lower bound, which is cubic in the dimension, is proved via a refinement of a theorem of S. Eilenberg. The upper bound is notable in that it is uniform with respect to the Hopf invariant.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Sergei Vad. Fomin"
-    ],
-    "categories": [
-     "math.AT",
-     "math.CO"
-    ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.25562",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.25562",
-    "pid": "2610.25562",
-    "reasons": [
-     "title: hopf invariant"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "On simplicial maps with non-zero Hopf invariant",
-    "watched": []
-   },
-   {
-    "abstract": "We refine the proper descent of Postnikov completed sheaves on locally compact Hausdorff spaces to the dualizable world.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Li He"
-    ],
-    "categories": [
-     "math.AT",
-     "math.CT"
-    ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.25095",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.25095",
-    "pid": "2610.25095",
-    "reasons": [
-     "title: descent"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "Refined proper descent for left completed sheaves on locally compact Hausdorff spaces",
-    "watched": []
-   },
-   {
-    "abstract": "We construct a height-five prime ideal $P$ in the six-variable formal power series ring $R$ over $\\mathbb{Q}$ such that $P^{(2)}\\not\\subseteq\\mathfrak{m}P$, thus providing a prime-ideal counterexample to the Eisenbud--Mazur conjecture (with $\\mathbb{Q}$ being the coefficient field). The ideal is the kernel of an explicit quadratic parametrization over a number field of degree $28$ over $\\mathbb{Q}$. A witness has order three, with leading term the determinant of a symmetric $3\\times3$ matrix. We construct the witness by eliminating critical values to all orders and then straightening the resulting formal curve. Interpolation at the $28$ nodes of an arrangement of eight lines supplies the required lifting maps. A rational linear functional on third and fourth jets certifies nonmembership in $\\mathfrak{m}P$. The construction also yields an unmixed radical ideal with $28$ smooth branches over $\\mathbb{C}$, and provides a counterexample to the more general form of the Eisenbud--Mazur conjecture stated by More (with $\\mathbb{C}$ being the coefficient field). Finally, the prime ideal counterexample descends to the localized polynomial ring $\\mathbb{Q}[x_0,\\ldots,x_5]_{(x_0,\\ldots,x_5)}$, where a polynomial witness with the same fourth jet exists. All finite identities used in the proof admit exact verification.",
-    "ai_mode": "mixed",
-    "announce": "new",
-    "authors": [
-     "Chung Pang Mok",
-     "Yiqi Xu"
-    ],
-    "categories": [
-     "math.AC",
-     "math.AG"
-    ],
-    "date": "2026-10-19",
-    "link": "https://hexagonmath.org/abs/2610.00384v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2610.00384v1",
-    "pid": "hexagon:2610.00384",
-    "reasons": [
-     "abstract: straightening"
+     "abstract: motivic cohomolog",
+     "abstract: algebraic k-theor"
     ],
     "source": "hexagon",
     "tier": 3,
-    "title": "A counterexample to the Eisenbud\u2013Mazur conjecture",
+    "title": "Quillen's local parameter conjecture in dimension four",
     "watched": []
    },
    {
-    "abstract": "We introduce the notion of $\\mathbb{A}^1$-$n$-coverings and begin the development of their theory over an arbitrary base scheme $S$, in analogy to that of higher coverings in an $\\infty$-topos. We show that for $n=0$, our notion recovers Morel's $\\mathbb{A}^1$-coverings between simplicial sheaves. Under suitable assumptions, we then provide a Galois-theoretic classification of $\\mathbb{A}^1$-$n$-coverings. Finally, we answer a question of Morel concerning a geometric criterion for $\\mathbb{A}^1$-coverings in the negative.",
+    "abstract": "Let $k$ be a perfect field of characteristic $p>0$. Ekedahl proved an equivalence of triangulated categories between bounded coherent complexes over the Raynaud ring and complexes of $F$-gauges. We give a geometric proof, independent of his proof, that the de Rham-Witt realization is a symmetric monoidal equivalence of stable $\\infty$-categories between perfect $F$-gauges and bounded coherent complexes over the Raynaud ring with Ekedahl's completed star product, as expected by Illusie. The geometry comes from topological restriction homology: $\\mathrm{TR}^r(k;\\mathbf Z_p)^{hS^1}$ is an iterated fibre product of copies of $\\mathrm{TC}^-(k;\\mathbf Z_p)$, and taking even stacks before and after the fibre product gives the genuine and the naive $r$-Nygaard stacks. Pushforward from the genuine to the naive $r$-Nygaard stack realizes Andriopoulos' $r$-Nygaard filtrations, which interpolate between the Nygaard filtration at $r=1$ and the Hodge-Witt filtration at $r=\\infty$. On the genuine $r$-Nygaard stack, which is a chain of Nygaard charts, restriction and Frobenius come from the inclusions of sub-chains, Verschiebung from duality, and the differential as a Bockstein operator, and the relations of the star product become projection formulas. As applications, we deduce Ekedahl's K\\\"unneth formula and Poincar\\'e duality for de Rham-Witt cohomology from their counterparts for $F$-gauge cohomology, and show that the special-value formulas of Illusie and of Mondal over finite fields are equivalent.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Marco Giustetto",
-     "Thor Wittich"
+     "Yuanning Zhang"
     ],
     "categories": [
+     "math.AG",
      "math.AT",
-     "math.AG"
+     "math.NT"
     ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.26345",
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.28149",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.26345",
-    "pid": "2610.26345",
+    "pdf": "https://arxiv.org/pdf/2610.28149",
+    "pid": "2610.28149",
     "reasons": [
-     "abstract: infinity-topo"
+     "abstract: topological restriction homology",
+     "abstract: genuine r-",
+     "abstract: infinity-categor"
     ],
     "source": "arxiv",
     "tier": 3,
-    "title": "On the notion of $\\mathbb{A}^1$-coverings",
+    "title": "The stacky approach to de Rham-Witt cohomology",
     "watched": []
    },
    {
-    "abstract": "Finite quasihamiltonian groups - that is, finite groups in which every pair of subgroups commutes - admit several characterizations. In this work, after introducing the notion of sectional contractibility graph, we provide a new characterization in terms of (a suitable subgroup of) magnitude homology. Our approach especially focuses on the subgroup lattices of finite groups and on the related notion of modularity. We present a detailed study for finite 2-groups, and, in particular, in the case of extraspecial 2-groups and Pauli groups. These groups, of interest because of their diverse applications in both mathematics and physics, already describe the wealth of information that one can obtain in restricting the study to the case of 2-groups.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Luigi Caputi",
-     "Francesco G. Russo"
-    ],
-    "categories": [
-     "math.GR",
-     "math.AT",
-     "math.CO"
-    ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.25030",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.25030",
-    "pid": "2610.25030",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "A characterization of finite modular 2-groups via magnitude homology",
-    "watched": []
-   },
-   {
-    "abstract": "In the paper \\emph{Structure and realizability for rational maps}, Wei proved the following. Let \\(k\\) nontrivial partitions of an integer \\(d\\ge 3\\) be given, satisfying the Riemann--Hurwitz formula for the case of maps between two spheres. If \\(k>\\ell+1\\), where \\[ \\ell=\\min_i|\\pi_i| \\] is the shortest partition length, then there exists a rational map whose branch datum is given by these partitions. In this paper we give a new proof of Wei's theorem on realizing a tuple of partitions as the ramification data of a rational function. The proof is inductive on the shortest partition length. Two auxiliary results are established: a two-cut partition theorem and a gluing theorem for marked spherical coverings. These reduce any counterexample with shortest length \\(\\ell\\ge3\\) to auxiliary data with either fewer factors or smaller shortest length, while preserving the total defect and the marked conditions. The base case \\(\\ell\\le2\\) is quoted from the literature.",
+    "abstract": "In this note, we elaborate on a result of Krannich--Kupers--Mehzer on Disc-presheaves. We show that equivalences of $2$-truncated Disc-presheaves of manifolds yields homotopy equivalences with trivial normal invariant. As an application, we show that two closed, simply connected manifolds are homeomorphic if and only if their $2$-truncated Disc-presheaves are equivalent.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Zhiqaing Wei",
-     "Mengyan Xing",
-     "Xingya Zhao"
+     "Oliver H. Wang"
     ],
     "categories": [
-     "math.AT"
-    ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.25838",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.25838",
-    "pid": "2610.25838",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "A New Proof of Wei's Theorem",
-    "watched": []
-   },
-   {
-    "abstract": "We give a direct Fox-calculus proof of the known rational asphericity theorem for every finite presentation complex with one nontrivial relator, including proper powers. The proof uses completed Fox derivatives and the absence of zero divisors in the completed algebra of a prounipotent group. Exact scalar extension to the finite adeles then yields adelic asphericity and a product decomposition of the higher homotopy groups of integral Bousfield--Kan completion. We also prove rational and pro-\\(p\\) analogues of Mannan's formula for finite two-complexes, with their natural topologies and fundamental group actions. The rational cohomological Whitehead criterion is proved directly. For a discrete one-relator group with relator not a proper power, we show that the tower \\(L_2\\nu_n(G)\\) is Mittag--Leffler. Consequently \\(\\limone_nL_2\\nu_n(G)=0\\), and \\(\\pi_2(\\Z_\\infty BG)\\) is naturally the inverse limit of the nilpotent Baer invariants. We identify this Baer limit canonically and topologically with the kernel of the integral augmentation-completed Fox operator and with the product of its local pro-\\(p\\) kernels. The comparison yields a torsion-free profinite homotopy module, vanishing inverse limits of the finite-stage transgression kernels, and explicit lifting obstructions. These results provide a homotopy-theoretic framework for the question of Serre in Gildenhuys's corrected formulation.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Andrey Mikhovich"
-    ],
-    "categories": [
-     "math.AT",
-     "math.GR"
-    ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.26288",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.26288",
-    "pid": "2610.26288",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Adelic Asphericity and One-Relator Pro-\\(p\\) Groups",
-    "watched": []
-   },
-   {
-    "abstract": "The Atiyah-Segal homomorphism relates the representation ring of a finite group to the $K$-theory ring of its classifying space. We develop a version of this for infinite groups, but based on a ring of approximate representations rather than representations. We then use known results on the Baum-Connes conjecture to show that our homomorphism is an isomorphism for many groups: this includes all torsion-free amenable groups, and all torsion-free fundamental groups of compact manifolds of dimension at most three. The main motivation is the desire to understand approximate representations using topological tools: as a sample application we give some examples of torsion phenomena in approximate representation theory.\n  The methods of proof are $C^*$-algebraic: the key idea is to relate our Atiyah-Segal type homomorphism to Kasparov's coassembly map. The main step realizes (Hausdorffized) $KK$-theory as approximately multiplicative ucp maps modulo stable approximate unitary equivalence for appropriate $C^*$-algebras. This is in the spirit of the stable uniqueness theorems of Dadarlat-Eilers and Lin, and may be of purely $C^*$-algebraic interest.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Rufus Willett"
-    ],
-    "categories": [
-     "math.KT",
-     "math.AT",
-     "math.GR",
-     "math.OA"
-    ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.24252",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.24252",
-    "pid": "2610.24252",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "An Atiyah-Segal homomorphism for approximate representations of infinite groups, and almost multiplicative ucp maps",
-    "watched": []
-   },
-   {
-    "abstract": "Over every nonzero commutative ring $R$, we construct a nontopological triangulated category over $R$, whose finitely generated thick subcategories are alegbraic, while the scalar action of $R$ is faithful.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Chencheng Zhang"
-    ],
-    "categories": [
-     "math.CT",
-     "math.AT"
-    ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.25198",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.25198",
-    "pid": "2610.25198",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Finitely enhanced nontopological triangulated categories",
-    "watched": []
-   },
-   {
-    "abstract": "We determine the distribution of the homotopy type of the Vietoris-Rips complex of a fixed number of independent uniform points on a circle. An exact identity expresses each binomial moment of a periodic-orbit count as one probability for circular gaps, multiplied by a constant avoidance factor. We evaluate these probabilities by finite lattice-point counts and interpolation, obtaining explicit formulas for every sample size and every real scale. On an explicit rational partition, the probabilities are continuous piecewise polynomials of degree at most one less than the sample size. We also determine the homotopy distribution in the first transition window above each positive critical fraction $c_t=t/(2t+1)$. In this window the number of critical periodic orbits converges to a Poisson law with explicit intensity, yielding the limiting probabilities of the preceding odd sphere, the contractible type, and every wedge multiplicity of the critical even sphere.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Jaemin Park (Department of Mathematics",
-     "Research Institute of Natural Sciences",
-     "Sookmyung Women's University)"
-    ],
-    "categories": [
-     "math.PR",
-     "math.AT"
-    ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.26366",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.26366",
-    "pid": "2610.26366",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Homotopy distributions for Vietoris-Rips complexes of random circle samples",
-    "watched": []
-   },
-   {
-    "abstract": "We use Neumann's normal form to decide whether the double branched cover of a knot bounds a negative-definite plumbing tree in either orientation, starting from the recognised Seifert or graph-manifold structure of the cover. For many non-alternating knots with at most thirteen crossings whose unknotting numbers were unknown, this identifies the cases in which the Heegaard Floer homology of the cover can be computed from such a plumbing, and shows for most of the others that it cannot. We determine 112 new unknotting numbers. For 43 of them, the lower bound rests on Heegaard Floer homology computed from the plumbing; for the other 69, it comes from linking pairings and from a theorem of McCoy and Park on special alternating knots. Finally, we show that the knot 13n1587 is a further explicit counterexample to the Bernhard--Jablan conjecture, after 13n3370.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Seong-Jin Lee"
-    ],
-    "categories": [
-     "math.GT",
-     "hep-th",
-     "math.AT"
-    ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.25430",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.25430",
-    "pid": "2610.25430",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Negative-Definite Plumbings and New Unknotting Numbers",
-    "watched": []
-   },
-   {
-    "abstract": "We give a computer-assisted proof that every finite simplicial triangulation of real projective five-space has at least twenty-four vertices. Together with the construction of Guyer, Steinerberger, and Yang, this determines the minimum. A cup-product argument produces an induced subcomplex on sixteen or seventeen vertices. Transfer to the spherical double cover then imposes a covering condition on its lifted faces. In the sixteen-vertex case, a direct capacity bound excludes twenty-two vertices. For twenty-three vertices, a cochain extension argument reduces every relevant completion to one of 115 critical signed complexes; integer weights and exact covering certificates exclude all of them. The argument requires no assumption that the triangulation is combinatorial.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Xinrui Chang (Fudan University)"
-    ],
-    "categories": [
-     "math.CO",
      "math.AT",
      "math.GT"
     ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.25171",
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.26895",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.25171",
-    "pid": "2610.25171",
+    "pdf": "https://arxiv.org/pdf/2610.26895",
+    "pid": "2610.26895",
     "reasons": [],
     "source": "arxiv",
     "tier": 4,
-    "title": "The minimum number of vertices of a triangulation of $\\mathbb{RP}^5$",
+    "title": "Disc-presheaves and normal invariants",
     "watched": []
    },
    {
-    "abstract": "Orlov has shown that additive invariants such as K-theory and Hochschild homology of smooth finite-dimensional DG-algebras behave similarly to those of finite-dimensional algebras. The similarities only go so far: there are examples of finite-dimensional DG-algebras with vanishing and uncountable Grothendieck groups. We show that for DG-quivers with relations, the Grothendieck groups are free of the expected rank and that, in the smooth case, all additive invariants are determined by the base field. We use our results to rule out certain finite-dimensional DG-algebras from being phantoms.",
+    "abstract": "The classical Dold--Kan correspondence identifies simplicial modules with connective chain complexes. Using Morita theory, we construct a Dold--Kan-type correspondence for every linear category carrying a suitable action of the maximum-preserving simplicial operators. The construction functorially assigns a Morita-equivalent normalized category to every such linear category. In particular, we obtain Dold--Kan-type correspondences for all crossed simplicial groups. We prove a rank formula for the normalized hom-modules and show that a crossed simplicial group is self-dual precisely when its underlying simplicial set of automorphism groups has dimension one. Furthermore, we construct normalization-compatible self-dualities and recover the Dwyer--Kan correspondence for duplicial, paracyclic and N-cyclic modules.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Isambard Goodbody"
+     "Florian Warg"
+    ],
+    "categories": [
+     "math.CT",
+     "math.AT",
+     "math.KT",
+     "math.QA"
+    ],
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.28138",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.28138",
+    "pid": "2610.28138",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Dold--Kan Correspondences via Morita Normalization",
+    "watched": []
+   },
+   {
+    "abstract": "This book presents calculations of the $2$-primary components of the homotopy groups $\\pi_i(\\mathit{SO}(n))$ for all $23\\leq i\\leq 28$ and all $n$, as well as some $\\pi_{29}(\\mathit{SO}(n))$, with explicit generators.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Yoshihiro Hirato",
+     "Jin-ho Lee",
+     "Toshiyuki Miyauchi",
+     "Juno Mukai",
+     "Mariko Ohara",
+     "Juxin Yang"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.28447",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.28447",
+    "pid": "2610.28447",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Homotopy Groups of Special Orthogonal Groups in Degrees 23 to 29",
+    "watched": []
+   },
+   {
+    "abstract": "The Euler characteristic transform (ECT) is a computable topological signature for shapes embedded in Euclidean space. Existing ECT stability results control changes in the transform through deterministic geometric perturbation bounds, but many data-generating mechanisms produce perturbations that are random and unbounded in the worst case. In such settings a uniform deterministic bound may be unavailable or too pessimistic. This paper formulates a probabilistic stability-transfer principle for one-dimensional ECT stability: a deterministic stability estimate is combined with a tail bound for the induced geometric error to obtain a high-probability ECT error bound. We instantiate this principle using the stability theorem of Marsh and Beers for embeddings of finite one-dimensional CW complexes. The resulting consequences cover ambient displacement fields conditionally on admissibility and supremum-tail estimates, and finite landmark perturbations with reconstruction. For landmark perturbations, bounded, sub-Gaussian, sub-exponential, and polynomial-tail noise assumptions give explicit high-probability ECT stability bounds. The framework isolates a geometric stochastic component that arises in shape analysis pipelines across biological morphology, medical imaging, molecular structure analysis, and remote sensing.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Vanja Stojanovi\\'c"
+    ],
+    "categories": [
+     "math.AT",
+     "math.PR"
+    ],
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.26870",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.26870",
+    "pid": "2610.26870",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Probabilistic Stability Transfer for One-Dimensional Euler Characteristic Transforms",
+    "watched": []
+   },
+   {
+    "abstract": "We reprove Borel's computation of the rank of the $K$-groups of rings of algebraic integers $\\mathcal{O}_F$ for certain number fields, e.g., $F = \\mathbb{Q}(\\mu_{l^k})$ for $l$ an odd regular prime number. The idea is to recover a simple formula for $l$-adic {\\'e}tale cohomology groups of $\\mathcal{O}_F$ in terms of Iwasawa theoretic objects without using Borel's result as an input.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Jan Ole Hesse"
     ],
     "categories": [
      "math.KT",
-     "math.AG"
+     "math.NT"
     ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.26302",
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.26885",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.26302",
-    "pid": "2610.26302",
+    "pdf": "https://arxiv.org/pdf/2610.26885",
+    "pid": "2610.26885",
     "reasons": [],
     "source": "arxiv",
     "tier": 5,
-    "title": "Additive invariants of Finite-dimensional DG-algebras",
+    "title": "Borel's computation of the ranks of $K$-theory revisited",
     "watched": []
    },
    {
-    "abstract": "We study the top degree concentration property for the cohomology of twisted logarithmic de Rham complexes of multiarrangements of hyperplanes. Our main tool is a short exact sequence of twisted logarithmic de Rham complexes based on the deletion-restriction exact sequences for logarithmic differential forms found recently by Abe and Denham. We prove a number of general results that can be used to establish the top degree cohomology concentration property, and also establish that property for some families of multiarrangements. As a consequence of our results, we prove the rational hit conjecture of R.~M.~W.~Wood about the coinvariants of the rational Steenrod algebra acting on the polynomial ring. We also make progress on the deformed version of that conjecture proposed by Hivert and Thi\\'ery, prove generalizations of the rational hit conjecture for all complex reflection groups $G(m,p,n)$, thus answering questions of Bergeron, Borie and Thi\\'ery, and generalize the rational hit conjecture to all standard subalgebras of the rational Steenrod algebra.",
+    "abstract": "We compute the integral $K_0$-ring of the moduli stack $\\mathscr H_g$ of smooth hyperelliptic curves of genus $g\\ge2$ over a field of characteristic zero. We show that it is a free abelian group of rank $8g+2$ for even $g$ and $8g+4$ for odd $g$. We use the isotypic decomposition of the $K_0$ of a related $\\mu_{g+1}$-gerbe to obtain presentations for both even and odd $g$'s from the standard quotient presentation of $\\mathscr H_g$. Thus, our technique differs from the $CH^\\bullet(\\mathscr H_g)$ computations of Edidin--Fulghesu, Fulghesu--Viviani, Di Lorenzo, and the $K_0(\\mathscr M_2)$ computation of Edidin--Hu. Using Pagani's description of the inertia stack of $\\mathscr H_g$, we apply Riemann--Roch to interpret the rank of $K_0(\\mathscr H_g)$ as the number of inertia components. Finally, we compare the $K_0$ and Chow rings of $\\mathscr H_g$ through the gamma-filtration and give presentations to the associated graded rings $\\operatorname{gr}_{\\gamma}K_0(\\mathscr H_g)\\otimes\\mathbb F_p$ for every prime $p$.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Vladimir Dotsenko"
+     "Michael Ruofan Zeng"
     ],
     "categories": [
-     "math.RT",
-     "math.AC",
      "math.AG",
      "math.KT"
     ],
-    "date": "2026-10-20",
-    "link": "https://arxiv.org/abs/2610.26028",
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.27267",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.26028",
-    "pid": "2610.26028",
+    "pdf": "https://arxiv.org/pdf/2610.27267",
+    "pid": "2610.27267",
     "reasons": [],
     "source": "arxiv",
     "tier": 5,
-    "title": "Twisted logarithmic de Rham complexes and the rational hit conjecture",
+    "title": "The integral $K_0$-ring of the stack of smooth hyperelliptic curves",
+    "watched": []
+   },
+   {
+    "abstract": "We show that the $K$-homology classes of the Euler characteristic operators associated with the minimal and maximal ideal boundary conditions of the de Rham differential on the regular part of a connected compact Thom-Mather stratified pseudomanifold, equipped with an adapted metric, are trivial beyond their indices. These indices are the Euler characteristics of the corresponding $L^2$-cohomologies. This generalizes a result of J. Rosenberg for manifolds. The proof uses Witten deformation of the de Rham operator associated with a stratified Morse function, following the work of \\'Alvarez L\\'opez and Calaza.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Mohammadali Aligholi"
+    ],
+    "categories": [
+     "math.DG",
+     "math.KT",
+     "math.OA"
+    ],
+    "date": "2026-10-21",
+    "link": "https://arxiv.org/abs/2610.27476",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2610.27476",
+    "pid": "2610.27476",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 5,
+    "title": "Triviality of $K$-homology classes of Euler characteristic operators of stratified pseudomanifolds",
     "watched": []
    }
   ]
@@ -3377,6 +3518,7 @@
   "1712.06392": "2026-10-14",
   "1902.02630": "2026-10-12",
   "1903.10793": "2026-10-09",
+  "1911.02642": "2026-10-21",
   "2008.08852": "2026-10-08",
   "2009.05433": "2026-10-12",
   "2009.12646": "2026-10-19",
@@ -3396,12 +3538,14 @@
   "2211.10847": "2026-10-20",
   "2211.11456": "2026-10-14",
   "2212.07085": "2026-10-16",
+  "2212.12358": "2026-10-21",
   "2303.11071": "2026-10-20",
   "2304.11508": "2026-10-20",
   "2304.13411": "2026-10-14",
   "2305.06922": "2026-10-14",
   "2305.14138": "2026-10-14",
   "2305.18609": "2026-10-14",
+  "2307.06020": "2026-10-21",
   "2307.16657": "2026-10-14",
   "2308.08548": "2026-10-19",
   "2309.05012": "2026-10-12",
@@ -3418,6 +3562,7 @@
   "2401.10528": "2026-10-15",
   "2402.08262": "2026-10-09",
   "2402.10301": "2026-10-15",
+  "2402.11697": "2026-10-21",
   "2402.18717": "2026-10-20",
   "2404.00945": "2026-10-14",
   "2404.03971": "2026-10-14",
@@ -3428,6 +3573,7 @@
   "2405.01845": "2026-10-14",
   "2405.12559": "2026-10-09",
   "2405.13212": "2026-10-20",
+  "2405.16979": "2026-10-21",
   "2405.18398": "2026-10-12",
   "2405.20395": "2026-10-08",
   "2405.21062": "2026-10-09",
@@ -3444,15 +3590,18 @@
   "2409.08370": "2026-10-14",
   "2409.11559": "2026-10-19",
   "2409.18348": "2026-10-09",
+  "2410.05994": "2026-10-21",
   "2410.06947": "2026-10-20",
   "2410.10126": "2026-10-16",
   "2410.10552": "2026-10-08",
   "2410.13168": "2026-10-14",
   "2410.18245": "2026-10-14",
   "2410.22327": "2026-10-19",
+  "2411.07299": "2026-10-21",
   "2411.17370": "2026-10-08",
   "2411.19748": "2026-10-19",
   "2412.00234": "2026-10-16",
+  "2412.02591": "2026-10-21",
   "2412.08469": "2026-10-12",
   "2412.12903": "2026-10-20",
   "2412.17157": "2026-10-20",
@@ -3488,23 +3637,30 @@
   "2505.05220": "2026-10-14",
   "2505.07297": "2026-10-14",
   "2505.11596": "2026-10-12",
+  "2505.13912": "2026-10-21",
   "2505.16285": "2026-10-14",
   "2505.18977": "2026-10-19",
   "2505.24416": "2026-10-14",
+  "2506.06512": "2026-10-21",
   "2506.10519": "2026-10-14",
   "2506.17888": "2026-10-15",
   "2506.22126": "2026-10-19",
   "2506.23599": "2026-10-20",
   "2506.23632": "2026-10-14",
+  "2507.00309": "2026-10-21",
   "2507.01226": "2026-10-08",
   "2507.02483": "2026-10-19",
   "2507.02852": "2026-10-12",
+  "2507.06995": "2026-10-21",
   "2507.11207": "2026-10-20",
   "2507.12710": "2026-10-20",
   "2507.15632": "2026-10-20",
   "2508.01294": "2026-10-14",
+  "2508.06750": "2026-10-21",
+  "2508.07060": "2026-10-21",
   "2508.12462": "2026-10-15",
   "2508.15022": "2026-10-14",
+  "2508.15974": "2026-10-21",
   "2508.17485": "2026-10-09",
   "2509.03993": "2026-10-20",
   "2509.05462": "2026-10-19",
@@ -3519,9 +3675,11 @@
   "2509.25629": "2026-10-16",
   "2510.02065": "2026-10-14",
   "2510.02195": "2026-10-09",
+  "2510.03033": "2026-10-21",
   "2510.03953": "2026-10-14",
   "2510.05813": "2026-10-09",
   "2510.06609": "2026-10-19",
+  "2510.08103": "2026-10-21",
   "2510.08250": "2026-10-12",
   "2510.09026": "2026-10-19",
   "2510.09922": "2026-10-20",
@@ -3540,6 +3698,7 @@
   "2511.07060": "2026-10-16",
   "2511.08528": "2026-10-14",
   "2511.09875": "2026-10-15",
+  "2511.10818": "2026-10-21",
   "2511.14675": "2026-10-14",
   "2511.15616": "2026-10-20",
   "2511.18395": "2026-10-12",
@@ -3548,7 +3707,9 @@
   "2511.22603": "2026-10-09",
   "2512.00201": "2026-10-09",
   "2512.03201": "2026-10-20",
+  "2512.05510": "2026-10-21",
   "2512.06623": "2026-10-19",
+  "2512.15060": "2026-10-21",
   "2512.19034": "2026-10-20",
   "2512.19831": "2026-10-19",
   "2512.19894": "2026-10-20",
@@ -3556,6 +3717,7 @@
   "2512.22432": "2026-10-12",
   "2512.23285": "2026-10-20",
   "2512.24783": "2026-10-08",
+  "2512.24967": "2026-10-21",
   "2601.03036": "2026-10-15",
   "2601.05369": "2026-10-14",
   "2601.11084": "2026-10-16",
@@ -3565,6 +3727,7 @@
   "2601.20804": "2026-10-14",
   "2601.22591": "2026-10-16",
   "2601.23247": "2026-10-15",
+  "2602.02976": "2026-10-21",
   "2602.04140": "2026-10-12",
   "2602.10000": "2026-10-15",
   "2602.14109": "2026-10-20",
@@ -3613,6 +3776,7 @@
   "2605.00704": "2026-10-14",
   "2605.07956": "2026-10-16",
   "2605.08394": "2026-10-08",
+  "2605.08507": "2026-10-21",
   "2605.09828": "2026-10-14",
   "2605.10273": "2026-10-14",
   "2605.11156": "2026-10-14",
@@ -3620,11 +3784,13 @@
   "2605.13425": "2026-10-14",
   "2605.14150": "2026-10-19",
   "2605.18065": "2026-10-16",
+  "2605.18906": "2026-10-21",
   "2605.21337": "2026-10-09",
   "2605.24796": "2026-10-14",
   "2605.25935": "2026-10-08",
   "2605.26556": "2026-10-12",
   "2605.26768": "2026-10-08",
+  "2605.30063": "2026-10-21",
   "2605.30530": "2026-10-08",
   "2606.01371": "2026-10-08",
   "2606.01466": "2026-10-12",
@@ -3632,12 +3798,14 @@
   "2606.02826": "2026-10-16",
   "2606.02854": "2026-10-09",
   "2606.07627": "2026-10-12",
+  "2606.10052": "2026-10-21",
   "2606.11090": "2026-10-20",
   "2606.11551": "2026-10-14",
   "2606.15758": "2026-10-09",
   "2606.16431": "2026-10-12",
   "2606.18440": "2026-10-12",
   "2606.21717": "2026-10-14",
+  "2606.23876": "2026-10-21",
   "2606.23906": "2026-10-20",
   "2606.25516": "2026-10-14",
   "2606.26043": "2026-10-15",
@@ -3652,9 +3820,11 @@
   "2607.11639": "2026-10-16",
   "2607.12183": "2026-10-15",
   "2607.12522": "2026-10-20",
+  "2607.13486": "2026-10-21",
   "2607.14188": "2026-10-14",
   "2607.15366": "2026-10-14",
   "2607.16153": "2026-10-14",
+  "2607.16607": "2026-10-21",
   "2607.16945": "2026-10-09",
   "2607.16957": "2026-10-14",
   "2607.17026": "2026-10-08",
@@ -3673,6 +3843,7 @@
   "2607.29097": "2026-10-20",
   "2608.00470": "2026-10-15",
   "2608.01031": "2026-10-08",
+  "2608.02623": "2026-10-21",
   "2608.03434": "2026-10-08",
   "2608.03601": "2026-10-14",
   "2608.04462": "2026-10-14",
@@ -3691,6 +3862,7 @@
   "2608.18928": "2026-10-12",
   "2608.19921": "2026-10-14",
   "2608.21980": "2026-10-20",
+  "2608.22208": "2026-10-21",
   "2608.22317": "2026-10-20",
   "2608.22434": "2026-10-09",
   "2608.22714": "2026-10-08",
@@ -3709,6 +3881,7 @@
   "2609.01173": "2026-10-14",
   "2609.01298": "2026-10-09",
   "2609.01358": "2026-10-09",
+  "2609.01413": "2026-10-21",
   "2609.03365": "2026-10-20",
   "2609.03601": "2026-10-14",
   "2609.04430": "2026-10-15",
@@ -3728,10 +3901,13 @@
   "2609.15419": "2026-10-14",
   "2609.15698": "2026-10-14",
   "2609.15909": "2026-10-09",
+  "2609.17742": "2026-10-21",
   "2609.18936": "2026-10-14",
+  "2609.19474": "2026-10-21",
   "2609.19744": "2026-10-20",
   "2609.19869": "2026-10-20",
   "2609.20567": "2026-10-09",
+  "2609.21090": "2026-10-21",
   "2609.21513": "2026-10-19",
   "2609.21534": "2026-10-19",
   "2609.21914": "2026-10-15",
@@ -3752,13 +3928,16 @@
   "2609.30637": "2026-10-19",
   "2609.31469": "2026-10-20",
   "2609.31729": "2026-10-12",
+  "2609.33185": "2026-10-21",
   "2609.33679": "2026-10-14",
   "2609.33826": "2026-10-12",
   "2609.35353": "2026-10-16",
+  "2609.36410": "2026-10-21",
   "2609.37839": "2026-10-14",
   "2609.38068": "2026-10-08",
   "2609.38664": "2026-10-14",
   "2609.38675": "2026-10-08",
+  "2609.38801": "2026-10-21",
   "2609.39293": "2026-10-14",
   "2609.39536": "2026-10-08",
   "2609.39707": "2026-10-08",
@@ -4365,6 +4544,55 @@
   "2610.26771": "2026-10-20",
   "2610.26774": "2026-10-20",
   "2610.26835": "2026-10-20",
+  "2610.26870": "2026-10-21",
+  "2610.26885": "2026-10-21",
+  "2610.26895": "2026-10-21",
+  "2610.26983": "2026-10-21",
+  "2610.27016": "2026-10-21",
+  "2610.27031": "2026-10-21",
+  "2610.27077": "2026-10-21",
+  "2610.27267": "2026-10-21",
+  "2610.27392": "2026-10-21",
+  "2610.27458": "2026-10-21",
+  "2610.27476": "2026-10-21",
+  "2610.27492": "2026-10-21",
+  "2610.27517": "2026-10-21",
+  "2610.27554": "2026-10-21",
+  "2610.27557": "2026-10-21",
+  "2610.27625": "2026-10-21",
+  "2610.27660": "2026-10-21",
+  "2610.27676": "2026-10-21",
+  "2610.27723": "2026-10-21",
+  "2610.27903": "2026-10-21",
+  "2610.27918": "2026-10-21",
+  "2610.27924": "2026-10-21",
+  "2610.27934": "2026-10-21",
+  "2610.27961": "2026-10-21",
+  "2610.27988": "2026-10-21",
+  "2610.28028": "2026-10-21",
+  "2610.28039": "2026-10-21",
+  "2610.28113": "2026-10-21",
+  "2610.28114": "2026-10-21",
+  "2610.28135": "2026-10-21",
+  "2610.28138": "2026-10-21",
+  "2610.28149": "2026-10-21",
+  "2610.28156": "2026-10-21",
+  "2610.28177": "2026-10-21",
+  "2610.28249": "2026-10-21",
+  "2610.28297": "2026-10-21",
+  "2610.28320": "2026-10-21",
+  "2610.28338": "2026-10-21",
+  "2610.28370": "2026-10-21",
+  "2610.28418": "2026-10-21",
+  "2610.28439": "2026-10-21",
+  "2610.28447": "2026-10-21",
+  "2610.28456": "2026-10-21",
+  "2610.28464": "2026-10-21",
+  "2610.28497": "2026-10-21",
+  "2610.28499": "2026-10-21",
+  "2610.28534": "2026-10-21",
+  "2610.28558": "2026-10-21",
+  "2610.28588": "2026-10-21",
   "hexagon:2609.00001": "2026-10-08",
   "hexagon:2609.00102": "2026-10-08",
   "hexagon:2609.00104": "2026-10-08",
@@ -4648,6 +4876,19 @@
   "hexagon:2610.00401": "2026-10-20",
   "hexagon:2610.00402": "2026-10-20",
   "hexagon:2610.00403": "2026-10-20",
-  "hexagon:2610.00407": "2026-10-20"
+  "hexagon:2610.00404": "2026-10-21",
+  "hexagon:2610.00405": "2026-10-21",
+  "hexagon:2610.00406": "2026-10-21",
+  "hexagon:2610.00407": "2026-10-20",
+  "hexagon:2610.00408": "2026-10-21",
+  "hexagon:2610.00409": "2026-10-21",
+  "hexagon:2610.00410": "2026-10-21",
+  "hexagon:2610.00411": "2026-10-21",
+  "hexagon:2610.00412": "2026-10-21",
+  "hexagon:2610.00413": "2026-10-21",
+  "hexagon:2610.00414": "2026-10-21",
+  "hexagon:2610.00417": "2026-10-21",
+  "hexagon:2610.00418": "2026-10-21",
+  "hexagon:2610.00419": "2026-10-21"
  }
 }
