@@ -1,0 +1,363 @@
+{
+"day": "2026-10-24",
+"updated": "2026-10-24T08:57:05+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2610.00501",
+"title": "A counterexample to a conjecture of Graffiti.pc on the forest number",
+"abstract": "Conjecture 66 of Graffiti.pc bounds the order of a largest induced forest of a connected graph from below by the even mode of the degrees of its complement divided by its average degree. We show that it is false, under every reading of its definitions and by an unbounded margin.",
+"authors": [
+"Deep Bhattacharjee"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00501v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00501v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00500",
+"title": "Counterexamples to five conjectures of Graffiti.pc on domination",
+"abstract": "Written on the Wall II, the list of conjectures of the program Graffiti.pc, records Conjectures 319, 352, 358, 359 and 427 as open. We show that all five are false. The counterexamples are caterpillars for Conjectures 352, 358, 359 and 427, and graphs built from complete graphs for Conjecture 319; each comes in an infinite family, and for Conjectures 358, 359 and 427 the difference between the two sides is unbounded.",
+"authors": [
+"Deep Bhattacharjee"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00500v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00500v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00496",
+"title": "Finite Field Hudzik-Landes-Dragomir-Kato-Saito-Tamura Inequality",
+"abstract": "Hudzik and Landes \\textit{[Math. Ann., 1992]} derived a major generalization of the triangle inequality for two nonzero elements in normed linear spaces, which was extended to finitely many nonzero elements independently by Dragomir \\textit{[Bull. Aust. Math. Soc., 2006]} and by Kato, Saito and Tamura \\textit{[Math. Inequal. Appl., 2007]}. We derive a finite field version of Hudzik-Landes-Dragomir-Kato-Saito-Tamura inequality.",
+"authors": [
+"K. MAHESH KRISHNA"
+],
+"categories": [
+"math.AC",
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2610.00496v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00496v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00502",
+"title": "Galois embedding problems and number field counting",
+"abstract": "Let $p$ be a prime number and $1\\to H\\to G\\xrightarrow{q}T\\to1$ be an exact sequence of finite groups, where $H$ is a nontrivial $p$-group. Fix a continuous surjection $\\pi:\\GQ\\twoheadrightarrow T$ and finitely many $H$-conjugation-invariant local conditions $\\cD$. Let $N_{G,\\pi,\\cD}(X)$ count the continuous surjections $\\rho:\\GQ\\twoheadrightarrow G$ satisfying $q\\circ\\rho=\\pi$ and these local conditions, with $|\\Delta_{F_\\rho}|\\leq X$, where $F_\\rho=\\overline{\\Q}^{\\ker\\rho}$. If at least one such lift exists, we prove that, for every $\\varepsilon>0$, \\[ X^{p/(|G|(p-1))} \\ll_{G,\\pi,\\cD} N_{G,\\pi,\\cD}(X) \\ll_{G,\\pi,\\cD,\\varepsilon} X^{p/(|G|(p-1))+\\varepsilon} \\] for all sufficiently large $X$. This establishes the power of $X$ predicted by Alberts's conjecture for every finite $p$-group kernel, without any solvability assumption on $T$. If every element of order $p$ in $H$ lies in $Z(H)$, then every nonempty family satisfies the asymptotic predicted by Alberts: \\[ N_{G,\\pi,\\cD}(X) \\sim C_{G,\\pi,\\cD} X^{p/(|G|(p-1))}(\\log X)^{b_V-1}, \\] with $C_{G,\\pi,\\cD}>0$. As an application, for odd $p$ and $m\\geq2$, we obtain discriminant asymptotics for surjective lifts of a fixed residual Galois representation to $\\GL_d(\\Z/p^m\\Z)$, subject to finitely many local conditions, whenever such a lift exists.",
+"authors": [
+"Anwesh Ray"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00502v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00502v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00491",
+"title": "Largest Gaps between Eigenvalues of the Gaussian Orthogonal Ensemble",
+"abstract": "We determine the asymptotic distribution of the largest gaps between consecutive eigenvalues of the Gaussian orthogonal ensemble (GOE) in the bulk of the spectrum. After an explicit centering and scaling, the largest gaps in a fixed interval converge to a Poisson point process with an exponential intensity, so the largest gap has a shifted Gumbel limit. The analogous result for the Gaussian unitary ensemble was proved by Feng and Wei. Our proof expresses the squared probability that the GOE has no eigenvalues in a union of intervals as the corresponding probability for the Gaussian unitary ensemble times a determinant of fixed size, for every matrix dimension. We control this determinant on intervals whose length in units of the local mean spacing grows with the dimension, using an uncertainty principle of Nazarov and exact identities for Hermite functions.",
+"authors": [
+"Patrick Lopatto"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2610.00491v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00491v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00495",
+"title": "Maximal sublattices of convex geometries: four counterexamples",
+"abstract": "Adaricheva, Mata, Silberger and Zamojska-Dzienio conjectured that in a finite convex geometry, and more generally in a finite join-semidistributive lattice, the complement of a maximal sublattice is a union of intervals with a common least element, and proved this for convex dimension two. We give convex geometries of convex dimension four and three in which such a complement has two and three minimal elements, so their theorem does not extend. The same examples refute their Hypothesis 4 and one half of their Question 2; an eleven-element convex geometry refutes the other half, and a ten-element lattice their Hypothesis 3.",
+"authors": [
+"Deep Bhattacharjee"
+],
+"categories": [
+"math.RA",
+"math.CO",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2610.00495v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00495v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00497",
+"title": "Maximal sublattices of finite semidistributive lattices: the complement need not be an interval",
+"abstract": "Adams, Freese, Nation and Schmid proved that the complement of a maximal sublattice of a finite bounded lattice is an interval, and asked whether the same holds for finite semidistributive lattices; Adaricheva, Mata, Silberger and Zamojska-Dzienio conjectured that it does. It does not. In a 26-element semidistributive sublattice of the square of a 14-element semidistributive lattice, the diagonal is a maximal sublattice whose complement has two minimal elements.",
+"authors": [
+"Deep Bhattacharjee"
+],
+"categories": [
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2610.00497v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00497v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00504",
+"title": "Minimum Prime Bound in Square Intervals",
+"abstract": "This paper presents a proof of Legendre’s Conjecture by analyzing the distribution of odd composite and their elimination through odd composite sequences. The odd integer sequence is expressed as 𝑂≥3 = 3 + 2𝑟𝑂, while odd composite numbers are represented as 𝑂𝑝 = 𝑝2 + 2𝑝𝑟𝑝, where 𝑝 is prime and 𝑟𝑝 ≥ 0. Each prime-square sequence introduces a systematic elimination of odd composite numbers, reducing the density of primes in the sequence. By sequentially applying elimination factors (𝑞 − 1)/𝑞 for primes 𝑞 ≥ 3, we derive a lower bound for prime density: d/(dr_O ) N_p≥2/p Considering the quadratic interval [𝑛2, (𝑛 + 1)2], the total change in 𝑟𝑂 is Δ𝑟𝑂 = (𝑛+1)2−𝑛2 = 𝑛 + ½ . Combining this with the density bound yields a lowest bound of prime count per interval: π_((n^2,(n+1)^2))^LB≥⌈2/p (n+1/2)⌉=2(p≈n+1) Thus, every quadratic interval [𝑛2, (𝑛 + 1)2] contains at least two primes, establishing Legendre’s Conjecture. This elimination-based framework provides a systematic proof based on the distribution of odd integers and odd composite sequences.",
+"authors": [
+"Min Min Oo Oo"
+],
+"categories": [
+"math.NT",
+"math.GM"
+],
+"link": "https://hexagonmath.org/abs/2610.00504v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00504v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00505",
+"title": "Multiplicative bases and deformations of representation-finite algebras",
+"abstract": "Bautista, Gabriel, Roiter, and Salmer\\'on proved that every finite-dimensional representation-finite algebra over an algebraically closed field admits a multiplicative basis, in which products of basis elements are zero or basis elements. Outside characteristic two, they also proved that such an algebra is standard: its category of indecomposable modules is presented by its Auslander--Reiten quiver and mesh relations. We give another proof of both theorems. For a basic algebra, grading morphisms between indecomposable modules by powers of the categorical radical and restricting to projectives yields its standard form, a standard algebra with the same Auslander--Reiten quiver. After constructing a multiplicative basis of the standard form, we recover the original algebra by filtered deformation. Positive-degree Hochschild cohomology embeds into cokernels measuring errors in mesh relations. In characteristic two, lifting derivations modulo four produces cocycles supported on zero basis products; the resulting polynomial family contains the original algebra with coefficients zero or one.",
+"authors": [
+"Haruhisa Enomoto"
+],
+"categories": [
+"math.RT",
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2610.00505v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00505v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00489",
+"title": "On the tightness of the Parthasarathy and Schmidt rank bounds for extremal tracial couplings",
+"abstract": "Let $2 \\le a \\le b$, and let $\\rho_A, \\rho_B$ be density operators on $\\C^a$ and $\\C^b$, respectively. Let $\\mathcal{C}(\\rho_A, \\rho_B)$ denote the set of bipartite couplings on $\\C^a \\otimes \\C^b$ with these marginals. Parthasarathy showed that every extreme coupling has rank at most $\\KRP(a,b) := \\lfloor\\sqrt{a^2+b^2-1}\\rfloor$. It is not known for which dimension pairs $(a, b)$ this bound is tight. We restrict attention to the tracial case $\\rho_A = I_a/a$, $\\rho_B = I_b/b$. For the Parthasarathy bound, we construct extreme couplings of rank $r$ from pairs of length-$r$ finite unit-norm tight frames (FUNTFs) in $\\C^a$ and $\\C^b$ satisfying a transversality condition. This yields an extreme coupling of rank $b$ for every $2 \\le a < b$, and hence tightness of $\\KRP(a,b)$ whenever $a<b$ and $b\\ge(a^2-1)/2$; in particular, along the whole qubit-qudit line $(2,b)$, $b\\ge3$. This recovers the two previously known tracial cases with $a<b$, namely $(2,3)$ and $(3,4)$. The Schmidt decomposition and subadditivity of rank give the lower bound $\\ES(a, b) := \\lceil b/a\\rceil$ for the rank of every tracial coupling, extreme or not. For the Schmidt bound, we use sparse Kraus operators built from weighted partial permutation matrices. Setting $r := \\ES(a, b)$, we construct an extreme coupling of rank $r$ whenever $b-(r-1)a$ divides $a$, and show that for $a<b \\le 2a$, where this condition reads $b-a=\\gcd(a,b)$, it is also necessary. For $b>a(a-1)$, the divisibility condition is superfluous and the Schmidt bound is attained for every such $b$. Thus, for each fixed $a$, attainability of both bounds remains open for only finitely many $b\\ge a$.",
+"authors": [
+"Dipankar Dey",
+"Somnath Jana",
+"Soumyashant Nayak"
+],
+"categories": [
+"math.OA",
+"math.FA",
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2610.00489v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00489v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00503",
+"title": "Polynomial Fault Detection Without Bounded Width: Exact Reachable Sets in Priority Controllers",
+"abstract": "Circuit-width restrictions explain several polynomial cases of automatic test pattern generation. We give a different explanation for an arbitrary-size extension of the c432 priority controller, including a subfamily with linear treewidth and net cut-width in its native layout. For a specified first-stage bridge fault, we characterize exactly the reachable qualifier sets and construct a primary input realizing each one. On drive-one inputs where the first selector flag changes, the healthy set is the target singleton; the faulty sets are precisely the target-containing sets with one request bus and all nonempty sets with at least two buses. Drive zero is undetectable. This image reduces detection to comparing decoder values on sets. For supplied guarded decoders, built from zero, positive channel leaves, disjunction and conjunction of one computed child with negative channel literals, supporting paths and dual-Horn reasoning find a detecting set in O((n+q)G) time for n channels, q outputs and counted decoder size G, or O(G) for formula forests. Unsatisfiable instances of the complete guarded native CNF encoding have resolution refutations with O(N³) inferences, where N is the encoding size. Detection is P-complete, while minimum-set optimization and counting detecting sets are NP-hard and #P-complete, respectively. A specified final-qualifier stuck-at fault makes detection NP-complete on shared guarded decoders. The exact first-stage bridge-image statements are formalized in Lean and registered as PALOMAR-2026-10-19-000010, version 1.",
+"authors": [
+"Idris Ali Shaik"
+],
+"categories": [
+"cs.CC",
+"cs.DS",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2610.00503v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00503v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00499",
+"title": "Regular Morley tetrahedra from $p$-secting planes",
+"abstract": "Morley's theorem says that the adjacent angle trisectors of a triangle meet in the vertices of an equilateral triangle. Tran carried the construction to a tetrahedron by trisecting its six dihedral angles and, more generally, by $p$-secting planes, with one parameter $e,f,g>1$ for each pair of opposite edges; the resulting tetrahedron is denoted $\\mathcal M_{e,f,g}(ABCD)$. Tran showed that a regular Morley tetrahedron does not force the original tetrahedron to be regular, observed that in his examples some pair of opposite edges has four equal cross edges, and conjectured that this happens whenever $\\mathcal M_{e,f,g}(ABCD)$ is regular. We show that the conjecture is false. We place an isosceles tetrahedron in the box $[-a,a]\\times[-b,b]\\times[-c,c]$ and prove that $\\mathcal M_{e,f,g}(ABCD)$ is regular exactly when its vertex $A'$ differs from the centre of the box and lies on one of the four lines through the centre in the directions $(1,1,1)$, $(1,-1,-1)$, $(-1,1,-1)$ and $(-1,-1,1)$. Every interior point of these lines other than the centre occurs for exactly one triple of parameters. When $a$, $b$ and $c$ are pairwise different, no pair of opposite edges has four equal cross edges, so each of these tetrahedra is a counterexample. Two examples are given with the parameters in closed form. Finally, for quadrisecting planes, $e=f=g=4$, an isosceles tetrahedron has a regular Morley tetrahedron only if it is regular.",
+"authors": [
+"Deep Bhattacharjee"
+],
+"categories": [
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2610.00499v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00499v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00494",
+"title": "The Grundy domination number is not multiplicative on strong products",
+"abstract": "The strong product of the octahedron with a graph $H$ on $21$ vertices of Grundy domination number $10$ has Grundy domination number at least $21$. This disproves the conjecture of Bre\\v{s}ar, Bujt\\'as, Gologranc, Klav\\v{z}ar, Ko\\v{s}mrlj, Patk\\'os, Tuza and Vizer that $\\ggr(G\\sprod H)=\\ggr(G)\\ggr(H)$ for all graphs $G$ and $H$.",
+"authors": [
+"Deep Bhattacharjee"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00494v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00494v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00493",
+"title": "The Mirror Clause of the Geometric Selection Conjecture Is Empty",
+"abstract": "The Geometric Selection Conjecture asks for a functional on the heterotic landscape, invariant under mirror symmetry, whose unique minimum is a phenomenologically viable vacuum. It was shown to be equivalent to the existence of a viable vacuum fixed by the mirror involution wherever that involution is defined. We prove that no viable vacuum is ever fixed: a fixed vacuum is isomorphic to its mirror, so its threefold has Euler number zero, the third Chern class of its bundle vanishes on its component, and by Hirzebruch-Riemann-Roch it has no net families. The conjecture is therefore equivalent to the existence of a viable vacuum on a component of the landscape carrying no standard embedding, and no vacuum built on the tangent bundle of a Calabi-Yau threefold is ever selected.",
+"authors": [
+"Deep Bhattacharjee",
+"Ushashi Bhattacharya"
+],
+"categories": [
+"math-ph",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2610.00493v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00493v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00498",
+"title": "Upper $k$-star-forming sets and $k$-independence in bipartite graphs",
+"abstract": "Sahbi conjectured that the $k$-independence number $\\beta_k$ and the upper $k$-star-forming number $\\SF_k$ agree on bipartite graphs, and in particular on chain graphs, and asked whether $\\beta_3=\\SF_3$ on triangle-free graphs. For every $k\\ge3$ we give a connected bipartite graph on $3k+3$ vertices with $\\beta_k=2k+2$ and $\\SF_k\\ge3k$. On chain graphs, however, $\\beta_k=\\SF_k$ for every $k$. We also show, answering another of his questions, that deciding whether a bipartite graph has a minimal $2$-star-forming set with at least $t$ vertices is NP-complete.",
+"authors": [
+"Deep Bhattacharjee"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00498v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00498v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00490",
+"title": "Vertex Operator Algebra Realizations of Twisted Haagerup–Izumi Doubles",
+"abstract": "We construct vertex operator algebras realizing an infinite family of twisted, nonunitary Haagerup--Izumi doubles. For every odd integer $N\\geq 3$, we construct a spherical fusion category $\\mathcal{F}_N$ with the Haagerup--Izumi fusion rules for $\\mathbb{Z}/N\\mathbb{Z}$ and pointed associator of exact order $N$, and realize its Drinfeld center as the ribbon category of modules of an explicit vertex operator algebra $\\mathscr{V}_N$. The construction begins with a uniform family of strongly rational Virasoro extensions, whose irreducible modules and theta-function characters we determine. A simple-current extension involving a conformally shifted $E_7$ lattice vertex operator algebra removes the additional semion factor. The resulting $\\mathscr{V}_N$ is simple, regular, self-contragredient, and $C_2$-cofinite, with central charge $-6N^2-10$, effective central charge eight, and $N^2+3$ irreducible modules with explicit characters. Its weight-zero subspace has dimension $56$, so it is not of CFT type; we establish modularity and the ribbon equivalence without relying on the CFT-type hypothesis.",
+"authors": [
+"Andrew Riesen",
+"David E. Evans"
+],
+"categories": [
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2610.00490v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00490v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-23",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
