@@ -1,6 +1,6 @@
 {
 "day": "2026-10-26",
-"updated": "2026-10-26T05:04:55+00:00",
+"updated": "2026-10-26T06:08:06+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -573,6 +573,28 @@
 "announce": "new",
 "date": "2026-10-26",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00546",
+"title": "ALL FINITE CARDINALITIES OF THE HYPERSPACE OF REGULAR SUBCONTINUA",
+"abstract": "For a metric continuum X, let D(X) be the family of subcontinua A of X with A = cl_X int_X A. Ordõnez asked which finite numbers occur as |D(X)|. Camargo, Ordõnez and Ramírez excluded 2, 4, 5, 8, 9 and asked whether every k ≥ 256 occurs. We prove that a positive integer k equals |D(X)| for some metric continuum X if and only if k not in {2, 4, 5, 8, 9, 16}. The finite cardinalities of D(X) are exactly the numbers of vertex sets inducing connected subgraphs of finite connected graphs; every finite connected graph is realized by copies of the Knaster continuum glued at points. We determine the values of this graph invariant without computer assistance. A short argument excludes 16, and an explicit recursive family of graphs realizes every k ≥ 17 with the least possible number of vertices. Consequently, for k ≥ 32 the least number of minimal regular subcontinua of a continuum X with |D(X)| = k is ⌊log2 k⌋ + 1. Programs check the explicit finite graph counts, and Theorem A is formally verified in Lean.",
+"authors": [
+"Lucas Almeida Almeida"
+],
+"categories": [
+"math.GN",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00546v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00546v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-26",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1727,6 +1749,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00543",
+"title": "Recurrent tubes and connectedness-preserving bijections of Euclidean spaces",
+"abstract": "For every \\(n\\ge 2\\) we construct a connectedness-preserving bijection \\(F\\) of \\(\\mathbb{R}^n\\) whose inverse does not preserve connectedness. The restriction of \\(F\\) off the closed coordinate ray \\(E\\) is a homeomorphism onto the complement of \\(L=K\\setminus\\{\\infty\\}\\), where \\(K\\subset\\mathbb{S}^n\\) is a nondegenerate continuum with empty interior. The discontinuity sets of \\(F\\) and \\(F^{-1}\\) are exactly \\(E\\) and \\(L\\), and both maps can be chosen to have exact Baire class \\(2\\). The preimage of a fixed straight segment can be any prescribed uncountable closed subset of \\(E\\) with empty relative interior, including the middle-thirds Cantor set. The construction is uniform in the dimension. Homeomorphisms with compact support move finitely many collar points to a prescribed net, and narrowing the resulting collars produces a recurrent tube. Compact arcs on one retained boundary line supply dense connected tracks, while a gate lemma proves preservation of arbitrary connected sets. This answers W. Wong's question in the negative. We also prove that every component of the closure of the discontinuity set of a planar connectedness-preserving bijection is unbounded, and construct Borel counterexamples on manifolds with a standard spherical end.",
+"authors": [
+"Peter Lim"
+],
+"categories": [
+"math.GN"
+],
+"link": "https://hexagonmath.org/abs/2610.00543v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00543v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-25",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2610.32450",
 "title": "Reflection groups on smooth projective threefolds",
 "abstract": "Let $Y$ be a smooth projective threefold with $H^2(Y, \\mathcal{O}_Y)=0$ and unobstructed deformations. We define reflection groups $W_Y^{sm}$ and $W_Y^{big}$ canonically associated to $Y$, acting on the nef, resp. movable cone of a very general deformation of $Y$. If $-K_Y$ is nef, we show that $\\mathrm{Nef}(Y)\\cap\\mathrm{Big}(Y)$ (resp. $\\overline{\\mathrm{Mov}}(Y)\\cap\\mathrm{Big}(Y)$) is a fundamental domain for the action of the corresponding group on the big part of the generic cone. This generalizes work of Wilson and Lutz on Calabi--Yau threefolds. The group $W_Y^{big}$ recovers and gives a deformation-theoretic explanation for the Weyl group action on divisor classes of point blowups of $\\mathbb P^3$ studied by Dolgachev--Ortland and Mukai.",
@@ -2130,6 +2173,27 @@
 "announce": "new",
 "date": "2026-10-25",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00545",
+"title": "The missing Lin(ni)k",
+"abstract": "We show how Selberg's symmetry formulas and the recent finding that there are no Landau--Siegel zeros connect to give a radically elementary proof of Linnik's theorem on the least prime in an arithmetic progression.",
+"authors": [
+"Paul Pollack"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00545v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00545v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-26",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
