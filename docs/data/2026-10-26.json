@@ -1,6 +1,6 @@
 {
 "day": "2026-10-26",
-"updated": "2026-10-26T06:08:06+00:00",
+"updated": "2026-10-26T16:17:11+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -595,6 +595,28 @@
 "announce": "new",
 "date": "2026-10-26",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00552",
+"title": "Area law for three-dimensional U(1) lattice gauge theory with the Wilson action at every coupling",
+"abstract": "We prove that three-dimensional U(1) lattice gauge theory with the Wilson action confines static charges at every coupling. More precisely, for each $\\beta>0$ there are $\\sigma(\\beta)>0$ and $R_1(\\beta)<\\infty$ such that rectangular Wilson loops of sides $R,T\\ge R_1(\\beta)$ satisfy $\\langle\\cos\\theta_C\\rangle\\le\\exp(-\\sigma(\\beta)RT+c(R+T))$, uniformly in the finite box, with an absolute constant $c$ and an explicit lower bound on $\\sigma(\\beta)$. For the Villain action this is the theorem of G\\\"opfert and Mack. For the Wilson action it is cited as known but has remained open. The proof rests on a comparison. The Wilson plaquette weight is a mixture of Villain weights whose coupling has a very light upper tail. Hence, by Ginibre's inequality, the Wilson loop at coupling $\\beta$ is at most an average, over a sparse Bernoulli set of frozen plaquettes, of the Villain loop at coupling $K\\beta$, and frozen plaquettes are insulating walls for the monopole gas. A variational regularization, built on the smallest minimizer of a cut functional, freezes more plaquettes, which only increases the loop. It produces slit domains on which the multiscale analysis of G\\\"opfert and Mack, with wall fields graded by their periods around the handles, runs with uniform constants. On these domains the loop decays like the exponential of the minimal spanning area with frozen plaquettes free. A Peierls estimate shows that this area is at least $(1-\\eta)RT$ outside an event of probability at most $e^{-RT+O(R+T)}$, with $\\eta\\to0$ as $K\\to\\infty$. We carry over the steps cited from Brydges\\textendash Federbush and G\\\"opfert\\textendash Mack with explicit changes and prove them in full in Part S4 of the supplementary material, including a tree-graph counting step of Brydges whose printed deduction is incomplete. As corollaries, we obtain the area law at every coupling for all closed subgroups of U($n$) containing the scalars, also with a Higgs field blind to the centre (as for U(2) with an adjoint Higgs field), and for the Georgi\\textendash Glashow model at infinite Higgs coupling.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math-ph",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2610.00552v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00552v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-26",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1903,6 +1925,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00549",
+"title": "Sorting networks on 13 inputs need 45 comparators",
+"abstract": "Let $S(N)$ be the least number of comparators in a sorting network on $N$ inputs (the Bose--Nelson problem). The values are known for $N\\le12$, and for $13$ inputs the smallest known sorting network, found by Juill\\'e, has $45$ comparators. We prove $S(13)\\ge45$, so $S(13)=45$. Deleting the comparators met by the largest and the second largest input leaves a sorting network on $N-2$ inputs, so $S(N)\\ge S(N-2)+P(2,N)$, where $P(2,N)$ is the least possible worst-case number of comparators met by these two values. Van Voorhis stated $P(2,N)\\ge\\lceil\\lg F(N)\\rceil$ for an explicit function $F$, but Mericanii showed that his proof is invalid. We prove $P(2,N)=\\lceil\\lg F(N)\\rceil$ for $3\\le N\\le32$ by a finite search, which rests on the structure of the tree of paths of the largest value, the comparators on these paths, and a forest of comparators that carries the second largest value. With $S(11)=35$ this bound gives only $S(13)\\ge44$. For $45$ we apply it to the suffix of a network: if a network with $L$ comparators sorts a set $X$ of $0$-$1$ vectors, then for suitable pairs of inputs the two values meet at most $L-c$ comparators, where $c$ is the cost of sorting the residual set left when their paths are deleted. A breadth-first search over the sets produced by prefixes of a hypothetical sorting network with $44$ comparators discards each set for which no single network stays within all these budgets, and no set survives at depth $25$. A separate verifier checks the certificate written by the search. Two proofs in Lean 4 check the same certificate, and in one of them Lean's kernel checks every computation, with only the standard axioms. Juill\\'e's network is checked in the kernel as well. As a consequence, each of the twenty lower bounds on $S(N)$ for $13\\le N\\le32$ that rested on Van Voorhis's inequality is proved and raised by one.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"cs.DS",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00549v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00549v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2610.32149",
 "title": "Spin Toda systems and N-point spherical Whittaker functions",
 "abstract": "We define and study a spin version of the open Toda integrable system, using the Iwasawa decomposition of a connected split real Lie group. We study spherical Whittaker functions as solutions of the spin Toda system. We also construct their N-point version and find the corresponding factorisation of the Casimir element, which yields asymptotic boundary KZB type equations.",
@@ -2200,6 +2244,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00548",
+"title": "The rank of 3×3 matrix multiplication over F2 is 23",
+"abstract": "The rank of the tensor of $3\\times 3$ matrix multiplication over the field with two elements is at most $23$ by Laderman's algorithm, and Rudich and Rousseau recently proved that it is at least $22$. We prove that it equals $23$. Hence Laderman's algorithm uses the fewest multiplications among all bilinear algorithms over $\\mathbb{F}_2$ and among all bilinear algorithms with integer coefficients. The proof uses the substitution method in the form developed by D'Ambrosio, Wang and Yang et al., which bounds the number of first factors of a decomposition that lie in a given subspace of the space of first factors. We sharpen these bounds for $111$ of Wang's $496$ classes of subspaces, constrain the ranks of the first factors through a $27\\times 27$ flattening of the tensor, and list, up to symmetry, all sets of $22$ first factors that satisfy these constraints. An exact completion search shows that none of them is the set of first factors of a decomposition. The computation emits certificates, which are checked in the Lean 4 proof assistant. In one formal proof the largest checks are evaluated as compiled code, and in a second one the kernel evaluates every check, so that its final theorem depends only on the three standard axioms of Lean. The Lean proofs build on the formalization of Rudich and Rousseau and import their table of bounds and their reduction for block algorithms.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.RA",
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2610.00548v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00548v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2610.32745",
 "title": "The totally nonnegative wonderful compactification of G is a ball",
 "abstract": "Let $\\overline{G}$ denote the wonderful compactification of a semisimple algebraic group $G$ of adjoint type. We use contractive flows to show that the totally nonnegative part of every $G \\times G$ orbit closure of $\\overline{G}$ is homeomorphic to a closed Euclidean ball. In particular, the totally nonnegative part of $\\overline{G}$ is homeomorphic to a closed ball.",
@@ -2284,6 +2350,29 @@
 "announce": "new",
 "date": "2026-10-26",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00558",
+"title": "Uniform sheafy Tate rings that are not stably uniform",
+"abstract": "Buzzard–Verberkmoes and Mihara show that a stably uniform Tate Huber ring is sheafy. We construct examples of uniform and strongly sheafy Tate rings which are not stably uniform, answering Question 7 of Kedlaya’s Nonarchimedean Scottish Book. In the first example a rational localisation is non-reduced, whilst in the second the rational localisation is an integral domain but is not uniform. The two main results are due to ChatGPT 5.6 Sol. Both constructions, the rational localisations witnessing failure of stable uniformity, and their strong sheafiness have been formalised in Lean 4",
+"authors": [
+"Christopher Birkbeck",
+"Alex Torzewski"
+],
+"categories": [
+"math.AG",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00558v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00558v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-26",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
