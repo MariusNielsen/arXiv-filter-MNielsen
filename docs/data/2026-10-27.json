@@ -1,6 +1,6 @@
 {
 "day": "2026-10-27",
-"updated": "2026-10-27T06:05:23+00:00",
+"updated": "2026-10-27T15:31:12+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -712,6 +712,28 @@
 "announce": "new",
 "date": "2026-10-26",
 "ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00581",
+"title": "A Uniform Calculation of Weight-Preserving Infinitesimal Braid Deformations in Type D",
+"abstract": "Over $\\mathbb Q(q)$, for every $n\\ge4$, we calculate the full space of classical-weight-preserving solutions of the linearized braid equation at the standard type-$D_n$ vector braiding. Its dimension is $(n+1)(n+2)/2$. A coordinate slice for scalar and parameter variations, diagonal vector-basis changes, and alternating twists reduces the upper bound to a homogeneous vanishing problem. Outer-pair coefficients eliminate the zero-weight block through a recurrence closed by the two central weights. We also give a functorial formal local parametrization over local Artin algebras. The explicit integrable family belongs to earlier multiparameter constructions; an exact parameter dictionary is provided. No bibliographic priority claim is made for the full tangent-space exhaustion. The proof is uniform in $n$; finite-rank computations are diagnostics.",
+"authors": [
+"Hangang Wang"
+],
+"categories": [
+"math.QA",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2610.00581v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00581v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-27",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1979,6 +2001,28 @@
 "announce": "cross",
 "date": "2026-10-27",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00576",
+"title": "Improved Cauchy-Schwarz-Kaplansky Inequality",
+"abstract": "We make an improvement and give a new proof for Cauchy-Schwarz-Kaplansky inequality derived by Kaplansky [\\textit{Am. J. Math., 1953}].",
+"authors": [
+"K. MAHESH KRISHNA"
+],
+"categories": [
+"math.OA",
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2610.00576v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00576v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-27",
+"ai_mode": "human",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -3414,6 +3458,29 @@
 "announce": "replace-cross",
 "date": "2026-10-27",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00582",
+"title": "Stability and Convergence of a Regularized Immersed Boundary Method under Dynamic Cartesian Refinement. Part I: Fixed Geometry",
+"abstract": "We analyze a conforming variational immersed boundary discretization of the two-dimensional unsteady Stokes equations with a fixed interface. Exactly divergence-free velocities are obtained from Cartesian bicubic Hermite streamfunctions; regularized surface moments impose the boundary condition, and backward Euler time stepping uses constrained orthogonal transfer. Arbitrary local fine-scale enrichments may be added or removed at every step while the complete coarse space is retained. For homogeneous interface data, a common coarse comparison family yields an exact energy identity, a physical no-slip defect of order (\\sqrt{\\varepsilon}+\\sqrt{\\ell}), and velocity convergence without a restriction coupling the time step to the number of mesh changes. We extend this analysis to a disk with prescribed time-dependent angular velocity. A coarse lifting reproduces rigid rotation exactly throughout every regularization support, independently of the refinement pattern and surface partition. Subtracting this lifting reduces the driven problem to the homogeneous constraint spaces with an explicitly controlled forcing perturbation. This gives driven stability, physical slip control, and a quantitative energy error estimate without assuming a uniform multiplier inf–sup condition. The method assumes exact integration and is not a standard staggered-grid AMR scheme. Manufactured unsteady stationary and rotating-disk calculations test the implementation and its quadrature sensitivity. General changes of interface geometry and fluid-driven rigid-body motion remain outside the analysis.",
+"authors": [
+"Sida He"
+],
+"categories": [
+"math.MP",
+"math.AP",
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2610.00582v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00582v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-27",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
