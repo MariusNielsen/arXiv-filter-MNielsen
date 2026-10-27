@@ -1,6 +1,6 @@
 {
 "day": "2026-10-27",
-"updated": "2026-10-27T05:07:59+00:00",
+"updated": "2026-10-27T06:05:23+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -561,6 +561,27 @@
 "reasons": [
 "abstract: higher categor"
 ],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00577",
+"title": "A $2^{o(n)}$ Time Algorithm for 3-SAT",
+"abstract": "We refute the Exponential Time Hypothesis (ETH) by presenting a deterministic algorithm for 3-SAT on n variables that runs in $2^{o(n)}$ time. Our algorithm in fact solves the harder problem #3-SAT, providing a count of the number of satisfying assignments. The result was discovered by an internal research Claude model and has been formalized in Lean 4.",
+"authors": [
+"Anthropic"
+],
+"categories": [
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2610.00577v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00577v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
 "watched_authors": []
 },
 {
