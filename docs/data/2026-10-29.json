@@ -1,0 +1,56 @@
+{
+"day": "2026-10-29",
+"updated": "2026-10-29T05:05:10+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2610.00598",
+"title": "Do Self-Improving Coding Agents Beat Textbook Baselines? Evidence from a Darwin Gödel Machine Port and Two Published Systems",
+"abstract": "Self-improving agent harnesses such as the Darwin Gödel Machine (DGM) let a coding agent edit its own scaffolding, and they keep the edits that score better and report large gains on coding benchmarks. In three pre-registered rounds, we compare what such loops find with standard engineering changes (\"textbook moves\"), one-shot redesigns by a language model, and placebo loops that make no edits; we also re-run released agents of the DGM and of ADAS with newer models. On hard LiveCodeBench problems with Claude Haiku 5.5, the starting agent often stops on an empty turn because its output-token limit is too small for the model's reasoning. A single textbook move, which raises this limit to 16,000 tokens and makes three other changes to the model loop, recovers about 90% of the gain of the best loop agent and costs less than half as much per task. Four of five one-shot redesigns by Claude Opus 5.5 also raise the limit, to 8,192 tokens, without evaluation feedback. The best loop agent still leads the textbook moves by 1–5 percentage points in pass rate. On held-out SWE-bench Verified tasks, run in the DGM's harness, the DGM's released best agent does not outperform its initial agent; three textbook moves on the initial agent outperform the best agent at a quarter of its cost, whether or not the patches of runs that ended early, most of them the best agent's, are kept. Claims of self-improvement should be measured against textbook moves, one-shot redesigns, placebo loops, held-out tasks and newer models.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"cs.AI"
+],
+"link": "https://hexagonmath.org/abs/2610.00598v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00598v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00597",
+"title": "Serre’s conjecture on the Artin character for a regular local ring",
+"abstract": "We prove Serre’s conjecture on the Artin character of a finite group G acting on a regular local ring A with isolated fixed points. The case of positive characteristic is due to Abe. In mixed characteristic we use an equivariant deformation to reduce to the case where A has an isolated singularity, in which case we can make use of the results of Beraldo and Pippi on the twisted conductor formula.",
+"authors": [
+"Mark Kisin"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2610.00597v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00597v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
