@@ -1,6 +1,6 @@
 {
 "day": "2026-10-29",
-"updated": "2026-10-29T05:05:10+00:00",
+"updated": "2026-10-29T16:23:07+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -9,6 +9,183 @@
 "math.RT"
 ],
 "papers": [
+{
+"pid": "hexagon:2610.00619",
+"title": "Universal test rings for rational Gersten injectivity",
+"abstract": "For each prime $p$, rational Gersten injectivity in a fixed degree for mixed-characteristic henselian discrete valuation rings of residue characteristic $p$ is equivalent to injectivity for $W(\\overline{\\mathbb{F}_p(t_1,t_2,\\ldots)})$. For a finite bound $d$ on residue transcendence degree, the test ring is $W(\\overline{\\mathbb{F}_p(t_1,\\ldots,t_d)})$. For these henselian DVRs, rational localization boundary images depend only on the residue field and are reflected by arbitrary residue-field extensions. A normalization by the absolute ramification index makes the resulting comparisons of kernels canonical and functorial. The proof uses regular approximation, finite transfers, and perfection. An appendix gives an alternative comparison based on the existential embedding theorem of Anscombe--Dittmann--Jahnke, including an example with nonnoetherian valuation rings. We also describe the additional boundary condition that induction between consecutive test rings would require.",
+"authors": [
+"Niels FELD"
+],
+"categories": [
+"math.KT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2610.00619v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00619v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 5,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00607",
+"title": "A computer-assisted proof of the four-uniform Erdős matching conjecture",
+"abstract": "We prove the Erdős matching conjecture for four-uniform hypergraphs for every matching parameter and every admissible number of vertices. The proof combines the finite-board method of Hou, Hu and Liu with ordered local configurations, exact integer counts and certified inequalities. Small matching parameters are treated on full labelled configurations. Two fixed counting inequalities and two endpoint anchors propagate polynomially across the remaining range; 51 endpoint records and the two fixed inequalities suffice for the intermediate cardinality inputs. Dense triple supports admit direct slab and majority proofs. A classical shadow bound and a deletion argument complete the passage from these local bounds to the global theorem. The strict margins also yield clique stability with explicit constants for shifted families whose matching number is preserved on deleting the first vertex, and classifications of extremizers in specified ranges. The finite parts are supported by exact certificates and exhaustive computations with stated mathematical specifications.",
+"authors": [
+"Oleksiy Babanskyy"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00607v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00607v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00599",
+"title": "A logarithmic error term for subset sums of zero-sum-free sets",
+"abstract": "For a positive integer $k$, let $f(k)$ be the minimum number of distinct nonempty subset sums of a zero-sum-free $k$-element set, where the minimum is taken over all finite abelian groups. We prove $f(k)\\ge \\frac{k^2}{2}-13k\\log(k+1)-116k$. Together with the classical upper bound, this gives $f(k)=k^2/2+O(k\\log k)$, with the optimal leading coefficient. As a consequence, the Olson constant of every finite abelian group $G$ satisfies $\\mathrm{Ol}(G)\\le\\sqrt{2|G|}+O(\\log|G|)$. The argument combines a triangular lower bound for repeated supports, a count using blocks of two and three copies, and a greedy expansion argument. No restriction is imposed on the order of the group or on the stabilizer of the set of subset sums.",
+"authors": [
+"Chao Liu"
+],
+"categories": [
+"math.NT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00599v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00599v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00616",
+"title": "Binary Reconstruction from the Fourth Deck: Torsion Phases, Local Gluing, and Sign Extinction",
+"abstract": "We give a candidate proof of the following statement: for every finite cyclic group $C_n$, the cumulative fourth deck of a binary subset determines it up to translation. Hence $r_{\\mathrm{set}}(C_n)\\le4$ for every $n$, and, using the Keleti--Kolountzakis Corollary 1.1 for the lower bound, $r_{\\mathrm{set}}(C_n)=4$ for every even $n>10$. The proof has four components: finiteness of the binary fibre, cyclotomic torsion of the phases, gluing of primary characters, and extinction of dyadic residues by two odd-denominator projectors. The bridge between ordered analytic correlations and Pebody's cumulative deck is proved explicitly, including stabilizers, zero and repeated offsets, and the empty pattern. The text contains the complete mathematical chain; finite checks are included only as convention and implementation checks, not as premises of the uniform proof.",
+"authors": [
+"Oleksiy Babanskyy"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2610.00616v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00616v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00603",
+"title": "Biperfectness of the theta basis of a maximal unipotent subgroup",
+"abstract": "We prove that the theta basis of the coordinate ring of a maximal unipotent subgroup of a complex semisimple group is biperfect. This answers affirmatively Question 6.5 in Kamnitzer's ICM 2022 survey.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2610.00603v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00603v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00601",
+"title": "Collision Systems, with Applications to Geodesic Networks and Point Billiards",
+"abstract": "A collision system is a finite set of point particles with masses, moving freely with velocities given by the gradient of a convex energy function of the momentum, whose collisions conserve total momentum and total energy and are otherwise unconstrained. Stationary geodesic networks near a line of multiplicity \\(n\\), point billiards with momentum- and energy-conserving collisions, and relativistic point particles are collision systems. We prove that the number of collisions of a collision system is at most exponential in its total mass, with an explicit base, whenever the energy is close enough to the Newtonian one, and that it can be exponential for every energy on a line. For geodesic networks this replaces the previously reported bounds, of order \\(n^2\\) from below and \\(n^{n^2}\\) from above, by exponential bounds on both sides; for point billiards it gives explicit exponential bounds. The exponential growth rates remain open.",
+"authors": [
+"Alec Shelley",
+"Henry Bosch"
+],
+"categories": [
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2610.00601v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00601v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00611",
+"title": "Continuity, Testing Regions and Fragility of Quantum Channel Divergences",
+"abstract": "Converse bounds on discriminating and estimating quantum channels are evaluated on a characterized model of the channels, which is only known approximately. This book studies when such bounds, and the operational exponents they bound, depend continuously on the channels, and whether their sensitivity to characterization error is a property of the task or only of the bound. The book opens with noisy quantum gates. The supports of the Choi matrices separate genuine fragility, where the operational exponent itself jumps, from spurious fragility, where only single-letter converses jump. Near a gate with an incoherent noise floor, the smallest eigenvalue of the normalized Choi matrix sets the sensitivity. At first order, under errors in the model, this sensitivity belongs to the task. At second order, under a coherent miscalibration, the converses can overshoot the adaptive Stein and Chernoff exponents by factors that grow without bound as the noise decreases, although for small miscalibrations of a depolarized qubit they stay within a factor 3/2. Certifying a converse from tomographic data costs a number of channel uses set by the same floor. The general theory follows. Divergences built from Kubo-Ando means, including the geometric fidelity, the geometric Renyi divergences and the Belavkin-Staszewski relative entropy, are functions of the Arveson-Radon-Nikodym derivative of one channel with respect to the sum of the pair, and in this coordinate they are continuous with dimension-free moduli. In the diamond norm they are continuous at a pair of completely positive maps exactly when the Choi matrix of the sum is invertible or the fidelity vanishes, so an ideal unitary gate paired with itself is a point of discontinuity. Divergences built from hypothesis tests, such as the Umegaki relative entropy and the hockey-stick f-divergences, are uniformly continuous in every dimension, and the adaptive",
+"authors": [
+"Morgan Jones"
+],
+"categories": [
+"math-ph",
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2610.00611v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00611v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00600",
+"title": "Deterministic Factoring in Time $N^{o(1)}$",
+"abstract": "The current best upper bound for deterministic factoring is $N^{1/5+o(1)}$. We provide a Lean certificate that there exists a deterministic Turing machine that computes the smallest prime factor of every $N$ in $N^{o(1)}$ steps: for every $k\\ge 1$ it runs within $C_k\\,2^{n/k}$ steps on $n$-bit inputs. The algorithm reduces factoring to counting divisors with prescribed leading bits, and counts them by leveraging the counting engine used to refute the Exponential Time Hypothesis (ETH). The Lean statement that a reader must check to verify the proof is only 13 lines and only uses Mathlib. The full proof is about 35,000 lines. This note was written less than 24 hours after the ETH refutations were posted. No human-readable explanation of these results exists yet, and their Lean proofs are long: Anthropic's alone runs to about 152,000 lines. Our proof re-proves only the part of the counting engine it needs and imports nothing from those developments. We hope this application, with its short statement, serves as a stepping stone for those working to understand the engine; a follow-up paper will explain this proof in detail.",
+"authors": [
+"Isaac Rudich",
+"Louis-Martin Rousseau"
+],
+"categories": [
+"cs.CC",
+"math.NT",
+"cs.AI",
+"cs.DS",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2610.00600v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00600v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
 {
 "pid": "hexagon:2610.00598",
 "title": "Do Self-Improving Coding Agents Beat Textbook Baselines? Evidence from a Darwin Gödel Machine Port and Two Published Systems",
@@ -31,6 +208,203 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2610.00609",
+"title": "Dynamics of the spherical Sherrington–Kirkpatrick model, Part I: Foundations and tools",
+"abstract": "We study the Langevin dynamics of the spherical Sherrington–Kirkpatrick model, the diffusion on the sphere of radius $\\sqrt N$ in $\\mathbb R^N$ that is reversible with respect to the Gibbs measure with density proportional to $\\exp(\\beta x^{\\mathsf T}Wx/\\sqrt2)$, where $W$ is an $N\\times N$ matrix from the Gaussian orthogonal ensemble. The dynamics is started from the uniform distribution on the sphere, independently of $W$. We determine the asymptotic quenched total-variation distance to equilibrium as a function of time in the fixed-temperature, mesoscopic, critical-window, and infinite-temperature crossover regimes described below, with convergence in probability or in distribution with respect to $W$. Let $\\beta_c=1/\\sqrt2$ be the critical inverse temperature. For $\\beta<\\beta_c$ there is cutoff with a Gaussian profile at fixed $\\beta\\in(0,\\beta_c)$, along every mesoscopic approach of $\\beta$ to $\\beta_c$ from below, and in the infinite-temperature crossover when $N\\beta_N^2\\to\\infty$; when $N\\beta_N^2$ stays bounded, the distance relaxes over bounded times and there is no cutoff. At fixed $\\beta\\in(0,\\beta_c)$ the mixing time is $(\\log N-(3/2)\\log\\log N+O(1))/(4(1-\\sqrt2\\beta)^2)$, and the correction $-(3/2)\\log\\log N$ comes from the edge of the spectrum of $W$. For $\\beta>\\beta_c$, at fixed $\\beta$ and along every mesoscopic approach to $\\beta_c$ from above, there is cutoff at a time set by the gap between the two largest eigenvalues of $W$, of order $N^{2/3}\\log N$ at fixed $\\beta$. The profile is the total-variation distance between a standard Gaussian variable and its sum with an independent Cauchy variable; the Cauchy variable is the ratio of the first two eigencoordinates at an early stage of the evolution. In the critical window $\\sqrt2\\beta=1+\\sigma N^{-1/3}$, the distance at time $N^{2/3}s$ converges in distribution to a random profile determined by the Airy point process, and there is no cutoff. As $\\sigma\\to\\pm\\infty$, this profile, suitably recentered and rescaled, converges to the profiles of the two mesoscopic regimes.",
+"authors": [
+"P. M. Aronow",
+"Patrick Lopatto"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2610.00609v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00609v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00610",
+"title": "Dynamics of the spherical Sherrington–Kirkpatrick model, Part II: Mixing profiles and critical dynamics",
+"abstract": "We study the Langevin dynamics of the spherical Sherrington–Kirkpatrick model, the diffusion on the sphere of radius $\\sqrt N$ in $\\mathbb R^N$ that is reversible with respect to the Gibbs measure with density proportional to $\\exp(\\beta x^{\\mathsf T}Wx/\\sqrt2)$, where $W$ is an $N\\times N$ matrix from the Gaussian orthogonal ensemble. The dynamics is started from the uniform distribution on the sphere, independently of $W$. We determine the asymptotic quenched total-variation distance to equilibrium as a function of time in the fixed-temperature, mesoscopic, critical-window, and infinite-temperature crossover regimes described below, with convergence in probability or in distribution with respect to $W$. Let $\\beta_c=1/\\sqrt2$ be the critical inverse temperature. For $\\beta<\\beta_c$ there is cutoff with a Gaussian profile at fixed $\\beta\\in(0,\\beta_c)$, along every mesoscopic approach of $\\beta$ to $\\beta_c$ from below, and in the infinite-temperature crossover when $N\\beta_N^2\\to\\infty$; when $N\\beta_N^2$ stays bounded, the distance relaxes over bounded times and there is no cutoff. At fixed $\\beta\\in(0,\\beta_c)$ the mixing time is $(\\log N-(3/2)\\log\\log N+O(1))/(4(1-\\sqrt2\\beta)^2)$, and the correction $-(3/2)\\log\\log N$ comes from the edge of the spectrum of $W$. For $\\beta>\\beta_c$, at fixed $\\beta$ and along every mesoscopic approach to $\\beta_c$ from above, there is cutoff at a time set by the gap between the two largest eigenvalues of $W$, of order $N^{2/3}\\log N$ at fixed $\\beta$. The profile is the total-variation distance between a standard Gaussian variable and its sum with an independent Cauchy variable; the Cauchy variable is the ratio of the first two eigencoordinates at an early stage of the evolution. In the critical window $\\sqrt2\\beta=1+\\sigma N^{-1/3}$, the distance at time $N^{2/3}s$ converges in distribution to a random profile determined by the Airy point process, and there is no cutoff. As $\\sigma\\to\\pm\\infty$, this profile, suitably recentered and rescaled, converges to the profiles of the two mesoscopic regimes.",
+"authors": [
+"P. M. Aronow",
+"Patrick Lopatto"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2610.00610v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00610v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00612",
+"title": "Equality of the Jellium and the Uniform Electron Gas Energies",
+"abstract": "Jellium, a system of electrons in a uniform neutralizing background, and the uniform electron gas (UEG), a system of electrons with constant density and no background, are two standard models of the electron gas. We prove that the ground-state energy per unit volume of Jellium, as defined by Lieb and Narnhofer, coincides with the UEG energy defined by Lewin, Lieb and Seiringer, i.e. $e^\\hbar_{\\rm Jel}(\\rho_0)=e^\\hbar_{\\rm UEG}(\\rho_0)$. This equality was previously established in the classical case by Lewin, Lieb and Seiringer and independently by Cotar and Petrache.",
+"authors": [
+"Mihaly A. Csirik"
+],
+"categories": [
+"math-ph",
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2610.00612v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00612v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00608",
+"title": "Existence of the $q$-Colorability Threshold for Sparse Random Graphs",
+"abstract": "For a fixed integer $q \\ge 3$, we call a graph $q$-colorable if its vertices admit $q$ colors with adjacent vertices colored differently. We prove that there exists $d_q > 0$ such that the random graph on $n$ vertices with independent edge probability $d/n$ is $q$-colorable with probability tending to one for fixed $0 \\le d < d_q$ and to zero for fixed $d > d_q$, as $n \\to \\infty$. The same holds for the uniform random graph with $\\lfloor cn \\rfloor$ edges, for fixed $c \\ge 0$, with threshold $d_q/2$ in $c$. For fixed $\\epsilon \\in (0, 1)$, the first loss of colorability under independent uniform additions of pairs of distinct vertices lies with probability at least $1 - \\epsilon$ in a deterministic window of $O_{q, \\epsilon}(n(\\log n)^{-3/2})$ steps, where $\\log$ is natural. The proof uses interpolation to establish convergence and bounds the expected number of pairs needed to destroy colorability of the last colorable graph by identifying random vertices and controlling the growth of classes equal in every coloring.",
+"authors": [
+"P. M. Aronow",
+"Patrick Lopatto"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2610.00608v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00608v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00615",
+"title": "Factorial denominators of rank-two scattering coefficients",
+"abstract": "We prove that, for every pair of positive integers \\(i,j\\), the universal rank-two cluster scattering coefficient \\(\\tau(i,j)\\) satisfies \\(\\max(i,j)!\\,\\tau(i,j)\\in\\mathbb{Z}[b,c,g]\\). This resolves the factorial-denominator conjecture of Elgin, Reading, and Stella (Conjecture 4).",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.CO",
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2610.00615v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00615v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00606",
+"title": "FINITE LENGTH DATA DO NOT UNIVERSALLY DETERMINE FLAT THREE-TORI EXPLICIT CONSTRUCTIONS, PROOFS, AND A CAUTION FOR COSMIC TOPOLOGY",
+"abstract": "Abstract. A flat three-torus is determined by a Euclidean lattice up to orthogonal changes of coordinates, or equivalently by a positive-definite Gram matrix up to integral change of basis. A finite list of short lattice lengths is a much weaker datum. This paper gives an explicit and fully elementary construction showing that the weakness can persist over a large range of scales. For every real parameter A ≥ 2, we exhibit two positive-definite Gram matrices G+(A) and G−(A) whose associated flat tori have different volumes and hence are not isometric, while their length multisets agree below a radius RA = p 2A2 − 2A−2 − 4A−4. The shortest nonzero lattice length is exactly one in both examples, so RA is not made large by a uniform rescaling; it tends to infinity with A. The proof isolates the coordinate support on which the two quadratic forms differ and supplies a sharp enough lower bound to exclude that support from every shorter vector. A second, isotropic example gives a compact rational pair whose short length multisets agree below √ 2 and differ at that threshold. We then place the construction alongside the theory of ternary quadratic forms and explain what it does—and does not—say about cosmic topology. In particular, finite agreement of direct-lattice lengths is not equivalent to equality of CMB covariance data, nor does it establish an observational degeneracy for any specified cosmological model",
+"authors": [
+"Changxia Lin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2610.00606v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00606v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00618",
+"title": "From Döblin to Aleksandrov",
+"abstract": "We prove Aleksandrov maximum principles for linear second-order kinetic equations in non-divergence form with measurable, uniformly elliptic diffusion coefficients. For coefficients $A(t,v)$ we obtain every source exponent $p>2d+1$. For autonomous coefficients $a(x,v)$ in one space dimension, we obtain every $p>p_*(\\frac\\Lambda\\lambda)$, where $p_*(\\frac\\Lambda\\lambda)<4$ depends only on the ellipticity ratio. The first step in both proofs is Döblin--Fourier cancellation: two positive parts of the kernel have nearly opposite phases, and a common lower bound for their velocity marginals allows us to cancel fixed portions of them. For the autonomous problem, this argument applies on velocity intervals away from zero. A preliminary Aleksandrov estimate gives Hölder continuity and then a Harnack comparison. A homogeneous Bellman barrier controls concentration in position and velocity; together with Harnack, it makes the local density estimates summable across zero velocity, including at $p=4$. We give the full proofs and the passage from the maximum principle to local Hölder continuity.",
+"authors": [
+"Amélie Loher",
+"Connor Mooney",
+"Clément Mouhot"
+],
+"categories": [
+"math.AP",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2610.00618v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00618v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00595",
+"title": "Metric, Schauder and Operator-Valued Frames",
+"abstract": "Notion of frames and Bessel sequences for metric spaces have been introduced. This notion is related with the notion of Lipschitz free Banach spaces. It is proved that every separable metric space admits a metric $\\mathcal{M}_d$-frame. Through Lipschitz-free Banach spaces it is showed that there is a correspondence between frames for metric spaces and frames for subsets of Banach spaces. Several characterizations of metric frames are obtained. Stability results are also presented. Non linear multipliers are introduced and studied. This notion is connected with the notion of Lipschitz compact operators. Continuity properties of multipliers are discussed. For a subclass of approximated Schauder frames for Banach spaces, characterization result is derived using standard Schauder basis for standard sequence spaces. Duals of a subclass of approximate Schauder frames are completely described. Similarity of this class is characterized and interpolation result is derived using orthogonality. A dilation result is obtained. A new identity is derived for Banach spaces which admit a homogeneous semi-inner product. Some stability results are obtained for this class. A generalization of operator-valued frames for Hilbert spaces are introduced which unifies all the known generalizations of frames for Hilbert spaces. This notion has been studied in depth by imposing factorization property of the frame operator. Its duality, similarity and orthogonality are addressed. Connections between this notion and unitary representations of groups and group-like unitary systems are derived. Paley-Wiener theorem for this class are derived.",
+"authors": [
+"K. MAHESH KRISHNA"
+],
+"categories": [
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2610.00595v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00595v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00617",
+"title": "Natural Cohomology of General Steiner Bundles",
+"abstract": "We prove that a general Steiner bundle on projective space over a field of characteris- tic zero has natural cohomology. The proof constructs a matrix of linear forms from multiplication of sections on a curve. When the rank exceeds the dimension of the projective space, a finite étale isogeny of elliptic curves splits the bundles controlling the graded kernels and cokernels into line bundles of equal degree. Choosing the auxiliary line bundle outside a finite set gives maximal rank in every degree. A rational curve provides the boundary case. Two open rank conditions then yield the assertion for general matrices and all twists.",
+"authors": [
+"Vlado Vojdanovski"
+],
+"categories": [
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2610.00617v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00617v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2610.00597",
 "title": "Serre’s conjecture on the Artin character for a regular local ring",
 "abstract": "We prove Serre’s conjecture on the Artin character of a finite group G acting on a regular local ring A with isolated fixed points. The case of positive characteristic is due to Abe. In mixed characteristic we use an equivariant deformation to reduce to the case where A has an isolated singularity, in which case we can make use of the results of Beraldo and Pippi on the twisted conductor formula.",
@@ -47,6 +421,122 @@
 "announce": "new",
 "date": "2026-10-28",
 "ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00594",
+"title": "Subexponential Weighted Counting and Exact Optimisation",
+"abstract": "The deterministic algorithm of \\oai{} that counts the satisfying assignments of a $k$-CNF in time $2^{o(n)}$ is reproduced in full and extended from counting to sums of local weights with values in any commutative $\\Q$-algebra. The extension gives deterministic $2^{o(n)}$ algorithms for exact Max-Cut and Max-$k$-SAT on sparse instances, for the independence polynomial, the maximum independent set and the knapsack problem with a conflict graph on every graph, for $0$-$1$ integer programs whose rows involve boundedly many variables, for Vertex Cover in time $2^{o(k)}+\\poly(n)$, for the density of states of Ising and Potts models on bounded-degree graphs, for the Tutte polynomial on the hyperbolas $(x-1)(y-1)=q$, for the minimum distance and the maximum-likelihood decoding of codes with sparse parity checks, for Max-Cut and Max-$k$-SAT at every average degree $o(\\sqrt{\\log n/\\log\\log n})$, for Max-Cut on dense graphs close to blow-ups of graphs with $o(n/\\log n)$ vertices, and for every problem in $\\SNP$.",
+"authors": [
+"Deep Bhattacharjee"
+],
+"categories": [
+"cs.CC",
+"math.CO",
+"cs.DS"
+],
+"link": "https://hexagonmath.org/abs/2610.00594v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00594v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00604",
+"title": "The Euclidean algorithm is not optimal among uniform processes",
+"abstract": "Reusing a stored Euclidean prefix, we show that every pair $a\\geq b$ has a derivation of $\\gcd(a,b)$ from $a,b$ with $O(\\log a/\\log\\log a)$ applications of the remainder function alone; Euclid's algorithm needs order $\\log a$ in the worst case. These derivations bound the intrinsic complexity of gcd and coprimeness by the same order, refuting Moschovakis's conjectured logarithmic lower bounds for uniform processes; by his best-uniform-process theorem, a single uniform process attains this bound. The Main Conjecture for algorithms remains open. We also prove an $\\Omega(\\log\\log a)$ lower bound on this complexity for almost all coprime pairs and give, for each $\\varepsilon>0$, a nondeterministic register program computing gcd that, on every input $a\\geq b\\geq1$, has a successful computation using at most $\\varepsilon\\log a+O(1)$ remainder calls. The upper bound also answers negatively an open problem of van den Dries and Moschovakis on the closure depth of the gcd. The main bounds and the refutations are formalised in Lean 4; the best-uniform-process theorem is cited.",
+"authors": [
+"Jason Davies"
+],
+"categories": [
+"math.LO",
+"math.NT",
+"cs.CC",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2610.00604v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00604v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00614",
+"title": "The Mirković–Vilonen basis and cluster pointedness",
+"abstract": "We prove that the Mirković–Vilonen basis of $\\mathbb{C}[N]$ contains every cluster monomial and that each of its elements is $g$-pointed in every cluster, where $N$ is a maximal unipotent subgroup of a complex semisimple group. This resolves Conjecture 6.6 in Kamnitzer’s ICM 2022 survey.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT",
+"math.QA",
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2610.00614v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00614v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00602",
+"title": "Tsallis Metrics on Density Matrices via the S-Divergence",
+"abstract": "We study symmetrized divergences induced by centroids of $\\alpha$-Tsallis relative entropies between density matrices $\\sigma$ and $\\rho$; up to scaling, the induced divergence equals $|2-\\|\\rho^\\alpha+\\sigma^\\alpha\\|_{1/\\alpha}|$. Earlier work (S. Sra, \"Metrics induced by Jensen–Shannon and related divergences on positive definite matrices,\" Linear Algebra Appl., 2021) studied such divergences and metrics induced by them. That paper allowed centroids to range over the positive definite cone, while we require that the centroid itself be a density matrix. This (more natural) choice makes the metricity in this paper considerably stronger than that of the aforementioned paper. Specifically, we prove that $|2-\\|\\rho^\\alpha+\\sigma^\\alpha\\|_{1/\\alpha}|^{1/2}$ is a metric on density matrices for $1/2\\le\\alpha\\le2$, $\\alpha\\ne1$. For $\\alpha<1$, the proof uses a new four-point theorem for the S-divergence that might be of independent interest. For $\\alpha>1$, we first prove the endpoint $\\alpha=2$, and then transfer it to the other orders by a tensoring trick.",
+"authors": [
+"Suvrit Sra"
+],
+"categories": [
+"math.FA",
+"quant-ph",
+"math.IT"
+],
+"link": "https://hexagonmath.org/abs/2610.00602v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00602v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2610.00613",
+"title": "What Does the Refutation of the Exponential Time Hypothesis Mean for Learning Theory?",
+"abstract": "Two recent works by OpenAI and Anthropic refuted the Exponential Time Hypothesis (ETH). They count the satisfying assignments of a $k$-CNF on $n$ variables in time $2^{n/(\\log n)^{1/2-o(1)}}$. Many fine-grained lower bounds in learning theory rest on ETH and its relatives. We determine what the refutation changes for learning. The answer is a locality principle: the new algorithms speed up learning when each labeled example constrains few bits of the hypothesis, and under the CNF form of the Strong Exponential Time Hypothesis, which survives, the speed-up ends at $\\Theta(\\log N)$ bits. Three transitions make the principle precise. Locality. Call a class with $N$-bit descriptions $\\kappa$-local if each label depends on at most $\\kappa$ description bits, as for quantized models on sparse data. Then proper PAC learning, exact version-space counting and sampling, and the halving algorithm run in time $\\mathrm{poly}(m)\\cdot 2^{o(N)}$ on samples of size $m$ for $\\kappa=o((\\log N)^{1/4}/\\sqrt{\\log\\log N})$, and proper PAC learning at constant accuracy does so for $\\kappa=o(\\sqrt{\\log N})$. At inverse-polynomial accuracy, proper learning of $\\kappa$-local classes is equivalent to $\\kappa$-SAT, up to a factor $2$ in the locality. Under CNF-SETH, consistency for binarized perceptrons on $O(\\log N)$-sparse data needs time $2^{(1-\\gamma)N}$ for every $\\gamma>0$. Accuracy. Exact empirical risk minimization, proper agnostic learning and the exponential mechanism reduce to tensor contractions over a truncated polynomial ring. As a consequence, the Sparse Max-SAT Hypotheses of Alman and Vassilevska Williams are false. At constant accuracy, proper learning is SAT parameterized by formula length. With quasi-linear PCPs this gives a $2^{N/\\mathrm{polylog}\\,N}$ lower bound under a length form of ETH, which replaces Gap-ETH for reductions of quasi-linear size. At accuracy $N^{-3}/8$, the Max-3-SAT Hypothesis forces time $2^{(1-o(1))N}$. Treewidth. Exact inference in graphical models of bounded degree and arity takes time $2^{O(n/\\sqrt{\\log n})}$. On expanders this beats every elimination order and every structured DNNF. Under $\\#$CNF-SETH, time $2^{(1-\\gamma)\\mathrm{tw}}$ is again necessary once a model may have $\\mathrm{tw}^{O(1)}$ variables. We also take stock of the conditional lower bounds of learning theory: which ones fall, and which ones survive on which hypothesis. The next obstacle is a permutation problem. On difference vectors $e_i-e_j$, empirical risk minimization for real-valued halfspaces is weighted Feedback Arc Set, which the new algorithms do not reach.",
+"authors": [
+"Xiaoyu Li"
+],
+"categories": [
+"cs.DS",
+"cs.AI",
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2610.00613v1",
+"pdf": "https://hexagonmath.org/pdf/2610.00613v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-10-28",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],

@@ -4890,264 +4890,28 @@
  ],
  "hexagon_since": "2026-10-28",
  "last_page": {
-  "day": "2026-10-28",
+  "day": "2026-10-29",
   "papers": [
    {
-    "abstract": "In this paper, we give a new proof of the Hopkins-Morel-Hoyois theorem for fields $k$ of characteristic unequal to $p$ containing all primitive $p$-power roots of unity for a fixed prime $p$. This new proof follows Quillen's proof for the structure of the homotopy groups of $\\mathrm{MU}$ which utilizes topological power operations. To this end we define a motivic analog of the Steenrod power operations, using the theory of normed motivic spectra as developed by Bachmann--Hoyois and their application for the definition of motivic colimits as developed by Bachmann-Elmanto-Heller.",
-    "ai_mode": "",
+    "abstract": "For each prime $p$, rational Gersten injectivity in a fixed degree for mixed-characteristic henselian discrete valuation rings of residue characteristic $p$ is equivalent to injectivity for $W(\\overline{\\mathbb{F}_p(t_1,t_2,\\ldots)})$. For a finite bound $d$ on residue transcendence degree, the test ring is $W(\\overline{\\mathbb{F}_p(t_1,\\ldots,t_d)})$. For these henselian DVRs, rational localization boundary images depend only on the residue field and are reflected by arbitrary residue-field extensions. A normalization by the absolute ramification index makes the resulting comparisons of kernels canonical and functorial. The proof uses regular approximation, finite transfers, and perfection. An appendix gives an alternative comparison based on the existential embedding theorem of Anscombe--Dittmann--Jahnke, including an example with nonnoetherian valuation rings. We also describe the additional boundary condition that induction between consecutive test rings would require.",
+    "ai_mode": "mixed",
     "announce": "new",
     "authors": [
-     "Timon Tausendpfund"
+     "Niels FELD"
     ],
     "categories": [
+     "math.KT",
      "math.AG"
     ],
     "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.35903",
+    "link": "https://hexagonmath.org/abs/2610.00619v1",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.35903",
-    "pid": "2610.35903",
-    "reasons": [
-     "title: power operation",
-     "abstract: motivic spectr"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "Motivic $C_p$-power operations in $\\mathrm{MGL}$",
-    "watched": []
-   },
-   {
-    "abstract": "We computationally investigate a weight 3 analogue of the relationship between higher Bloch groups, algebraic K-theory, higher regulators, and special values of Dedekind zeta functions. In particular, for F a number field F, we define the pruned Bloch group B _3(F) and compare the covolume of its regulator lattice with zeta_F(3). We define a quantity kappa_3(F), which is conjecturally an integer, that is expected to be closely related to the order of K_4(O_F).",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Herbert Gangl",
-     "Paul E. Gunnells",
-     "Dan Yasaki"
-    ],
-    "categories": [
-     "math.NT",
-     "math.KT"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.36136",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.36136",
-    "pid": "2610.36136",
-    "reasons": [
-     "abstract: algebraic k-theor"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Computations in weight 3 of higher Bloch groups",
-    "watched": []
-   },
-   {
-    "abstract": "We construct tensor products of uniform matroids which are strictly freer than their generic linear tensor products. In particular, the generic tensor product of two copies of $U_{7,9}$ is not maximal. More generally, for every $a,b\\ge2$, this holds for $U_{7,a+7}$ and $U_{7,b+7}$. The construction disproves the uniform tensor-product formulation of Mason's conjecture. Its dual is a relaxation of an explicit circuit-hyperplane of a generic birigidity matroid. By the author's representability theorem, the resulting matroids are non-representable over every field. We also obtain full-rank counterexamples to the Jackson--Tanigawa hyperconnectivity conjecture in every dimension $d\\ge2$.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Mykhaylo Tyomkyn"
-    ],
-    "categories": [
-     "math.CO",
-     "math.AG"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.37616",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.37616",
-    "pid": "2610.37616",
-    "reasons": [
-     "abstract: presentable"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Generic tensor products are not maximal",
-    "watched": []
-   },
-   {
-    "abstract": "We show that several Dold-Kan type equivalences can be understood as a passage from constructible sheaves on symmetric products (i.e. spaces of polynomials) to polynomial sheaves in the sense of Goodwillie-Weiss calculus, by means of a natural analytic expansion functor. This geometric perspective provides access to standard tools from sheaf theory such as the six functor formalism and $t$-structures. For example, the equivalence between filtered objects and coherent chain complexes in a stable $\\infty$-category receives a geometric incarnation as Verdier duality between $!$-sheaves and $*$-cosheaves on an $\\infty$-dimensional simplex. As a main application, we obtain an intrinsic geometric explanation for the appearance of vanishing cycle data for perverse sheaves in a paracyclic variant of the Dold--Kan correspondence pioneered by Dwyer and Kan, at the same time lifting their equivalence to stable $\\infty$-categories.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Tobias Dyckerhoff",
-     "Till Heine",
-     "Simon Schneider"
-    ],
-    "categories": [
-     "math.AG",
-     "math.AT",
-     "math.CT"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.36314",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.36314",
-    "pid": "2610.36314",
-    "reasons": [
-     "abstract: infinity-categor",
-     "abstract: goodwillie"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Sheaves on polynomials and polynomial sheaves",
-    "watched": []
-   },
-   {
-    "abstract": "Zigzag persistence modules serve as an essential tool in topological data analysis. The fundamental theorem of persistent homology states that any zigzag persistence module decomposes into a direct sum of simple building blocks called interval modules. We consider an interval cover, a possibly redundant family of interval submodules spanning every vertex space of a finite zigzag persistence module. We give an elementary descent argument that replaces a redundant cover with a minimal one that is an interval decomposition. This provides an optimisation perspective on persistence modules and their interval decomposition. As an application, we give an estimate of the generalised rank invariant in terms of a cover.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Junyan Chu",
-     "Shizuo Kaji",
-     "Meiyan Kang"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.36843",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.36843",
-    "pid": "2610.36843",
+    "pdf": "https://hexagonmath.org/pdf/2610.00619v1",
+    "pid": "hexagon:2610.00619",
     "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "A minimising principle for interval covers of zigzag persistence modules",
-    "watched": []
-   },
-   {
-    "abstract": "In this paper, we prove that a one-dimensional Peano continuum $X$ admits a weak homotopy equivalence $X\\to C$ to a countable space $C$ if and only if the wild set $\\mathbf{w}(X)$ is countable.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Jeremy Brazas",
-     "Petar Pavesic"
-    ],
-    "categories": [
-     "math.GN",
-     "math.AT"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.35875",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.35875",
-    "pid": "2610.35875",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Countable models of one-dimensional Peano continua",
-    "watched": []
-   },
-   {
-    "abstract": "We determine the multiplicative structures of the homotopy operations on derived Lie algebras, derived restricted Lie algebras and partition Lie algebras, as well as the relation between these. Under Koszul duality, this follows from a calculation of the homotopy operations on derived rings, p-truncated algebras and divided power algebras over $\\mathbb{F}_p$.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Joost Nuiten",
-     "Jiaqi Fu"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.36942",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.36942",
-    "pid": "2610.36942",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Homotopy operations on higher Lie algebras",
-    "watched": []
-   },
-   {
-    "abstract": "We use the method of equivariant localization to obtain a recursion for the cobordism-valued one-point psi-class intersections on $\\overline{\\mathcal{M}}_{0,n}$, and hence the cobordism classes $[\\overline{\\mathcal{M}}_{0,n}]$. Restricting to the hyperbolic formal group law, we recover the Poincar\\'{e} polynomials of $\\overline{\\mathcal{M}}_{0,n}$ as a special case, and obtain new formulas for Hirzebruch $\\chi_y$-genera of $\\overline{\\mathcal{M}}_{0,n}$ twisted by tautological line bundles.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Benjamin Ellis-Bloor"
-    ],
-    "categories": [
-     "math.AG",
-     "math.AT",
-     "math.KT"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.37628",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.37628",
-    "pid": "2610.37628",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Localization, cobordism, and twisted $\\chi_y$-genera of $\\overline{\\mathcal{M}}_{0,n}$",
-    "watched": []
-   },
-   {
-    "abstract": "The Maxwell graph of a directed acyclic graph is obtained from its iterated basin and hill boundaries. The unweighted counts of extrema at these levels need not satisfy Morse inequalities. We assign multiplicities by the reduced homology of lower and upper order links and retain the vertices with nonzero local homology. The resulting graph preserves both boundary hierarchies, the local groups, and the homology of all sublevel and superlevel order complexes. Its descending and ascending Morse numbers satisfy the weak and strong Morse inequalities over any field. We also construct a Morse chain complex and compute the local groups in several examples. Finally, we consider homology on the original Maxwell graph and prove analogous inequalities for path homology using relative local groups.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Oleg R. Musin"
-    ],
-    "categories": [
-     "math.AT",
-     "math.CO"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.36372",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.36372",
-    "pid": "2610.36372",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Morse-Maxwell Theory for Directed Acyclic Graph",
-    "watched": []
-   },
-   {
-    "abstract": "Rational equivalence need not be closed in the Chow topology, and its closure can have infinitely generated homotopy groups. For a connected reduced complex projective variety, we prove that this closure is locally contractible and that its quotient in the algebraically trivial cycles is a finite or countable weak product of circles. The quotient map admits a global continuous section. Consequently, the higher homotopy of the cycle space is carried by the closure and is canonically identified with Lawson homology. We describe the remaining fundamental group quotient and its integral Walker comparison. Applications include smooth projective examples with infinite rank closure homotopy throughout prescribed finite intervals and a family of abelian threefolds with four simultaneously dense, nonconstructible quotient rank strata.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Wenchuan Hu"
-    ],
-    "categories": [
-     "math.AG",
-     "math.AT"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.36913",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.36913",
-    "pid": "2610.36913",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Topology of rational equivalence closures and Lawson homology",
-    "watched": []
-   },
-   {
-    "abstract": "Let $K$ be a field of characteristic $2$, let $\\rho\\in K^\\times$, and let $R_\\rho$ be the corresponding Liu-Schulz algebra. We give a complete description of the Gerstenhaber bracket and the BV structure on the Hochschild cohomology ring $\\operatorname{HH}^*(R_\\rho)$.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Artur Tursunbaev"
-    ],
-    "categories": [
-     "math.KT"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.36277",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.36277",
-    "pid": "2610.36277",
-    "reasons": [],
-    "source": "arxiv",
+    "source": "hexagon",
     "tier": 5,
-    "title": "BV structure on the Hochschild cohomology of Liu-Schulz algebras in characteristic two",
+    "title": "Universal test rings for rational Gersten injectivity",
     "watched": []
    }
   ]
@@ -7154,8 +6918,30 @@
   "hexagon:2610.00586": "2026-10-28",
   "hexagon:2610.00587": "2026-10-28",
   "hexagon:2610.00588": "2026-10-28",
+  "hexagon:2610.00594": "2026-10-29",
+  "hexagon:2610.00595": "2026-10-29",
   "hexagon:2610.00597": "2026-10-29",
   "hexagon:2610.00598": "2026-10-29",
+  "hexagon:2610.00599": "2026-10-29",
+  "hexagon:2610.00600": "2026-10-29",
+  "hexagon:2610.00601": "2026-10-29",
+  "hexagon:2610.00602": "2026-10-29",
+  "hexagon:2610.00603": "2026-10-29",
+  "hexagon:2610.00604": "2026-10-29",
+  "hexagon:2610.00606": "2026-10-29",
+  "hexagon:2610.00607": "2026-10-29",
+  "hexagon:2610.00608": "2026-10-29",
+  "hexagon:2610.00609": "2026-10-29",
+  "hexagon:2610.00610": "2026-10-29",
+  "hexagon:2610.00611": "2026-10-29",
+  "hexagon:2610.00612": "2026-10-29",
+  "hexagon:2610.00613": "2026-10-29",
+  "hexagon:2610.00614": "2026-10-29",
+  "hexagon:2610.00615": "2026-10-29",
+  "hexagon:2610.00616": "2026-10-29",
+  "hexagon:2610.00617": "2026-10-29",
+  "hexagon:2610.00618": "2026-10-29",
+  "hexagon:2610.00619": "2026-10-29",
   "math/0111031": "2026-10-27",
   "math/0702082": "2026-10-22"
  }
