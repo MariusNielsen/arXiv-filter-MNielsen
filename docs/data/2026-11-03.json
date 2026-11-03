@@ -1,0 +1,496 @@
+{
+"day": "2026-11-03",
+"updated": "2026-11-03T05:07:27+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2611.00041",
+"title": "A Bound Helium Dianion Does Not Exist",
+"abstract": "For a non-relativistic atom with $Z$ protons and $N$ bound electrons, Lieb proved in 1984 that $N<2Z+1$. Several improved bounds have been developed, but they all leave open the question of whether a bound helium dianion can exist. We prove that the answer is no. The ground-state energies of the four- and three-electron helium Hamiltonians coincide, $E_4(Z{=}2)=E_3(Z{=}2)$, so a helium nucleus binds at most three electrons. A weighted form of Lieb's identity reduces the problem to the nonnegativity of an explicit two-electron Schrodinger operator $m$, and Barta's inequality further reduces it to the pointwise nonnegativity of an explicit function of three variables. We prove the nonnegativity of this function by a combination of analytic estimates and a computer-assisted certification in interval arithmetic, and we publish the certificate with the paper.",
+"authors": [
+"Alec Shelley",
+"Daniel Tartakovsky"
+],
+"categories": [
+"math-ph",
+"math.SP"
+],
+"link": "https://hexagonmath.org/abs/2611.00041v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00041v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00038",
+"title": "Column rigidity in noncommutative $\\L^1$-spaces and completely isometric embeddings of Hilbertian operator spaces",
+"abstract": "We study exact embedding obstructions for Hilbertian operator spaces in noncommutative $\\mathrm{L}^1$-spaces. We prove a quantitative version of the column inequality, whose equality case forces the absolute values of the entries to be proportional. We deduce that an operator space embedded completely isometrically in a noncommutative $\\mathrm{L}^1$-space is a row Hilbert space whenever its first-column norms at the two-by-two level are Hilbert-Schmidt norms. This gives an exact embedding criterion for sums of weighted row and column spaces, including coordinate-dependent weights which are ordered in the same direction. In particular, $\\mathrm{R}_n+\\mathrm{C}_n$ does not embed completely isometrically into any noncommutative $\\mathrm{L}^1$-space when $n \\geq 2$. For $\\mathrm{OH}_n$, whose complete isometric embeddability is established in a companion paper, we retain the common-support and commutative-target obstructions. We also show that distortion one is approached by matrix models but is attained by none of them, and that the matrix size must tend to infinity as the distortion tends to one.",
+"authors": [
+"Cédric ARHANCET"
+],
+"categories": [
+"math.FA",
+"math.OA"
+],
+"link": "https://hexagonmath.org/abs/2611.00038v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00038v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00022",
+"title": "DEEP LOCI OF DOUBLE BOTT–SAMELSON VARIETIES",
+"abstract": "We prove that the deep locus of a complex double Bott–Samelson variety associated with a positive braid is its stabilizer locus. Consequently, the deep locus is empty if and only if any two components of the braid closure are unlinked. This resolves Conjecture 4.45 of Castronovo, Gorsky, Simental, and Speyer.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.SG",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00022v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00022v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00039",
+"title": "Exact diameter of the symmetric group with LX generators",
+"abstract": "We prove an exact formula for the diameter of the directed Cayley graph for the symmetric group $S_n$ with generators $L$ (left cyclic shift) and $X$ (exchange of the first two elements). For every $n \\geq 5$, we show that the diameter equals $(3n^2-8n+12)/4$ for even $n$ and $(3n^2-8n+9)/4$ for odd $n$. This resolves a longstanding question first proposed in the 1960's and refined in more recent work. The proof is AI-assisted and is based on a variety of combinatorial arguments. We also describe the agentic system we developed that led to this proof and looks highly promising for attacking other questions of this type. An accompanying Lean 4 formalization rigorously verifies the result.",
+"authors": [
+"Sergei Uskov",
+"Alexander Chervov",
+"Fedor Levkovich-Maslyuk",
+"Ivan Litvak",
+"Andrei Smolensky",
+"Alexander Soibelman"
+],
+"categories": [
+"math.CO",
+"math.GR"
+],
+"link": "https://hexagonmath.org/abs/2611.00039v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00039v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00034",
+"title": "Haagerup symmetries of the $E_8$ theory and conformal nets at central charge eight",
+"abstract": "A Haagerup algebra is a positive strongly rational vertex operator algebra $U$ of central charge eight with $\\Rep(U)$ braided equivalent to the Drinfeld center $Z(\\cal H_3)$ of the Haagerup fusion category. Such an algebra has been proposed by Jiao, with a computer-assisted proof, and announced by Riesen and by Huang. We show that $U$ has exactly three holomorphic extensions, each isomorphic to $V_{E_8}$, and that the categories of modules over the corresponding Lagrangian algebras are the three Haagerup fusion categories of Grossman and Snyder. The extensions attached to $\\cal H_2$ and $\\cal H_3$ are the two lattice extensions of $V_{E_6 \\oplus A_2}$. Along a strategy outlined by Huang, we prove a recognition theorem for $\\cal H_2$ and $\\cal H_3$ among unitary fusion categories of rank six with three invertible objects, a noncommutative fusion ring and a pointed part with trivial associator. For regular unitary vertex operator algebras with Tener's bounded localized vertex operators, we prove that the fusion product of two unitary modules is unitarizable when one of them integrates to the conformal net. The explicit unitary algebra $S \\subset V_{E_6 \\oplus A_2}$ of our previous work, isomorphic to Jiao's algebra, is strongly local. Granting that Jiao's algebra is a Haagerup algebra, we deduce that the conformal net $\\cal A_S$ is completely rational with $\\Rep(\\cal A_S) \\cong Z(\\cal H_3)$, that the Haagerup subfactor arises from $\\cal A_S$, and that $\\cal A_S$ solves a problem of Bischoff on generalized orbifolds. Under the same hypothesis, using a unitary structure on $V_{E_8 \\oplus E_8}$ found by exact computer calculations, we prove that $S$ is completely unitary and that $\\mathrm{Rep}(\\cal A_S) \\cong \\mathrm{Rep}(S)$ through the correspondence given by smeared vertex operators. The diagonal construction and the passage to the twin algebra also show that every Haagerup algebra is completely unitary and satisfies Condition I+.",
+"authors": [
+"Cédric ARHANCET"
+],
+"categories": [
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2611.00034v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00034v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00035",
+"title": "Hecke eigenvalues in level 1 modulo powers of 2 and 3: Hatada's question (1981) and the Coleman-Stein conjecture",
+"abstract": "Let $f$ be a normalized Hecke eigenform of level $1$ and weight $k$, with eigenvalues $a_n(f)$. In 1981 Hatada asked whether $a_p(f)\\equiv 1+p \\pmod{2^a}$ whenever $p\\equiv\\pm1\\pmod{2^{a-1}}$ and $6\\le a\\le 13$. Rustom's congruence modulo $128$ answers this for $a\\le 7$. We show that the answer is affirmative for $a\\le 10$ and negative for $a=11$, $12$ and $13$, the counterexamples coming from weight $16$ and $p=12289$. The proof combines Rustom's theorem with a certificate for $T_5$ modulo $512$ on period polynomials, a $2$-adic Galois law (for instance $a_p\\equiv 1+p^{k-1}\\pmod{2^{10}}$ for every $p\\equiv 1\\pmod 8$), and a reduction to a computation in a finite group. As a consequence, $a_p(f)=0$ implies $p\\equiv -1\\pmod{2^{11}}$. At the prime $3$ we show that, on Hatada's lattice of period polynomials, $T_2^2\\equiv 9(k-1)^2\\pmod{27}$, with refinements modulo $81$. This gives an independent proof of Conjecture 9.1 of Rustom without any ramification hypothesis and of the level $1$ case of the Coleman--Stein conjecture, both of which also follow from Rustom's recent classification modulo $81$. We also prove that $a_n(f)\\equiv\\sigma_{k-1}(n)\\pmod{81}$ for every $n\\equiv 1\\pmod 3$, and a $3$-adic Galois law modulo $243$ on the Galois group of $\\mathbb{Q}(\\sqrt{-3})$, which gives congruences modulo $243$ and $729$ for suitable split primes and a bilinear law for primes $\\ell\\equiv 2\\pmod 3$. Beyond $729$, for every prime $\\ell\\equiv 2\\pmod 3$ we prove $a_\\ell^2\\equiv\\sigma_{k-1}(\\ell)^2\\pmod{3^{\\min(2j+2,10)}}$, where $j=v_3(\\ell+1)$; the exponent $2j+2$ is attained for $j\\le 4$ and fails for $j=5$. Each statement is marked as proved, known, verified or open. The finite computations are certified by seven Python scripts, provided as ancillary files.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00035v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00035v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00028",
+"title": "Hilton’s conjecture on cycle multiplicities",
+"abstract": "We prove Hilton’s conjecture on the number of cycles of each length in dense Hamiltonian graphs. This resolves the problem posed by A. J.W. Hilton and recorded by Sheehan in 1977.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00028v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00028v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00026",
+"title": "Iterating the Gupta–Ndiaye–Norin–Wei method: a computer-verified bound $R(k)\\le 3.7698^{k+o(k)}$",
+"abstract": "Gupta, Ndiaye, Norin and Wei (GNNW) recast the Campos–Griffiths–Morris–Sahasrabudhe method as an inductive theorem that turns a known bound on off-diagonal Ramsey numbers into a better one. With two applications they obtained $R(k)\\le (3.7992\\ldots)^{k+o(k)}$. They also reported an unverified, AI-suggested third application giving $3.78233\\ldots$. We make three observations about their framework. (i) The free function $M$ can be optimised pointwise. (ii) For a fixed input, the best output exponent is the least solution of an explicit first-order differential inequality. (iii) GNNW's Theorem 14 needs only $F\\in C^1$ with locally Lipschitz derivative. We then construct an explicit chain of eight applications and verify every hypothesis by interval arithmetic on the whole range $0<\\lambda\\le 1$, with a hand-proved estimate covering $\\lambda\\to0$. The verification was done twice, with independent code, libraries and enclosure strategies. This proves $R(k)\\le 3.76973^{k+o(k)}$, and in particular confirms GNNW's $3.78233$. Numerically, iterating the optimal step converges to about $3.7690$, which suggests this is close to the limit of the GNNW method in its present form.",
+"authors": [
+"Ella Puerto"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00026v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00026v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00044",
+"title": "Linear independence of even Dirichlet beta values",
+"abstract": "Let $\\beta(s)=1-3^{-s}+5^{-s}-\\cdots$ denote the Dirichlet beta function. For all sufficiently large even integers $s$, we prove $\\dim_{\\mathbb{Q}}\\mathrm{span}_{\\mathbb{Q}}\\{\\beta(2),\\beta(4),\\ldots,\\beta(s)\\}\\geq 0.21\\sqrt{s/\\log s}$.",
+"authors": [
+"twinheterodox"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00044v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00044v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00024",
+"title": "Modular Dvoretzky, Type-Cotype, Khinchin-Kahane and Grothendieck Inequality Problems",
+"abstract": "We ask for noncommutative versions of following four: (1) Dvoretzky Theorem, (2) Type-Cotype Definition, (3) Khinchin-Kahane Inequalities, (4) Grothendieck Inequality.",
+"authors": [
+"K. MAHESH KRISHNA"
+],
+"categories": [
+"math.OA",
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2611.00024v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00024v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00033",
+"title": "On Bounds for Reciprocal Sums and Residues in Collatz Orbits, and Their Consequences",
+"abstract": "We prove uniform bounds for reciprocal sums and residue products along Collatz paths. Let $\\mathcal F$ be a finite nonrepeating shortcut path whose input states are greater than $1$, let $\\mathcal R_{\\mathcal F}$ be the sum of the reciprocals of its odd inputs, and let $\\rho_{\\mathcal F}$ be its finite-path residue. Then $\\mathcal R_{\\mathcal F}<1, \\qquad \\rho_{\\mathcal F}<\\frac{4}{3}. $ For the first-arrival trajectory of a terminating positive integer $n$, these inequalities give $\\mathcal R(n)<1, \\qquad \\rho(n)=\\frac{2^{E(n)}}{3^{O(n)}n}<\\frac{4}{3},$ where $E(n)$ and $O(n)$ are the division and odd-operation counts. More generally, when each odd value greater than $1$ is counted once, the corresponding reciprocal-sum and residue bounds hold for every forward orbit, without a termination assumption. The proof combines verified finite height-delay records and residue bounds, canonical-block reciprocal estimates, and an exact finite count organized by gap brackets. Gap brackets, closely related to parity vectors, record the divisions by two between successive odd inputs and organize the finite counting argument; together with a related coordinate representation, they also yield exact formulas for reconstructing finite trajectories. After taking base-$2$ logarithms, the bound $\\rho_{\\mathcal F}<4/3$ leaves an uncertainty of less than $1/2$ in the relation between the even- and odd-operation counts. Since these counts are integers, either count is determined exactly by the other count and the path endpoints. We obtain nearest-integer restrictions on the changes in $E$ and $O$ between adjacent integers, apart from explicit small exceptions, and prove that adjacent terminating integers of equal height have identical operation counts. Thus every equal-height streak lies in a single operation-count class. We further introduce the charge $\\lambda=E-2O$ and associated height and charge slice functions to study the persistence and eventual break of equal-height streaks. We distinguish class records, which are the least starting integers attaining specified values, from delay records, which attain new extrema relative to all smaller starting integers. The resulting record theory shows that $\\lambda$-delay records form a subsequence of the odd-count delay records, which form a subsequence of the common division-count and height-delay list. On the class side, the nonpositive charge-class records lie among the odd-count class records, which lie among the division-count class records, which in turn lie among the height-class records. The corresponding hierarchies also hold for first-arrival paths to a common endpoint $z$ when $z=1$ or when $z>2$ is nonperiodic under the shortcut map.",
+"authors": [
+"Behzad Nikzad",
+"Karl Frinkle",
+"Fatemeh Bagherzadeh"
+],
+"categories": [
+"math.NT",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00033v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00033v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00030",
+"title": "On the largest irreducible factor of an odd perfect polynomial over $\\mathbb{F}_2$",
+"abstract": "A polynomial $A$ over $\\mathbb{F}_2$ is perfect if it equals the sum $\\sigma(A)$ of all its divisors, and odd if it is coprime to $x^2+x$. Canaday conjectured in 1941 that 1 is the only odd perfect polynomial. Known necessary conditions on a counterexample bound its number of distinct irreducible factors ($\\omega\\ge 5$, Gallardo and Rahavandrainy), its number of irreducible factors counted with multiplicity and its degree ($\\Omega\\ge 12$ and $\\deg A>200$, Cengiz, Pollack and Trevino), and, when all exponents equal 2, the degree of its smallest irreducible factor (at least 40, Gallardo). We bound a different invariant: every odd perfect polynomial $A\\ne 1$ has an irreducible factor of degree at least 20. The proof reduces the question, for each $D$, to a finite system: if all irreducible factors of $A$ have degree at most $D$, the exponents of $A$ belong to an explicit finite set, through the cyclotomic factorisation of $\\sigma(P^h)$ and the multiplicative order of $P$ modulo the factors of $\\sigma(P^h)$. An iterated sieve on the resulting production relations empties for every $D\\le 19$. The computation was carried out twice, by two independent programs, with identical results; the second program is attached as an ancillary file. As a cross-check of the method, the same programs reproduce, by the orbit argument of Gallardo and Rahavandrainy, the exclusion of every prime of degree at most 30 as the smallest factor of a special perfect polynomial, in agreement with the published bounds.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00030v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00030v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00023",
+"title": "PARAMETER MONOTONICITY FOR GENERALIZED k-MARKOV NUMBERS",
+"abstract": "We prove that the order reversal asked about in Question 35 of Banaian and Huang cannot occur for generalized k-Markov numbers, answering their question negatively.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.NT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00023v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00023v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00027",
+"title": "Powers of a Prime in the Image of Summatory Valuation Functions",
+"abstract": "J.-L. Nicolas asked how often a power of $2$ belongs to the image of $c(n)=\\sum_{k\\le n}2^{v_2(k)}$, where $v_2$ is the $2$-adic valuation, and showed that both the number $A(x)$ of exponents $a\\le x$ with $2^a$ in the image and the number $B(x)$ of the other exponents tend to infinity. We prove the identity $c(n)=n+\\frac12\\sum_{i}i\\,2^{i}$, the sum running over the positions of the binary digits $1$ of $n$, so that $2^a$ lies in the image of $c$ if and only if $2^{a+3}$ is a sum of distinct terms of the superincreasing sequence $(j2^j)_{j\\ge1}$. For every exponent there is at most one possible largest term $K$, given by $K+\\lceil\\log_2K\\rceil=a+3$, and no such $K$ exists exactly when $a=2^r+r-2$. The remaining exponents are decided by an explicit recursion on pairs of integers bounded by $a+3$, in at most $a+1$ steps. We give the closed formula $c(2^{K-2}+2^{K-s-2})=2^{K+h-3}$ for $s=2^k$, $h\\equiv k\\pmod{2^{k+1}}$ and $K=(2^{h+s}+s)/(2^s+1)$, and infinite explicit families of exponents $a$ for which $2^a$ is not in the image, indexed by $s=3$ and $s=2^i$; the families given by Nicolas are the cases $s=1$ and $s=2$. As a consequence, $A(x)\\ge(2+o(1))\\log_2x$ and $B(x)\\ge(\\frac54+\\frac12\\sum_{i\\ge1}\\frac{1}{2^i-1}+o(1))\\log_2x=(2.0533\\ldots+o(1))\\log_2x$. We prove that the states of the recursion form a forest, rooted at the states $(J,0)$ and at the failing states, in which every state $(J',w')$ has exactly $v_2(J'+1+w')$ children; that the sets $S_J$ of successful states are symmetric; that exactly half of them lie in the tree of the root $(1,0)$; that $N(2k+1)=N(2k)$; that $4\\mid N(J)$ for $J\\ge4$; and that $S_J$ satisfies a recursion from the smallest elements upwards, with period $J/2$ for even $J$. The symmetry gives further explicit families, among them $c(2^{2^r}-1)=2^{2^r+r-1}$, and the improved bounds $A(x)\\ge(3.9655\\ldots+o(1))\\log_2x$ and $B(x)\\ge(2.8178\\ldots+o(1))\\log_2x$. For every prime $p$, the function $c_p(n)=\\sum_{k\\le n}p^{v_p(k)}$ counts the factor $1-X$ in $(1-X)\\cdots(1-X^n)$ over $\\mathbb{F}_p$; we extend to it the reduction, the unique candidate, the recursions and the symmetry, give explicit families, and describe completely the exponents rejected at the first step, which occur only for odd $p$. We also report experiments in exact integer arithmetic: every statement is checked by three independent methods, the values of $A(x)$ reproduce the table of Nicolas, the sets $S_J$ are computed for $J\\le131072$, and $A(x)/x$ lies between $0.5132$ and $0.8750$ for $x=1000,2000,\\dots,131000$.",
+"authors": [
+"Frank Vega"
+],
+"categories": [
+"math.NT",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00027v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00027v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00040",
+"title": "Recycled roots under reduction and descent in the Casas-Alvero problem",
+"abstract": "For a Casas-Alvero polynomial $f$, the type of $f$ is one less than the minimal number of roots of $f$ needed to meet every Hasse derivative $H_1f,\\dots,H_{d-1}f$. We show that the type does not increase under reduction modulo a prime and under the descent from degree $np^e$ to degree $n$ in characteristic $p$. Consequently, if no Casas-Alvero polynomial of degree $n$ and type at most $k$ exists over $\\overline{\\mathbb F}_p$, then none of degree $np^e$ and type at most $k$ exists in characteristic $0$, for every $e\\ge 0$. For $k=2$ the hypothesis is equivalent to $p\\nmid N_n$ for an explicit integer $N_n$, and we show by a finite computation that $N_n\\ne0$ for $3\\le n\\le 22$ and $n=24$. In particular there is no counterexample of type at most $2$ in degree $24$. This gives infinite families of degrees for which the conjecture is not known and every counterexample has type at least $3$: the degrees $5\\cdot 8009^e$, the degrees $6p^e$ for $21$ primes $p$ that are bad for degree $6$, the degrees $7p^e$, $8p^e$, $9p^e$ and $10p^e$ for $13$, $17$, $16$ and $103$ explicit primes $p$ that are bad for these degrees, and the degrees $20p^e$ and $24p^e$ for all primes $p$ outside a finite set (for $20p^e$, including $p=2^{31}-1$). For $k=3$ we obtain the first degrees in which every counterexample has type at least $4$: the degrees $6p^e$ for $p\\in\\{983,1901,51313000813080529\\}$, the degrees $8\\cdot397^e$, the degrees $9p^e$ for $p\\in\\{613,757\\}$ and the degrees $10p^e$ for $13$ primes $p$.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.00040v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00040v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00042",
+"title": "Soluble subgroup pairs in symmetric and alternating groups",
+"abstract": "We prove that every pair of soluble subgroups of the symmetric group $S_n$ or the alternating group $A_n$ has trivially intersecting conjugates whenever $n\\ge21$. This answers the second question of Anagnostopoulou-Merkouri and Burness in Problem 21.3 of the Kourovka Notebook.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.GR"
+],
+"link": "https://hexagonmath.org/abs/2611.00042v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00042v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00031",
+"title": "The binary Collatz dynamics of the trinomials $x^n+x+1$: proof of two conjectures of Gallardo and Rahavandrainy",
+"abstract": "Gallardo and Rahavandrainy studied an analogue of the Collatz map on $\\mathbb{F}_2[x]$, in which $x(x+1)$ plays the role of $2$ and $x^2+x+1$ that of $3$: an odd polynomial $A$ is sent to the odd part of $1+(x^2+x+1)A$. They proved that every orbit reaches $1$, and conjectured that the orbit of the trinomial $x^n+x+1$ has length $2^s+1$, where $s$ is the largest integer with $2^{s+1}<n$, and that for $1\\le t\\le s-1$ it contains $2^t$ terms of the same degree. We prove both statements for every $n\\ge3$. The proof rests on the identity $(x^2+x+1)+x(x+1)=1$: it reduces the dynamics to a map from one plateau to the next, characterises the last plateau of any orbit, and shows that along the orbit of $x^n+x+1$ the plateaus start at the $2^j$-th powers of the odd parts of the polynomials $x^m(x^2+x+1)+1$, the index $m$ following an explicit binary recursion. We also note that a later restatement of the conjecture, with a non-strict inequality, fails exactly when $n$ is a power of $2$. A script checks all the statements numerically.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00031v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00031v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00021",
+"title": "The dodecahedron web and its instanton homology",
+"abstract": "For the planar dodecahedron web D, the octahedral diagram of instanton homology reduces the possible values of the SO(3) instanton homology to 60 and 64. The remaining choice is determined by three coefficients of a secondary map. We give a proposed proof that all three vanish and that the dimension is 64. We express the coefficients as counts of instantons on specified foam cobordisms with one-parameter families of metrics. The index calculation requires these instantons to have negative action. An estimate uniform under neck stretching excludes them when the perturbations are sufficiently small. The construction includes local Floer complexes with zero differential, the marking calculation for excision, and a simultaneous choice of regular perturbations compatible with the families. Exact matrices and the supporting foam calculations are provided separately.",
+"authors": [
+"Peter Kronheimer",
+"Tomasz Mrowka"
+],
+"categories": [
+"math.GT"
+],
+"link": "https://hexagonmath.org/abs/2611.00021v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00021v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00032",
+"title": "The Hankel determinants of an automatic sequence need not be automatic",
+"abstract": "Allouche, Han and Niederreiter asked whether the sequence of Hankel determinants of a $d$-automatic sequence must be $d$-regular, or must become $d$-automatic after reduction modulo an integer. We answer the first question in the negative, and the second one for the reduction modulo $3$. Let $\\alpha$ be the root of $f^4+f^2-Tf+1=0$ in $\\mathbb{F}_3((1/T))$ with $|\\alpha|<1$, the quartic of Mills and Robbins, and let $S$ be its coefficient sequence, which is $3$-automatic by Christol's theorem. The Hankel determinants of $S$ vanish in runs whose lengths are unbounded but of the order of the square root of their position, because the partial quotients of $\\alpha$ are unbounded while its irrationality exponent is $2$; and a lemma of Schlage-Puchta forbids runs in that regime in an automatic sequence. Hence these Hankel determinants are $k$-automatic for no $k$, and the integer Hankel determinants of any lift of $S$ are $k$-regular for no $k$.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT",
+"cs.FL"
+],
+"link": "https://hexagonmath.org/abs/2611.00032v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00032v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00025",
+"title": "The invariant $c_M$ of Gallardo and Rahavandrainy at Mersenne prime exponents, and the case $p=7$",
+"abstract": "A Mersenne prime polynomial is an irreducible polynomial over $\\mathbb{F}_2$ of the form $x^a(x+1)^b+1$ with $a,b\\ge1$. Gallardo and Rahavandrainy conjectured that, apart from two exceptions, $\\sigma(M^{2h})$ always has an irreducible factor which is not a Mersenne prime. For a prime $p\\ge5$ they proved it for every $M$ outside an exceptional set $\\Sigma_p=\\Sigma_p^1\\cup\\dots\\cup\\Sigma_p^4$, defined through an integer $c_M$ and an odd integer $m_M$ read off the leading coefficients of $\\sigma(\\sigma(M^{p-1}))$, and later they proved it for every Mersenne prime number $p\\ge31$; their method does not reach $p=7$. We compute $c_M$ exactly when $p=2^d-1$ is a Mersenne prime number: $c_M=d+1$ if $\\deg M\\ne d$, and $c_M=d$ if $\\deg M=d$. Consequently $\\Sigma_p^1$ consists of the Mersenne primes of degree $d$ or $d+1$, $\\Sigma_p^2$ is empty, and $\\Sigma_p^3$, $\\Sigma_p^4$ are described by $m_M=\\deg M-d-1$ and $m_M=\\deg M-d$ respectively. For $p=7$ this reduces the conjecture to the Mersenne primes $M$ with $m_M\\in\\{\\deg M-4,\\deg M-3\\}$. A direct computation shows that $\\sigma(M^6)$ has a non-Mersenne irreducible factor for every Mersenne prime $M$ of degree at most $500$, and that $m_M\\le17$ in that range. Hence the conjecture holds whenever $7$ divides $2h+1$ and $\\deg M\\le500$, and a counterexample with $7\\mid 2h+1$ would need $m_M\\ge\\deg M-4>496$. A script attached as an ancillary file checks these computations, and reproduces the table of exceptional sets of Gallardo and Rahavandrainy.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00025v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00025v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00029",
+"title": "The inverse problem for the number of connected induced subgraphs",
+"abstract": "For a finite graph $G$, let $c(G)$ be the number of nonempty vertex sets that induce a connected subgraph. We show that a positive integer $k$ equals $c(G)$ for some finite connected graph $G$ if and only if $k\\notin\\{2,4,5,8,9,16\\}$. Every attainable value $k\\ne25$ is attained on $\\lfloor\\log_2 k\\rfloor+1$ vertices, the least possible number, and $25$ needs six vertices. More precisely, for every $m\\ge6$ each integer from $2^{m-1}$ to $2^m-1$ is the value of $c$ on a connected graph with exactly $m$ vertices. The proofs of these results are short and use no computer; computer calculations serve only as independent checks, and for two auxiliary results: the values on six to eight vertices, and the result on all connected subgraphs described below. The value $16$ falls into a gap above the path: a connected graph on $n\\ge4$ vertices other than the path $P_n$ has at least $n-3$ more connected sets than $P_n$. The values $k\\ge17$ are realized by a recursive construction from cones, disjoint unions and a family of graphs that we call near-cones, starting from seven small graphs; it produces a graph with $c(G)=k$ in time polynomial in $\\log k$. The question arose from a problem of Ordoñez in continuum theory, through a reduction by Camargo, Ordoñez and Ramírez, who found the values up to $255$ by a computer search. The proof is formalized in Lean 4. We also observe that a theorem of Czabarka, Székely and Wagner on subtrees reduces the corresponding problem for the number of all connected subgraphs to a finite computation, and we report its outcome. We did not find these results in the literature, but we make no claim of novelty or priority.",
+"authors": [
+"Lucas Almeida Almeida"
+],
+"categories": [
+"math.CO",
+"cs.DM"
+],
+"link": "https://hexagonmath.org/abs/2611.00029v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00029v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-02",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00043",
+"title": "The Siriaisa Algorithm for Minimum Independent Dominating Set",
+"abstract": "The Minimum Independent Dominating Set problem (MIDS) asks for a smallest maximal independent set of an undirected graph; unless $\\mathrm{P}=\\mathrm{NP}$, it cannot be approximated within $n^{1-\\varepsilon}$ for any $\\varepsilon>0$. We present version 0.0.8 of \\textsc{Siriaisa}, an ensemble of eighteen strategies that adapts the vertex cover algorithm \\textsc{Salvador} and the independent set algorithm \\textsc{Esperanza} to MIDS, with every exact subproblem a forest solved by a conditioned tree dynamic program. We prove that the output is an independent dominating set computed in $O((n+m)\\,\\alpha_{\\mathrm A}(n))$ expected time, that its ratio is at most $\\Delta$, that it is optimal on forests, and that its ratio is at most $\\sqrt n$ on three classes of graphs. A degree-splitting strategy yields a dominating set of size at most $\\lfloor\\sqrt n\\rfloor\\,(i(G)+s(G))$ for an explicit splitting excess $s(G)$, which vanishes on bounded-degree families for large $n$ and is largest on complete graphs, where the output is optimal. More generally, splitting at $\\lfloor n^{1-\\varepsilon}\\rfloor$ gives the bound $n^{1-\\varepsilon}\\,(i(G)+s_\\varepsilon(G))$ for every $\\varepsilon\\in(0,1]$. We state the ratio $n^{3/4}$ as a conjecture whose proof would imply $\\mathrm{P}=\\mathrm{NP}$. Through a reduction of Chleb{\\'\\i}k and Chleb{\\'\\i}kov{\\'a}, every output decodes into a vertex cover, with conditional consequences for the Unique Games Conjecture. In experiments the output is optimal on $9\\,999$ of $10\\,000$ graphs with an exact integer-program optimum and on all $95$ bipartite graphs whose optimum was proved. As an application, we analyse the SAT solver \\texttt{satypy} 0.0.4: it answers every unsatisfiable formula correctly, every SATISFIABLE answer carries a satisfying assignment, a wrong answer requires a ratio larger than $2p$ for $p$ variables, and its construction gives a self-contained proof of Halld{\\'o}rsson's inapproximability theorem.",
+"authors": [
+"Frank Vega"
+],
+"categories": [
+"cs.CC",
+"cs.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00043v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00043v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
