@@ -4,6 +4,588 @@
  ],
  "feed": [
   {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "In this article we initiate the study of perfect commutative $\\mathbb{F}_p$-algebras in the non-connective setting. As an application we show that given a finite $C_p$-space $X$ the $\\mathbb{F}_p$-cochains on $X^{C_p}$ can be recovered as a base-change of the tilt of the Tate construction on cochains on $X^e$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Robert Burklund",
+     "Vignesh Subramanian"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.01985",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.01985",
+    "pid": "2611.01985",
+    "reasons": [
+     "author: Robert Burklund"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "Fixed points via tilting",
+    "watched": [
+     "Robert Burklund"
+    ]
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "We provide a novel, homotopy theoretic model for the motivic Eilenberg--Mac Lane spaces $K(Z_{(p)}(n), 2n) \\in Spc(k)$ over fields of characteristic p. Using this, we determine their motives and, consequently, determine the motivic Steenrod algebra at the characteristic. Applications include the Hopkins--Morel isomorphism over arbitrary base schemes as well as the computation of the p-completed motivic stable stems and algebraic cobordism groups of fields of characteristic p.\n  Along the way we expand the theory of normed algebraic structures in motivic homotopy theory, compare them to derived algebra at the characteristic, and produce a functor computing the motivic homology of the $P^1$-loop spaces of (certain) motivic spaces in terms of the motives.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Tom Bachmann",
+     "Michael J. Hopkins"
+    ],
+    "categories": [
+     "math.AG",
+     "math.AT",
+     "math.KT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.02320",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.02320",
+    "pid": "2611.02320",
+    "reasons": [
+     "author: Tom Bachmann",
+     "author: Michael Hopkins",
+     "title: motivic",
+     "abstract: stable stems",
+     "abstract: motivic steenrod"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "Motivic Eilenberg--Mac Lane spaces at the characteristic",
+    "watched": [
+     "Michael J. Hopkins",
+     "Tom Bachmann"
+    ]
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "We show that a closed symmetric monoidal V-enriched $\\infty$-category can be described by a lax symmetric monoidal functor to V from its underlying $\\infty$-category.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Rune Haugseng"
+    ],
+    "categories": [
+     "math.CT",
+     "math.AT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.01916",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.01916",
+    "pid": "2611.01916",
+    "reasons": [
+     "author: Rune Haugseng",
+     "title: infinity-categor"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "On closed symmetric monoidal enriched $\\infty$-categories",
+    "watched": [
+     "Rune Haugseng"
+    ]
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "Let $d$ be a positive integer. In a previous article we established a bijective correspondence between the following classes of objects, considered up to the appropriate notion of equivalence: differential graded algebras (dg) with finite-dimensional $0$-th cohomology such that the canonical generator of their perfect derived category is a basic $d\\ZZ$-cluster tilting object, and basic Frobenius algebras that are twisted $(d+2)$-periodic as bimodules. In this article, we prove a variant of our general correspondence for bimodule right Calabi--Yau dg algebras. A novel ingredient is a new cohomology theory which contains obstructions to the existence and uniqueness of minimal $A_\\infty$-bimodule structures on a graded bimodule. As an application of our results, we obtain, to our knowledge, the first example of an algebraic triangulated category with a triangulated Calabi--Yau structure that cannot be lifted to a bimodule right Calabi--Yau structure on any of its dg enhancements.",
+    "ai_mode": "",
+    "announce": "replace",
+    "authors": [
+     "Gustavo Jasso",
+     "Fernando Muro"
+    ],
+    "categories": [
+     "math.RT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2509.22625",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2509.22625",
+    "pid": "2509.22625",
+    "reasons": [
+     "author: Gustavo Jasso"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "The Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau Structures",
+    "watched": [
+     "Gustavo Jasso"
+    ]
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "We prove Lurie's proposed description of left rigid symmetric monoidal $(\\infty,n)$-categories in terms of purely $\\infty$-categorical data. More precisely, unfolding gives an equivalence between left rigid symmetric monoidal $(\\infty,n)$-categories and complete categorical chain complexes of rigid symmetric monoidal $\\infty$-categories. More generally, unfolding identifies skeletal sequences with categorical chain complexes without the completeness condition. We extend these equivalences to $(\\infty,\\infty)$-categories and, stably, obtain an equivalence between complete unbounded categorical chain complexes and left rigid categorical spectra. We also analyze their groupoid completion and express the homotopy groups of the associated spaces and spectra in terms of categorical cycles and boundaries. As examples, we construct the categorical chain complexes associated to geometric and algebraic bordism categories, including their equivariant variants, and to iterated span categories. Their localizations recover classical bordism and $L$-groups, while the span examples are related to algebraic $K$-theory.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Rune Haugseng",
+     "Thomas Nikolaus"
+    ],
+    "categories": [
+     "math.AT",
+     "math.CT",
+     "math.KT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.01994",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.01994",
+    "pid": "2611.01994",
+    "reasons": [
+     "author: Rune Haugseng",
+     "author: Thomas Nikolaus",
+     "title: (infinity,n)",
+     "abstract: infinity-categor",
+     "abstract: algebraic k-theor"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "Unfolding of symmetric monoidal $(\\infty,n)$-categories",
+    "watched": [
+     "Rune Haugseng",
+     "Thomas Nikolaus"
+    ]
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "For a compact oriented even-dimensional Witt pseudomanifold $X$, we compute the $S_n$-equivariant Banagl--Zagier $L$-classes of $X^n$ in terms of the Goresky--MacPherson $L$-classes of $X$ and the intersection cohomology Euler characteristic of $X$. This generalizes a theorem of Zagier for manifolds. Our approach is based on analyzing the equivariant structure of the signature operator of $X^n$ using equivariant $KK$-theory and power operations in analytic $K$-homology. We establish an analytic $K$-homology analogue of Moonen's algebraic localization theorem by proving that the localized Chern character of the $n$-th power operation, evaluated at an $n$-cycle, agrees with the $n$-th homological Adams operation applied to the Chern character. As an application, we prove that the characteristic class Hodge index conjecture for singular varieties, formulated by Brasselet--Sch\\\"urmann--Yokura, is preserved under taking symmetric products of complex projective varieties.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Mohammadali Aligholi"
+    ],
+    "categories": [
+     "math.AT",
+     "math.AG",
+     "math.KT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.02577",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.02577",
+    "pid": "2611.02577",
+    "reasons": [
+     "title: equivariant",
+     "abstract: adams operation",
+     "abstract: power operation"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "$S_n$-equivariant $L$-classes of Cartesian powers of Witt spaces and the Hodge index conjecture for symmetric products",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "Homology nilpotency need not increase under a product with a sphere. We construct a simply connected, closed smooth manifold $M$ of dimension $53$, rationally elliptic with $\\dim_{\\mathbb Q}\\bigl(\\pi_*(M)\\otimes\\mathbb Q\\bigr)=7$, such that $cat_0(M)=10$ and $Hnil(M\\times S^2)=Hnil(M)=11$. The inequality $Hnil(X\\times Y)\\leq Hnil(X)+Hnil(Y)$ can therefore be strict even for a product of a closed manifold with $S^2$ as the second factor.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Paul-Eug\\`ene Parent"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.01567",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.01567",
+    "pid": "2611.01567",
+    "reasons": [
+     "title: nilpoten"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "A sphere-product counterexample to the additivity of homology nilpotency",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "We continue the programme developed in Pseudo-Kan extensions and descent theory by studying descent for augmented pseudocosimplicial objects. Let $\\mathcal H$ be a $2$-category, and let $\\operatorname{suc}=\\mathsf{1}+(-)$ be the successor monad on the augmented simplex category. Precomposition with $\\operatorname{suc}$ induces the d\\'ecalage pseudomonad $\\mathbb S$ on the $2$-category of augmented pseudocosimplicial objects with values in $\\mathcal H$. We prove that every successor contraction makes the corresponding augmented pseudocosimplicial object effective for descent. This structure is preserved by postcomposition with every pseudofunctor. Consequently, the resulting descent object is an absolute bilimit.\n  A first application concerns split epimorphisms. We recover the Janelidze--Tholen characterization of absolute effective descent morphisms given in Facets of Descent II. Moreover, we prove that one direction holds for every pseudofunctor $A\\colon C^{\\mathrm{op}}\\to\\mathcal H$, where $\\mathcal H$ is an arbitrary $2$-category.\n  Consequently, every $\\mathbb S$-pseudoalgebra is of absolute descent. In particular, this holds for every free $\\mathbb S$-pseudoalgebra, and hence for every one-sided d\\'ecalage. This makes the shift-effectiveness hypothesis in the B\\'enabou--Roubaud theorem of Pseudo-Kan extensions and descent theory automatic. Thus, under the adjointness and Beck--Chevalley hypotheses, the descent and Eilenberg--Moore factorizations are equivalent whenever they exist. We thus obtain a stronger version of the B\\'enabou--Roubaud theorem for arbitrary augmented pseudocosimplicial objects, which we call the formal B\\'enabou--Roubaud theorem. Applied to indexed \\v{C}ech objects associated with pseudofunctors $A\\colon C^{\\mathrm{op}}\\to\\mathcal H$, this theorem extends the classical B\\'enabou--Roubaud theorem to an arbitrary $2$-category $\\mathcal H$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Fernando Lucatelli Nunes"
+    ],
+    "categories": [
+     "math.CT",
+     "math.AG"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.01654",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.01654",
+    "pid": "2611.01654",
+    "reasons": [
+     "title: descent"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Absolute descent and the B\\'enabou--Roubaud theorem",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "We study how Koszul duality relates two kinds of boundary constructions associated with a smooth category and a proper category. For a smooth category with a proper Koszul-dualizing subcategory, we construct a fully faithful functor from its categorical neighborhood of infinity to the singularity category associated to the proper category. We prove that this functor is an equivalence precisely when the smooth category is reflexive, meaning that it can be reconstructed from its finite-dimensional module theory. Under a Gorenstein condition, satisfied in the Calabi--Yau setting, the functor is induced by restriction of modules. We give algebraic criteria that ensure equivalence and obtain an identification of Hochschild cohomology.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Yuan Gao",
+     "Zhen Gao"
+    ],
+    "categories": [
+     "math.KT",
+     "math.CT",
+     "math.RT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.02080",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.02080",
+    "pid": "2611.02080",
+    "reasons": [
+     "title: koszul dual"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Koszul duality for boundary categories",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "We prove the D\\'iaz$\\unicode[Arial]{x2013}$Park conjecture for sharpness of saturated fusion systems. More generally, for every saturated fusion system $\\mathcal F$ over a finite $p$-group and every Mackey functor for $\\mathcal F$ over the localisation $\\mathbb{Z}_{(p)}$ of the integers at $p$, the higher limits of its contravariant part over the centric orbit category vanish in all positive degrees. In particular, the subgroup and normaliser decompositions of every $p$-local finite group $(S,\\mathcal F,\\mathcal L)$ over the $\\mathcal F$-centric subgroups are sharp. This answers in the affirmative a question in the list of important open problems in [M. Aschbacher, R. Kessar and B. Oliver, Fusion Systems in Algebra and Topology, Cambridge Univ. Press (2011)], and proves the sharpness conjecture stated in [M. Aschbacher and B. Oliver, Fusion systems, Bull. Amer. Math. Soc. (2016)] and Conjecture 1.2 of [E. Yal\\c{c}$\\unicode[Arial]{x131}$n, Higher limits over the fusion orbit category, Adv. Math. (2022)]. The proof is algebraic and does not rely on the classification of finite simple groups.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Baoyu Zhang",
+     "Shengmin Zhang"
+    ],
+    "categories": [
+     "math.GR",
+     "math.AT",
+     "math.CT",
+     "math.RT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.02043",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.02043",
+    "pid": "2611.02043",
+    "reasons": [
+     "abstract: mackey functor"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "A proof of the sharpness conjectures for all saturated fusion systems",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "We extend the definition of cdh-sheafified Hochschild homology from varieties to stable categories linear over a field of characteristic zero, thereby proving its Morita-invariance. The dimensions of its homology groups give meaningful numerical invariants of a category; we combine them with invariants coming from topological K-theory and Poincar\\'e duality to prove equality of mixed Hodge numbers for singular complex projective Fourier--Mukai partners in several classes in dimensions two, three, and four, including normal surfaces and threefolds with rational singularities and equal irregularity.\n  Beyond these applications, we construct Du Bois versions of topological cyclic homology of stable categories together with appropriate multiplicative structures, prove a Geller--Weibel-type result for the variants of negative cyclic homology we introduce, and give categorical characterizations of cohomological purity of proper varieties and the $\\mathbb{Q}$-factoriality defect of complex projective threefolds with rational singularities.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Andrei Konovalov"
+    ],
+    "categories": [
+     "math.AG",
+     "math.AT",
+     "math.CT",
+     "math.KT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.01508",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.01508",
+    "pid": "2611.01508",
+    "reasons": [
+     "abstract: topological cyclic homology"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Du Bois cohomology of noncommutative spaces and the Hodge numbers invariance conjecture for singular varieties",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "We construct an explicit small model for the $\\infty$-groupoid of null-concordances of higher gauge curvatures by algorithmically trivializing their nonlinear Bianchi identities. More precisely, for a finite-type Sullivan minimal Bianchi algebra equipped with positive integer weights, we organize weighted potentials and higher gauge parameters at each fixed curvature into an $\\infty$-groupoid whose gauge transformations are linear in the parameters. We prove that this model is naturally equivalent to the $\\infty$-groupoid of null-concordances through an intermediate total-form model, with explicit projection and section maps and simplicial homotopies. When nonempty, its connected components form a torsor for the degree-zero cohomology of an associated weighted gauge complex, and its higher homotopy groups are computed by the higher cohomology of this complex.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Grigorios Giotopoulos"
+    ],
+    "categories": [
+     "hep-th",
+     "math-ph",
+     "math.AT",
+     "math.DG",
+     "math.MP"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.03064",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.03064",
+    "pid": "2611.03064",
+    "reasons": [
+     "abstract: infinity-groupoid"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Higher Groupoids of Gauge Potentials in Higher Gauge Theories admitting Weights",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "We show that the $f_j$, $p_j$, $D_3(j)$, and $p_j'$ families on the 4-line of the classical Adams spectral sequence all conform to the Uniform Doomsday Conjecture. We do so by first using Bruner's formula to establish uniform families of differentials on these classes. We then study the Burklund-Xu and Cartan-Eilenberg spectral sequences to ensure that the differential targets are nonzero. The $f_j$ family requires further analysis of possible Adams $d_2$ differentials since the $f_j$ support uniform $d_3$ differentials. As a result of our work, only two indecomposable $\\text{Sq}^0$ families remain to be settled in Adams filtration 4.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Jordan Benson",
+     "Runji Li"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.02614",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.02614",
+    "pid": "2611.02614",
+    "reasons": [
+     "abstract: adams spectral sequence"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Indecomposable Uniform Families on the Adams 4-Line",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "We study the representability of actions in varieties of algebras with $n \\geq 1$ not necessarily associative bilinear multiplications. We first prove that, for homogeneous varieties, action accessibility is equivalent to being an Orzech category of interest. For an action accessible, operadic variety we then construct the external weak actor $\\mathcal{E}(X)$ of an algebra $X$, an algebra with $n$ bilinear partial operations together with a natural monomorphism encoding the actions on $X$. We characterise the algebras admitting an actor in terms of $\\mathcal{E}(X)$, and we deduce an obstruction to action representability: if, for some algebra $X$ with trivial multiplications, $\\mathcal{E}(X)$ does not satisfy a multilinear identity of the variety, then the variety is not action representable. Computing the external weak actor explicitly, we obtain that associative and matching dialgebras are weakly action representable but not action representable, and that Poisson algebras, left-right non-commutative Poisson algebras and matching Lie algebras are not action representable. Finally, we introduce the reduced type $(p,q)$ of such a variety and prove that, over a field of characteristic different from $2$, an operadic variety of reduced type $(p,0)$, $(0,q)$ or $(1,1)$ is action representable if and only if it is term equivalent to the variety of Lie algebras or to that of abelian algebras. For the reduced types $(p,0)$ and $(0,q)$, the arguments require no assumption on the cardinality of the field, whereas the case $(1,1)$ requires the field to be infinite.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Manuel Mancini"
+    ],
+    "categories": [
+     "math.CT",
+     "math.RA"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.02097",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.02097",
+    "pid": "2611.02097",
+    "reasons": [
+     "abstract: presentable"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "On the representability of actions of algebras with several bilinear multiplications",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "By introducing the notion of stable compatibility, we provide a framework in the model category theory which addresses the existence of a stable model structure on the category of modules over a monad. Exact version of such monads have been studied in the setting of triangulated categories, separately as separable monads a la Balmer in tensor triangular geometry and non-separable monads a la Dell'Ambrogio and Sanders in stable homotopy theory. By introducing stable compatibility, we explore their properties together and produce a non-separable monad in Algebraic geometry and more.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Kunal Arora",
+     "Vivek Mohan Mallick"
+    ],
+    "categories": [
+     "math.AG",
+     "math.AT",
+     "math.CT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.00813",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.00813",
+    "pid": "2611.00813",
+    "reasons": [
+     "abstract: tensor triangular"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Stable compatibility for model categories",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "In topological data analysis, multiparameter persistence modules (MPMs) are used to analyze data with multiple parameters. Summarizing topological information for MPMs is a non-trivial task; one useful summary of bipersistence modules is the fibered barcode \\cite{lesnick2015interactive,lesnick2025fast}. In this paper, we use a directed topological construction of the parameter space of a bifiltration to extend the fibered barcode. Specifically, given a $k$-critical bifiltration $F$, we build an associated directed Euclidean cubical complex $C$ whose directed paths each correspond to a one-parameter subfiltration of $F$. The path space of $C$, $\\di{C}$, is used to define the \\emph{extended fibered barcode}, which contains all possible monotonically increasing paths in $C$. We show that there can be paths in $\\di{C}$ which generate filtrations not obtainable along a line with positive slope, and that all lines with positive slope have a path in $\\di{C}$ that generate an equivalent barcode. We introduce two types of equivalence for these restricted modules: combinatorial equivalence of diagrams, and simplicial equivalence of the filtrations generating the modules. We show that removing certain cubes from $C$ yields a subcomplex on which dihomotopic paths induce simplicially equivalent filtrations, and hence combinatorially equivalent diagrams.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Robin Belton",
+     "Robyn Brooks",
+     "Lisbeth Fajstrup",
+     "Brittany Terese Fasy",
+     "Elizabeth Vidaurre"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.00261",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.00261",
+    "pid": "2611.00261",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A Directed Cubical Framework for k-critical Bipersistence Modules",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "We study persistence modules obtained from the $A$-fundamental groupoids of finite graphs. Moreover, we verify the categorical properties needed to form generalized persistence diagrams, and describe a quotient that identifies equivalent groupoids. A normalized linear presheaf construction places these modules in an essentially small abelian category, where Patel's Continuity Theorem gives a $1$-Lipschitz estimate in erosion distance. Explicit graph filtrations illustrate the groupoid-valued construction, and so we suggest a new approach to interpret persistence diagrams and large data sets in topological data analysis, based on recent works of A-homotopy theory of the last years.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Yanga Bavuma",
+     "Martin Mijangos",
+     "Francesco G. Russo"
+    ],
+    "categories": [
+     "math.AT",
+     "math.CO",
+     "math.CT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.00799",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.00799",
+    "pid": "2611.00799",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A result of continuous stability for generalized persistence diagrams",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "Determining the representative volume element is essential for establishing statistically meaningful microstructure-property relationships. Conventional approaches rely on the convergence of selected geometric descriptors, which may yield different estimates of the representative volume. Here, we propose a topology-based framework for assessing the representative scale of a nickel-yttria-stabilized zirconia solid oxide cell anode reconstructed using plasma focused ion beam-scanning electron microscopy (121.8 um x 83.97 um x 45.99 um). Persistent homology was used to characterize the pore network, and normalized persistence images of subvolumes were compared with those of the largest available reference volume using the L1 distance. This provides a continuous measure of topological similarity across observation scales, rather than defining representativeness through a single convergence threshold. The topological distance decreases with increasing volume and is described by empirical exponential models over the investigated range (R2 in [0.972, 0.983]). Comparison with porosity and specific surface area highlights differences in the scale-dependent behavior of geometric and topological descriptors. The framework was also tested on three independent synthetic realizations, demonstrating its potential for quantitative assessment of topological similarity in porous microstructures.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Aleksandra Kukie{\\l}ka",
+     "Maksym Szemer",
+     "Szymon Buchaniec",
+     "Katarzyna Berent",
+     "Grzegorz Brus"
+    ],
+    "categories": [
+     "cond-mat.mtrl-sci",
+     "math.AT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.03176",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.03176",
+    "pid": "2611.03176",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A Topology-Based Approach to Representative Volume Element Assessment in Solid Oxide Cell Anodes Using Large Volume Tomography and Persistent Homology",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "We study regular spherical actions, namely, actions of a connected compact Lie group G on a manifold M with equidimensional orbits, some of which are spheres. These spherical orbits are diffeomorphic to homogeneous spaces G/H, and there is a list of nine possible families of pairs (G, H). The normalizer N of H in G plays an important role in our calculations, as does the Weyl group W = N/H. In fact, there are three possibilities for W, namely: Z_2, S^1 and S^3. The goal of this paper is to relate the cohomology of M to that of the orbit space M/G. We obtain a particularly simple relationship in the first case, W = Z_2. For the remaining two cases, W = S^1 and W = S^3, it is already known that the cohomology of M and that of the orbit space M/G are related by the Gysin sequence ... \\to H^k(M/G) \\to H^k(M ) \\to H^{k-d}(M/G) \\to H^{k+1}(M/G) \\to ... In this work, we provide a direct construction of this sequence, avoiding the use of spectral sequences. Moreover, we give an explicit description of the connecting homomorphism as multiplication by a power of the Euler class associated with the action of the Weyl group W = S^l on the fixed-point set M^H.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Jos\\'e Ignacio Royo Prieto",
+     "Martintxo Saralegi-Aranguren",
+     "Robert Wolak"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.02111",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.02111",
+    "pid": "2611.02111",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Cohomology of regular spherical actions",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "paper": {
+    "abstract": "We define generalized Bernoulli numbers as appropriate coefficients of the Baker--Campbell--Hausdorff (BCH) product formula, extending the classical sequence of rational numbers to a 2-dimensional setting. We give an identity involving these numbers and the classical Bernoulli numbers which is equivalent to the existence of a particular complete differential graded Lie algebra modelling a cell decomposition of the 2-disk and based on the Lawrence--Sullivan model of the interval. From this identity we derive explicit quadratic relations.\n  The existence of Lie models for the symmetries of the interval and the disk is related to certain properties of the BCH product and to some notable features of the classical Bernoulli numbers: the two choices for $B_1$, the vanishing of $B_n$ for odd $n\\geq 3$, and the equality $B_4=B_8$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Urtzi Buijs",
+     "Jos\\'e Manuel Moreno Fern\\'andez"
+    ],
+    "categories": [
+     "math.AT",
+     "math.CO",
+     "math.NT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.00825",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.00825",
+    "pid": "2611.00825",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Identities for generalized Bernoulli numbers from a Lie model of the 2-disk",
+    "watched": []
+   }
+  },
+  {
    "day": "2026-11-02",
    "paper": {
     "abstract": "We extend the theory of lax-idempotent monads to the setting of $(\\infty,2)$-categories. In particular, we prove an analogue of Kock and Z\\\"oberlein's characterization of the category of algebras over a lax-idempotent monad. We then apply this theory to many examples that arise naturally in homotopy theory. For example, we show that $(\\infty,1)$-toposes are monadic over presentable $(\\infty,1)$-categories, with left adjoint given by the symmetric $(\\infty,1)$-topos. We also show that $\\infty$-operads are comonadic over symmetric monoidal $(\\infty,1)$-categories through the monoidal envelope construction, obtaining along the way a new proof of Barkan-Steinebrunner's result that the envelope functor is a faithful inclusion. We furthermore use this theory to simplify Ramzi's proof that dualizable stable $(\\infty,1)$-categories are comonadic over $\\aleph_1$-compactly generated stable $(\\infty,1)$-categories.",
@@ -4898,170 +5480,286 @@
  ],
  "hexagon_since": "2026-11-03",
  "last_page": {
-  "day": "2026-11-02",
+  "day": "2026-11-03",
   "papers": [
    {
-    "abstract": "We extend the theory of lax-idempotent monads to the setting of $(\\infty,2)$-categories. In particular, we prove an analogue of Kock and Z\\\"oberlein's characterization of the category of algebras over a lax-idempotent monad. We then apply this theory to many examples that arise naturally in homotopy theory. For example, we show that $(\\infty,1)$-toposes are monadic over presentable $(\\infty,1)$-categories, with left adjoint given by the symmetric $(\\infty,1)$-topos. We also show that $\\infty$-operads are comonadic over symmetric monoidal $(\\infty,1)$-categories through the monoidal envelope construction, obtaining along the way a new proof of Barkan-Steinebrunner's result that the envelope functor is a faithful inclusion. We furthermore use this theory to simplify Ramzi's proof that dualizable stable $(\\infty,1)$-categories are comonadic over $\\aleph_1$-compactly generated stable $(\\infty,1)$-categories.",
+    "abstract": "In this article we initiate the study of perfect commutative $\\mathbb{F}_p$-algebras in the non-connective setting. As an application we show that given a finite $C_p$-space $X$ the $\\mathbb{F}_p$-cochains on $X^{C_p}$ can be recovered as a base-change of the tilt of the Tate construction on cochains on $X^e$.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Fernando Abell\\'an",
-     "Thomas Blom"
+     "Robert Burklund",
+     "Vignesh Subramanian"
     ],
     "categories": [
-     "math.CT"
+     "math.AT"
     ],
-    "date": "2026-11-02",
-    "link": "https://arxiv.org/abs/2610.41904",
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.01985",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.41904",
-    "pid": "2610.41904",
+    "pdf": "https://arxiv.org/pdf/2611.01985",
+    "pid": "2611.01985",
     "reasons": [
-     "author (watch): Fernando Abell\u00e1n",
-     "abstract: infinity-operad",
-     "abstract: (infinity,2)",
-     "abstract: presentable"
+     "author: Robert Burklund"
     ],
     "source": "arxiv",
     "tier": 1,
-    "title": "Lax-idempotent monads in homotopy theory",
+    "title": "Fixed points via tilting",
     "watched": [
-     "Fernando Abell\\'an"
+     "Robert Burklund"
     ]
    },
    {
-    "abstract": "By constructing a fully dualizable category $\\mathrm{Bord}^{\\mathcal{C}}_n$ as the left adjoint of the forgetful functor, we state a generalized cobordism hypothesis. As a corollary, we establish a generalized Pontryagin-Thom isomorphism that gives a geometric interpretation of higher algebraic $K$-theory using cobordism classes of framed manifolds and stratified spaces decorated by categorical string diagrams, which we call lasagnas. For finite-dimensional vector spaces over a field, these decorations are branched local systems.\n  We also examine low-dimensional representatives, including $K_1$, Steinberg-group presentations of $K_2$, and fillings related to the Steinberg relation, providing a more explicit construction of Ghys' manifold.",
+    "abstract": "We provide a novel, homotopy theoretic model for the motivic Eilenberg--Mac Lane spaces $K(Z_{(p)}(n), 2n) \\in Spc(k)$ over fields of characteristic p. Using this, we determine their motives and, consequently, determine the motivic Steenrod algebra at the characteristic. Applications include the Hopkins--Morel isomorphism over arbitrary base schemes as well as the computation of the p-completed motivic stable stems and algebraic cobordism groups of fields of characteristic p.\n  Along the way we expand the theory of normed algebraic structures in motivic homotopy theory, compare them to derived algebra at the characteristic, and produce a functor computing the motivic homology of the $P^1$-loop spaces of (certain) motivic spaces in terms of the motives.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Keyao Peng"
+     "Tom Bachmann",
+     "Michael J. Hopkins"
     ],
     "categories": [
-     "math.KT",
+     "math.AG",
+     "math.AT",
+     "math.KT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.02320",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.02320",
+    "pid": "2611.02320",
+    "reasons": [
+     "author: Tom Bachmann",
+     "author: Michael Hopkins",
+     "title: motivic",
+     "abstract: stable stems",
+     "abstract: motivic steenrod"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "Motivic Eilenberg--Mac Lane spaces at the characteristic",
+    "watched": [
+     "Michael J. Hopkins",
+     "Tom Bachmann"
+    ]
+   },
+   {
+    "abstract": "We show that a closed symmetric monoidal V-enriched $\\infty$-category can be described by a lax symmetric monoidal functor to V from its underlying $\\infty$-category.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Rune Haugseng"
+    ],
+    "categories": [
+     "math.CT",
      "math.AT"
     ],
-    "date": "2026-11-02",
-    "link": "https://arxiv.org/abs/2610.41105",
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.01916",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.41105",
-    "pid": "2610.41105",
+    "pdf": "https://arxiv.org/pdf/2611.01916",
+    "pid": "2611.01916",
     "reasons": [
-     "title: algebraic k-theor",
-     "abstract: higher algebra",
-     "abstract: dualizable categor"
+     "author: Rune Haugseng",
+     "title: infinity-categor"
     ],
     "source": "arxiv",
-    "tier": 2,
-    "title": "Defect TQFTs, the Generalized Cobordism Hypothesis, and Algebraic $K$-Theory",
-    "watched": []
+    "tier": 1,
+    "title": "On closed symmetric monoidal enriched $\\infty$-categories",
+    "watched": [
+     "Rune Haugseng"
+    ]
    },
    {
-    "abstract": "Recent work of Brantner and Taelman shows that derived deformation theory and period maps can recover strong mixed-characteristic lifting results. In this paper, we develop a prismatic version of this method for Calabi--Yau varieties over transversal or crystalline prisms, constructing compatible deformations over $A/I^n$ for every $n$ under suitable hypotheses.\n  We also apply our method to $F$-split Calabi--Yau varieties over a field $k$ of characteristic $p>2$. In particular, we consider an $F$-split smooth proper variety $X$ of dimension $d$ over an algebraically closed field $k$ of characteristic $p>2$, with $H^{d-1}(X,O_X)=0$ and trivial canonical bundle. We show that $X$ admits a lift to $W_3(k)$.",
+    "abstract": "Let $d$ be a positive integer. In a previous article we established a bijective correspondence between the following classes of objects, considered up to the appropriate notion of equivalence: differential graded algebras (dg) with finite-dimensional $0$-th cohomology such that the canonical generator of their perfect derived category is a basic $d\\ZZ$-cluster tilting object, and basic Frobenius algebras that are twisted $(d+2)$-periodic as bimodules. In this article, we prove a variant of our general correspondence for bimodule right Calabi--Yau dg algebras. A novel ingredient is a new cohomology theory which contains obstructions to the existence and uniqueness of minimal $A_\\infty$-bimodule structures on a graded bimodule. As an application of our results, we obtain, to our knowledge, the first example of an algebraic triangulated category with a triangulated Calabi--Yau structure that cannot be lifted to a bimodule right Calabi--Yau structure on any of its dg enhancements.",
+    "ai_mode": "",
+    "announce": "replace",
+    "authors": [
+     "Gustavo Jasso",
+     "Fernando Muro"
+    ],
+    "categories": [
+     "math.RT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2509.22625",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2509.22625",
+    "pid": "2509.22625",
+    "reasons": [
+     "author: Gustavo Jasso"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "The Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau Structures",
+    "watched": [
+     "Gustavo Jasso"
+    ]
+   },
+   {
+    "abstract": "We prove Lurie's proposed description of left rigid symmetric monoidal $(\\infty,n)$-categories in terms of purely $\\infty$-categorical data. More precisely, unfolding gives an equivalence between left rigid symmetric monoidal $(\\infty,n)$-categories and complete categorical chain complexes of rigid symmetric monoidal $\\infty$-categories. More generally, unfolding identifies skeletal sequences with categorical chain complexes without the completeness condition. We extend these equivalences to $(\\infty,\\infty)$-categories and, stably, obtain an equivalence between complete unbounded categorical chain complexes and left rigid categorical spectra. We also analyze their groupoid completion and express the homotopy groups of the associated spaces and spectra in terms of categorical cycles and boundaries. As examples, we construct the categorical chain complexes associated to geometric and algebraic bordism categories, including their equivariant variants, and to iterated span categories. Their localizations recover classical bordism and $L$-groups, while the span examples are related to algebraic $K$-theory.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Tingxiao Shi"
+     "Rune Haugseng",
+     "Thomas Nikolaus"
     ],
     "categories": [
-     "math.AG"
+     "math.AT",
+     "math.CT",
+     "math.KT"
     ],
-    "date": "2026-11-02",
-    "link": "https://arxiv.org/abs/2610.41727",
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.01994",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.41727",
-    "pid": "2610.41727",
+    "pdf": "https://arxiv.org/pdf/2611.01994",
+    "pid": "2611.01994",
     "reasons": [
-     "title: prisms",
-     "abstract: prismatic"
+     "author: Rune Haugseng",
+     "author: Thomas Nikolaus",
+     "title: (infinity,n)",
+     "abstract: infinity-categor",
+     "abstract: algebraic k-theor"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "Unfolding of symmetric monoidal $(\\infty,n)$-categories",
+    "watched": [
+     "Rune Haugseng",
+     "Thomas Nikolaus"
+    ]
+   },
+   {
+    "abstract": "For a compact oriented even-dimensional Witt pseudomanifold $X$, we compute the $S_n$-equivariant Banagl--Zagier $L$-classes of $X^n$ in terms of the Goresky--MacPherson $L$-classes of $X$ and the intersection cohomology Euler characteristic of $X$. This generalizes a theorem of Zagier for manifolds. Our approach is based on analyzing the equivariant structure of the signature operator of $X^n$ using equivariant $KK$-theory and power operations in analytic $K$-homology. We establish an analytic $K$-homology analogue of Moonen's algebraic localization theorem by proving that the localized Chern character of the $n$-th power operation, evaluated at an $n$-cycle, agrees with the $n$-th homological Adams operation applied to the Chern character. As an application, we prove that the characteristic class Hodge index conjecture for singular varieties, formulated by Brasselet--Sch\\\"urmann--Yokura, is preserved under taking symmetric products of complex projective varieties.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Mohammadali Aligholi"
+    ],
+    "categories": [
+     "math.AT",
+     "math.AG",
+     "math.KT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.02577",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.02577",
+    "pid": "2611.02577",
+    "reasons": [
+     "title: equivariant",
+     "abstract: adams operation",
+     "abstract: power operation"
     ],
     "source": "arxiv",
     "tier": 2,
-    "title": "Deformations of Calabi--Yau varieties over transversal or crystalline prisms",
+    "title": "$S_n$-equivariant $L$-classes of Cartesian powers of Witt spaces and the Hodge index conjecture for symmetric products",
     "watched": []
    },
    {
-    "abstract": "We define an invariant of central simple algebras of degree 8 and exponent 2 over fields of characteristic 2. It is built from the discriminant Pfister forms of symplectic involutions, takes values in a quotient of the third part of the graded group associated to the fundamental filtration of the Witt group of quadratic forms, and vanishes on tensor products of three quaternion algebras, thus giving a necessary condition for decomposability. Variants of the consctuction yield necessary and sufficient conditions for a biquaternion algebra to descend from a quadratic extension of the base field, and for a quaternion algebra to descent from a biquadratic extension that is not purely inseparable. Our results extend known results both in characteristic 2 and in characteristic different from 2, see the introduction. Using residue maps for quadratic forms, we show that these invariants do not vanish in general, and we give an explicit central simple algebra of degree 8 and exponent 2 with nonzero invariant, which is therefore indecomposable. As explained in the appendix, the purely inseparable case is quite different; in particular, a quaternion algebra descents if and only if its Brauer class also does.",
+    "abstract": "Homology nilpotency need not increase under a product with a sphere. We construct a simply connected, closed smooth manifold $M$ of dimension $53$, rationally elliptic with $\\dim_{\\mathbb Q}\\bigl(\\pi_*(M)\\otimes\\mathbb Q\\bigr)=7$, such that $cat_0(M)=10$ and $Hnil(M\\times S^2)=Hnil(M)=11$. The inequality $Hnil(X\\times Y)\\leq Hnil(X)+Hnil(Y)$ can therefore be strict even for a product of a closed manifold with $S^2$ as the second factor.",
     "ai_mode": "",
-    "announce": "cross",
+    "announce": "new",
     "authors": [
-     "Anne Qu\\'eguiner-Mathieu",
-     "Jean-Pierre Tignol"
+     "Paul-Eug\\`ene Parent"
     ],
     "categories": [
-     "math.RA",
-     "math.KT",
-     "math.NT"
+     "math.AT"
     ],
-    "date": "2026-11-02",
-    "link": "https://arxiv.org/abs/2610.40673",
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.01567",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.40673",
-    "pid": "2610.40673",
+    "pdf": "https://arxiv.org/pdf/2611.01567",
+    "pid": "2611.01567",
+    "reasons": [
+     "title: nilpoten"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "A sphere-product counterexample to the additivity of homology nilpotency",
+    "watched": []
+   },
+   {
+    "abstract": "We continue the programme developed in Pseudo-Kan extensions and descent theory by studying descent for augmented pseudocosimplicial objects. Let $\\mathcal H$ be a $2$-category, and let $\\operatorname{suc}=\\mathsf{1}+(-)$ be the successor monad on the augmented simplex category. Precomposition with $\\operatorname{suc}$ induces the d\\'ecalage pseudomonad $\\mathbb S$ on the $2$-category of augmented pseudocosimplicial objects with values in $\\mathcal H$. We prove that every successor contraction makes the corresponding augmented pseudocosimplicial object effective for descent. This structure is preserved by postcomposition with every pseudofunctor. Consequently, the resulting descent object is an absolute bilimit.\n  A first application concerns split epimorphisms. We recover the Janelidze--Tholen characterization of absolute effective descent morphisms given in Facets of Descent II. Moreover, we prove that one direction holds for every pseudofunctor $A\\colon C^{\\mathrm{op}}\\to\\mathcal H$, where $\\mathcal H$ is an arbitrary $2$-category.\n  Consequently, every $\\mathbb S$-pseudoalgebra is of absolute descent. In particular, this holds for every free $\\mathbb S$-pseudoalgebra, and hence for every one-sided d\\'ecalage. This makes the shift-effectiveness hypothesis in the B\\'enabou--Roubaud theorem of Pseudo-Kan extensions and descent theory automatic. Thus, under the adjointness and Beck--Chevalley hypotheses, the descent and Eilenberg--Moore factorizations are equivalent whenever they exist. We thus obtain a stronger version of the B\\'enabou--Roubaud theorem for arbitrary augmented pseudocosimplicial objects, which we call the formal B\\'enabou--Roubaud theorem. Applied to indexed \\v{C}ech objects associated with pseudofunctors $A\\colon C^{\\mathrm{op}}\\to\\mathcal H$, this theorem extends the classical B\\'enabou--Roubaud theorem to an arbitrary $2$-category $\\mathcal H$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Fernando Lucatelli Nunes"
+    ],
+    "categories": [
+     "math.CT",
+     "math.AG"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.01654",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.01654",
+    "pid": "2611.01654",
     "reasons": [
      "title: descent"
     ],
     "source": "arxiv",
     "tier": 2,
-    "title": "Descent and Decomposability of Algebras of Exponent 2 in characteristic 2",
+    "title": "Absolute descent and the B\\'enabou--Roubaud theorem",
     "watched": []
    },
    {
-    "abstract": "Let $(\\V, \\otimes, I,[-,-])$ be a closed symmetric monoidal category with finite (co)limits. Assume that $\\V$ is weakly idempotent complete and additive. For a given small $\\V$-category $\\A$, we investigate sufficient conditions on $\\A$ under which the ordinary category $[\\A, \\V]_0$ of $\\V$-functors from $\\A$ to $\\V$, equipped with the exact structure $\\mathcal{E}_{\\textrm{lowt}}$, is a Frobenius exact category,and hence, induces a triangulated stable category. The exact structure $\\mathcal{E}_{\\textrm{lowt}}$ encompasses the degre-wise trivial exact structure on categories of $N$-chain complexes and $m$-periodic chain complexes, with terms in a variety of settings, including left $R$-modules, quasi-coherent sheaves on a scheme, and Banach spaces. We subsequently address the question of describing abstract left and right homotopy relations in $([\\A, \\V]_0;\\mathcal{E}_{\\textrm{lowt}})$ in terms of families of morphisms defined objectwise, as in the cases of chain-homotopy and relative homotopy relations. To this end, we introduce the notion of left/right-weak Serre $\\V$-functors on $\\A$, and investigate their relationships with the classical Serre functor relative to a commutative ring $k$.",
+    "abstract": "We study how Koszul duality relates two kinds of boundary constructions associated with a smooth category and a proper category. For a smooth category with a proper Koszul-dualizing subcategory, we construct a fully faithful functor from its categorical neighborhood of infinity to the singularity category associated to the proper category. We prove that this functor is an equivalence precisely when the smooth category is reflexive, meaning that it can be reconstructed from its finite-dimensional module theory. Under a Gorenstein condition, satisfied in the Calabi--Yau setting, the functor is induced by restriction of modules. We give algebraic criteria that ensure equivalence and obtain an identification of Hochschild cohomology.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Sinem Odabasi"
+     "Yuan Gao",
+     "Zhen Gao"
     ],
     "categories": [
+     "math.KT",
      "math.CT",
-     "math.KT"
+     "math.RT"
     ],
-    "date": "2026-11-02",
-    "link": "https://arxiv.org/abs/2610.40746",
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.02080",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.40746",
-    "pid": "2610.40746",
+    "pdf": "https://arxiv.org/pdf/2611.02080",
+    "pid": "2611.02080",
     "reasons": [
-     "title: t structure"
+     "title: koszul dual"
     ],
     "source": "arxiv",
     "tier": 2,
-    "title": "Homotopy in enriched functor categories: Frobenius exact structures and weak Serre functors",
+    "title": "Koszul duality for boundary categories",
     "watched": []
    },
    {
-    "abstract": "We prove that birational projective irreducible holomorphic symplectic manifolds have equivalent integral cohomological motives as commutative algebra objects in $\\mathrm{SH}(\\mathbb C)$. Consequently, their algebraic K-theory spectra are equivalent as $E_\\infty$-algebras, and their integral graded K-theory rings are isomorphic.",
+    "abstract": "We prove the D\\'iaz$\\unicode[Arial]{x2013}$Park conjecture for sharpness of saturated fusion systems. More generally, for every saturated fusion system $\\mathcal F$ over a finite $p$-group and every Mackey functor for $\\mathcal F$ over the localisation $\\mathbb{Z}_{(p)}$ of the integers at $p$, the higher limits of its contravariant part over the centric orbit category vanish in all positive degrees. In particular, the subgroup and normaliser decompositions of every $p$-local finite group $(S,\\mathcal F,\\mathcal L)$ over the $\\mathcal F$-centric subgroups are sharp. This answers in the affirmative a question in the list of important open problems in [M. Aschbacher, R. Kessar and B. Oliver, Fusion Systems in Algebra and Topology, Cambridge Univ. Press (2011)], and proves the sharpness conjecture stated in [M. Aschbacher and B. Oliver, Fusion systems, Bull. Amer. Math. Soc. (2016)] and Conjecture 1.2 of [E. Yal\\c{c}$\\unicode[Arial]{x131}$n, Higher limits over the fusion orbit category, Adv. Math. (2022)]. The proof is algebraic and does not rely on the classification of finite simple groups.",
     "ai_mode": "",
-    "announce": "new",
+    "announce": "cross",
     "authors": [
-     "Weimufei Wu"
+     "Baoyu Zhang",
+     "Shengmin Zhang"
     ],
     "categories": [
-     "math.AG",
-     "math.AT"
+     "math.GR",
+     "math.AT",
+     "math.CT",
+     "math.RT"
     ],
-    "date": "2026-11-02",
-    "link": "https://arxiv.org/abs/2610.42045",
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.02043",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.42045",
-    "pid": "2610.42045",
+    "pdf": "https://arxiv.org/pdf/2611.02043",
+    "pid": "2611.02043",
     "reasons": [
-     "title: motivic",
-     "abstract: e_infinity-algebra",
-     "abstract: algebraic k-theor"
+     "abstract: mackey functor"
     ],
     "source": "arxiv",
-    "tier": 2,
-    "title": "Motivic invariants of birational hyper-K\\\"ahler manifolds",
+    "tier": 3,
+    "title": "A proof of the sharpness conjectures for all saturated fusion systems",
     "watched": []
    },
    {
-    "abstract": "We compute the Balmer spectra of geometric Tate and Artin--Tate motives with $\\mathbb{F}_p$-coefficients over any field whose characteristic differs from $p$. For Tate motives, we find the bigraded comparison map to be a homeomorphism to the homogeneous spectrum of the motivic cohomology of the base field. For Artin--Tate motives, we describe the spectrum as a gluing of the spectrum of Artin motives computed by Balmer--Gallauer with the punctured Tate spectrum. We determine all specialisations between these pieces and the resulting topology. Under the hypothesis that the spectrum of rational Tate motives is a singleton, we also compute the integral Tate spectrum after inverting the exponential characteristic of the base field. As a consequence of our results, we identify the punctured Tate spectrum as an open subspace of the spectrum of the category of geometric Voevodsky motives, and draw some conclusions concerning the latter. Finally, we include an appendix where we define generalised periodicity in the context of tensor-triangular geometry, and explore its applications in motivic settings.",
+    "abstract": "We extend the definition of cdh-sheafified Hochschild homology from varieties to stable categories linear over a field of characteristic zero, thereby proving its Morita-invariance. The dimensions of its homology groups give meaningful numerical invariants of a category; we combine them with invariants coming from topological K-theory and Poincar\\'e duality to prove equality of mixed Hodge numbers for singular complex projective Fourier--Mukai partners in several classes in dimensions two, three, and four, including normal surfaces and threefolds with rational singularities and equal irregularity.\n  Beyond these applications, we construct Du Bois versions of topological cyclic homology of stable categories together with appropriate multiplicative structures, prove a Geller--Weibel-type result for the variants of negative cyclic homology we introduce, and give categorical characterizations of cohomological purity of proper varieties and the $\\mathbb{Q}$-factoriality defect of complex projective threefolds with rational singularities.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Jean Paul Schemeil",
-     "Fraser Sparks"
+     "Andrei Konovalov"
     ],
     "categories": [
      "math.AG",
@@ -5069,187 +5767,263 @@
      "math.CT",
      "math.KT"
     ],
-    "date": "2026-11-02",
-    "link": "https://arxiv.org/abs/2610.40806",
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.01508",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.40806",
-    "pid": "2610.40806",
+    "pdf": "https://arxiv.org/pdf/2611.01508",
+    "pid": "2611.01508",
     "reasons": [
-     "title: tensor-triangular",
-     "title: motivic",
-     "abstract: motivic cohomolog",
-     "abstract: balmer spectr"
+     "abstract: topological cyclic homology"
     ],
     "source": "arxiv",
-    "tier": 2,
-    "title": "Tate and Artin--Tate Motivic Tensor-Triangular Geometry",
+    "tier": 3,
+    "title": "Du Bois cohomology of noncommutative spaces and the Hodge numbers invariance conjecture for singular varieties",
     "watched": []
    },
    {
-    "abstract": "Morel conjectured that the $\\mathbb{A}^1$-homotopy sheaves of an $S^1$-spectrum built from suspension spectra of smooth projective schemes are pure; one condition in purity is injectivity of restriction to dense open subschemes. Over a regular base $S$, we show that this injectivity condition, for the homotopy sheaves of algebraic $K$-theory with coefficients in an arbitrary spectrum, is equivalent to Gersten injectivity at the henselizations of all local rings of smooth $S$-schemes; and that these $K$-theory spectra are pure in Morel's sense. Hence every henselian regular local ring at which Gersten injectivity fails, integrally, rationally, or with finite coefficients, gives a counterexample to Morel's conjecture. The author's finite-coefficient counterexample over $\\mathbb{Z}_3[[x,y]]/(3+x^2-y^3)$ therefore disproves the conjecture, already over the regular scheme $\\operatorname{Spec}\\mathbb{Z}[1/2][x,y]/(3+x^2-y^3)$. Recently announced integral and rational Gersten counterexamples, including unpublished work of the author, would show, if confirmed and if they persist after henselization, that the conjecture fails already for the $K$-theory spectrum itself.",
-    "ai_mode": "no-human-author-claimed",
-    "announce": "new",
+    "abstract": "We construct an explicit small model for the $\\infty$-groupoid of null-concordances of higher gauge curvatures by algorithmically trivializing their nonlinear Bianchi identities. More precisely, for a finite-type Sullivan minimal Bianchi algebra equipped with positive integer weights, we organize weighted potentials and higher gauge parameters at each fixed curvature into an $\\infty$-groupoid whose gauge transformations are linear in the parameters. We prove that this model is naturally equivalent to the $\\infty$-groupoid of null-concordances through an intermediate total-form model, with explicit projection and section maps and simplicial homotopies. When nonempty, its connected components form a torsor for the degree-zero cohomology of an associated weighted gauge complex, and its higher homotopy groups are computed by the higher cohomology of this complex.",
+    "ai_mode": "",
+    "announce": "cross",
     "authors": [
-     "Niels FELD"
+     "Grigorios Giotopoulos"
     ],
     "categories": [
-     "math.AG",
-     "math.KT"
+     "hep-th",
+     "math-ph",
+     "math.AT",
+     "math.DG",
+     "math.MP"
     ],
-    "date": "2026-11-01",
-    "link": "https://hexagonmath.org/abs/2611.00017v1",
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.03064",
     "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2611.00017v1",
-    "pid": "hexagon:2611.00017",
+    "pdf": "https://arxiv.org/pdf/2611.03064",
+    "pid": "2611.03064",
     "reasons": [
-     "abstract: algebraic k-theor"
+     "abstract: infinity-groupoid"
     ],
-    "source": "hexagon",
+    "source": "arxiv",
     "tier": 3,
-    "title": "Gersten injectivity and Morel's purity conjecture",
+    "title": "Higher Groupoids of Gauge Potentials in Higher Gauge Theories admitting Weights",
     "watched": []
    },
    {
-    "abstract": "Let $\\mathcal{C}$ be a small category. We characterize the full initial subcategories of $\\mathcal{C}$ as precisely those whose representables give a free presentation of the constant functor $\\Delta_{\\mathcal{C}}\\mathbb{K}:\\mathcal{C}\\to\\mathrm{Vect}$. Such a presentation yields a formula for the limit of any functor $\\mathcal{C} \\to \\mathrm{Vect}$ as the kernel of a morphism between products of evaluations.\n  When the linearized endomorphism ring of every object is local, we show that a minimal free presentation, whenever one exists, determines the unique minimal full initial subcategory, up to equivalence. Bass's characterization of perfect rings gives a sufficient condition for the existence of such presentations. In particular, every finite category with no nonidentity endomorphisms, such as a finite poset, contains a unique minimal initial full subcategory. In the poset case, our results recover the minimal initial subposet constructed in [BDL27] and [DL26]. When $\\mathcal{C}$ is the free category on a finite quiver, we give an explicit construction of its minimal initial full subcategories, show that every such subcategory arises from this construction, and provide algorithms with time-complexity bounds.",
+    "abstract": "We show that the $f_j$, $p_j$, $D_3(j)$, and $p_j'$ families on the 4-line of the classical Adams spectral sequence all conform to the Uniform Doomsday Conjecture. We do so by first using Bruner's formula to establish uniform families of differentials on these classes. We then study the Burklund-Xu and Cartan-Eilenberg spectral sequences to ensure that the differential targets are nonzero. The $f_j$ family requires further analysis of possible Adams $d_2$ differentials since the $f_j$ support uniform $d_3$ differentials. As a result of our work, only two indecomposable $\\text{Sq}^0$ families remain to be settled in Adams filtration 4.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Thomas Br\\\"ustle",
-     "Justin Desrochers",
-     "Samuel Leblanc"
+     "Jordan Benson",
+     "Runji Li"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.02614",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.02614",
+    "pid": "2611.02614",
+    "reasons": [
+     "abstract: adams spectral sequence"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Indecomposable Uniform Families on the Adams 4-Line",
+    "watched": []
+   },
+   {
+    "abstract": "We study the representability of actions in varieties of algebras with $n \\geq 1$ not necessarily associative bilinear multiplications. We first prove that, for homogeneous varieties, action accessibility is equivalent to being an Orzech category of interest. For an action accessible, operadic variety we then construct the external weak actor $\\mathcal{E}(X)$ of an algebra $X$, an algebra with $n$ bilinear partial operations together with a natural monomorphism encoding the actions on $X$. We characterise the algebras admitting an actor in terms of $\\mathcal{E}(X)$, and we deduce an obstruction to action representability: if, for some algebra $X$ with trivial multiplications, $\\mathcal{E}(X)$ does not satisfy a multilinear identity of the variety, then the variety is not action representable. Computing the external weak actor explicitly, we obtain that associative and matching dialgebras are weakly action representable but not action representable, and that Poisson algebras, left-right non-commutative Poisson algebras and matching Lie algebras are not action representable. Finally, we introduce the reduced type $(p,q)$ of such a variety and prove that, over a field of characteristic different from $2$, an operadic variety of reduced type $(p,0)$, $(0,q)$ or $(1,1)$ is action representable if and only if it is term equivalent to the variety of Lie algebras or to that of abelian algebras. For the reduced types $(p,0)$ and $(0,q)$, the arguments require no assumption on the cardinality of the field, whereas the case $(1,1)$ requires the field to be infinite.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Manuel Mancini"
     ],
     "categories": [
      "math.CT",
-     "math.RT"
+     "math.RA"
     ],
-    "date": "2026-11-02",
-    "link": "https://arxiv.org/abs/2610.41068",
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.02097",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.41068",
-    "pid": "2610.41068",
+    "pdf": "https://arxiv.org/pdf/2611.02097",
+    "pid": "2611.02097",
     "reasons": [
      "abstract: presentable"
     ],
     "source": "arxiv",
     "tier": 3,
-    "title": "Initial Subcategories via Free Presentations of the Constant Functor",
+    "title": "On the representability of actions of algebras with several bilinear multiplications",
     "watched": []
    },
    {
-    "abstract": "In this paper, we formulate Land-Tamme's $\\boxtimes$-construction and $\\odot$-construction for continuous exact monads on dualizable stable $\\infty$-categories, and establish the behaviour of localizing invariants on pushouts of left modules over continuous exact monads on dualizable stable $\\infty$-categories. Combining the Land-Tamme theory of continuous exact monads with the theory of analytic functors in Goodwillie calculus, we show that the reduced K-theory on modules over free tensor algebras of dualizable t-categories is modified 1-coanalytic or modified 2-coanalytic, depending on the coconnectivity of the base algebras. In particular, this answers Efimov's question concerning coanalyticity in the affirmative.",
+    "abstract": "By introducing the notion of stable compatibility, we provide a framework in the model category theory which addresses the existence of a stable model structure on the category of modules over a monad. Exact version of such monads have been studied in the setting of triangulated categories, separately as separable monads a la Balmer in tensor triangular geometry and non-separable monads a la Dell'Ambrogio and Sanders in stable homotopy theory. By introducing stable compatibility, we explore their properties together and produce a non-separable monad in Algebraic geometry and more.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Li He"
-    ],
-    "categories": [
-     "math.KT",
-     "math.CT"
-    ],
-    "date": "2026-11-02",
-    "link": "https://arxiv.org/abs/2610.41566",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.41566",
-    "pid": "2610.41566",
-    "reasons": [
-     "abstract: infinity-categor",
-     "abstract: goodwillie"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "The coanalyticity of the reduced K-theory on modules over free tensor algebras of dualizable t-categories",
-    "watched": []
-   },
-   {
-    "abstract": "We study an ``odd'' version of the Grothendieck--Teichm\\\"uller Lie algebra that is obtained by replacing free Lie algebras in even generators by free graded Lie algebras in odd generators in the classical definition. These odd variants are related to the ``odd'' Kontsevich graph complex in the same way as the classical Grothendieck--Teichm\\\"uller group is related to the even Kontsevich graph complex. We show an odd analog of the Deligne--Drinfeld conjecture, namely that the odd Grothendieck--Teichm\\\"uller Lie algebra is isomorphic to a free graded Lie algebra in one odd generator of weight 3. Thus we in particular compute the odd graph cohomology in the bottom cohomological degree, showing that it is mostly zero.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Florian Naef",
-     "Thomas Willwacher"
-    ],
-    "categories": [
-     "math.QA",
-     "math.AT"
-    ],
-    "date": "2026-11-02",
-    "link": "https://arxiv.org/abs/2610.41766",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.41766",
-    "pid": "2610.41766",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "An odd version of the Grothendieck--Teichm\\\"uller Lie algebra and the odd Deligne--Drinfeld conjecture",
-    "watched": []
-   },
-   {
-    "abstract": "Let $\\mathcal{F}$ be a saturated fusion system over a finite $p$-group $S$, and $\\mathcal{O}^c (\\mathcal{F})$ denote the centric orbit category of $\\mathcal{F}$. Suppose that $G$ is a discrete group realizing $\\mathcal{F}$, and $\\mathcal{C}$ is the collection of all $p$-centric subgroups in $G$. We prove that for every $\\mathbb{Z}_{(p)} \\mathcal{O} ^c (\\mathcal{F})$-module $M$, the higher limits $\\lim ^* _{\\mathcal{O}^c (\\mathcal{F})} M$ are isomorphic to the equivariant cohomology $H_ G ^* (|\\mathcal{C}| ; \\mathcal{M} )$, where $\\mathcal{M}$ is the $G$-equivariant coefficient system on $|\\mathcal{C}|$ induced by $M$. This is the fusion system version of a theorem by Grodal for higher limits over the $p$-orbit category $\\mathcal{O}_p(G)$ of a finite group $G$. As a consequence, for every fusion system $\\mathcal{F}$, we obtain a finite sequence of cohomology groups, involving the cohomology of $\\mathcal{F}$, which is exact if and only if the mod-$p$ subgroup decomposition for $\\mathcal{F}$ over $\\mathcal{F}$-centric subgroups is sharp.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Ergun Yalcin"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-11-02",
-    "link": "https://arxiv.org/abs/2610.40915",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.40915",
-    "pid": "2610.40915",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Higher limits over the fusion orbit category via subgroup complexes",
-    "watched": []
-   },
-   {
-    "abstract": "Classical persistent homology provides a summary of the multiscale topology of a filtration of a space. These summaries are not naturally valued in a vector space, limiting their direct use in standard machine learning pipelines. To address this issue, Bubenik introduced persistence landscapes, vector-valued invariants of persistence modules, which operate by conveniently encoding the behavior of rank functions of modules along the parameter axis. When passing to multiparameter persistent homology, changes in the rank functions vary by different amounts in different directions. In this paper, we introduce the landscape interval, a subset of the parameter space of a multiparameter persistence module which records changes in the rank function in all directions simultaneously. This geometric perspective leads to two novel invariants which serve as notions of persistence landscapes for multiparameter modules. We show that our invariants generalize existing landscape-type invariants: in particular, they recover Bubenik's landscapes in the one-parameter setting and allow us to obtain the multiparameter landscapes introduced by Vipond. For our main theoretical contributions, we establish two exact identities connecting landscapes with erosion distances, prove that our invariants are stable under perturbations, and refine the interleaving-stability bounds for the existing landscape-type invariants. We also show that on a certain class of multiparameter persistence modules, the full invariants can be recovered from finite information about the module. On the practical side, we introduce a robust numerical framework for extracting our invariants from real data and for incorporating them into standard machine learning pipelines. The framework is illustrated on surface mesh and medical image data.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Pan Fang",
-     "Washington Mio",
-     "Tom Needham"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-11-02",
-    "link": "https://arxiv.org/abs/2610.42090",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.42090",
-    "pid": "2610.42090",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Landscape Intervals: A Geometric Framework for Multiparameter Persistence Landscapes",
-    "watched": []
-   },
-   {
-    "abstract": "Let $F=G/B$ be the complete flag variety of a connected semisimple complex linear algebraic group. We prove that if a smooth Fano variety $X$ has the same dimension and Picard number as $F$, then the existence of a continuous map $X\\to F$ of odd topological degree implies $X$ is isomorphic to $F$. In particular, a smooth Fano variety homotopy equivalent to $F$ is isomorphic to $F$.\n  The algebraic input is a numerical characterization of complete flags: a positive-dimensional smooth Fano variety $X$ is a complete flag variety if and only if its pseudoindex $\\iota_X$ is at least two and ${\\rm ker}({\\rm Sym}^2N^1(X)_{\\mathbb R}\\to N^2(X)_{\\mathbb R})$ contains a positive-definite quadratic form. The pseudoindex condition can equivalently be replaced by the divisibility of $-K_X$ by two in ${\\rm Pic}(X)$. The key observation is that a single definite quadratic relation excludes surfaces in every fiber of any elementary contraction; standard contraction theorems then yield smooth ${\\mathbb P}^1$-fibrations and the characterization of complete flags applies. For the odd-degree theorem, Poincar\\'e duality and a mod-two Wu-class argument show that the anticanonical class is divisible by two; comparison of the integral coroot lattices then identifies the flag. Most proofs were developed through extensive discussions with OpenAI's ChatGPT (GPT-5.6 Sol and GPT-6), based on mathematical directions supplied by the author and arguments suggested by ChatGPT; see the AI Disclosure.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Kiwamu Watanabe"
+     "Kunal Arora",
+     "Vivek Mohan Mallick"
     ],
     "categories": [
      "math.AG",
      "math.AT",
-     "math.CV",
-     "math.DG",
-     "math.RT"
+     "math.CT"
     ],
-    "date": "2026-11-02",
-    "link": "https://arxiv.org/abs/2610.41237",
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.00813",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.41237",
-    "pid": "2610.41237",
+    "pdf": "https://arxiv.org/pdf/2611.00813",
+    "pid": "2611.00813",
+    "reasons": [
+     "abstract: tensor triangular"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Stable compatibility for model categories",
+    "watched": []
+   },
+   {
+    "abstract": "In topological data analysis, multiparameter persistence modules (MPMs) are used to analyze data with multiple parameters. Summarizing topological information for MPMs is a non-trivial task; one useful summary of bipersistence modules is the fibered barcode \\cite{lesnick2015interactive,lesnick2025fast}. In this paper, we use a directed topological construction of the parameter space of a bifiltration to extend the fibered barcode. Specifically, given a $k$-critical bifiltration $F$, we build an associated directed Euclidean cubical complex $C$ whose directed paths each correspond to a one-parameter subfiltration of $F$. The path space of $C$, $\\di{C}$, is used to define the \\emph{extended fibered barcode}, which contains all possible monotonically increasing paths in $C$. We show that there can be paths in $\\di{C}$ which generate filtrations not obtainable along a line with positive slope, and that all lines with positive slope have a path in $\\di{C}$ that generate an equivalent barcode. We introduce two types of equivalence for these restricted modules: combinatorial equivalence of diagrams, and simplicial equivalence of the filtrations generating the modules. We show that removing certain cubes from $C$ yields a subcomplex on which dihomotopic paths induce simplicially equivalent filtrations, and hence combinatorially equivalent diagrams.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Robin Belton",
+     "Robyn Brooks",
+     "Lisbeth Fajstrup",
+     "Brittany Terese Fasy",
+     "Elizabeth Vidaurre"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.00261",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.00261",
+    "pid": "2611.00261",
     "reasons": [],
     "source": "arxiv",
     "tier": 4,
-    "title": "Odd-Degree Rigidity and a Numerical Characterization of Complete Flag Varieties",
+    "title": "A Directed Cubical Framework for k-critical Bipersistence Modules",
+    "watched": []
+   },
+   {
+    "abstract": "We study persistence modules obtained from the $A$-fundamental groupoids of finite graphs. Moreover, we verify the categorical properties needed to form generalized persistence diagrams, and describe a quotient that identifies equivalent groupoids. A normalized linear presheaf construction places these modules in an essentially small abelian category, where Patel's Continuity Theorem gives a $1$-Lipschitz estimate in erosion distance. Explicit graph filtrations illustrate the groupoid-valued construction, and so we suggest a new approach to interpret persistence diagrams and large data sets in topological data analysis, based on recent works of A-homotopy theory of the last years.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Yanga Bavuma",
+     "Martin Mijangos",
+     "Francesco G. Russo"
+    ],
+    "categories": [
+     "math.AT",
+     "math.CO",
+     "math.CT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.00799",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.00799",
+    "pid": "2611.00799",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A result of continuous stability for generalized persistence diagrams",
+    "watched": []
+   },
+   {
+    "abstract": "Determining the representative volume element is essential for establishing statistically meaningful microstructure-property relationships. Conventional approaches rely on the convergence of selected geometric descriptors, which may yield different estimates of the representative volume. Here, we propose a topology-based framework for assessing the representative scale of a nickel-yttria-stabilized zirconia solid oxide cell anode reconstructed using plasma focused ion beam-scanning electron microscopy (121.8 um x 83.97 um x 45.99 um). Persistent homology was used to characterize the pore network, and normalized persistence images of subvolumes were compared with those of the largest available reference volume using the L1 distance. This provides a continuous measure of topological similarity across observation scales, rather than defining representativeness through a single convergence threshold. The topological distance decreases with increasing volume and is described by empirical exponential models over the investigated range (R2 in [0.972, 0.983]). Comparison with porosity and specific surface area highlights differences in the scale-dependent behavior of geometric and topological descriptors. The framework was also tested on three independent synthetic realizations, demonstrating its potential for quantitative assessment of topological similarity in porous microstructures.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Aleksandra Kukie{\\l}ka",
+     "Maksym Szemer",
+     "Szymon Buchaniec",
+     "Katarzyna Berent",
+     "Grzegorz Brus"
+    ],
+    "categories": [
+     "cond-mat.mtrl-sci",
+     "math.AT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.03176",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.03176",
+    "pid": "2611.03176",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A Topology-Based Approach to Representative Volume Element Assessment in Solid Oxide Cell Anodes Using Large Volume Tomography and Persistent Homology",
+    "watched": []
+   },
+   {
+    "abstract": "We study regular spherical actions, namely, actions of a connected compact Lie group G on a manifold M with equidimensional orbits, some of which are spheres. These spherical orbits are diffeomorphic to homogeneous spaces G/H, and there is a list of nine possible families of pairs (G, H). The normalizer N of H in G plays an important role in our calculations, as does the Weyl group W = N/H. In fact, there are three possibilities for W, namely: Z_2, S^1 and S^3. The goal of this paper is to relate the cohomology of M to that of the orbit space M/G. We obtain a particularly simple relationship in the first case, W = Z_2. For the remaining two cases, W = S^1 and W = S^3, it is already known that the cohomology of M and that of the orbit space M/G are related by the Gysin sequence ... \\to H^k(M/G) \\to H^k(M ) \\to H^{k-d}(M/G) \\to H^{k+1}(M/G) \\to ... In this work, we provide a direct construction of this sequence, avoiding the use of spectral sequences. Moreover, we give an explicit description of the connecting homomorphism as multiplication by a power of the Euler class associated with the action of the Weyl group W = S^l on the fixed-point set M^H.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Jos\\'e Ignacio Royo Prieto",
+     "Martintxo Saralegi-Aranguren",
+     "Robert Wolak"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.02111",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.02111",
+    "pid": "2611.02111",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Cohomology of regular spherical actions",
+    "watched": []
+   },
+   {
+    "abstract": "We define generalized Bernoulli numbers as appropriate coefficients of the Baker--Campbell--Hausdorff (BCH) product formula, extending the classical sequence of rational numbers to a 2-dimensional setting. We give an identity involving these numbers and the classical Bernoulli numbers which is equivalent to the existence of a particular complete differential graded Lie algebra modelling a cell decomposition of the 2-disk and based on the Lawrence--Sullivan model of the interval. From this identity we derive explicit quadratic relations.\n  The existence of Lie models for the symmetries of the interval and the disk is related to certain properties of the BCH product and to some notable features of the classical Bernoulli numbers: the two choices for $B_1$, the vanishing of $B_n$ for odd $n\\geq 3$, and the equality $B_4=B_8$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Urtzi Buijs",
+     "Jos\\'e Manuel Moreno Fern\\'andez"
+    ],
+    "categories": [
+     "math.AT",
+     "math.CO",
+     "math.NT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.00825",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.00825",
+    "pid": "2611.00825",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Identities for generalized Bernoulli numbers from a Lie model of the 2-disk",
+    "watched": []
+   },
+   {
+    "abstract": "We give a negative answer to a question of S\\'anchez Salda\\~na--Vel\\'asquez and L\\\"uck asking whether the topological K-theory of the reduced group C*-algebra of a split crystallographic group with finite cyclic holonomy is always torsion-free. For two explicit split crystallographic groups with translation subgroup of rank four and holonomy of order four, we compute the equivariant K-theory of the classifying space for proper actions and find nontrivial two-torsion. The equivariant universal coefficient theorem transfers this torsion to proper equivariant K-homology, and the Baum--Connes conjecture identifies the resulting groups with the topological K-theory of the corresponding reduced group C*-algebras.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Cristian Sarmiento",
+     "Mario Velasquez"
+    ],
+    "categories": [
+     "math.KT"
+    ],
+    "date": "2026-11-03",
+    "link": "https://arxiv.org/abs/2611.00493",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.00493",
+    "pid": "2611.00493",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 5,
+    "title": "Counterexamples to torsion-freeness in the $K$-theory of crystallographic group $C^*$-algebras",
     "watched": []
    }
   ]
@@ -5274,6 +6048,7 @@
   "1902.06372": "2026-10-27",
   "1903.10793": "2026-10-09",
   "1907.06787": "2026-10-23",
+  "1909.01332": "2026-11-03",
   "1911.02642": "2026-10-21",
   "2001.04083": "2026-10-27",
   "2004.03198": "2026-10-30",
@@ -5286,6 +6061,7 @@
   "2109.01213": "2026-10-08",
   "2109.14655": "2026-10-08",
   "2110.03489": "2026-10-23",
+  "2111.15299": "2026-11-03",
   "2201.00447": "2026-11-02",
   "2201.07178": "2026-10-15",
   "2201.07767": "2026-10-14",
@@ -5307,6 +6083,7 @@
   "2211.11456": "2026-10-14",
   "2212.07085": "2026-10-16",
   "2212.12358": "2026-10-21",
+  "2301.06994": "2026-11-03",
   "2303.11071": "2026-10-20",
   "2303.12124": "2026-11-02",
   "2303.16259": "2026-10-28",
@@ -5329,6 +6106,7 @@
   "2310.08283": "2026-10-30",
   "2310.11625": "2026-10-30",
   "2310.13319": "2026-10-14",
+  "2310.16558": "2026-11-03",
   "2310.18062": "2026-10-12",
   "2311.04668": "2026-10-26",
   "2311.07356": "2026-10-16",
@@ -5355,11 +6133,14 @@
   "2402.18770": "2026-10-27",
   "2403.01561": "2026-10-26",
   "2403.04572": "2026-10-23",
+  "2403.08308": "2026-11-03",
+  "2403.14462": "2026-11-03",
   "2403.17961": "2026-10-27",
   "2404.00945": "2026-10-14",
   "2404.03971": "2026-10-14",
   "2404.04730": "2026-10-12",
   "2404.06763": "2026-10-28",
+  "2404.06788": "2026-11-03",
   "2404.10139": "2026-10-28",
   "2404.19229": "2026-10-19",
   "2405.01428": "2026-10-12",
@@ -5378,13 +6159,16 @@
   "2407.00971": "2026-10-27",
   "2407.01849": "2026-10-14",
   "2407.05859": "2026-10-14",
+  "2407.06007": "2026-11-03",
   "2407.09306": "2026-10-27",
   "2407.11176": "2026-10-20",
   "2407.14978": "2026-10-30",
   "2407.20638": "2026-11-02",
+  "2408.01348": "2026-11-03",
   "2408.01788": "2026-10-09",
   "2408.03111": "2026-10-14",
   "2408.17301": "2026-10-14",
+  "2409.03465": "2026-11-03",
   "2409.06553": "2026-10-08",
   "2409.06657": "2026-10-28",
   "2409.08370": "2026-10-14",
@@ -5457,6 +6241,7 @@
   "2504.11403": "2026-10-14",
   "2504.14246": "2026-10-19",
   "2504.14844": "2026-10-28",
+  "2504.20265": "2026-11-03",
   "2504.20949": "2026-10-30",
   "2505.00680": "2026-10-16",
   "2505.01216": "2026-10-22",
@@ -5473,11 +6258,13 @@
   "2505.21186": "2026-10-30",
   "2505.21373": "2026-10-23",
   "2505.22832": "2026-10-27",
+  "2505.23202": "2026-11-03",
   "2505.24416": "2026-10-14",
   "2506.01345": "2026-10-27",
   "2506.06512": "2026-10-21",
   "2506.10436": "2026-10-28",
   "2506.10519": "2026-10-14",
+  "2506.12663": "2026-11-03",
   "2506.17888": "2026-10-15",
   "2506.20942": "2026-11-02",
   "2506.21180": "2026-10-26",
@@ -5491,11 +6278,14 @@
   "2507.02852": "2026-10-12",
   "2507.06318": "2026-10-22",
   "2507.06995": "2026-10-21",
+  "2507.08502": "2026-11-03",
+  "2507.08568": "2026-11-03",
   "2507.11073": "2026-10-23",
   "2507.11207": "2026-10-20",
   "2507.12710": "2026-10-20",
   "2507.15632": "2026-10-20",
   "2507.16304": "2026-10-27",
+  "2507.18604": "2026-11-03",
   "2507.19708": "2026-10-27",
   "2508.01294": "2026-10-14",
   "2508.01527": "2026-10-23",
@@ -5510,12 +6300,15 @@
   "2508.15974": "2026-10-21",
   "2508.17485": "2026-10-09",
   "2508.18339": "2026-10-27",
+  "2508.19360": "2026-11-03",
   "2509.00434": "2026-10-30",
   "2509.00954": "2026-11-02",
+  "2509.02239": "2026-11-03",
   "2509.03993": "2026-10-20",
   "2509.04433": "2026-10-27",
   "2509.05462": "2026-10-19",
   "2509.05900": "2026-10-30",
+  "2509.06211": "2026-11-03",
   "2509.06363": "2026-10-30",
   "2509.07476": "2026-10-14",
   "2509.07720": "2026-10-15",
@@ -5526,9 +6319,11 @@
   "2509.19479": "2026-10-12",
   "2509.20019": "2026-10-20",
   "2509.20167": "2026-10-14",
+  "2509.22625": "2026-11-03",
   "2509.23428": "2026-10-22",
   "2509.24346": "2026-10-22",
   "2509.24504": "2026-10-22",
+  "2509.24990": "2026-11-03",
   "2509.25629": "2026-10-16",
   "2510.00115": "2026-10-30",
   "2510.02065": "2026-10-14",
@@ -5605,12 +6400,16 @@
   "2601.03036": "2026-10-15",
   "2601.05369": "2026-10-14",
   "2601.05706": "2026-10-22",
+  "2601.09418": "2026-11-03",
   "2601.10895": "2026-10-23",
   "2601.11084": "2026-10-16",
+  "2601.13482": "2026-11-03",
   "2601.14116": "2026-10-26",
+  "2601.14237": "2026-11-03",
   "2601.16557": "2026-10-14",
   "2601.16889": "2026-10-14",
   "2601.17765": "2026-10-20",
+  "2601.19164": "2026-11-03",
   "2601.20804": "2026-10-14",
   "2601.21958": "2026-10-23",
   "2601.21973": "2026-10-26",
@@ -5622,8 +6421,11 @@
   "2602.08138": "2026-10-23",
   "2602.08366": "2026-10-30",
   "2602.08480": "2026-10-28",
+  "2602.09815": "2026-11-03",
   "2602.10000": "2026-10-15",
+  "2602.11110": "2026-11-03",
   "2602.12363": "2026-11-02",
+  "2602.12439": "2026-11-03",
   "2602.14109": "2026-10-20",
   "2602.14605": "2026-10-20",
   "2602.15748": "2026-10-14",
@@ -5646,10 +6448,14 @@
   "2603.07301": "2026-10-16",
   "2603.11440": "2026-10-16",
   "2603.12441": "2026-10-09",
+  "2603.12985": "2026-11-03",
   "2603.14539": "2026-10-16",
   "2603.14821": "2026-10-26",
+  "2603.15233": "2026-11-03",
   "2603.15873": "2026-10-19",
+  "2603.16375": "2026-11-03",
   "2603.18041": "2026-10-20",
+  "2603.18321": "2026-11-03",
   "2603.23157": "2026-10-22",
   "2603.23695": "2026-11-02",
   "2603.25117": "2026-10-19",
@@ -5662,6 +6468,7 @@
   "2604.00289": "2026-10-15",
   "2604.01585": "2026-10-28",
   "2604.03763": "2026-10-20",
+  "2604.03895": "2026-11-03",
   "2604.04505": "2026-10-12",
   "2604.04793": "2026-10-20",
   "2604.05293": "2026-10-26",
@@ -5670,15 +6477,21 @@
   "2604.06479": "2026-10-14",
   "2604.06979": "2026-10-16",
   "2604.09216": "2026-10-30",
+  "2604.10624": "2026-11-03",
   "2604.14077": "2026-11-02",
   "2604.15843": "2026-10-09",
   "2604.16296": "2026-10-09",
+  "2604.16805": "2026-11-03",
   "2604.17043": "2026-10-09",
   "2604.17589": "2026-10-14",
   "2604.17757": "2026-10-14",
   "2604.17792": "2026-10-27",
+  "2604.18074": "2026-11-03",
+  "2604.20091": "2026-11-03",
   "2604.20177": "2026-10-20",
+  "2604.20729": "2026-11-03",
   "2604.21661": "2026-10-30",
+  "2604.21785": "2026-11-03",
   "2604.21900": "2026-10-23",
   "2604.22578": "2026-10-19",
   "2604.23395": "2026-10-15",
@@ -5744,8 +6557,10 @@
   "2606.23906": "2026-10-20",
   "2606.25516": "2026-10-14",
   "2606.25554": "2026-10-23",
+  "2606.25560": "2026-11-03",
   "2606.26043": "2026-10-15",
   "2606.26281": "2026-10-14",
+  "2606.26786": "2026-11-03",
   "2606.26851": "2026-10-30",
   "2606.27940": "2026-10-28",
   "2606.28110": "2026-10-30",
@@ -5757,6 +6572,7 @@
   "2607.02218": "2026-10-08",
   "2607.02281": "2026-10-14",
   "2607.04536": "2026-10-26",
+  "2607.06285": "2026-11-03",
   "2607.06543": "2026-10-16",
   "2607.07355": "2026-10-27",
   "2607.10010": "2026-10-22",
@@ -5802,6 +6618,7 @@
   "2608.00470": "2026-10-15",
   "2608.00708": "2026-10-22",
   "2608.01031": "2026-10-08",
+  "2608.01037": "2026-11-03",
   "2608.02623": "2026-10-21",
   "2608.03434": "2026-10-08",
   "2608.03601": "2026-10-14",
@@ -5824,6 +6641,7 @@
   "2608.14145": "2026-10-16",
   "2608.14194": "2026-10-27",
   "2608.14253": "2026-11-02",
+  "2608.14350": "2026-11-03",
   "2608.14475": "2026-10-14",
   "2608.16668": "2026-10-20",
   "2608.18928": "2026-10-12",
@@ -5876,6 +6694,7 @@
   "2609.12507": "2026-10-27",
   "2609.12759": "2026-10-20",
   "2609.13687": "2026-10-14",
+  "2609.13921": "2026-11-03",
   "2609.15419": "2026-10-14",
   "2609.15698": "2026-10-14",
   "2609.15909": "2026-10-09",
@@ -5896,6 +6715,7 @@
   "2609.21914": "2026-10-15",
   "2609.22414": "2026-10-14",
   "2609.22544": "2026-10-30",
+  "2609.22551": "2026-11-03",
   "2609.23440": "2026-10-14",
   "2609.23556": "2026-10-14",
   "2609.23822": "2026-10-22",
@@ -5928,6 +6748,7 @@
   "2609.35683": "2026-10-23",
   "2609.36410": "2026-10-21",
   "2609.37706": "2026-10-28",
+  "2609.37815": "2026-11-03",
   "2609.37839": "2026-10-14",
   "2609.38068": "2026-10-08",
   "2609.38211": "2026-10-26",
@@ -5936,6 +6757,7 @@
   "2609.38801": "2026-10-21",
   "2609.39293": "2026-10-14",
   "2609.39536": "2026-10-08",
+  "2609.39567": "2026-11-03",
   "2609.39707": "2026-10-08",
   "2609.39721": "2026-10-23",
   "2609.39745": "2026-10-08",
@@ -5974,6 +6796,7 @@
   "2610.07999": "2026-10-20",
   "2610.08057": "2026-10-30",
   "2610.08226": "2026-10-15",
+  "2610.08243": "2026-11-03",
   "2610.08252": "2026-10-23",
   "2610.08334": "2026-10-16",
   "2610.08490": "2026-10-27",
@@ -7068,6 +7891,103 @@
   "2610.42110": "2026-11-02",
   "2610.42123": "2026-11-02",
   "2610.42134": "2026-11-02",
+  "2611.00068": "2026-11-03",
+  "2611.00220": "2026-11-03",
+  "2611.00258": "2026-11-03",
+  "2611.00261": "2026-11-03",
+  "2611.00305": "2026-11-03",
+  "2611.00311": "2026-11-03",
+  "2611.00313": "2026-11-03",
+  "2611.00315": "2026-11-03",
+  "2611.00321": "2026-11-03",
+  "2611.00363": "2026-11-03",
+  "2611.00457": "2026-11-03",
+  "2611.00493": "2026-11-03",
+  "2611.00757": "2026-11-03",
+  "2611.00799": "2026-11-03",
+  "2611.00813": "2026-11-03",
+  "2611.00825": "2026-11-03",
+  "2611.00861": "2026-11-03",
+  "2611.00864": "2026-11-03",
+  "2611.00882": "2026-11-03",
+  "2611.00905": "2026-11-03",
+  "2611.00913": "2026-11-03",
+  "2611.00966": "2026-11-03",
+  "2611.00990": "2026-11-03",
+  "2611.00997": "2026-11-03",
+  "2611.01008": "2026-11-03",
+  "2611.01104": "2026-11-03",
+  "2611.01138": "2026-11-03",
+  "2611.01184": "2026-11-03",
+  "2611.01210": "2026-11-03",
+  "2611.01260": "2026-11-03",
+  "2611.01273": "2026-11-03",
+  "2611.01412": "2026-11-03",
+  "2611.01418": "2026-11-03",
+  "2611.01423": "2026-11-03",
+  "2611.01428": "2026-11-03",
+  "2611.01497": "2026-11-03",
+  "2611.01508": "2026-11-03",
+  "2611.01528": "2026-11-03",
+  "2611.01545": "2026-11-03",
+  "2611.01546": "2026-11-03",
+  "2611.01567": "2026-11-03",
+  "2611.01608": "2026-11-03",
+  "2611.01654": "2026-11-03",
+  "2611.01672": "2026-11-03",
+  "2611.01716": "2026-11-03",
+  "2611.01745": "2026-11-03",
+  "2611.01762": "2026-11-03",
+  "2611.01803": "2026-11-03",
+  "2611.01916": "2026-11-03",
+  "2611.01961": "2026-11-03",
+  "2611.01985": "2026-11-03",
+  "2611.01994": "2026-11-03",
+  "2611.02000": "2026-11-03",
+  "2611.02013": "2026-11-03",
+  "2611.02043": "2026-11-03",
+  "2611.02058": "2026-11-03",
+  "2611.02071": "2026-11-03",
+  "2611.02080": "2026-11-03",
+  "2611.02097": "2026-11-03",
+  "2611.02111": "2026-11-03",
+  "2611.02261": "2026-11-03",
+  "2611.02320": "2026-11-03",
+  "2611.02388": "2026-11-03",
+  "2611.02398": "2026-11-03",
+  "2611.02417": "2026-11-03",
+  "2611.02496": "2026-11-03",
+  "2611.02575": "2026-11-03",
+  "2611.02577": "2026-11-03",
+  "2611.02614": "2026-11-03",
+  "2611.02670": "2026-11-03",
+  "2611.02683": "2026-11-03",
+  "2611.02717": "2026-11-03",
+  "2611.02749": "2026-11-03",
+  "2611.02789": "2026-11-03",
+  "2611.02795": "2026-11-03",
+  "2611.02838": "2026-11-03",
+  "2611.02904": "2026-11-03",
+  "2611.02967": "2026-11-03",
+  "2611.03036": "2026-11-03",
+  "2611.03064": "2026-11-03",
+  "2611.03124": "2026-11-03",
+  "2611.03174": "2026-11-03",
+  "2611.03176": "2026-11-03",
+  "2611.03204": "2026-11-03",
+  "2611.03225": "2026-11-03",
+  "2611.03253": "2026-11-03",
+  "2611.03303": "2026-11-03",
+  "2611.03311": "2026-11-03",
+  "2611.03342": "2026-11-03",
+  "2611.03402": "2026-11-03",
+  "2611.03464": "2026-11-03",
+  "2611.03470": "2026-11-03",
+  "2611.03514": "2026-11-03",
+  "2611.03553": "2026-11-03",
+  "2611.03566": "2026-11-03",
+  "2611.03572": "2026-11-03",
+  "2611.03606": "2026-11-03",
   "hexagon:2609.00001": "2026-10-08",
   "hexagon:2609.00102": "2026-10-08",
   "hexagon:2609.00104": "2026-10-08",
