@@ -1,0 +1,946 @@
+{
+"day": "2026-11-04",
+"updated": "2026-11-04T05:07:26+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "2412.16090",
+"title": "$L^2$-Betti numbers of Dehn fillings",
+"abstract": "We initiate the study of the $L^2$-Betti numbers of group-theoretic Dehn fillings. For a broad class of virtually special groups $G$, we prove that the $L^2$-Betti numbers of sufficiently deep Dehn fillings $\\overline{G}$ are equal to those of $G$. As applications, we verify the Singer Conjecture for certain Einstein manifolds, establish a virtual fibering criterion for $\\overline{G}$, obtain bounds on deficiency of $\\overline{G}$, and provide new examples of hyperbolic groups with exotic subgroups that arise as Dehn fillings of any cusped arithmetic hyperbolic manifold of dimension at least four.",
+"authors": [
+"Nansen Petrosyan",
+"Bin Sun"
+],
+"categories": [
+"math.GR",
+"math.AT",
+"math.DG",
+"math.GT"
+],
+"link": "https://arxiv.org/abs/2412.16090",
+"pdf": "https://arxiv.org/pdf/2412.16090",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2209.05429",
+"title": "$P=W$ via $\\mathcal{H}_2$",
+"abstract": "Let $\\mathcal{H}_2$ be the Lie algebra of polynomial Hamiltonian vector fields on the symplectic plane. Let $X$ be the moduli space of stable Higgs bundles of fixed relatively prime rank and degree, or more generally the moduli space of stable parabolic Higgs bundles of arbitrary rank and degree for a generic stability condition. Let $H^*(X)$ be the cohomology with rational coefficients. Using the operations of cup-product by tautological classes and Hecke correspondences we construct an action of $\\mathcal{H}_2$ on $H^*(X)[x,y]$, where $x$ and $y$ are formal variables. We show that the perverse filtration on $H^*(X)$ coincides with the filtration canonically associated to $\\mathfrak{sl}_2\\subset \\mathcal{H}_2$ and deduce the $P=W$ conjecture of de Cataldo-Hausel-Migliorini.",
+"authors": [
+"Tamas Hausel",
+"Anton Mellit",
+"Alexandre Minets",
+"Olivier Schiffmann"
+],
+"categories": [
+"math.AG",
+"math.DG",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2209.05429",
+"pdf": "https://arxiv.org/pdf/2209.05429",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2607.04931",
+"title": "A note on prismatic sites for p-quasisyntomic rings",
+"abstract": "Let $p$ be a fixed prime number and let $R$ be a $p$-quasisyntomic ring. We provide conditions for objects in the absolute prismatic site $R_\\Prism$ to cover the final object in $\\Shv(R_\\Prism)$ and to admit finite self-coproducts in $R_\\Prism$. More precisely, we introduce in $R_\\Prism$ the so-called transversal objects, so that the coproduct of any object in $R_\\Prism$ with a transversal object exists in $R_\\Prism$. As an immediate generalization, we introduce the so-called relatively quasiregular semiperfectoid covers of $R$, whose prismatic cohomology (of $\\delta$-pairs, in the sense of Antieau-Krause-Nikolaus) produces objects in $R_\\Prism$ that cover the final object in $\\Shv(R_\\Prism)$ and admit finite self-coproducts in $R_\\Prism$.",
+"authors": [
+"Jingbang Guo"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://arxiv.org/abs/2607.04931",
+"pdf": "https://arxiv.org/pdf/2607.04931",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [
+"title: prismatic",
+"title: syntomic"
+],
+"watched_authors": []
+},
+{
+"pid": "2608.19829",
+"title": "A Note on Topological Hochschild Homology Relative to $\\Sphere_{W(k)}[x_0,x_1,\\ldots,x_n]$",
+"abstract": "We explain the relation between the relative topological Hochschild homology $\\THH(R/\\Sphere_{W(k)}[x_0,\\ldots,x_n])$ and the Nygaard-completed Frobenius-twisted relative prismatic cohomology $\\widehat{\\Prism}^{(1)}_{R/W(k)[x_0,\\ldots,x_n]^\\wedge}$, where $W(k)[x_0,x_1,\\ldots,x_n]\\rightarrow R$ is relatively quasiregular semiperfectoid. As an application, for $R=\\Z_p[x]/(px)$, we compute $\\pi_*\\THH(R)^\\wedge_p$ by descent along $\\THH(R)^\\wedge_p\\rightarrow \\THH(R/\\Sphere_p[z,x])$, where $R$ is regarded as an $\\Einfty$-$\\Sphere_p[z,x]$-algebra via $\\Sphere_p[z,x]\\xrightarrow{z\\mapsto p,x\\mapsto x}\\Z_p[x]/(px)$.",
+"authors": [
+"Jingbang Guo"
+],
+"categories": [
+"math.AT"
+],
+"link": "https://arxiv.org/abs/2608.19829",
+"pdf": "https://arxiv.org/pdf/2608.19829",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [
+"title: topological hochschild homology",
+"abstract: prismatic"
+],
+"watched_authors": []
+},
+{
+"pid": "2608.08680",
+"title": "A Torelli-type theorem for hyperk\\\"{a}hler quotients",
+"abstract": "In this paper, we investigate the moduli space of algebraic asymptotic hyperk\\\"{a}hler structures on hyperk\\\"{a}hler quotients arising from a quaternionic vector space $\\mathbb{H}^n$. We consider the period map on this moduli space, and prove a Torelli-type theorem (i.e., the bijectivity of the period map) under mild assumptions including the surjectivity of the Kirwan map. This work provides an algebro-geometric generalization of the Torelli-type theorem for ALE gravitational instantons by Kronheimer (1989). In particular, this theorem applies to toric hyperk\\\"ahler varieties and Nakajima quiver varieties.",
+"authors": [
+"Ryota Kotani"
+],
+"categories": [
+"math.AG",
+"math.DG"
+],
+"link": "https://arxiv.org/abs/2608.08680",
+"pdf": "https://arxiv.org/pdf/2608.08680",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2607.28009",
+"title": "An infinitesimal deformation of the post-Lie and post-Hopf algebra correspondence",
+"abstract": "We describe infinitesimal deformations of post-Lie algebras and post-Hopf algebras and prove that the universal enveloping algebra and primitive elements adjunction is compatible with the infinitesimal structure. In characteristic zero, this restricts to an equivalence for connected cocommutative infinitesimal post-Hopf algebras, extending the Cartier--Milnor--Moore theorem. We parametrize all infinitesimal post-Lie structures on $\\mathfrak{sl}(2)$ and exhibit a second-order obstruction. From a geometric point of view, infinitesimal post-Lie algebras emerge from flat connections with covariantly constant torsion and an additional compatible symmetric $(1,2)$-tensor. This leads to explicit examples of infinitesimal post-Lie structures based on Heisenberg Lie algebras. On the Hopf side, we classify infinitesimal structures above the trivial action, prove rigidity for group algebras, and describe the structures on Sweedler's Hopf algebra. The subadjacent construction induces a Hopf algebra deformation with fixed coproduct. Finally, we prove that the quadratic operad of infinitesimal post-Lie algebras is Koszul, using a filtered distributive law between the operads of Lie algebras and bi-magmas.",
+"authors": [
+"Andrea Rivezzi",
+"Andrea Sciandra",
+"Thomas Weber"
+],
+"categories": [
+"math.QA",
+"math.CT",
+"math.RA",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2607.28009",
+"pdf": "https://arxiv.org/pdf/2607.28009",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2411.04628",
+"title": "Anticanonical divisor with good asymptotic base loci",
+"abstract": "We characterize varieties of Fano type in terms of potentially log canonical pairs and birational Zariski decompositions. We also prove the existence of anticanonical minimal models of a potentially lc pair $(X,\\Delta)$ under the assumptions that no potentially log canonical centers are contained in the augmented base locus of $-(K_X+\\Delta)$ and that $-(K_X+\\Delta)$ is a big $\\mathbb{Q}$-Cartier divisor admitting a birational Zariski decomposition with NQC positive part. This can be considered as an anticanonical analogue of the results by Birkar--Hu.",
+"authors": [
+"Sung Rak Choi",
+"Sungwook Jang",
+"Dae-Won Lee"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2411.04628",
+"pdf": "https://arxiv.org/pdf/2411.04628",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2510.14716",
+"title": "Approaching the Continuous from the Discrete: an Infinite Tensor Product Construction",
+"abstract": "Increasingly in recent years, probabilistic computation has been investigated through the lenses of categorical algebra, especially via string diagrammatic calculi. Whereas categories of discrete and Gaussian probabilistic processes have been thoroughly studied, with various axiomatisation results, more expressive classes of continuous probability are less understood, because of the intrinsic difficulty of describing infinite behaviour by algebraic means.\n  In this work, we establish a universal construction that adjoins infinite tensor products, allowing continuous probability to be investigated from discrete settings. Our main result applies this construction to $\\mathsf{FinStoch}$, the category of finite sets and stochastic matrices, obtaining a category of locally constant Markov kernels, where the objects are finite sets plus the Cantor space $2^{\\mathbb{N}}$. Any probability measure on the reals can be reasoned about in this category. Furthermore, we show how to lift axiomatisation results through the infinite tensor product construction. This way we obtain an axiomatic presentation of continuous probability over countable powers of $2=\\lbrace 0,1\\rbrace$.",
+"authors": [
+"Antonio Lorenzin",
+"Fabio Zanasi"
+],
+"categories": [
+"math.CT",
+"cs.LO"
+],
+"link": "https://arxiv.org/abs/2510.14716",
+"pdf": "https://arxiv.org/pdf/2510.14716",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2508.20054",
+"title": "Between Markov and restriction. Two more monads on categories for relations",
+"abstract": "The study of categories abstracting the structural properties of relations has been extensively developed over the years, resulting in a rich and diverse body of work. In a previous paper we offered a survey providing a modern presentation of these ``categories for relations'' as instances of gs-monoidal categories, showing how they arise as Kleisli categories of suitable symmetric monoidal monads. The end result was a taxonomy that organised numerous related concepts in the literature, including in particular Markov and restriction categories. This paper further enriches the taxonomy: it proposes two categories that are once more instances of gs-monoidal categories, yet more abstract than Markov and restriction categories. They are characterised by an axiomatic notion of mass and domain of an arrow, the latter one of the key ingredients of restriction categories, which generalises the domain of partial functions. The paper then introduces mass and domain preserving monads, proving that the associated Kleisli categories in fact preserve the corresponding equations and that these monads arise naturally for the categories of semiring-weighted relations.",
+"authors": [
+"Cipriano Junior Cioffo",
+"Fabio Gadducci",
+"Davide Trotta"
+],
+"categories": [
+"cs.LO",
+"math.CT"
+],
+"link": "https://arxiv.org/abs/2508.20054",
+"pdf": "https://arxiv.org/pdf/2508.20054",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2506.05190",
+"title": "Categorical foundations of discrete dynamical systems",
+"abstract": "We develop categorical foundations of discrete dynamical systems, aimed at understanding how the structure of the system affects its dynamics. We introduce the notion of cycle sets to analyze attractors of a system, and use this to generalize multiple decomposition theorems of Kadelka, Veliz-Cuba, Murrugarra, and the last two authors from Boolean networks to arbitrary discrete dynamical systems.",
+"authors": [
+"Daniel Carranza",
+"Chris Kapulkin",
+"Nathan Kershaw",
+"Reinhard Laubenbacher",
+"Matthew Wheeler"
+],
+"categories": [
+"math.DS",
+"math.CT"
+],
+"link": "https://arxiv.org/abs/2506.05190",
+"pdf": "https://arxiv.org/pdf/2506.05190",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2607.02985",
+"title": "Cellular $\\mathbb{A}^1$-Homology from Bruhat Boundary Matrices of Split Semisimple Flag Varieties",
+"abstract": "We determine the cellular $\\mathbb{A}^1$-chain complex of full and partial flag varieties of split semisimple simply connected groups over a perfect field of characteristic different from 2. With compatible integral normal orientations and reindexing by opposite Bruhat cells, the differential in each degree at least two is represented by the motivic Hopf map $\\eta$ times one half of the signed cellular boundary matrix of the corresponding real flag manifold. Consequently, the Smith data of the resulting integer complex give all positive-degree cellular homology sheaves in terms of Milnor--Witt $K$-theory and the kernels and cokernels of integer multiples of $\\eta$. We obtain a uniform computation of the second cellular $\\mathbb{A}^1$-homology of $SL_n/B$ for $n\\geq3$, together with complete calculations for $SL_3/B$ and the full flags of types $F_4$ and $G_2$.",
+"authors": [
+"Haoyang Liu",
+"Tianle Liu"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2607.02985",
+"pdf": "https://arxiv.org/pdf/2607.02985",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2510.12578",
+"title": "Cohomology of vector bundles on the moduli space of parabolic connections on $\\mathbb{P}^1$ minus $5$ points",
+"abstract": "We study the moduli space of parabolic connections of rank two on the complex projective line $\\mathbb{P}^1$ minus five points with fixed spectral data. We prove a cohomological vanishing theorem for tensor products of four natural vector bundles on the moduli stack of $\\nu$-${\\mathfrak sl}_2$-parabolic connections. We also compute the cohomology of the structure sheaf and give an explicit geometric description of a compactification of this moduli space, using $\\epsilon$-connections and the birational geometry of $\\mathbb{P}^2 \\times (\\mathbb{P}^2)^{\\vee}$. As an application, we construct a universal family of twisted $D$-modules whose fibers satisfy an orthogonality property over a dense open subset. These results are motivated by Arinkin's approach to the tamely ramified geometric Langlands correspondence.",
+"authors": [
+"Yuki Matsubara"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2510.12578",
+"pdf": "https://arxiv.org/pdf/2510.12578",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2603.04530",
+"title": "Complete Diagrammatic Axiomatisations of Relative Entropy",
+"abstract": "Relative entropy is a fundamental class of distances between probability distributions, with widespread applications in probability theory, statistics, and machine learning. In this work, we study relative entropy from a categorical perspective, viewing it as a quantitative enrichment of categories of stochastic matrices. We consider two natural monoidal structures on stochastic matrices, given by the Kronecker product and the direct sum. Our main results are complete axiomatisations of Kullback-Leibler divergence and, more generally, of R\\'enyi divergences of arbitrary order, for each such structure. Our axiomatic theories are formulated within the framework of quantitative monoidal algebra, using a graphical language of string diagrams enriched with quantitative equations.",
+"authors": [
+"Ralph Sarkis",
+"Fabio Zanasi"
+],
+"categories": [
+"cs.LO",
+"cs.IT",
+"math.CT",
+"math.IT"
+],
+"link": "https://arxiv.org/abs/2603.04530",
+"pdf": "https://arxiv.org/pdf/2603.04530",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2404.03063",
+"title": "Conic Multiview Varieties",
+"abstract": "We present an algebraic study of projections of conics in space onto multiple images of pinhole cameras. We study the Zariski closures of the projection images, which we call conic multiview varieties. Extending previous work for point and line multiview varieties, we use back-projected cones to describe these varieties. For two views, we determine the defining ideals of conic multiview varieties and describe their singular loci. For any number of views, we characterize when the simplest possible set-theoretic description is achieved based on the geometry of the camera centers. Finally, we investigate the complexity of the associated triangulation problem and conjecture the Euclidean distance degree for the conic multiview variety for two cameras.",
+"authors": [
+"Felix Rydell",
+"Isak Sundelius"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2404.03063",
+"pdf": "https://arxiv.org/pdf/2404.03063",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2410.21889",
+"title": "Contextful Arrows via Wreath Products",
+"abstract": "We introduce contextads and the Ctx construction, unifying various structures and constructions in category theory dealing with context and contextful arrows---comonads and their Kleisli construction, actegories and their Para construction, adequate triples and their Span construction. Contextads are defined in terms of Lack--Street wreaths, suitably categorified for pseudomonads in a tricategory of spans in a 2-category with display maps. The associated wreath product provides the Ctx construction, and by its universal property we conclude trifunctoriality. This abstract approach lets us work up to structure, and thus swiftly prove that, under very mild assumptions, a contextad equipped colaxly with a 2-algebraic structure produces a similarly structured double category of contextful arrows.\n  We also explore the role contextads might play qua dependently graded comonads in organizing contextful computation in functional programming. We show that many side-effects monads can be dually captured by dependently graded comonads, and gesture towards a general result on the `transposability' of parametric right adjoint monads to dependently graded comonads.",
+"authors": [
+"Matteo Capucci",
+"David Jaz Myers"
+],
+"categories": [
+"math.CT",
+"cs.PL"
+],
+"link": "https://arxiv.org/abs/2410.21889",
+"pdf": "https://arxiv.org/pdf/2410.21889",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2606.28693",
+"title": "Discrete homotopy groups of cubical sets",
+"abstract": "We extend the notion of discrete homotopy groups of graphs to arbitrary cubical sets, and show that the discrete homotopy groups of quasisymmetric cubical sets are naturally isomorphic to the homotopy groups of their geometric realizations. Here, quasisymmetric cubical sets are cubical sets equipped with coordinate permutation symmetries that are compatible with faces and degeneracies, but not necessarily with connections. We give a purely combinatorial construction of the left adjoint of the forgetful functor from the category of quasisymmetric cubical sets to the category of cubical sets, and prove that the unit of this adjunction is a natural weak equivalence. As a consequence, we obtain a purely combinatorial description of the homotopy groups of the geometric realizations of arbitrary cubical sets. As an application, we establish the discrete Hurewicz map from the discrete homotopy groups of a cubical set to the homology groups, and prove a Hurewicz theorem with respect to the discrete Hurewicz map whenever the cubical set is quasisymmetric. Applied to the 1-nerve of a directed graph, it also yields a Hurewicz theorem relating the homotopy groups of Li, Wu, Yau, and Zhang to singular cubical homology.",
+"authors": [
+"Daisuke Kishimoto",
+"Yichen Tong"
+],
+"categories": [
+"math.AT",
+"math.CO"
+],
+"link": "https://arxiv.org/abs/2606.28693",
+"pdf": "https://arxiv.org/pdf/2606.28693",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2407.16481",
+"title": "Dwork Motives, Monodromy and Potential Automorphy",
+"abstract": "In this paper we study certain families of motives, which arise as direct summands of the cohomology of the Dwork family. We computationally find examples of interesting families with the following three properties. Firstly, their geometric monodromy group is Zariski dense in $\\operatorname{SL}_n$. Secondly, they realise many different unipotent operators as the monodromy operator at $t = \\infty$. Thirdly, all their Hodge numbers are $\\leq 1$.\n  This has consequences for Galois representations. Namely, if a nilpotent operator $N$ appears as the monodromy at $t = \\infty$ in one of our families, we can construct potentially automorphic representations with $\\ell$-adic monodromy given by $N$ at a fixed prime $p$. As another application, we obtain a new proof of some cases of the recent local-global compatibility theorem of Matsumoto.",
+"authors": [
+"Lambert A'Campo"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2407.16481",
+"pdf": "https://arxiv.org/pdf/2407.16481",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2511.21396",
+"title": "Extended Contact Algebras: Algebraic analysis and duality theory",
+"abstract": "The ternary extended contact relation studied in (Ivanova, 2020) is a more expressive counterpart of the standard, well-known binary contact relation. Boolean algebras expanded with this relation are called Extended Contact Algebras (ECAs). In this work, we take an algebraic perspective on ECAs, interpreting the ternary relation as a form of entailment. To this end, we introduce the class of Pseudo-Inference Algebras, i.e., Boolean algebras equipped with a monotone ternary operator, additive in its first two coordinates, and satisfying additional equations that capture the logical character of the extended contact. We show that the subclass of relational Pseudo-Inference Algebras corresponds precisely to ECAs and generates the variety of strict PSI-Algebras, which is a discriminator variety. Furthermore, building on the duality developed in (Celani, 2009), we introduce descriptive PSI-frames and establish three interrelated dualities that differ in their morphisms while sharing the same class of topological objects. The resulting framework provides a relational semantics for PSI-Algebras, connecting spatial and logical notions within a categorical and topological setting.",
+"authors": [
+"Rafa{\\l} Gruszczy\\'nski",
+"Paula Mench\\'on",
+"William Zuluaga"
+],
+"categories": [
+"math.LO",
+"math.CT"
+],
+"link": "https://arxiv.org/abs/2511.21396",
+"pdf": "https://arxiv.org/pdf/2511.21396",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2607.12458",
+"title": "Flag Varieties of General Quiver Representations: Characteristic Classes and Semi-Invariants",
+"abstract": "We study flags of subrepresentations of a general representation of a finite quiver. For each representation, its flag scheme is the zero scheme of a section of a quotient bundle on a product of partial flag varieties. We obtain the generic dimension and cycle class and equivariant localization formulas for Euler characteristics and parabolic Schubert coefficients. We further express these coefficients as finite signed sums of semi-invariant dimensions for auxiliary star quivers with inward and outward flag arms. In the acyclic one-step case, this is compatible with the result of Derksen--Schofield--Weyman, and the zero-dimensional case recovers their semi-invariant counting theorem. Examples treat matrix pencils and generalized Kronecker quivers.",
+"authors": [
+"Jiarui Fei"
+],
+"categories": [
+"math.AG",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2607.12458",
+"pdf": "https://arxiv.org/pdf/2607.12458",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2605.14803",
+"title": "Frobenius--Witt cotangent complexes",
+"abstract": "We introduce the notion of the Frobenius--Witt cotangent complex, which can be considered as a derived variant of the module of Frobenius--Witt differentials defined by T. Saito. This new object also can be seen as an arithmetic variant of the notion of cotangent complex. We explain the suitability of these two viewpoints through a series of propositions. Furthermore, we establish a relationship between Frobenius--Witt cotangent complexes and the regularity of noetherian local rings, which can be considered as a derived variant of Saito's regularity criterion. This proof relies heavily on computations of Frobenius--Witt cotangent complexes in the case of perfectoid rings. We also study the deformation theory of delta structures using Frobenius--Witt cotangent complexes.",
+"authors": [
+"Kanau Shimada"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://arxiv.org/abs/2605.14803",
+"pdf": "https://arxiv.org/pdf/2605.14803",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2604.03095",
+"title": "Functoriality and the theta correspondence",
+"abstract": "We study the functoriality of the local theta correspondence for classical $p$-adic groups. This is realized via the adaptation of the Adams conjecture to ABV-packets. We provide evidence for the conjecture, especially in the case of general linear groups.",
+"authors": [
+"Alexander Hazeltine"
+],
+"categories": [
+"math.NT",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2604.03095",
+"pdf": "https://arxiv.org/pdf/2604.03095",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [
+"abstract: adams conjecture"
+],
+"watched_authors": []
+},
+{
+"pid": "2401.01315",
+"title": "Fundamental groups, coregularity, and low dimensional klt Calabi-Yau pairs",
+"abstract": "In this article, we study how the absolute coregularity of a projective log pair reflects on its fundamental group. More precisely, we conjecture that for a projective klt log pair $(X,D)$ of absolute coregularity $c$ (and arbitrary dimension) the fundamental group $\\pi_1^{\\rm reg}(X,D)$ admits a normal abelian subgroup of finite index and rank at most $2c$. We prove this conjecture in the cases $0 \\leq c \\leq 3$, building on the almost abelianity of the fundamental groups of klt Calabi-Yau pairs of dimension $\\leq 3$. In the cases $c \\in \\{0,1,2\\}$ and fixed dimension, we can furthermore bound the index of a solvable normal subgroup. In dimension three, we are able to prove almost abelianity of the fundamental group of the regular locus for projective klt Calabi-Yau pairs.",
+"authors": [
+"Lukas Braun",
+"Fernando Figueroa"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2401.01315",
+"pdf": "https://arxiv.org/pdf/2401.01315",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2512.18654",
+"title": "Hierarchical filtrations of vector bundles and birational geometry",
+"abstract": "We study chains of locally free subsheaves of equal rank whose successive quotients are nonzero divisorial torsion sheaves. Fixing the determinant of the initial term defines a normalized hierarchical depth. An ample intersection argument proves finiteness on every smooth projective variety. On an algebraically closed smooth projective curve, the depth equals the degree of the determinant difference precisely when that difference is effective; otherwise, no normalized filtration exists. For birational morphisms of smooth projective surfaces, reflexive pushforward contracts exactly those steps whose determinant divisors are entirely exceptional. This yields a comparison of filtration lengths without a commutativity assumption. Explicit examples show that pullback can strictly increase depth and compute a depth of twenty on a two-point blowup. Finally, we distinguish preservation of evaluation codes for genuinely descended bundles from removal of zero coordinates caused by exceptional fixed components. The coding statements use specified compatible fiber bases or the block Hamming metric.",
+"authors": [
+"Rahim Rahmati-Asghar"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://arxiv.org/abs/2512.18654",
+"pdf": "https://arxiv.org/pdf/2512.18654",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2412.09120",
+"title": "Highest weight vectors, shifted topological recursion and quantum curves",
+"abstract": "We extend the theory of topological recursion by considering Airy structures whose partition functions are highest weight vectors of particular $\\mathcal{W}$-algebra representations. Such highest weight vectors arise as partition functions of Airy structures only under certain conditions on the representations. In the spectral curve formulation of topological recursion, we show that this generalization amounts to adding specific terms to the correlators $ \\omega_{g,1}$, which leads to a ``shifted topological recursion'' formula. We then prove that the wave-functions constructed from this shifted version of topological recursion are WKB solutions of families of quantizations of the spectral curve with $ \\hbar$-dependent terms. In the reverse direction, starting from an $\\hbar$-connection, we find that it is of topological type if the exact same conditions that we found for the Airy structures are satisfied. When this happens, the resulting shifted loop equations can be solved by the shifted topological recursion obtained earlier.",
+"authors": [
+"Rapha\\\"el Belliard",
+"Vincent Bouchard",
+"Reinier Kramer",
+"Tanner Nelson"
+],
+"categories": [
+"math-ph",
+"hep-th",
+"math.MP",
+"math.QA",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2412.09120",
+"pdf": "https://arxiv.org/pdf/2412.09120",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2605.11579",
+"title": "K-theory of Gieseker variety and type A cyclotomic Hecke algebra",
+"abstract": "We give an algebraic description of the equivariant K-theory of Gieseker varieties. Our main result identifies the equivariant K-theory of the Gieseker space with the Jucys--Murphy center of the cyclotomic Hecke algebra, over the equivariant K-theory of a point. The construction is inspired by the proof of the Hikita--Nakajima conjecture for Gieseker spaces given by the first and third authors. We discuss consequences for the center of cyclotomic Hecke algebras and for specializations to q=1 and to roots of unity. In particular, we relate K-theory of affine type A quiver varieties with the centers of the corresponding blocks of specialized cyclotomic Hecke algebras. This last result strengthens the correspondences obtained by the second author in earlier work.",
+"authors": [
+"Vasily Krylov",
+"Rapha\\\"el Paegelow",
+"Pavel Shlykov"
+],
+"categories": [
+"math.AG",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2605.11579",
+"pdf": "https://arxiv.org/pdf/2605.11579",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2608.08737",
+"title": "Monoidal and symmetrized parametrized topological complexity",
+"abstract": "We introduce and study monoidal and symmetrized versions of parametrized topological complexity. First, we develop parametrized analogues of the monoidal topological complexity theories of Iwase--Sakai, Aguilar-Guzm\\'an--Gonz\\'alez (based on the Fadell--Husseini approach), and Dranishnikov. We investigate the parametrized Iwase--Sakai conjecture and provide sufficient conditions under which it holds. We then introduce symmetrized parametrized topological complexity and combine it with the monoidal perspective to define monoidal symmetrized parametrized topological complexity, showing that the resulting notions agree. Finally, we compute these invariants for Fadell--Neuwirth fibrations.",
+"authors": [
+"Ramandeep Singh Arora",
+"Navnath Daundkar"
+],
+"categories": [
+"math.AT"
+],
+"link": "https://arxiv.org/abs/2608.08737",
+"pdf": "https://arxiv.org/pdf/2608.08737",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2409.14591",
+"title": "Non-Cartesian Guarded Recursion with Daggers",
+"abstract": "Guarded recursion is a framework allowing for a formalisation of streams in classical (as opposed to concurrent, probabilistic, quantum) programming languages. The latter take their semantics in cartesian closed categories. However, some programming paradigms do not take their semantics in a cartesian setting; this is the case for concurrency, reversible and quantum programming for example. In this paper, we focus on reversible programming through its categorical model in dagger categories, which are categories that contain an involutive operator on morphisms. We show how to introduce the framework of guarded recursion into dagger categories with sufficient structure for data types, also called dagger rig categories. First, given an arbitrary category, we build another category shown to be suitable for guarded recursion in multiple ways, via enrichment and fixed point theorems. We then study the interaction between this construction and the structure of dagger rig categories, aiming for reversible programming. Finally, we show that our construction is suitable as a model of higher-order reversible programming languages, such as symmetric pattern matching, to which we add guarded recursion features.",
+"authors": [
+"Louis Lemonnier"
+],
+"categories": [
+"cs.LO",
+"cs.PL",
+"math.CT"
+],
+"link": "https://arxiv.org/abs/2409.14591",
+"pdf": "https://arxiv.org/pdf/2409.14591",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2507.07091",
+"title": "On Shilov boundaries, Rees valuations and integral extensions",
+"abstract": "We explore an analogy between, on one hand, the notions of integral closure of ideals and Rees valuations in commutative algebra and, on the other hand, the notions of spectral seminorm and Shilov boundary in nonarchimedean geometry. For any Tate ring $\\mathcal{A}$ with a Noetherian ring of definition $\\mathcal{A}_{0}$ and pseudo-uniformizer $\\varpi\\in\\mathcal{A}_{0}$, we prove that the Shilov boundary for $\\mathcal{A}$ naturally coincides with the set of Rees valuation rings of the principal ideal $(\\varpi)_{\\mathcal{A}_{0}}$ of $\\mathcal{A}_{0}$.\n  Furthermore, we characterize the Shilov boundary for a wide class of Tate rings by means of minimal open prime ideals in the subring of power-bounded elements. For affinoid algebras, in the sense of Tate, whose underlying rings are integral domains, this recovers a well-known result of Berkovich. Moreover, under some mild assumptions, we prove stability of our characterization of the Shilov boundary under (completed) integral extensions. In particular, for every mixed-characteristic Noetherian domain $R$, we obtain a description of the Shilov boundary for the Tate ring $\\widehat{R^{+}}[p^{-1}]$, where $\\widehat{R^{+}}$ is the $p$-adic completion of the absolute integral closure of the domain $R$.",
+"authors": [
+"Dimitri Dine"
+],
+"categories": [
+"math.AC",
+"math.AG",
+"math.NT"
+],
+"link": "https://arxiv.org/abs/2507.07091",
+"pdf": "https://arxiv.org/pdf/2507.07091",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2609.06824",
+"title": "On the Brill--Noether Theory of Sheaves on Regular Surfaces",
+"abstract": "We study the Brill--Noether theory of higher rank sheaves on surfaces $X$ with $H^1(X,\\mathcal{O}_X) = 0$ and its interactions with the classical Brill--Noether theory of line bundles on curves lying on $X$. Denoting by $\\mathrm{Spl}(v)$ the moduli space of simple sheaves on $X$ with Chern character $v = (r,c_1,\\mathrm{ch}_2)$, we introduce the Brill--Noether loci $BN^k(v)^\\circ \\subseteq \\mathrm{Spl}(v)$ of \\emph{generically $k$-generated} sheaves and show, under assumptions on $c_1$ and $K_X$, certain well-behavedness results. In particular, if $c_1$ is \\emph{indecomposable} and $X$ is a K3 surface, we generalize a Brill--Noether theorem for sheaves on K3s due to Yoshioka. This is achieved by employing He's deformation theory of the moduli space of coherent systems and a globalization of the Lazarsfeld--Mukai construction, providing a correspondence between the Brill--Noether theories of generically $r$-generated sheaves on $X$ and that of line bundles on curves $C \\in |c_1|$. The same techniques yield upper bounds on the dimension of $\\mathcal{W}^{r,\\mathrm{bpf}}_d(|c_1|) \\setminus \\mathcal{W}^{r+1}_d(|c_1|)$ consisting of basepoint-free line bundles in terms of the number of endomorphisms of associated Lazarsfeld--Mukai bundles, for arbitrary $c_1$. This generalizes a result of Aprodu and Farkas in the context of Green's conjecture beyond K3 surfaces. In the case $r = 1$ of pencils, we obtain smoothness and expected-dimension results under an effectivity condition on $-K_X|_C$ for $C \\in |c_1|$. As an application, we prove Green's conjecture for the general curve on a rational surface with a nef and effective anticanonical divisor.",
+"authors": [
+"Samir Geiger",
+"Andreas Kretschmer"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2609.06824",
+"pdf": "https://arxiv.org/pdf/2609.06824",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2605.20453",
+"title": "On the Hodge and Tate conjectures for moduli spaces of curves",
+"abstract": "We survey recent progress on the cohomology of moduli spaces of stable curves through the lens of the Hodge and Tate conjectures, especially their generalized coniveau forms, which relate Hodge structures and l-adic Galois representations on cohomology to algebraic cycles. We explain how the inductive structure of the boundary stratification verifies these conjectures in a surprisingly wide range of cases, describe the guiding inspiration from arithmetic, and discuss open problems and directions for future research.",
+"authors": [
+"Sam Payne"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2605.20453",
+"pdf": "https://arxiv.org/pdf/2605.20453",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2510.01615",
+"title": "On the Orthogonal Projections",
+"abstract": "Let $A$ be a finite-dimensional algebra and $e$ a rigid presentation. We give an explicit formula for the left adjoint to the inclusion $\\operatorname{rep}(e^\\perp)\\hookrightarrow \\operatorname{rep}(A)$ and construct a bijection between presentations in $\\operatorname{rep}(e^\\perp)$ and presentations compatible with $e$. The induced bijection on weights preserves generic $\\operatorname{E}$-invariants and canonical decompositions. If $A$ is Jacobian, the reduction algebra is Jacobian for every rigid $e$. We prove mutation formulas for the signed completions and for the dimension vectors of the simple objects of $\\operatorname{rep}(e^\\perp)$, enabling an algorithm to find the projected quiver with potential when $e$ is extended-reachable. Additionally, we introduce a modified projection for quivers with potentials that preserves general presentations. For applications to cluster algebras, we establish a connection to the stabilization functors.",
+"authors": [
+"Jiarui Fei"
+],
+"categories": [
+"math.RT",
+"math.RA"
+],
+"link": "https://arxiv.org/abs/2510.01615",
+"pdf": "https://arxiv.org/pdf/2510.01615",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2503.04488",
+"title": "On the representability of actions of unital algebras",
+"abstract": "Working in the setting of ideally exact categories, we investigate the representability of actions of unital non-associative algebras over a field. We show that, in general, such categories fail to be action representable: for instance, the category of all unital algebras is not even action accessible. We then consider this problem in the context of operadic, action accessible, unit-closed varieties. Using the construction of the external weak actor, we prove that for any algebra $X$ in such a variety $\\mathcal{V}$, the canonical map into its external weak actor is an isomorphism if and only if $X$ is unital. Consequently, the ideally exact category $\\mathcal{V}_1$ of unital algebras in $\\mathcal{V}$ is action representable, and the actor of a unital algebra $X$ is $X$ itself. The action accessibility of $\\mathcal{V}$ is not necessary for this conclusion: in characteristic zero, unital Jordan algebras form an action representable category, although the variety of all Jordan algebras is not action accessible. Finally, we prove action representability for the categories of unital Poisson algebras and unital commutative Poisson algebras.",
+"authors": [
+"Manuel Mancini",
+"Federica Piazza",
+"Corentin Vienne"
+],
+"categories": [
+"math.CT",
+"math.RA"
+],
+"link": "https://arxiv.org/abs/2503.04488",
+"pdf": "https://arxiv.org/pdf/2503.04488",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [
+"abstract: presentable"
+],
+"watched_authors": []
+},
+{
+"pid": "2608.27114",
+"title": "Quadratic Complexity of Voronoi Diagrams in $\\mathbb{R}^3$ for Lines in a Single Ruling of a Regulus",
+"abstract": "We study nearest and farthest Voronoi diagrams of lines in three-dimensional Euclidean space, which partition space according to the closest and farthest input lines, respectively. For arbitrary lines, a gap remains between the known quadratic lower bound and near-cubic upper bounds for the complexity of the nearest diagram. We consider input lines chosen from one of two continuous families of straight lines on a smooth surface defined by a quadratic equation, with one line from each family passing through every point of the surface.\n  Under the geometric assumptions stated in the paper, we prove quadratic upper bounds on the total number of vertices, edges, faces, and connected three-dimensional regions in both diagrams. We also construct quadratically many nearest vertices using lines from a single family on one fixed surface, establishing a tight quadratic worst-case bound. The farthest diagram has quadratic total complexity for every input satisfying our assumptions.\n  Our proof uses a parametrization that arranges the input lines in a cyclic order and expresses tangency to a sphere by a polynomial equation of degree four. At a Voronoi vertex, the four tangent input lines give four distinct roots. The sign changes between these roots, together with the nearest or farthest condition, force two intervening parameter intervals to contain no other input parameters. Thus, only quadratically many choices of four lines can define a vertex, and each choice yields at most eight isolated candidate centers.",
+"authors": [
+"Eunku Park",
+"Kangjin Han"
+],
+"categories": [
+"cs.CG",
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2608.27114",
+"pdf": "https://arxiv.org/pdf/2608.27114",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2604.07270",
+"title": "Reconstruction of F-cohomological field theories on moduli of compact type",
+"abstract": "We prove an analogue of Givental-Teleman reconstruction for F-cohomological field theories on the moduli space of compact type. We apply it to reconstruct the restriction of the extended $r$-spin classes to the extended direction and deduce relations between $\\kappa$-classes (both in compact type).",
+"authors": [
+"Ga\\\"etan Borot",
+"Silvia Ragni",
+"Paolo Rossi"
+],
+"categories": [
+"math.AG",
+"math-ph",
+"math.MP"
+],
+"link": "https://arxiv.org/abs/2604.07270",
+"pdf": "https://arxiv.org/pdf/2604.07270",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2503.15037",
+"title": "Skein and cluster algebras of punctured surfaces",
+"abstract": "We prove the full Fock--Goncharov conjecture for the $\\mathcal{A}_{SL_2,\\Sigma_{g,p}}$-cluster variety associated with the moduli space of decorated twisted $SL_2$-local systems on triangulable surfaces $\\Sigma_{g,p}$ with at least two punctures. Equivalently, we show that the tagged skein algebra $Sk^{ta}(\\Sigma)$, identified with the middle cluster algebra $\\mathrm{mid}(\\mathcal{A})$, coincides with the upper cluster algebra $U(\\Sigma)$. Inspired by the work of Shen--Sun--Weng, we introduce a localized cluster variety $\\mathring{\\mathcal{A}}$ whose positive real locus is the decorated Teichm\\\"uller space $\\mathcal{T}^d(\\Sigma)$. For $p\\geq2$, its ring of global sections is the normalization of the classical Roger--Yang skein algebra $Sk^{RY}_{q\\to1}(\\Sigma)$ and equals that algebra except for the four-punctured sphere. In the equality cases, the quantum Roger--Yang skein algebra $Sk^{RY}_q(\\Sigma)$ provides a quantization of this global-section ring. We prove normality of $Sk^{ta}(\\Sigma)$ for $p\\geq2$, complementing its known Gorenstein property, and normality of $Sk^{RY}_{q\\to1}(\\Sigma)$ for every triangulable $\\Sigma_{g,p}$ other than $\\Sigma_{0,4}$. We also prove finite generation of $U(\\Sigma_{g,p})$ for every triangulable $\\Sigma_{g,p}$, including the once-punctured case.",
+"authors": [
+"Enhan Li"
+],
+"categories": [
+"math.AC",
+"math.AG",
+"math.GT",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2503.15037",
+"pdf": "https://arxiv.org/pdf/2503.15037",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2603.15437",
+"title": "Terminal Fano 4-fold Hypersurfaces via Deep Reinforcement Learning",
+"abstract": "We construct $46{,}992$ new families of Fano $4$-fold hypersurfaces $X_d\\subset\\mathbb(a_1,\\ldots,a_6)$ of Fano index $1$ with $d>200$, whose general members have terminal singularities. Unlike the $11{,}617$ quasismooth families classified by Brown and Kasprzyk, these are nonquasismooth, for which determining terminality can require the analysis of hyperquotient singularities. An exhaustive search has classified all nonquasismooth families with $d\\leq200$, but extending this classification to higher degrees becomes computationally prohibitive. We therefore exploit the sparsity and spatial clustering of terminal examples using two best-first searches over $\\mathbb{Z}^6$: one with a fixed heuristic, and the other with a neural network trained online by deep reinforcement learning. Together, the searches reach degrees up to $3{,}234$. The neural network additionally discovers an average of $79$ hard-to-reach families per run. For the most isolated examples, our conservative distance-based model gives an estimated lower bound of nearly $40\\%$ of the fixed search's total step budget to discover a single such family. An ablation study demonstrates that this advantage arises from the neural network rather than stochastic exploration alone. The complete list of families is publicly available.",
+"authors": [
+"Marc Truter"
+],
+"categories": [
+"math.AG",
+"cs.LG"
+],
+"link": "https://arxiv.org/abs/2603.15437",
+"pdf": "https://arxiv.org/pdf/2603.15437",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2603.10386",
+"title": "The $\\mathrm{al}_{ab}$ functions of hyperelliptic curves: a generalization of Jacobi's elliptic functions and explicit solutions of a degenerate Krichever-Novikov equation",
+"abstract": "The Jacobi elliptic functions $\\mathrm{sn}$, $\\mathrm{cn}$, $\\mathrm{dn}$ and their ratios are expressed by Weierstrass's functions $\\mathrm{al}_a=\\sqrt{x-b_a}$ of an elliptic curve. For a hyperelliptic curve of genus $g$, Weierstrass's $\\mathrm{al}_a$ functions generalize $\\mathrm{sn}$, $\\mathrm{cn}$ and $\\mathrm{dn}$, and the modified Korteweg-de Vries and sine-Gordon equations stand behind them. In this paper we study the $\\mathrm{al}_{ab}$ functions, which are defined by the sigma function shifted by the sum of two half-periods and which, together with the ratios of the $\\mathrm{al}_a$ functions, generalize the remaining Jacobi elliptic functions. We determine the exact lattice of periods of $\\mathrm{al}_{12}$ and show that it is single-valued on the unramified double covering of the Jacobian corresponding to the double covering $\\hat{w}^2=(x-b_1)(x-b_2)$ of the curve. We show that $\\mathrm{al}_{12}$ is the Wronskian of the band-edge eigenfunctions $\\mathrm{al}_1$ and $\\mathrm{al}_2$, so that the half-period translations realize Darboux transformations. As the main result, $\\mathrm{al}_{12}$, $\\mathrm{al}_2/\\mathrm{al}_1$ and $1/\\mathrm{al}_{12}$ satisfy one and the same degenerate Krichever-Novikov equation, whose polynomial has the double roots $0$ and $\\infty$, and the half-periods act on these solutions as the M\\\"obius symmetries of the equation. Thus the Krichever-Novikov equation stands behind the $\\mathrm{al}_{ab}$ functions. In genus one these functions reduce to $\\mathrm{sn}$, $\\mathrm{ns}$ and $\\mathrm{dc}$.",
+"authors": [
+"Shigeki Matsutani"
+],
+"categories": [
+"nlin.SI",
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2603.10386",
+"pdf": "https://arxiv.org/pdf/2603.10386",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2608.04228",
+"title": "Topological Computational Paths: Presentation Invariance and Observable Quotients",
+"abstract": "A computational path records the steps used to establish an equality. Topologies on computational equality witnesses can depend on the chosen generators and execution schedule, even when their algebraic and homotopical meanings agree. We study continuous presentations of finite computational paths whose declared rewrites are realized by endpoint-fixed homotopies. We compare a topology retaining the full signed trace with an observable topology recording endpoints, length, and exact path realization. Continuous finite-word interpretations that are inverse up to scoped rewriting preserve trace-sensitive quotient arrows and their final composable-pair spaces. Observable quotients behave differently. Over a point with a nonempty primitive alphabet, we classify their topology: it records length parity when all named relations preserve parity, and is otherwise indiscrete. Adjoining a conservative abbreviation can therefore turn a discrete two-element quotient into an indiscrete space, even though ordinary multiplication remains continuous. A circle presentation also gives nonhomeomorphic quotients under binary and equal-slot timing. Geometric completeness alone does not identify the trace-sensitive and observable topologies. Multiplication is continuous on the quotient of composable representatives. We characterize when this topology agrees with the ordinary pullback topology and give an open-projection criterion. Universal presentations recover classical fundamental-groupoid topology. Normal forms, primitive interchange, and a Cayley covering prove completeness for circle, torus, product, and rose presentations. A literal-word correspondence relates the semantics to the reflexivity, symmetry, and transitivity fragment of equality derivations. Selected results are formalized in Lean, with the realization models and proof coverage stated explicitly.",
+"authors": [
+"Arthur Freitas Ramos",
+"Ruy J. G. B. de Queiroz",
+"Anjolina Grisi de Oliveira",
+"Tiago M. L. de Veras"
+],
+"categories": [
+"cs.LO",
+"math.AT"
+],
+"link": "https://arxiv.org/abs/2608.04228",
+"pdf": "https://arxiv.org/pdf/2608.04228",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2609.30892",
+"title": "Universal Formulas for de Jonqui\\`eres Loci and Equivariant Contact Problems",
+"abstract": "Given a family of genus $g$ curves $f:\\Psi\\to S$ and a relative degree $d$ line bundle $L$ on $\\Psi$ such that $f_*L$ is a vector bundle, the projectivization $\\mathbb{P}(f_*L)$ is stratified by relative de Jonqui\\`eres loci, which parameterize sections of $L$ with prescribed vanishing orders. We give universal formulas for the classes of these loci in terms of the relative $O(1)$ on $\\mathbb{P}(f_*L)$ and tautological classes pulled back from the universal Picard stack $\\mathrm{Pic}_g^d$. When $f$ is the family of lines in $\\mathbb{P}^r$, we use the universal polynomials to compute $\\mathrm{GL}_{r+1}$-equivariant classes of loci of hypersurfaces and complete intersections admitting lines with prescribed contact orders.",
+"authors": [
+"Smita Rajan"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2609.30892",
+"pdf": "https://arxiv.org/pdf/2609.30892",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2608.18599",
+"title": "Witt groups of smooth real curves and surfaces",
+"abstract": "We study the $\\mathbf{I}^*$-cohomology of a smooth real algebraic curve in terms of its real locus and its geometric genus. We notably extend results of Knebusch and Monnier to the twisted case. We further describe how to compute twisted Witt groups of surfaces, generalising work of Sujatha, and apply our results to the computation of the shifted and twisted Witt groups of the smooth real anisotropic quadric surface. Finally, we extend Monnier's investigation of the image of the global signature homomorphism for surfaces.",
+"authors": [
+"Samuel Lerbet"
+],
+"categories": [
+"math.AG",
+"math.KT"
+],
+"link": "https://arxiv.org/abs/2608.18599",
+"pdf": "https://arxiv.org/pdf/2608.18599",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-04",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
