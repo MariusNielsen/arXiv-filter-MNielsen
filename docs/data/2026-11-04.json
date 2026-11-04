@@ -1,6 +1,6 @@
 {
 "day": "2026-11-04",
-"updated": "2026-11-04T06:05:20+00:00",
+"updated": "2026-11-04T17:27:10+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -296,6 +296,27 @@
 "announce": "new",
 "date": "2026-11-04",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00063",
+"title": "A certified lower bound for the essential minimum of the Zhang-Zagier height",
+"abstract": "Let h be the absolute logarithmic Weil height. We prove that the essential minimum of the Zhang-Zagier height h(a)+h(1-a) is at least 0.2497815: for every d > 0, only finitely many algebraic numbers a satisfy h(a)+h(1-a) < 0.2497815 - d. The previous best lower bound was 0.24874 (Flammang, 2018). The proof combines Smyth's auxiliary-function method, with the polynomials of Doche and of Flammang, and the condition that the discriminant of the minimal polynomial is a nonzero integer, in the potential-theoretic form used by Smith and by Orloski, Talebizadeh Sardari and Smith for the trace problem. The infimum of the resulting auxiliary function is bounded below rigorously by monotone interval bounds and adaptive bisection, from a stored certificate. The statement concerns the essential minimum and is weaker in nature than the pointwise bounds of Doche and Flammang.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00063v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00063v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -700,6 +721,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00062",
+"title": "Cartan determinants for almost laura, quasi-laura, semilinear clannish and piecewise Bäckström algebras",
+"abstract": "We prove the Cartan determinant conjecture for corners of finite global dimension in almost laura, quasi-laura and (m)-quasi-laura Artin algebras, finite-dimensional piecewise Bäckström algebras, and semilinear clannish Artin algebras of finite dimension over their defining division ring.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RA",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00062v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00062v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2506.05190",
 "title": "Categorical foundations of discrete dynamical systems",
 "abstract": "We develop categorical foundations of discrete dynamical systems, aimed at understanding how the structure of the system affects its dynamics. We introduce the notion of cycle sets to analyze attractors of a system, and use this to generalize multiple decomposition theorems of Kadelka, Veliz-Cuba, Murrugarra, and the last two authors from Boolean networks to arbitrary discrete dynamical systems.",
@@ -835,6 +878,27 @@
 "announce": "replace-cross",
 "date": "2026-11-04",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00065",
+"title": "Computer-assisted bounds 0.556921 <= p_c <= 0.6463 for site percolation on the square lattice",
+"abstract": "Let p_c be the critical probability of Bernoulli site percolation on Z^2. We prove 0.556921 <= p_c <= 0.6463. The previous best rigorous bounds known to us are p_c >= 0.5567 (Ashton, 2026, extending van den Berg and Ermakov, 1996) and p_c <= 0.666894 (Wierman and Oberly, 2024). The lower bound uses the growth-process comparison of van den Berg and Ermakov with the exact posterior on the exploration tree. We reduce this posterior to a scalar interval recursion and explore the tree generation by generation, with a prescribed order among siblings. This passes the value 0.556788... that the same scalar computation gives when the order is not used, and the value 0.556788090 reported by Ashton as the limit of his relaxation. The upper bound uses the substitution method of Wierman, in two stages with 4x4 regions, from the line graph of Z^2 (site threshold 1/2) to Z^2. Both bounds are certified by short pure-Python programs in exact rational and integer arithmetic.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00065v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00065v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1059,6 +1123,27 @@
 "announce": "new",
 "date": "2026-11-04",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00047",
+"title": "Energy Solutions and Harnack Estimates for Nonlocal Drift–Diffusion",
+"abstract": "We consider nonlocal drift–diffusion equations of order $2s\\in[1,2)$ with bounded divergence-free drift. The symmetric measurable jump kernel satisfies local coercivity, a global upper form bound, and a scale-invariant bound on the intensity of long jumps. The transport form is bounded and skew-symmetric on $H^{1/2}\\times H^{1/2}$. In the fractional energy space, distributional and variational solutions coincide and satisfy nonlinear testing identities. Viscous approximations converge strongly in $C_tL^2_x\\cap L^2_tH^s_x$ to the unique solution of the Cauchy problem. For sources bounded in the cylinder, supersolutions nonnegative there satisfy a weak Harnack inequality involving the time integral of the negative exterior tail. Under this source bound, locally bounded solutions whose exterior tail belongs to $L^q$ in time for some $q>1$ are locally Hölder continuous. This also gives Hölder continuity at positive times for homogeneous global solutions with $L^2$ data. Under upper jumping smoothness, control of the positive tail on an earlier time interval yields the full parabolic Harnack inequality for solutions nonnegative on the full spatial slab. A kernel supported on alternating dyadic annuli satisfies all the kernel assumptions. The local estimates depend on the drift through $R^{2s-1}\\|b\\|_\\infty$.",
+"authors": [
+"Zhenyu Sun"
+],
+"categories": [
+"math.AP"
+],
+"link": "https://hexagonmath.org/abs/2611.00047v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00047v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "human",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1459,6 +1544,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00064",
+"title": "Intuitionistic Compression and Optimal Verification Trees",
+"abstract": "In strict finitistic generation semantics, a formula is assertible at a generation if some stage in its verification tree forces it. We ask when assertibility agrees with intuitionistic truth on the poset of generations. The leaves of the verification trees, ordered by generation extension, form an intuitionistic Kripke model that preserves truth at every leaf, even without atomic prevalence. For a finite bundle, compression to the generations is exact if and only if each fiber of leaves has a greatest intuitionistic theory and the map selecting these theories has the back property. Compression remains exact under every restriction of the generation poset if and only if atomic prevalence holds. Conversely, consider coherent tree representations of a finite Kripke model whose atomic valuation reflects its order. Among representations with atomic prevalence, the minimum numbers of leaves and nodes over $u$ are $h(u)$ and $\\delta_C+\\sum_{x\\preceq u}h(x)$, where $h(x)$ counts saturated paths from minimal worlds to $x$, and $\\delta_C$ is $1$ if the comparability component of $u$ has no least element and $0$ otherwise. Saturated-path trees attain both minima simultaneously. Among representations attaining the node minimum at every world, the common root labels in components without a least element determine the representation up to isomorphism over the outer frame. Allowing rooted posets in place of trees can reduce the number of nodes exponentially.",
+"authors": [
+"Zhenyu Sun",
+"Jilin Wang"
+],
+"categories": [
+"math.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00064v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00064v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.04630",
 "title": "Isolated symplectic singularities admitting symplectic resolutions",
 "abstract": "We give a proof that an isolated algebraic symplectic singularity of dimension $2n\\ge 4$ admitting a projective symplectic resolution is analytically isomorphic to the minimal nilpotent orbit closure in $\\mathfrak{sl}_{n+1}$ at the origin.",
@@ -1526,6 +1633,57 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00061",
+"title": "Kernel Dimension of the Z/2 Connection Laplacian on a Finite Simple Graph (A Formalisation in Lean 4 / Mathlib v4.11.0)",
+"abstract": "We present a Lean 4/Mathlib v4.11.0 formalization of the kernel-dimension theory of the $\\mathbb{Z}/2$ connection Laplacian on finite simple graphs equipped with designated wrap edges. Each edge carries either the identity or the coordinate-swap matrix. A Hadamard–Kronecker change of basis decomposes the resulting rank-two connection Laplacian into the ordinary and signed graph Laplacians. An analogous splitting holds for the scalar Laplacian of the associated two-sheeted cover. A connected component is balanced precisely when its covering preimage has two connected components, equivalently when its sign holonomy is trivial along every closed walk. Consequently, the nullity of the signed Laplacian equals the number of balanced connected components, while the nullity of the full connection Laplacian equals the number of connected components plus the number of balanced components. For the flat connection, the nullity is twice the number of connected components. We also formalize exact characteristic polynomials and eigenvalue multisets, including multiplicities, for explicit ordinary and one-wrap signed cycle matrices for $n \\geq 3$. Transfer to general connection-graph encodings remains conditional on specified matrix-reindexing identities. The contribution is a machine-checked formalization, exposition, and documented verification of results rooted in classical signed-graph spectral theory, rather than a claim of priority for those identities. The accompanying repository preserves proof artifacts, computational cross-checks, historical verification evidence, and documented corrections.",
+"authors": [
+"Jesus Vilela Jato"
+],
+"categories": [
+"math.CO",
+"math.SP",
+"cs.LO",
+"cs.MS"
+],
+"link": "https://hexagonmath.org/abs/2611.00061v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00061v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00051",
+"title": "Least-Atom Extremizers for Resampling Noise",
+"abstract": "A single least-mass atom determines the extremal behavior of resampling noise on a finite probability space. A fixed-moment comparison gives the sharp generalized Samorodnitsky inequality for every \\(1<q<2\\) through one scalar curve, and identifies all nonconstant scalar extremizers. The same principle determines every \\(L^p\\)-to-\\(L^q\\) resampling norm for \\(1<p<q<\\infty\\), resolving a conjecture of Cao, Fan, Han, Qiu, and Wang. The sharp hypercontractive parameter increases strictly with the least atom. The uniform-binary phase diagram is explicit, and product equality cases are classified for every nonuniform reference law and for the uniform binary law.",
+"authors": [
+"Matěj Kripner",
+"Václav Rozhoň",
+"Robert Šámal",
+"Martin Šindelář",
+"Adrián Zámečník"
+],
+"categories": [
+"math.IT",
+"math.PR",
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2611.00051v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00051v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.04723",
 "title": "Local resolution of the second log-Fitting ideal",
 "abstract": "Logarithmic Fitting ideals encode the complexity of the corresponding morphisms in a natural and intrinsic way, and their principalisation offers a new perspective on problems such as the resolution of cotangent sheaves and the monomialisation of morphisms. In this paper, we give a local resolution theorem for log-rank adapted morphisms: after finite sequences of smooth local blow-ups, the first two log-Fitting ideals \\mathcal{F}\\_{n--1}(\\sigma) and \\mathcal{F}\\_{n--2}(\\sigma) become principal monomial ideals.",
@@ -1542,6 +1700,28 @@
 "announce": "new",
 "date": "2026-11-04",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00056",
+"title": "Log-concavity in the Newton basis and support of rank-two scattering coefficients",
+"abstract": "We prove that polynomials with nonnegative, interval-supported log-concave Newton coefficients are closed under multiplication and, for integer Newton coefficients, under \\(D(m)\\mapsto\\binom{D(m)}k\\) for integers \\(k\\ge0\\). Coordinatewise Newton multiplication preserves two-variable Schur positivity. We also determine the exact positive Newton support of symmetric rank-two cluster scattering coefficients.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.CO",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00056v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00056v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1609,6 +1789,50 @@
 "announce": "replace",
 "date": "2026-11-04",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00049",
+"title": "Nested Squares and Distinct-Prime Goldbach Partitions",
+"abstract": "The distinct-prime Goldbach conjecture asserts that for every $N\\geq 4$ there is $M\\in A_N=[1,N-3]$ with $N-M$ and $N+M$ both prime; geometrically, nested squares of side lengths $N$ and $M$ have an L-shaped difference of semiprime area $(N-M)(N+M)$. With $C_N$ and $D_N$ the sets of $M\\in A_N$ for which $N-M$, respectively $N+M$, is prime, the conjecture for $2N$ is $C_N\\cap D_N\\neq\\varnothing$. We embed this centered condition in a straddling one: $C_N\\cap D_N$ lies in the set $E_N$ of half-differences $(Q-P)/2\\in A_N$ of primes $2<P<N<Q<2N$. From Mikawa's theorem on prime pairs with almost all differences we deduce $|A_N\\setminus E_N|\\ll_D N/(\\log N)^D$ for every $D>0$, and with explicit constants we prove $|E_N|>N/760$ for every $N\\geq 3275$. Consequently, for all large $N$ and all but $O_D(N/(\\log N)^D)$ primes $P<N$, the number $2N-P$ becomes prime after adding the difference $P'-P$ of two primes $P'<N$; Goldbach's partition is the case $P'=P$. In contrast, $|C_N\\cap D_N|<(N-3)-\\log^2(2N)$ for every $N\\geq 34$, and covering all but $\\log^2(2N)$ values of $A_N$ for all large $N$ would imply the Cram\\'er-type bound $p'-p<2\\log^2(2p+2)+2$. The method also shows that $2N$ is a sum of two distinct primes for more than $X/9600$ integers $N\\leq X$, for every $X\\geq 10^6$. Computations up to $N=10^6$ compare the number of distinct-prime partitions with the Hardy--Littlewood prediction and measure the missing values of $E_N$ forced by prime gaps. The conjecture itself is not proved here.",
+"authors": [
+"Frank Vega"
+],
+"categories": [
+"math.NT",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00049v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00049v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00046",
+"title": "Non-Archimedean Riesz-Frechet Representation",
+"abstract": "We derive a Riesz-Frechet representation for bounded linear functionals defined on the p-adic Hilbert spaces introduced by Kalisch [\\textit{Ann. of Math. (2), 1947}]. We also notice the surprising difference between the Archimedean case and the non-Archimedean case (exact non-Archimedean version of Riesz-Frechet representation fails).",
+"authors": [
+"K. MAHESH KRISHNA"
+],
+"categories": [
+"math.NT",
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2611.00046v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00046v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "human",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2198,6 +2422,32 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00052",
+"title": "Stationary diffusion on nonnegatively curved graphs",
+"abstract": "Lazy random walk on a bounded-degree graph of nonnegative Ollivier–Ricci curvature has diffusive second moment and Gaussian upper tails when started in stationarity. If the maximum degree is $D$, then $\\mathbb E d(X_0,X_n)^2\\le4Dn$, with optimal order of dependence on $D$. The results also hold for stationary random rooted infinite graphs. The proof combines known heat-kernel total-variation decay with a reversible energy identity for the conditional mean displacement. Its exponential form controls variation between starting vertices; martingale concentration then controls the walk itself.",
+"authors": [
+"Matěj Kripner",
+"Václav Rozhoň",
+"Robert Šámal",
+"Martin Šindelář",
+"Adrián Zámečník"
+],
+"categories": [
+"math.PR",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00052v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00052v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.04964",
 "title": "Substantially Improved Rate and Distance for Addressable Transversal Phase Gates",
 "abstract": "An important ingredient in fault-tolerant quantum computation is asymptotically good codes with fully addressable transversal non-Clifford gates. Existing constructions, however, provide only small explicit guarantees for rate and relative distance. Here, we substantially improve these guarantees for fully addressable transversal phase gates at every fixed level $h\\ge3$ of the Clifford hierarchy, using a cyclic encoding beyond the binary CSS framework. The encoding separates logical phase control from the joint design of rate and distance, enabling two constructions with different computational costs. A deterministic polynomial-time algebraic-geometric construction gives a common asymptotic lower bound of $52/(675h)$ on both quantities. A counting argument gives an exponential-time construction with exact verification, improving this bound by a factor of approximately $2.86$. We further establish a universal upper bound for codes supporting fully addressable transversal single-qubit phase gates. Within our cyclic encoding framework, we obtain a stronger upper bound that is approximately $1.28$ times the lower bound achieved by our exponential-time construction. As concrete examples, we construct codes with $48$ and $90$ physical qubits supporting fully addressable transversal $T$ gates. These results narrow the gap between achievable code parameters and addressability bounds, providing quantitative targets for further improvements in efficient code constructions.",
@@ -2266,6 +2516,54 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00057",
+"title": "The 2-adic valuation of the constant for symmetric ideal Prouhet-Tarry-Escott solutions",
+"abstract": "For an ideal solution of the Prouhet--Tarry--Escott problem of size $n$, let $C$ denote the associated constant, and let $\\overline{C_n}$ be the greatest common divisor of these constants. Filaseta and Markovich obtained $v_2(\\overline{C_8})\\ge6$ and determined $v_2(\\overline{C_9})=9$, and asked for improved lower bounds in the range $10\\le n\\le12$; Bera and Nair gave bounds for $n=10$ and $n=12$. We treat the symmetric case at every size, even and odd, by $2$-adic arguments throughout. A single identity, the row law, governs both parities. For $n$ even, over $\\mathbb{Z}$, it splits into two regular systems and yields $v_2(C)\\ge6,8,11,12,12,16,18,18$ for $n=6,8,10,\\dots,20$. The values at $n=6,8,10,12$ are attained and hence exact for the symmetric constant: in the symmetric case this closes both brackets of Bera--Nair, and gives $v_2(C'_8)=8$, for which the published information was $v_2(\\overline{C_8})\\ge6$. We also record that the two lower bounds of Bera--Nair, $9$ at $n=10$ and $11$ at $n=12$, are attained by $2$-adic solutions symmetric about $-1/2$, so that no argument using $2$-adic information alone can raise them. For $n$ odd, over $\\mathbb{Z}_2$, it combines with a finite-difference lemma refining a congruence of Filaseta--Markovich to give $v_2(C)\\ge11,12,12$ for $n=11,13,15$, against $8$, $10$ and $11$ from Kleiman's bound $(n-1)!\\mid C$; the chain also reproduces the known values $4,6,9$ at $n=5,7,9$. At $n=11$ the bound is sharp: the two quadratic near-solutions of Coppersmith, Mossinghoff, Scheinerman and VanderKam are symmetric ideal solutions over $\\mathbb{Z}_2$ with $v_2(C)=11$, since in both of the real quadratic fields involved the prime $2$ splits. This answers, for $n=11$ and $p=2$, two questions of Filaseta--Markovich, and exhibits for those sizes the case $p\\le n$ of the question closing Rees--Smyth, who construct $p$-adic ideal solutions only for $p>n$: at the prime $2$ there is no local obstruction at these sizes. At $n=13$ we exhibit a symmetric ideal solution over $\\mathbb{Z}_2$, obtained from a second object of the same authors, although its constant has valuation $17$.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00057v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00057v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00054",
+"title": "The Exact One-Half Threshold for Arbitrary-Capacity Bottleneck Multiple Subset Sum",
+"abstract": "In bottleneck multiple subset sum, items with weights are packed into knapsacks with capacities, possibly leaving items unpacked, so as to maximize the minimum load. For identical capacities the best possible approximation ratio is $2/3$, and Chen et al.\\ asked whether $2/3$ is also achievable for arbitrary capacities. We show that it is not: for arbitrary capacities we give a $1/2$-approximation using $O(n\\log(n+1)+m\\log(m+1))$ arithmetic and comparison operations for $n$ items and $m$ knapsacks, and prove that no fixed ratio above $1/2$ is achievable unless $\\mathsf P=\\mathsf{NP}$. We also give a short proof of the classical $1/2$ guarantee of Friesen and Langston for unit profits.",
+"authors": [
+"Matěj Kripner",
+"Václav Rozhoň",
+"Robert Šámal",
+"Martin Šindelář",
+"Adrián Zámečník"
+],
+"categories": [
+"cs.DS",
+"cs.CC",
+"math.OC"
+],
+"link": "https://hexagonmath.org/abs/2611.00054v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00054v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.04535",
 "title": "The Extension groups of one $\\rm K$-type representations of graded Hecke algebra",
 "abstract": "We study the extension groups between one $\\rm K$-type representations of the graded Hecke algebra $\\mathbb H$. A one $\\rm K$-type representation is a Hermitian representation of $\\mbb H$ whose restriction to the Weyl group is irreducible. Using a Koszul-type resolution of $\\mathbb H$-modules, we reduce the computation of $\\operatorname{Ext}_{\\mathbb H}^j(X,Y)$ to a combinatorial count, yielding explicit formulas for the classical types and a computer computation for the exceptional types.",
@@ -2281,6 +2579,27 @@
 "announce": "new",
 "date": "2026-11-04",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00060",
+"title": "Three-machine unit-job scheduling in time O((L+2)^276)",
+"abstract": "OpenAI recently gave a deterministic polynomial-time algorithm for P3|prec,p_j=1|C_max (problem OPEN8 of Garey and Johnson), with running time O((L+2)^150020) on a multitape Turing machine, L being the input length; the same exponent appears in the accompanying Lean statement. The exponent comes from enumerating all Boolean formulas with at most 10000 leaves, each leaf choosing its own triple of jobs. We show that every description actually used by the structural proof involves at most 21 distinct job triples and at most 3 distinct rank thresholds. Restricting the enumerated family accordingly, and using the length bound on accepting paths already proved there to limit the number of reachability passes, the same algorithm runs in time O((L+2)^276).",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"cs.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00060v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00060v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2312,6 +2631,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00045",
+"title": "Torus fibrations on $3$-dimensional manifolds which are smooth functions with finitely many critical values and stable fold maps",
+"abstract": "We present smooth functions which are torus fibrations with finitely many critical values on $3$-dimensional closed manifolds, from (stable) fold maps into the plane. Fold maps are higher dimensional versions of Morse functions and introduced and studied first in the 1950s by Thom and Whitney. Saeki, Sakuma, and so on, are important researchers, studying related singularity theory and differential topology mainly, since the 1990s. $3$-dimensional closed manifolds always admit ones into the plane. Surface fibrations are important tools and objects in complex geometry, symplectic geometry, and $4$-dimensional geometry. It is important to construct important examples of the fibrations. In our paper, we present a $3$-dimensional related new study. Related to this, the author has succeeded in explicit construction of explicit functions with prescribed level sets and fold maps whose singular values sets are concentric on manifolds such as connected sums of sphere bundles over spheres.",
+"authors": [
+"Naok  Kitazawa"
+],
+"categories": [
+"math.GN",
+"math.GT"
+],
+"link": "https://hexagonmath.org/abs/2611.00045v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00045v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.05216",
 "title": "Two examples in amplituhedron tilings",
 "abstract": "We give an example of a tiling of the $m=4$ amplituhedron that has fewer cells than that of the magic number conjecture. The tiling uses an injective degree two cell.",
@@ -2337,6 +2678,54 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00058",
+"title": "Two improved lower bounds for the 2-adic valuation of the constant of the Prouhet-Tarry-Escott problem",
+"abstract": "For an ideal solution of the Prouhet--Tarry--Escott problem of size $n$ the associated constant $C$ is divisible by a large power of $2$. Restricting to symmetric solutions, we prove two new lower bounds for $v_2(C)$: $v_2(C)\\ge14$ at $n=15$, improving $12$, and $v_2(C)\\ge19$ at $n=20$, improving $18$; both earlier bounds are those of the companion article hexagon:2611.00057. The first rests on two identities satisfied by every symmetric solution of odd size, one relating $v_2(C)$ to a difference of two products and one turning the index relation into an equality, together with an arithmetic criterion for a block of entries of equal valuation. The second rests on an identity internal to each of the two sides, from which we deduce that the vanishing of the cross invariant $R$ forces $k_0\\equiv0\\pmod4$ when $k_0\\ge4$. Two self-contained verifiers accompany the note.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00058v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00058v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00055",
+"title": "Ulam Metric \\(k\\)-Center in Parameterized Linear Time",
+"abstract": "Continuous Ulam Metric \\(k\\)-Center asks for at most \\(k\\) permutations whose radius-\\(d\\) balls cover the input rankings. For \\(m\\) rankings of \\(n\\) symbols, a deterministic algorithm takes \\(2^{O(kd\\log(k+d+2))}mn\\) word operations. Permanent reference rankings, short insertion lists, and small obstructions obtained by patience sorting control the search. For one center, this answers a question of Bai, Fomin, Golovach, More, and Wietheger with linear input dependence. An arbitrary-alphabet Hamming embedding with a nonexpansive retraction also gives the matching \\(2^{o(d\\log d)}\\) exclusion under the Exponential Time Hypothesis.",
+"authors": [
+"Matěj Kripner",
+"Václav Rozhoň",
+"Robert Šámal",
+"Martin Šindelář",
+"Adrián Zámečník"
+],
+"categories": [
+"cs.DS",
+"cs.CC",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00055v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00055v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2609.30892",
 "title": "Universal Formulas for de Jonqui\\`eres Loci and Equivariant Contact Problems",
 "abstract": "Given a family of genus $g$ curves $f:\\Psi\\to S$ and a relative degree $d$ line bundle $L$ on $\\Psi$ such that $f_*L$ is a vector bundle, the projectivization $\\mathbb{P}(f_*L)$ is stratified by relative de Jonqui\\`eres loci, which parameterize sections of $L$ with prescribed vanishing orders. We give universal formulas for the classes of these loci in terms of the relative $O(1)$ on $\\mathbb{P}(f_*L)$ and tautological classes pulled back from the universal Picard stack $\\mathrm{Pic}_g^d$. When $f$ is the family of lines in $\\mathbb{P}^r$, we use the universal polynomials to compute $\\mathrm{GL}_{r+1}$-equivariant classes of loci of hypersurfaces and complete intersections admitting lines with prescribed contact orders.",
@@ -2352,6 +2741,33 @@
 "announce": "replace",
 "date": "2026-11-04",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00053",
+"title": "Universal-Clique Amplification and Hardness of Assignment-Optimal Edge Clique Covers",
+"abstract": "An edge clique cover has assignment cost equal to the sum of its clique sizes. Unless $P=NP$, this cost admits no polynomial-time $O(N^{1/2-\\eta})$-approximation for any fixed $0<\\eta<1/2$, even on connected $N$-vertex graphs. A universal-clique join transfers coloring hardness without the additive obstruction in earlier reductions. Its exact residual formula also exhibits a change of optimal cover when a universal twin is added. Explicit counterexamples refute two proposed twin-extension rules, while weighted compression of true-twin classes preserves the optimum.",
+"authors": [
+"Matěj Kripner",
+"Václav Rozhoň",
+"Robert Šámal",
+"Martin Šindelář",
+"Adrián Zámečník"
+],
+"categories": [
+"cs.CC",
+"cs.DS",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00053v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00053v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-03",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
