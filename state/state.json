@@ -6,6 +6,66 @@
   {
    "day": "2026-11-05",
    "paper": {
+    "abstract": "We study natural transformations, minors, and symmetric monoidal decorations of finite directed acyclic networks. For any weakly connected small source category, a natural transformation into a free acyclic path category is determined by one component. If more than one transformation exists, common prefixes and suffixes give a canonical factorization through two constant functors and identify the transformation set with a single set of directed paths. Consequences include boundary rigidity, a decision algorithm, and a fundamental-group obstruction to non-uniqueness. For fusion\u2013embedding minors, right fillings exist exactly when the graph pushout is acyclic. A support invariant detects a nonexact minor under the full gauge congruence, while path-convex embeddings admit two-sided fillings. Inverse-image pullbacks give canonical partial-map normal forms, a scanning algorithm, and a coherent presentation of the cartesian quotient. For open networks, wire splicing gives units, and diagram groupoids satisfy descent by homotopy pullback over the interface groupoid, including through-wires. This descent is invariant under strong symmetric monoidal equivalence and compatible with admissible event contractions within each piece. Finite-field examples yield orbit classifications, stabilizer weights, and boundary convolution formulas. Roof-refinement spaces realize spheres whose higher homotopy is lost under groupoid completion.",
+    "ai_mode": "human",
+    "announce": "new",
+    "authors": [
+     "Zhenyu Sun"
+    ],
+    "categories": [
+     "math.CT",
+     "math.CO",
+     "math.QA"
+    ],
+    "date": "2026-11-05",
+    "link": "https://hexagonmath.org/abs/2611.00122v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2611.00122v1",
+    "pid": "hexagon:2611.00122",
+    "reasons": [
+     "title: descent"
+    ],
+    "source": "hexagon",
+    "tier": 2,
+    "title": "Acyclic Networks: Causal Comparisons, Convex Minors, and Gauge Descent",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-05",
+   "paper": {
+    "abstract": "Working notes of Alexandre Grothendieck, put online by the University of Montpellier, have been transcribed and restated in current notation with a language model; the restatements may contain errors. This appendix proves statements taken from these restatements in seventy-five folders, in commutative algebra, algebraic geometry, plane affine geometry, general and tame topology, category and group theory, homotopical algebra, order theory, algebra and finite combinatorics. Each proof follows a proof checked in the Lean 4 proof assistant with its library mathlib. For each statement the text gives the context of the leaf, the proof, the hypotheses that are superfluous or necessary, and the corrections made to the restatement or to the page. It ends with the list of statements the sections report without a Lean check.",
+    "ai_mode": "no-human-author-claimed",
+    "announce": "new",
+    "authors": [
+     "Michel Hua"
+    ],
+    "categories": [
+     "math.HO",
+     "math.AC",
+     "math.AG",
+     "math.AT",
+     "math.CO",
+     "math.CT",
+     "math.GN",
+     "math.GR",
+     "cs.LO"
+    ],
+    "date": "2026-11-05",
+    "link": "https://hexagonmath.org/abs/2611.00125v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2611.00125v1",
+    "pid": "hexagon:2611.00125",
+    "reasons": [],
+    "source": "hexagon",
+    "tier": 4,
+    "title": "Grothendieck Montpellier. \u00c9nonc\u00e9s des lectures modernis\u00e9es d\u00e9montr\u00e9s.",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-05",
+   "paper": {
     "abstract": "We construct a cohomology theory $H_A(-)$ canonically attached to any 1-dimensional commutative group scheme A over a connective $E_\\infty$-ring. The additive group in characteristic zero gives 2-periodic de Rham cohomology, the multiplicative group gives topological periodic cyclic homology, and an elliptic curve gives elliptic cohomology. The construction extends to the G-equivariant setting for an algebraic group G, yielding in the elliptic case a theory of equivariant elliptic cohomology on algebraic varieties with G-action that takes values in sheaves on the stack of G-bundles. Over the complex numbers, and for G connected reductive, this lifts Grojnowski's theory from the moduli space of G-bundles to the stack.\n  The key player is the category of perfect complexes on A with 0-dimensional support, equipped with the convolution product induced by the group law of A. It plays the role of a categorified circle and is used to define a loop space $L_A^G(X)$, whose structure sheaf gives rise to $H_A^G(X)$ after periodization. Sheaves on $L_A^G(X)$ equivariant under loop rotation provide a category of coefficients for $H_A^G(-)$ in the same way that D-modules provide coefficients for de Rham cohomology. At the point X = *, the theory also gives rise to an $E_\\infty$-ring spectrum (or sheaf thereof) $K_A$, which recovers complex K-theory for $A = \\mathbf{G}_m$, and the sheaf $\\mathcal{O}^{top}$ of topological modular forms for the universal elliptic curve.",
     "ai_mode": "",
     "announce": "new",
@@ -5447,10 +5507,35 @@
    }
   }
  ],
- "hexagon_since": "2026-11-04",
+ "hexagon_since": "2026-11-05",
  "last_page": {
   "day": "2026-11-05",
   "papers": [
+   {
+    "abstract": "We study natural transformations, minors, and symmetric monoidal decorations of finite directed acyclic networks. For any weakly connected small source category, a natural transformation into a free acyclic path category is determined by one component. If more than one transformation exists, common prefixes and suffixes give a canonical factorization through two constant functors and identify the transformation set with a single set of directed paths. Consequences include boundary rigidity, a decision algorithm, and a fundamental-group obstruction to non-uniqueness. For fusion\u2013embedding minors, right fillings exist exactly when the graph pushout is acyclic. A support invariant detects a nonexact minor under the full gauge congruence, while path-convex embeddings admit two-sided fillings. Inverse-image pullbacks give canonical partial-map normal forms, a scanning algorithm, and a coherent presentation of the cartesian quotient. For open networks, wire splicing gives units, and diagram groupoids satisfy descent by homotopy pullback over the interface groupoid, including through-wires. This descent is invariant under strong symmetric monoidal equivalence and compatible with admissible event contractions within each piece. Finite-field examples yield orbit classifications, stabilizer weights, and boundary convolution formulas. Roof-refinement spaces realize spheres whose higher homotopy is lost under groupoid completion.",
+    "ai_mode": "human",
+    "announce": "new",
+    "authors": [
+     "Zhenyu Sun"
+    ],
+    "categories": [
+     "math.CT",
+     "math.CO",
+     "math.QA"
+    ],
+    "date": "2026-11-05",
+    "link": "https://hexagonmath.org/abs/2611.00122v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2611.00122v1",
+    "pid": "hexagon:2611.00122",
+    "reasons": [
+     "title: descent"
+    ],
+    "source": "hexagon",
+    "tier": 2,
+    "title": "Acyclic Networks: Causal Comparisons, Convex Minors, and Gauge Descent",
+    "watched": []
+   },
    {
     "abstract": "We construct a cohomology theory $H_A(-)$ canonically attached to any 1-dimensional commutative group scheme A over a connective $E_\\infty$-ring. The additive group in characteristic zero gives 2-periodic de Rham cohomology, the multiplicative group gives topological periodic cyclic homology, and an elliptic curve gives elliptic cohomology. The construction extends to the G-equivariant setting for an algebraic group G, yielding in the elliptic case a theory of equivariant elliptic cohomology on algebraic varieties with G-action that takes values in sheaves on the stack of G-bundles. Over the complex numbers, and for G connected reductive, this lifts Grojnowski's theory from the moduli space of G-bundles to the stack.\n  The key player is the category of perfect complexes on A with 0-dimensional support, equipped with the convolution product induced by the group law of A. It plays the role of a categorified circle and is used to define a loop space $L_A^G(X)$, whose structure sheaf gives rise to $H_A^G(X)$ after periodization. Sheaves on $L_A^G(X)$ equivariant under loop rotation provide a category of coefficients for $H_A^G(-)$ in the same way that D-modules provide coefficients for de Rham cohomology. At the point X = *, the theory also gives rise to an $E_\\infty$-ring spectrum (or sheaf thereof) $K_A$, which recovers complex K-theory for $A = \\mathbf{G}_m$, and the sheaf $\\mathcal{O}^{top}$ of topological modular forms for the universal elliptic curve.",
     "ai_mode": "",
@@ -5551,6 +5636,35 @@
     "source": "arxiv",
     "tier": 4,
     "title": "Floer theory on based loops and fundamental groups of Lagrangians in $\\mathbb{C}^n$",
+    "watched": []
+   },
+   {
+    "abstract": "Working notes of Alexandre Grothendieck, put online by the University of Montpellier, have been transcribed and restated in current notation with a language model; the restatements may contain errors. This appendix proves statements taken from these restatements in seventy-five folders, in commutative algebra, algebraic geometry, plane affine geometry, general and tame topology, category and group theory, homotopical algebra, order theory, algebra and finite combinatorics. Each proof follows a proof checked in the Lean 4 proof assistant with its library mathlib. For each statement the text gives the context of the leaf, the proof, the hypotheses that are superfluous or necessary, and the corrections made to the restatement or to the page. It ends with the list of statements the sections report without a Lean check.",
+    "ai_mode": "no-human-author-claimed",
+    "announce": "new",
+    "authors": [
+     "Michel Hua"
+    ],
+    "categories": [
+     "math.HO",
+     "math.AC",
+     "math.AG",
+     "math.AT",
+     "math.CO",
+     "math.CT",
+     "math.GN",
+     "math.GR",
+     "cs.LO"
+    ],
+    "date": "2026-11-05",
+    "link": "https://hexagonmath.org/abs/2611.00125v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2611.00125v1",
+    "pid": "hexagon:2611.00125",
+    "reasons": [],
+    "source": "hexagon",
+    "tier": 4,
+    "title": "Grothendieck Montpellier. \u00c9nonc\u00e9s des lectures modernis\u00e9es d\u00e9montr\u00e9s.",
     "watched": []
    },
    {
@@ -8429,6 +8543,28 @@
   "hexagon:2611.00095": "2026-11-05",
   "hexagon:2611.00096": "2026-11-05",
   "hexagon:2611.00097": "2026-11-05",
+  "hexagon:2611.00101": "2026-11-05",
+  "hexagon:2611.00102": "2026-11-05",
+  "hexagon:2611.00105": "2026-11-05",
+  "hexagon:2611.00106": "2026-11-05",
+  "hexagon:2611.00107": "2026-11-05",
+  "hexagon:2611.00108": "2026-11-05",
+  "hexagon:2611.00109": "2026-11-05",
+  "hexagon:2611.00112": "2026-11-05",
+  "hexagon:2611.00114": "2026-11-05",
+  "hexagon:2611.00115": "2026-11-05",
+  "hexagon:2611.00116": "2026-11-05",
+  "hexagon:2611.00117": "2026-11-05",
+  "hexagon:2611.00118": "2026-11-05",
+  "hexagon:2611.00119": "2026-11-05",
+  "hexagon:2611.00120": "2026-11-05",
+  "hexagon:2611.00121": "2026-11-05",
+  "hexagon:2611.00122": "2026-11-05",
+  "hexagon:2611.00123": "2026-11-05",
+  "hexagon:2611.00124": "2026-11-05",
+  "hexagon:2611.00125": "2026-11-05",
+  "hexagon:2611.00126": "2026-11-05",
+  "hexagon:2611.00127": "2026-11-05",
   "math/0111031": "2026-10-27",
   "math/0702082": "2026-10-22"
  }
