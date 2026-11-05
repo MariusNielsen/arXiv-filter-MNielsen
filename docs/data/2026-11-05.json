@@ -1,6 +1,6 @@
 {
 "day": "2026-11-05",
-"updated": "2026-11-05T05:04:42+00:00",
+"updated": "2026-11-05T15:25:50+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -1206,6 +1206,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00093",
+"title": "Noncommutative von Neumann-Riesz and von Neumann-Riesz-Lorch Mean Ergodic Theorems",
+"abstract": "We derive noncommutative von Neumann-Riesz and von Neumann-Riesz-Lorch mean ergodic theorems for adjointable contractions on a Hilbert C*-module. We crucially use a result obtained by Paschke [\\textit{Trans. Amer. Math. Soc., 1973}]. We also note that the exact version of the noncommutative von Neumann–Riesz mean ergodic theorem fails.",
+"authors": [
+"K. MAHESH KRISHNA"
+],
+"categories": [
+"math.OA",
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.00093v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00093v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-04",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00097",
 "title": "Nonconstant Congruence Speeds of Integer Tetration in Non-Squarefree Radices",
 "abstract": "We further develop the theory of congruence speed for integer tetration in non-squarefree numeral systems, building on Appendix B of [M. Ripà and G. Di Pietro (2026), A compact notation for peculiar properties characterizing integer tetration, Notes on Number Theory and Discrete Mathematics, 32(3), 477–496]. For bases coprime to the radix, we establish an eventual floor-difference representation and determine the exact spectrum of attainable least periods. We construct explicit arithmetic progressions containing infinitely many prime bases with nonconstant congruence speed for every non-squarefree radix, thereby proving the coprime-infinitude conjecture posed in Appendix B. We also derive a uniform quadratic bound for the least coprime base with nonconstant congruence speed and establish exact natural densities of nonstabilizing bases, both among integers coprime to the radix and among those not divisible by its radical, together with the corresponding relative density among primes. Finally, we give necessary and sufficient conditions for the perfect-power congruence-speed identity (Equation (2.12) of the cited paper) to hold in arbitrary radices, determine the exact least eventual period when stabilization fails, and establish a separate criterion for the boundary case of the original parameter restriction.",
@@ -1879,6 +1901,28 @@
 "announce": "new",
 "date": "2026-11-05",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00085",
+"title": "The Discriminant Structure of Frey Curve Isogeny Classes: Crater–Peak Duality, the Volcano Law, and a Mass Criterion",
+"abstract": "Let $a,b,c$ be coprime positive integers with $a+b=c$, and let $E: y^2=x(x-a)(x+b)$ be the associated Frey curve. We determine the structure of minimal discriminants across the $\\mathbb{Q}$-isogeny class $\\mathcal{C}(E)$ by closed formulas in $(a,b,c)$. The three $2$-torsion points of $E$ are rational, so $E$ is always the centre of its class; the first-level quotients via Velu's formula have monomial model discriminants $\\{16(abc)^2,\\ 256a^4bc,\\ 256ab^4c,\\ 256abc^4\\}$, an exact collapse forced by the identity $u=4f(r)$ in Velu's algorithm. We prove the Crater--Peak Law: among the first-level vertices the minimal and maximal discriminants are $\\min\\{16(abc)^2,\\,256\\min(a,b)^4\\max(a,b)c\\}$ and $256abc^4$, the exponent $4$ landing on the smallest entry (crater) and the largest (peak); for star classes these are the class extrema, while on square or quartic triggers the extrema are the minimum and maximum over ten explicit candidates. The class size $|V|\\in\\{4,6,8\\}$ is decided by the square and quartic character of $ac$ and $bc$ (107 samples, zero failures), matching the isogeny-torsion graph classification via the lcm of the isogeny matrix. When $ac$ or $bc$ is a square the class extends to depth $2$ with model discriminants $2^{10}ACu^8v^2$ and $-2^{10}ACu^2v^8$, and to depth $3$ on quartic triggers with discriminants $2^{11}pq\\,u^{16}v^4e$ and $2^{11}pq\\,u^4v^{16}e$. On the multiplicative bad-prime set $\\pi$ we prove the Volcano Law: each vertex carries an integer height vector $k(V)\\in\\mathbb{Z}^{\\pi}$ with $v_p(\\Delta^{\\min}_V)=2^{k_p(V)}v_p(\\Delta^{\\min}_{\\mathrm{crater}})$, and along every $2$-edge $k\\mapsto k+\\sigma$ with $\\sigma\\in\\{\\pm1\\}^{\\pi}$ independently per prime (578 edge-prime samples, zero exceptions), via the Tate parameterization. For odd primes $p\\mid\\min(a,b)$ we have $v_p(j)=-2v_p(\\min)$, so the entire law is read off the $j$-invariant. The peak curve is explicit ($y^2=x^3-2(b-a)x^2+c^2x$), and the $j$-denominator exponent is a theorem: $\\log\\,\\mathrm{den}(j)/\\log\\,\\mathrm{num}(j)=(\\alpha+2)/3+O(1/\\log c)$, with the exact discrepancy identity verified to machine precision on $2185$ samples --- the Pasten meeting point in its precise form; we also show the Pasten mechanism is information-free on the Frey family. As an application, for $A^x+B^y=C^z$ we give an explicit two-branch formula for the crater ratio $\\rho_c$; and with $\\alpha=\\log\\min(a,b)/\\log c$ we prove $\\sigma_{\\max}\\to(5+\\alpha)q$, so Szpiro is equivalent on the Frey family to the mass bound $q\\le 6/(5+\\alpha)$, sharp at $\\alpha=1$ where Szpiro and abc coincide, while the residual gap lives at $\\alpha=0$, the Pillai/$S$-unit corner. A Sage-verified table of $17$ classes (Kraus minimization agreeing with Sage minimal_model() throughout) gives $\\sigma_{\\max}>6$ in 14 of 17 rows (non-refutations: Szpiro allows $O(1)/\\log N$ slack). All absolute $\\sigma$ values are certified against Sage; structural statements are proved or machine-verified symbolically. We prove no conjecture: abc, Szpiro, Beal and the height conjecture remain open.",
+"authors": [
+"Zeng Chunping"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00085v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00085v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-04",
+"ai_mode": "human",
 "other_links": {},
 "tier": 9,
 "reasons": [],
