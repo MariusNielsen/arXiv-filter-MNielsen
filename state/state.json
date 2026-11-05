@@ -4,6 +4,196 @@
  ],
  "feed": [
   {
+   "day": "2026-11-05",
+   "paper": {
+    "abstract": "We construct a cohomology theory $H_A(-)$ canonically attached to any 1-dimensional commutative group scheme A over a connective $E_\\infty$-ring. The additive group in characteristic zero gives 2-periodic de Rham cohomology, the multiplicative group gives topological periodic cyclic homology, and an elliptic curve gives elliptic cohomology. The construction extends to the G-equivariant setting for an algebraic group G, yielding in the elliptic case a theory of equivariant elliptic cohomology on algebraic varieties with G-action that takes values in sheaves on the stack of G-bundles. Over the complex numbers, and for G connected reductive, this lifts Grojnowski's theory from the moduli space of G-bundles to the stack.\n  The key player is the category of perfect complexes on A with 0-dimensional support, equipped with the convolution product induced by the group law of A. It plays the role of a categorified circle and is used to define a loop space $L_A^G(X)$, whose structure sheaf gives rise to $H_A^G(X)$ after periodization. Sheaves on $L_A^G(X)$ equivariant under loop rotation provide a category of coefficients for $H_A^G(-)$ in the same way that D-modules provide coefficients for de Rham cohomology. At the point X = *, the theory also gives rise to an $E_\\infty$-ring spectrum (or sheaf thereof) $K_A$, which recovers complex K-theory for $A = \\mathbf{G}_m$, and the sheaf $\\mathcal{O}^{top}$ of topological modular forms for the universal elliptic curve.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Emile Bouaziz",
+     "Adeel A. Khan"
+    ],
+    "categories": [
+     "math.AG",
+     "math.AT",
+     "math.RT"
+    ],
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.05707",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.05707",
+    "pid": "2611.05707",
+    "reasons": [
+     "title: equivariant",
+     "abstract: ring spectr",
+     "abstract: e_infinity-ring"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Equivariant elliptic cohomology via loop spaces",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-05",
+   "paper": {
+    "abstract": "For a quiver $Q$, we introduce and study $Q$-operads (or operads over $Q$), defined as a special sort of $\\mathbf{fc}$-multicategories or virtual double categories, in which the directions of the arrows of $Q$ encode the permitted input orderings. In this higher operadic framework, we construct the bar--cobar adjunction and develop a theory of Koszul duality and homotopy algebras, together with compatibility results under changes of quiver. We treat dg categories and their left modules, right modules, and bimodules as algebras over quiver-operads. We prove that these operads are Koszul and that their resolutions govern the corresponding $A_\\infty$ categories and modules. We also categorify Sagave's notion of derived $A_\\infty$ algebras and introduce modules over derived $A_\\infty$ algebras and categories. Finally, we explain that restriction along a folding of quivers constructs diagonal $A_\\infty$ bimodules, while extension along an inclusion of quivers realizes two-sided bar models of derived tensor products.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Hang Yuan"
+    ],
+    "categories": [
+     "math.AT",
+     "math.CT",
+     "math.QA"
+    ],
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.06165",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.06165",
+    "pid": "2611.06165",
+    "reasons": [
+     "title: koszul dual",
+     "abstract: infinity categor",
+     "abstract: higher operad"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Koszul duality and homotopy algebras for operads over quivers",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-05",
+   "paper": {
+    "abstract": "We extend the method of Van Woerden \\cite{woerden} to totally real and CM number fields to obtain an upper bound for the number of $\\GLo-$equivalence classes of perfect forms. Moreover, by considering appropriate barycentric subdivisions of the Voronoi tessellation, we extend these estimates to the number of $\\GLo$-orbits of $k$-dimensional faces of the Voronoi tessellation. As a consequence, we improve the asymptotic order of the bounds for the torsion part of $K_m(\\rint)$ obtained by Soul\\'e \\cite{soule_hermitian_bounds} and Houriet \\cite{Juliet_PHD}. We emphasise the improvement of the general bound for $F=\\mathbb Q$, unchanged since Soul\\'e's work, and the independence of the discriminant exponent from the field degree for totally real and CM fields.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Alejandro de la Torre Dur\\'an"
+    ],
+    "categories": [
+     "math.KT",
+     "math.GT"
+    ],
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.06300",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.06300",
+    "pid": "2611.06300",
+    "reasons": [
+     "title: algebraic k-theor"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Perfect Forms and Torsion Bounds in Algebraic $K$-Theory over Totally Real and CM Fields",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-05",
+   "paper": {
+    "abstract": "We obtain new constraints on the topology of Lagrangian submanifolds in the standard symplectic vector space $\\mathbb{C}^n$ using Floer theory on the based loop space, generalizing a theorem of Fukaya-Irie. In particular, we show that non-trivial connected sums of closed, spin, aspherical manifolds of even dimensions do not admit Lagrangian embeddings into $\\mathbb{C}^n$. A feature of the proof is that the obstructedness of the Floer theory is used to constrain the fundamental group of the Lagrangian.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Shuhao Li"
+    ],
+    "categories": [
+     "math.SG",
+     "math.AT",
+     "math.GT"
+    ],
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.06574",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.06574",
+    "pid": "2611.06574",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Floer theory on based loops and fundamental groups of Lagrangians in $\\mathbb{C}^n$",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-05",
+   "paper": {
+    "abstract": "We develop a unified homology theory for directed partial orders (DPOs) and lattice-ordered positive cones on fields of characteristic zero. With the underlying field and its operations fixed, we define order?carrying spaces independently by topological conditions, establish a bijection with DPO positive cones, and characterize lattice orders by intersections of minimal open neighborhoods. A unified comparison theorem identifies graded Ext for region ideals with sheaf cohomology and multiplicative Tor with the reduced singular homology of truncated regions, giving a topological interpretation of the existence and preservation of reduced decompositions. We obtain canonical cohomological obstructions to lattice ordering, prove that a coefficient module for positive multiplication is flat if and only if the multiplier has a positive inverse, and show that every strict extension of positive cones on the same field produces a nonzero first Tor obstruction. Finally, we place the concrete lattice recently constructed by Bao-Zhang within this framework.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Hanzhen Bao"
+    ],
+    "categories": [
+     "math.RA",
+     "math.AC",
+     "math.AT"
+    ],
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.06261",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.06261",
+    "pid": "2611.06261",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Homology and Topology of Partially Ordered Fields",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-05",
+   "paper": {
+    "abstract": "In this article, we introduce Borel--Moore and uniformly finite versions of magnitude homology and path homology for locally finite graphs by allowing possibly infinite chains subject to local finiteness and boundedness conditions. In both settings, we construct magnitude--path spectral sequences extending the spectral sequence studied by the author. Their E^1-pages are given by the corresponding magnitude homologies, their E^2-pages contain the corresponding path homologies on the p-axis, and they converge to coarse homology and uniformly finite homology, respectively, in the sense of Nowak--Yu. Moreover, the E^{r+1}-page is invariant under r- homotopy, whereas the homology to which the spectral sequence converges is invariant under coarse equivalence. Thus the spectral sequences interpolate between small-scale and large-scale geometry.\n  We also show that the Borel--Moore and uniformly finite magnitude homologies are products and restricted products, respectively, of ordinary magnitude homology groups with a fixed initial point. Hence the E^1-page is assembled from pointwise magnitude-homological data, providing a mechanism for combining local information into global large-scale invariants. As applications, we establish Mayer--Vietoris sequences for magnitude homology, path homology, the associated spectral-sequence pages, and coarse and uniformly finite homology. We also show that diagonality of ordinary magnitude homology implies degeneration at the E^2-page, yielding isomorphisms between path homology and the corresponding coarse homology. Finally, we discuss applications to Cayley graphs of graph products, including right-angled Artin groups and right-angled Coxeter groups.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Yasuhiko Asao"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.05972",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.05972",
+    "pid": "2611.05972",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Magnitude, path and coarse homology",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-05",
+   "paper": {
+    "abstract": "Persistence diagrams do not naturally live in a Hilbert space. Carri\\`ere, Cuturi, and Oudot embedded them in kernel methods through the Sliced Wasserstein kernel, built from the Sliced Wasserstein distance $\\mathrm{SW}_1$, which is conditionally negative definite (CND). We study the projected ($\\mathrm{SW}_p$) and reflected ($\\mathrm{RW}_p$) Sliced Wasserstein distances for every order $p\\ge1$, and compare them with the $p$-Wasserstein distance $d_p$ and with a reflected variant $d_p^r$, in which projection onto the diagonal is replaced by reflection across it. We show that $2^{1/p}d_p\\le d_p^r\\le 2d_p$ with sharp constants, so that $d_1^r=2d_1$ and $d_p^r$ inherits the stability of $d_p$, although it is a metric only for $p=1$. The distances $\\mathrm{SW}_1$ and $\\mathrm{RW}_1$ are CND metrics, and $\\mathrm{RW}_1$ gives rise to a new positive definite kernel, stable with respect to $d_1$. For $p>1$, neither $\\mathrm{SW}_p$ nor $\\mathrm{RW}_p$ satisfies the triangle inequality, and rigorous interval-arithmetic certificates prove that $\\mathrm{SW}_2$ and $\\mathrm{RW}_2$ are not CND; numerical experiments suggest that the CND property fails for every $p$ above some $p^*\\in(1,1.2]$. On diagrams with at most $N$ points, $\\mathrm{SW}_p$ and $\\mathrm{RW}_p$ are metrically equivalent to $d_p$ and $d_p^r$, with sharp upper constants. On an orbit recognition benchmark, the kernels built from $\\mathrm{SW}_1$ and $\\mathrm{RW}_1$ reach about 85% accuracy, outperform the persistence scale space kernel, perform on par with the persistence weighted Gaussian kernel, and are about one percentage point below the kernel built from $\\mathrm{SW}_2$, which is not positive definite.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Juli\\'an Uribe Casta\\~neda",
+     "Mircea Petrache"
+    ],
+    "categories": [
+     "cs.CG",
+     "math.AT"
+    ],
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.06619",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.06619",
+    "pid": "2611.06619",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Projected and Reflected Sliced Wasserstein Kernels for Persistence Diagrams",
+    "watched": []
+   }
+  },
+  {
    "day": "2026-11-04",
    "paper": {
     "abstract": "We study the tensor triangular geometry of derived categories of valuation domains, obtaining complete ring-theoretic characterizations of their main structural properties. In particular, although valuation domains are almost always non-noetherian, their derived categories always satisfy the local-to-global principle and hence the detection property. We establish precise criteria for homological detection, stratification, and homological stratification, revealing a clear hierarchy among these properties. Notably, we obtain examples of derived categories of commutative rings that are homologically stratified and satisfy the local-to-global principle, but are not stratified. We also determine when the category of modules over a valuation domain has Gabriel dimension, and use this to provide a negative answer to a question of Balchin, G\\'omez and Stevenson. Overall, valuation domains provide a rich class of non-noetherian rings whose derived categories can be understood in considerable depth.",
@@ -5255,649 +5445,200 @@
     "title": "Real Tree Vineyards have Vines",
     "watched": []
    }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "We prove that no nontrivial finite group $G$ satisfies the equivariant generating hypothesis of Bohmann, even when all $RO(H)$-graded homotopy groups are tested for every subgroup $H\\leq G$. For each $G$, we construct ghosts on finite $G$-spectra with arbitrarily long nonzero composition powers. We also prove that the homotopy-module functors are nonfull and construct non-equivalent finite $G$-spectra with isomorphic full homotopy modules.\n  A central ingredient of our proof is the natural ghost operation $\\Psi=(p-[C_p/e])(1-g)$ on $C_p$-spectra. Motivated by Ma--Xu's examples in the motivic settings, we apply this operation to both a two-cell complex and products of complex projective spaces with cyclic permutation action, which produces arbitrarily long nonzero ghost powers. We also construct a ghost on an explicit four-cell complex that is detected in the derived category over the group ring.",
-    "ai_mode": "",
-    "announce": "replace",
-    "authors": [
-     "Sihao Ma",
-     "XiaoLin Danny Shi",
-     "Zhouli Xu",
-     "Shangjie Zhang"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-10-14",
-    "link": "https://arxiv.org/abs/2609.24390",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2609.24390",
-    "pid": "2609.24390",
-    "reasons": [
-     "author: Zhouli Xu",
-     "title: equivariant",
-     "abstract: g-spectr"
-    ],
-    "source": "arxiv",
-    "tier": 1,
-    "title": "Equivariant generating hypotheses for finite groups",
-    "watched": [
-     "Zhouli Xu"
-    ]
-   }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "We prove an unstraightening result for lax transformations between functors from an arbitrary $(\\infty,2)$-category to that of $(\\infty,2)$-categories. We apply this to study partially (op)lax and weighted (co)limits, giving fibrational descriptions of such (co)limits for diagrams valued in $(\\infty,2)$-categories, to characterize adjoints in $(\\infty,2)$-categories of functors and (op)lax transformations, and to prove a mate correspondence between lax transformations that are componentwise right adjoints and oplax transformations that are componentwise left adjoints, for such transformations among functors between arbitrary $(\\infty,2)$-categories.",
-    "ai_mode": "",
-    "announce": "replace",
-    "authors": [
-     "Fernando Abell\\'an",
-     "Andrea Gagna",
-     "Rune Haugseng"
-    ],
-    "categories": [
-     "math.CT",
-     "math.AT"
-    ],
-    "date": "2026-10-14",
-    "link": "https://arxiv.org/abs/2404.03971",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2404.03971",
-    "pid": "2404.03971",
-    "reasons": [
-     "author (watch): Fernando Abell\u00e1n",
-     "author (watch): Andrea Gagna",
-     "author: Rune Haugseng",
-     "title: (infinity,2)",
-     "title: straightening"
-    ],
-    "source": "arxiv",
-    "tier": 1,
-    "title": "Straightening for lax transformations and adjunctions of $(\\infty,2)$-categories",
-    "watched": [
-     "Andrea Gagna",
-     "Fernando Abell\\'an",
-     "Rune Haugseng"
-    ]
-   }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "We characterize the central extensions, in the sense of the categorical theory of central extensions of Janelidze and Kelly, relative to the Birkhoff subcategory of $n$-nilpotent objects of a semi-abelian and algebraically coherent category. An extension $f \\colon A \\to B$ with kernel $K$ turns out to be central precisely when the iterated Huq commutator $[A,[A,\\dots,[A,K]\\dots]]$, with $n$ occurrences of $A$, vanishes. For $n=2$ this condition reads $[A,[K,A]] = 0$, that is, $[K,A]$ is a central subobject of $A$. In the special case of groups this description was obtained by Everaert and the first author. The present proof is categorical, and applies in particular to Lie algebras, to crossed modules, to cocommutative Hopf algebras over a field, and to any category of interest.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Marino Gran",
-     "James R. A. Gray"
-    ],
-    "categories": [
-     "math.CT",
-     "math.GR",
-     "math.RA"
-    ],
-    "date": "2026-10-14",
-    "link": "https://arxiv.org/abs/2610.17389",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.17389",
-    "pid": "2610.17389",
-    "reasons": [
-     "title: nilpoten"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "A characterization of central extensions relative to n-nilpotent objects",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "Let $\\mathcal O$ be the Lubin--Tate deformation ring of a one-dimensional commutative formal group of finite height $n\\geq1$ over a perfect field $k$ of characteristic $p$. We identify Rezk's Witt filtration $\\{I_d\\}$ with the divisibility filtration of integral trace pairings on subgroup algebras of fixed source lifts. This gives the geometric recursion \\[\n  I_{d+1}=pI_d+J_{d,z}\\qquad(d\\geq0), \\] where $J_{d,z}$ defines the targets of order-$p^d$ quotient isogenies from a $W(k)$-valued lift $z$ of the closed point. The corrected ideal is independent of $z$.\n  We also compute the cokernel of the universal source trace pairing over $\\mathcal O$: it is $\\bigoplus_{j=1}^d(\\mathcal O/p^j)^{r_j-r_{j-1}}$, where $r_j$ counts order-$p^j$ subgroups of $(\\mathbf Q_p/\\mathbf Z_p)^n$. The same duality extends the generic trace along two-step isogeny flags to an integral surjection, even when the flag-forgetting map is not flat. This computes composition in the subring of weighted trace operations. Applications include sharp projector denominators and congruence fibre products for full-torsion loci.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Andrea Taccani"
-    ],
-    "categories": [
-     "math.AT",
-     "math.NT"
-    ],
-    "date": "2026-10-14",
-    "link": "https://arxiv.org/abs/2610.18246",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.18246",
-    "pid": "2610.18246",
-    "reasons": [
-     "title: lubin-tate"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "Integral trace duality and the Witt filtration on Lubin--Tate space",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "We identify the $(\\infty,1)$-category presented by the dagger Bergner, dagger Joyal, and dagger Rezk models of Parts I and II with that of univalent flagged dagger $(\\infty,1)$-categories. We first construct a realization--nerve adjunction between reversal simplicial anima and Hermitian flags. We prove that its nerve restricts to an equivalence between flagged dagger $(\\infty,1)$-categories and dagger Segal anima, under which univalence corresponds to unitary completeness. We then construct the adjunctions for univalentization and Hermitian completion and identify univalentization with unitary completion.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Keima Akasaka"
-    ],
-    "categories": [
-     "math.CT",
-     "math-ph",
-     "math.AT",
-     "math.MP"
-    ],
-    "date": "2026-10-14",
-    "link": "https://arxiv.org/abs/2610.17311",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.17311",
-    "pid": "2610.17311",
-    "reasons": [
-     "title: (infinity,1)"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "Models for dagger $(\\infty,1)$-categories III: Univalent flagged dagger $(\\infty,1)$-categories and unitarily complete dagger Segal anima",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "We propose a of definition conjugate stack for a class of suitable $\\mathbb{E}_3$-$\\mathrm{MU}$-algebras that includes the truncated Brown-Peterson spectra $\\mathrm{BP}\\langle n \\rangle$ for all heights $n$. Then we calculate part of $\\mathrm{BP}\\langle n \\rangle^{\\mathrm{conj}}$ as a quotient stack in terms of Witt vectors. To perform this computation we study generalized Thom spectra and their relative Topological Hochschild Homology. We exhibit the Eilenberg-Mac Lane spectrum $\\mathrm{H}\\mathbb{F}_2$ as a $\\mathbb{E}_3$-$\\mathrm{MU}$-Thom spectrum, the $p$-local Eilenberg-Mac Lane spectra $\\mathrm{H}\\mathbb{Z}/p^n$ (except for $\\mathrm{H}\\mathbb{Z}/4$) and $\\mathrm{H}\\mathbb{Z}_{(p)}$ as $\\mathbb{E}_3$-$\\mathrm{MU}_{(p)}$-Thom spectra, and the connective complex K-theory spectrum $ku$ as $\\mathbb{E}_1$-$\\mathrm{MU}$-Thom spectra. We accompany these ``go\" results with ``no-go\" results that show these ``go\" results do not admit $\\mathbb{E}_{\\infty}$-refinements.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Preston Cranford"
-    ],
-    "categories": [
-     "math.KT",
-     "math.AG",
-     "math.AT"
-    ],
-    "date": "2026-10-14",
-    "link": "https://arxiv.org/abs/2610.18754",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.18754",
-    "pid": "2610.18754",
-    "reasons": [
-     "abstract: topological hochschild homology"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Generalized Thom Spectra, Conjugate Stacks, and truncated Brown-Peterson Spectra",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "We investigate Eduard Hanslicks formalist aesthetics through the prism of Category Theory",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Ilyas Khan"
-    ],
-    "categories": [
-     "math.CT"
-    ],
-    "date": "2026-10-14",
-    "link": "https://arxiv.org/abs/2610.17388",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.17388",
-    "pid": "2610.17388",
-    "reasons": [
-     "abstract: prism"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Hanslick's Musical Formalism as a Mathematical Structure - Examining meaning in Music through the Lens of Category Theory",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "We prove that the Becker-Gottlieb transfer is not functorial, even on rational cohomology. More precisely, for any even $n \\ge 4$, we construct a fibration $f \\colon X \\to S^{n+1}$ with fiber $S^2 \\vee S^n$, and an oriented $S^1$-bundle $g \\colon Y \\to X$ such that the transfer of $f \\circ g$ is non-trivial on rational cohomology. Since the transfer of an oriented $S^1$-bundle vanishes, this implies that the transfer of $f \\circ g$ and the composite of the transfers of $f$ and $g$ induce different maps on rational cohomology and are thus not homotopic.\n  The proof that the transfer of $f \\circ g$ is non-trivial uses the rational models for the Becker--Gottlieb and THH transfers obtained in previous work of the authors. In the appendix, we provide a second, more involved, proof that relies on constructing explicit $C_\\infty$-algebra models for odd spherical fibrations (including circle bundles), which might be of independent interest.\n  Concurrently, another counterexample (of very different flavor) was found by Georg Lehner, Cary Malkiewich, and the first author.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Florian Naef",
-     "Robin Stoll"
-    ],
-    "categories": [
-     "math.AT",
-     "math.KT"
-    ],
-    "date": "2026-10-14",
-    "link": "https://arxiv.org/abs/2610.18718",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.18718",
-    "pid": "2610.18718",
-    "reasons": [
-     "abstract: thh"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "The Becker-Gottlieb transfer is not functorial: An example using $C_\\infty$-algebras",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "We consider the image of the comparison homomorphism from bounded cohomology to ordinary cohomology. Its dimension is called the bounded Betti number. In our earlier work we proved that the total bounded Betti number of a closed Riemannian $n$-manifold satisfying $\\Ric\\geq -(n-1)$ and $\\Diam\\leq D$ is bounded by a constant depending only on $n$ and $D$. The original proof used the amenability of the images of sufficiently small local fundamental groups. Since that work was written, Kapovitch and Wilking proved Gromov's generalized Margulis lemma under a lower Ricci curvature bound. Their theorem gives the stronger conclusion that these local groups are uniformly virtually nilpotent. We explain how their result supplies a direct modern input for the bounded Betti number theorem. We also discuss the topological meaning of the bounded part of ordinary cohomology and its relation to the $\\ell^1$-seminorm on homology.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Zhongmin Shen",
-     "Jyh-Yang Wu"
-    ],
-    "categories": [
-     "math.DG",
-     "math.AT"
-    ],
-    "date": "2026-10-14",
-    "link": "https://arxiv.org/abs/2610.18530",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.18530",
-    "pid": "2610.18530",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Curvature, diameter and bounded Betti numbers",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "Furusho, Hirose and Komiyama reformulated the pentagon equation using an involution called the flip, which led to a new characterisation of the graded Grothendieck-Teichm\\\"uller group $\\mathsf{GRT}_1$. We show that the flip is a reflection in the cyclic structure of the operad of framed Drinfeld-Kohno Lie algebras, with the framings removed. Applying the reflection twice to the pentagon gives the two-cycle relation for every Drinfeld associator. This relation is precisely the condition for cyclic compatibility on the associativity morphism, giving a new proof that $\\mathsf{GRT}_1$ acts by cyclic automorphisms of parenthesized ribbon chord diagrams.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Chandan Singh"
-    ],
-    "categories": [
-     "math.QA",
-     "math.AT"
-    ],
-    "date": "2026-10-14",
-    "link": "https://arxiv.org/abs/2610.17482",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.17482",
-    "pid": "2610.17482",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Cyclic reflections and the flip equation for the graded Grothendieck-Teichm\\\"uller group",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "Persistent homology summarizes the topological evolution of a graph as persistence diagrams (PDs). Generating graphs whose topology matches a target descriptor is increasingly important, yet existing topology-aware generative models rely on soft regularization, producing graphs whose PDs may only be approximately similar. We initiate a principled investigation of the generation problem: produce graphs that realize a target PD exactly. We propose two approaches guided by the implicit local and global constraints a target PD imposes. The local approach builds degree-based PD-equivalent graphs iteratively, and we prove that every output realizes the target PD and that every degree-based PD-equivalent graph is reachable. However, as shown thereafter, local generation necessarily trades off between sample diversity and reaching infeasible states. We therefore recast generation as a global constraint satisfaction problem with a complete encoding solvable by modern constraint programming solvers. This is applicable to any vertex-based permutation equivariant filtration scheme and is minimal under the degree filtration. Experiments on four standard graph generation benchmarks confirm that both methods realize the target PD exactly. Together, our methods provide a principled treatment of strict topology-compliant graph generation. Code is available at https://github.com/Aalto-QuML/ExactCompliance.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Mattie Ji",
-     "Indradyumna Roy",
-     "Vikas Garg"
-    ],
-    "categories": [
-     "cs.LG",
-     "math.AT"
-    ],
-    "date": "2026-10-14",
-    "link": "https://arxiv.org/abs/2610.18856",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.18856",
-    "pid": "2610.18856",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Exact Topological Compliance: Generating Persistence-Equivalent Graphs",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "We propose the study of the class of groups that fix a point for every continuous action on any convex compact space. Oliver completed the corresponding program of classifying the finite groups that have this fixed-point property in finite dimensions.\n  Turning to infinite groups, the Schauder--Tychonoff theorem establishes that the integers have the fixed-point property, but this has not been shown for any other infinite, finitely generated group. We establish a local transfer principle and use it to show, as a proof of concept, that $\\mathbf{Z} \\times (\\mathbf{Z}/p\\mathbf{Z})$ belongs to this class of groups.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Nicolas Monod",
-     "Omer Tamuz",
-     "Lizzy Teryoshin"
-    ],
-    "categories": [
-     "math.GR",
-     "math.AT"
-    ],
-    "date": "2026-10-14",
-    "link": "https://arxiv.org/abs/2610.18070",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.18070",
-    "pid": "2610.18070",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Groups with the fixed-point property",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "We show by explicit counterexample that the Becker--Gottlieb transfer cannot be made functorial. A different counterexample using rational homotopy theory was discovered concurrently by the third author and Robin Stoll.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Georg Lehner",
-     "Cary Malkiewich",
-     "Florian Naef"
-    ],
-    "categories": [
-     "math.AT",
-     "math.KT"
-    ],
-    "date": "2026-10-14",
-    "link": "https://arxiv.org/abs/2610.18720",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.18720",
-    "pid": "2610.18720",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "The Becker--Gottlieb transfer is not functorial: An example based on units of group rings",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "The independence complex of the Kneser graph $\\KG(n,k)$ is the simplicial complex of pairwise intersecting families of $n$-subsets of $[2n+k]$; equivalently, it is a Vietoris--Rips complex of the $n$-subsets of $[2n+k]$ under the symmetric-difference metric. Feng and Wang asked whether, for $n=3$, its reduced homology is nontrivial only in dimensions $6$ and $9$, and conjectured the rank in dimension $9$. We answer the question affirmatively over the rationals and determine all the associated Betti numbers. For every $k\\ge0$, the only nonzero reduced Betti numbers using rationals of $\\Ind(\\KG(3,k))$ are \\[\n  \\beta_6=\\binom{k+5}{7}+29\\binom{k+6}{7}\n  \\qquad\\text{and}\\qquad\n  \\beta_9=\\binom{k+6}{6}. \\] The proof uses an inductive decomposition based on a simplicial retraction and Barmak's star clusters, Dowker duality together with Jonsson's computation of the homology of complexes of graphs with bounded covering number, and a relative Mayer--Vietoris spectral sequence which reduces the problem to the six-element sets.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Ziqin Feng"
-    ],
-    "categories": [
-     "math.CO",
-     "math.AT"
-    ],
-    "date": "2026-10-14",
-    "link": "https://arxiv.org/abs/2610.17394",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.17394",
-    "pid": "2610.17394",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "The rational homology of independence complexes of Kneser graphs on triples",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-14",
-   "paper": {
-    "abstract": "A finite free chain model for the homology of a Hausdorff ample groupoid \\(G\\) is cut out of the Matui complex by a finite clopen partition of each nerve space. We ask what such a model must supply and isolate three requirements: a single model that is a quasi-isomorphism, a chain of models that is a complete system with ranks and transition maps read off the presenting data, and a bound on the number of atoms in terms of the presenting cover. An \\(n\\)-Helly axiom on the presenting covers supplies none of them, being satisfied by every finite atomization for every \\(n\\), and a \\(1\\)-Helly family of \\(N\\) compact open sets can have \\(2^{N}-1\\) atoms. We show that a laminar presentation, a laminar basis of compact open sets in each nerve degree, supplies the third, and the second as soon as it is countable: the atoms of a finite laminar family are exactly its nonempty nodes, so a subordinate model has rank at most the number of members presenting it, the subordinate models of finite height form a complete system containing, for a countable presentation, a chain that is itself complete, and the transition maps are the least-ancestor maps of the presenting subfamilies. Every second countable Hausdorff ample groupoid admits one, and the choice is made in each nerve degree separately, laminarity not being stable under products. The first requirement is a restriction on \\(G\\): the homology of a model is finitely generated over a Noetherian ring, whereas \\(H_0\\) over \\(\\mathbb Z\\) is not for the unit groupoid on a Cantor set or for the CAR groupoid, and a truncated model carries free homology of arbitrary rank in arbitrarily high odd degree where the groupoid has none. The chain-level statements are accompanied by a Lean 4 formalization.",
-    "ai_mode": "human",
-    "announce": "new",
-    "authors": [
-     "Luciano Melodia"
-    ],
-    "categories": [
-     "math.KT",
-     "math.AT"
-    ],
-    "date": "2026-10-13",
-    "link": "https://hexagonmath.org/abs/2610.00218v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2610.00218v1",
-    "pid": "hexagon:2610.00218",
-    "reasons": [],
-    "source": "hexagon",
-    "tier": 4,
-    "title": "A Note on Laminar Presentations and Finite Chain Models for Ample Groupoid Homology",
-    "watched": []
-   }
   }
  ],
- "hexagon_since": "2026-11-03",
+ "hexagon_since": "2026-11-04",
  "last_page": {
-  "day": "2026-11-04",
+  "day": "2026-11-05",
   "papers": [
    {
-    "abstract": "We study the tensor triangular geometry of derived categories of valuation domains, obtaining complete ring-theoretic characterizations of their main structural properties. In particular, although valuation domains are almost always non-noetherian, their derived categories always satisfy the local-to-global principle and hence the detection property. We establish precise criteria for homological detection, stratification, and homological stratification, revealing a clear hierarchy among these properties. Notably, we obtain examples of derived categories of commutative rings that are homologically stratified and satisfy the local-to-global principle, but are not stratified. We also determine when the category of modules over a valuation domain has Gabriel dimension, and use this to provide a negative answer to a question of Balchin, G\\'omez and Stevenson. Overall, valuation domains provide a rich class of non-noetherian rings whose derived categories can be understood in considerable depth.",
+    "abstract": "We construct a cohomology theory $H_A(-)$ canonically attached to any 1-dimensional commutative group scheme A over a connective $E_\\infty$-ring. The additive group in characteristic zero gives 2-periodic de Rham cohomology, the multiplicative group gives topological periodic cyclic homology, and an elliptic curve gives elliptic cohomology. The construction extends to the G-equivariant setting for an algebraic group G, yielding in the elliptic case a theory of equivariant elliptic cohomology on algebraic varieties with G-action that takes values in sheaves on the stack of G-bundles. Over the complex numbers, and for G connected reductive, this lifts Grojnowski's theory from the moduli space of G-bundles to the stack.\n  The key player is the category of perfect complexes on A with 0-dimensional support, equipped with the convolution product induced by the group law of A. It plays the role of a categorified circle and is used to define a loop space $L_A^G(X)$, whose structure sheaf gives rise to $H_A^G(X)$ after periodization. Sheaves on $L_A^G(X)$ equivariant under loop rotation provide a category of coefficients for $H_A^G(-)$ in the same way that D-modules provide coefficients for de Rham cohomology. At the point X = *, the theory also gives rise to an $E_\\infty$-ring spectrum (or sheaf thereof) $K_A$, which recovers complex K-theory for $A = \\mathbf{G}_m$, and the sheaf $\\mathcal{O}^{top}$ of topological modular forms for the universal elliptic curve.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Tobias Barthel",
-     "Drew Heard",
-     "Beren Sanders",
-     "Changhan Zou"
+     "Emile Bouaziz",
+     "Adeel A. Khan"
     ],
     "categories": [
+     "math.AG",
+     "math.AT",
+     "math.RT"
+    ],
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.05707",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.05707",
+    "pid": "2611.05707",
+    "reasons": [
+     "title: equivariant",
+     "abstract: ring spectr",
+     "abstract: e_infinity-ring"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Equivariant elliptic cohomology via loop spaces",
+    "watched": []
+   },
+   {
+    "abstract": "For a quiver $Q$, we introduce and study $Q$-operads (or operads over $Q$), defined as a special sort of $\\mathbf{fc}$-multicategories or virtual double categories, in which the directions of the arrows of $Q$ encode the permitted input orderings. In this higher operadic framework, we construct the bar--cobar adjunction and develop a theory of Koszul duality and homotopy algebras, together with compatibility results under changes of quiver. We treat dg categories and their left modules, right modules, and bimodules as algebras over quiver-operads. We prove that these operads are Koszul and that their resolutions govern the corresponding $A_\\infty$ categories and modules. We also categorify Sagave's notion of derived $A_\\infty$ algebras and introduce modules over derived $A_\\infty$ algebras and categories. Finally, we explain that restriction along a folding of quivers constructs diagonal $A_\\infty$ bimodules, while extension along an inclusion of quivers realizes two-sided bar models of derived tensor products.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Hang Yuan"
+    ],
+    "categories": [
+     "math.AT",
      "math.CT",
+     "math.QA"
+    ],
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.06165",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.06165",
+    "pid": "2611.06165",
+    "reasons": [
+     "title: koszul dual",
+     "abstract: infinity categor",
+     "abstract: higher operad"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Koszul duality and homotopy algebras for operads over quivers",
+    "watched": []
+   },
+   {
+    "abstract": "We extend the method of Van Woerden \\cite{woerden} to totally real and CM number fields to obtain an upper bound for the number of $\\GLo-$equivalence classes of perfect forms. Moreover, by considering appropriate barycentric subdivisions of the Voronoi tessellation, we extend these estimates to the number of $\\GLo$-orbits of $k$-dimensional faces of the Voronoi tessellation. As a consequence, we improve the asymptotic order of the bounds for the torsion part of $K_m(\\rint)$ obtained by Soul\\'e \\cite{soule_hermitian_bounds} and Houriet \\cite{Juliet_PHD}. We emphasise the improvement of the general bound for $F=\\mathbb Q$, unchanged since Soul\\'e's work, and the independence of the discriminant exponent from the field degree for totally real and CM fields.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Alejandro de la Torre Dur\\'an"
+    ],
+    "categories": [
+     "math.KT",
+     "math.GT"
+    ],
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.06300",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.06300",
+    "pid": "2611.06300",
+    "reasons": [
+     "title: algebraic k-theor"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Perfect Forms and Torsion Bounds in Algebraic $K$-Theory over Totally Real and CM Fields",
+    "watched": []
+   },
+   {
+    "abstract": "We obtain new constraints on the topology of Lagrangian submanifolds in the standard symplectic vector space $\\mathbb{C}^n$ using Floer theory on the based loop space, generalizing a theorem of Fukaya-Irie. In particular, we show that non-trivial connected sums of closed, spin, aspherical manifolds of even dimensions do not admit Lagrangian embeddings into $\\mathbb{C}^n$. A feature of the proof is that the obstructedness of the Floer theory is used to constrain the fundamental group of the Lagrangian.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Shuhao Li"
+    ],
+    "categories": [
+     "math.SG",
+     "math.AT",
+     "math.GT"
+    ],
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.06574",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.06574",
+    "pid": "2611.06574",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Floer theory on based loops and fundamental groups of Lagrangians in $\\mathbb{C}^n$",
+    "watched": []
+   },
+   {
+    "abstract": "We develop a unified homology theory for directed partial orders (DPOs) and lattice-ordered positive cones on fields of characteristic zero. With the underlying field and its operations fixed, we define order?carrying spaces independently by topological conditions, establish a bijection with DPO positive cones, and characterize lattice orders by intersections of minimal open neighborhoods. A unified comparison theorem identifies graded Ext for region ideals with sheaf cohomology and multiplicative Tor with the reduced singular homology of truncated regions, giving a topological interpretation of the existence and preservation of reduced decompositions. We obtain canonical cohomological obstructions to lattice ordering, prove that a coefficient module for positive multiplication is flat if and only if the multiplier has a positive inverse, and show that every strict extension of positive cones on the same field produces a nonzero first Tor obstruction. Finally, we place the concrete lattice recently constructed by Bao-Zhang within this framework.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Hanzhen Bao"
+    ],
+    "categories": [
+     "math.RA",
      "math.AC",
      "math.AT"
     ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.05298",
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.06261",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.05298",
-    "pid": "2611.05298",
-    "reasons": [
-     "author: Tobias Barthel",
-     "author: Drew Heard",
-     "author: Beren Sanders",
-     "title: tensor triangular"
-    ],
+    "pdf": "https://arxiv.org/pdf/2611.06261",
+    "pid": "2611.06261",
+    "reasons": [],
     "source": "arxiv",
-    "tier": 1,
-    "title": "The tensor triangular geometry of valuation domains",
-    "watched": [
-     "Beren Sanders",
-     "Drew Heard",
-     "Tobias Barthel"
-    ]
+    "tier": 4,
+    "title": "Homology and Topology of Partially Ordered Fields",
+    "watched": []
    },
    {
-    "abstract": "We construct an endofunctor on (small) simplicial sets which freely adjoins a zero object to a (small) infinity-category, as the co-cone construction freely adjoins a terminal object. We then prove that this endofunctor induces a left adjoint to the inclusion of the infinity-category of (small) pointed infinity-categories and morphisms that preserve zero objects into the infinity-category of (small) infinity-categories. This adjunction, in turn, leads to the definition of a coherent choice of nullhomotopies on a pointed infinity-category. A coherent choice of nullhomotopies is a non-canonical, coherent choice of \"higher zeroes\" on a pointed infinity-category, mirroring the obvious definition of higher zeroes on the differential graded nerve of a differential graded category of chain complexes over an additive category. We then show that coherent choices of nullhomotopies give an alternate characterization of fiber sequences in pointed infinity-categories, generalizing the 1-categorical definition of kernels in terms of morphisms that compose to zero.",
+    "abstract": "In this article, we introduce Borel--Moore and uniformly finite versions of magnitude homology and path homology for locally finite graphs by allowing possibly infinite chains subject to local finiteness and boundedness conditions. In both settings, we construct magnitude--path spectral sequences extending the spectral sequence studied by the author. Their E^1-pages are given by the corresponding magnitude homologies, their E^2-pages contain the corresponding path homologies on the p-axis, and they converge to coarse homology and uniformly finite homology, respectively, in the sense of Nowak--Yu. Moreover, the E^{r+1}-page is invariant under r- homotopy, whereas the homology to which the spectral sequence converges is invariant under coarse equivalence. Thus the spectral sequences interpolate between small-scale and large-scale geometry.\n  We also show that the Borel--Moore and uniformly finite magnitude homologies are products and restricted products, respectively, of ordinary magnitude homology groups with a fixed initial point. Hence the E^1-page is assembled from pointwise magnitude-homological data, providing a mechanism for combining local information into global large-scale invariants. As applications, we establish Mayer--Vietoris sequences for magnitude homology, path homology, the associated spectral-sequence pages, and coarse and uniformly finite homology. We also show that diagonality of ordinary magnitude homology implies degeneration at the E^2-page, yielding isomorphisms between path homology and the corresponding coarse homology. Finally, we discuss applications to Cayley graphs of graph products, including right-angled Artin groups and right-angled Coxeter groups.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Thomas Rush Brown"
+     "Yasuhiko Asao"
     ],
     "categories": [
-     "math.CT",
      "math.AT"
     ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.04167",
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.05972",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.04167",
-    "pid": "2611.04167",
-    "reasons": [
-     "title: infinity-categor"
-    ],
+    "pdf": "https://arxiv.org/pdf/2611.05972",
+    "pid": "2611.05972",
+    "reasons": [],
     "source": "arxiv",
-    "tier": 2,
-    "title": "Higher zeroes in pointed infinity-categories",
+    "tier": 4,
+    "title": "Magnitude, path and coarse homology",
     "watched": []
    },
    {
-    "abstract": "In this paper we classify the algebraic K-theory of sets equipped with an action by a finite abelian monoid. The main tool developed for this purpose is an Orbit-Stabilizer Theorem, which gives a decomposition of monoid sets analogous to the decomposition given by the Orbit-Stabilizer Theorem for G-sets.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Maru Sarazola",
-     "Brandon T. Shapiro",
-     "Inna Zakharevich"
-    ],
-    "categories": [
-     "math.KT",
-     "math.RT"
-    ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.05265",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.05265",
-    "pid": "2611.05265",
-    "reasons": [
-     "abstract: algebraic k-theor"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "$K$-theory of finite monoid sets",
-    "watched": []
-   },
-   {
-    "abstract": "We characterise the commutative rings of weak global dimension at most one whose derived categories can be stratified by the Balmer-Favi support theory. For such rings, this yields a bijective correspondence between the class of localising subcategories of the derived category, and the subsets of the Zariski spectrum. For a large class of rings of weak global dimension at most one including all valuation domains, this occurs if and only if the ring is locally strongly discrete, if and only if the Telescope conjecture holds, and if and only if the module category has Gabriel dimension. However, we also give an example of a valuation domain where all these conditions fail, and yet the residue fields generate its derived category and we can classify all the localising subcategories of $D(R)$. Additionally, in the same example, we show that the Balchin-Stevenson smashing support cannot stratify $D(R)$ either.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Jan \\v{S}\\v{t}ov\\'i\\v{c}ek",
-     "Florian Tecklenburg"
-    ],
-    "categories": [
-     "math.CT",
-     "math.AC"
-    ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.05247",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.05247",
-    "pid": "2611.05247",
-    "reasons": [
-     "abstract: telescope conjecture"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Localisations of rings of weak global dimension at most one",
-    "watched": []
-   },
-   {
-    "abstract": "We study the Farrell--Jones conjecture for graph products of pairs and for fundamental groups of polyhedral products. We introduce a pair-deletion decomposition and a local notion of FJ-admissibility, and prove a vertexwise combination theorem for graph products of pairs. The criterion applies, in particular, to ordinary graph products, free-factor pairs, suitable normal pairs, and classes controlled by acylindrical Bass--Serre actions.\n  For polyhedral products, we combine these results with their description by relative graph products and graph products of pairs. We also obtain bounds and exact computations for amenable category, together with applications to simplicial volume and Borel rigidity of closed aspherical polyhedral-product manifolds.",
+    "abstract": "Persistence diagrams do not naturally live in a Hilbert space. Carri\\`ere, Cuturi, and Oudot embedded them in kernel methods through the Sliced Wasserstein kernel, built from the Sliced Wasserstein distance $\\mathrm{SW}_1$, which is conditionally negative definite (CND). We study the projected ($\\mathrm{SW}_p$) and reflected ($\\mathrm{RW}_p$) Sliced Wasserstein distances for every order $p\\ge1$, and compare them with the $p$-Wasserstein distance $d_p$ and with a reflected variant $d_p^r$, in which projection onto the diagonal is replaced by reflection across it. We show that $2^{1/p}d_p\\le d_p^r\\le 2d_p$ with sharp constants, so that $d_1^r=2d_1$ and $d_p^r$ inherits the stability of $d_p$, although it is a metric only for $p=1$. The distances $\\mathrm{SW}_1$ and $\\mathrm{RW}_1$ are CND metrics, and $\\mathrm{RW}_1$ gives rise to a new positive definite kernel, stable with respect to $d_1$. For $p>1$, neither $\\mathrm{SW}_p$ nor $\\mathrm{RW}_p$ satisfies the triangle inequality, and rigorous interval-arithmetic certificates prove that $\\mathrm{SW}_2$ and $\\mathrm{RW}_2$ are not CND; numerical experiments suggest that the CND property fails for every $p$ above some $p^*\\in(1,1.2]$. On diagrams with at most $N$ points, $\\mathrm{SW}_p$ and $\\mathrm{RW}_p$ are metrically equivalent to $d_p$ and $d_p^r$, with sharp upper constants. On an orbit recognition benchmark, the kernels built from $\\mathrm{SW}_1$ and $\\mathrm{RW}_1$ reach about 85% accuracy, outperform the persistence scale space kernel, perform on par with the persistence weighted Gaussian kernel, and are about one percentage point below the kernel built from $\\mathrm{SW}_2$, which is not positive definite.",
     "ai_mode": "",
     "announce": "cross",
     "authors": [
-     "I. Gkeneralis",
-     "S. Prassidis"
+     "Juli\\'an Uribe Casta\\~neda",
+     "Mircea Petrache"
     ],
     "categories": [
-     "math.GT",
+     "cs.CG",
      "math.AT"
     ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.03847",
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.06619",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.03847",
-    "pid": "2611.03847",
+    "pdf": "https://arxiv.org/pdf/2611.06619",
+    "pid": "2611.06619",
     "reasons": [],
     "source": "arxiv",
     "tier": 4,
-    "title": "Combination Theorems and the Farrell--Jones Conjecture for Graph Products of Pairs",
+    "title": "Projected and Reflected Sliced Wasserstein Kernels for Persistence Diagrams",
     "watched": []
    },
    {
-    "abstract": "We compare linking-form bounds with the smooth and locally flat nonorientable 4-genera of low-crossing knots. For every prime knot with at most 13 crossings whose Witt-level linking-form bound is at least 2, this bound equals both genera. We also exhibit 41 prime knots with 12 or 13 crossings that bound locally flat M\\\"obius bands but no smooth ones, and whose smooth nonorientable 4-genus is 2. Our methods combine linking forms, Heegaard Floer correction terms and definite-lattice obstructions with explicit band constructions. They determine 3,300 of the 3,525 values left unknown in KnotInfo on 2 November 2026; the remaining 225 knots have range $[1,2]$. We obtain new lower bounds of 2 for 2,102 knots with 14 crossings and correct previously reported values for three knots with 11 crossings.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Seong-Jin Lee"
-    ],
-    "categories": [
-     "math.GT",
-     "math.AT"
-    ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.04243",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.04243",
-    "pid": "2611.04243",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Smooth and Topological Nonorientable Four-Genera of Low-Crossing Knots",
-    "watched": []
-   },
-   {
-    "abstract": "For any odd prime number $p$, we solve the topological period-index problem for a $p$-primary element of the Brauer group of a CW-complex of dimension not greater than $2p+2$.",
+    "abstract": "$A_\\infty$-algebra is a chain complex equipped with a coherent multiplicative structure, i.e. a multiplication which is commutative up to (higher) chain homotopy. Similarly $A_\\infty$-module over such algebra is equipped with its coherent action. These notions are used to represent cohomological information contained in topological multiplicative structures. One of the key tools of the theory are minimal models, which are useful in cohomological computations. In this thesis author presents certain sufficient conditions for a morphism of $A_\\infty$-modules to induce a morphism of their minimal models.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Diarmuid Crowley",
-     "Xing Gu"
+     "Mikhail Malashchuk"
     ],
     "categories": [
-     "math.AT"
+     "math.KT"
     ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.04265",
+    "date": "2026-11-05",
+    "link": "https://arxiv.org/abs/2611.06851",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.04265",
-    "pid": "2611.04265",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "The $p$-local topologoical period-index problem in dimensions $2p+2$ and below",
-    "watched": []
-   },
-   {
-    "abstract": "Fix an odd prime $p$ and let $A$ be the mod $p$ Steenrod algebra. There is a normal sub-Hopf algebra $D$ of $A$, and we show that the cohomology of $A$ is $F$-isomorphic to the subalgebra of the cohomology of $D$ which is invariant under the $A$-action. We also show that the sub-Hopf algebras of $A$ with bounded profile function detect nilpotence in cohomology.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "John H. Palmieri"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.04013",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.04013",
-    "pid": "2611.04013",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Toward Quillen stratification for the odd primary Steenrod algebra",
-    "watched": []
-   },
-   {
-    "abstract": "We establish homotopy invariance for connective continuous K-theory of affinoid Tate adic spaces of good reduction with respect to the algebraic affine line, distinct from the adic affine line as analytic stacks. We approach this through an investigation of boundedness of t-structures on nuclear module categories, to which end we also study ultrasolid modules, a variant of solid modules, and their properties.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Hyungseop Kim"
-    ],
-    "categories": [
-     "math.KT",
-     "math.AG"
-    ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.05111",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.05111",
-    "pid": "2611.05111",
+    "pdf": "https://arxiv.org/pdf/2611.06851",
+    "pid": "2611.06851",
     "reasons": [],
     "source": "arxiv",
     "tier": 5,
-    "title": "Algebraic $\\mathbb{A}^{1}$-invariance of K-theory for affinoid Tate adic spaces of good reduction",
+    "title": "Morphisms of $A_\\infty$-algebras and modules",
     "watched": []
    }
   ]
@@ -5909,6 +5650,7 @@
   "1111.6146": "2026-10-27",
   "1311.1929": "2026-10-19",
   "1504.06592": "2026-10-20",
+  "1608.06029": "2026-11-05",
   "1701.02945": "2026-10-09",
   "1701.06238": "2026-10-27",
   "1702.07509": "2026-10-14",
@@ -6138,6 +5880,7 @@
   "2505.10730": "2026-10-22",
   "2505.11596": "2026-10-12",
   "2505.13912": "2026-10-21",
+  "2505.14109": "2026-11-05",
   "2505.16285": "2026-10-14",
   "2505.18977": "2026-10-19",
   "2505.21186": "2026-10-30",
@@ -6174,6 +5917,8 @@
   "2507.16304": "2026-10-27",
   "2507.18604": "2026-11-03",
   "2507.19708": "2026-10-27",
+  "2507.20393": "2026-11-05",
+  "2507.21737": "2026-11-05",
   "2508.01294": "2026-10-14",
   "2508.01527": "2026-10-23",
   "2508.02367": "2026-11-02",
@@ -6182,6 +5927,7 @@
   "2508.07060": "2026-10-21",
   "2508.11306": "2026-11-02",
   "2508.12041": "2026-10-26",
+  "2508.12062": "2026-11-05",
   "2508.12462": "2026-10-15",
   "2508.15022": "2026-10-14",
   "2508.15974": "2026-10-21",
@@ -6198,6 +5944,7 @@
   "2509.05900": "2026-10-30",
   "2509.06211": "2026-11-03",
   "2509.06363": "2026-10-30",
+  "2509.07344": "2026-11-05",
   "2509.07476": "2026-10-14",
   "2509.07720": "2026-10-15",
   "2509.11664": "2026-10-14",
@@ -6242,6 +5989,7 @@
   "2510.20325": "2026-11-02",
   "2510.21497": "2026-10-22",
   "2510.21594": "2026-10-30",
+  "2510.22612": "2026-11-05",
   "2510.23265": "2026-10-28",
   "2510.23767": "2026-10-28",
   "2510.23967": "2026-10-28",
@@ -6267,6 +6015,7 @@
   "2511.21648": "2026-10-08",
   "2511.21918": "2026-10-23",
   "2511.22603": "2026-10-09",
+  "2511.23185": "2026-11-05",
   "2512.00182": "2026-10-27",
   "2512.00201": "2026-10-09",
   "2512.03201": "2026-10-20",
@@ -6275,6 +6024,7 @@
   "2512.05479": "2026-11-02",
   "2512.05510": "2026-10-21",
   "2512.06623": "2026-10-19",
+  "2512.12556": "2026-11-05",
   "2512.14207": "2026-10-28",
   "2512.15060": "2026-10-21",
   "2512.18654": "2026-11-04",
@@ -6340,14 +6090,17 @@
   "2603.06094": "2026-10-27",
   "2603.07250": "2026-10-20",
   "2603.07301": "2026-10-16",
+  "2603.07869": "2026-11-05",
   "2603.10386": "2026-11-04",
   "2603.11440": "2026-10-16",
   "2603.12441": "2026-10-09",
   "2603.12985": "2026-11-03",
+  "2603.13946": "2026-11-05",
   "2603.14539": "2026-10-16",
   "2603.14821": "2026-10-26",
   "2603.15233": "2026-11-03",
   "2603.15437": "2026-11-04",
+  "2603.15858": "2026-11-05",
   "2603.15873": "2026-10-19",
   "2603.16375": "2026-11-03",
   "2603.18041": "2026-10-20",
@@ -6369,6 +6122,7 @@
   "2604.04505": "2026-10-12",
   "2604.04793": "2026-10-20",
   "2604.05293": "2026-10-26",
+  "2604.05825": "2026-11-05",
   "2604.05827": "2026-10-30",
   "2604.06167": "2026-10-30",
   "2604.06479": "2026-10-14",
@@ -6404,18 +6158,21 @@
   "2605.00704": "2026-10-14",
   "2605.03798": "2026-10-22",
   "2605.07956": "2026-10-16",
+  "2605.08086": "2026-11-05",
   "2605.08394": "2026-10-08",
   "2605.08507": "2026-10-21",
   "2605.09828": "2026-10-14",
   "2605.09866": "2026-10-27",
   "2605.10273": "2026-10-14",
   "2605.11156": "2026-10-14",
+  "2605.11219": "2026-11-05",
   "2605.11579": "2026-11-04",
   "2605.11909": "2026-10-12",
   "2605.13300": "2026-10-28",
   "2605.13425": "2026-10-14",
   "2605.13726": "2026-10-27",
   "2605.14150": "2026-10-19",
+  "2605.14583": "2026-11-05",
   "2605.14803": "2026-11-04",
   "2605.15657": "2026-10-27",
   "2605.16370": "2026-10-22",
@@ -6434,6 +6191,7 @@
   "2606.01371": "2026-10-08",
   "2606.01466": "2026-10-12",
   "2606.01507": "2026-10-30",
+  "2606.02531": "2026-11-05",
   "2606.02626": "2026-10-15",
   "2606.02826": "2026-10-16",
   "2606.02854": "2026-10-09",
@@ -6507,10 +6265,12 @@
   "2607.19133": "2026-10-30",
   "2607.19457": "2026-10-20",
   "2607.19882": "2026-10-09",
+  "2607.19952": "2026-11-05",
   "2607.20597": "2026-10-27",
   "2607.21251": "2026-10-20",
   "2607.23275": "2026-10-12",
   "2607.23495": "2026-10-14",
+  "2607.24462": "2026-11-05",
   "2607.24548": "2026-10-22",
   "2607.25036": "2026-10-12",
   "2607.25165": "2026-10-30",
@@ -6606,6 +6366,7 @@
   "2609.12416": "2026-10-16",
   "2609.12507": "2026-10-27",
   "2609.12759": "2026-10-20",
+  "2609.13102": "2026-11-05",
   "2609.13687": "2026-10-14",
   "2609.13921": "2026-11-03",
   "2609.15419": "2026-10-14",
@@ -6644,6 +6405,7 @@
   "2609.27916": "2026-10-09",
   "2609.28203": "2026-10-23",
   "2609.28435": "2026-10-08",
+  "2609.28489": "2026-11-05",
   "2609.28495": "2026-10-12",
   "2609.29011": "2026-10-19",
   "2609.29568": "2026-10-09",
@@ -7965,6 +7727,55 @@
   "2611.05298": "2026-11-04",
   "2611.05350": "2026-11-04",
   "2611.05370": "2026-11-04",
+  "2611.05452": "2026-11-05",
+  "2611.05526": "2026-11-05",
+  "2611.05552": "2026-11-05",
+  "2611.05588": "2026-11-05",
+  "2611.05621": "2026-11-05",
+  "2611.05629": "2026-11-05",
+  "2611.05672": "2026-11-05",
+  "2611.05679": "2026-11-05",
+  "2611.05707": "2026-11-05",
+  "2611.05745": "2026-11-05",
+  "2611.05786": "2026-11-05",
+  "2611.05809": "2026-11-05",
+  "2611.05855": "2026-11-05",
+  "2611.05889": "2026-11-05",
+  "2611.05905": "2026-11-05",
+  "2611.05914": "2026-11-05",
+  "2611.05915": "2026-11-05",
+  "2611.05924": "2026-11-05",
+  "2611.05972": "2026-11-05",
+  "2611.06014": "2026-11-05",
+  "2611.06030": "2026-11-05",
+  "2611.06056": "2026-11-05",
+  "2611.06077": "2026-11-05",
+  "2611.06106": "2026-11-05",
+  "2611.06165": "2026-11-05",
+  "2611.06193": "2026-11-05",
+  "2611.06256": "2026-11-05",
+  "2611.06261": "2026-11-05",
+  "2611.06300": "2026-11-05",
+  "2611.06305": "2026-11-05",
+  "2611.06325": "2026-11-05",
+  "2611.06340": "2026-11-05",
+  "2611.06357": "2026-11-05",
+  "2611.06366": "2026-11-05",
+  "2611.06370": "2026-11-05",
+  "2611.06388": "2026-11-05",
+  "2611.06396": "2026-11-05",
+  "2611.06398": "2026-11-05",
+  "2611.06509": "2026-11-05",
+  "2611.06574": "2026-11-05",
+  "2611.06619": "2026-11-05",
+  "2611.06621": "2026-11-05",
+  "2611.06638": "2026-11-05",
+  "2611.06675": "2026-11-05",
+  "2611.06742": "2026-11-05",
+  "2611.06851": "2026-11-05",
+  "2611.06852": "2026-11-05",
+  "2611.06861": "2026-11-05",
+  "2611.06862": "2026-11-05",
   "hexagon:2609.00001": "2026-10-08",
   "hexagon:2609.00102": "2026-10-08",
   "hexagon:2609.00104": "2026-10-08",
@@ -8590,6 +8401,32 @@
   "hexagon:2611.00063": "2026-11-04",
   "hexagon:2611.00064": "2026-11-04",
   "hexagon:2611.00065": "2026-11-04",
+  "hexagon:2611.00066": "2026-11-05",
+  "hexagon:2611.00067": "2026-11-05",
+  "hexagon:2611.00068": "2026-11-05",
+  "hexagon:2611.00069": "2026-11-05",
+  "hexagon:2611.00070": "2026-11-05",
+  "hexagon:2611.00071": "2026-11-05",
+  "hexagon:2611.00072": "2026-11-05",
+  "hexagon:2611.00073": "2026-11-05",
+  "hexagon:2611.00074": "2026-11-05",
+  "hexagon:2611.00076": "2026-11-05",
+  "hexagon:2611.00077": "2026-11-05",
+  "hexagon:2611.00078": "2026-11-05",
+  "hexagon:2611.00080": "2026-11-05",
+  "hexagon:2611.00081": "2026-11-05",
+  "hexagon:2611.00082": "2026-11-05",
+  "hexagon:2611.00086": "2026-11-05",
+  "hexagon:2611.00087": "2026-11-05",
+  "hexagon:2611.00088": "2026-11-05",
+  "hexagon:2611.00089": "2026-11-05",
+  "hexagon:2611.00090": "2026-11-05",
+  "hexagon:2611.00091": "2026-11-05",
+  "hexagon:2611.00092": "2026-11-05",
+  "hexagon:2611.00094": "2026-11-05",
+  "hexagon:2611.00095": "2026-11-05",
+  "hexagon:2611.00096": "2026-11-05",
+  "hexagon:2611.00097": "2026-11-05",
   "math/0111031": "2026-10-27",
   "math/0702082": "2026-10-22"
  }
