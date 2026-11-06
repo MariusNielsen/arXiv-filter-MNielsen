@@ -1,6 +1,6 @@
 {
 "day": "2026-11-06",
-"updated": "2026-11-06T05:06:39+00:00",
+"updated": "2026-11-06T16:54:00+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -734,6 +734,74 @@
 "announce": "replace",
 "date": "2026-11-06",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00130",
+"title": "Cumulative Prime Sums and Riemann Zeros: A fine grid, its ripple, and a family of prime races",
+"abstract": "Summing the primes one after another and taking logarithms gives an increasing sequence of real numbers, $\\sigma_m=\\log S_{p_m}$ with $S_N = 1+\\sum_{p\\le N}p$, which becomes exponentially dense. The ordinates $\\gamma_n$ of the zeros of the Riemann zeta function fall on this grid with tiny errors: $1.4\\cdot10^{-3}$ at the first zero, $2.4\\cdot10^{-7}$ at the fifth, $3\\cdot10^{-17}$ at the twentieth. Part I explains why. The cell of the grid containing a height $t$ has width $(1+o(1))\\sqrt t\\,e^{-t/2}$ (Step Theorem), and every real $t>\\log 3$ has a node above it within that width, by an argument going back to Bertrand's postulate (Covering Theorem). The precision observed at the zeros is therefore the resolution of the grid, and the same precision holds at every height (Genericity Principle). We compute the first-crossing primes $N_n$ with certification up to $n=20$ and test, in a protocol fixed before the computation, whether the zeros sit closer to the nodes than a generic height. Neither the mean distance to the nearest node ($0.246$ against $0.250$, $p=0.92$) nor the distribution of the position within the cell (Kolmogorov–Smirnov, $p=0.79$) departs detectably from the generic case, and an integer grid used as control behaves in the same way. We also correct the half-exponent law by a factor $\\sqrt{t'/t}$. Part II shows where the zeros are actually visible. They are not in the position of the nodes but in the ripple: the deviation of the grid from its mean curve $B(x)=1+\\mathrm{li}(x^2)-\\mathrm{li}(4)$. This ripple is a sum of pure oscillations, one per zero; its spectrum shows a peak at each of the first 13 ordinates, with the amplitude predicted by the explicit formula. Under RH the ripple has size $e^{-t/4}$ on the grid, much larger than the cell $e^{-t/2}$, and RH is equivalent to this decay rate. The ripple is not centred: on $[10^3,10^8]$ the sum of the primes stays below $\\mathrm{li}(x^2)$ for about 97% of logarithmic time, and it first exceeds it at $x=109$. We place this in a one-parameter family of prime races, $\\sum_{p\\le x}p^a$ against $\\mathrm{li}(x^{a+1})$, and prove that under RH the normalized error has mean $-1/(2a+1)$, coming from the squares of the primes. Under RH and LI the limiting logarithmic density of the set where the race is ahead is given by a Rubinstein–Sarnak formula; it moves from $2.6\\cdot10^{-7}$ (counting the primes, $a=0$) to $0.06$ (summing them, $a=1$) and tends to $1/2$ as $a\\to\\infty$, at the rate $\\tfrac12-\\delta_a\\sim1/\\bigl(2\\sqrt{\\pi A\\log(A/2\\pi)}\\bigr)$ with $A=a+\\tfrac12$. At $a=-1/2$ the bias becomes the $\\tfrac12\\log\\log x$ of the weighted counting functions of Aoki and Koyama. All theorems are formalized in Lean 4, with the classical results they use as explicit hypotheses.",
+"authors": [
+"Antonio Mennillo"
+],
+"categories": [
+"math.NT",
+"cs.LO",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00130v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00130v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-05",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00131",
+"title": "Disproof of minimum CAD existence for algebraic sets in dimensions \\(n\\ge4\\)",
+"abstract": "We give real algebraic counterexamples to the existence of a minimum adapted cylindrical algebraic decomposition in every dimension \\(n\\ge4\\), for a fixed coordinate order.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"cs.SC",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00131v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00131v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-05",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00132",
+"title": "Fast Attention after SETH: The Exact Exponent and the Hypotheses Behind It",
+"abstract": "Alman and Song showed that attention with head dimension $O(\\log n)$ can be approximated in almost linear time when the entries are $o(\\sqrt{\\log n})$, and needs quadratic time at $\\Theta(\\sqrt{\\log n})$ under the Strong Exponential Time Hypothesis. In October 2026 the Exponential Time Hypothesis was refuted, and with it SETH. The quadratic lower bound now rests on the hardness of Orthogonal Vectors in dimension $c\\log n$ (LDOV), which no open hypothesis about satisfiability is known to imply. We measure an instance by its spread $W$, the largest gap between two logits of a row. At every nontrivial constant precision and in every dimension between $\\omega(\\log n)$ and $n^{o(1)}$, we show that under LDOV the time exponent of attention is exactly $1+\\min\\{W/\\ln n,1\\}$: uniform sampling of keys is optimal, the cost is $\\min\\{n\\,e^{W},n^2\\}$ up to factors $n^{o(1)}$, and the transition to quadratic time sits at $W=\\ln n$, the spread at which one key can outweigh all others. At polynomial precision and in dimension $O(\\log n)$ the threshold becomes $\\Theta(\\log n)$, with a constant that tends to zero as the precision grows, and the dimension moves it: at precision $n^{-1-O(1/\\log\\log n)}$, spread $O(\\log n/\\log\\log n)$ is hard in dimension $(\\log n)^{1+\\Omega(1)}$ but easy in dimension $O(\\log n)$. From satisfiability we obtain hardness at spread $(1+\\theta)\\ln n$ in dimension $n^{o(1)}$, provided the hard CNF formulas have $N^{c_0}$ clauses for some $c_0<2$, and we show that the construction behind this bound, which builds one instance for each proof of a Merlin–Arthur protocol for disjointness, needs $c_0<2$ for every such protocol. For the entry bound, every reduction that embeds Orthogonal Vectors vector by vector, with polynomial blowup and logit gap $\\Omega(\\log n)$, yields a Merlin–Arthur protocol for disjointness; by Klauck's lower bound, such reductions cannot derive $B=\\Theta(\\sqrt{\\log n})$ from Orthogonal Vectors in dimension $(\\log n)^{1+\\Omega(1)}$. We also map the conditional lower bounds for attention in the literature to the hypotheses that now support them, and find two families whose hypotheses are false, one of them in part of its parameter range.",
+"authors": [
+"Xiaoyu Li"
+],
+"categories": [
+"cs.CC",
+"cs.AI",
+"cs.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00132v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00132v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-05",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1512,6 +1580,30 @@
 "announce": "new",
 "date": "2026-11-06",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00133",
+"title": "The Price of Bayes-Optimal In-Context Learning",
+"abstract": "In-context learning is often explained as implicit Bayesian inference: given labeled examples of a task drawn from a prior, the learner predicts like the posterior. We determine the computational price of this explanation for task families whose labels depend on few bits of the task description, such as quantized models on sparse data, and we compare it with the price of merely learning. The comparison uses the recent refutations of the Exponential Time Hypothesis by OpenAI and Anthropic. Bayesian inference in context is counting. For $\\kappa$-local task families with $N$-bit descriptions under the uniform prior, the posterior predictive and posterior sampling reduce to $\\#\\kappa$-SAT. Without label noise they run in time $\\mathrm{poly}(m)\\cdot 2^{o(N)}$ on contexts of every length $m$ when $\\kappa=o((\\log N)^{1/4}/\\sqrt{\\log\\log N})$, and label noise is handled by error profiles. A two-variable gadget gives contexts that are always consistent and whose posterior predictive is $2\\#F/(2\\#F+1)$ for a CNF $F$. So approximating the posterior predictive within $1/4$ needs time $2^{(1-\\gamma)N}$ at locality $O(\\log N)$ under CNF-SETH, and time $2^{N/\\mathrm{polylog}\\,N}$ at locality $3$ under a length form of ETH. At constant locality, Bayesian inference in context is SAT parameterized by formula length. Learning in context is cheap. The Bayes risk of any class with $N$-bit descriptions is at most $N/(m+1)$ after $m$ examples. For binarized perceptrons and literal disjunctions on sparse data, the very families of the lower bounds, a linear program is a polynomial-time in-context learner with essentially the same sample efficiency. Every $\\kappa$-local family is linear over $\\sum_{j\\le\\kappa}\\binom{N}{j}$ local Fourier features, so regression in context learns it from $N^{O(\\kappa)}$ examples, in time polynomial in $N^\\kappa$ and the inverse accuracy. The average case. For Goldreich's random local functions, the Bayes risk is at most $N/(m+1)$, while every in-context learner yields a distinguisher for Goldreich's generator, with the same running time up to a linear term, whose advantage is $1/2$ minus the risk. Under a local pseudorandom generator hypothesis with polynomial stretch, polynomial-time in-context learners need polynomially more examples than the Bayes predictor. Under its length form at linear stretch, which the new algorithms refute below rate $1/2$, the Bayes predictor of the refutations is optimal up to polylogarithmic factors in the exponent. For transformers, these bounds limit the length of a chain of thought that computes the posterior predictive, and they separate Bayes-optimal in-context learning from the regression-type in-context learning that transformers are known to implement.",
+"authors": [
+"Xiaoyu Li"
+],
+"categories": [
+"cs.CC",
+"cs.AI",
+"cs.DS",
+"stat.TH"
+],
+"link": "https://hexagonmath.org/abs/2611.00133v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00133v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-05",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
