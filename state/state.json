@@ -4,6 +4,309 @@
  ],
  "feed": [
   {
+   "day": "2026-11-06",
+   "paper": {
+    "abstract": "This is the first part of a series of expository notes on homotopical and categorical algebra. It charts a course from ordinary algebraic structures such as monoids, groups, and rings to their various homotopy-coherent generalizations and equivariant versions. The emphasis is on the ideas that lead to and connect the constructions, as well as where and how they appear in nature.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Lior Yanovski"
+    ],
+    "categories": [
+     "math.AT",
+     "math.CT"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.07927",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.07927",
+    "pid": "2611.07927",
+    "reasons": [
+     "author (watch): Lior Yanovski"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "A Story of Algebra and Categories I: Algebraic Theories",
+    "watched": [
+     "Lior Yanovski"
+    ]
+   }
+  },
+  {
+   "day": "2026-11-06",
+   "paper": {
+    "abstract": "We study smooth structures on the topological manifold underlying complex projective space. We conjecture that every complex projective space $\\mathbb{CP}^n$ with $n>3$ admits an exotic smooth structure.\n  We prove two results providing strong evidence for this conjecture. First, the set of complex dimensions $n$ for which $\\mathbb{CP}^n$ admits an exotic smooth structure has natural density one. Second, we explicitly identify $266$ congruence classes modulo $288$ such that $\\mathbb{CP}^n$ admits an exotic smooth structure whenever $n>3$ lies in one of these classes. These classes cover more than $92\\%$ of complex dimensions, improving the previously known lower bound of approximately $36\\%$.\n  We prove these results by first relating the concordance group of $\\mathbb{CP}^n$ to suitable Atiyah--Hirzebruch filtration subgroups of its stable cohomotopy group, and then applying computations in chromatic homotopy theory at height $2$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Yueshi Hou",
+     "Hana Jia Kong",
+     "Zhouli Xu"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.08406",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.08406",
+    "pid": "2611.08406",
+    "reasons": [
+     "author: Zhouli Xu",
+     "abstract: chromatic homotopy"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "Exotic smooth structures on complex projective spaces",
+    "watched": [
+     "Zhouli Xu"
+    ]
+   }
+  },
+  {
+   "day": "2026-11-06",
+   "paper": {
+    "abstract": "We construct higher additive noncommutative motives of stable $(\\infty,n)$-categories, extending the additive motives of Blumberg, Gepner, and Tabuada and the secondary theory of Mazel-Gee and Stern. We formulate a notion of exact sequences and establish the universal property of the resulting additive motives. We give two equivalent constructions: a localization of enriched presheaves and a weighted Waldhausen $S$-construction on complete exact flags. We then compute their Hom objects, obtaining ordinary K-theory at the first level and lower additive motives recursively at higher levels. Our results recover the classical and secondary theories, provide coherent multiplicative structures, and yield an endofunctor on the category of Stefanich rings. In short, higher motives are higher K-theory.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Hisato Matsukawa"
+    ],
+    "categories": [
+     "math.KT",
+     "math.AT",
+     "math.CT"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.07262",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.07262",
+    "pid": "2611.07262",
+    "reasons": [
+     "abstract: (infinity,n)"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Higher Noncommutative Motives and Higher K-theory",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-06",
+   "paper": {
+    "abstract": "We give handlebody decompositions of the complements of the cyclic multisections in $\\Sigma_g\\times S^2$ constructed in~\\cite{AB}. The 2-handle framings are induced by the product coordinates. We compute the integral homology of the complements from their handle chain complexes, including the torsion subgroup of $H_2$. For the degree pairs $(3,3)$ and $(2,4)$, we specify surface diffeomorphisms inducing the maps on first homology prescribed in~\\cite{AY} and recover the integral first homology groups $(\\Z/3)^2\\oplus\\Z/(3m)$ and $(\\Z/2)^2\\oplus\\Z/(4m)$, respectively, for $m\\geq1$. For the symmetric $m=1$ sum, we also give a simultaneous surface diagram of the relative product attachments and identify their product framings with the surface framings. The resulting symplectic sums are aspherical and symplectically minimal, and have the rational cohomology ring of $S^2\\times S^2$.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Anar Akhmedov"
+    ],
+    "categories": [
+     "math.GT",
+     "math.AT"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.06949",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.06949",
+    "pid": "2611.06949",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Braided Multisections and Akhmedov's Fake Quadrics",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-06",
+   "paper": {
+    "abstract": "In a previous work we conjectured that the multi-invariants of the ground state of a gapped $(d-1)+1$-dimensional system, labeled by bipartite $(d+1)$-edge-colored graphs encoding closed oriented $d$-manifolds $M$, compute the partition functions $Z(M)$ of the low energy topological quantum field theory (TQFT), up to non-universal factors determined by the local structure of the triangulation. In this paper we determine which combinations of partition functions can be isolated from the non-universal factors. The answer is governed by oriented bordism. If $M$ is null-bordant, $Z(M)$ is obtained from an explicit, state-independent finite family of multi-invariants, up to a power of $Z(S^d)$ which is fixed to be $Z(S^d)^{\\chi(M)/2}$ for even $d$ and can be removed for odd $d$. Conversely, the obstruction is measured by a quotient of the group of \"residues\" of colored graphs which receives a surjective map from the oriented bordism group, with kernel precisely the torsion subgroup as far as smooth manifolds are concerned. In $d=4$ the obstruction is the signature: $Z(M)/Z(S^4)^{\\chi(M)/2}$ can be extracted if and only if $\\sigma(M)=0$. This is due to the fact that the first Pontryagin class $p_1$ has a local expression and thus $e^{i\\theta\\sigma(M)}=e^{\\frac{i}{3}\\theta\\int_M p_1}$ cannot be separated from the non-universal factors. Torsion invariants, in contrast, are not obstructed: for the ground state of the $4+1$-dimensional invertible phase with partition function $(-1)^{\\int w_2w_3}$ we compute the multi-invariants exactly, and two graphs with identical local data, encoding the Dold manifold and $\\mathbb{CP}^2\\times S^1$, give opposite signs.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Michele Del Zotto",
+     "Abhijit Gadde",
+     "Pavel Putrov"
+    ],
+    "categories": [
+     "hep-th",
+     "cond-mat.str-el",
+     "math-ph",
+     "math.AT",
+     "math.MP",
+     "quant-ph"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.07000",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.07000",
+    "pid": "2611.07000",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Multipartite Entanglement, TQFT Partition Functions and PL Bordism",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-06",
+   "paper": {
+    "abstract": "We explicitly determine the complex bordism class of the $n$-th symmetric product of a complex curve of genus $g$. In particular, we provide an explicit formula expressing this class as an integral linear combination of bordism classes of products of complex projective spaces.\n  Similarly, we determine the unoriented bordism class of the $n$-th symmetric product of a non-orientable surface of genus $g$ (i.e., $\\#_{i=1}^{g+1}\\mathbb R P^2$). It turns out that these classes are also expressed as a $\\mathbb Z_2$-linear combination of bordism classes of products of even-dimensional real projective spaces.\n  We also give an affirmative answer to a non-orientable version of the Blagojevi\\'c--Gruji\\'c--\\v{Z}ivaljevi\\'c conjecture stating that the topological type of any symmetric product of a noncompact surface of finite type determines the topological type of the surface itself.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Georgy Chernykh",
+     "Dmitry Gugnin"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.07813",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.07813",
+    "pid": "2611.07813",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "On bordism classes of symmetric products of surfaces",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-06",
+   "paper": {
+    "abstract": "We study the topology of the normalized space of real nonnegative forms of degree $2d$ in $n$ variables that are not sums of squares. Whenever it is nonempty, we prove that it is path-connected but not acyclic, and in particular not contractible. We give explicit bounds on the degrees in which its reduced homology can be nonzero. In the two minimal nonempty cases, we show an embedding of an exterior algebra into the cohomology ring, and prove containment of the binary octahedral and binary icosahedral groups, respectively, in its fundamental group.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Maximilian Illmer",
+     "Tim Netzer"
+    ],
+    "categories": [
+     "math.AT",
+     "math.AG"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.07252",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.07252",
+    "pid": "2611.07252",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "On the Topology of the Set of Nonnegative Forms That Are Not Sums of Squares",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-06",
+   "paper": {
+    "abstract": "Let $f\\colon M^n\\to\\mathbf{R}^{n+1}$, $n\\geq2$, be a smooth immersion of a closed oriented manifold, with Gauss map $\\nu\\colon M\\to\\mathbf{S}^n$. For each unit vector $u$, the shade $S_u\\subset M$ is the set of points where $\\nu$ makes an acute angle with $u$. We show that $f$ is a convex embedding if and only if every shade is contractible. More generally, if every shade is $k$-connected, then $f$ is a convex embedding provided that $n\\leq 2k+1$, or $n=2k+2$ and $H_{k+1}(M;\\mathbf{Z})=0$. On the other hand, for every $n\\geq 2k+3$ there is a nonconvex embedding $f\\colon\\mathbf{S}^n\\to\\mathbf{R}^{n+1}$ all of whose shades are $k$-connected. These results give sharp answers to a question of H. Wente in all dimensions.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Mohammad Ghomi"
+    ],
+    "categories": [
+     "math.DG",
+     "math.AT"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.08415",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.08415",
+    "pid": "2611.08415",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Shades and Convexity of Hypersurfaces",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-06",
+   "paper": {
+    "abstract": "Aguiar, Bergeron, and Sottile showed that the coalgebra of quasisymmetric functions is terminal among connected graded coalgebras with a zeta function. After developing the notions of gradings and zeta functions for decomposition spaces, we establish an objective homotopic version of this result. Namely, the decomposition space $Q$ of quasisymmetric functions is terminal: for any conservatively graded decomposition space $X$ with zeta function $F$, there is a unique graded ikeo-culf span $X \\leftarrow W \\rightarrow Q$ inducing $F$ from the special zeta function on $Q$. More generally, for gradings in any complete decomposition space $M$ with indecomposable identities, the terminal object is $J(M)$, the free decomposition space on the nondegenerate simplices of $M$; the quasisymmetric case is $Q=J(B\\mathbb{N})$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Philip Hackney",
+     "Joachim Kock",
+     "Jan Steinebrunner"
+    ],
+    "categories": [
+     "math.CT",
+     "math.AT",
+     "math.CO"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.08063",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.08063",
+    "pid": "2611.08063",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "The universal property of the decomposition space of quasisymmetric functions",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-06",
+   "paper": {
+    "abstract": "In this paper, we establish a topological classification of Bazaikin spaces whose sixth cohomology groups have orders prime to \\(5\\). Moreover, we obtain an estimate for the number of diffeomorphism types among these spaces.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Fuquan Fang",
+     "Wen Shen"
+    ],
+    "categories": [
+     "math.AT",
+     "math.DG",
+     "math.GT"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.07898",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.07898",
+    "pid": "2611.07898",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Topological classification of Bazaikin spaces",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-06",
+   "paper": {
+    "abstract": "Data arising in scientific applications often exhibits complex nonlinear structure. Identifying and parameterizing said nonlinearities can enable better modeling, enhance predictive analysis, data interpolation, denoising, and anomaly detection. In this paper, we develop theoretical and computational methods to detect and parametrize Euclidean point cloud data lying near a wedge sum of tori. Specifically, we use persistent cohomology and cup products to identify the distinct toroidal components, and on each component, we optimize over low-energy multivariate trigonometric polynomials for best data fit. The ensuing optimization problem reduces to generalized ridge regression, which can be solved efficiently via standard techniques. We demonstrate the utility of the proposed framework in both synthetic and real datasets, including interpolation of low frame-rate recurrent videos, attractor recovery in quasiperiodic dynamical systems, and the parametrization of gene-space cycle data for parasites and humans.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Tanishq Bhatia",
+     "Jose A. Perea",
+     "Tarek M. Zikry"
+    ],
+    "categories": [
+     "stat.ML",
+     "cs.LG",
+     "math.AT"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.06990",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.06990",
+    "pid": "2611.06990",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "ToroFit: Fitting Wedge Sums of Tori to High-Dimensional Data",
+    "watched": []
+   }
+  },
+  {
    "day": "2026-11-05",
    "paper": {
     "abstract": "We study natural transformations, minors, and symmetric monoidal decorations of finite directed acyclic networks. For any weakly connected small source category, a natural transformation into a free acyclic path category is determined by one component. If more than one transformation exists, common prefixes and suffixes give a canonical factorization through two constant functors and identify the transformation set with a single set of directed paths. Consequences include boundary rigidity, a decision algorithm, and a fundamental-group obstruction to non-uniqueness. For fusion\u2013embedding minors, right fillings exist exactly when the graph pushout is acyclic. A support invariant detects a nonexact minor under the full gauge congruence, while path-convex embeddings admit two-sided fillings. Inverse-image pullbacks give canonical partial-map normal forms, a scanning algorithm, and a coherent presentation of the cartesian quotient. For open networks, wire splicing gives units, and diagram groupoids satisfy descent by homotopy pullback over the interface groupoid, including through-wires. This descent is invariant under strong symmetric monoidal equivalence and compatible with admissible event contractions within each piece. Finite-field examples yield orbit classifications, stabilizer weights, and boundary convolution formulas. Roof-refinement spaces realize spheres whose higher homotopy is lost under groupoid completion.",
@@ -5286,473 +5589,306 @@
     "title": "Resolutions of orbifold generalised triangle groups",
     "watched": []
    }
-  },
-  {
-   "day": "2026-10-15",
-   "paper": {
-    "abstract": "We determine the $RO(C_2)$-graded $k\\mathbb R$-Hurewicz image, where $k \\mathbb R$ denotes the connective Atiyah's Real $K$-theory spectrum. As a consequence, we obtain four infinite families in the $RO(C_2)$-graded equivariant stable stems that are $C_2$-equivariant refinements of the classical $\\mu$-families. Using a $C_2$-equivariant $v_{1,0}$-self map, we explicitly construct an equivariant Adams periodicity operator $P_{C_2}$ that captures these $v_1$-periodicity phenomena in the $C_2$-stable stems.",
+  }
+ ],
+ "hexagon_since": "2026-11-05",
+ "last_page": {
+  "day": "2026-11-06",
+  "papers": [
+   {
+    "abstract": "This is the first part of a series of expository notes on homotopical and categorical algebra. It charts a course from ordinary algebraic structures such as monoids, groups, and rings to their various homotopy-coherent generalizations and equivariant versions. The emphasis is on the ideas that lead to and connect the constructions, as well as where and how they appear in nature.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Sihao Ma",
-     "Xiaolin Danny Shi",
-     "Zhouli Xu",
-     "Albert Jinghui Yang",
-     "Shangjie Zhang"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.19606",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.19606",
-    "pid": "2610.19606",
-    "reasons": [
-     "author: Zhouli Xu",
-     "abstract: stable stems"
-    ],
-    "source": "arxiv",
-    "tier": 1,
-    "title": "The $RO(C_2)$-graded Hurewicz image of Atiyah's Real K-theory",
-    "watched": [
-     "Zhouli Xu"
-    ]
-   }
-  },
-  {
-   "day": "2026-10-15",
-   "paper": {
-    "abstract": "We study the category of constructible $p$-Kummer-\\'{e}tale sheaves on the log adic generic fiber $(\\mathrm{X},\\mathcal{M}_{\\mathrm{D}})_\\eta$ for the stratification induced by a horizontal normal crossings divisor $\\mathrm{D}$, showing that it is antiequivalent to a category of finitely generated unit Laurent crystals on the log prismatic site. We give a local description of finitely generated unit crystals on a framed log affine in terms of $(\\varphi,\\Gamma)$-modules, and show pushforward compatibility for strict log smooth proper morphisms.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Dylan Pentland"
-    ],
-    "categories": [
-     "math.AG",
-     "math.NT"
-    ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.20466",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.20466",
-    "pid": "2610.20466",
-    "reasons": [
-     "title: prismatic"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "A prismatic Riemann-Hilbert correspondence",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-15",
-   "paper": {
-    "abstract": "The category of all topological spaces and homotopy classes of maps is cartesian closed. In fact, the $(\\infty, 1)$-category of all topological spaces and continuous maps, localised at homotopy equivalences, is cartesian closed. We model the exponential object using a topological space whose points are continuous maps equipped with putative neighbourhood filters. In general, this topological space will not even be $T_1$-separated, but the evaluation map induces a natural weak homotopy equivalence witnessing the universal property.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Zhen Lin Low"
+     "Lior Yanovski"
     ],
     "categories": [
      "math.AT",
      "math.CT"
     ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.20428",
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.07927",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.20428",
-    "pid": "2610.20428",
+    "pdf": "https://arxiv.org/pdf/2611.07927",
+    "pid": "2611.07927",
     "reasons": [
-     "abstract: (infinity, 1)"
+     "author (watch): Lior Yanovski"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "A Story of Algebra and Categories I: Algebraic Theories",
+    "watched": [
+     "Lior Yanovski"
+    ]
+   },
+   {
+    "abstract": "We study smooth structures on the topological manifold underlying complex projective space. We conjecture that every complex projective space $\\mathbb{CP}^n$ with $n>3$ admits an exotic smooth structure.\n  We prove two results providing strong evidence for this conjecture. First, the set of complex dimensions $n$ for which $\\mathbb{CP}^n$ admits an exotic smooth structure has natural density one. Second, we explicitly identify $266$ congruence classes modulo $288$ such that $\\mathbb{CP}^n$ admits an exotic smooth structure whenever $n>3$ lies in one of these classes. These classes cover more than $92\\%$ of complex dimensions, improving the previously known lower bound of approximately $36\\%$.\n  We prove these results by first relating the concordance group of $\\mathbb{CP}^n$ to suitable Atiyah--Hirzebruch filtration subgroups of its stable cohomotopy group, and then applying computations in chromatic homotopy theory at height $2$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Yueshi Hou",
+     "Hana Jia Kong",
+     "Zhouli Xu"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.08406",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.08406",
+    "pid": "2611.08406",
+    "reasons": [
+     "author: Zhouli Xu",
+     "abstract: chromatic homotopy"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "Exotic smooth structures on complex projective spaces",
+    "watched": [
+     "Zhouli Xu"
+    ]
+   },
+   {
+    "abstract": "We construct higher additive noncommutative motives of stable $(\\infty,n)$-categories, extending the additive motives of Blumberg, Gepner, and Tabuada and the secondary theory of Mazel-Gee and Stern. We formulate a notion of exact sequences and establish the universal property of the resulting additive motives. We give two equivalent constructions: a localization of enriched presheaves and a weighted Waldhausen $S$-construction on complete exact flags. We then compute their Hom objects, obtaining ordinary K-theory at the first level and lower additive motives recursively at higher levels. Our results recover the classical and secondary theories, provide coherent multiplicative structures, and yield an endofunctor on the category of Stefanich rings. In short, higher motives are higher K-theory.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Hisato Matsukawa"
+    ],
+    "categories": [
+     "math.KT",
+     "math.AT",
+     "math.CT"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.07262",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.07262",
+    "pid": "2611.07262",
+    "reasons": [
+     "abstract: (infinity,n)"
     ],
     "source": "arxiv",
     "tier": 3,
-    "title": "The classical homotopy category is cartesian closed",
+    "title": "Higher Noncommutative Motives and Higher K-theory",
     "watched": []
-   }
-  },
-  {
-   "day": "2026-10-15",
-   "paper": {
-    "abstract": "We prove that every mod $k$ integral cycle $T$ of sufficiently high codimension in an oriented Riemannian manifold $\\mathcal{M}$ can be approximated in flat norm by a cycle which is a $\\mathbb{Z}_k$-smooth submanifold $\\Sigma$ of nearly the same area, up to a singular set of codimension 5. If in addition $T$ belongs to a mod $k$ homology class admitting an embedded $\\mathbb{Z}_k$-smooth manifold representative, then $\\Sigma$ can be taken fully regular, up to the codimension one stratum of classical singularities. This extends the smooth approximation theory to cycles with coefficients in $\\mathbb{Z}/k\\mathbb{Z}$ in stable regimes. Moreover, we provide examples showing the impossibility of locally approximating minimizing cycles by smooth or $\\mathbb{Z}_k$-smooth submanifolds, even in homology classes with smooth or $\\mathbb{Z}_k$-smooth representatives.",
+   },
+   {
+    "abstract": "We give handlebody decompositions of the complements of the cyclic multisections in $\\Sigma_g\\times S^2$ constructed in~\\cite{AB}. The 2-handle framings are induced by the product coordinates. We compute the integral homology of the complements from their handle chain complexes, including the torsion subgroup of $H_2$. For the degree pairs $(3,3)$ and $(2,4)$, we specify surface diffeomorphisms inducing the maps on first homology prescribed in~\\cite{AY} and recover the integral first homology groups $(\\Z/3)^2\\oplus\\Z/(3m)$ and $(\\Z/2)^2\\oplus\\Z/(4m)$, respectively, for $m\\geq1$. For the symmetric $m=1$ sum, we also give a simultaneous surface diagram of the relative product attachments and identify their product framings with the surface framings. The resulting symplectic sums are aspherical and symplectically minimal, and have the rational cohomology ring of $S^2\\times S^2$.",
     "ai_mode": "",
     "announce": "cross",
     "authors": [
-     "Gianmarco Caldini",
-     "Anna Skorobogatova"
+     "Anar Akhmedov"
+    ],
+    "categories": [
+     "math.GT",
+     "math.AT"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.06949",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.06949",
+    "pid": "2611.06949",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Braided Multisections and Akhmedov's Fake Quadrics",
+    "watched": []
+   },
+   {
+    "abstract": "In a previous work we conjectured that the multi-invariants of the ground state of a gapped $(d-1)+1$-dimensional system, labeled by bipartite $(d+1)$-edge-colored graphs encoding closed oriented $d$-manifolds $M$, compute the partition functions $Z(M)$ of the low energy topological quantum field theory (TQFT), up to non-universal factors determined by the local structure of the triangulation. In this paper we determine which combinations of partition functions can be isolated from the non-universal factors. The answer is governed by oriented bordism. If $M$ is null-bordant, $Z(M)$ is obtained from an explicit, state-independent finite family of multi-invariants, up to a power of $Z(S^d)$ which is fixed to be $Z(S^d)^{\\chi(M)/2}$ for even $d$ and can be removed for odd $d$. Conversely, the obstruction is measured by a quotient of the group of \"residues\" of colored graphs which receives a surjective map from the oriented bordism group, with kernel precisely the torsion subgroup as far as smooth manifolds are concerned. In $d=4$ the obstruction is the signature: $Z(M)/Z(S^4)^{\\chi(M)/2}$ can be extracted if and only if $\\sigma(M)=0$. This is due to the fact that the first Pontryagin class $p_1$ has a local expression and thus $e^{i\\theta\\sigma(M)}=e^{\\frac{i}{3}\\theta\\int_M p_1}$ cannot be separated from the non-universal factors. Torsion invariants, in contrast, are not obstructed: for the ground state of the $4+1$-dimensional invertible phase with partition function $(-1)^{\\int w_2w_3}$ we compute the multi-invariants exactly, and two graphs with identical local data, encoding the Dold manifold and $\\mathbb{CP}^2\\times S^1$, give opposite signs.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Michele Del Zotto",
+     "Abhijit Gadde",
+     "Pavel Putrov"
+    ],
+    "categories": [
+     "hep-th",
+     "cond-mat.str-el",
+     "math-ph",
+     "math.AT",
+     "math.MP",
+     "quant-ph"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.07000",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.07000",
+    "pid": "2611.07000",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Multipartite Entanglement, TQFT Partition Functions and PL Bordism",
+    "watched": []
+   },
+   {
+    "abstract": "We explicitly determine the complex bordism class of the $n$-th symmetric product of a complex curve of genus $g$. In particular, we provide an explicit formula expressing this class as an integral linear combination of bordism classes of products of complex projective spaces.\n  Similarly, we determine the unoriented bordism class of the $n$-th symmetric product of a non-orientable surface of genus $g$ (i.e., $\\#_{i=1}^{g+1}\\mathbb R P^2$). It turns out that these classes are also expressed as a $\\mathbb Z_2$-linear combination of bordism classes of products of even-dimensional real projective spaces.\n  We also give an affirmative answer to a non-orientable version of the Blagojevi\\'c--Gruji\\'c--\\v{Z}ivaljevi\\'c conjecture stating that the topological type of any symmetric product of a noncompact surface of finite type determines the topological type of the surface itself.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Georgy Chernykh",
+     "Dmitry Gugnin"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.07813",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.07813",
+    "pid": "2611.07813",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "On bordism classes of symmetric products of surfaces",
+    "watched": []
+   },
+   {
+    "abstract": "We study the topology of the normalized space of real nonnegative forms of degree $2d$ in $n$ variables that are not sums of squares. Whenever it is nonempty, we prove that it is path-connected but not acyclic, and in particular not contractible. We give explicit bounds on the degrees in which its reduced homology can be nonzero. In the two minimal nonempty cases, we show an embedding of an exterior algebra into the cohomology ring, and prove containment of the binary octahedral and binary icosahedral groups, respectively, in its fundamental group.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Maximilian Illmer",
+     "Tim Netzer"
+    ],
+    "categories": [
+     "math.AT",
+     "math.AG"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.07252",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.07252",
+    "pid": "2611.07252",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "On the Topology of the Set of Nonnegative Forms That Are Not Sums of Squares",
+    "watched": []
+   },
+   {
+    "abstract": "Let $f\\colon M^n\\to\\mathbf{R}^{n+1}$, $n\\geq2$, be a smooth immersion of a closed oriented manifold, with Gauss map $\\nu\\colon M\\to\\mathbf{S}^n$. For each unit vector $u$, the shade $S_u\\subset M$ is the set of points where $\\nu$ makes an acute angle with $u$. We show that $f$ is a convex embedding if and only if every shade is contractible. More generally, if every shade is $k$-connected, then $f$ is a convex embedding provided that $n\\leq 2k+1$, or $n=2k+2$ and $H_{k+1}(M;\\mathbf{Z})=0$. On the other hand, for every $n\\geq 2k+3$ there is a nonconvex embedding $f\\colon\\mathbf{S}^n\\to\\mathbf{R}^{n+1}$ all of whose shades are $k$-connected. These results give sharp answers to a question of H. Wente in all dimensions.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Mohammad Ghomi"
     ],
     "categories": [
      "math.DG",
      "math.AT"
     ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.20499",
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.08415",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.20499",
-    "pid": "2610.20499",
+    "pdf": "https://arxiv.org/pdf/2611.08415",
+    "pid": "2611.08415",
     "reasons": [],
     "source": "arxiv",
     "tier": 4,
-    "title": "$\\mathbb{Z}_k$-smooth approximation of mod $k$ integral cycles",
+    "title": "Shades and Convexity of Hypersurfaces",
     "watched": []
-   }
-  },
-  {
-   "day": "2026-10-15",
-   "paper": {
-    "abstract": "Symmetries of a quantum field theory or a quantum lattice model are expected to be described not by a group but by a homotopy type, whose homotopy groups are the higher symmetry groups and whose Postnikov invariants encode 't Hooft anomalies. We propose a homotopy-theoretic definition of 't Hooft anomalies based on the structure of localized symmetries in the operator-algebraic approach. The input is a crossed precosheaf: a collection of groups attached to regions of space, equipped with pairings recording that the commutator of two transformations localized in two regions is localized in their intersection. To a crossed precosheaf and a finite family of regions we attach a pointed connected homotopy type, the Cech-Loday classifying space. As the family of regions ranges over finite covers of space, the classifying spaces form a pro-object in the homotopy category. There is a canonical map from the ordinary classifying space of the symmetry group to this pro-type. Composing this map with a group action gives an anomaly whose nontriviality obstructs gauging. In favorable cases, the Cech-Loday space is essentially independent of the cover. In such cases, the homotopy fiber of the canonical map is a candidate for the classifying space of the higher group of symmetries. We give examples of crossed precosheaves arising from gauge transformations in continuum field theory and from quantum cellular automata and finite-depth circuits. For quantum spin systems in one and two dimensions, our construction recovers the Else-Nayak index and its generalizations to two dimensions.",
+   },
+   {
+    "abstract": "Aguiar, Bergeron, and Sottile showed that the coalgebra of quasisymmetric functions is terminal among connected graded coalgebras with a zeta function. After developing the notions of gradings and zeta functions for decomposition spaces, we establish an objective homotopic version of this result. Namely, the decomposition space $Q$ of quasisymmetric functions is terminal: for any conservatively graded decomposition space $X$ with zeta function $F$, there is a unique graded ikeo-culf span $X \\leftarrow W \\rightarrow Q$ inducing $F$ from the special zeta function on $Q$. More generally, for gradings in any complete decomposition space $M$ with indecomposable identities, the terminal object is $J(M)$, the free decomposition space on the nondegenerate simplices of $M$; the quasisymmetric case is $Q=J(B\\mathbb{N})$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Philip Hackney",
+     "Joachim Kock",
+     "Jan Steinebrunner"
+    ],
+    "categories": [
+     "math.CT",
+     "math.AT",
+     "math.CO"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.08063",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.08063",
+    "pid": "2611.08063",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "The universal property of the decomposition space of quasisymmetric functions",
+    "watched": []
+   },
+   {
+    "abstract": "In this paper, we establish a topological classification of Bazaikin spaces whose sixth cohomology groups have orders prime to \\(5\\). Moreover, we obtain an estimate for the number of diffeomorphism types among these spaces.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Fuquan Fang",
+     "Wen Shen"
+    ],
+    "categories": [
+     "math.AT",
+     "math.DG",
+     "math.GT"
+    ],
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.07898",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.07898",
+    "pid": "2611.07898",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Topological classification of Bazaikin spaces",
+    "watched": []
+   },
+   {
+    "abstract": "Data arising in scientific applications often exhibits complex nonlinear structure. Identifying and parameterizing said nonlinearities can enable better modeling, enhance predictive analysis, data interpolation, denoising, and anomaly detection. In this paper, we develop theoretical and computational methods to detect and parametrize Euclidean point cloud data lying near a wedge sum of tori. Specifically, we use persistent cohomology and cup products to identify the distinct toroidal components, and on each component, we optimize over low-energy multivariate trigonometric polynomials for best data fit. The ensuing optimization problem reduces to generalized ridge regression, which can be solved efficiently via standard techniques. We demonstrate the utility of the proposed framework in both synthetic and real datasets, including interpolation of low frame-rate recurrent videos, attractor recovery in quasiperiodic dynamical systems, and the parametrization of gene-space cycle data for parasites and humans.",
     "ai_mode": "",
     "announce": "cross",
     "authors": [
-     "Anton Kapustin",
-     "Shixiong Xu"
+     "Tanishq Bhatia",
+     "Jose A. Perea",
+     "Tarek M. Zikry"
     ],
     "categories": [
-     "math-ph",
-     "cond-mat.str-el",
-     "hep-th",
-     "math.AT",
-     "math.MP"
-    ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.19004",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.19004",
-    "pid": "2610.19004",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Anomalies, higher symmetries, and homotopy theory I: crossed precosheaves and a nonabelian Cech construction",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-15",
-   "paper": {
-    "abstract": "This paper addresses the computation of persistent homology for filtrations of cellular cosheaves over a fixed cell complex, where the algebraic data vary along the filtration while the underlying topological structure remains unchanged. We extend methods from discrete Morse theory to this setting, establishing conditions under which chain complexes can be reduced while preserving the associated persistence module. Building on these results, we introduce \"FilteredScythe\", an algorithm that identifies Morse matchings compatible with all stages of the filtration and performs reductions using Schur complements, based on the exist \"Scythe\" algorithm. We prove the correctness of these reductions and establish bounds on the algorithm's time and space complexity.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Neria Baris"
-    ],
-    "categories": [
+     "stat.ML",
+     "cs.LG",
      "math.AT"
     ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.20376",
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.06990",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.20376",
-    "pid": "2610.20376",
+    "pdf": "https://arxiv.org/pdf/2611.06990",
+    "pid": "2611.06990",
     "reasons": [],
     "source": "arxiv",
     "tier": 4,
-    "title": "Discrete Morse Theory for Computing Filtered Cosheaf Homology",
+    "title": "ToroFit: Fitting Wedge Sums of Tori to High-Dimensional Data",
     "watched": []
-   }
-  },
-  {
-   "day": "2026-10-15",
-   "paper": {
-    "abstract": "This is my written Laudatio for Graeme Segal on receiving the Chern Medal at the 2026 International Congress of Mathematicians. I make some general remarks about Segal's qualities as a mathematician. Then I discuss the origins of his work on classifying spaces of categories and Gamma-spaces. In the last section I describe his axiom system for Wick-rotated quantum field theory and some of his subsequent work in the area. Of course, this is necessarily only a small slice of Segal's total research output.",
+   },
+   {
+    "abstract": "This is the first of a series of papers which will be devoted to a study of the index of mesoscopic Wilson--Dirac operators on closed Riemannian manifolds. The aim of the series is to discretise the index of the Dirac operator. On flat tori, this is achieved by the Wilson--Dirac operator of lattice gauge theory on a regular lattice. On a general closed Riemannian manifold, however, no regular lattice is available. As an intermediate step between the continuum Dirac operator and its discretisations, we introduce mesoscopic Wilson--Dirac operators on any closed Riemannian manifold, defined by integrating covariant differences over distances comparable to a fixed length scale. In this paper, we define the index of the mesoscopic Wilson--Dirac operators via spectral flow and prove that it agrees with that of the continuum Dirac operator at all sufficiently small scales. The proof rests on an elliptic estimate uniform in the scale and a Rellich-type compactness theorem. In the second paper, we shall pass from mesoscopic operators to discrete Wilson--Dirac operators.",
     "ai_mode": "",
-    "announce": "new",
+    "announce": "cross",
     "authors": [
-     "Daniel S. Freed"
+     "Mikio Furuta",
+     "Shinichiroh Matsuo"
     ],
     "categories": [
-     "math.AT",
-     "hep-th",
+     "math.DG",
+     "hep-lat",
      "math-ph",
-     "math.MP"
-    ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.19012",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.19012",
-    "pid": "2610.19012",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "On the work of Graeme Segal",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-15",
-   "paper": {
-    "abstract": "We show that every vineyard can be decomposed into vines, that is, every path in the space of persistence diagrams $\\mathcal{D}$ can be decomposed into a sequence of paths in $\\mathbb R^2$. Moreover, we characterize which spaces $X$ have the property that every continuous map $X\\to \\mathcal{D}$ has such a decomposition. Our results hold not just for $\\mathcal{D}$, but also for many other spaces of unordered tuples.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Michael Hull",
-     "Thomas Payne",
-     "Thomas Weighill"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-10-15",
-    "link": "https://arxiv.org/abs/2610.20046",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.20046",
-    "pid": "2610.20046",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Real Tree Vineyards have Vines",
-    "watched": []
-   }
-  }
- ],
- "hexagon_since": "2026-11-05",
- "last_page": {
-  "day": "2026-11-05",
-  "papers": [
-   {
-    "abstract": "We study natural transformations, minors, and symmetric monoidal decorations of finite directed acyclic networks. For any weakly connected small source category, a natural transformation into a free acyclic path category is determined by one component. If more than one transformation exists, common prefixes and suffixes give a canonical factorization through two constant functors and identify the transformation set with a single set of directed paths. Consequences include boundary rigidity, a decision algorithm, and a fundamental-group obstruction to non-uniqueness. For fusion\u2013embedding minors, right fillings exist exactly when the graph pushout is acyclic. A support invariant detects a nonexact minor under the full gauge congruence, while path-convex embeddings admit two-sided fillings. Inverse-image pullbacks give canonical partial-map normal forms, a scanning algorithm, and a coherent presentation of the cartesian quotient. For open networks, wire splicing gives units, and diagram groupoids satisfy descent by homotopy pullback over the interface groupoid, including through-wires. This descent is invariant under strong symmetric monoidal equivalence and compatible with admissible event contractions within each piece. Finite-field examples yield orbit classifications, stabilizer weights, and boundary convolution formulas. Roof-refinement spaces realize spheres whose higher homotopy is lost under groupoid completion.",
-    "ai_mode": "human",
-    "announce": "new",
-    "authors": [
-     "Zhenyu Sun"
-    ],
-    "categories": [
-     "math.CT",
-     "math.CO",
-     "math.QA"
-    ],
-    "date": "2026-11-05",
-    "link": "https://hexagonmath.org/abs/2611.00122v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2611.00122v1",
-    "pid": "hexagon:2611.00122",
-    "reasons": [
-     "title: descent"
-    ],
-    "source": "hexagon",
-    "tier": 2,
-    "title": "Acyclic Networks: Causal Comparisons, Convex Minors, and Gauge Descent",
-    "watched": []
-   },
-   {
-    "abstract": "We construct a cohomology theory $H_A(-)$ canonically attached to any 1-dimensional commutative group scheme A over a connective $E_\\infty$-ring. The additive group in characteristic zero gives 2-periodic de Rham cohomology, the multiplicative group gives topological periodic cyclic homology, and an elliptic curve gives elliptic cohomology. The construction extends to the G-equivariant setting for an algebraic group G, yielding in the elliptic case a theory of equivariant elliptic cohomology on algebraic varieties with G-action that takes values in sheaves on the stack of G-bundles. Over the complex numbers, and for G connected reductive, this lifts Grojnowski's theory from the moduli space of G-bundles to the stack.\n  The key player is the category of perfect complexes on A with 0-dimensional support, equipped with the convolution product induced by the group law of A. It plays the role of a categorified circle and is used to define a loop space $L_A^G(X)$, whose structure sheaf gives rise to $H_A^G(X)$ after periodization. Sheaves on $L_A^G(X)$ equivariant under loop rotation provide a category of coefficients for $H_A^G(-)$ in the same way that D-modules provide coefficients for de Rham cohomology. At the point X = *, the theory also gives rise to an $E_\\infty$-ring spectrum (or sheaf thereof) $K_A$, which recovers complex K-theory for $A = \\mathbf{G}_m$, and the sheaf $\\mathcal{O}^{top}$ of topological modular forms for the universal elliptic curve.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Emile Bouaziz",
-     "Adeel A. Khan"
-    ],
-    "categories": [
-     "math.AG",
-     "math.AT",
-     "math.RT"
-    ],
-    "date": "2026-11-05",
-    "link": "https://arxiv.org/abs/2611.05707",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.05707",
-    "pid": "2611.05707",
-    "reasons": [
-     "title: equivariant",
-     "abstract: ring spectr",
-     "abstract: e_infinity-ring"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "Equivariant elliptic cohomology via loop spaces",
-    "watched": []
-   },
-   {
-    "abstract": "For a quiver $Q$, we introduce and study $Q$-operads (or operads over $Q$), defined as a special sort of $\\mathbf{fc}$-multicategories or virtual double categories, in which the directions of the arrows of $Q$ encode the permitted input orderings. In this higher operadic framework, we construct the bar--cobar adjunction and develop a theory of Koszul duality and homotopy algebras, together with compatibility results under changes of quiver. We treat dg categories and their left modules, right modules, and bimodules as algebras over quiver-operads. We prove that these operads are Koszul and that their resolutions govern the corresponding $A_\\infty$ categories and modules. We also categorify Sagave's notion of derived $A_\\infty$ algebras and introduce modules over derived $A_\\infty$ algebras and categories. Finally, we explain that restriction along a folding of quivers constructs diagonal $A_\\infty$ bimodules, while extension along an inclusion of quivers realizes two-sided bar models of derived tensor products.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Hang Yuan"
-    ],
-    "categories": [
-     "math.AT",
-     "math.CT",
-     "math.QA"
-    ],
-    "date": "2026-11-05",
-    "link": "https://arxiv.org/abs/2611.06165",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.06165",
-    "pid": "2611.06165",
-    "reasons": [
-     "title: koszul dual",
-     "abstract: infinity categor",
-     "abstract: higher operad"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "Koszul duality and homotopy algebras for operads over quivers",
-    "watched": []
-   },
-   {
-    "abstract": "We extend the method of Van Woerden \\cite{woerden} to totally real and CM number fields to obtain an upper bound for the number of $\\GLo-$equivalence classes of perfect forms. Moreover, by considering appropriate barycentric subdivisions of the Voronoi tessellation, we extend these estimates to the number of $\\GLo$-orbits of $k$-dimensional faces of the Voronoi tessellation. As a consequence, we improve the asymptotic order of the bounds for the torsion part of $K_m(\\rint)$ obtained by Soul\\'e \\cite{soule_hermitian_bounds} and Houriet \\cite{Juliet_PHD}. We emphasise the improvement of the general bound for $F=\\mathbb Q$, unchanged since Soul\\'e's work, and the independence of the discriminant exponent from the field degree for totally real and CM fields.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Alejandro de la Torre Dur\\'an"
-    ],
-    "categories": [
      "math.KT",
-     "math.GT"
+     "math.MP"
     ],
-    "date": "2026-11-05",
-    "link": "https://arxiv.org/abs/2611.06300",
+    "date": "2026-11-06",
+    "link": "https://arxiv.org/abs/2611.08266",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.06300",
-    "pid": "2611.06300",
-    "reasons": [
-     "title: algebraic k-theor"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "Perfect Forms and Torsion Bounds in Algebraic $K$-Theory over Totally Real and CM Fields",
-    "watched": []
-   },
-   {
-    "abstract": "We obtain new constraints on the topology of Lagrangian submanifolds in the standard symplectic vector space $\\mathbb{C}^n$ using Floer theory on the based loop space, generalizing a theorem of Fukaya-Irie. In particular, we show that non-trivial connected sums of closed, spin, aspherical manifolds of even dimensions do not admit Lagrangian embeddings into $\\mathbb{C}^n$. A feature of the proof is that the obstructedness of the Floer theory is used to constrain the fundamental group of the Lagrangian.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Shuhao Li"
-    ],
-    "categories": [
-     "math.SG",
-     "math.AT",
-     "math.GT"
-    ],
-    "date": "2026-11-05",
-    "link": "https://arxiv.org/abs/2611.06574",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.06574",
-    "pid": "2611.06574",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Floer theory on based loops and fundamental groups of Lagrangians in $\\mathbb{C}^n$",
-    "watched": []
-   },
-   {
-    "abstract": "Working notes of Alexandre Grothendieck, put online by the University of Montpellier, have been transcribed and restated in current notation with a language model; the restatements may contain errors. This appendix proves statements taken from these restatements in seventy-five folders, in commutative algebra, algebraic geometry, plane affine geometry, general and tame topology, category and group theory, homotopical algebra, order theory, algebra and finite combinatorics. Each proof follows a proof checked in the Lean 4 proof assistant with its library mathlib. For each statement the text gives the context of the leaf, the proof, the hypotheses that are superfluous or necessary, and the corrections made to the restatement or to the page. It ends with the list of statements the sections report without a Lean check.",
-    "ai_mode": "no-human-author-claimed",
-    "announce": "new",
-    "authors": [
-     "Michel Hua"
-    ],
-    "categories": [
-     "math.HO",
-     "math.AC",
-     "math.AG",
-     "math.AT",
-     "math.CO",
-     "math.CT",
-     "math.GN",
-     "math.GR",
-     "cs.LO"
-    ],
-    "date": "2026-11-05",
-    "link": "https://hexagonmath.org/abs/2611.00125v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2611.00125v1",
-    "pid": "hexagon:2611.00125",
-    "reasons": [],
-    "source": "hexagon",
-    "tier": 4,
-    "title": "Grothendieck Montpellier. \u00c9nonc\u00e9s des lectures modernis\u00e9es d\u00e9montr\u00e9s.",
-    "watched": []
-   },
-   {
-    "abstract": "We develop a unified homology theory for directed partial orders (DPOs) and lattice-ordered positive cones on fields of characteristic zero. With the underlying field and its operations fixed, we define order?carrying spaces independently by topological conditions, establish a bijection with DPO positive cones, and characterize lattice orders by intersections of minimal open neighborhoods. A unified comparison theorem identifies graded Ext for region ideals with sheaf cohomology and multiplicative Tor with the reduced singular homology of truncated regions, giving a topological interpretation of the existence and preservation of reduced decompositions. We obtain canonical cohomological obstructions to lattice ordering, prove that a coefficient module for positive multiplication is flat if and only if the multiplier has a positive inverse, and show that every strict extension of positive cones on the same field produces a nonzero first Tor obstruction. Finally, we place the concrete lattice recently constructed by Bao-Zhang within this framework.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Hanzhen Bao"
-    ],
-    "categories": [
-     "math.RA",
-     "math.AC",
-     "math.AT"
-    ],
-    "date": "2026-11-05",
-    "link": "https://arxiv.org/abs/2611.06261",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.06261",
-    "pid": "2611.06261",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Homology and Topology of Partially Ordered Fields",
-    "watched": []
-   },
-   {
-    "abstract": "In this article, we introduce Borel--Moore and uniformly finite versions of magnitude homology and path homology for locally finite graphs by allowing possibly infinite chains subject to local finiteness and boundedness conditions. In both settings, we construct magnitude--path spectral sequences extending the spectral sequence studied by the author. Their E^1-pages are given by the corresponding magnitude homologies, their E^2-pages contain the corresponding path homologies on the p-axis, and they converge to coarse homology and uniformly finite homology, respectively, in the sense of Nowak--Yu. Moreover, the E^{r+1}-page is invariant under r- homotopy, whereas the homology to which the spectral sequence converges is invariant under coarse equivalence. Thus the spectral sequences interpolate between small-scale and large-scale geometry.\n  We also show that the Borel--Moore and uniformly finite magnitude homologies are products and restricted products, respectively, of ordinary magnitude homology groups with a fixed initial point. Hence the E^1-page is assembled from pointwise magnitude-homological data, providing a mechanism for combining local information into global large-scale invariants. As applications, we establish Mayer--Vietoris sequences for magnitude homology, path homology, the associated spectral-sequence pages, and coarse and uniformly finite homology. We also show that diagonality of ordinary magnitude homology implies degeneration at the E^2-page, yielding isomorphisms between path homology and the corresponding coarse homology. Finally, we discuss applications to Cayley graphs of graph products, including right-angled Artin groups and right-angled Coxeter groups.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Yasuhiko Asao"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-11-05",
-    "link": "https://arxiv.org/abs/2611.05972",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.05972",
-    "pid": "2611.05972",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Magnitude, path and coarse homology",
-    "watched": []
-   },
-   {
-    "abstract": "Persistence diagrams do not naturally live in a Hilbert space. Carri\\`ere, Cuturi, and Oudot embedded them in kernel methods through the Sliced Wasserstein kernel, built from the Sliced Wasserstein distance $\\mathrm{SW}_1$, which is conditionally negative definite (CND). We study the projected ($\\mathrm{SW}_p$) and reflected ($\\mathrm{RW}_p$) Sliced Wasserstein distances for every order $p\\ge1$, and compare them with the $p$-Wasserstein distance $d_p$ and with a reflected variant $d_p^r$, in which projection onto the diagonal is replaced by reflection across it. We show that $2^{1/p}d_p\\le d_p^r\\le 2d_p$ with sharp constants, so that $d_1^r=2d_1$ and $d_p^r$ inherits the stability of $d_p$, although it is a metric only for $p=1$. The distances $\\mathrm{SW}_1$ and $\\mathrm{RW}_1$ are CND metrics, and $\\mathrm{RW}_1$ gives rise to a new positive definite kernel, stable with respect to $d_1$. For $p>1$, neither $\\mathrm{SW}_p$ nor $\\mathrm{RW}_p$ satisfies the triangle inequality, and rigorous interval-arithmetic certificates prove that $\\mathrm{SW}_2$ and $\\mathrm{RW}_2$ are not CND; numerical experiments suggest that the CND property fails for every $p$ above some $p^*\\in(1,1.2]$. On diagrams with at most $N$ points, $\\mathrm{SW}_p$ and $\\mathrm{RW}_p$ are metrically equivalent to $d_p$ and $d_p^r$, with sharp upper constants. On an orbit recognition benchmark, the kernels built from $\\mathrm{SW}_1$ and $\\mathrm{RW}_1$ reach about 85% accuracy, outperform the persistence scale space kernel, perform on par with the persistence weighted Gaussian kernel, and are about one percentage point below the kernel built from $\\mathrm{SW}_2$, which is not positive definite.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Juli\\'an Uribe Casta\\~neda",
-     "Mircea Petrache"
-    ],
-    "categories": [
-     "cs.CG",
-     "math.AT"
-    ],
-    "date": "2026-11-05",
-    "link": "https://arxiv.org/abs/2611.06619",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.06619",
-    "pid": "2611.06619",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Projected and Reflected Sliced Wasserstein Kernels for Persistence Diagrams",
-    "watched": []
-   },
-   {
-    "abstract": "$A_\\infty$-algebra is a chain complex equipped with a coherent multiplicative structure, i.e. a multiplication which is commutative up to (higher) chain homotopy. Similarly $A_\\infty$-module over such algebra is equipped with its coherent action. These notions are used to represent cohomological information contained in topological multiplicative structures. One of the key tools of the theory are minimal models, which are useful in cohomological computations. In this thesis author presents certain sufficient conditions for a morphism of $A_\\infty$-modules to induce a morphism of their minimal models.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Mikhail Malashchuk"
-    ],
-    "categories": [
-     "math.KT"
-    ],
-    "date": "2026-11-05",
-    "link": "https://arxiv.org/abs/2611.06851",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.06851",
-    "pid": "2611.06851",
+    "pdf": "https://arxiv.org/pdf/2611.08266",
+    "pid": "2611.08266",
     "reasons": [],
     "source": "arxiv",
     "tier": 5,
-    "title": "Morphisms of $A_\\infty$-algebras and modules",
+    "title": "The index of mesoscopic Wilson--Dirac operators: I",
     "watched": []
    }
   ]
@@ -5818,12 +5954,14 @@
   "2303.11071": "2026-10-20",
   "2303.12124": "2026-11-02",
   "2303.16259": "2026-10-28",
+  "2304.07009": "2026-11-06",
   "2304.11508": "2026-10-20",
   "2304.13411": "2026-10-14",
   "2305.01499": "2026-10-27",
   "2305.06922": "2026-10-14",
   "2305.14138": "2026-10-14",
   "2305.18609": "2026-10-14",
+  "2306.02812": "2026-11-06",
   "2306.10519": "2026-10-27",
   "2307.01819": "2026-10-27",
   "2307.06020": "2026-10-21",
@@ -5848,6 +5986,7 @@
   "2312.05740": "2026-10-16",
   "2312.06930": "2026-10-27",
   "2312.10036": "2026-10-27",
+  "2312.16140": "2026-11-06",
   "2401.00156": "2026-10-27",
   "2401.00866": "2026-10-08",
   "2401.01315": "2026-11-04",
@@ -5937,12 +6076,15 @@
   "2412.08892": "2026-10-26",
   "2412.09120": "2026-11-04",
   "2412.12078": "2026-10-27",
+  "2412.12582": "2026-11-06",
   "2412.12903": "2026-10-20",
   "2412.13123": "2026-10-22",
   "2412.16090": "2026-11-04",
   "2412.17157": "2026-10-20",
   "2412.18592": "2026-10-15",
   "2412.18805": "2026-10-30",
+  "2412.18902": "2026-11-06",
+  "2501.01403": "2026-11-06",
   "2501.02466": "2026-10-28",
   "2501.06421": "2026-10-27",
   "2501.07551": "2026-10-20",
@@ -5997,6 +6139,7 @@
   "2505.14109": "2026-11-05",
   "2505.16285": "2026-10-14",
   "2505.18977": "2026-10-19",
+  "2505.19451": "2026-11-06",
   "2505.21186": "2026-10-30",
   "2505.21373": "2026-10-23",
   "2505.22832": "2026-10-27",
@@ -6015,6 +6158,7 @@
   "2506.23251": "2026-10-30",
   "2506.23599": "2026-10-20",
   "2506.23632": "2026-10-14",
+  "2506.23880": "2026-11-06",
   "2507.00309": "2026-10-21",
   "2507.01226": "2026-10-08",
   "2507.02483": "2026-10-19",
@@ -6061,6 +6205,7 @@
   "2509.07344": "2026-11-05",
   "2509.07476": "2026-10-14",
   "2509.07720": "2026-10-15",
+  "2509.09047": "2026-11-06",
   "2509.11664": "2026-10-14",
   "2509.17001": "2026-10-20",
   "2509.17624": "2026-10-28",
@@ -6138,6 +6283,7 @@
   "2512.05479": "2026-11-02",
   "2512.05510": "2026-10-21",
   "2512.06623": "2026-10-19",
+  "2512.10082": "2026-11-06",
   "2512.12556": "2026-11-05",
   "2512.14207": "2026-10-28",
   "2512.15060": "2026-10-21",
@@ -6166,6 +6312,7 @@
   "2601.16557": "2026-10-14",
   "2601.16889": "2026-10-14",
   "2601.17765": "2026-10-20",
+  "2601.18433": "2026-11-06",
   "2601.19164": "2026-11-03",
   "2601.20804": "2026-10-14",
   "2601.21958": "2026-10-23",
@@ -6197,6 +6344,7 @@
   "2603.01643": "2026-10-27",
   "2603.01956": "2026-10-30",
   "2603.02606": "2026-10-14",
+  "2603.02848": "2026-11-06",
   "2603.03132": "2026-10-20",
   "2603.04298": "2026-10-09",
   "2603.04323": "2026-10-20",
@@ -6212,6 +6360,7 @@
   "2603.13946": "2026-11-05",
   "2603.14539": "2026-10-16",
   "2603.14821": "2026-10-26",
+  "2603.14924": "2026-11-06",
   "2603.15233": "2026-11-03",
   "2603.15437": "2026-11-04",
   "2603.15858": "2026-11-05",
@@ -6252,18 +6401,21 @@
   "2604.17589": "2026-10-14",
   "2604.17757": "2026-10-14",
   "2604.17792": "2026-10-27",
+  "2604.17799": "2026-11-06",
   "2604.18074": "2026-11-03",
   "2604.20091": "2026-11-03",
   "2604.20177": "2026-10-20",
   "2604.20729": "2026-11-03",
   "2604.21661": "2026-10-30",
   "2604.21785": "2026-11-03",
+  "2604.21880": "2026-11-06",
   "2604.21900": "2026-10-23",
   "2604.22578": "2026-10-19",
   "2604.23395": "2026-10-15",
   "2604.24508": "2026-10-09",
   "2604.24568": "2026-10-20",
   "2604.24888": "2026-10-30",
+  "2604.24903": "2026-11-06",
   "2604.25023": "2026-10-09",
   "2604.25463": "2026-10-09",
   "2604.25595": "2026-10-30",
@@ -6275,6 +6427,7 @@
   "2605.08086": "2026-11-05",
   "2605.08394": "2026-10-08",
   "2605.08507": "2026-10-21",
+  "2605.09609": "2026-11-06",
   "2605.09828": "2026-10-14",
   "2605.09866": "2026-10-27",
   "2605.10273": "2026-10-14",
@@ -6296,10 +6449,12 @@
   "2605.20453": "2026-11-04",
   "2605.21337": "2026-10-09",
   "2605.22071": "2026-10-27",
+  "2605.22406": "2026-11-06",
   "2605.24796": "2026-10-14",
   "2605.25935": "2026-10-08",
   "2605.26556": "2026-10-12",
   "2605.26768": "2026-10-08",
+  "2605.27112": "2026-11-06",
   "2605.30063": "2026-10-21",
   "2605.30530": "2026-10-08",
   "2606.01371": "2026-10-08",
@@ -6311,6 +6466,7 @@
   "2606.02854": "2026-10-09",
   "2606.03439": "2026-10-30",
   "2606.04014": "2026-10-26",
+  "2606.04132": "2026-11-06",
   "2606.05137": "2026-11-02",
   "2606.06241": "2026-10-27",
   "2606.07627": "2026-10-12",
@@ -6318,6 +6474,7 @@
   "2606.11090": "2026-10-20",
   "2606.11551": "2026-10-14",
   "2606.12229": "2026-10-27",
+  "2606.12283": "2026-11-06",
   "2606.15758": "2026-10-09",
   "2606.16431": "2026-10-12",
   "2606.16894": "2026-11-02",
@@ -6342,9 +6499,11 @@
   "2606.29902": "2026-10-23",
   "2606.31083": "2026-10-19",
   "2607.00322": "2026-10-09",
+  "2607.01809": "2026-11-06",
   "2607.01889": "2026-10-14",
   "2607.02218": "2026-10-08",
   "2607.02281": "2026-10-14",
+  "2607.02434": "2026-11-06",
   "2607.02985": "2026-11-04",
   "2607.04536": "2026-10-26",
   "2607.04931": "2026-11-04",
@@ -6377,11 +6536,13 @@
   "2607.18599": "2026-10-14",
   "2607.18746": "2026-10-27",
   "2607.19133": "2026-10-30",
+  "2607.19251": "2026-11-06",
   "2607.19457": "2026-10-20",
   "2607.19882": "2026-10-09",
   "2607.19952": "2026-11-05",
   "2607.20597": "2026-10-27",
   "2607.21251": "2026-10-20",
+  "2607.22965": "2026-11-06",
   "2607.23275": "2026-10-12",
   "2607.23495": "2026-10-14",
   "2607.24462": "2026-11-05",
@@ -6395,6 +6556,7 @@
   "2607.28009": "2026-11-04",
   "2607.28784": "2026-10-30",
   "2607.29097": "2026-10-20",
+  "2608.00222": "2026-11-06",
   "2608.00470": "2026-10-15",
   "2608.00708": "2026-10-22",
   "2608.01031": "2026-10-08",
@@ -6428,6 +6590,7 @@
   "2608.14475": "2026-10-14",
   "2608.16668": "2026-10-20",
   "2608.18599": "2026-11-04",
+  "2608.18789": "2026-11-06",
   "2608.18928": "2026-10-12",
   "2608.19829": "2026-11-04",
   "2608.19830": "2026-10-30",
@@ -6528,6 +6691,7 @@
   "2609.30892": "2026-11-04",
   "2609.31089": "2026-10-23",
   "2609.31469": "2026-10-20",
+  "2609.31523": "2026-11-06",
   "2609.31729": "2026-10-12",
   "2609.32105": "2026-10-22",
   "2609.33009": "2026-10-28",
@@ -7890,6 +8054,55 @@
   "2611.06852": "2026-11-05",
   "2611.06861": "2026-11-05",
   "2611.06862": "2026-11-05",
+  "2611.06949": "2026-11-06",
+  "2611.06971": "2026-11-06",
+  "2611.06990": "2026-11-06",
+  "2611.07000": "2026-11-06",
+  "2611.07046": "2026-11-06",
+  "2611.07079": "2026-11-06",
+  "2611.07080": "2026-11-06",
+  "2611.07090": "2026-11-06",
+  "2611.07150": "2026-11-06",
+  "2611.07202": "2026-11-06",
+  "2611.07207": "2026-11-06",
+  "2611.07221": "2026-11-06",
+  "2611.07252": "2026-11-06",
+  "2611.07255": "2026-11-06",
+  "2611.07262": "2026-11-06",
+  "2611.07333": "2026-11-06",
+  "2611.07351": "2026-11-06",
+  "2611.07439": "2026-11-06",
+  "2611.07454": "2026-11-06",
+  "2611.07466": "2026-11-06",
+  "2611.07499": "2026-11-06",
+  "2611.07505": "2026-11-06",
+  "2611.07507": "2026-11-06",
+  "2611.07549": "2026-11-06",
+  "2611.07571": "2026-11-06",
+  "2611.07584": "2026-11-06",
+  "2611.07664": "2026-11-06",
+  "2611.07813": "2026-11-06",
+  "2611.07849": "2026-11-06",
+  "2611.07898": "2026-11-06",
+  "2611.07917": "2026-11-06",
+  "2611.07927": "2026-11-06",
+  "2611.07987": "2026-11-06",
+  "2611.08018": "2026-11-06",
+  "2611.08063": "2026-11-06",
+  "2611.08124": "2026-11-06",
+  "2611.08172": "2026-11-06",
+  "2611.08176": "2026-11-06",
+  "2611.08190": "2026-11-06",
+  "2611.08203": "2026-11-06",
+  "2611.08266": "2026-11-06",
+  "2611.08333": "2026-11-06",
+  "2611.08337": "2026-11-06",
+  "2611.08356": "2026-11-06",
+  "2611.08357": "2026-11-06",
+  "2611.08391": "2026-11-06",
+  "2611.08406": "2026-11-06",
+  "2611.08415": "2026-11-06",
+  "2611.08464": "2026-11-06",
   "hexagon:2609.00001": "2026-10-08",
   "hexagon:2609.00102": "2026-10-08",
   "hexagon:2609.00104": "2026-10-08",
