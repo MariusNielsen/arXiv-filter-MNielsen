@@ -1,0 +1,679 @@
+{
+"day": "2026-11-07",
+"updated": "2026-11-07T11:10:22+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2611.00138",
+"title": "A modular theory of contractive projections on Banach spaces with applications to noncommutative $\\mathrm{L}^p$-spaces",
+"abstract": "We develop a differential-geometric approach to contractive projections on complex Banach spaces based on Levi forms of plurisubharmonic functions. We show that if a projection $P$ contracts a $\\mathrm{C}^2$ plurisubharmonic function $\\Phi$, then, at any point of its range, the Levi form of $\\Phi$ defines a tangent Hilbertian geometry for which $P$ becomes an orthogonal projection. When the range is finite-dimensional and the relevant Levi forms are nondegenerate, comparing the Levi geometries associated with different points leads naturally to positive relative operators and associated one-parameter groups. We apply this framework to tracial noncommutative $\\mathrm{L}^4$-spaces. Exploiting the cubic form of the duality mapping, we characterize contractive projections by a Jordan triple orthogonality property and prove that a projection on $\\mathrm{L}^4(\\mathcal{M})$ is $2$-contractive if and only if it is completely contractive. When the ambient von Neumann algebra is finite-dimensional, we identify the relative operator associated with the left and right tangent forms on the range with a restriction of an inverse square root of a modular operator on a linking von Neumann algebra. This entails that the range of any $2$-contractive projection is completely isometric to a rectangular noncommutative $\\mathrm{L}^4$-space associated with a $\\mathrm{W}^*$-ternary ring of operators. As a consequence, every such projection is contractively decomposable. Finally, for every $1 < p < \\infty$ with $p \\neq 2$, we prove that every finite-rank $2$-contractive projection on a tracial noncommutative $\\mathrm{L}^p$-space is completely contractive. For $p > 2$, we obtain a weighted ternary description of its range in terms of a finite-dimensional $\\mathrm{W}^*$-$\\mathrm{TRO}$.",
+"authors": [
+"Cédric ARHANCET"
+],
+"categories": [
+"math.FA",
+"math.OA"
+],
+"link": "https://hexagonmath.org/abs/2611.00138v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00138v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-05",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00157",
+"title": "An explicit prime gap under the Riemann hypothesis, formalized in Lean with its prime power input made elementary",
+"abstract": "We report on a Lean 4 formalization of Theorem 2 of Dudek, 2015, as numbered in arXiv v2, which states that if the Riemann hypothesis is true, then for every real $x \\ge 2$ there is a prime in the interval $(x - (4/\\pi)\\sqrt{x}\\log x, x]$. In the formalization, Theorem 2 is proved assuming the Riemann hypothesis and one cited explicit zero-counting bound of Hasanalizade, Shen and Wong, arXiv:2107.06506. Four cited inputs of the printed proof are replaced in the formal proof. The two that carry the argument are these: first, the prime power contribution $\\psi - \\theta$ is required only across the moving window $(x - h, x + h]$ and is proved outright in Lean by an elementary counting argument with no cited input and without assuming the Riemann hypothesis; second, the sum over nontrivial zeros is bounded from the cited Hasanalizade, Shen and Wong zero count for $T \\ge 70$ by trading slack between the head and tail sums at the split point $T = 2x/h$. The Riemann hypothesis is open and this note makes no progress on it.",
+"authors": [
+"Steve Hubbard"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00157v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00157v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00165",
+"title": "Anomalous regularization of passive scalars up to the Obukhov-Corrsin exponent",
+"abstract": "We consider the advection-diffusion equation $\\partial_t\\theta+\\mathbf{b}\\cdot\\nabla\\theta-\\kappa\\Delta\\theta=0$ on the two-dimensional torus $\\mathbb{T}^2$, where $\\mathbf{b}$ is a divergence-free velocity field constructed as in arxiv:2305.05048, H\\\"older continuous with an exponent $\\alpha<\\nf13$ and built from shear flows alternating in direction at infinitely many scales. We prove anomalous regularization: for every $s$ below the Obukhov--Corrsin exponent $\\frac12(1-\\alpha)$, with $\\mathbf{b}$ depending on $s$, the solutions are bounded in~$C^{0,s}(\\mathbb{T}^2)$ at positive times by a constant times the $L^2(\\mathbb{T}^2)$ norm of the initial data, uniformly in the diffusivity $\\kappa$ in a union of bands accumulating at $0$. As a consequence, we obtain anomalous dissipation at a uniform rate: solutions dissipate a fixed fraction of their variance in unit time, so that the variance decays exponentially, with constants independent of $\\kappa$, of the initial datum and of the initial time. The proof combines iterated quantitative homogenization with large-scale regularity: at each scale the solution is compared with a solution of the homogenized equation of that scale. Since the derivatives consumed by each comparison are regenerated at every scale, the H\\\"older norm is carried from the coarsest scale to the finest by induction. Each of our main results, together with its proof, is fully formalized in the Lean 4 proof assistant.",
+"authors": [
+"Scott Armstrong",
+"Vlad Vicol"
+],
+"categories": [
+"math.AP",
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00165v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00165v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00147",
+"title": "Bures Geometry of Projection States",
+"abstract": "We study the Bures metric on states obtained by conditioning a faithful normal state on nonzero projections of a von Neumann algebra. The metric determines the reference state, projection probabilities, orthogonality, and order. For algebras with no type $I_2$ direct summand, surjective isometries are exactly those induced by reference-state-preserving normal Jordan $^*$-isomorphisms; the same conclusion holds for $M_2(\\mathbb C)$. A semifinite tracial version determines the trace up to a single positive factor. In finite tracial algebras, we characterize optimal finite projective measurements and express their fidelity deficit as a sum of squared $L^2$ errors. Spectral measurements with at most $n+1$ outcomes approximate fidelity with error $O(n^{-2})$; the interval grid is minimax optimal, and the order is sharp within spectral measurements. We compare the fidelity defect of a common commutative context with approximation by commuting projections, obtain sharp spectral rounding constants, and solve both optimization problems in the algebra generated by two projections. The space of normalized finite-trace projection states is complete; in a finite tracial algebra its rectifiable components are unitary orbits, and within each orbit the intrinsic Bures distance is the root mean square of the principal angles. Finally, a fidelity bound on local unitary orbits characterizes tracial reference states.",
+"authors": [
+"Zhenyu Sun",
+"Jilin Wang"
+],
+"categories": [
+"math.OA",
+"math-ph",
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00147v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00147v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00151",
+"title": "Contracting a pendant edge can increase the mean subtree order",
+"abstract": "Cambie, Jooken and Wagner conjectured that contracting an edge of a connected graph decreases the mean subtree order by at least 1/3, as it does for trees. We construct unicyclic graphs of order n and maximum degree 3 in which contracting a pendant edge increases the mean subtree order by n/450+O(1), disproving the conjecture. In this family the bound first fails at 481 vertices and contraction first increases the mean at 631 vertices.",
+"authors": [
+"Alexander Kramer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00151v2",
+"pdf": "https://hexagonmath.org/pdf/2611.00151v2",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00163",
+"title": "Decidability of Mutation-Acyclicity",
+"abstract": "Mutation-acyclicity is decidable for all finite integral skew-symmetrizable exchange matrices. Mutation equivalence up to relabeling is decidable when at least one of the two inputs is mutation-acyclic.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.CO",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00163v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00163v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00145",
+"title": "Degeneracy and the level-one Maass spectrum: a measured verdict on arithmetic quantum chaos",
+"abstract": "We isolate the spectral axis of a seven-world program: the length spectrum of the modular surface, its degeneracy, and the statistics of the level-one Maass spectrum. (1) The true degeneracy of a closed geodesic of discriminant $D$ equals the narrow class number $h^{+}(D)$, i.e. the number of $\\rho$-orbits of Zagier-reduced indefinite binary quadratic forms; on all 36 fundamental discriminants $5\\le D\\le 120$ the equality holds as an exact integer. (2) With the corrected counting (all non-square discriminants $D\\equiv 0,1 \\pmod 4$, primitive forms, $\\rho$-orbits), the prime geodesic theorem has error exponent $1/2$: $N(X)/\\mathrm{li}(e^X)=0.9963$ at $X=12$ with $|\\mathrm{err}|/e^{X/2}$ bounded and decreasing overall. (3) The level-one Maass spectrum is long-range GOE and short-range non-Wigner: on 1110 even levels, $\\Sigma_2(20)=1.203\\ [1.02,1.26]$ against Poisson 20 and compatible with GOE 1.049, while the spacing distribution fails the Wigner surmise with a $17\\times$ small-gap excess. This is the standard signature of arithmetic quantum chaos: rigidity without local Wigner repulsion. We also record the archimedean parity law $\\Gamma^{a}_{2k}=2\\Gamma^{a}_{2k+1}\\sim r^{-2k}$, synthetic-spectrum pipeline self-certification, and the corrected upper-envelope saturation criterion. Every measured number carries a confidence interval; corrections applied are recorded in an appendix.",
+"authors": [
+"Zeng Chunping"
+],
+"categories": [
+"math.NT",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00145v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00145v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00135",
+"title": "Deterministic Polynomial-Time Factorization over Finite Fields",
+"abstract": "Using prime-field factorization and a Dedekind zeta zero-free theorem, we obtain deterministic polynomial-time algorithms for complete factorization over finite fields and for constructing their presentations from their orders.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"cs.SC",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00135v2",
+"pdf": "https://hexagonmath.org/pdf/2611.00135v2",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-05",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00156",
+"title": "Equivalence of the Four-Variable Hessian and Planar Jacobian Conjectures",
+"abstract": "We prove that the four-variable Hessian conjecture and the planar Jacobian conjecture are equivalent over the complex numbers.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.00156v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00156v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00150",
+"title": "Era statistics for the vacuum Bianchi IX flow",
+"abstract": "We prove the Gauss statistical law for eras of the exact vacuum Bianchi IX flow with zero cosmological constant. Eras are defined by transverse events along the solution, and their lengths count curvature transitions. Along almost every trajectory, the era phases have the Gauss distribution and every finite block of era lengths has its Gauss frequency. The tail decays inversely with era length; the limiting truncated mean grows logarithmically with the cutoff, while the full mean diverges. One invariant Borel exceptional set is null on every smooth transverse section and in the four-dimensional constraint manifold. The proof combines estimates for exact return branches with absolute continuity of their coding measure. Transverse contraction controls the accumulated phase error within each era, uniformly over unbounded era lengths and arbitrarily unequal small curvature variables. A density with strictly expanding section flux then forces almost every recurrent orbit to enter a statistical set on a small section.",
+"authors": [
+"Yi-kun Li"
+],
+"categories": [
+"math-ph",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00150v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00150v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00153",
+"title": "EVERY CLOSED SMOOTH \\(n\\)-MANIFOLD EMBEDS ISOMETRICALLY IN \\(\\mathbb{R}^{\\,n(n+1)/2+28}\\)",
+"abstract": "We prove that every closed smooth Riemannian \\(n\\)-manifold admits a smooth isometric embedding into \\(\\mathbb{R}^{s_n+28}\\), where \\(s_n=n(n+1)/2\\). This improves the previous upper bound \\(s_n+\\max\\{n+5,\\,2n\\}\\) to a dimension-independent surplus of \\(28\\).",
+"authors": [
+"Yi Wang",
+"Wenchang Yang"
+],
+"categories": [
+"math.DG",
+"math.AP"
+],
+"link": "https://hexagonmath.org/abs/2611.00153v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00153v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00139",
+"title": "Explicit lower bounds for the number of irrational even beta values",
+"abstract": "For every even integer $s\\ge160$, we prove that at least $\\left\\lfloor\\pi\\sqrt{2/135}\\,\\sqrt{s/\\log s}\\right\\rfloor$ of the numbers $\\beta(2),\\beta(4),\\ldots,\\beta(s)$ are irrational, where $\\beta$ is the Dirichlet beta function. We also give sharper finite endpoints for specified counts of irrational values",
+"authors": [
+"twinheterodox"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00139v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00139v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-05",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00146",
+"title": "Formalization of Robust Strictly Positive Real Synthesis for Fourth-Order Interval Polynomial Families",
+"abstract": "That every robustly Hurwitz-stable fourth-order interval polynomial family admits a common strictly positive real (SPR) numerator was conjectured by Anderson et al. and proved by Yu and Wang. In this paper, we present a complete formalization of this classical synthesis theorem in the Lean~4 interactive theorem prover.",
+"authors": [
+"Tiancheng Xu",
+"Wensheng Yu"
+],
+"categories": [
+"cs.LO",
+"math.OC"
+],
+"link": "https://hexagonmath.org/abs/2611.00146v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00146v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00160",
+"title": "Irrational even beta values in shifted intervals",
+"abstract": "For every positive odd integer $m$, we prove that at least one of $\\beta(m+1),\\beta(m+3),\\ldots,\\beta(67m-1)$ is irrational, where $\\beta$ is the Dirichlet beta function. More generally, for each positive integer $B$ we give an explicit constant $C_B$ such that at least $B$ even beta values with indices between $m+1$ and $C_Bm-1$ are irrational, for every positive odd $m$. We also give sharper endpoints for particular intervals.",
+"authors": [
+"twinheterodox"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00160v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00160v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00143",
+"title": "Non-Uniqueness of Leray-Hopf Solutions to the Unforced Three-Dimensional Navier-Stokes Equations",
+"abstract": "We prove that the incompressible Navier--Stokes equations in $\\R^3$, without external force, admit a continuum of distinct suitable weak solutions in the Leray--Hopf class with the same initial datum. The datum is compactly supported, axisymmetric without swirl, and smooth away from the origin; it lies in $L^{3,\\infty}$ and in $L^q$ for every $q<3$, but not in $L^3$. The solutions are axisymmetric without swirl and smooth at positive times, and they satisfy the local and global energy equalities. Any two of them separate in $L^2$ at the rate $t^{1/4+\\sigma}$, for a fixed $0<\\sigma<1/4$. The proof follows the program of Jia and \\v Sver\\'ak, with a discretely self-similar background in place of a self-similar one. The background is an exact unforced solution built from a train of thin vortex rings, which we obtain by lifting a periodic row of planar vortices with Gaussian stream function. We construct a growing Floquet mode of its linearization directly, from the angular-two instability of the planar vortex, and conclude by a nonlinear correction and a localization of the datum.",
+"authors": [
+"Tristan Buckmaster",
+"Matei Coiculescu",
+"Chen Li"
+],
+"categories": [
+"math.AP"
+],
+"link": "https://hexagonmath.org/abs/2611.00143v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00143v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00136",
+"title": "Normal Cone Is All You Need: Unsoftened Symplectic Integration Of The Newtonian N-Body Problem Across Collisions In Finite Steps",
+"abstract": "In the classical formulation of the Newtonian $N$-body problem, symplectic geometry and collision singularities appear fundamentally irreconcilable: fixed-step symplectic integrators preserve the Poincaré integral invariants on smooth orbits only by softening the gravitational potential or breaking down at close encounters, whereas classical Sundman and Levi-Civita regularizations resolve collisions only by deforming the global time flow or altering the canonical phase-space structure. In this work, we show that this dichotomy is not an intrinsic obstruction of Hamiltonian mechanics, but an artifact of working on the unblown Cartesian configuration space. By lifting the dynamics to the standard cotangent bundle $T^*\\mathbf{Q}[N]$ of the real oriented Fulton–MacPherson compactification $\\mathbf{Q}[N] = \\operatorname{Bl}_{\\Pi(N)}(M/\\mathbb{R}^3)$ and applying the Calaque–Safronov shifted cotangent deformation to the normal cone $\\mathcal{D}_Z \\mathbf{Q}[N] \\to \\mathbb{A}^1$, we construct an exact, unsoftened ($\\varepsilon = 0$) Hamiltonian splitting covered by the combinatorial atlas of $(2N-3)!!$ rooted binary Jacobi trees. Along the normal-cone degeneration, the interaction decomposes canonically into commuting Kepler–Sundman leaf flows, synchronous anti-Zeno supernodes, and a scale-invariant quadrupolar-screened apex potential of global $\\mathcal{C}^{1,1}$ regularity. Endowing the exceptional collision divisors with McGehee's unitary elastic bounce involution ($\\mathcal{B}_C^2 = \\mathrm{Id}$) renders the leaf flows globally complete and time-reversible across binary collisions in a finite number of physical steps, thereby lifting the Sheng–Suzuki negative-timestep barrier for high-order symmetric compositions. In the bi-graded Poisson–Lie algebra $\\mathcal{L}_{n,m}$ associated with this splitting, we establish a Universal Double Obstruction Theorem at order six: momentum-parity alternation prevents any pure configuration-space corrector from cancelling the leading secular error, while a non-vanishing Hall cohomology class in $H^1(D_A, \\mathcal{L}_{5,2})$ creates an incompressible $\\mathcal{O}(\\varepsilon^2 h^4)$ quadratic tidal floor. We overcome the parity obstruction by introducing a torque-free cotangent corrector $K_4 \\in \\mathcal{L}_{4,1} \\cap \\mathcal{P}_1$, realized via a palindromic Lie conjugator $\\mathcal{Z}_4^{\\mathrm{BM4}}(h)$ that vanishes naturally as $\\mathcal{O}(r^{7/2})$ at collisions (scheme $\\mathrm{PBM}_4$). Whenever the trajectory changes local Jacobi chart or dyadic step-size level, a non-commutative covariant gauge connection $T_{A\\to B}^{(\\mathrm{PBM4})}$ closes the Čech 1-cocycle on the atlas groupoid and eliminates interfacial shadow-energy jumps. Accompanied by a complete, axiom-free Lean 4 formalization and validated up to 116-bit quadruple precision against the REBOUND integrator suite (IAS15, TRACE, MERCURIUS, and WHFast), the resulting architecture preserves all Galilean Lie–Bargmann invariants to machine precision across secular, collisional, and chaotic multi-body regimes.",
+"authors": [
+"Jeremy Nusa"
+],
+"categories": [
+"math.DS",
+"math.AG",
+"math.CA",
+"math.DG",
+"math.MP",
+"math.NA",
+"math.SG",
+"cs.LO",
+"cs.MS"
+],
+"link": "https://hexagonmath.org/abs/2611.00136v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00136v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-05",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00167",
+"title": "On a counting conjecture for binary rich words",
+"abstract": "Let $R_2(n)$ denote the number of binary rich words of length $n$. We prove that \\[ \\limsup_{n\\to\\infty}\\frac{\\log R_2(n)}{\\sqrt n\\log n}=\\infty. \\] Consequently, $R_2(n)$ is not $O(n^{C\\sqrt n})$ for any fixed $C>0$, disproving the conjectured upper bound $O((n/g(n))^{\\sqrt n})$ with $g(n)\\to\\infty$. The proof combines independent permutation families through an ordered concatenation construction and a binary gap encoding.",
+"authors": [
+"Max Glass"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00167v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00167v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00142",
+"title": "Origin-Centered Mobius Circles, Bernoulli Lemniscates, and Beta–Gamma Dyadic Pairings of the Riemann Zeta Function on the Critical Line",
+"abstract": "We investigate the complex geometry of the normalized Dirichlet eta terms $t_n(s) = \\frac{1}{1 - 2^{1-s}} \\frac{(-1)^{n-1}}{n^s}$ for $s = a + bi$. Whereas individual terms on the critical line $\\operatorname{Re}(s) = \\frac{1}{2}$ undergo a nearly sixfold modulus oscillation driven by the Euler prefactor $(1 - 2^{1-s})^{-1}$, the two-term partial sum $S_2(s) = t_1(s) + t_2(s)$ traces an exact Mobius circle for every fixed $a \\neq 1$ that is centered at the origin $(0,0)$ if and only if $\\operatorname{Re}(s) = \\frac{1}{2}$, where it reduces to a scaled Blaschke factor $\\sqrt{\\frac{1}{2}} B(z)$ of constant radius $\\sqrt{\\frac{1}{2}}$. Factoring $m^{-s}$ across odd-even dyadic pairs $P_m(s) = t_m(s) + t_{2m}(s) = m^{-s} S_2(s)$ eliminates prefactor amplitude oscillations entirely, collapsing precessing annular rosettes into concentric origin-centered circles on the critical line with strictly descending radii $R_m = \\sqrt{\\frac{1}{2m}}$. Removing all odd-even pairs leaves the complementary multiples-of-$4$ terms $t_{4k}(s) = k^{-s} t_4(s)$: we prove that on the critical line the anchor term $t_4(\\frac{1}{2} + ib)$ traces an exact Lemniscate of Bernoulli with foci at $(0,0)$ and $(1,0)$ (uniquely for $\\operatorname{Re}(s) = \\frac{1}{2}$), pure powers of $2$ ($k = 2^r$) trace closed periodic multi-loop rational curves, and non-powers of $2$ trace precessing lemniscate rosettes, while the dyadic differences $D_{4m}(s) = t_{4m}(s) - t_{8m}(s) = -4^{-s} P_m(s)$ collapse both families into exact origin-centered circles, partitioning the sequence $\\{t_n(s)\\}_{n=1}^{\\infty}$ termwise and decomposing $\\zeta(s)$ via analytic continuation. Finally, we establish a pointwise velocity--modulus duality $\\left|\\frac{dt_4}{d\\theta}\\right| = \\left|t_2\\left(\\frac{1}{2} + ib\\right)\\right| = \\sqrt{\\frac{n}{2}} \\left|t_n\\left(\\frac{1}{2} + ib\\right)\\right|$ ($\\theta = b \\ln 2$) and a double-angle Blaschke identity $-z B(z) = e^{i 2\\alpha(b)}$ linking the central polar angle $\\alpha(b)$ of $t_4(\\frac{1}{2} + ib)$ to its fundamental perimeter $L(t_4) = \\frac{\\Gamma(1/4)^2}{2\\sqrt{\\pi}}$, thereby parameterizing every individual term $t_n(\\frac{1}{2} + ib)$ and every concentric dyadic circle on the critical line in terms of the regularized inverse incomplete Beta function $I_{q(b)}^{-1}(\\frac{1}{4}, \\frac{1}{2})$. As a geometric consequence, critical-line zeros $\\zeta(\\frac{1}{2} + ib) = 0$ are reframed as values of $b$ where the resultant of the inner concentric circles lands on the antipode $-P_1(\\frac{1}{2} + ib)$ of the initial circle of constant radius.",
+"authors": [
+"Ryan Hackbarth"
+],
+"categories": [
+"math.CV",
+"math.HO",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00142v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00142v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00152",
+"title": "Proof-Carrying Modernization: LLM Translations of COBOL Batch Programs, Each Proved Against the Original in Lean",
+"abstract": "Large language models translate legacy code quickly, but a translation can differ from the original on inputs that no test exercises. We show that LLM translations of whole, unmodified COBOL programs into Rust and Java can be proved in Lean 4 to behave like our semantics of the originals on every admissible input: a bounded number of well-formed records, among other premises. The COBOL semantics is executable; it computes record layouts, decimal arithmetic and file handling from our front end’s output for the unmodified source. For the eight standalone batch programs of AWS CardDemo covered by that front end, all 16 translations are proved, as equivalences for Rust and as refinements with partial correctness for Java. The statements are generated from the programs except for a few small parts, LLM agents write the proofs, and Lean’s kernel checks them. Before any proof, 35% of the first running translations differed from our semantics of the original on a generated input, and no proof found a difference that this testing had missed.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00152v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00152v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00155",
+"title": "Quartic Fekete points on every real simplex",
+"abstract": "We prove that on every real simplex Bos's quartic interpolation nodes uniquely maximize the absolute Vandermonde determinant, up to ordering, among all configurations of the prescribed size. In dimension four the squared Euclidean norm of the cardinal vector exceeds one at the centroid. We bound its excess by products of the cardinal polynomials for tetrahedral face centers. These products also measure correlations between columns of the evaluation matrix, which give the required loss in the determinant. An elementary consequence of the same corrected squared-norm estimate is Bos's fourth-power bound in every dimension, with equality exactly at the nodes. The corrected estimate follows from cubic perturbations, reduction to at most two distinct positive coordinate values, and coefficient monotonicity in their multiplicities. All polynomial bounds are given explicitly. The common base case is the tetrahedral Fej\\'er bound previously stated by Panda and Pal in equivalent optimal-design form. We give an independent proof of that bound and determine all its equality points.",
+"authors": [
+"Yunpeng Li"
+],
+"categories": [
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00155v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00155v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00159",
+"title": "Saouter's primality criterion in Lean, a ladder constant, and a 25 rung route to odd Goldbach up to $10^{20}$",
+"abstract": "This note gives Lean proofs, with no hypothesis, of the primality criterion of Saouter's paper, Lemma 1 for every even $F$, Theorems 1 and 2, and it records the reading of the constant on page 865 under which the formula agrees with the rest of the paper; separately, given the published even Goldbach computation to $4\\cdot 10^{18}$ as an explicit hypothesis, a ladder of 25 Proth primes reaches $10^{20}$ in the Lean kernel. The binary Goldbach conjecture remains open and this note makes no progress on it. The ternary Goldbach theorem for all odd numbers is Helfgott's (arXiv:1312.7748), and it is not formalized here and not used.",
+"authors": [
+"Steve Hubbard"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00159v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00159v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00162",
+"title": "Schmeisser’s Conjecture in Large Degree",
+"abstract": "We prove Schmeisser’s conjecture for all sufficiently large degrees.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.00162v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00162v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00154",
+"title": "Sheil-Small's (1974) covering problem has a positive answer",
+"abstract": "T. Sheil-Small asked whether every self-inversive polynomial maps the unit disc onto a domain that contains a disc whose radius is the largest modulus of the polynomial's coefficients (Problem 4.24 in Hayman and Lingham's problem book). We show that the answer is yes. More generally, every non-constant polynomial whose coefficients have the same moduli when read in reverse order maps the unit disc onto a domain that contains an open disc of this radius. This class contains the self-inversive polynomials and the polynomials whose zeros, with multiplicity, are symmetric under taking reciprocals (the problem's printed definition of self-inversive). The radius cannot be increased. For a polynomial with all its zeros on the unit circle, the largest disc in the image has radius exactly half the maximum modulus on the circle. For these polynomials the question is therefore equivalent to the known bound: every coefficient has modulus at most half this maximum (O'Hara-Rodriguez, Saff-Sheil-Small, Kristiansen). The new case is that of polynomials with zeros off the unit circle. We treat this case with the Schur-Cohn Hermitian form and that bound. The main theorem is also proved in the Lean 4 proof assistant, with that bound taken as given.",
+"authors": [
+"DAVE GOEL"
+],
+"categories": [
+"math.CV",
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.00154v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00154v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00166",
+"title": "The constant Steiner kernel is not optimal at large girth",
+"abstract": "In the paper \"nonlinear lower-tail large deviations at criticality\", we bound the number of order-$n$ Steiner triple systems with no Pasch configuration. In doing so, we show that a certain variational problem is minimised by a constant kernel. Using ChatGPT 6 Pro, we also discovered that the analogous variational problems for Steiner triple systems of girth at least $g$, for large $g$, are *not* minimised by the constant kernel, and we included a brief remark to this effect. In this note (not intended for publication), we present the details of this proof.",
+"authors": [
+"Matthew Kwan",
+"Huy Tuan Pham"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00166v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00166v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00161",
+"title": "The four-dimensional Hessian conjecture for potentials of degree at most five",
+"abstract": "The Hessian conjecture HC_n asserts that if f in C[x_1,...,x_n] has det Hess(f) in C^×, then ∇f is a polynomial automorphism. It is known for n ≤ 3, false for n ≥ 5, and open for n = 4, where it implies the plane Jacobian conjecture. Ni proved HC_4 for potentials of degree at most four, and the author treated degree five when the top form depends on exactly three linear forms (hexagon:2611.00134). We prove HC_4 for every potential of degree at most five. The remaining top forms are a binary form or a fifth power of a linear form. Both cases are reduced, by weighted layers of the Hessian determinant and exact computer algebra over Q, to four elementary mechanisms: a Schur complement in one variable (which reduces to HC_3), a partial Legendre transform in two variables (which reduces to HC_2), a \"dead direction\" lemma (which reduces to HC_2 and the plane Jacobian conjecture in degrees at most (3,4), known by Moh), and explicit triangular inverses. Five self-contained verifiers are supplied as ancillary files. The paper has not been refereed.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.00161v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00161v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00134",
+"title": "The four-dimensional Hessian conjecture for quintic potentials with a ternary cone top",
+"abstract": "The Hessian conjecture $\\mathrm{HC}_n$ asserts that if $f\\in\\mathbb{C}[x_1,\\dots,x_n]$ has $\\det\\operatorname{Hess}(f)\\in\\mathbb{C}^\\times$, then $\\nabla f$ is a polynomial automorphism. It is known for $n\\le 3$, false for $n\\ge 5$, and open for $n=4$, where it implies the plane Jacobian conjecture. Z. Ni proved $\\mathrm{HC}_4$ for potentials of degree at most four. We prove $\\mathrm{HC}_4$ for every potential of degree five whose top homogeneous form depends on exactly three linear forms. The proof combines a weighted analysis of the Hessian determinant with exact computer-algebra certificates (Groebner bases and Rabinowitsch tests over $\\mathbb{Q}$); one branch reduces to plane Jacobian pairs of degrees $(4,3)$, which are excluded by Magnus' theorem. A self-contained verifier is supplied as an ancillary file. The binary and unary cone tops in degree five remain open.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.00134v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00134v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-05",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00164",
+"title": "The Haagerup center at central charge eight via conformal nets",
+"abstract": "Let $S\\subset V_{E_6\\oplus A_2}$ be the unitary vertex operator algebra of central charge eight with currents at levels $(3,13)$ constructed in our previous work. An exact presentation of a full corner of its Zhu algebra gives strong rationality, the twelve simple modules and the lattice branching rules. Using these results, we identify the representation category of its conformal net with the Haagerup center $Z(\\mathcal{H}_3)$. We construct a holomorphic diagonal extension of $\\mathcal {A}_S\\otimes \\mathcal{A}_S$ and apply the vacuum trace class theorem of Henriques and Tener to prove trace class heat operators in every sector of $\\mathcal{A}_S$. Reconstruction gives a unitary holomorphic vertex operator algebra containing $S\\otimes S$ as mutual commutants. The coset theorems of Gui then give the complete unitarity of $S$ and a braided equivalence $\\mathrm{Rep}(S) \\cong Z(\\mathcal{H}_3)$, so that $S$ is a Haagerup algebra. Using results of Dong, Jiao and Xu, we also identify the Huang--Riesen algebra with the twin of $S$ and describe their common fixed point algebra using the intersection of the two binary lattices of discriminant $-39$.",
+"authors": [
+"Cédric ARHANCET"
+],
+"categories": [
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2611.00164v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00164v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00158",
+"title": "Undecidability of Quiver Mutation Equivalence",
+"abstract": "We prove that quiver mutation equivalence up to relabeling is undecidable even for one fixed source quiver. We also prove strong NP-hardness.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.CO",
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2611.00158v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00158v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00140",
+"title": "Vertex splitting, global rigidity and nondegenerate equilibrium stresses",
+"abstract": "We prove Whiteley's conjecture that every nontrivial vertex split of a generically globally rigid graph preserves generic global rigidity in \\(\\mathbb{R}^d\\), for all \\(d\\geq1\\). We give two proofs of the stronger assertion that the split graph is infinitesimally rigid at every generic coincident realisation of the two split vertices. Both proofs use maximum-rank equilibrium stress matrices and then apply the coincident-rigidity criterion of Cruickshank, Jackson and Tanigawa. The second construction also shows that every generically globally rigid graph admits a nondegenerate equilibrium stress of maximum rank at every generic realisation, establishing a conjecture of Jord\\'an and Tanigawa.",
+"authors": [
+"James Cruickshank"
+],
+"categories": [
+"math.CO",
+"cs.DM"
+],
+"link": "https://hexagonmath.org/abs/2611.00140v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00140v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00149",
+"title": "What the ETH refutations do not give: barriers for the counting engines, with machine-checked lemmas",
+"abstract": "In October 2026 OpenAI and Anthropic each claimed a deterministic subexponential algorithm for counting the solutions of a $k$-CNF; both counting engines sum products of local tables. For SAT itself, Majdoddin bounds the rate of Anthropic's grid recursions with product terms, and Dias and Lima bound OpenAI's clause-product scheme. However, Majdoddin notes that no barrier is known for decompositions whose terms are not products, and neither paper treats the counting problems beyond SAT. We introduce the engine barrier problem: bound from below the shared bits $U$ of every network of a stated class that computes a given count, and the rate of every recursion of a stated class. Our approach puts a rank on every cut of a local network, and on one contraction inside both flattenings of a term. Machine-checked in Lean are: correlated (non-product) decompositions of two rectangles, of the $3\\times2$ grid and of the full $3\\times3$ grid level have flattening-rank sums at least $N^2$, $N^3$ and $N^8$, while $N^9$ is open; the row cut of the permanent has rank $\\binom nk$, which on paper gives $U\\ge n\\log_2(n/s)$ for row-local networks; algebras in which the permanent is a functional of a product have dimension at least $\\binom n{n/2}$; pieces have saving $\\rho\\ge1/2$ (rank form; Anthropic's observation); and exact colouring filters for Hamiltonicity need $q\\ge n-4$ colours. On paper we prove $U\\ge(1-o(1))n\\log_2n$ for vertex-local networks for the Tutte polynomial off the integer hyperbolas, and $\\rho\\ge3/8$ for correlated decompositions of full grid levels. We cite $45$ Lean theorems, with standard axioms only. Every barrier is about a named model: in Anthropic's general model no unconditional bound on $U$ exists without separating $\\mathrm P$ from $\\mathrm P^{\\#\\mathrm P}$, and an unconditional cap on oblivious algebraic algorithms would separate $\\mathrm{VP}$ from $\\mathrm{VNP}$.",
+"authors": [
+"Vaibhav Tulsyan"
+],
+"categories": [
+"cs.CC",
+"math.CO",
+"cs.DS",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00149v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00149v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
