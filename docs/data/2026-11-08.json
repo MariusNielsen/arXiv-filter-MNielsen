@@ -1,0 +1,470 @@
+{
+"day": "2026-11-08",
+"updated": "2026-11-08T11:22:28+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2611.00188",
+"title": "A bigon-free dichotomy for pseudoline arrangements, after a note of Grothendieck",
+"abstract": "A pseudoline of an arrangement in the real projective plane is bigonal when it carries exactly two vertices of the arrangement. In an undated folder of working notes from the early 1980s, Grothendieck states that every arrangement without bigonal pseudolines is either four pseudolines in general position or contains one of three configurations: five pseudolines in general position, a pencil of three and a pencil of two without the line joining their centres, or the complete quadrangle. The notes derive this from a statement that is false as written, and they give no independent proof. We give a short proof, together with the ordering of the pseudolines that the notes ask for, and we deduce that for n ≥ 6 the near-pencils are the only arrangements of n pseudolines containing none of the three configurations. The dichotomy has been checked by an exhaustive enumeration of all arrangements of at most nine pseudolines, and it is formalised in the proof assistant Lean for a combinatorial model of arrangements, generalised maps of Euler characteristic one.",
+"authors": [
+"Michel Hua"
+],
+"categories": [
+"math.CO",
+"math.HO",
+"math.MG",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00188v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00188v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00178",
+"title": "A certified exponent of 0.48758 for worst-case Subset Sum, and limits of the alias–checksum analysis",
+"abstract": "For more than fifty years, since Horowitz and Sahni's meet-in-the-middle algorithm of 1974, the best exponent for worst-case Subset Sum was $1/2$. In October 2026 that barrier fell twice within a week, with OpenAI's $2^{0.49n}$ algorithm and, independently, Li and Ye's $2^{(1/2 - 1/450000)n} \\approx 2^{0.4999978n}$, and improvements have followed quickly since: within three weeks A. Kapila's modification of the OpenAI approach (\"Base\") reached 0.4877, a retuning of Base by JoshuaQFEX reached 0.487676, and a refinement by Y. Bills reached 0.4876723. Here we push this line of work further and examine what limits it. Conditional on the cited non-numerical proofs, we give a certified parameter point with threshold $T=0.4875754036$: for every fixed $T'>T$, the uniform randomized algorithm uses $O(2^{T'n})$ word operations on inputs of polynomial bit length, with success probability at least $2/3$. In particular, it runs in time $O(2^{0.4875755n})$. A single asymmetric filter replaces Base's family of 43 filters. Independent interval computations certify all required numerical conditions, including both filtering moments and their quadrature errors. We prove a lower bound on the first filtering moment, valid for all positive continuous densities, that excludes every parameter choice with $\\tau\\le0.484$ in the original OpenAI proof's sufficient budget. Three algebraic bounds explain the costs at our improved point. Separately, an enumeration phase that inserts at least $2^{(1-\\eta-o(1))n}$ alias classes, spending a counted step on each, and uses checksum gap at most $\\Delta$ needs exponent at least $(1-\\Delta)/2$. This is a conditional operation-count bound; a global upper bound on achievable checksum capacity remains open. Finally, we isolate a small-layer statement that would yield threshold $0.4873407528$, prove combinatorial special cases, and identify the remaining questions.",
+"authors": [
+"Jennifer Voitle"
+],
+"categories": [
+"cs.DS",
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2611.00178v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00178v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00170",
+"title": "A Lean formalization of Waldschmidt's subgroup theorem with period term for groups with elliptic factors",
+"abstract": "We formalize in Lean 4 with Mathlib Waldschmidt's algebraic subgroup theorem with period term (Theorem 4.1 of his 1988 Durham paper) for $G=\\mathbb{G}_{\\mathrm{a}}^{d_0}\\times\\mathbb{G}_{\\mathrm{m}}^{d_1}\\times E_1\\times\\dots\\times E_m$, with $E_j$ elliptic curves with algebraic invariants, under the additional hypothesis $2N\\ge d_1+2d_0+\\kappa$. The proof uses only Lean's three standard axioms. Along the way we give what we believe are the first formal proofs of Schneider's theorems on elliptic functions and of the Schneider--Lang criterion, and the first Lean library for the Weierstrass $\\sigma$ and $\\zeta$ functions. Restricted forms of the theorem cover some vector extensions and the Jacobian of $y^5=x(1-x)$. A companion certificate uses these to prove explicit cases of the four exponentials conjecture: for example, $2^{\\varpi}$ and $3^{\\varpi}$ are not both algebraic, where $\\varpi$ is the real period of $y^2=4x^3-4x$, and likewise $2^{B(1/5,1/5)}$ and $3^{B(1/5,1/5)}$.",
+"authors": [
+"Shawn Krisman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00170v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00170v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00180",
+"title": "Complexity of Mutation-Acyclicity and Matrix Mutation Equivalence",
+"abstract": "Mutation-acyclicity of integral skew-symmetrizable matrices belongs to NP. Mutation equivalence belongs to promise-NP when at least one input is mutation-acyclic. For pairs of mutation-cyclic matrices, mutation equivalence is RE-complete and strongly NP-hard. Both results hold even for connected skew-symmetric matrices.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.CO",
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2611.00180v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00180v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00186",
+"title": "Counterexamples to Source–Sink Recursions for Denominator Vectors",
+"abstract": "Reading and Stella’s source–sink recursions for denominator vectors, Conjectures 2.7 and 2.8, fail for an infinite family of four-vertex exchange matrices. The member realized by an unpunctured annulus with one marked point on one boundary and three on the other also refutes their Theorem 2.11.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.CO",
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.00186v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00186v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00172",
+"title": "Degree Transport and a Smaller Cubic Coefficient for Reset Thresholds",
+"abstract": "We prove that every synchronizing complete deterministic finite automaton on $n\\ge2$ states has reset threshold at most $\\frac{8242}{49923}n^3+O(n^2)$. The cubic coefficient improves on Shitov's $8257/49923$ by $5/16641$. The main ingredient is a degree-transport inequality for graphs of state pairs mergeable by short words. It relates a long gap between consecutive minimum-rank word lengths to a large corank achievable in at most $n-1$ letters. Combining this relation with a discrete dual of Shitov's counting argument gives the improvement. An appendix makes the quadratic remainder explicit for every $n\\ge2$. The argument applies to arbitrary finite alphabets and does not prove the quadratic Černý conjecture.",
+"authors": [
+"SUNGBIN HONG"
+],
+"categories": [
+"cs.FL"
+],
+"link": "https://hexagonmath.org/abs/2611.00172v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00172v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00169",
+"title": "Foregger's Conjecture on Minimum Permanents of Nearly Decomposable Doubly Stochastic Matrices",
+"abstract": "We prove Foregger's conjecture: every nearly decomposable doubly stochastic matrix $A$ of order $n\\ge2$ satisfies $\\operatorname{per}A\\ge 2^{1-n}$. Equality holds exactly for matrices obtained from $\\tfrac12(I_n+P_n)$ by independent row and column permutations, where $P_n$ is a single-cycle permutation matrix. In fact, for every fixed nearly decomposable support whose bipartite graph is not a single cycle, the minimum permanent on its closed doubly stochastic face is strictly larger than $2^{1-n}$.",
+"authors": [
+"Yair Lavi"
+],
+"categories": [
+"math.CO",
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.00169v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00169v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00171",
+"title": "Four exponentials at CM and Beta periods",
+"abstract": "For every nonzero eigen-period $P$ of a CM abelian variety over $\\overline{\\mathbb{Q}}$, we show that the four exponentials conjecture and its strong form hold at $t\\in\\overline{\\mathbb{Q}}^\\times P^{\\pm1}$ and $t\\in\\overline{\\mathbb{Q}}^\\times(P/\\pi)^{\\pm1}$; these include Beta values such as $t=\\Gamma(1/5)^2/\\Gamma(2/5)$. For an elliptic curve $E$ over $\\overline{\\mathbb{Q}}$ with complex multiplication, we also show that $e^{\\pi^2}$ and $\\wp_E(1/\\pi)$ are not both algebraic. Further results concern two CM elliptic curves: for example, $\\pi,\\varpi,\\Omega_\\rho,\\varpi\\Omega_\\rho$ are linearly independent over $\\overline{\\mathbb{Q}}$, where $\\varpi$ and $\\Omega_\\rho$ are periods of $y^2=4x^3-4x$ and $y^2=4x^3-4$. These are explicit consequences of published theorems of Waldschmidt (1988) and Roy–Waldschmidt (1993), together with classical results of Baker, Schneider, Masser and Wüstholz; the contribution is the statements and the proofs written out at these periods. Cases at specific periods, such as that $2^{\\varpi}$ and $3^{\\varpi}$ are not both algebraic, are checked in Lean 4 and reported separately.",
+"authors": [
+"Shawn Krisman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00171v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00171v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00176",
+"title": "Four-cycle supersaturation and polarity stability at $q^2+q$ vertices",
+"abstract": "Let $m_0=\\frac12q(q+1)^2-q$. For every even $q\\ge1600$, we prove that a graph on $q^2+q$ vertices with at least $m_0+1$ edges contains at least $\\lceil(q-1)/12\\rceil$ four-cycles. For powers of two in this range, $m_0$ is the extremal number and a polarity construction has exactly $q-1$ four-cycles at $m_0+1$ edges. These bounds determine the order of magnitude of the minimum count on this sequence. We also prove a stability theorem: for every nonnegative integer $b$ and every even $q\\ge10^{18}(b+1)^{16}$, each $C_4$-free graph on $q^2+q$ vertices with $m_0-b$ edges is a spanning subgraph of an orthogonal polarity graph with one point deleted. The required degree bounds follow from the edge count. As a consequence, a graph on $q^2+q$ vertices with $m_0+1$ edges has at least $q-1$ four-cycles if an edge set of size $t\\ge1$ meets every four-cycle and $q$ is even with $q\\ge10^{18}t^{16}$. The counting proof uses a codegree commutator; the stability proof combines degree-deficit concentration with incidence completion and polarity extension.",
+"authors": [
+"Zhenyu Sun"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00176v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00176v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00183",
+"title": "Globally periodic rational difference equations of arbitrary order",
+"abstract": "A rational difference equation of order $k$ with nonnegative coefficients is globally periodic if every solution with positive initial data repeats with a common period. Five such equations have long been known, among them the Lyness equation $x_{n+2}=(1+x_{n+1})/x_n$, and a problem of Gasull asks whether every globally periodic equation of this kind is obtained from one of the five by rescaling and unfolding. The answer was known to be yes for $k\\in\\{1,2,3,4,5,7,9,11\\}$. Here I show that it is yes at every order. The proof rests on two ideas. The first is a tropical degeneration: global periodicity forces an associated min-plus recursion to be periodic, and this is refuted, for every choice of coefficients at once, by an unbounded solution of the min-plus recursion linearised along a periodic orbit. The second is the $\\sigma$-bump, a linearised solution whose existence reduces to a combinatorial condition on residues modulo $2k$; in the hardest case that condition comes down to a lemma on three-term progressions under unit multipliers modulo $2k$. The proof, including its finite computations, has been formalised in the Lean proof assistant.",
+"authors": [
+"John Rudge"
+],
+"categories": [
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00183v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00183v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00181",
+"title": "Height-bounded mutation to acyclic quivers on four vertices",
+"abstract": "We prove Conjecture 5.5 of Armstrong-Williams, Hirst, Jackson and Lee.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.CO",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00181v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00181v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00168",
+"title": "HOLOMORPHIC SECTIONAL CURVATURE OF FLAG MANIFOLDS VIA KÄHLER REDUCTION",
+"abstract": "We give an alternative proof that every invariant Kähler metric on a compact generalized flag manifold has positive holomorphic sectional curvature. Invariant Kähler metrics on unitary partial flag manifolds are realized as reductions of Hermitian vector spaces at compact moment-map levels contained in spheres. A curvature identity for linear Kähler quotients gives an explicit positive lower bound. For an inclusion of compact connected Lie groups, we prove that the induced inclusion between adjoint orbits through the same Lie algebra element is holomorphic, isometric, and totally geodesic for the Kähler structures determined by an invariant inner product and its restriction. This reduces the general case to unitary flags. We also obtain a strict estimate for the second fundamental form of the anticanonical projective embedding",
+"authors": [
+"Ching Hsien Lee"
+],
+"categories": [
+"math.DG"
+],
+"link": "https://hexagonmath.org/abs/2611.00168v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00168v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-06",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00190",
+"title": "Positivity of Canonical Basis Multiplication in Modified Quantum Groups",
+"abstract": "We prove the multiplication part of Lusztig’s positivity conjecture for symmetric Cartan data.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.QA",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00190v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00190v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00185",
+"title": "Singleton Dominance Regions in Affine Cluster Algebras",
+"abstract": "For an extended exchange matrix of affine type, the dominance region of every point in an extended (g)-vector cone consists of that point alone.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00185v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00185v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00175",
+"title": "The Hawking-Page transition at weak coupling",
+"abstract": "In anti-de Sitter space a black hole forms through a first-order phase transition, discovered by Hawking and Page. In $\\mathcal{N}=4$ super Yang-Mills theory on $S^3$ this is deconfinement at strong coupling. Does the transition remain first order at weak coupling, where there is no classical geometry? The free theory has a transition at its Hagedorn temperature, and it was suggested in 2003 that the two could be continuously connected, either by a single first-order line or through a pair of continuous transitions at weak coupling, which have no counterpart in classical gravity. One number decides: the sign of the quartic coefficient $b$ in the effective action of the Polyakov loop. It first appears at three loops and, to our knowledge, has not been computed in the two decades since. We find $b=-1.48\\times10^{-3}\\,\\lambda^2$, where $\\lambda$ is the 't Hooft coupling. The transition is first order. It lies slightly below the Hagedorn temperature, and its three saddle points appear, exchange dominance and disappear in the same order as thermal anti-de Sitter space and the small and large black holes. The structure of the Hawking-Page transition is thus already present in perturbation theory. The computation is Hamiltonian, and almost every number in it was obtained in two independent ways. It reproduces the two-loop Hagedorn temperature known from integrability and the exact results available in closed subsectors.",
+"authors": [
+"Anthropic"
+],
+"categories": [
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00175v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00175v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00173",
+"title": "The L'vov--Kaplansky conjecture for multilinear polynomials of degrees four to six",
+"abstract": "Let $K$ be an algebraically closed field of characteristic zero. We determine the images of ordinary multilinear polynomials of degrees four, five and six on matrix algebras. For $n\\geq3$, a nonidentity has image $\\mathfrak{sl}_n(K)$ when its cyclic class is zero and $M_n(K)$ otherwise. In these degrees the only nonzero identity exception is the standard degree-six line on $M_3(K)$. The proof starts with proper sextics and treats arbitrary sextics by unit restrictions and local trace lifting. An image-preserving product substitution then gives degrees four and five as consequences. We also give cyclic and matrix lifting results applicable in arbitrary degree. The finite calculations are given by explicit matrix-unit identities.",
+"authors": [
+"Shengyong Pan"
+],
+"categories": [
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.00173v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00173v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00179",
+"title": "The Lu–Wenzel Conjecture",
+"abstract": "We prove the Lu–Wenzel conjecture for real and complex matrices.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RA",
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2611.00179v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00179v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00184",
+"title": "The L’vov–Kaplansky Conjecture for Standard Polynomials",
+"abstract": "The L'vov–Kaplansky conjecture asks whether the image of a multilinear polynomial on a full matrix algebra is a vector subspace. For the unnormalized standard polynomial $s_d$ over an algebraically closed field $K$ of characteristic zero, the sets of individual matrix values are determined in every degree and order. The image of $s_{2r-1}$ is zero when $n<r$ and all of $M_n(K)$ when $n\\ge r$; the image of $s_{2r}$ is zero when $n\\le r$ and $\\mathfrak{sl}_n(K)$ when $n\\ge r+1$. The odd-degree proof uses explicit linear slices and Jordan forms. The even-degree argument combines a uniform nilpotent construction and an additive transfer for admissible cores with generic-nullity results of Brassil–Reichstein and Lin–Tang–Zhao, extending a method of Qiyue Tang to obtain actual polynomial values.",
+"authors": [
+"Y. T. Miah"
+],
+"categories": [
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.00184v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00184v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00191",
+"title": "The orphan theorem: degenerate perpendicular orbits in rational right triangles",
+"abstract": "Let $T$ be a right triangle with acute angle $\\alpha$, legs $L_1$, $L_2$ and hypotenuse $H$, and suppose $T$ is rational: $2\\alpha/\\pi = P/Q$ in lowest terms. Shoot a beam perpendicular to the leg $L_1$ from each of its points. The leg is partitioned into branches — maximal intervals of launch heights sharing a combinatorial type — and we prove that the partition is finite, with at most $2Q + 1$ branches, which cover the leg but for finitely many points. The first-return map $J$ of the beam to $L_1$ is an involution, and on each branch it does one of two things: it carries the branch onto a distinct branch of equal width by a reflection, or it fixes the branch pointwise. A pointwise-fixed branch — a whole interval of trajectories that hit a side head-on and retrace — is an orphan. Theorem A. There is no orphan branch when $P$ is even and at most one when $P$ is odd, with no hypothesis on the direction; when $P$ is odd and $Q$ is a prime power, or twice or four times a prime, the orphan exists. Non-existence is a parity count on the velocity set of the unfolded beam. Uniqueness is an Euler count on the genus-zero quotient of the unfolded surface, which admits minimal components. Existence is arithmetic: on a folded disc, an absent orphan forces $1$ to be a signed sum of doubled heights of images of the right-angle vertex, which is impossible at the centres named. Running the direction count and the Euler count for each side shows that at most two of the three sides carry a retracing cell, at most one each, the two ends of one band of double normals. On the unfolded surface — the holonomy double cover of a genus-zero quadratic differential $Q(P-2, Q-P-2, -1^Q)$ — the images of the right-angle vertex are Weierstrass points, the leg is the quotient by the hyperelliptic involution of a geodesic segment through one of them, and the first-return map is read in that quotient.",
+"authors": [
+"Joshua Boorstein"
+],
+"categories": [
+"math.DS",
+"math.GT",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00191v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00191v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00174",
+"title": "The spinless modular bootstrap at large central charge",
+"abstract": "The spinless modular bootstrap bounds the dimension $\\Delta_1$ of the lightest primary other than the vacuum in a two-dimensional conformal field theory, using only modular $S$ invariance of the torus partition function at zero angular potential. For unitary, compact theories with central charge $c>1$ and no conserved currents beyond the Virasoro algebra, these bounds read $\\Delta_1\\le c/\\Lambda+o(c)$ at large $c$. The best slope $\\Lambda$ was known only to lie between $8.503$ and $12$, where the bound would reach the BTZ black hole threshold. We show that it is exactly $\\Lambda_V=12\\pi^2/(\\pi^2+4\\,\\mathrm{arcsinh}^2 1)\\approx9.1266$. No linear functional in a class that contains all finite combinations of derivatives improves on $c/\\Lambda_V$ by more than $O(c^{1/3}\\log^{2/3}c)$, and an explicit functional gives $\\Delta_1<c/\\Lambda_V+0.483\\,c^{1/3}+O(1)$ for all sufficiently large $c$. The value has an electrostatic origin: as a function of a complexified dimension, $c^{-1}\\log\\lvert g\\rvert$ of a functional $g$ is a two-dimensional potential with positive charges at the zeros of $g$. Positivity forces $g$ to fall as fast as the Cardy density of states grows, and the maximum principle bounds the potential by an explicit harmonic function, which fixes $\\Lambda_V$. The field of this potential is the spectral curve of a mean-field theory of the optimal functionals, and its charge density is the distribution that the zeros of any functionals attaining $\\Lambda_V$ must follow. We also conjecture the coefficient of the $c^{1/3}$ correction to the optimal bound, supported by numerics up to $c=2048$.",
+"authors": [
+"Anthropic"
+],
+"categories": [
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00174v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00174v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00189",
+"title": "The tangent line at a marked point on $M_{0,n}/\\mathfrak S_{n-1}$, after a table of Grothendieck",
+"abstract": "Let $L_n$ be the line bundle on $M_{0,n}$ whose fibre is the tangent line to $\\mathbb P^1$ at the last marked point, and $L$ the tensor product of the tangent lines at all of them. We show that, in characteristic zero, the Picard group of the quotient stack $[M_{0,n}/\\mathfrak S_{n-1}]$ is cyclic of order $(n-1)(n-2)$ for every $n \\ge 3$, generated by $L_n$, and that $L$ has order $n-1$ in $\\operatorname{Pic}[M_{0,n}/\\mathfrak S_n]$. For even $n \\ge 6$ the group was known, through the integral Chow ring computed by Edidin and Hu; the odd case does not seem to be in print. The question comes from a table in Grothendieck’s working notes, which gives these orders for four points and only guesses for five and six. The proof takes a few lines once the stack is written as monic squarefree polynomials modulo the affine group. An elementary version, with explicit trivialisations and fixed configurations, is formalised in Lean.",
+"authors": [
+"Michel Hua"
+],
+"categories": [
+"math.AG",
+"math.CO",
+"math.HO",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00189v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00189v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-07",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
