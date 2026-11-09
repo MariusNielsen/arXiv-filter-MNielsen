@@ -4,6 +4,226 @@
  ],
  "feed": [
   {
+   "day": "2026-11-09",
+   "paper": {
+    "abstract": "We introduce an $\\infty$-categorical model of operad pairs and their associated bimonoidal categories. We study the related concepts such as cocartesian-cartesian operad pairs, algebra pairs and the Day convolution. Using the Day convolution for operad pairs, we can define distributive functors between a symmetric bimonoidal category and a cartesian closed monoidal category. As an application, we show that for a finite group $G$, the operadic distributive functors from $\\mathrm{Span}(\\mathsf{Fin}_G)$ to any cartesian closed monoidal category coincides with the distributive functors defined by the distributive diagram. Therefore, we show that the connective $G$-equivariant $\\mathbb{E}_{\\infty}$-ring spectra are equivalently the spectral $G$-Tambara functors.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Aowen Fan"
+    ],
+    "categories": [
+     "math.AT",
+     "math.CT"
+    ],
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.09115",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.09115",
+    "pid": "2611.09115",
+    "reasons": [
+     "title: infinity operad",
+     "abstract: ring spectr",
+     "abstract: e_infinity-ring"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Infinity operad pairs, higher distributivity and spectral Tambara functors",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-09",
+   "paper": {
+    "abstract": "We prove that the space of equivariant $h$-cobordisms on a smooth $G$-manifold $M$ has a tom Dieck style splitting, after stabilization. As an intermediate step, we introduce a space of isovariant $h$-cobordisms on $M$ and prove that this space also has a splitting, even before stabilizing. This completes the proof of the equivariant version of Waldhausen's stable parametrized $h$-cobordism theorem. Along the way, we establish several foundational results on equivariant smooth manifolds with corners.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Thomas Goodwillie",
+     "Kiyoshi Igusa",
+     "Cary Malkiewich",
+     "Mona Merling"
+    ],
+    "categories": [
+     "math.AT",
+     "math.GT",
+     "math.KT"
+    ],
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.09557",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.09557",
+    "pid": "2611.09557",
+    "reasons": [
+     "title: equivariant"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "The splitting of the stable space of equivariant $h$-cobordisms",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-09",
+   "paper": {
+    "abstract": "We characterise the two-step nilpotent varieties of algebras: the semi-abelian varieties in which all ternary cosmash products vanish. Just as abelian varieties are the categories of modules over a ring, two-step nilpotent varieties are exactly the categories of modules over a square ring in the sense of Baues, Hartl and Pirashvili. We construct the square ring explicitly from the full subcategory on the free algebras on one and two generators, and give complete proofs. As consequences we obtain a description of any two-step nilpotent variety by generators and relations, an intrinsic characterisation in terms of quadratic term operations, and an account of its abelian core and of the lower central series of its objects in terms of the square ring. Along the way, we associate with any commutative ring $R$ a square ring whose modules, the two-step nilpotent $R$-groups, extend Hall's nilpotent $R$-groups of class two from $2$-binomial rings to arbitrary rings of coefficients.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Logan Geenis",
+     "Manfred Hartl",
+     "Tim Van der Linden"
+    ],
+    "categories": [
+     "math.CT",
+     "math.RA"
+    ],
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.09465",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.09465",
+    "pid": "2611.09465",
+    "reasons": [
+     "title: nilpoten"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Two-step nilpotent varieties as categories of modules over a square ring",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-09",
+   "paper": {
+    "abstract": "Let $N$ denote the closed non-orientable surface of Euler characteristic $-1$, i.e. the connected sum of three real projective planes $N = \\mathbb{RP}^2 \\# \\mathbb{RP}^2 \\# \\mathbb{RP}^2$, with fundamental group presented as $\\langle A,B,C \\mid A^2 B^2 C^2 = I \\rangle$ via the standard symmetric cross-cap model. Building on the classical trace-coordinate methods of Fricke, Vogt, and Goldman for free groups, and on the qualitative study of representation varieties of non-orientable surfaces by Benyash-Krivets and Chernousov, we give an explicit affine equation for a dense open piece of the $\\mathrm{SL}_2(\\mathbb{C})$ GIT character variety $X(N)$. We prove that the trace coordinates $a = \\mathrm{tr}(A)$, $b = \\mathrm{tr}(B)$, $c = \\mathrm{tr}(C)$, $p = \\mathrm{tr}(AB)$ satisfy the polynomial relation $c^2 = abp - a^2 - b^2 + 4$, that this hypersurface is smooth and irreducible, and that on the open locus $c \\neq 0$ it is isomorphic to the image of $X(N)$ under the trace map, with the remaining trace coordinates $\\mathrm{tr}(BC)$, $\\mathrm{tr}(CA)$, $\\mathrm{tr}(ABC)$ recovered as regular functions on this locus. We further identify the boundary locus $c = 0$ with representations satisfying the matrix identity $A^2 B^2 = -I$, and describe its representation-theoretic structure, while leaving a complete global classification along this locus as an open problem. All key trace identities are proved from Cayley-Hamilton first principles and independently checked numerically against explicit matrices.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Yinxi Chen"
+    ],
+    "categories": [
+     "math.AG",
+     "math.AT"
+    ],
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.08513",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.08513",
+    "pid": "2611.08513",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "An Explicit Equation for the $\\mathrm{SL}_2(\\mathbb{C})$ Character Variety of $\\mathbb{RP}^2 \\# \\mathbb{RP}^2 \\# \\mathbb{RP}^2$",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-09",
+   "paper": {
+    "abstract": "In the lower-star filtration (LSF), simplices are assigned filtration values according to the maximum-vertex rule, with each simplex entering the filtration when its highest-valued vertex appears. A limitation of this construction is that some higher-dimensional simplices may enter simultaneously with their boundary faces, causing certain topological features to be filled immediately upon formation and thus not appear in the resulting persistence diagram. To address this limitation, we propose three alternative filtration methods: the \\(\\varepsilon\\)-lower-star filtration (ELSF), the \\(L_p\\) filtration (LpF), and the softmax filtration (SMF). {ELSF introduces a dimension-dependent delay to the maximum-vertex rule,} allowing higher-dimensional simplices to enter the filtration after their boundary faces, whereas {LpF and SMF use aggregation functions that depend on all vertex values rather} than solely on their maximum. By modifying how filtration values are assigned, these methods allow simplices to enter the filtration more progressively, so that topological features such as loops and voids may persist over longer filtration intervals rather than being filled immediately. Consequently, the resulting persistence diagrams may include persistence features that are not observed under LSF, potentially providing useful information for distinguishing data populations. Experimental results on simulated and real-world datasets demonstrate that the proposed filtration methods are computationally efficient and can provide greater sensitivity to structural differences in the data than LSF.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Innocent Abaa",
+     "Umar Islambekov"
+    ],
+    "categories": [
+     "stat.ML",
+     "cs.LG",
+     "math.AT",
+     "stat.AP"
+    ],
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.08833",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.08833",
+    "pid": "2611.08833",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Beyond the Lower-Star Filtration: Alternative Filtration Methods for Persistent Homology",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-09",
+   "paper": {
+    "abstract": "We prove that for any regular CW-complex $X$ there exists a quotient map $X\\to Y$ that is a weak homotopy equivalence and which is minimal with that property, meaning that any quotient $Y\\to Z$ that is a weak equivalence, must be a homeomorphism. The space $Y$ we obtain is an Alexandroff space: a space in which arbitrary intersections of open sets are open. The weak core $Y$ of $X$ is not unique in general. We study homotopy invariants preserved by filtered colimits of Alexandroff spaces. This can be seen as an analogous to Stong's theory of cores of finite topological spaces.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Jonathan Ariel Barmak",
+     "Juan Galotto"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.09886",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.09886",
+    "pid": "2611.09886",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Directed systems of A-spaces and weak cores",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-09",
+   "paper": {
+    "abstract": "Every connected homotopy type is the classifying space of a small category, but this general result gives little control over the categories involved. We study finite acyclic categorical models and measure their complexity by the number of objects.\n  Our main tool is the sink lemma, which describes the addition of a sink as the attachment of a cone along an explicit map. Using it, we determine the minimum number of objects required to model spheres, bouquets of spheres, Moore spaces of cyclic groups, real projective spaces, and lens spaces. We also exhibit infinitely many pairwise non-isomorphic rigid minimal models of the sphere.\n  To include spaces admitting no finite model, we introduce a truncated invariant measuring the minimum number of objects required for a finite acyclic category to approximate a space through degree n. Spreading a finite monoid over n+1 objects produces such a category with an n-connected map to the monoid's classifying space. For every nontrivial finite group, this bound is optimal, although its classifying space admits no finite acyclic model.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Isaac Carcac\\'ia-Campos"
+    ],
+    "categories": [
+     "math.AT",
+     "math.CT"
+    ],
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.09718",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.09718",
+    "pid": "2611.09718",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "How many points does it take to see the homotopy of a space? Minimal acyclic categorical models",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-09",
+   "paper": {
+    "abstract": "Persistent homology (PH) summarizes the topological features of data that persist across scales, but it is insensitive to many geometric properties. Persistent Laplacians (PLs) address this limitation: for a pair of simplicial complexes in a filtration, the kernel of the persistent Laplacian recovers the persistent Betti number, while its non-zero spectrum carries additional geometric information. However, PLs are defined for individual pairs of filtration values, so analysing a whole filtration requires evaluating many operators that largely contain the same information, and the result is hard to summarize and interpret. In this paper, we show that this redundancy has a precise structure. For each pair of filtration values, we decompose the space of chains underlying the persistent up-Laplacian into the contributions inherited from the neighboring pairs and a remaining part, which we call the new persistent chain space. We show that the new persistent chain spaces of all earlier pairs form a direct sum decomposition of this space, so that every persistent up-Laplacian in the filtration is determined by them. Moreover, the new persistent chain spaces are non-trivial only at pairs given by the persistence pairing in the same and in the next homological dimension, so that the persistence pairing determines exactly where the persistent up-Laplacian can change. Experiments on several types of point clouds show that evaluating persistent Laplacians only at these pairs reduces the computation time, both for our implementation and for existing software.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Joris Kirchner",
+     "Martina Vittorietti"
+    ],
+    "categories": [
+     "math.AT",
+     "cs.CG",
+     "math.CO",
+     "math.SP"
+    ],
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.09610",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.09610",
+    "pid": "2611.09610",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "New persistent chain spaces: identifying and computing the relevant persistent Laplacians of a filtration",
+    "watched": []
+   }
+  },
+  {
    "day": "2026-11-06",
    "paper": {
     "abstract": "This is the first part of a series of expository notes on homotopical and categorical algebra. It charts a course from ordinary algebraic structures such as monoids, groups, and rings to their various homotopy-coherent generalizations and equivariant versions. The emphasis is on the ideas that lead to and connect the constructions, as well as where and how they appear in nature.",
@@ -5149,304 +5369,204 @@
    }
   }
  ],
- "hexagon_since": "2026-11-07",
+ "hexagon_since": "2026-11-08",
  "last_page": {
-  "day": "2026-11-06",
+  "day": "2026-11-09",
   "papers": [
    {
-    "abstract": "This is the first part of a series of expository notes on homotopical and categorical algebra. It charts a course from ordinary algebraic structures such as monoids, groups, and rings to their various homotopy-coherent generalizations and equivariant versions. The emphasis is on the ideas that lead to and connect the constructions, as well as where and how they appear in nature.",
+    "abstract": "We introduce an $\\infty$-categorical model of operad pairs and their associated bimonoidal categories. We study the related concepts such as cocartesian-cartesian operad pairs, algebra pairs and the Day convolution. Using the Day convolution for operad pairs, we can define distributive functors between a symmetric bimonoidal category and a cartesian closed monoidal category. As an application, we show that for a finite group $G$, the operadic distributive functors from $\\mathrm{Span}(\\mathsf{Fin}_G)$ to any cartesian closed monoidal category coincides with the distributive functors defined by the distributive diagram. Therefore, we show that the connective $G$-equivariant $\\mathbb{E}_{\\infty}$-ring spectra are equivalently the spectral $G$-Tambara functors.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Lior Yanovski"
+     "Aowen Fan"
     ],
     "categories": [
      "math.AT",
      "math.CT"
     ],
-    "date": "2026-11-06",
-    "link": "https://arxiv.org/abs/2611.07927",
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.09115",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.07927",
-    "pid": "2611.07927",
+    "pdf": "https://arxiv.org/pdf/2611.09115",
+    "pid": "2611.09115",
     "reasons": [
-     "author (watch): Lior Yanovski"
+     "title: infinity operad",
+     "abstract: ring spectr",
+     "abstract: e_infinity-ring"
     ],
     "source": "arxiv",
-    "tier": 1,
-    "title": "A Story of Algebra and Categories I: Algebraic Theories",
-    "watched": [
-     "Lior Yanovski"
-    ]
-   },
-   {
-    "abstract": "We study smooth structures on the topological manifold underlying complex projective space. We conjecture that every complex projective space $\\mathbb{CP}^n$ with $n>3$ admits an exotic smooth structure.\n  We prove two results providing strong evidence for this conjecture. First, the set of complex dimensions $n$ for which $\\mathbb{CP}^n$ admits an exotic smooth structure has natural density one. Second, we explicitly identify $266$ congruence classes modulo $288$ such that $\\mathbb{CP}^n$ admits an exotic smooth structure whenever $n>3$ lies in one of these classes. These classes cover more than $92\\%$ of complex dimensions, improving the previously known lower bound of approximately $36\\%$.\n  We prove these results by first relating the concordance group of $\\mathbb{CP}^n$ to suitable Atiyah--Hirzebruch filtration subgroups of its stable cohomotopy group, and then applying computations in chromatic homotopy theory at height $2$.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Yueshi Hou",
-     "Hana Jia Kong",
-     "Zhouli Xu"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-11-06",
-    "link": "https://arxiv.org/abs/2611.08406",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.08406",
-    "pid": "2611.08406",
-    "reasons": [
-     "author: Zhouli Xu",
-     "abstract: chromatic homotopy"
-    ],
-    "source": "arxiv",
-    "tier": 1,
-    "title": "Exotic smooth structures on complex projective spaces",
-    "watched": [
-     "Zhouli Xu"
-    ]
-   },
-   {
-    "abstract": "We construct higher additive noncommutative motives of stable $(\\infty,n)$-categories, extending the additive motives of Blumberg, Gepner, and Tabuada and the secondary theory of Mazel-Gee and Stern. We formulate a notion of exact sequences and establish the universal property of the resulting additive motives. We give two equivalent constructions: a localization of enriched presheaves and a weighted Waldhausen $S$-construction on complete exact flags. We then compute their Hom objects, obtaining ordinary K-theory at the first level and lower additive motives recursively at higher levels. Our results recover the classical and secondary theories, provide coherent multiplicative structures, and yield an endofunctor on the category of Stefanich rings. In short, higher motives are higher K-theory.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Hisato Matsukawa"
-    ],
-    "categories": [
-     "math.KT",
-     "math.AT",
-     "math.CT"
-    ],
-    "date": "2026-11-06",
-    "link": "https://arxiv.org/abs/2611.07262",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.07262",
-    "pid": "2611.07262",
-    "reasons": [
-     "abstract: (infinity,n)"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Higher Noncommutative Motives and Higher K-theory",
+    "tier": 2,
+    "title": "Infinity operad pairs, higher distributivity and spectral Tambara functors",
     "watched": []
    },
    {
-    "abstract": "We give handlebody decompositions of the complements of the cyclic multisections in $\\Sigma_g\\times S^2$ constructed in~\\cite{AB}. The 2-handle framings are induced by the product coordinates. We compute the integral homology of the complements from their handle chain complexes, including the torsion subgroup of $H_2$. For the degree pairs $(3,3)$ and $(2,4)$, we specify surface diffeomorphisms inducing the maps on first homology prescribed in~\\cite{AY} and recover the integral first homology groups $(\\Z/3)^2\\oplus\\Z/(3m)$ and $(\\Z/2)^2\\oplus\\Z/(4m)$, respectively, for $m\\geq1$. For the symmetric $m=1$ sum, we also give a simultaneous surface diagram of the relative product attachments and identify their product framings with the surface framings. The resulting symplectic sums are aspherical and symplectically minimal, and have the rational cohomology ring of $S^2\\times S^2$.",
+    "abstract": "We prove that the space of equivariant $h$-cobordisms on a smooth $G$-manifold $M$ has a tom Dieck style splitting, after stabilization. As an intermediate step, we introduce a space of isovariant $h$-cobordisms on $M$ and prove that this space also has a splitting, even before stabilizing. This completes the proof of the equivariant version of Waldhausen's stable parametrized $h$-cobordism theorem. Along the way, we establish several foundational results on equivariant smooth manifolds with corners.",
     "ai_mode": "",
-    "announce": "cross",
+    "announce": "new",
     "authors": [
-     "Anar Akhmedov"
+     "Thomas Goodwillie",
+     "Kiyoshi Igusa",
+     "Cary Malkiewich",
+     "Mona Merling"
     ],
     "categories": [
+     "math.AT",
      "math.GT",
-     "math.AT"
+     "math.KT"
     ],
-    "date": "2026-11-06",
-    "link": "https://arxiv.org/abs/2611.06949",
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.09557",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.06949",
-    "pid": "2611.06949",
-    "reasons": [],
+    "pdf": "https://arxiv.org/pdf/2611.09557",
+    "pid": "2611.09557",
+    "reasons": [
+     "title: equivariant"
+    ],
     "source": "arxiv",
-    "tier": 4,
-    "title": "Braided Multisections and Akhmedov's Fake Quadrics",
+    "tier": 2,
+    "title": "The splitting of the stable space of equivariant $h$-cobordisms",
     "watched": []
    },
    {
-    "abstract": "In a previous work we conjectured that the multi-invariants of the ground state of a gapped $(d-1)+1$-dimensional system, labeled by bipartite $(d+1)$-edge-colored graphs encoding closed oriented $d$-manifolds $M$, compute the partition functions $Z(M)$ of the low energy topological quantum field theory (TQFT), up to non-universal factors determined by the local structure of the triangulation. In this paper we determine which combinations of partition functions can be isolated from the non-universal factors. The answer is governed by oriented bordism. If $M$ is null-bordant, $Z(M)$ is obtained from an explicit, state-independent finite family of multi-invariants, up to a power of $Z(S^d)$ which is fixed to be $Z(S^d)^{\\chi(M)/2}$ for even $d$ and can be removed for odd $d$. Conversely, the obstruction is measured by a quotient of the group of \"residues\" of colored graphs which receives a surjective map from the oriented bordism group, with kernel precisely the torsion subgroup as far as smooth manifolds are concerned. In $d=4$ the obstruction is the signature: $Z(M)/Z(S^4)^{\\chi(M)/2}$ can be extracted if and only if $\\sigma(M)=0$. This is due to the fact that the first Pontryagin class $p_1$ has a local expression and thus $e^{i\\theta\\sigma(M)}=e^{\\frac{i}{3}\\theta\\int_M p_1}$ cannot be separated from the non-universal factors. Torsion invariants, in contrast, are not obstructed: for the ground state of the $4+1$-dimensional invertible phase with partition function $(-1)^{\\int w_2w_3}$ we compute the multi-invariants exactly, and two graphs with identical local data, encoding the Dold manifold and $\\mathbb{CP}^2\\times S^1$, give opposite signs.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Michele Del Zotto",
-     "Abhijit Gadde",
-     "Pavel Putrov"
-    ],
-    "categories": [
-     "hep-th",
-     "cond-mat.str-el",
-     "math-ph",
-     "math.AT",
-     "math.MP",
-     "quant-ph"
-    ],
-    "date": "2026-11-06",
-    "link": "https://arxiv.org/abs/2611.07000",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.07000",
-    "pid": "2611.07000",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Multipartite Entanglement, TQFT Partition Functions and PL Bordism",
-    "watched": []
-   },
-   {
-    "abstract": "We explicitly determine the complex bordism class of the $n$-th symmetric product of a complex curve of genus $g$. In particular, we provide an explicit formula expressing this class as an integral linear combination of bordism classes of products of complex projective spaces.\n  Similarly, we determine the unoriented bordism class of the $n$-th symmetric product of a non-orientable surface of genus $g$ (i.e., $\\#_{i=1}^{g+1}\\mathbb R P^2$). It turns out that these classes are also expressed as a $\\mathbb Z_2$-linear combination of bordism classes of products of even-dimensional real projective spaces.\n  We also give an affirmative answer to a non-orientable version of the Blagojevi\\'c--Gruji\\'c--\\v{Z}ivaljevi\\'c conjecture stating that the topological type of any symmetric product of a noncompact surface of finite type determines the topological type of the surface itself.",
+    "abstract": "We characterise the two-step nilpotent varieties of algebras: the semi-abelian varieties in which all ternary cosmash products vanish. Just as abelian varieties are the categories of modules over a ring, two-step nilpotent varieties are exactly the categories of modules over a square ring in the sense of Baues, Hartl and Pirashvili. We construct the square ring explicitly from the full subcategory on the free algebras on one and two generators, and give complete proofs. As consequences we obtain a description of any two-step nilpotent variety by generators and relations, an intrinsic characterisation in terms of quadratic term operations, and an account of its abelian core and of the lower central series of its objects in terms of the square ring. Along the way, we associate with any commutative ring $R$ a square ring whose modules, the two-step nilpotent $R$-groups, extend Hall's nilpotent $R$-groups of class two from $2$-binomial rings to arbitrary rings of coefficients.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Georgy Chernykh",
-     "Dmitry Gugnin"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-11-06",
-    "link": "https://arxiv.org/abs/2611.07813",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.07813",
-    "pid": "2611.07813",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "On bordism classes of symmetric products of surfaces",
-    "watched": []
-   },
-   {
-    "abstract": "We study the topology of the normalized space of real nonnegative forms of degree $2d$ in $n$ variables that are not sums of squares. Whenever it is nonempty, we prove that it is path-connected but not acyclic, and in particular not contractible. We give explicit bounds on the degrees in which its reduced homology can be nonzero. In the two minimal nonempty cases, we show an embedding of an exterior algebra into the cohomology ring, and prove containment of the binary octahedral and binary icosahedral groups, respectively, in its fundamental group.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Maximilian Illmer",
-     "Tim Netzer"
-    ],
-    "categories": [
-     "math.AT",
-     "math.AG"
-    ],
-    "date": "2026-11-06",
-    "link": "https://arxiv.org/abs/2611.07252",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.07252",
-    "pid": "2611.07252",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "On the Topology of the Set of Nonnegative Forms That Are Not Sums of Squares",
-    "watched": []
-   },
-   {
-    "abstract": "Let $f\\colon M^n\\to\\mathbf{R}^{n+1}$, $n\\geq2$, be a smooth immersion of a closed oriented manifold, with Gauss map $\\nu\\colon M\\to\\mathbf{S}^n$. For each unit vector $u$, the shade $S_u\\subset M$ is the set of points where $\\nu$ makes an acute angle with $u$. We show that $f$ is a convex embedding if and only if every shade is contractible. More generally, if every shade is $k$-connected, then $f$ is a convex embedding provided that $n\\leq 2k+1$, or $n=2k+2$ and $H_{k+1}(M;\\mathbf{Z})=0$. On the other hand, for every $n\\geq 2k+3$ there is a nonconvex embedding $f\\colon\\mathbf{S}^n\\to\\mathbf{R}^{n+1}$ all of whose shades are $k$-connected. These results give sharp answers to a question of H. Wente in all dimensions.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Mohammad Ghomi"
-    ],
-    "categories": [
-     "math.DG",
-     "math.AT"
-    ],
-    "date": "2026-11-06",
-    "link": "https://arxiv.org/abs/2611.08415",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.08415",
-    "pid": "2611.08415",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Shades and Convexity of Hypersurfaces",
-    "watched": []
-   },
-   {
-    "abstract": "Aguiar, Bergeron, and Sottile showed that the coalgebra of quasisymmetric functions is terminal among connected graded coalgebras with a zeta function. After developing the notions of gradings and zeta functions for decomposition spaces, we establish an objective homotopic version of this result. Namely, the decomposition space $Q$ of quasisymmetric functions is terminal: for any conservatively graded decomposition space $X$ with zeta function $F$, there is a unique graded ikeo-culf span $X \\leftarrow W \\rightarrow Q$ inducing $F$ from the special zeta function on $Q$. More generally, for gradings in any complete decomposition space $M$ with indecomposable identities, the terminal object is $J(M)$, the free decomposition space on the nondegenerate simplices of $M$; the quasisymmetric case is $Q=J(B\\mathbb{N})$.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Philip Hackney",
-     "Joachim Kock",
-     "Jan Steinebrunner"
+     "Logan Geenis",
+     "Manfred Hartl",
+     "Tim Van der Linden"
     ],
     "categories": [
      "math.CT",
-     "math.AT",
-     "math.CO"
+     "math.RA"
     ],
-    "date": "2026-11-06",
-    "link": "https://arxiv.org/abs/2611.08063",
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.09465",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.08063",
-    "pid": "2611.08063",
-    "reasons": [],
+    "pdf": "https://arxiv.org/pdf/2611.09465",
+    "pid": "2611.09465",
+    "reasons": [
+     "title: nilpoten"
+    ],
     "source": "arxiv",
-    "tier": 4,
-    "title": "The universal property of the decomposition space of quasisymmetric functions",
+    "tier": 2,
+    "title": "Two-step nilpotent varieties as categories of modules over a square ring",
     "watched": []
    },
    {
-    "abstract": "In this paper, we establish a topological classification of Bazaikin spaces whose sixth cohomology groups have orders prime to \\(5\\). Moreover, we obtain an estimate for the number of diffeomorphism types among these spaces.",
+    "abstract": "Let $N$ denote the closed non-orientable surface of Euler characteristic $-1$, i.e. the connected sum of three real projective planes $N = \\mathbb{RP}^2 \\# \\mathbb{RP}^2 \\# \\mathbb{RP}^2$, with fundamental group presented as $\\langle A,B,C \\mid A^2 B^2 C^2 = I \\rangle$ via the standard symmetric cross-cap model. Building on the classical trace-coordinate methods of Fricke, Vogt, and Goldman for free groups, and on the qualitative study of representation varieties of non-orientable surfaces by Benyash-Krivets and Chernousov, we give an explicit affine equation for a dense open piece of the $\\mathrm{SL}_2(\\mathbb{C})$ GIT character variety $X(N)$. We prove that the trace coordinates $a = \\mathrm{tr}(A)$, $b = \\mathrm{tr}(B)$, $c = \\mathrm{tr}(C)$, $p = \\mathrm{tr}(AB)$ satisfy the polynomial relation $c^2 = abp - a^2 - b^2 + 4$, that this hypersurface is smooth and irreducible, and that on the open locus $c \\neq 0$ it is isomorphic to the image of $X(N)$ under the trace map, with the remaining trace coordinates $\\mathrm{tr}(BC)$, $\\mathrm{tr}(CA)$, $\\mathrm{tr}(ABC)$ recovered as regular functions on this locus. We further identify the boundary locus $c = 0$ with representations satisfying the matrix identity $A^2 B^2 = -I$, and describe its representation-theoretic structure, while leaving a complete global classification along this locus as an open problem. All key trace identities are proved from Cayley-Hamilton first principles and independently checked numerically against explicit matrices.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Fuquan Fang",
-     "Wen Shen"
+     "Yinxi Chen"
     ],
     "categories": [
-     "math.AT",
-     "math.DG",
-     "math.GT"
+     "math.AG",
+     "math.AT"
     ],
-    "date": "2026-11-06",
-    "link": "https://arxiv.org/abs/2611.07898",
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.08513",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.07898",
-    "pid": "2611.07898",
+    "pdf": "https://arxiv.org/pdf/2611.08513",
+    "pid": "2611.08513",
     "reasons": [],
     "source": "arxiv",
     "tier": 4,
-    "title": "Topological classification of Bazaikin spaces",
+    "title": "An Explicit Equation for the $\\mathrm{SL}_2(\\mathbb{C})$ Character Variety of $\\mathbb{RP}^2 \\# \\mathbb{RP}^2 \\# \\mathbb{RP}^2$",
     "watched": []
    },
    {
-    "abstract": "Data arising in scientific applications often exhibits complex nonlinear structure. Identifying and parameterizing said nonlinearities can enable better modeling, enhance predictive analysis, data interpolation, denoising, and anomaly detection. In this paper, we develop theoretical and computational methods to detect and parametrize Euclidean point cloud data lying near a wedge sum of tori. Specifically, we use persistent cohomology and cup products to identify the distinct toroidal components, and on each component, we optimize over low-energy multivariate trigonometric polynomials for best data fit. The ensuing optimization problem reduces to generalized ridge regression, which can be solved efficiently via standard techniques. We demonstrate the utility of the proposed framework in both synthetic and real datasets, including interpolation of low frame-rate recurrent videos, attractor recovery in quasiperiodic dynamical systems, and the parametrization of gene-space cycle data for parasites and humans.",
+    "abstract": "In the lower-star filtration (LSF), simplices are assigned filtration values according to the maximum-vertex rule, with each simplex entering the filtration when its highest-valued vertex appears. A limitation of this construction is that some higher-dimensional simplices may enter simultaneously with their boundary faces, causing certain topological features to be filled immediately upon formation and thus not appear in the resulting persistence diagram. To address this limitation, we propose three alternative filtration methods: the \\(\\varepsilon\\)-lower-star filtration (ELSF), the \\(L_p\\) filtration (LpF), and the softmax filtration (SMF). {ELSF introduces a dimension-dependent delay to the maximum-vertex rule,} allowing higher-dimensional simplices to enter the filtration after their boundary faces, whereas {LpF and SMF use aggregation functions that depend on all vertex values rather} than solely on their maximum. By modifying how filtration values are assigned, these methods allow simplices to enter the filtration more progressively, so that topological features such as loops and voids may persist over longer filtration intervals rather than being filled immediately. Consequently, the resulting persistence diagrams may include persistence features that are not observed under LSF, potentially providing useful information for distinguishing data populations. Experimental results on simulated and real-world datasets demonstrate that the proposed filtration methods are computationally efficient and can provide greater sensitivity to structural differences in the data than LSF.",
     "ai_mode": "",
     "announce": "cross",
     "authors": [
-     "Tanishq Bhatia",
-     "Jose A. Perea",
-     "Tarek M. Zikry"
+     "Innocent Abaa",
+     "Umar Islambekov"
     ],
     "categories": [
      "stat.ML",
      "cs.LG",
-     "math.AT"
+     "math.AT",
+     "stat.AP"
     ],
-    "date": "2026-11-06",
-    "link": "https://arxiv.org/abs/2611.06990",
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.08833",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.06990",
-    "pid": "2611.06990",
+    "pdf": "https://arxiv.org/pdf/2611.08833",
+    "pid": "2611.08833",
     "reasons": [],
     "source": "arxiv",
     "tier": 4,
-    "title": "ToroFit: Fitting Wedge Sums of Tori to High-Dimensional Data",
+    "title": "Beyond the Lower-Star Filtration: Alternative Filtration Methods for Persistent Homology",
     "watched": []
    },
    {
-    "abstract": "This is the first of a series of papers which will be devoted to a study of the index of mesoscopic Wilson--Dirac operators on closed Riemannian manifolds. The aim of the series is to discretise the index of the Dirac operator. On flat tori, this is achieved by the Wilson--Dirac operator of lattice gauge theory on a regular lattice. On a general closed Riemannian manifold, however, no regular lattice is available. As an intermediate step between the continuum Dirac operator and its discretisations, we introduce mesoscopic Wilson--Dirac operators on any closed Riemannian manifold, defined by integrating covariant differences over distances comparable to a fixed length scale. In this paper, we define the index of the mesoscopic Wilson--Dirac operators via spectral flow and prove that it agrees with that of the continuum Dirac operator at all sufficiently small scales. The proof rests on an elliptic estimate uniform in the scale and a Rellich-type compactness theorem. In the second paper, we shall pass from mesoscopic operators to discrete Wilson--Dirac operators.",
+    "abstract": "We prove that for any regular CW-complex $X$ there exists a quotient map $X\\to Y$ that is a weak homotopy equivalence and which is minimal with that property, meaning that any quotient $Y\\to Z$ that is a weak equivalence, must be a homeomorphism. The space $Y$ we obtain is an Alexandroff space: a space in which arbitrary intersections of open sets are open. The weak core $Y$ of $X$ is not unique in general. We study homotopy invariants preserved by filtered colimits of Alexandroff spaces. This can be seen as an analogous to Stong's theory of cores of finite topological spaces.",
     "ai_mode": "",
-    "announce": "cross",
+    "announce": "new",
     "authors": [
-     "Mikio Furuta",
-     "Shinichiroh Matsuo"
+     "Jonathan Ariel Barmak",
+     "Juan Galotto"
     ],
     "categories": [
-     "math.DG",
-     "hep-lat",
-     "math-ph",
-     "math.KT",
-     "math.MP"
+     "math.AT"
     ],
-    "date": "2026-11-06",
-    "link": "https://arxiv.org/abs/2611.08266",
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.09886",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.08266",
-    "pid": "2611.08266",
+    "pdf": "https://arxiv.org/pdf/2611.09886",
+    "pid": "2611.09886",
     "reasons": [],
     "source": "arxiv",
-    "tier": 5,
-    "title": "The index of mesoscopic Wilson--Dirac operators: I",
+    "tier": 4,
+    "title": "Directed systems of A-spaces and weak cores",
+    "watched": []
+   },
+   {
+    "abstract": "Every connected homotopy type is the classifying space of a small category, but this general result gives little control over the categories involved. We study finite acyclic categorical models and measure their complexity by the number of objects.\n  Our main tool is the sink lemma, which describes the addition of a sink as the attachment of a cone along an explicit map. Using it, we determine the minimum number of objects required to model spheres, bouquets of spheres, Moore spaces of cyclic groups, real projective spaces, and lens spaces. We also exhibit infinitely many pairwise non-isomorphic rigid minimal models of the sphere.\n  To include spaces admitting no finite model, we introduce a truncated invariant measuring the minimum number of objects required for a finite acyclic category to approximate a space through degree n. Spreading a finite monoid over n+1 objects produces such a category with an n-connected map to the monoid's classifying space. For every nontrivial finite group, this bound is optimal, although its classifying space admits no finite acyclic model.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Isaac Carcac\\'ia-Campos"
+    ],
+    "categories": [
+     "math.AT",
+     "math.CT"
+    ],
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.09718",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.09718",
+    "pid": "2611.09718",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "How many points does it take to see the homotopy of a space? Minimal acyclic categorical models",
+    "watched": []
+   },
+   {
+    "abstract": "Persistent homology (PH) summarizes the topological features of data that persist across scales, but it is insensitive to many geometric properties. Persistent Laplacians (PLs) address this limitation: for a pair of simplicial complexes in a filtration, the kernel of the persistent Laplacian recovers the persistent Betti number, while its non-zero spectrum carries additional geometric information. However, PLs are defined for individual pairs of filtration values, so analysing a whole filtration requires evaluating many operators that largely contain the same information, and the result is hard to summarize and interpret. In this paper, we show that this redundancy has a precise structure. For each pair of filtration values, we decompose the space of chains underlying the persistent up-Laplacian into the contributions inherited from the neighboring pairs and a remaining part, which we call the new persistent chain space. We show that the new persistent chain spaces of all earlier pairs form a direct sum decomposition of this space, so that every persistent up-Laplacian in the filtration is determined by them. Moreover, the new persistent chain spaces are non-trivial only at pairs given by the persistence pairing in the same and in the next homological dimension, so that the persistence pairing determines exactly where the persistent up-Laplacian can change. Experiments on several types of point clouds show that evaluating persistent Laplacians only at these pairs reduces the computation time, both for our implementation and for existing software.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Joris Kirchner",
+     "Martina Vittorietti"
+    ],
+    "categories": [
+     "math.AT",
+     "cs.CG",
+     "math.CO",
+     "math.SP"
+    ],
+    "date": "2026-11-09",
+    "link": "https://arxiv.org/abs/2611.09610",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.09610",
+    "pid": "2611.09610",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "New persistent chain spaces: identifying and computing the relevant persistent Laplacians of a filtration",
     "watched": []
    }
   ]
@@ -5511,6 +5631,7 @@
   "2301.06994": "2026-11-03",
   "2303.11071": "2026-10-20",
   "2303.12124": "2026-11-02",
+  "2303.14892": "2026-11-09",
   "2303.16259": "2026-10-28",
   "2304.07009": "2026-11-06",
   "2304.11508": "2026-10-20",
@@ -5527,6 +5648,7 @@
   "2308.08548": "2026-10-19",
   "2308.10957": "2026-11-02",
   "2309.05012": "2026-10-12",
+  "2309.05231": "2026-11-09",
   "2309.10555": "2026-10-20",
   "2310.02912": "2026-10-26",
   "2310.08018": "2026-10-30",
@@ -5583,6 +5705,7 @@
   "2405.18398": "2026-10-12",
   "2405.20395": "2026-10-08",
   "2405.21062": "2026-10-09",
+  "2406.01348": "2026-11-09",
   "2406.03584": "2026-10-12",
   "2406.07414": "2026-10-09",
   "2406.13438": "2026-10-16",
@@ -5626,6 +5749,7 @@
   "2411.06497": "2026-10-22",
   "2411.07299": "2026-10-21",
   "2411.17370": "2026-10-08",
+  "2411.17572": "2026-11-09",
   "2411.19595": "2026-11-02",
   "2411.19748": "2026-10-19",
   "2412.00234": "2026-10-16",
@@ -5646,12 +5770,14 @@
   "2501.02466": "2026-10-28",
   "2501.06421": "2026-10-27",
   "2501.07551": "2026-10-20",
+  "2501.13229": "2026-11-09",
   "2501.13761": "2026-10-12",
   "2501.14060": "2026-10-20",
   "2501.15832": "2026-10-14",
   "2501.16259": "2026-10-08",
   "2501.16267": "2026-10-12",
   "2501.16916": "2026-10-23",
+  "2501.17869": "2026-11-09",
   "2501.19101": "2026-10-14",
   "2502.03477": "2026-10-30",
   "2502.03642": "2026-10-16",
@@ -5695,6 +5821,7 @@
   "2505.11596": "2026-10-12",
   "2505.13912": "2026-10-21",
   "2505.14109": "2026-11-05",
+  "2505.14952": "2026-11-09",
   "2505.16285": "2026-10-14",
   "2505.18977": "2026-10-19",
   "2505.19451": "2026-11-06",
@@ -5760,11 +5887,13 @@
   "2509.05900": "2026-10-30",
   "2509.06211": "2026-11-03",
   "2509.06363": "2026-10-30",
+  "2509.06785": "2026-11-09",
   "2509.07344": "2026-11-05",
   "2509.07476": "2026-10-14",
   "2509.07720": "2026-10-15",
   "2509.09047": "2026-11-06",
   "2509.11664": "2026-10-14",
+  "2509.16933": "2026-11-09",
   "2509.17001": "2026-10-20",
   "2509.17624": "2026-10-28",
   "2509.19298": "2026-10-14",
@@ -5821,6 +5950,7 @@
   "2511.06843": "2026-10-20",
   "2511.06945": "2026-10-19",
   "2511.07060": "2026-10-16",
+  "2511.08157": "2026-11-09",
   "2511.08528": "2026-10-14",
   "2511.09875": "2026-10-15",
   "2511.10818": "2026-10-21",
@@ -5951,6 +6081,7 @@
   "2604.07270": "2026-11-04",
   "2604.09216": "2026-10-30",
   "2604.10624": "2026-11-03",
+  "2604.12541": "2026-11-09",
   "2604.14077": "2026-11-02",
   "2604.15843": "2026-10-09",
   "2604.16296": "2026-10-09",
@@ -5981,6 +6112,7 @@
   "2604.26370": "2026-10-15",
   "2605.00704": "2026-10-14",
   "2605.03798": "2026-10-22",
+  "2605.06467": "2026-11-09",
   "2605.07956": "2026-10-16",
   "2605.08086": "2026-11-05",
   "2605.08394": "2026-10-08",
@@ -6022,6 +6154,7 @@
   "2606.02626": "2026-10-15",
   "2606.02826": "2026-10-16",
   "2606.02854": "2026-10-09",
+  "2606.03369": "2026-11-09",
   "2606.03439": "2026-10-30",
   "2606.04014": "2026-10-26",
   "2606.04132": "2026-11-06",
@@ -6109,6 +6242,7 @@
   "2607.25165": "2026-10-30",
   "2607.25181": "2026-10-15",
   "2607.25391": "2026-11-02",
+  "2607.25443": "2026-11-09",
   "2607.25666": "2026-10-20",
   "2607.26926": "2026-10-14",
   "2607.28009": "2026-11-04",
@@ -6232,6 +6366,7 @@
   "2609.24390": "2026-10-14",
   "2609.25539": "2026-10-09",
   "2609.26269": "2026-10-08",
+  "2609.26318": "2026-11-09",
   "2609.26441": "2026-10-27",
   "2609.26948": "2026-10-27",
   "2609.27412": "2026-10-20",
@@ -6257,6 +6392,7 @@
   "2609.33679": "2026-10-14",
   "2609.33710": "2026-10-22",
   "2609.33826": "2026-10-12",
+  "2609.34589": "2026-11-09",
   "2609.35353": "2026-10-16",
   "2609.35683": "2026-10-23",
   "2609.36410": "2026-10-21",
@@ -6287,6 +6423,7 @@
   "2610.03081": "2026-10-14",
   "2610.03100": "2026-10-08",
   "2610.03138": "2026-10-19",
+  "2610.03309": "2026-11-09",
   "2610.03582": "2026-10-16",
   "2610.03584": "2026-10-08",
   "2610.04096": "2026-10-26",
@@ -7661,6 +7798,41 @@
   "2611.08406": "2026-11-06",
   "2611.08415": "2026-11-06",
   "2611.08464": "2026-11-06",
+  "2611.08513": "2026-11-09",
+  "2611.08679": "2026-11-09",
+  "2611.08716": "2026-11-09",
+  "2611.08760": "2026-11-09",
+  "2611.08810": "2026-11-09",
+  "2611.08833": "2026-11-09",
+  "2611.08852": "2026-11-09",
+  "2611.08890": "2026-11-09",
+  "2611.08900": "2026-11-09",
+  "2611.08979": "2026-11-09",
+  "2611.09080": "2026-11-09",
+  "2611.09114": "2026-11-09",
+  "2611.09115": "2026-11-09",
+  "2611.09148": "2026-11-09",
+  "2611.09155": "2026-11-09",
+  "2611.09220": "2026-11-09",
+  "2611.09237": "2026-11-09",
+  "2611.09284": "2026-11-09",
+  "2611.09319": "2026-11-09",
+  "2611.09360": "2026-11-09",
+  "2611.09365": "2026-11-09",
+  "2611.09465": "2026-11-09",
+  "2611.09532": "2026-11-09",
+  "2611.09555": "2026-11-09",
+  "2611.09557": "2026-11-09",
+  "2611.09603": "2026-11-09",
+  "2611.09610": "2026-11-09",
+  "2611.09613": "2026-11-09",
+  "2611.09638": "2026-11-09",
+  "2611.09716": "2026-11-09",
+  "2611.09718": "2026-11-09",
+  "2611.09749": "2026-11-09",
+  "2611.09774": "2026-11-09",
+  "2611.09883": "2026-11-09",
+  "2611.09886": "2026-11-09",
   "hexagon:2609.00001": "2026-10-08",
   "hexagon:2609.00102": "2026-10-08",
   "hexagon:2609.00104": "2026-10-08",
@@ -8391,6 +8563,7 @@
   "hexagon:2611.00189": "2026-11-08",
   "hexagon:2611.00190": "2026-11-08",
   "hexagon:2611.00191": "2026-11-08",
+  "hexagon:2611.00204": "2026-11-09",
   "math/0111031": "2026-10-27",
   "math/0702082": "2026-10-22"
  }
