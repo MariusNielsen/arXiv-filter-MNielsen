@@ -1,0 +1,1167 @@
+{
+"day": "2026-11-10",
+"updated": "2026-11-10T06:08:22+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2611.00226",
+"title": "A family of finite dimensional Hopf algebras over $\\mathbb{C}$ with varying algebra structure",
+"abstract": "We construct an algebraic one-parameter family of complex Hopf algebras of dimension \\(1024\\), with fixed coalgebra, whose underlying associative algebras vary in a continuous family of isomorphism classes. Four multiplication lines in the second radical layer of a distinguished block recover the \\(j\\)-invariant of the elliptic curve given by the equation \\(y^2=x(x-1)(x-t^2).\\) This answers negatively the finiteness question of Etingof and Gelaki concerning algebra types of Hopf algebras of fixed dimension.",
+"authors": [
+"Pavel I Etingof"
+],
+"categories": [
+"math.RA",
+"math.CT"
+],
+"link": "https://hexagonmath.org/abs/2611.00226v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00226v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00218",
+"title": "A LOWER BOUND FOR THE FILLING AREA OF THE CIRCLE",
+"abstract": "We establish a universal lower bound for the area of orientable Riemannian fillings of the circle.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.DG",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00218v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00218v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00240",
+"title": "A Parity Theorem for Reverse-Complement-Invariant Minimum Decycling Sets in q-ary de Bruijn Graphs",
+"abstract": "Let $\\mathcal{A}$ be a finite alphabet with a fixed-point-free involutive complement, and let reverse complement act on the directed de Bruijn graph $B(q,k)$ by reversing a word and complementing every letter. We prove that a reverse-complement-invariant ordinary minimum decycling set exists if and only if $k$ is even, for every integer $k\\geq2$. This simultaneously covers the binary alphabet and the DNA alphabet with $A\\leftrightarrow T$ and $C\\leftrightarrow G$. For odd $k$, a primitive rotation cycle joins two reverse-complement-fixed lower states in opposite directions. Disjoint complementary alphabet pairs force at least $q$ deletions beyond the ordinary minimum. For even $k$, choose injective antisymmetric real weights on the alphabet and form a weighted cyclotomic selector. We prove that arbitrary representatives on its zero-embedding rotation cycles preserve acyclicity, resolve those ties equivariantly, and establish the exact defect identity $ \\mathbf{1}_{\\operatorname{RC}(M)}-\\mathbf{1}_M=\\nabla\\chi . $ A finite sequence of legal full-alphabet source firings removes this nonnegative symmetric defect two coordinates at a time. We also identify a self-dual spectral ideal that gives a deterministic direct selector, rather than a simulated firing path. For integer weights, membership is decidable with polynomial bit complexity. The executable finite panel in the repository checks the binary specialization only; it is convention-level assurance and is not used in the all-order proof.",
+"authors": [
+"Oleksiy Babanskyy"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00240v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00240v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00232",
+"title": "A proof of a conjecture of Cazenave on graph eigenvalues",
+"abstract": "We prove Cazenave's conjecture $\\mu_2^2\\ge4\\lambda_2+1$ for connected graphs, where $\\lambda_2$ and $\\mu_2$ are the second largest adjacency and Laplacian eigenvalues. We also characterize equality in this inequality and in the linear bound $\\mu_2\\ge\\lambda_2+1$.",
+"authors": [
+"Alexander Kramer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00232v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00232v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00224",
+"title": "A Zariski-Open Family of Proper Septic Polynomials with Full Traceless Images",
+"abstract": "Let $K$ be an algebraically closed field of characteristic zero. We identify a $762$-dimensional space of proper multilinear degree-seven polynomials in the third power of the commutator ideal, with zero formal cyclic trace and annihilated by every repeated-input identification of type $(3,3,1)$. A nonempty Zariski-open subset of this space consists of polynomials $p$ whose sets of individual matrix values satisfy $p(M_n(K)^7)=\\mathfrak{sl}_n(K)$ for every $n\\geq3$. The ambient proper and formal trace-zero spaces have dimensions $1260$ and $1049$, respectively. An explicit polynomial certifies nonemptiness of this coefficient-open family. The proof combines a symmetric-group decomposition, exact finite determinant witnesses, an additive-size argument and a separate $3\\times3$ matrix argument.",
+"authors": [
+"Y. T. Miah"
+],
+"categories": [
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.00224v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00224v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00229",
+"title": "Actual images and local fibers in the second commutator layer",
+"abstract": "Let $K$ be an algebraically closed field of characteristic zero and let $J$ be the commutator ideal of the free associative algebra. We prove that, for every proper multilinear polynomial $f\\in J^2\\setminus J^3$ and every $n\\ge3$, the set of values of $f$ on $M_n(K)$ is $\\mathfrak{sl}_n(K)$ if $\\tr f\\equiv0$, and $M_n(K)$ otherwise. In the first case the evaluation map is smooth at an input with nonzero rank-one square-zero value. In the second case it is flat at such an input, with a local complete-intersection fiber of the expected dimension. The theorem allows arbitrary proper multilinear corrections of the same degree in $J^3$. We use restrictions to two active variables with commuting passive inputs and detect the first nonzero trace term on the exact fiber of the traceless projection.",
+"authors": [
+"Shengyong Pan"
+],
+"categories": [
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.00229v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00229v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00216",
+"title": "Almost all $k$-Markov numbers are unique",
+"abstract": "For every fixed nonnegative integer $k$, we prove that almost every positive integral solution of [x^2+y^2+z^2+k(xy+xz+yz)= 3(k+1)xyz]is uniquely determined, up to permutation, by its largest coordinate.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.NT",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00216v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00216v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00227",
+"title": "An analytic lower bound for the cubic-lattice dimer constant",
+"abstract": "We prove that the close-packed dimer entropy per site $\\ell_3$ of the simple cubic lattice satisfies $\\ell_3\\ge \\frac12\\log\\frac{3125}{1296}+\\frac{47}{10000}=0.444775842629\\ldots.$ This exceeds the previous best published lower bound, obtained by Csikvári of $0.441075842629\\ldots$. The proof uses finite matching inequalities and elementary integration, without numerical quadrature or a computational certificate.",
+"authors": [
+"Yair Lavi"
+],
+"categories": [
+"math.CO",
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00227v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00227v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00238",
+"title": "Another Proof of Laurent Positivity for Generalized Cluster Algebras",
+"abstract": "We prove Laurent positivity in the original exchange coefficients for skew-symmetrizable Chekhov–Shapiro generalized cluster algebras of arbitrary finite rank.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.AC",
+"math.CO",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00238v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00238v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00239",
+"title": "Another proof of Laurent positivity for skew-symmetric quantum cluster algebras",
+"abstract": "We give another proof of Laurent positivity for skew-symmetric quantum cluster algebras.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.QA",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00239v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00239v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00241",
+"title": "Autocorrelation Phase Lattices on Cyclic Groups: Unit Supports, 2pq Orbit Profiles, and Binary Reconstruction",
+"abstract": "For a finite cyclic group and an exact Fourier support $S$, we study the lattice $\\mathcal{L}_{\\le d}(S)$ generated by zero-sum relations of length at most $d$ inside the full relation lattice $K(S)$. Its closing degree is both a local separating degree and the order at which every invisible phase ratio becomes a translation character. For the exact unit support of every even cyclic group, we compute $$ \\mathbb{Z}^{U_{n}}/\\mathcal{L}_{\\le4}(U_{n})\\cong \\begin{cases} \\mathbb{Z}/n\\mathbb{Z},&3\\nmid n,\\\\ \\mathbb{Z}\\oplus\\mathbb{Z}/(n/6)\\mathbb{Z},&6\\mid n. \\end{cases} $$ Moreover $\\mathcal{L}_{\\le5}(U_{n})=\\mathcal{L}_{\\le4}(U_{n})$. Thus fourth- and fifth-order rational ambiguity coincide: fourth order reconstructs up to translation when $3\\nmid n$, while for $n=6m$ the complete surviving family has normalized ratios parameterized by norm-one elements of $\\mathbb{Q}(\\zeta_6)$, modulo the residual translation subgroup $\\mu_6$; order six closes it. For $n=2pq$ with distinct odd primes, we classify every nonempty $\\operatorname{Aut}(C_n)$-stable support. The distributions of these 255 supports by closing degree are $$ (1,2,154,80,4,14)\\quad(p=3),\\qquad (1,2,154,92,4,2)\\quad(p,q\\ge5). $$ The proof uses seven local CRT presentations, cubic and quartic Skeletons, and explicit depth-five and depth-six obstructions. Galois-equivariant lower-bound ratios show that the lattice, rational-signal and integer-signal closing degrees coincide on every stable support. Finally, for binary indicators, a supportwise crosswalk and a uniform exclusion of all deep supports give $r_{\\rm set}(C_{2pq})=4$ under translations. The value is also four for the same oriented analytical deck when outputs are identified up to translation or reflected translation.",
+"authors": [
+"Oleksiy Babanskyy"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00241v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00241v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00212",
+"title": "Consecutive Divisors of Sums of Fibonacci Polynomials: a Luca–Marques Analogue in Finite-Field Polynomial Rings",
+"abstract": "For every prime power $q$ with $\\gcd(q,6)=1$, we construct infinitely many pairs of consecutive monic polynomials in $\\mathbb{F}_q[T]$ whose product divides the Fibonacci-polynomial sum with upper index one less than their common norm. This gives a function-field counterpart of the divisibility condition in the Luca–Marques theorem on consecutive integral arithmetic means of Fibonacci numbers. A short extension of the construction gives infinitely many triples of consecutive monic polynomials with the same property.",
+"authors": [
+"Scott Kominers"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00212v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00212v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00254",
+"title": "Critical edges in labelled complete graphs",
+"abstract": "In a complete graph whose edges have labels 1,...,ell, an edge is critical for a matching if its label is smaller than that of a matching edge sharing an endpoint. The parameter gamma(ell) is the asymptotic worst-case, over labelings, of the smallest critical-edge count obtainable by choosing the matching, normalized by the number of pairs of covered vertices; gamma'(ell) is its perfect-matching version. These parameters arise in bounds for finding cliques in random graphs by edge queries in a prescribed number of rounds. We prove 0.419772820486... <= gamma'(4) <= gamma(4) <= 0.4334035. For every ell >= 2 we give an explicit construction proving gamma'(ell) >= 1/2-1/[4(ell-1)]. We also improve the state-of-the-art upper bounds for general ell, obtaining gamma(ell) <= 1/2-4/(5*2^ell) +O(2^(-3*ell/2)) as ell tends to infinity, together with explicit finite bounds. The proofs of upper bounds compare matchings obtained by local exchanges. The proofs of lower bounds use labelings that are constant on pairs of vertex parts; the stronger four-label construction has six parts and an algebraic value of degree six. Exact-arithmetic verification programs and their data are included for the computer-assisted parts of the proofs.",
+"authors": [
+"Dr. András Pongrácz"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00254v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00254v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00235",
+"title": "Decomposable disjoint-union circuits for primitive words",
+"abstract": "For every fixed finite alphabet $A$ with at least two letters, we construct smooth decomposable circuits representing the primitive words of each length $n$. The gates are literals, Cartesian products on disjoint position sets, and disjoint unions on equal position sets. The total number of gates and wires is $O_A(n^2 5^{\\omega(n)})=n^{2+o(1)}$, and the construction takes $n^{2+o(1)}$ bit operations. Prime periods are expressed as coordinate directions of independent rectangular grids. A recursion at the first nonconstant vertex computes the exact set of failed directions; sharing its continuations gives the size bound. This resolves the primitive-word instance of the circuit question posed by Amarilli, Monet, Raphael, and Salvati. It does not determine whether primitive words form a context-free or a poly-slicewise-unambiguous language. The same circuit bound holds for any union of exact power orders at a fixed length.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"cs.FL"
+],
+"link": "https://hexagonmath.org/abs/2611.00235v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00235v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00214",
+"title": "Haagerup symmetry in a rank-six lattice conformal field theory",
+"abstract": "Let $U$ be a positive strongly rational vertex operator algebra of central charge eight with $\\mathrm{Rep}(U) \\cong Z(\\cal H_3)$. We show that its Cartan Heisenberg commutant $\\Omega$ embeds conformally into a lattice algebra $V_K$, where $K$ has rank six, determinant $39$ and root system $A_2\\oplus A_2\\oplus A_1$. The diagonal theory of $V_K$ has a unique vacuum and carries each of the three Haagerup fusion categories through three nonconjugate embeddings of $\\Omega$. We show that, up to isomorphism fixing $\\Omega$, there are exactly five conformal extensions of $\\Omega$ with positive strongly rational target and global representation-category dimension $39$, and that their images in $V_K$ form four conjugacy classes. We also determine the common invariant relevant spectrum of the three canonical actions, their normalized cubic constants and their invariant genus-zero field algebra. We work in the TFT framework of rational full conformal field theory.",
+"authors": [
+"Cédric ARHANCET"
+],
+"categories": [
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2611.00214v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00214v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00252",
+"title": "Holographic entropy inequalities without unscaled contraction proofs",
+"abstract": "We show that a valid holographic entropy inequality can lack a proof by contraction until all its coefficients are multiplied by a common integer, even when it is balanced, that is, every party has the same total coefficient on both sides, or superbalanced, that is, this remains true after any party is exchanged with the purifier. Every facet of the holographic entropy cone other than subadditivity is superbalanced. A proof by contraction is a map between Boolean cubes that respects the terms in which each party occurs and does not increase weighted Hamming distances. A balanced seven-party inequality and a superbalanced six-party inequality fail at a single point of the cube. Six of their right-hand side terms correspond to the edges of two disjoint triangles of parties, and at that point an unscaled map would have to choose three of these edges that together touch all six vertices, which is impossible. The seven-party one has a proof after doubling. Superbalanced eight- and seven-party inequalities have no unscaled proof even on their realizable domains, the subsets of the cube on which a map already proves validity, and they keep this property when instances of the monogamy of mutual information are subtracted in five successive steps. Splitting further into valid inequalities leads to a superbalanced facet $F_7$ of the seven-party cone that we did not find in the literature. It has unscaled maps on its realizable domain, all of which break its symmetry. For star inequalities, whose left-hand side contains only single-party entropies, the least scaling is the least $k$ for which an explicit polytope contains a point with coordinates in $\\frac1k\\mathbb{Z}$. From the weighing matrices of Alon and V\\~u we obtain valid $N$-party star inequalities whose least scaling exceeds $N^{(1/4-\\varepsilon)N}$ for every $\\varepsilon>0$ and large $N$, while every finite least scaling of an $N$-party star inequality is below $N^{N/2}$. Non-existence rests on DRAT proofs, validity on exact rational maps or identities, and the facet property on $126$ explicit graph models, except for the star inequalities of arbitrary size, whose results rest on written proofs.",
+"authors": [
+"Antti Hippeläinen"
+],
+"categories": [
+"math-ph",
+"math.CO",
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00252v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00252v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00223",
+"title": "Images of Multilinear Polynomials with a Standard-Polynomial Unit Specialization",
+"abstract": "For $r=3,4,5$, consider an ordinary multilinear polynomial $f(Y,X_1,\\ldots,X_{2r})$ whose specialization at $Y=I$ is a nonzero scalar multiple of the standard polynomial $s_{2r}$. Over an algebraically closed field $K$ of characteristic zero, we prove that for every $n\\ge r+1$ the set of its individual values on $M_n(K)$ is $\\mathfrak{sl}n(K)$ if its trace vanishes identically, and $M_n(K)$ otherwise. This includes arbitrary proper perturbations of $s_7,s_9,s{11}$. The proof combines exact standard-polynomial core constructions, additive size transfer, and a mixed-frame compatibility lemma with a local lifting criterion of Pan.",
+"authors": [
+"Y. T. Miah"
+],
+"categories": [
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.00223v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00223v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00209",
+"title": "Improved scaling in the metric cotype inequality",
+"abstract": "Let \\(2\\le q<\\infty\\). It is proved that every Banach space with Rademacher cotype \\(q\\) satisfies the metric cotype \\(q\\) inequality with scaling parameter \\(m=O(n^{1/2+1/q})\\). The improved bound on the scaling is achieved by reducing the metric cotype problem to a smoothing and approximation criterion on the continuous torus. For a single unconditional kernel, the criterion is controlled by its mean \\(\\ell_\\infty\\) radius and its variation in the main diagonal direction. The construction fits the universal smoothing and approximation scheme of Giladi, Mendel, and Naor. The proofs were generated by GPT~6 Astra with the help of the author.",
+"authors": [
+"Manor Mendel"
+],
+"categories": [
+"math.FA",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00209v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00209v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00210",
+"title": "Lusztig's sharp bound for Hecke algebras",
+"abstract": "We prove Lusztig's sharp boundedness conjecture for Hecke algebras of finite-rank Coxeter systems with positive integer-valued weight functions.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT",
+"math.GR"
+],
+"link": "https://hexagonmath.org/abs/2611.00210v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00210v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00211",
+"title": "Making the coprimality convention explicit in a mean value theorem of Halupczok for the ternary Goldbach problem",
+"abstract": "Theorem 1.2 of Halupczok (2013) is a Bombieri-Vinogradov type mean value theorem for the ternary Goldbach problem with one prime in an arithmetic progression and two primes in short intervals. Her proof works with residue classes $a \\bmod q$ coprime to the modulus, as stated on p. 344 of her paper, and this convention needs to be written explicitly into the statement because the printed product and the prime sum differ at $a = q = 3$, where the prime sum is $0$ for $X_1 > 3$ while the printed product is at least $9/16$ for odd $n$. We give two closely related explicit formulations, Formulation A and Formulation B, show that Formulation A implies Formulation B, and prove both assuming two cited inputs, Hypothesis H1 and Hypothesis H2, or alternatively Theorems 2.1 and 2.3 of her paper, which follow from these two inputs. Here Hypothesis H1 is a uniform reading of a printed remark of Perelli, Pintz and Salerno, supported by a reading of the proof, and Hypothesis H2 is assembled from displays of Perelli and Pintz and is not a numbered statement. The supplement of Theorem 1.2 with a maximum over $a$ is not covered. The later results of Halupczok's paper use only coprime residue classes and are unaffected. The main results of this note have been checked by computer.",
+"authors": [
+"Steve Hubbard"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00211v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00211v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00219",
+"title": "Monomial Immanants of Totally Nonnegative Matrices",
+"abstract": "We prove that every monomial immanant is nonnegative on the totally nonnegative real matrices, establishing a conjecture of Stembridge. We identify the corresponding normalized symmetric function of annular holonomy with a single cluster theta function.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.CO",
+"math.AG",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00219v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00219v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00215",
+"title": "Monotonicity of Erdős sums",
+"abstract": "For $k \\geq 1$ let $f_k = \\sum_{\\Omega(n)=k} 1/(n\\log n)$, where $\\Omega$ counts prime factors with multiplicity, and let $g_k$ be the same sum restricted to odd $n$. Lichtman showed that $f_k \\to 1$, with a global minimum at $k=6$, and Gorodetsky, Lichtman and Wong that $f_k = 1 - 2^{-k}(a_1 k^2 + O(k \\log(k+1)))$. We prove that $f_k < f_{k+1}$ for every $k \\geq 6$, and that $g_k > g_{k+1}$ for every $k \\geq 1$. The two statements come from one analytic distinction. Writing $\\sum_k P_k(s) z^k = \\zeta(s)^z H(s,z)$, at $s=1$ the point $z=2$ lies on the first singular circle of $H$, and strictly inside the first singular circle of the product with the prime $2$ removed. We show that this distinction decides the direction in general. If the complement of a set of primes $\\mathcal{P}$ is thin and its least element is at least $3$, the corresponding sums eventually decrease, so the second theorem is one case of a general phenomenon. The inequalities used at the last step of the first theorem are certified by interval arithmetic.",
+"authors": [
+"Jaideep Padhi"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00215v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00215v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00250",
+"title": "No arrivals: complete periodicity and degenerate orbits in rational right triangles",
+"abstract": "Boshernitzan conjectured in 1992 that in a rational right or isosceles triangle every direction of an explicit finite set is purely periodic: every billiard orbit in it that avoids the vertices is periodic. For a right triangle with acute angle $P\\pi/2Q$ in lowest terms the set is two classes of directions, each containing the perpendicular to a side, and the conjecture says that both are completely periodic. It fails at one known right triangle, $(4/15, 7/30, 1/2)\\pi$. We prove it, when $\\min(P, Q - P) \\geq 2$, whenever $P + 2$ and $P - 2$ are both prime to $Q$, a set of density about $0.62$, and whenever $Q$ has at most one odd prime factor, with a computer-assisted check of finitely many cases; and, through the fold, for the corresponding isosceles triangles. Everything turns on one object, an orbit from a vertex to a vertex that never strikes a side at a right angle: if there is none, both classes are completely periodic, and at odd $P$ the retracing band of a companion paper exists. Such an orbit satisfies an identity among roots of unity whose coefficients have signs fixed by the geometry, and Galois conjugation — or, at a single odd prime, a slowest-rotation argument — makes it impossible. When neither $P + 2$ nor $P - 2$ is a unit modulo $Q$, no argument from these inputs can succeed, and the counterexample lies there. A second method reads the poles of a minimal component as a word of a binary code attached to $Q$; it reaches further composite $Q$ and, with interval arithmetic, the triangles $(4, Q - 4, Q)$ at every $Q \\equiv 3 \\pmod{4}$. Beyond right triangles we prove, with computer assistance, that Boshernitzan's Conjecture 2.2(a) fails for infinitely many triangles.",
+"authors": [
+"Joshua Boorstein"
+],
+"categories": [
+"math.DS",
+"math.GT",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00250v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00250v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00243",
+"title": "Non-computable derivatives of the fractional-part autocorrelation",
+"abstract": "We describe a natural new example of non-computability in analysis. Namely, the multiplicative autocorrelation of the fractional-part function, \\[ A(x)=\\int_0^\\infty \\{t\\}\\{xt\\}\\,\\frac{dt}{t^2}, \\] is computable and differentiable almost everywhere, but its finite derivative can be non-computable even for a computable $x$. We derive these results from an adaptation of our earlier work on computability of Brjuno-like functions.",
+"authors": [
+"Michael Yampolsky"
+],
+"categories": [
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2611.00243v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00243v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00230",
+"title": "Nonexistence of DSRGs with ten parameter sets: the rank of A − θI versus a submatrix prescribed at a vertex",
+"abstract": "For a directed strongly regular graph (DSRG), the parameters determine rank(A − θI) at nontrivial eigenvalues θ. For small λ or t = λ + 1 they almost determine a piece of this matrix at a vertex: a piece needing more rank excludes the graph, and a small margin leaves finitely many cases. We exclude (50, 11, 7, 0, 3), (68, 13, 7, 0, 3), (100, 16, 7, 0, 3), (108, 19, 9, 0, 4), (48, 9, 5, 0, 2), (55, 16, 12, 1, 6), (66, 10, 5, 4, 1) and (91, 12, 6, 5, 1), open in Hobart and Brouwer's table, and their complements. Counting twin classes reproves (96, 15, 10, 9, 1) and (28, 6, 3, 2, 1): for the first, rank replaces one counting bound; for the second, it is unused. Lean 4 with Mathlib proves nine exclusions; for (28, 6, 3, 2, 1) its kernel also checks a SAT certificate. (48, 9, 5, 0, 2) ends with a search by two separately written programs, the second certified by CaDiCaL unsatisfiability proofs checked by drat-trim.",
+"authors": [
+"Iurii Ivanov"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00230v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00230v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00251",
+"title": "Nonuniqueness of site percolation on nonamenable quasi-transitive graphs",
+"abstract": "Benjamini and Schramm conjectured in 1996 that site percolation on every nonamenable quasi-transitive graph has $p_c<p_u$. We prove this in Hutchcroft's operator form: for Bernoulli site percolation on every connected, locally finite, nonamenable quasi-transitive graph, the critical two-point operator is bounded on $\\ell^2$, $p_c<p_{2\\to2}\\le p_u$, and in the standard monotone coupling infinitely many infinite clusters coexist at every parameter of a nondegenerate interval. Since bond percolation is site percolation on the line graph, this contains OpenAI's recent bond theorem. For unimodular automorphism groups we adapt OpenAI's proof: cut vertices replace bridges, a pruning lemma handles retained contact vertices, a rejection step controls the junctions created by opening a vertex, and pivotal corridors become induced paths. For nonunimodular groups we extend Tran and Nguyen's site argument from vertex-transitive to quasi-transitive graphs.",
+"authors": [
+"Yan Ru Pei"
+],
+"categories": [
+"math.PR",
+"math.CO",
+"math.GR",
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00251v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00251v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00203",
+"title": "Odd/Odd Records for a Relative Approximation Error: Three Quadratic Classifications and an Exact Certificate",
+"abstract": "For a quadratic irrational α > 1 and positive odd integers m, k, set H = mα + k and ε = |mα − k|/(mα + k). A state (m, k) is a strict chronological record if ε is smaller than at every admissible state of smaller H. We classify the strict records completely for α = φ, α = 1 + √3 and α = √3. In each case they are a finite explicit union of orbits of a single unimodular matrix, with signed defect cycles (−1, +1, −5), (−3, +1, −11) and (−2) respectively. The proofs rest on two exact identities that make ε a function of the defect N and the conjugate factor η alone, on a norm cutoff |N| ≤ 18, 204, 27 derived from heights, and on a finite exact certificate that decides every remaining comparison. Two phenomena require care and are isolated: at φ the competition between the Fibonacci and Lucas ladders is a genuine tie at leading order, decided by an integer identity N_B = −5N_A; and at √3 a companion family has exactly equal error at larger height, so it is excluded by equality rather than by loss. The results resolve two conjectures of the author's earlier note and correct one assertion there. Nothing here is formally verified or refereed, and the uniform generalisation is left open.",
+"authors": [
+"Elias  De Jesús"
+],
+"categories": [
+"math.NT",
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.00203v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00203v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00221",
+"title": "On Fourier and Hadamard matrices of prime order",
+"abstract": "We study how much of the Fourier matrix $F_p$ is needed to recognize it among complex Hadamard matrices of prime order $p$. For regular or Butson matrices, taking the $p$th power of each entry gives either a Hadamard matrix or a matrix of rank one. For every odd prime, the block of $F_p$ on the rows and columns indexed by the nonzero squares determines $F_p$ up to equivalence in both classes. At level $p$, a symmetry with cycle lengths $1,(p-1)/2,(p-1)/2$ on each side also characterizes $F_p$ at every odd prime through $109$.",
+"authors": [
+"Teo Banica"
+],
+"categories": [
+"math.CO",
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00221v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00221v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00244",
+"title": "On the Hodge, Tate, and standard conjectures for abelian varieties",
+"abstract": "This is a report on two preprints of OpenAI, \" Milne's rationality conjecture for abelian varieties\" and \"The rational Hodge conjecture for CM abelian varieties\", placing them in context.",
+"authors": [
+"James Milne"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00244v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00244v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00256",
+"title": "Period relations as period terms: linear independence at CM and Beta periods",
+"abstract": "We prove linear independence results for periods of CM abelian varieties and Beta values by using a known relation between periods as the period term in the algebraic subgroup theorem. For example, $1$, $B(\\frac27,\\frac27)$, $B(\\frac37,\\frac37)$ and $B(\\frac37,\\frac37)/B(\\frac17,\\frac17)$ are linearly independent over $\\overline{\\mathbb{Q}}$, and families of such relations attached to the CM types of $\\mathbb{Q}(\\zeta_N)$ give the linear independence of $1$, a common ratio and $\\kappa\\ge2$ periods. The same method proves Waldschmidt's Conjecture 42 at six classes of CM ratios (for instance, $\\wp(\\log 2/\\varpi)$ and $\\wp(\\log 3/\\varpi)$ are not both algebraic on the lemniscatic curve) and several four exponentials statements at CM periods. All results are explicit consequences of theorems of Waldschmidt and of Roy and Waldschmidt.",
+"authors": [
+"Shawn Krisman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00256v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00256v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-10",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00207",
+"title": "Pretorsion theories and image-closed subcategories",
+"abstract": "A pretorsion theory generalizes a torsion pair by allowing its two components to have a nonzero intersection, with morphisms factoring through the intersection playing the role of zero morphisms. In the module category of a finite-dimensional algebra, the first and second components of pretorsion theories are known to be the quotient-closed and submodule-closed subcategories, respectively. We show that the intersections of the two components are precisely the image-closed subcategories, namely those containing the image of every morphism between their objects, and that the pretorsion theories form a complete lattice. For a linearly oriented quiver of type A, we prove that the numbers of pretorsion theories and of image-closed subcategories are the Genocchi and median Genocchi numbers, respectively. Counting pretorsion theories by the number of indecomposable modules in their intersection, and image-closed subcategories by their number of indecomposable modules, yields the Gandhi polynomial refinements of Han and Zeng.",
+"authors": [
+"Haruhisa Enomoto"
+],
+"categories": [
+"math.RT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00207v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00207v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00233",
+"title": "Prime factors of fusion-category dimensions: weak group-theoreticity and decomposition",
+"abstract": "Let $D$ be the Frobenius–Perron dimension of a weakly integral fusion category and $Q(D)$ its square-full part. For primes $p<q<r<s$ and nonnegative integers $a,b$, we prove that a braided category of dimension $D$ is weakly group-theoretical whenever $Q(D)\\mid p^{5}q^{a}r^{b}$ or $Q(D)\\mid p^{3}q^{3}r^{a}s^{b}$. Without a braiding assumption, $D\\mid pqr^{a}s^{b}$ implies solvability. We also give criteria for adjoining a prime power of arbitrary exponent. For fixed $m$, the braided problem for dimensions dividing $\\ell^{e}m$, with $\\ell\\nmid m$ prime and $e\\ge 0$, reduces to finitely many dimensions. A braided category of dimension $D$ is weakly group-theoretical if $Q(D)<29160000$, and solvable if $Q(D)$ is odd and $Q(D)<6087156075$. Without a braiding assumption, the corresponding conclusions hold for $D<5400$ and for odd $D<121275$, respectively. We also obtain rank bounds and criteria for decomposing integral modular categories into braided factors.",
+"authors": [
+"Sebastian Burciu",
+"Jingcheng Dong",
+"Sebastien Palcoux"
+],
+"categories": [
+"math.QA",
+"math.CT",
+"math.GR",
+"math.MP",
+"math.RA",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00233v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00233v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00249",
+"title": "Propagation and Optimization of Low-Frequency Spectral Alignment in ReLU Networks on a Fixed Sample Graph",
+"abstract": "We study how low-frequency structure, measured with respect to the Laplacian of a fixed graph built on the training samples, propagates through a ReLU network to the least-squares readout $g$, and how individual neurons $h=S\\Phi\\theta$ can be optimized to capture low-frequency eigenvectors. The readout error splits into a low-frequency part controlled by coverage (how well the feature span contains the low eigenvectors) and a high-frequency part controlled by the smoothness (Dirichlet energy) of the target. We prove an error bound that makes this precise, with coverage measured by the coverage gap, the largest principal-angle sine between the low eigenvectors and the feature span, and show that coverage can always be preserved across ReLU layers. Finally, we define a count $N_K$ of captured low-frequency features, relate it to our error bounds, and prove that error can be reduced to a smoothness component when $N_K$ captures every low frequency feature. Lastly, we show that a ReLU layer can strictly increase $N_K$ whenever the previous layer keeps the samples distinct and coverage is not yet full, that $2K+2$ neurons suffice to preserve coverage, that greedily chosen neurons drive the coverage gap down at rate $O(1/t)$ governed by a ReLU variation norm of the low eigenvectors, and that $t$ neurons can reduce the coverage gap no further than the $(t+1)$-st principal-angle sine.",
+"authors": [
+"Cameron Ryan"
+],
+"categories": [
+"cs.CG"
+],
+"link": "https://hexagonmath.org/abs/2611.00249v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00249v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00248",
+"title": "R(12,12) ≥ 1661 by extending the Mathon–Shearer coloring",
+"abstract": "We prove that $R(12,12)\\ge 1661$ by constructing a red/blue coloring of the edges of $K_{1660}$ with no monochromatic $K_{12}$. We start from a classical $(11,11)$-coloring on 1596 vertices, delete 21 of its vertices and add 85 new ones. Toward the remaining 1575 vertices, each new vertex has either the same colors as one of the deleted vertices or a single color. The deleted vertices include two pairs whose members have complementary colors toward every other vertex, and these pairs weaken the conditions that the new vertices must satisfy. The proof reduces to a finite check on the new vertices and is formally verified in Lean 4.",
+"authors": [
+"Yue Ma"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00248v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00248v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00231",
+"title": "Rational points on the non-split Cartan modular curve of level $121$",
+"abstract": "We show that the modular curve $X_{\\mathrm{ns}}^+(121)$, attached to the normalizer of a non-split Cartan subgroup of $\\mathrm{GL}_2(\\mathbb{Z}/121\\mathbb{Z})$, has exactly $7$ rational points, all of them CM points. Together with the work of Rouse, Sutherland and Zureick-Brown, this completes the classification of the possible $11$-adic images of Galois of elliptic curves over $\\mathbb{Q}$ without complex multiplication. We do not use a model of $X_{\\mathrm{ns}}^+(121)$, which has genus $511$. Instead we use the map $X_{\\mathrm{ns}}^+(121)\\rightarrow X_{\\mathrm{ns}}^+(11)$, whose target is an elliptic curve of rank $1$, a descent with the cusps of $X_{\\mathrm{ns}}^+(11)$ and a Mordell-Weil sieve to reduce the problem to $7$ hyperelliptic curves of genus $5$ over a number field of degree $15$. We deal with these curves by a version of Stoll's Selmer group Chabauty method for the isogeny $1-\\zeta_{11}$ of their Jacobians.",
+"authors": [
+"Santiago Arango-Piñeros",
+"Filip Najman",
+"David Zureick-Brown"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00231v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00231v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00246",
+"title": "Second moments of pattern counts in dual Melas codewords",
+"abstract": "Let $\\alpha$ be a primitive element of $\\mathbb{F}_{2^k}$ and, for $c\\in\\mathbb{F}_{2^k}^*$, let $S_c=(\\mathrm{Tr}(\\alpha^i+c\\alpha^{-i}))_{0\\le i\\le 2^k-2}$ be the corresponding codeword of the dual Melas code. Let $X_{k,c}(w)$ be the number of occurrences of a uniformly random pattern $w\\in\\mathbb{F}_2^k$ in $S_c$. Sac Himelfarb and Schwartz conjectured that $X_{k,c_k}$ converges to the Poisson law $\\mathcal P(1)$ for every choice of $c_k\\in\\mathbb{F}_{2^k}^*$; they proved that the second factorial moment satisfies $\\limsup M_2\\le 2$, and $M_2\\to1$ for almost every sequence $(c_k)$. We prove that $|M_2^{(k,c)}-1|\\le 2^{-(1/22+o(1))k}$ uniformly in $c\\in\\mathbb{F}_{2^k}^*$ and in the primitive element $\\alpha$. Thus the second factorial moment converges to $1$ for every sequence $(c_k)$. The proof expresses $M_2$ through a norm form of the quadratic extension $\\mathbb{F}_2(x)/\\mathbb{F}_2(x+x^{-1})$, which turns it into a bilinear Kloosterman sum of full length, and bounds the latter in characteristic two. We also show that the counts $N_w(S_c)$, as functions of $(w,c)$, are the fibre sizes of a family of quadratic maps, and deduce that for almost every sequence of patterns $w_k$ the first two factorial moments of $c\\mapsto N_{w_k}(S_c)$ converge to $1$, as they would under the Poisson law conjectured by Sac Himelfarb and Schwartz for fixed patterns.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT",
+"cs.IT"
+],
+"link": "https://hexagonmath.org/abs/2611.00246v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00246v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00245",
+"title": "Seven Research Directions in Differential Geometry and Differential Topology Enabled by AI",
+"abstract": "This article presents seven AI-generated research directions in differential geometry and differential topology, each centered on a proposed research object or formulation. For each direction, we provide basic definitions and theorems, discuss connections with existing mathematical problems and theories, and outline questions for further study. The definitions introduced in these seven directions are relatively new. The article is intended as a collection of AI-generated research guides rather than a conventional research paper.",
+"authors": [
+"Jianqiao Shang"
+],
+"categories": [
+"math.DG",
+"math.GT",
+"math.SG"
+],
+"link": "https://hexagonmath.org/abs/2611.00245v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00245v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00253",
+"title": "Shared triangular sides in pseudoline arrangements",
+"abstract": "Let $d$ be the number of edges incident to two bounded triangular faces in a finite affine arrangement of pseudolines, with each pair crossing exactly once and with only double and triple crossings. If $t_3$ is the number of triple crossings, we prove $d\\leq 3t_3$, answering the compensation question of Parpalak and Utkin. The proof distributes charge along the normalized boundary of the union of triangular faces. A double crossing incident to four triangles is treated by restricting the arrangement to the four pseudolines supporting their opposite sides. This restriction provides two boundary edges whose unused endpoint charges pay for the crossing.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00253v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00253v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00236",
+"title": "Sharp thresholds for five-colour cube assemblies",
+"abstract": "We determine the least pool sizes guaranteeing a frame or a complete $a\\times b\\times c$ box from unit cubes whose faces use all five colours of a fixed palette, for every $a,b,c\\ge2$. Proper rotations are allowed; the target has monochromatic exterior faces using all five colours. The frame threshold is $\\max\\{15,4(a+b+c)-16,2(a+b+c)+1\\}$, and the complete-box threshold is $\\max\\{abc,15,2(a+b+c)+1\\}$. The proof combines a certified fifteen-cube corner theorem with elementary Hall arguments and a uniform three-variety obstruction. It completes the five-colour frame column left open by Berkove, Eickemeyer and Schulman (2018). All threshold statements are formalised in Lean. A fixed-size flow formulation decides feasibility and constructs assemblies in time linear in the explicit source list. We also determine the corner thresholds when the number of source varieties is bounded, and classify all fourteen-cube obstructions into 56 classes under common colour relabelling and simultaneous reflection, described by three structural forms. The minimum size of a collection capable of reproducing every $2\\times2\\times2$ target is also fifteen.",
+"authors": [
+"Jason Davies"
+],
+"categories": [
+"math.CO",
+"cs.DM",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00236v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00236v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00258",
+"title": "Smale's mean value constant (1981) exceeds 1.1559",
+"abstract": "We prove that Smale's mean value constant exceeds $1.1559837$, improving the bound $1.1018$ of Jatar and Ng. Smale proved in 1981 that for every complex polynomial $P$ of degree at least $2$ and every point $z$ with $P'(z)\\neq0$, some critical point $\\zeta$ of $P$ satisfies $|P(z)-P(\\zeta)|\\le K\\,|z-\\zeta|\\,|P'(z)|$ with $K=4$, and he conjectured that $K=1$ suffices. The best constant $K^*$ is called Smale's mean value constant. Smale's conjecture is false: a proof that $K^*>1$ appeared in 2026. Jatar and Ng showed that every pair $(W,B)$ of a normalized univalent map $W$ of the unit disk and a finite Blaschke product $B$ with $B(0)>0$, such that $(WB)'$ has no zero in the disk, gives $K^*\\ge1/B(0)$. We construct such a pair explicitly, with $B$ of degree two, from a polynomial of degree $18$ with Gaussian rational coefficients, and we verify the required properties by a computation in exact arithmetic. Since the best constant $K(d)$ for degree $d$ is nondecreasing in $d$ (Crane), $K(d)$ also exceeds $1.1559837$ for all large $d$. All theorems, lemmas and corollaries of this paper, and the results of Jatar and Ng that it uses, are also proved in the Lean 4 proof assistant and checked with the Lean comparator.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.00258v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00258v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-10",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00257",
+"title": "Spectral synthesis for the Báez–Duarte step space",
+"abstract": "We prove that the closed Báez–Duarte subspace of the Mellin step space is exactly the common kernel of the derivative evaluations prescribed by the zeros of the Riemann zeta function in $\\operatorname{Re}s>1/2$, with their multiplicities. No finiteness or sparsity assumption on this zero set is required. The proof combines a uniform fractional regularity estimate for Mellin transforms of step functions with a comparison obtained by reflecting zeros in a shifted vertical line. These estimates produce a holomorphic Hardy-space family whose membership in the Báez–Duarte subspace continues from large positive shifts to every sufficiently small positive shift. A uniformly bounded weak limit then gives the synthesis theorem.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00257v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00257v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-10",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00225",
+"title": "Spectrally Simple Spectra without Irreducible Nonnegative Realizations",
+"abstract": "We give a counterexample to a conjecture of Johnson, Marijuán, and Pisonero: we show that the spectrum $\\{1,1/2,\\pm i/\\sqrt3\\}$ is realizable and spectrally simple, but has no irreducible nonnegative realization. More generally, we prove their nonexistence conjecture for an order-four boundary family.",
+"authors": [
+"Yair Lavi"
+],
+"categories": [
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.00225v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00225v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00205",
+"title": "Structural Reductions for Lusztig’s Conjectures in Types (B_n), (\\widetilde B_n), and (\\widetilde C_n)",
+"abstract": "We develop structural reductions for Lusztig’s conjectures P1–P15 for unequal-parameter Hecke algebras of finite type (B_n) and nonextended affine types (\\widetilde B_n) and (\\widetilde C_n). The results include integral parabolic propagation mechanisms, reductions of P15 to constant leading-coefficient identities, spectral degree bounds, and finite-facet attainment criteria connecting affine tempered representations with the original Kazhdan–Lusztig filtration. Exact computations verify the relevant identities in the recorded finite-rank cases. These results produce internally audited proof candidates and isolate the remaining comparison and attainment problems required for unconditional all-rank statements.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT",
+"math.GR"
+],
+"link": "https://hexagonmath.org/abs/2611.00205v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00205v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00208",
+"title": "The 57 Grothendieckian Problems: Open Problems for Mathematics and Machine Reasoning from the Grothendieckian Programme",
+"abstract": "We state fifty-seven open problems drawn from the seven works of the Grothendieckian Programme (34 volumes, 26,021 pages, released openly in October 2026 as first drafts that have not been peer-reviewed). Thirty-five come from the two works on the architecture of a reasoning system and twenty-two from the five works that each take a named conjecture or programme as research subject; no problem is one of those conjectures. Each problem is stated in the words of its source, located by work, chapter and page, given the status the source assigns it, and paired with a criterion that decides when it is solved, a note on existing work and the date of a literature check. The problems are of three kinds: twenty-five mathematical problems, nineteen machine problems with success criteria fixed in advance, and thirteen formalization problems for Lean 4 and Mathlib. Every quotation from the sources has been checked against the published PDFs, and each problem has been checked against the literature as of 28 October 2026; a machine-readable version accompanies the paper.",
+"authors": [
+"Vincent Liu"
+],
+"categories": [
+"math.HO",
+"math.AG",
+"math.CT",
+"math.NT",
+"cs.AI",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00208v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00208v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00237",
+"title": "The Grothendieckian Programme: An Overview — Seven Open Works on Mathematics and Machine Reasoning",
+"abstract": "The Grothendieckian Programme is a series of seven works on machine reasoning about mathematics (34 volumes, 26,021 pages), released openly on Zenodo in October 2026 with an overview volume. Two of the works specify a reasoning architecture — a core that holds mathematical worlds as typed, versioned and verifiable objects, and a kernel that reasons inside such worlds by sites, sheaves and descent. Five apply one method, recursive mathematical discovery, to the Riemann Hypothesis, the conjecture of Birch and Swinnerton-Dyer, the Hodge conjecture, the abc conjecture and the Langlands programme, and record what it proves, what it reduces to stated hypotheses and what it leaves open. This paper describes the architecture, the five research subjects, the method, the published corpus and the open process by which the works are to be reviewed and continued. None of the works claims a proof of any of these conjectures; they are first drafts and have not been peer-reviewed.",
+"authors": [
+"Vincent Liu"
+],
+"categories": [
+"math.HO",
+"math.AG",
+"math.CT",
+"math.NT",
+"cs.AI",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00237v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00237v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00217",
+"title": "The Logical Anatomy of Optimization: Reverse Mathematics, Proof Mining, and the Price of Convergence",
+"abstract": "Optimization theory proves three kinds of theorems: that optimal points exist, that algorithms converge to them, and that optimality can be certified by duality. We measure how much mathematics each kind needs, using reverse mathematics, Weihrauch complexity and proof mining, and assemble the answers, old and new, into one map stated in the language of optimization. Compactness makes existence cost weak Kőnig's lemma, but convexity (and, format by format, tameness) makes it cheap: we show that $\\mathsf{RCA}_0$ proves that convex functions on $[0,1]$ attain their minima (and on $[0,1]^n$, for each fixed $n$, given a modulus of uniform continuity), and that $\\mathsf{RCA}_0$ proves linear programming duality and the minimax theorem for real data of every size. Convergence costs more: it follows from results of Kohlenbach and Neumann that convergence of gradient descent for convex smooth functions on $\\mathbb{R}$ is equivalent to $\\mathsf{ACA}_0$. We explain this by a selection principle: what costs is the particular minimizer the algorithm selects, and uniqueness or an error bound removes the cost. Below convergence lies finitary information. Gradient descent in $\\mathbb{R}^d$ has at most $2C_dD/\\varepsilon$ fluctuations of size $\\varepsilon$, with $C_d$ depending only on $d$, which yields rates of metastability; no such bound is dimension-free, by the span-restriction argument behind performance estimation; and the limits of gradient descent on computable instances have d.c.e. coordinates, a proper subclass of the limit-computable reals. The map also covers Ekeland's variational principle (up to $\\Pi^1_1\\text{-}\\mathsf{CA}_0$), separation theorems, Kőnig duality ($\\mathsf{ATR}_0$), proof-mined rates for fixed-point iterations, and the feasible world, where local search captures the $\\mathsf{NP}$ search problems provably total in $T^1_2$ and approximate stationary points of smooth functions are complete for $\\mathsf{CLS}=\\mathsf{PPAD}\\cap\\mathsf{PLS}$. We close with five principles and open problems.",
+"authors": [
+"Xiaoyu Li"
+],
+"categories": [
+"math.LO",
+"math.OC",
+"cs.CC",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00217v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00217v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00206",
+"title": "The L’vov–Kaplansky Conjecture for Matrices of Sufficiently Large Order",
+"abstract": "For each positive degree, the L’vov–Kaplansky conjecture holds over arbitrary fields in all matrix sizes beyond a threshold depending only on the degree. In these sizes the image of a nonzero multilinear polynomial is the traceless subspace if every cyclic coefficient sum vanishes, and the full matrix algebra otherwise.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.00206v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00206v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00220",
+"title": "The Mesirov-Sweet property over F_2 up to degree 33, with two quotients of degree two up to degree 28",
+"abstract": "For a monic polynomial g in F_2[T] of degree d, the conjecture of Mesirov and Sweet asserts that there is f in F_2[T], coprime to g with deg f < d, such that every partial quotient of the continued fraction of f/g has degree at most 2. We check by exhaustive computation that this holds for every g of degree at most 33. We also check that for every g of degree at most 28 one can choose f so that all partial quotients are linear except at most two, which have degree 2. The computations combine exhaustive enumeration of fixed degree patterns, explicit certificates for the polynomials not reached by the patterns, and two separately written enumeration programs whose outputs coincide bit for bit. All programs are provided.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00220v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00220v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00213",
+"title": "The necklace of a rational right triangle: exact counting and complete periodicity",
+"abstract": "Let $T$ be a right triangle with acute angle $\\alpha$, $2\\alpha/\\pi = P/Q$ in lowest terms. The Katok--Zemlyakov unfolding of $T$, quotiented by its holonomy involution, is a necklace of $Q$ kites: an explicit genus-zero half-translation surface in the stratum $Q(P-2, Q-P-2, -1^Q)$, whose kites glue in steps of $P$ and whose interfaces have explicit transverse measures. We use it to count the cells into which the vertices of $T$ cut the beam perpendicular to each side. For a completely periodic direction class the separatrix diagram has exactly $Q$ edges, and sorting them by the involution gives the identity $Q = h + f + 2p$ ($h$ sides of $T$ in the class, $f$ extra cells of the perpendicular beams, $p$ involution-swapped edge pairs). When $p = 0$ it is a covering law: the perpendicular beams of a class cut $Q - 1$ or $Q + 1$ cells in total at odd $Q$, according to the class, and $Q$ at even $Q$; with no hypothesis the shortfall is even, non-negative, and zero only on a completely periodic class. Complete periodicity of a class — that almost every trajectory in it meets a side at a right angle — is equivalent to $p = 0$ and to the covering law (on two-beam classes off the Veech locus, one direction assumes an orphan branch, which companion papers prove at broad classes of centres); it fails at $8/15$. For the beam perpendicular to a leg the count $n(P/Q)$ is at most $Q - 1$ at every centre and is known exactly on the Veech locus $\\min(P, Q-P) \\leq 2$; off it we prove $n(3/Q) \\leq 2\\cdot\\text{round}(Q/3) - 1$ for $Q \\geq 5$, with equality exactly under complete periodicity, and $n(5/(5m+1)) = 5$ for every $m \\geq 3$. Finally, every periodic billiard path of a rational right triangle in a mirror direction meets a side at a right angle.",
+"authors": [
+"Joshua Boorstein"
+],
+"categories": [
+"math.DS",
+"math.GT"
+],
+"link": "https://hexagonmath.org/abs/2611.00213v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00213v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-08",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00255",
+"title": "The rational points of the non-split Cartan modular curve of level 121",
+"abstract": "We prove that the modular curve $X_{\\mathrm{ns}}^{+}(121)$ of the normalizer of a non-split Cartan subgroup of level 121, of genus 511, has exactly seven rational points, all of them CM. This is the level 121 case of a conjecture of Rouse, Sutherland and Zureick-Brown, and with their theorem it determines the 11-adic images of Galois of non-CM elliptic curves over $\\mathbb{Q}$. The Jacobian has rank equal to the genus. We work at the primes 17 and 43, at each of which one Hecke block of the Mordell–Weil group has logarithm divisible by $p^2$ while its $p$-adic height has valuation exactly one. A comparison of valuations in the quadratic Chabauty identity then shows that the residue disc of each CM point holds no other rational point, with no computation of the local height at $p$, no basis of the Mordell–Weil group and no model of the curve. The inputs come from expansions of differentials at CM points and from a formula we prove for intersection numbers of CM divisors under Hecke correspondences on $X_{\\mathrm{ns}}^{+}(\\ell^e)$, at every prime $v \\ne \\ell$, and at $v = \\ell$ when $\\ell \\ge 7$, $\\ell \\equiv 3 \\bmod 4$ and $e \\le 2$.",
+"authors": [
+"Manvir Jaswal"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00255v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00255v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-10",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00259",
+"title": "The Rising-Sea Theses: Twelve Theses on Mathematics and Machine Reasoning",
+"abstract": "The Grothendieckian Programme is a set of seven works on machine reasoning about mathematics (34 volumes, 26,021 pages), released openly in October 2026 as first drafts that have not been peer-reviewed. This paper draws from them twelve theses on how mathematics and machine reasoning should be combined. Each thesis is stated in one sentence, argued, tied to the passages of the seven works on which it rests, related to existing work, and paired with an observation that would refute it. The theses concern the unit of mathematical knowledge for a reasoning system, the place of epistemic status, the latent space of mathematical reasoning, attention, failure, authority, and the method of discovery. The paper adds no mathematical result to the seven works; none of them claims a proof of the Riemann Hypothesis, the Birch and Swinnerton-Dyer conjecture, the Hodge conjecture, the abc conjecture or the Langlands correspondence.",
+"authors": [
+"Vincent Liu"
+],
+"categories": [
+"math.HO",
+"math.CT",
+"cs.AI",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00259v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00259v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-10",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00234",
+"title": "Torsion of elliptic curves over number fields of degree $10$",
+"abstract": "We determine all the groups that appear as the torsion group of an elliptic curve over a number field of degree $10$. There are $69$ such groups. For $4$ of them, namely $\\mathbb{Z}/2\\mathbb{Z}\\times\\mathbb{Z}/26\\mathbb{Z}$, $\\mathbb{Z}/3\\mathbb{Z}\\times\\mathbb{Z}/15\\mathbb{Z}$, $\\mathbb{Z}/3\\mathbb{Z}\\times\\mathbb{Z}/18\\mathbb{Z}$ and $\\mathbb{Z}/6\\mathbb{Z}\\times\\mathbb{Z}/12\\mathbb{Z}$, we also determine all the elliptic curves over number fields of degree $10$ that realize them, and there are only finitely many. These four groups were not known to occur over number fields of degree $10$. The proofs combine the global method of Derickx, Hecke sieves, formal immersion criteria at the prime $2$, and Riemann-Roch computations on modular curves and their quotients over finite fields.",
+"authors": [
+"Filip Najman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00234v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00234v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-09",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
