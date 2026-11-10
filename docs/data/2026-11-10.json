@@ -1,6 +1,6 @@
 {
 "day": "2026-11-10",
-"updated": "2026-11-10T06:08:22+00:00",
+"updated": "2026-11-10T07:06:17+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -977,6 +977,28 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-08",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00260",
+"title": "The Cereceda (2007) conjecture holds for bipartite 2-degenerate graphs",
+"abstract": "For a graph $G$ and a positive integer $k$, the $k$-recolouring graph $\\mathcal{R}_{k}(G)$ has the proper $k$-colourings of $G$ as vertices, two of them adjacent when they differ at exactly one vertex. A graph is $d$-degenerate if each of its non-empty subgraphs has a vertex of degree at most $d$. The Cereceda (2007) conjecture states that, for fixed $d$ and $k \\ge d+2$, the diameter of $\\mathcal{R}_{k}(G)$ is $O(n^2)$ for every $d$-degenerate graph $G$ on $n$ vertices. For $d = 2$, the conjecture was known to hold for $k \\ge 5$ by a result of Cereceda; for $k = 4$, the best bound known for all $2$-degenerate graphs is $O(n^3)$, due to Bousquet and Heinrich. We prove that the diameter of $\\mathcal{R}_{4}(G)$ is at most $2n(n+1)$ for every bipartite $2$-degenerate graph $G$ on $n$ vertices; hence the conjecture holds for these graphs. We also show that the order $n^2$ cannot be improved for this class, even for graphs of girth $6$. For the upper bound, we fix an ordering of the vertices in which each vertex has at most two later neighbours. In $n$ stages, we transform any proper $4$-colouring into the colouring in which every vertex has the least colour not used by its later neighbours, recolouring each vertex at most twice per stage. Both of our bounds have also been proved in the Lean proof assistant.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CO",
+"cs.DM"
+],
+"link": "https://hexagonmath.org/abs/2611.00260v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00260v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-10",
 "ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
