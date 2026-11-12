@@ -1,6 +1,6 @@
 {
 "day": "2026-11-12",
-"updated": "2026-11-12T05:05:48+00:00",
+"updated": "2026-11-12T06:05:19+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -59,6 +59,73 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00360",
+"title": "A congruence obstruction to Ibn al-Khawwām’s eleventh problem",
+"abstract": "We prove that there are no two rational squares whose sum is ten and such that adding its own square root to each gives another rational square. This is the existence question in Ibn al-Khawwām’s eleventh arithmetic problem. The proof uses only the residues of squares modulo three and a divisibility argument.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT",
+"math.HO"
+],
+"link": "https://hexagonmath.org/abs/2611.00360v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00360v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00354",
+"title": "A counterexample to the Foregger-Sinkhorn tie-point conjecture",
+"abstract": "The Foregger-Sinkhorn tie-point conjecture asserts that if a nearly decomposable doubly stochastic matrix minimizes the permanent on a face and the permanental cofactor at a prescribed zero is larger than its permanent, then that zero is a tie point. We give a counterexample in dimension eight.",
+"authors": [
+"Yair Lavi"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00354v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00354v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-11",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00357",
+"title": "A Fibonacci Analogue of the Fifteen Theorem",
+"abstract": "We prove that a positive-definite quadratic form with integral Gram matrix represents every Fibonacci number if and only if it represents the first forty-two of them. The unique minimal criterion set consists of ten Fibonacci numbers, the largest of which is $F_{42}=267914296$.",
+"authors": [
+"Scott Kominers"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00357v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00357v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-11",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00331",
 "title": "A proof that $\\mathbb{Z}$ is Diophantine in $\\mathbb{Q}$ through congruent-number twists",
 "abstract": "We give a proof of Glazer and collaborators' theorem that $\\mathbb{Z}$ is Diophantine in $\\mathbb{Q}$, which builds on OpenAI's proof that Hilbert's tenth problem over $\\mathbb{Q}$ has a negative answer. Integers are represented by multiples of a point on an elliptic curve of rank one over $\\mathbb{Q}(\\sqrt2)$. An existential condition on two congruent-number twists forbids poles of odd order at odd primes. A height bound at six rational points, from a quaternionic Shimura curve and Serre's conjecture (a theorem of Khare–Wintenberger and Kisin), and a prime pattern from the Green–Tao–Ziegler theorem turn congruences at chosen primes into identities between multiples, and the growth of a Lucas sequence forces integrality. Our contribution is the existence of the rational points that the condition on twists requires: for coprime squarefree integers $\\beta>1$ and $\\theta\\ge1$ with $\\beta\\equiv\\theta\\equiv1\\pmod8$, each a square modulo the primes of the other, there is an integer $e$ such that $y^2=x^3-e^2x$ and $y^2=x^3-e^2\\theta^2x$ both have rank one and a rational point with abscissa in $\\beta\\mathbb{Q}^{\\times2}$. Where Glazer and collaborators use a restricted $2$-converse theorem, this rests on published theorems: the genus criterion of Tian, Yuan and Zhang, with Gross–Zagier.",
@@ -98,6 +165,30 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-11",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00361",
+"title": "A unimodular continued fraction for cubic irrationals",
+"abstract": "We construct a single algorithm that assigns to every real number a recoverable sequence of positive integers which is eventually periodic exactly when the input is a cubic irrational. Its matrix digits are positive unimodular transformations on the two-dimensional simplex. Their products determine nested rational triangles whose diameters decrease by at least a factor of two at each step. An effectively specified partition combines Euclidean reduction with the dominant eigenvectors of cubic units. In both cubic signatures the matrix expansion eventually repeats a single matrix, whose Perron eigenvalue is a unit generating the input field.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00361v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00361v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
@@ -237,6 +328,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00363",
+"title": "Bootstrapping GAGA Theorems",
+"abstract": "Let $X$ be a noetherian scheme with affine diagonal, and let $\\lambda : \\mathcal{X} \\to X$ be a morphism of locally ringed spaces from a qcqs locally strongly noetherian analytic adic space. We prove that an equivalence on coherent sheaves, together with comparison of their cohomology, extends to every proper $X$-scheme. As an application, we obtain GAGA for proper schemes over the Fargues--Fontaine curve in equal and mixed characteristic.",
+"authors": [
+"Aniruddh Venkatesan"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00363v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00363v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00309",
 "title": "Borel Ruziewicz problem",
 "abstract": "We prove that normalized surface measure is the unique finitely additive rotation-invariant probability on the Borel subsets of $S^n$, $n\\geq2$. We also prove that Lebesgue measure is the unique finitely additive measure on bounded Borel subsets of $\\R^d$, $d\\geq3$, invariant under orientation-preserving rigid motions and normalized on the unit cube. The main step is the annihilation of Borel null sets. A spectral gap first gives bounded divergence certificates for compact null sets, chosen in a jointly Borel way. A shared random threshold then combines these certificates to cover arbitrary null sets. For Euclidean space, the construction is applied to families of spheres about two centers; spherical averaging completes the identification of the measure.",
@@ -345,6 +457,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00351",
+"title": "Cross-Energy of Dirichlet Partial Sums. Part 38: The energy of the Chebyshev race: an explicit unconditional floor for the prime race between the lanes $6k\\pm1$",
+"abstract": "Let $R(x)=\\pi(x;3,2)-\\pi(x;3,1)$ be the Chebyshev race between the two prime lanes $6k\\mp1$ (the prime $2$ counted, by the congruence $2\\equiv-1$ mod $3$, in the $6k-1$ lane). We study the race as an \\emph{energy} and establish three things (the energy law uses two estimates imported from the $\\zeta$ case; see Proposition~\\ref{prop:cramer}). First, an elementary ledger identity: the entire bias of the race is the bookkeeping of prime squares, which all land in the lane $6k+1$; subtracting the ledger $\\tfrac12\\pi(\\sqrt x)$ turns a walk with \\emph{zero} sign changes up to $10^8$ into one with $15{,}329$ ($21{,}329$ if every passage between $D>0$ and $D\\le0$ at a prime is counted). Second, the mean energy of the normalized race signal $e(u)=e^{-u/2}\\psi(e^u,\\chi_3)$ admits an explicit unconditional lower bound for its upper limit, which we call the floor, \\[ \\limsup_{U\\to\\infty}\\frac1U\\int_0^U e(u)^2\\,du\\;\\ge\\;\\kappa_3 :=\\sum_{\\rho}\\frac{1}{\\rho(1-\\rho)} =\\log\\frac3\\pi-\\gamma_E+2\\,\\frac{L'}{L}(1,\\chi_3) =0.113229969857\\ldots, \\] the sum running over the nontrivial zeros of $L(s,\\chi_3)$ with multiplicity, and the limit exists and attains the floor if and only if the Riemann hypothesis holds for $L(s,\\chi_3)$ with all zeros simple. The constant is known: under GRH it is the variance of the limiting distribution of Rubinstein and Sarnak for $(\\log x/\\sqrt x)R(x)$ (four times smaller than in their normalization $E(x;3,2)-E(x;3,1)$), and its closed form is that of Fiorilli and Martin (there under GRH); it is also the variance $V_\\chi$ of Part~37, on the $6k\\pm1$ race, where the prime-square mechanism of the bias is identified; what is added here is the unconditional floor with its equality case and exponential-growth law, the ledger correction of the counting race, and the exact measurement. The constant $\\kappa_3$ is the exact analogue, for the prime race, of the B\\'aez-Duarte constant $2+\\gamma_E-\\log4\\pi$ of the Nyman--Beurling criterion. Third, we measure: from all prime powers up to $10^8$, by exact piecewise integration, the cumulative mean energy is $0.1201$ at $x=10^8$ and lies $4$ to $12\\%$ above $\\kappa_3$ for $10^4\\le x\\le10^8$. This is consistent with the theorem and does not test it: the floor is a statement about an upper limit, obtained from the dichotomy between GRH and its failure, and means over single decades fall below $\\kappa_3$ ($0.102$ on $[10^4,10^5]$, $0.113$ on $[10^7,10^8]$). The second-order term is $(\\text{mean}-\\kappa_3)\\cdot U\\approx0.11$ (between $0.09$ and $0.13$), the race analogue of the second-order constant $K=2.5124797\\ldots$ of the prime energy. The proofs of the energy law transplant the $C_2$ energy law for $\\zeta$ to $L(s,\\chi_3)$, where the absence of a pole simplifies every step.",
+"authors": [
+"Pedro Caceres"
+],
+"categories": [
+"math.NT",
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.00351v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00351v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-11",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00344",
 "title": "Exact projector-rank thresholds for state-independent contextuality",
 "abstract": "For every integer r ≥ 1 we construct a finite exclusivity graph Fr with the following two properties. First, Fr has a projective representation by pairwise distinct projectors of rank r that exhibits state-independent contextuality. Second, no projective representation of Fr by projectors of any common rank s < r, in any finite dimension, exhibits state-independent contextuality; in every such representation the maximally mixed state is noncontextual. This establishes, for every r, the “rank efficient” scenarios sought by Hohn, Xu and Kleinmann, for which only numerical evidence at r = 2, 3 was available. The graph is the disjunctive product of an odd cycle C2r+1 with the orthogonality structure of a rank-one contextuality set whose fractional chromatic number exceeds its dimension by an arbitrarily small amount. Such sets are obtained from the infinite family of Kochen–Specker parity proofs in R^4 of Elford and Lisonek, together with a coning construction that raises the dimension by one.",
@@ -383,6 +517,73 @@
 "announce": "new",
 "date": "2026-11-11",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00330",
+"title": "Explicit Weak abc Inequalities and the Discrete Obstruction to Full abc in the DIC Framework",
+"abstract": "Independent audit and coefficient verification of C. Soulé's preprint \"On the abc conjecture\" (arXiv:2611.05217, 2026). This work neither proves nor disproves the abc conjecture; all No-Go statements are internal to the audited construction, and every statement that uses Soulé's Theorem A is explicitly tagged as conditional on it. We axiomatise the DIC framework and prove three stratified groups of results on Kodaira--Parshin arithmetic surface fibrations. (i) Unconditional geometric theorems: the adjunction identity $Z\\cdot\\omega_{\\mathcal{X}/B}=-Z^{2}$, the Riemann--Hurwitz intersection numbers, the invariants of the general $(g_0,r,b)$ construction, and a Deligne--Riemann--Roch decomposition $c=\\frac{2b^{2}+2b-1}{12}+(D_0-T)/\\omega^{2}$ of the arithmetic coefficient. (ii) A meta-theorem: integrality of torsion lengths forces the coefficient of Theorem A onto the discrete set $t=12/N$, $N\\equiv 1\\pmod 3$ (at the literature point $(q,\\lambda)=(5,3)$; for varying $q$ this is an arithmetic coincidence, not a structural barrier). A local hyperelliptic model gives $T=8k$, $t=12$ as the unique transverse output; second-order torsion gives $n_1=n_2$, hence $\\Theta=T/k\\in 2\\mathbb{Z}$, leaving $(\\Theta,q)=(12,27)$ as the sole lattice candidate. The unified criterion $E=12(q-1)/(qN\\gamma)$ has the unique solution $(N,\\Theta,q,\\gamma)=(13,12,27,8/9)$; the height is the canonical-bundle height of a fixed genus-$2$ curve ($\\gamma=2/5$, confirmed by $12/\\gamma=30$ in the source), so $(12,27)$ requires genus $13$ and lies outside the theorem's hypotheses: the last cell is empty. (iii) Controlled weak abc: all unconditional bounds known for abc are of exponential type ($\\log c\\ll N^{1/3}(\\log N)^{3}$; Stewart--Yu); the exponent below is of polynomial type, and its existence is what Theorem A supplies. We derive $\\eta(q)=(q-1)/q$, unify the exponent as $E=t\\eta/\\gamma$, and obtain $E_{\\max}=12\\frac{q-1}{q}\\bigl\\lceil\\frac{2q-2}{\\ell}\\bigr\\rceil$. A discriminant stratification sharpens this to $c\\le A_{\\varepsilon}(N/M_5)^{24+\\varepsilon}$; bootstrapping to exponent $1$ is impossible ($\\inf\\theta=0$); the discriminant-to-degree ratio is tower-monotone; $4/5$ is an Artin conductor identity; and the isometry step (32) of the source contributes only $O(d')$, derived unconditionally from a finite Čech complex, leaving $\\frac32=m\\cdot c$, $36$, $12$, $24$ and $E(c)=12/(5-18c)$ unchanged. A verbatim check of the source confirms twelve items, including the statement and scope of Theorem A; the constant $12$ decomposes as $\\frac13\\cdot\\frac{m}{\\rho-mc}$; and Route 1 is closed. Full abc is unattainable inside the audited construction for nine independent reasons, none depending on the truth of Theorem A: hypothesis exclusion, $\\inf\\theta=0$, tower monotonicity, bridge breaking, the $S$-smoothness loop, the double exclusion $T/k=47/3$, the $g_0=13$ collapse, index-ideal absorption with exact slope $2/(n-1)$, and the distributional vanishing of the discount (the multiplicity excess and $\\theta$ have density $1-o(1)$, with explicit large-deviation rates).",
+"authors": [
+"Zeng Chunping"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00330v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00330v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-11",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00323",
+"title": "Expressiveness, Verifiability, Tractability: Toward a Computational Thermodynamics",
+"abstract": "An investigation into the existence of a conservation law governing computational behaviour, in the form of the Expressiveness, Verifiability, Tractability (EVT) Hypothesis, is undertaken. The hypothesis is motivated by a simple observation: mechanisms that increase what a system can directly express, powerful control, effects, reflection, meta-programming, and self-interpretation, tend to undermine what can be verified uniformly and mechanically, while regimes that maximize static guarantees typically do so by restricting expressiveness or relocating effort into compilers, proof artifacts, or human interpretation. We analyze canonical failure modes that arise when one attempts to push beyond this frontier, distinguishing collapse of correctness, collapse of compilability, and collapse of comprehensibility. We then develop an order-theoretic model for comparing languages and verification disciplines and define an “E/V boundary” as a Pareto frontier in a partially ordered design space. Finally, we sketch how analogous tradeoffs appear in other computational domains, suggesting that “thermodynamic” boundary behaviour may be a recurring feature of expressive formalisms that demand strong global guarantees and within physical methods of information processing.",
+"authors": [
+"Benjamin Kaminsky"
+],
+"categories": [
+"cs.LO",
+"math.CT",
+"cs.SC"
+],
+"link": "https://hexagonmath.org/abs/2611.00323v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00323v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-11",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00356",
+"title": "Finite-length permutation modules for\\\\free-amalgamation structures of arbitrary arity",
+"abstract": "Let $\\A$ be the countable homogeneous limit of a free-amalgamation class in a finite relational language, expanded by a generic linear order. We prove that its tuple permutation modules have finite composition length over every field, also after naming finitely many points. More precisely, each orbit of increasing $d$-tuples disjoint from the named points has a permutation module of length $2^d$. This extends the theorem of Yang--Boja\\'nczyk--Klin from unary and binary relations to relations of arbitrary arity. The main step shows that every finitely supported array whose sums over each single coordinate vanish is a linear combination of alternating sums obtained by independently doubling its coordinates. Its proof combines a Ramsey separation theorem with a construction that moves finite configurations into prescribed order intervals. Over a finite field, we also obtain finitely many closed invariant linear subspaces of $\\F^{A^k}$; each is generated, in the product topology, by functions definable using at most $k$ additional parameters.",
+"authors": [
+"Dr. András Pongrácz"
+],
+"categories": [
+"math.GR",
+"math.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00356v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00356v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-11",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -593,6 +794,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00359",
+"title": "Optimal Packing of Eleven Unit Squares: The Formalized Voronoi-Cell Proof",
+"abstract": "We explain the computer-assisted proof that eleven independently rotated unit squares require a square container of side at least T = 3.8770835900228141773 . . ., the side attained by the known construction attributed to Walter Trump. The proof reduces arbitrary packings to 2,184 patterns of occupied closed Voronoi cells. Exact geometric certificates exclude 2,180 patterns, a square-symmetry argument reduces the remaining four to one, and a complete subdivision of that case places every possible smaller packing inside an explicitly certified isolation neighborhood. We give the geometric definitions, prove the continuous soundness rules underlying the finite calculations, and explain the common-cone local isolation argument used in the Lean development. The large certificate instances are identified by pinned source references; they are not replaced by numerical experiments. The reported formal verification uses Lean’s kernel together with its native compiler for specified numerical certificates.",
+"authors": [
+"Manasseh Ahmed"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00359v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00359v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00321",
 "title": "Osterwalder–Schrader axioms for scalar QED$_3$ in the Higgs phase",
 "abstract": "We study scalar quantum electrodynamics in three dimensions (QED$_3$) in its Higgs phase: the three-dimensional lattice abelian Higgs model in unitary gauge, with the Villain action, on lattices whose spacing tends to zero with canonically scaled couplings. At each spacing we construct infinite-volume states, as limit points of the periodic states and as limits of states in finite boxes; they carry the lattice symmetries, reflection positivity and bounds uniform in the volume. For the smeared curvature and bounded functions of the density, the generating functionals converge along a subsequence of spacings to a translation-invariant limit functional with the continuity required for the Osterwalder–Schrader reconstruction. For the limits built on the box states, and on the periodic states along dyadic sequences of sides, the limit curvature field satisfies the axioms OS0–OS3, with invariance under the full Euclidean group. The cluster axiom OS4 is proved in a weak form, on almost every ergodic component. The tools are Gaussian domination of the Villain curvature, Ginibre inequalities and reflection positivity.",
@@ -712,6 +934,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00365",
+"title": "The Cranston–Li–Su–Wang–Xu (2026) conjecture is true",
+"abstract": "Let A be a finite abelian group. A nowhere-zero A-flow of a graph can be changed along a cycle: going around the cycle, add a fixed non-zero element of A to the value of every edge that points forward and subtract it from the value of every edge that points backward. The Cranston–Li–Su–Wang–Xu (2026) conjecture on the reconfiguration of nowhere-zero flows states that if A has at least four elements, then in every graph in which all degrees are even, any two nowhere-zero A-flows are joined by a chain of such changes through nowhere-zero A-flows. It also states that, for every integer k ≥ 4, the same holds for integer flows whose values are between 1 and k − 1 in absolute value, where each change adds a non-zero integer. We prove this conjecture. The proof is by induction on the number of edges. If a flow enters a vertex along one edge and leaves it along another edge with the same value, the two edges can be replaced by a single edge; this gives a smaller graph. The main step is to change every flow into a flow with such a pair of edges. For A-flows we do this when all degrees are at most 4; repeatedly replacing a vertex of degree at least 6 by a triangle, following Cranston et al., reduces the general case to this one. For integer flows, we show that, in a graph in which all degrees are even, any two nowhere-zero flows with values in the cyclic group Z_k, k ≥ 4, are joined by changes that add only 1, −1, 2 or −2, and that such changes lift to integer flows. All theorems of this paper are also proved in the Lean 4 proof assistant.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00365v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00365v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00333",
 "title": "The exact diameter of the symmetric group 𝑆𝑛 with LRX generators",
 "abstract": "We consider the undirected Cayley graph of the symmetric group 𝑆𝑛 with respect to the cyclic shift 𝐿, its inverse 𝑅, and the transposition 𝑋 of the first two positions. We prove that its diameter is given by 𝑛(𝑛 − 1)/2 for every 𝑛 ≥ 4, thus settling a conjecture open since at least 2011. This is done by separately establishing sharp upper and lower bounds, invoking a variety of combinatorial and group-theoretic arguments which leave a finite set of special cases that are verified in the accompanying C++ code. We also provide a Lean formalization of the results.",
@@ -730,6 +973,113 @@
 ],
 "link": "https://hexagonmath.org/abs/2611.00333v1",
 "pdf": "https://hexagonmath.org/pdf/2611.00333v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-11",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00364",
+"title": "The Humphreys support conjecture",
+"abstract": "We prove the Humphreys support conjecture for connected reductive groups over algebraically closed fields of characteristic $p>h$.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00364v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00364v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00358",
+"title": "The independence number of the generalized Johnson graph $J(13,5,3)$",
+"abstract": "Let $J(13,5,3)$ be the graph on the 5-element subsets of a 13-element set, two subsets being adjacent when they share exactly 3 elements. We prove that $\\alpha(J(13,5,3)) = 33$. The graph is an explicit unit-distance graph in $\\mathbb{R}^{12}$, so $\\chi(\\mathbb{R}^{12}) \\ge \\lceil 1287/33 \\rceil = 39$; earlier bounds from explicit finite graphs give at most 38. A recent preprint of Davies gives much larger bounds, none from an explicit finite graph. An explicit independent set gives $\\alpha \\ge 33$. For the upper bound, a symmetry reduction splits the problem into 200 clique subproblems, and a certifying solver refutes each one with a proof log that the checker VeriPB accepts. An uncertified computation reproduces the value $\\alpha(J(13,6,4)) = 46$ reported by Exoo and Ismailescu, which gives $\\chi(\\mathbb{R}^{12}) \\ge 38$.",
+"authors": [
+"Mustafa Stanikzai"
+],
+"categories": [
+"math.CO",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00358v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00358v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00352",
+"title": "The Marcus-Minc Transform Inequality",
+"abstract": "We prove the Marcus-Minc conjecture: let n be any integer at least 2, and let A be a nonnegative n by n matrix whose row and column sums are all one. Form a new matrix by subtracting A from the n by n matrix of ones and dividing by n minus one. Then the permanent of A is at least the permanent of the new matrix. We also determine all equality cases.",
+"authors": [
+"Yair Lavi"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00352v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00352v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-11",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00355",
+"title": "The Maximum of $\\operatorname{per}(I-A)$ in Odd Order",
+"abstract": "Let $Ω_n$ denote the set of $n\\times n$ doubly stochastic matrices. Kim and Roush conjectured in 1981 that, for $n=2k+1>1$, $ \\max_{A\\inΩ_{2k+1}}\\operatorname{per}(I-A)=3\\cdot 2^{k-2}$. They proposed the block construction $A_\\star=\\frac12(J_3-I_3)\\oplus P_2^{\\oplus(k-1)}$, where $P_2=\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$. Here $J_3$ is the $3\\times3$ all-ones matrix. They did not claim uniqueness. We fully prove their conjecture and classify equality: the maximizers are exactly the simultaneous-permutation conjugates of $A_\\star$.",
+"authors": [
+"Yair Lavi"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00355v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00355v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-11",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00353",
+"title": "The Maximum Permanent of a Stochastic Matrix of Bounded Rank",
+"abstract": "Let $A$ be a stochastic $n\\times n$ matrix with $\\operatorname{rank}A\\leq k$, where $1\\leq k\\leq n$. Write $n=qk+s$, where $0\\leq s<k$. The author conjectured in 2018 that $\\operatorname{per}A\\leq (q!/q^q)^{k-s}((q+1)!/(q+1)^{q+1})^s$, with equality if and only if $A=P(J_q^{\\oplus(k-s)}\\oplus J_{q+1}^{\\oplus s})Q$, where $P,Q$ are permutation matrices and $J_t$ is the $t\\times t$ matrix with every entry $1/t$. We prove this conjecture in full.",
+"authors": [
+"Yair Lavi"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00353v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00353v1",
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-11",
