@@ -1,6 +1,6 @@
 {
 "day": "2026-11-12",
-"updated": "2026-11-12T06:05:19+00:00",
+"updated": "2026-11-12T17:42:47+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -32,6 +32,29 @@
 "reasons": [
 "abstract: covariance-spectr"
 ],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00400",
+"title": "Isomorphism Loci and Coherence in Equivalence Extension",
+"abstract": "We study the restriction data carried by dependent-product extension along a monomorphism. In a locally cartesian closed category, the extended map is an isomorphism after a change of base if and only if the input map is an isomorphism on the restricted base. In a topos, its isomorphism locus is therefore the universal quantification of the input locus. A terminal characterization gives coherent comparisons for base change and successive extension, together with formulas for intersections and unions. Under explicit homotopical, cartesian, and universe hypotheses, this construction gives equivalence extension and preserves the boundary identifications used to prove fibrancy of a universe. Graph comparisons and strict fillers of a fixed universe boundary are represented by trivially fibrant objects. A single realignment over the comparison object induces a weak equivalence between these parameter objects, and both admit extensions of every finite cubical boundary. A finite-groupoid example shows that graph comparisons cannot be selected naturally under all isomorphisms of unstructured input.",
+"authors": [
+"Zhenyu Sun"
+],
+"categories": [
+"math.CT",
+"math.AT",
+"math.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00400v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00400v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "human",
+"other_links": {},
+"tier": 4,
+"reasons": [],
 "watched_authors": []
 },
 {
@@ -126,6 +149,75 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00394",
+"title": "A formal proof in Lean of the finiteness of planar five-body central configurations for all positive masses",
+"abstract": "Smale's sixth problem asks whether, for every choice of positive masses, there are finitely many central configurations up to similarity. For five bodies in the plane, Albouy and Kaloshin proved finiteness outside a set of masses of codimension two. In a companion paper the author proved finiteness for every choice of five positive masses by their method, adding steps that cannot be checked by hand: exact computer algebra, rational certificates and a branch and bound. We formalize this theorem in Lean 4 with Mathlib without assuming the results of Albouy and Kaloshin that the informal proof uses. Instead we prove what the proof needs of their rules on limit diagrams, of their classification of these diagrams and of their mass conditions. We do so at places of complex algebraic curves, taken as valuations of the function field rather than points of a projective model. Almost every computation becomes data for a checker that we write in Lean, prove sound with respect to Mathlib's real and complex numbers, and run in the kernel (proof by reflection). The main theorem depends on about $680{,}000$ theorems proved in this way, and Mathlib's tactics prove the few other computations. The proof uses only Lean's three standard axioms, and two independent Lean kernels, nanoda and lean4lean, accept it.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"cs.LO",
+"math.DS",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00394v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00394v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00393",
+"title": "A Lean 4 formalization of the area law for three-dimensional U(1) lattice gauge theory with the Wilson action",
+"abstract": "In three-dimensional $U(1)$ lattice gauge theory with the Wilson action, static charges are confined at every coupling: rectangular Wilson loops obey an area law, uniformly in the finite box. This was proved recently by the author in a separate paper; the proof runs to over three hundred pages with its supplement and adapts the Debye-screening analysis of Brydges and Federbush and the multiscale expansion of Göpfert and Mack. We describe a formalization of this proof in Lean 4 with Mathlib, which also covers the paper's corollaries and its appendix on comparing Wilson and Villain loops. The formal theorems take no hypotheses and use only the standard axioms of Lean. The proof became formalizable through explicit interfaces between its parts, written-out versions of the steps that the paper adapts from the literature or leaves out, and certified values for every numerical constant. The formalization also yielded 70 corrections and improvements to the paper, none of which changes its main results.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"cs.LO",
+"math-ph",
+"math.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00393v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00393v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00382",
+"title": "A lower bound of 0.8366 for Lebesgue's universal covering problem",
+"abstract": "A universal cover is a convex set in the plane that contains a congruent copy of every set of diameter at most $1$. Lebesgue asked in 1914 for a universal cover of least area; before this work, the infimum $\\Lambda$ of the areas of universal covers was known to satisfy $0.83474\\le\\Lambda\\le0.8441$. Lower bounds come from test sets: $\\Lambda$ is bounded below by the least area of a convex hull of congruent copies of given sets of diameter at most $1$. The best earlier lower bounds used the disk, the Reuleaux triangle and the Reuleaux pentagon, but these three bodies are known to admit a placement with hull area below $0.83479$, so they cannot give a much better bound. Adding the regular Reuleaux heptagon and nonagon of width $1$, we improve the lower bound to $\\Lambda\\ge0.8366$. Without the nonagon, the other four bodies already give $\\Lambda\\ge0.836$. The proof is a computer-assisted branch and bound over the relative placements of the bodies. Its certificates are checked in interval arithmetic, and separate proofs of both bounds in Lean 4, with their own certificates, are checked entirely by Lean's kernel.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.MG",
+"cs.CG",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00382v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00382v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00331",
 "title": "A proof that $\\mathbb{Z}$ is Diophantine in $\\mathbb{Q}$ through congruent-number twists",
 "abstract": "We give a proof of Glazer and collaborators' theorem that $\\mathbb{Z}$ is Diophantine in $\\mathbb{Q}$, which builds on OpenAI's proof that Hilbert's tenth problem over $\\mathbb{Q}$ has a negative answer. Integers are represented by multiples of a point on an elliptic curve of rank one over $\\mathbb{Q}(\\sqrt2)$. An existential condition on two congruent-number twists forbids poles of odd order at odd primes. A height bound at six rational points, from a quaternionic Shimura curve and Serre's conjecture (a theorem of Khare–Wintenberger and Kisin), and a prime pattern from the Green–Tao–Ziegler theorem turn congruences at chosen primes into identities between multiples, and the growth of a Lucas sequence forces integrality. Our contribution is the existence of the rational points that the condition on twists requires: for coprime squarefree integers $\\beta>1$ and $\\theta\\ge1$ with $\\beta\\equiv\\theta\\equiv1\\pmod8$, each a square modulo the primes of the other, there is an integer $e$ such that $y^2=x^3-e^2x$ and $y^2=x^3-e^2\\theta^2x$ both have rank one and a rational point with abscissa in $\\beta\\mathbb{Q}^{\\times2}$. Where Glazer and collaborators use a restricted $2$-converse theorem, this rests on published theorems: the genus criterion of Tian, Yuan and Zhang, with Gross–Zagier.",
@@ -166,6 +258,29 @@
 "announce": "new",
 "date": "2026-11-11",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00383",
+"title": "A thrackle on n vertices has fewer than 4n/3 edges",
+"abstract": "A thrackle is a drawing of a graph in the plane in which every two edges meet exactly once, either at a common endpoint or at a proper crossing. Conway conjectured that a thrackle with $n$ vertices has at most $n$ edges. We prove that a thrackle with $n\\ge4$ vertices has at most $\\frac43(n-1)$ edges, improving the bound $\\frac{18}{13}(n-1)$ obtained by Tóth and, independently, by Scoppetto. The proof combines Xu's discharging argument with two computer searches, by the method of Fulek and Pach, showing that two generalized dumbbells in the sense of Fulek and Pach are not thrackleable: $\\mathrm{DB}(6,8,-1)$ is a $6$-cycle and an $8$-cycle sharing one edge; $\\mathrm{DB}(6,10,-3)$ is a $6$-cycle and a $10$-cycle sharing a path of three edges. A formal proof in Lean 4 derives the bound from five properties of thrackles and checks the computational facts it uses; Section 6 states what this proof trusts.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.CO",
+"cs.DM",
+"cs.CG"
+],
+"link": "https://hexagonmath.org/abs/2611.00383v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00383v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -328,6 +443,31 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00398",
+"title": "Automorphic realization of Langlands parameters for split groups over global function fields, I. Arithmetic foundations and the main theorems",
+"abstract": "Let \\(G\\) be a split connected reductive group over a global function field \\(F\\). V. Lafforgue decomposed the space of cusp forms on \\(G\\) according to semisimple Langlands parameters. This is the first of three papers which prove a converse: every semisimple elliptic parameter is the parameter of a cusp form on \\(G\\) over \\(F\\) itself, which we call an automorphic realization of the parameter. This holds in every positive characteristic for classical groups, in characteristic greater than \\(3\\) for \\(G_2\\) and \\(F_4\\), greater than \\(5\\) for \\(E_6\\), and greater than \\(7\\) for \\(E_7\\) and \\(E_8\\). A parameter that is not elliptic is the parameter of an automorphic form which is not cuspidal, under the bound for the smallest Levi subgroup through which the parameter factors. The form has the prescribed eigenvalue for every excursion operator, and we determine for which lattices in the centre it can be taken invariant. The present paper contains the arithmetic part of the proof. It defines excursion operators on functions that are not assumed cuspidal, proves their compatibility with constant terms, shows that a function on which they act through an elliptic parameter is a cusp form, and passes from simply connected groups to isogenous groups and from Levi subgroups to the group. This reduces the theorems to the existence of a cusp form with a given elliptic parameter on a simply connected simple group. That is proved in the second paper by a geometric method, when the characteristic does not divide the order of the Weyl group, and in the third paper for classical groups, by descent from general linear groups.",
+"authors": [
+"Boyang Hu"
+],
+"categories": [
+"math.NT",
+"math.AG",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00398v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00398v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {
+"hexagon": "https://hexagonmath.org/abs/2611.00399v1"
+},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00363",
 "title": "Bootstrapping GAGA Theorems",
 "abstract": "Let $X$ be a noetherian scheme with affine diagonal, and let $\\lambda : \\mathcal{X} \\to X$ be a morphism of locally ringed spaces from a qcqs locally strongly noetherian analytic adic space. We prove that an equivalence on coherent sheaves, together with comparison of their cohomology, extends to every proper $X$-scheme. As an application, we obtain GAGA for proper schemes over the Fargues--Fontaine curve in equal and mixed characteristic.",
@@ -364,6 +504,75 @@
 "announce": "new",
 "date": "2026-11-11",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00404",
+"title": "Causal prediction of rare recovery responses and the optimal scale of observation time",
+"abstract": "We determine the information and physical waiting needed to predict a rare intervention response with error smaller than its occurrence probability in a one-dimensional growth process with renewed Poisson interval catastrophes. Deletions of initial sources in macroscopic intervals define a mixed response, with all intervention arms sharing the same stationary past and future forcing. A fixed number of growing submacroscopic gaps determines its rare-event probability scale. We identify the response probability and amplitude, characterize when terminal extinction bits lose predictive information, and construct a gate that recovers this information from the recovery trajectory. For absolute and squared loss, a deterministic-age Bayes-risk expansion holds uniformly with additive error smaller than the rare-event probability. Our main waiting theorem covers every honest causal stopping rule, allowing the complete realized catastrophe history. Its average-time benchmark is the sum of each ordered gap length weighted by the extinction probabilities of preceding gaps. Prediction error smaller than the rare-event probability requires mean waiting divided by this benchmark to diverge; every prescribed diverging multiplier is achievable using actual recovery records. With gap scales $n^{2/5}$ and $n^{4/5}$ and integrated catastrophe tail $A_x\\sim C/x$, deterministic observation requires age larger than the $n^{4/5}$ scale, whereas a stopping rule achieves mean waiting $O(n^{2/5}\\log n)$. The proofs preserve the rare-event scale through weighted response approximation, risk transfer over arbitrary information fields, and posterior lower bounds on rare history branches.",
+"authors": [
+"Man Huang"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00404v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00404v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00395",
+"title": "Certified lower bounds for the first and the signed third autocorrelation constants",
+"abstract": "Let $C_1$ be the largest constant such that $\\sup_{|t|\\le 1/2}\\int f(t-x)f(x)\\,dx\\ge C_1\\bigl(\\int_{-1/4}^{1/4}f\\bigr)^2$ for every nonnegative function $f$ on the real line. We prove $C_1\\ge 1.337$, improving the bound $1.2937$ of Kim and Pilanci, by a spatial branch-and-bound over the masses of $f$ on equal bins. Consequently, for every large $g$, every $g$-Sidon set in $\\{1,\\dots,N\\}$ has fewer than $1.2231\\sqrt{gN}$ elements once $N$ is large enough in terms of $g$. For real-valued $f$ supported in $[-1/4,1/4]$, let $C_3$ and $C_3'$ be the analogous constants for the essential suprema of $|f*f|$ and of $f*f$; no lower bound better than the trivial bound $1$ was recorded for them. We prove $C_3\\ge C_3'\\ge 4/3$ with the argument principle. Both proofs are computer-assisted, and both theorems are also proved in Lean 4.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.CA",
+"math.NT",
+"math.CO",
+"math.OC"
+],
+"link": "https://hexagonmath.org/abs/2611.00395v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00395v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00371",
+"title": "Certified lower bounds on the optimal-decoding threshold of the surface code",
+"abstract": "Under independent bit flips, rigorous lower bounds on the threshold of the surface code from earlier work stay below $0.04$, while numerical estimates place the optimal threshold near $0.109$. By counting labelled failure paths with exact transfer-matrix certificates, we prove without sampling that every minimum-weight decoder has threshold at least $0.0465$ on the planar and rotated codes. We then give statistical certificates that, with confidence $1-10^{-9}$ each, the optimal threshold of the planar code is at least $0.103$ under bit flips and at least $0.02$ under phenomenological noise. Each statistical certificate bounds the failure probability of an auxiliary decoder that divides the code into blocks and corrects each block using a window around it; optimal decoding does at least as well, so the bound also holds for optimal decoding. A deterministic lemma shows that the auxiliary decoder fails only if bad blocks, in which the window corrections leave a defect or a long residual path, form a sparse hierarchy that joins the two rough boundaries. This gives an explicit bound once every block is bad with probability below a limit, about $4\\times10^{-4}$ under bit flips, and a pre-registered Monte Carlo experiment bounds these probabilities. The confidence rests on a binomial model of the counts of bad blocks and on two tested properties of each decoding program. All these results are proved in the proof assistant Lean 4, the statistical ones with the binomial model and the two properties as hypotheses.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"quant-ph",
+"cs.IT",
+"math-ph",
+"math.ST"
+],
+"link": "https://hexagonmath.org/abs/2611.00371v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00371v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -479,6 +688,73 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00366",
+"title": "Divisors of Mersenne numbers under doubling",
+"abstract": "This paper studies a question of Erdős about how the total number of divisors of Mersenne numbers grows when the range is doubled. We prove that the doubling ratio is always at least 3, sharp, and nearly 4 whenever the relevant Fermat numbers are composite, as all known ones are. We also reduce the open question of whether the ratio tends to infinity to a statement about indices with few divisors. This leads to a new conjecture on the prime factors of Mersenne numbers next to near-Wagstaff numbers, which we study through implications, barrier results and a proven polynomial analogue.",
+"authors": [
+"Sunay Venkat"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00366v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00366v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00405",
+"title": "Domino insertion and cells in type B",
+"abstract": "We prove Conjectures A, A$^{+}$, and B of Bonnafé, Geck, Iancu, and Lam on Kazhdan–Lusztig cells in type $B$.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00405v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00405v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00370",
+"title": "Euler's 1747 conjecture on sums of integers with restricted prime factors",
+"abstract": "We prove that every positive integer congruent to $2$ modulo $4$ is a sum of two positive integers whose prime factors are all congruent to $1$ modulo $4$, with $1$ admitted as a summand. Euler proposed this statement in a letter to Goldbach dated May 6, 1747. The proof counts representations by four squares and bounds those containing a common prime divisor congruent to $3$ modulo $4$ in either coordinate pair. An average over a nonsplit torus normalizer converts the quaternionic Hecke bound into an error independent of the sieving prime. Elementary estimates then give the explicit threshold $64^4$. An exact finite arithmetic certificate covers the remaining $4{,}194{,}304$ integers in the required residue class.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00370v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00370v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00344",
 "title": "Exact projector-rank thresholds for state-independent contextuality",
 "abstract": "For every integer r ≥ 1 we construct a finite exclusivity graph Fr with the following two properties. First, Fr has a projective representation by pairwise distinct projectors of rank r that exhibits state-independent contextuality. Second, no projective representation of Fr by projectors of any common rank s < r, in any finite dimension, exhibits state-independent contextuality; in every such representation the maximally mixed state is noncontextual. This establishes, for every r, the “rank efficient” scenarios sought by Hohn, Xu and Kleinmann, for which only numerical evidence at r = 2, 3 was available. The graph is the disjunctive product of an odd cycle C2r+1 with the orthogonality structure of a rank-one contextuality set whose fractional chromatic number exceeds its dimension by an arbitrarily small amount. Such sets are obtained from the infinite family of Kochen–Specker parity proofs in R^4 of Elford and Lisonek, together with a coning construction that raises the dimension by one.",
@@ -495,6 +771,29 @@
 "announce": "new",
 "date": "2026-11-11",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00374",
+"title": "Exact sizes of networks that select the three or four largest of n elements",
+"abstract": "We study $(t,n)$-selection networks, which move the $t$ largest of $n$ inputs to $t$ given lines in any order, and the least number $\\hat U_t(n)$ of comparators in such a network. Alekseev showed that $\\hat U_t(n)\\ge(n-t)\\lceil\\lg(t+1)\\rceil$. For $t=2^k\\ge 4$ we raise this bound by $k-1$ for every $n>t$, and by $2k-5$ when $t\\ge 32$; as far as we know, these are the first improvements at powers of two. The proofs follow the weights of the lines, and a pruning step of Yao extends the gain to every $t\\ge 3$. For $t=3$, Yao's upper bound $2n-5+\\lfloor\\lg(n-3)\\rfloor$ is exact for $4\\le n\\le 18$. For $t=4$ the new bound is $3n-11$ for all $n\\ge 5$, and the value $3n-10$ that Knuth expected is exact for $6\\le n\\le 12$. Their lower bounds rest on exhaustive searches at a few sizes and on the fact that one more input costs at least two more comparators. Most of the results are also proved in Lean 4, some through compiled checks.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"cs.DS",
+"math.CO",
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2611.00374v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00374v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -611,6 +910,50 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00401",
+"title": "Fixed points of the polar projection body operator and its square",
+"abstract": "Let $TK=(\\Pi K)^\\circ$ be the polar projection body of a convex body $K$ in $\\R^n$. In dimension $n\\ge3$, we prove that $TK$ is a positive dilate of $K$ exactly when $K$ is an origin-centred ellipsoid, settling Petty's polar projection conjecture. The same classification holds under the weaker assumption that $T^2K$ is a positive dilate of $K$. The proof uses a distributional Laplacian identity to compare two integrals of central section volumes. Equality supplies contractive hyperplane projections with every kernel direction, and James's theorem gives ellipsoidal rigidity. The argument applies to arbitrary convex bodies and yields the translative constant volume conjecture of Horv\\'ath and L\\'angi.",
+"authors": [
+"Sihan Chen"
+],
+"categories": [
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00401v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00401v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00392",
+"title": "Formal Verification of a Computer-Assisted Proof in Celestial Mechanics",
+"abstract": "Albouy, Fu and Sun conjectured in 2008 that four positive masses admit, for each cyclic order of the bodies, exactly one convex central configuration up to similarity; the question is Problem 10 of a 2012 list of open problems on the $n$-body problem. We recently proved the conjecture by reducing it to an inequality for a trace at the real zeros of an equation in four variables; a branch and bound that starts from a grid of 136,448 boxes establishes the inequality. In this paper we describe a formalization of the whole proof in Lean 4 and Mathlib in which Lean's kernel checks the computation, using decide +kernel, so that no compiler has to be trusted. Our checker stores an interval as two natural numbers in a biased fixed-point format. The kernel can then hand all the arithmetic to GMP. Functions are enclosed over boxes by first-order slopes. An unverified search records the decisions for each box in one natural number, and the checker replays them. We write each formula once over a type class; evaluating it at a type that pairs a real number with an interval then proves the enclosure correct. Checking the 3418 certificate theorems takes 7.6 hours of processor time, and the independent type checker nanoda accepts the proof. A version rebuilt on one eighth of the boxes passed three type checkers in 2.9 hours on a public registry of formal proofs.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"cs.LO",
+"math.DS",
+"cs.MS"
+],
+"link": "https://hexagonmath.org/abs/2611.00392v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00392v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00329",
 "title": "Genuinely multipartite bound entanglement of three qubits",
 "abstract": "If a three-party state is positive under partial transposition (PPT) across each of its three bipartitions, no local protocol can distil any pure entanglement from it: neither singlets between any two parties nor GHZ states. All of its entanglement is bound. We show that such a state can nevertheless be genuinely multipartite entangled (GME), meaning that it cannot be prepared by mixing states in each of which some party is unentangled from the rest. This already happens for three qubits, the smallest system in which the question arises and a common experimental setting for multipartite entanglement; to our knowledge no three-qubit example was known. An explicit mixture of five orthogonal states (one GHZ-type, three $W$-type and one product state) is PPT across every cut and GME throughout an exact parameter interval, and its rank, five, is the minimum possible. Genuine entanglement is proved by a witness acting only on the five-dimensional support, whose nonnegativity on the biseparable states in that support reduces to a sum of squares on its curves of product vectors. Such states are invisible to the PPT-mixture test, the standard semidefinite relaxation used to certify GME, yet they form a set with nonempty interior among density matrices: an explicit full-rank example remains GME under $2.33\\%$ white noise, while $2.336\\%$ makes it biseparable. We also construct extreme examples with the smallest possible partial-transpose ranks $(5,5,5,5)$. All our explicit states, including the full-rank one, lie in the mixed $W$ class: they are mixtures of pure states with vanishing three-tangle, so their genuine entanglement needs no GHZ-type component. Full PPT therefore does not imply biseparability, even for three qubits.",
@@ -701,6 +1044,98 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00397",
+"title": "Limit Cycles under Concave Per-Capita Growth",
+"abstract": "We study predator--prey systems with a fixed globally linear functional response and a strictly concave prey per-capita growth rate. For every $N\\ge1$ and $K\\ge2$, we construct a growth polynomial of degree $2N+2\\lceil K/2\\rceil+2$ with exactly $N$ positive periodic orbits, all hyperbolic. The construction retains a chosen center $K$-jet and the low-density growth rate and carrying capacity of its limiting profile, subject to an explicit relation between the center height and curvature. A limiting Lyapunov function and return-map estimates at three amplitude scales exclude additional cycles. A dissipative extension gives exact global counts with prescribed limiting center energies. We also prove that profiles with at least $N$ hyperbolic cycles are $C^2$-dense in the admissible class, while preserving the entire germ at the maximum and both ecological endpoint values. The first nonzero canonical odd term determines the sharp differentiability threshold. Further results give parity restrictions for fixed focus jets, degree lower bounds, quantitative polynomial approximation under concavity and interpolation constraints, and amplitude and multiplicity interpolation by Abelian integrals. Finally, a single smooth strictly concave profile has infinitely many nested hyperbolic cycles converging to coexistence.",
+"authors": [
+"Zhenyu Sun"
+],
+"categories": [
+"math.DS",
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.00397v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00397v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00375",
+"title": "Local optimality of rank-47 schemes for 4×4 matrix multiplication over F2",
+"abstract": "The tensor $\\langle 4,4,4\\rangle$ of $4\\times4$ matrix multiplication has rank at most 47 over $\\mathbb{F}_2$, and as it is not known whether 47 is optimal, we ask how far the known decompositions of rank 47 are from one of rank 46. A decomposition is locally optimal to depth $D$ if no $D$ or fewer of its rank-one terms can be replaced by fewer rank-one terms. We prove that five pairwise inequivalent decompositions of rank 47 over $\\mathbb{F}_2$ are locally optimal to depth 18, as is every decomposition equivalent to one of them, so a decomposition of rank 46 over $\\mathbb{F}_2$ shares at most 28 terms with any decomposition in these five classes. The five classes include the scheme of Fawzi et al. and every public decomposition of rank 47 over $\\mathbb{F}_2$ known to us; one of them, found in our flip-graph searches, is new. The proof rests on a peeling lemma and, for four sets of terms that resist the other bounds, on a refinement of the substitution method, which we call substitution over subspaces with lifting. Local optimality to depth 18 is also proved in Lean 4.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.RA",
+"cs.CC",
+"cs.SC"
+],
+"link": "https://hexagonmath.org/abs/2611.00375v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00375v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00381",
+"title": "Lower bounds for the Beardwood–Halton–Hammersley constant",
+"abstract": "Let $\\beta$ be the Beardwood–Halton–Hammersley constant: the shortest tour through $n$ independent uniform random points in the unit square has length asymptotic to $\\beta\\sqrt n$ almost surely. Dong and Cao proved $\\beta\\ge0.6421$ from an inequality $\\beta\\ge5/8+\\sum_{k=3}^{K}C_k$, where $C_k$ is an integral over configurations of $k$ points in the plane that form a connected graph when points at distance at most $1$ are joined. For $C_3$, $C_4$ and $C_5$, sharper bounds come from a first-order expansion of the area of the union of the unit disks on boxes of configurations. For $C_6+\\dots+C_{22}$, which Dong and Cao did not use, a lower bound comes from comparing each point only with the three points before it in the order of their first coordinates. We obtain $\\beta\\ge0.6496$, and $\\beta\\ge0.6508$ if the exponential function of the C library used to evaluate the bound for $C_6+\\dots+C_{22}$ has a relative error below $10^{-9}$. The proofs are computer-assisted; the bound $0.6496$ is proved in Lean 4, with finite checks evaluated by compiled code, from the inequality of Dong and Cao and two statements about unions of disks that we prove but do not formalize.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.PR",
+"math.OC",
+"math.MG",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00381v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00381v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00362",
+"title": "Lusztig's Fourier matrix conjecture for finite noncrystallographic Coxeter groups",
+"abstract": "We give a computer-assisted proof of Lusztig's Fourier matrix conjecture for all finite noncrystallographic Coxeter groups. For every two-sided cell, the normalized \\(S\\)-matrix of the Drinfeld center of its asymptotic Hecke category, equipped with the inherited pivotal structure, equals the corresponding Fourier matrix in the modular convention. In particular, we establish the exact \\(74\\times74\\) matrix identity for the middle cell of type \\(H_4\\).",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT",
+"math.CT",
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2611.00362v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00362v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00326",
 "title": "Marked-point modules and central nilpotents at roots of unity",
 "abstract": "We study extensions in the two-marked-point representation of the periodic Temperley--Lieb algebra at $q=e^{i\\pi/p}$, $p\\in\\mathbb Z_{\\geq3}$. For every positive even size $N$, we construct a submodule $Z_N$ extending $T_N=W_{N;2,\\varepsilon}$ by $W_N=W_{N;0,\\varepsilon q}$, where $\\varepsilon=\\pm1$. The dual trees of noncrossing matchings give an explicit injection $\\Theta_N:T_N\\to W_N$. Both central braid transfer elements have nilpotent part $g\\Theta_N\\pi_N$ on $Z_N$, where $\\pi_N$ is the quotient map and $g=x+x^{-1}+\\varepsilon(y+y^{-1})$ for the marked-point parameters $x,y\\in\\mathbb{C}^\\times$. The extension splits exactly when $g=0$, and the formula determines the central Jordan forms at every even size. In the window $2\\leq N<2p-2$, $Z_N$ is a joint central summand and, when $g\\ne0$, has simple layers $T_N/S_N/T_N$. An explicit intertwiner and annular localization identify its two-layer quotient with a periodic XXZ sector. The associated basic image algebras have dimensions five and four; the quotient preserves first extensions between simples and kills a nonzero Yoneda product in degree two. An annular operator detects the extension with coefficient $2\\varepsilon g$. Beyond the isolated window, we determine a five-simple image algebra and compute a $43$-dimensional joint central summand at $p=3,N=6$, on which the two central nilpotents generate a four-dimensional algebra. Exact matrix calculations and verification code accompany these finite computations.",
@@ -773,6 +1208,30 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00387",
+"title": "On the minimal dimension of range-criterion counterexamples to the PPT² conjecture",
+"abstract": "The PPT$^2$ conjecture asserts that the composition of two completely positive and completely copositive (PPT) maps is entanglement breaking. A recently announced counterexample, with PPT maps $\\mathrm{M}_{10}\\to\\mathrm{M}_6\\to\\mathrm{M}_{10}$, is certified by the range criterion: the range of the composite Choi matrix contains no nonzero product vector. We ask how small a counterexample certified in this way can be. For PPT maps $\\Phi\\colon\\mathrm{M}_m\\to\\mathrm{M}_k$ and $\\Psi\\colon\\mathrm{M}_k\\to\\mathrm{M}_n$ with $\\Psi\\circ\\Phi\\neq0$ and $\\max(m,k,n)\\le6$ we prove that the range of the Choi matrix of $\\Psi\\circ\\Phi$ contains a nonzero product vector whenever $k\\le5$ or $\\min(m,n)\\le5$. Hence the range criterion cannot certify a counterexample on $\\mathrm{M}_4$ or $\\mathrm{M}_5$, and among the types with all three dimensions at most six only $(6,6,6)$ remains open. Since the range is spanned by products of Kraus operators, the question is when such a span can avoid the matrices of rank one. The computer-assisted proof combines rank bounds for PPT maps with Chern class and excess intersection computations; its computed facts are checked in Lean 4, modulo classical, quoted or hand-proved inputs. The announced counterexample lifts through exterior powers a map on $\\mathrm{M}_4$ built from a pencil of real matrices (a map of pencil type). When the map of pencil type loses rank transversally at finitely many points, its lifts through any Schur functor, exterior powers included, put product vectors into the kernel of the composite Choi matrix. When the composite is also nonzero, these product vectors form an unextendible product set only for exterior powers, and then one of the three dimensions is at least ten.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"quant-ph",
+"math.AG",
+"math.OA",
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00387v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00387v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00342",
 "title": "On the structure of countable hyperspaces of regular subcontinua",
 "abstract": "Let $X$ be a metric continuum and let $\\mathcal D(X)$ be its hyperspace of regular subcontinua, that is, of the subcontinua of $X$ which are the closure of their interior. We prove that if $\\mathcal D(X)$ is countable, then the interiors of its minimal elements are dense in $X$, and every regular subcontinuum is determined by the minimal elements it contains. We further establish that $\\mathcal D(X)$ is a $G_\\delta$ subset of the hyperspace $C(X)$ of subcontinua whenever $X$ admits a family of regular subcontinua whose interiors have dense union and which satisfies an absorption property. Consequently, every countable $\\mathcal D(X)$ is completely metrizable and scattered. In particular, $\\mathcal D(X)$ is never homeomorphic to the rational numbers, which answers a question of Ramírez Angarita and of Camargo, Ordoñez and Ramírez. The theorems of the paper are formalized in Lean 4.",
@@ -805,6 +1264,30 @@
 ],
 "link": "https://hexagonmath.org/abs/2611.00359v1",
 "pdf": "https://hexagonmath.org/pdf/2611.00359v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00369",
+"title": "Osterwalder–Schrader axioms for scalar QED$_3$ in the Coulomb phase",
+"abstract": "King constructed the continuum, infinite-volume limit of three-dimensional scalar quantum electrodynamics, the $U(1)$ (abelian) Higgs model, along Neumann–Dirichlet cubes. For his state at fixed photon mass we prove the Osterwalder–Schrader axioms: regularity $\\mathrm{E0}''$ with absolute constants, invariance under the full Euclidean group, reflection positivity about every plane, symmetry, and the measure with its ergodic decomposition, on whose components the cluster axiom holds in all its forms. Rotation invariance is proved by comparing King's cubes with periodic tori carrying a smooth mass wall on two lattices whose orientations differ by $\\arctan(3/4)$. With real scalar sources, the joint field of the curvature and the renormalised Wick square satisfies, on a tube of small Wick amplitudes, the axioms: regularity, invariance under translations and the lattice point group, Euclidean invariance of the joint field outside an exceptional set of couplings, reflection positivity for Wick amplitudes below a threshold, symmetry, and the measure with the cluster axiom in its weak form; above the threshold the Euclidean clause is open. The curvature results hold on King's whole coupling range; the Wick results hold under a one-sided sign clause of the Wick leg, which we prove on explicit coupling regions. The limit of vanishing photon mass is treated in a subsequent paper.",
+"authors": [
+"Mark Goldstein",
+"Alfredo Guevara"
+],
+"categories": [
+"math-ph",
+"math.MP",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00369v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00369v1",
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-12",
@@ -863,6 +1346,51 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00396",
+"title": "Quadratic Strictly Positive Real Factors of Stable Transfer Functions",
+"abstract": "We characterize factorizations \\(G=G_0\\circ H\\) in which \\(G\\) and \\(G_0\\) are stable, minimum-phase, biproper real-rational functions with simple poles and zeros and positive gains at infinity, and \\(H\\) is a quadratic strictly positive real function. Classical rational decomposition identifies the quadratic right-factor classes with real Möbius involutions fixing \\(G\\). Within each class, we parameterize all normalized representatives and eliminate the scaling parameter and the frequency variable. The resulting sign conditions involve univariate polynomials of degree at most four. They determine all feasible denominator intervals and all factorizations in the class; for real-algebraic input, they give an exact decision procedure. We also give a scaling that maximizes the smaller of the inner positive-real margin and the outer spectral margin for a fixed denominator. For quadratic input, existence is equivalent to strict positive realness of \\(G\\) and to an explicit coefficient inequality. Examples exhibit a disconnected feasible parameter set, separate algebraic and analytic obstructions, and a quartic input with exactly three admissible classes.",
+"authors": [
+"Jinlin Wang",
+"Zhenyu Sun"
+],
+"categories": [
+"math.OC",
+"cs.SC"
+],
+"link": "https://hexagonmath.org/abs/2611.00396v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00396v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00373",
+"title": "Re-proving native_decide facts in Lean's kernel: a study of 16 public packages and a converter",
+"abstract": "Lean's native_decide proves a decidable proposition by running compiled code and records the result as an axiom. Mathlib forbids such axioms, and lake check and Comparator in Lean 4.35 reject them, as do the independent proof checkers. NativeTrust re-proves the recorded facts in Lean's kernel, with only the standard axioms and without editing the projects that contain them. Where a definition blocks kernel evaluation and NativeTrust has a version proved equal to it (for example, a fuel-indexed form of well-founded recursion), the converter evaluates a copy that uses that version. It then proves the copy equal to the original, usually by congruence. With its default settings it converts 98.2% of 52,821 native facts in 16 public packages. The three largest packages hold 94% of these facts; outside them it converts 68.5%. Nearly every converted fact needed nothing beyond plain kernel evaluation. Two tools remove the native axioms that the kernel can prove within a budget: a single import that makes each call of the tactic try the kernel first, and a source rewriter.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"cs.LO",
+"cs.MS"
+],
+"link": "https://hexagonmath.org/abs/2611.00373v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00373v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00325",
 "title": "Sharp Ionization Bounds for Helium and Lithium",
 "abstract": "How many electrons can a nucleus bind? In the non-relativistic Coulomb model, Lieb proved in 1984 that a nucleus of charge $Z$ binds fewer than $2Z+1$ electrons. While this bound has been improved, the sharp upper bound has remained unknown for any nucleus other than hydrogen. We solve this problem for $Z=2$ and $Z=3$ by proving that helium binds two or fewer electrons and lithium binds four or fewer. Both bounds are sharp. Our main tool is an adaptation of Lieb's argument with a quadratic weight, which reduces the nonbinding of doubly negative ions to finitely many inequalities that we verify in a computer-assisted proof.",
@@ -888,6 +1416,30 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00377",
+"title": "Smale's sixth problem for six bodies in the plane: finiteness of central configurations for generic masses, with a proof formalized in Lean",
+"abstract": "Smale's sixth problem asks whether, for every choice of positive masses, the number of central configurations up to similarity is finite. We prove that it is finite for six bodies in the plane and all positive masses outside a proper algebraic subset of the mass space. This subset, which we describe only in part, contains every mass vector with three equal masses or with one mass equal to the sum of two others. Finiteness for all positive masses remains open. Infinitely many central configurations would give a curve of complex solutions; following Albouy and Kaloshin, we exclude such a curve using the valuations of the mutual distances at its points at infinity. The proof is computer-assisted and uses linear programs, Gröbner bases and interval arithmetic. The theorem is proved in the Lean proof assistant, whose kernel checks the computations as well.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.DS",
+"math.AG",
+"math.NA",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00377v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00377v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00345",
 "title": "Some positivity properties of Riemann $\\Xi$ under smoothing",
 "abstract": "We show that smoothing the zeros of the Riemann $\\Xi$-function makes it easy to establish positivity properties that are otherwise hard (as they are equivalent to the Riemann hypothesis). Specifically, we smooth each zero with a small density centered at it, and then test the impact of this smoothing on complete monotonicity (CM) of the heat sum $H(t)=\\sum_\\rho e^{-tz_\\rho^2}$ over the zeros $\\tfrac12+iz_\\rho$. A sufficiently wide density quickly implies CM of the smoothed heat sum. We bound the width (i.e., half-variance) the density needs using increasingly precise facts about the zeros. If we only use that they lie in the critical strip, half-variance $1/8$ suffices; the primes lower this width to $\\pi^2/288$; and zeros verified through height $T$ further lower it to $\\pi^2/(8\\log^2T)$ asymptotically. Ultimately, however, smoothing seems to be of limited utility: despite the CM result, the smoothed reciprocal laws of $\\Xi$ are not even log-concave, unlike the unsmoothed ones.",
@@ -904,6 +1456,159 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-11",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00391",
+"title": "Sorting networks on 13 inputs need at least 44 comparators",
+"abstract": "Let $S(N)$ be the least number of comparators in a sorting network on $N$ inputs. We prove $S(13)\\ge44$, one more than the previously best proved lower bound. We also prove $P(2,N)=\\lceil \\log_2 F(N)\\rceil$ for $3\\le N\\le32$, where $P(2,N)$ is the least worst-case number of comparators met by the two largest inputs in a network that delivers them to fixed outputs and $F$ is an explicit function of Van Voorhis; the lower bound comes from a finite search based on the structure of the paths of these two values. Starting from Harder's $S(11)=35$ and $S(12)=39$, these values of $P(2,N)$, the two-value bound $S(N)\\ge S(N-2)+P(2,N)$ and the one-value bound $S(N)\\ge S(N-1)+\\lceil \\log_2 N\\rceil$ give the twenty lower bounds on $S(N)$ for $13\\le N\\le32$ in Dobbelaere's table; these bounds rested on Van Voorhis's inequality $P(2,N)\\ge\\lceil \\log_2 F(N)\\rceil$, whose published proof is invalid. The bound $S(13)\\ge44$ is also proved in Lean 4, with every step checked by Lean's kernel.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"cs.DS",
+"math.CO",
+"cs.DM"
+],
+"link": "https://hexagonmath.org/abs/2611.00391v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00391v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00403",
+"title": "Stability conditions on twisted derived categories I: Existence and full numerical support",
+"abstract": "We prove that for every nonempty smooth projective variety $X$ over an arbitrary field and every Brauer class $\\alpha$, the twisted derived category $\\mathrm{D}^b(X,\\alpha)$ admits a Bridgeland stability condition with full numerical support. Based on Chunyi Li's construction and its extension to arbitrary fields, we establish uniform phase control under tensoring by an Azumaya algebra and calibrate the resulting slicing to the induced central charge. We further show that the constructed stability condition is geometric and satisfies a mass-Hom bound, which persists throughout its connected component.",
+"authors": [
+"Zhirui Li"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00403v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00403v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00389",
+"title": "Subplanes of order 3 and maximal arcs in projective planes of order 12",
+"abstract": "Whether a projective plane of order 12 exists is open. A subplane of order 3 of such a plane is a case of equality in Bruck's bound $n\\ge m^2+m$; the 27 points on no line of the subplane then form a maximal arc of degree 3, and together with the subplane a maximal arc $K$ of degree 4. We show that every line of a subplane of order 3 contained in $K$ lies in at most two such subplanes, whereas in $\\mathrm{PG}(3,3)$, which like $K$ has 40 points, a line lies in four planes; the proof uses Egan and Wanless's classification of triples of mutually orthogonal Latin squares of order 9. We also show that $\\mathrm{AG}(3,3)$ is not the design of any maximal arc of degree 3 in a plane of order 12, and that a permutation of the points that maps a subplane of order 3 onto itself and each line meeting it onto a line cannot have prime order other than 3. The proofs are computer-assisted, and their SAT refutations are certified.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00389v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00389v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00368",
+"title": "Supersymmetric Analysis of a Random Band Matrix at Criticality, Volume I",
+"abstract": "We study the $N \\times N$ complex Hermitian Gaussian band matrix whose variance profile is the inverse of $I - W^2 \\Delta$, where $\\Delta$ is the Neumann Laplacian on $\\{1, \\dots, N\\}$, in the critical regime $W^2 \\asymp N$. We prove that, for energies $E$ in a neighborhood of zero, the unfolded eigenvalue process converges to a stationary point process, whose law depends only on the limit $X$ of $N/((4 - E^2) W^2)$ and is given by the partition functions of a supersymmetric sigma model on an interval. We also determine the macroscopic law of the mass of an eigenvector selected near a given energy. Its density is the normalized exponential of a Brownian motion with drift, under the law tilted by its total mass; the same law describes the eigenvectors of the critical one-dimensional random Schrödinger operator. Further, we compute the limits of the two-energy correlations of the local densities of states at all pairs of interior sites, of the mean eigenvector profile at the scale of single sites, and of $N$ times the mean inverse participation ratio, which is $2 + 2X/3$. As $X \\to 0$ and $X \\to \\infty$, we recover the pair statistics of the GUE and of a Poisson process, and in the localized limit we obtain an explicit random shape for the eigenvectors. The number variance in a window of length $L$ grows like $\\sqrt{XL}$ as $L \\to \\infty$ at every fixed $X$, and we describe the crossover to Poisson statistics in windows of length of order $X$. Several of these results confirm predictions that physicists obtained from the sigma model. The proof starts from the supersymmetric representation of averages of ratios of characteristic polynomials, which for this profile is a transfer operator on a one-dimensional chain. We show that the transfer chain converges to the heat semigroup of the sigma model, whose noncompact direction produces the Brownian motion in the eigenvector law.",
+"authors": [
+"Patrick Lopatto"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00368v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00368v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00367",
+"title": "Supersymmetric Analysis of a Random Band Matrix at Criticality, Volume II",
+"abstract": "We study the $N \\times N$ complex Hermitian Gaussian band matrix whose variance profile is the inverse of $I - W^2 \\Delta$, where $\\Delta$ is the Neumann Laplacian on $\\{1, \\dots, N\\}$, in the critical regime $W^2 \\asymp N$. We prove that, for energies $E$ in a neighborhood of zero, the unfolded eigenvalue process converges to a stationary point process, whose law depends only on the limit $X$ of $N/((4 - E^2) W^2)$ and is given by the partition functions of a supersymmetric sigma model on an interval. We also determine the macroscopic law of the mass of an eigenvector selected near a given energy. Its density is the normalized exponential of a Brownian motion with drift, under the law tilted by its total mass; the same law describes the eigenvectors of the critical one-dimensional random Schrödinger operator. Further, we compute the limits of the two-energy correlations of the local densities of states at all pairs of interior sites, of the mean eigenvector profile at the scale of single sites, and of $N$ times the mean inverse participation ratio, which is $2 + 2X/3$. As $X \\to 0$ and $X \\to \\infty$, we recover the pair statistics of the GUE and of a Poisson process, and in the localized limit we obtain an explicit random shape for the eigenvectors. The number variance in a window of length $L$ grows like $\\sqrt{XL}$ as $L \\to \\infty$ at every fixed $X$, and we describe the crossover to Poisson statistics in windows of length of order $X$. Several of these results confirm predictions that physicists obtained from the sigma model. The proof starts from the supersymmetric representation of averages of ratios of characteristic polynomials, which for this profile is a transfer operator on a one-dimensional chain. We show that the transfer chain converges to the heat semigroup of the sigma model, whose noncompact direction produces the Brownian motion in the eigenvector law.",
+"authors": [
+"Patrick Lopatto"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00367v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00367v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00390",
+"title": "The 24-cell conjecture in the all-contact case and near D4",
+"abstract": "The 24-cell conjecture states that every Voronoi cell of a packing of unit balls in $\\mathbb{R}^4$ has volume at least $8$, the volume of the regular 24-cell. It implies that no packing of equal balls in $\\mathbb{R}^4$ is denser than the lattice packing $D_4$. We prove the conjecture for two classes of cells; in each class, equality holds only for the $D_4$ root configuration. The first consists of the cells whose ball touches every ball centred at distance less than $2\\sqrt2$ from its centre, and its proof uses a certificate at the second level of the Lasserre hierarchy. The second consists of the cells whose $24$ nearest centres lie in an explicit neighbourhood of the $D_4$ configuration, whatever the other centres are. For them the volume is at least $8$ plus a fixed multiple of the total outward displacement of the $24$ centres, which we prove by a quantitative rigidity estimate and a second-order expansion of the volume about $D_4$. Our proofs for both classes are computer-assisted and partly formalised in Lean.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.MG",
+"math.OC",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00390v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00390v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00380",
+"title": "The automorphism group of an extremal [72,36,16] code is trivial",
+"abstract": "Whether a binary doubly-even self-dual $[72,36,16]$ code exists is a question raised by Sloane in 1973. A series of papers, surveyed by Borello, shows that the automorphism group of such a code is trivial or isomorphic to $C_2$, $C_3$, $C_2\\times C_2$ or $C_5$. We prove that such a code has no automorphism of order $2$, $3$ or $5$, and hence no nontrivial automorphism. Each such automorphism reduces the problem to a finite computer search. For order $2$ the search runs over symmetric bilinear forms on the $41$ self-dual $[36,18,8]$ codes. An automorphism of order $3$ leads to a search over labellings of the Hermitian self-dual $[24,12,8]$ codes over $\\mathbb{F}_4$ by the extended Golay code. Order $5$ reduces to $7\\times7$ unitary matrices over $\\mathbb{F}_{16}$. Along the way we classify the Hermitian self-dual $[24,12,8]$ codes over $\\mathbb{F}_4$: there are $26\\,924\\,931$ of them up to monomial equivalence.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"cs.IT",
+"math.CO",
+"math.GR"
+],
+"link": "https://hexagonmath.org/abs/2611.00380v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00380v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
 "ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
@@ -1027,6 +1732,52 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00376",
+"title": "The kissing numbers in dimensions five and seven are at most 43 and 132",
+"abstract": "The kissing number $\\tau_n$ is the largest number of non-overlapping unit balls in $\\mathbb{R}^n$ that can touch a common unit ball. The best bounds so far were $40\\le\\tau_5\\le44$ and $126\\le\\tau_7\\le134$; both upper bounds come from high-precision floating-point computations of the three-point bound by Mittelmann and Vallentin. We prove $\\tau_5\\le 43$ and $\\tau_7\\le132$. Each proof is an exact rational solution of the second level of the Lasserre hierarchy for spherical codes at degrees $(d_1,d_2,\\delta)=(14,20,20)$. We use the formulation of de Laat, Leijenhorst and de Muinck Keizer and check the solutions with their verification program. Each certificate is obtained by rounding a convex combination of two dual iterates of the interior-point method, one on each side of the target value. Exact certificates for the same hierarchy also give $A(4,\\arccos\\frac13)\\le14$, $A(5,\\arccos\\frac13)\\le22$ and $A(6,\\arccos\\frac13)\\le34$ for spherical codes, improving the previous bounds $15$, $23$ and $35$; with a known code, $A(4,\\arccos\\frac13)=14$. The largest number of points at angle $\\pi/3$ from a point of a kissing configuration in $\\mathbb{R}^n$ equals $A(n-1,\\arccos\\frac13)$, so in $\\mathbb{R}^5$ this number is $14$. We also prove the five bounds in the Lean proof assistant, assuming only the positivity of the zonal kernels given by the zonal polynomial files: once by checking the exact certificates with compiled code, and once, with every computation done by Lean's kernel, from the certificates rounded to $30$ decimal places.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.MG",
+"math.OC",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00376v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00376v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00385",
+"title": "The L¹ Poincaré constant of the Hamming cube",
+"abstract": "Let $C$ be the smallest constant such that $\\mathbb{E}|f-\\mathbb{E} f|\\le C\\,\\mathbb{E}|\\nabla f|$ for every real-valued function $f$ on every Hamming cube $\\{-1,1\\}^n$, where $|\\nabla f|$ is the Euclidean length of $(D_1f,\\dots,D_nf)$ and $D_jf(x)=(f(x)-f(x^{(j)}))/2$. Ben Efraim and Lust-Piquard proved $C\\le\\pi/2$, the Gaussian case gives $C\\ge\\sqrt{\\pi/2}$, and Ivanisvili, Li, van Handel and Volberg asked whether $C=\\sqrt{\\pi/2}$. We prove that it is, with an explicit constant $c_n<\\sqrt{\\pi/2}$ in dimension $n$. The proof turns on an integral of first absolute moments of sums of independent biased random signs: we compute it exactly when the coefficients are nonnegative, and show, with a sampled Fejér kernel, that it can only grow when the coefficients are replaced by their absolute values. The equality $C=\\sqrt{\\pi/2}$ is also proved in Lean 4 with Mathlib.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.PR",
+"math.FA",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00385v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00385v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00352",
 "title": "The Marcus-Minc Transform Inequality",
 "abstract": "We prove the Marcus-Minc conjecture: let n be any integer at least 2, and let A be a nonnegative n by n matrix whose row and column sums are all one. Form a new matrix by subtracting A from the n by n matrix of ones and dividing by n minus one. Then the permanent of A is at least the permanent of the new matrix. We also determine all equality cases.",
@@ -1090,6 +1841,52 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00378",
+"title": "The number of planar central configurations of four bodies",
+"abstract": "For four positive masses in the plane we determine the number $N$ of central configurations, counted up to rotation, translation and scaling, in terms of one fold surface, whose certified enclosures decide $N$ for all masses outside a closed null set. Of these configurations, $12$ are collinear, by Moulton's theorem, and $6$ are convex, by the existence theorem of MacMillan and Bartky and the uniqueness proved in the author's preprint arXiv:2609.35632. Through Dziobek's relations, the concave configurations with inner body $i$ form the fibre of a proper mass map of degree $2$. Their number $c_i$, counted up to reflection, is $1$, $2$, $3$ or $4$, and we read it off from the position of the mass ratios relative to this surface. Altogether $N=18+2(c_1+c_2+c_3+c_4)$, an even number with $32\\le N\\le50$. Moreover $N=32$ exactly at Palmore's masses, and every even value in this range occurs. For four equal masses we recover Albouy's count $N=50$. The proof shows with interval certificates that the mass map is injective where its Jacobian is not positive, obtains its degree from the restricted problem, and analyses its folds, cusps and Palmore's umbilic. A formalization in Lean also proves these results.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.DS",
+"math-ph",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00378v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00378v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00386",
+"title": "The PPT² conjecture holds for spin-factor maps",
+"abstract": "The PPT$^2$ conjecture asserts that the composition of two completely positive and completely copositive maps is entanglement breaking. A counterexample in dimension ten has recently been announced, and for maps on $\\mathrm{M}_4$ the conjecture is open. Let $\\mathcal{S}\\subset\\mathrm{M}_4$ be the real span of the identity $\\gamma_0$ and five pairwise anticommuting Hermitian unitaries $\\gamma_1,\\dots,\\gamma_5$. It is a spin factor whose positive cone is a Lorentz cone. We prove the conjecture for all compositions $\\Psi\\circ\\Phi$ of completely positive maps $\\Phi\\colon\\mathrm{M}_4\\to\\mathrm{M}_k$ and $\\Psi\\colon\\mathrm{M}_k\\to\\mathrm{M}_4$, with $k$ arbitrary, such that the ranges of $\\Psi$ and of the adjoint $\\Phi^{*}$ lie in invertible congruences of the complex span of $\\mathcal{S}$. Such maps are automatically completely copositive, and the class contains maps whose Choi matrices are entangled. A theorem of Hildebrand on separability for pairs of Lorentz cones reduces the claim to one trace inequality between the coefficient matrices of the two Choi matrices. We derive this inequality from the operator inequality $\\sum_{j=1}^{5}F_jF_0^{-1}F_j\\preceq F_0$, valid whenever $\\sum_{\\mu=0}^{5}F_\\mu\\otimes\\gamma_\\mu\\succeq 0$ and $F_0\\succ 0$, which in turn follows from the Kadison–Schwarz inequality. As a corollary, $\\Psi\\circ\\Phi$ is entanglement breaking whenever $\\Psi$ is such a map and $\\Phi$ is a completely positive map with Kraus operators of rank at most two.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"quant-ph",
+"math.OA",
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2611.00386v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00386v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00322",
 "title": "The Quantum Kazhdan–Lusztig Conjecture for Quantum Loop Algebras",
 "abstract": "We prove the quantum Kazhdan–Lusztig conjecture for finite-dimensional type 1 representations of untwisted quantum loop algebras at every non-root-of-unity complex parameter.",
@@ -1112,6 +1909,74 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00372",
+"title": "The rank of 4×4 matrix multiplication over F2 is at least 35",
+"abstract": "We prove that the rank of the $4\\times4$ matrix multiplication tensor over $\\mathbb{F}_2$ is at least $35$; the previous lower bound was $34$. The bound follows by substitution from $\\mathrm{R}_{\\mathbb{F}_2}(\\langle 3,3,4\\rangle)\\ge27$, which also gives $\\mathrm{R}_{\\mathbb{F}_2}(\\langle 3,4,4\\rangle)\\ge31$. Each of the three bounds is one more than what follows from $\\mathrm{R}_{\\mathbb{F}_2}(\\langle 3,3,3\\rangle)=23$. A flattening argument reduces the bound for $\\langle 3,3,4\\rangle$ to lower bounds for two quotients of the tensor, by the span of a matrix of rank two and by the span of a matrix of rank three. These come from exhaustive searches over the possible patterns of a short decomposition, pruned by lower bounds for quotients by larger subspaces. The whole argument, including every step of the searches, is checked in the proof assistant Lean 4, with one compiled evaluation of a verified certificate checker.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.RA",
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2611.00372v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00372v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00379",
+"title": "The Steiner ratio is at least 0.8564",
+"abstract": "The Steiner ratio is the infimum, over finite sets of points in the Euclidean plane, of the length of a Steiner minimal tree divided by the length of a minimum spanning tree. Gilbert and Pollak conjectured in 1968 that it equals $\\sqrt3/2\\approx0.8660$, and the conjecture is open. We prove that it is at least $2141/2500=0.8564$, improving the bound $0.8559$ of Ke, Huang, Shu, He, Gai and Wang. Their method reduces the induction step of Du and Hwang's 1983 proof of the bound $0.8$ to finitely many inequalities on boxes in a space of local configurations of a Steiner minimal tree, which are checked by computer. These inequalities use estimates for the positions of terminals outside the local configuration. We prove all the geometric lemmas that our certificate uses, filling gaps in two proofs of Ke et al., and we add two such estimates that hold for more parameter values than the published ones. Within this method some new estimate is necessary: with the published estimates, no certificate of this kind reaches $0.856$, whatever the boxes. The computer-assisted part is also verified in Lean 4, by a proof whose checks all run in Lean's kernel; the rest of the argument enters the formal proof as hypotheses.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.CO",
+"math.MG",
+"cs.CG",
+"math.OC"
+],
+"link": "https://hexagonmath.org/abs/2611.00379v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00379v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00407",
+"title": "The Wasserstein cost of the Girsanov Theorem",
+"abstract": "This is an expository note on the asymptotics of the Wasserstein distance between the empirical measure of infinite-dimensional random paths and their common distribution. We present the classical proof for these asymptotics in the case of the Wiener measure, unifying quantization arguments from Dereich and coauthors or Boissard and Le Gouic, and we adapt it for It\\^o diffusions sampled through the Girsanov theorem. More precisely, let $\\mathbb{Q}$ be the law of the solution of a stochastic differential equation with a bounded Lipschitz drift. Let $W_1,\\ldots,W_n$ be independent Brownian paths, and let $Z_i$ be their Girsanov weights for $\\mathbb{Q}$. The reweighted empirical measure $$\\widehat\\mu_n=\\frac{\\sum_{i=1}^n Z_i\\delta_{W_i}}{\\sum_{i=1}^n Z_i}$$ approximates $\\mathbb{Q}$ when $n$ is large. We prove that the Wasserstein cost $W_p^p(\\widehat\\mu_n,\\mathbb{Q})$ is of order $(\\log n)^{-p/2}$, in expectation and almost surely, for every fixed $p\\geqslant1$. In the Brownian case where $Z_i=1$ these results show that $\\sqrt{\\log n}W_p(\\widehat\\mu_n,\\mathbb{Q})$ is asymptotically sandwiched between $\\sqrt{2\\lambda_d}$ and $4\\sqrt{2\\lambda_d}$, where $\\lambda_d$ is the first eigenvalue of the Laplacian operator in the unit ball. We provide numerical experiments to estimate the (conjectured) limiting constant in dimension $d=1$.",
+"authors": [
+"Simon Coste"
+],
+"categories": [
+"math.PR",
+"math.ST"
+],
+"link": "https://hexagonmath.org/abs/2611.00407v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00407v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00334",
 "title": "Unitary character moments and a zero-free half-plane for unitary Weil L-functions",
 "abstract": "We extend Liu's moment estimate for ordinary ideal-character sums to two independent fixed unitary twists, preserving the full length range of the finite-order theorem. The proof keeps the two character coefficients separate through the Gauss transformations and controls exceptional terms by the poles of their Mellin transforms. The case of two equal twists strengthens the fourth moment used in zero detection. Using the analytic results of Hu and Liu specified in the paper, we obtain the zero-free half-plane $\\operatorname{Re}s>(777-\\sqrt{1081})/852=0.8733819666\\ldots$ for every unitary Hecke $L$-function over every number field, including characters of infinite order. This extends the known finite-order bound to the full unitary family. Unitary induction gives the same half-plane for finite-dimensional continuous unitary Weil representations, with the norm-character poles counted exactly.",
@@ -1128,6 +1993,29 @@
 "announce": "new",
 "date": "2026-11-11",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00388",
+"title": "Which Fine-Grained Lower Bounds Survive the Refutation of 3SUM and APSP?",
+"abstract": "Alman and Vassilevska Williams have refuted the 3SUM and APSP hypotheses. Their algorithms rest on counting the triangles through prescribed edges of lopsided tripartite graphs, whose middle part has $n^{\\varepsilon}$ vertices for a small $\\varepsilon$. Majdoddin extended the method to every $\\varepsilon<\\ln4/(5\\ln5)\\approx0.172$. We determine which of the main conditional lower bounds derived from the refuted hypotheses survive. We also prove that the method extends to every $\\varepsilon<0.17843$ when the prescribed edges are known in advance and there are at most $n^{2-\\varepsilon/2}$ of them, which confirms Majdoddin's numerical estimate. Whether a bound survives depends mostly on the instances that its reduction produces. The reductions behind most bounds produce instances outside the range of the new algorithms: balanced graphs, or lopsided graphs with a larger middle part. Most of the set-disjointness, dynamic-graph and triangle bounds therefore follow from hypotheses that no known algorithm contradicts. These hypotheses, however, concern mainly such instances, and for several bounds the hypothesis is the bound itself, stated for these instances. Their evidence came largely from the refuted hypotheses. A few bounds are false, among them a lower bound of Goldstein, Lewenstein and Porat for Set Disjointness over small universes; the Strong SetDisjointness Conjecture also fails at small polynomial query times. Other bounds have lost their support, such as the Set Disjointness trade-offs of Kopelowitz, Pettie and Porat over small universes apart from constant query time. Finally, we collect the known obstacles to a larger closed-form range with a different base identity and use border-rank lower bounds to exclude several natural candidates.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"cs.CC",
+"cs.DS",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00388v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00388v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
