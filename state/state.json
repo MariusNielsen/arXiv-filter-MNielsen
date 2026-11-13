@@ -4,6 +4,438 @@
  ],
  "feed": [
   {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "We calculate the mod $2$-homology of the fixed points of the $C_4$-equivariant Hill--Hopkins--Ravenel theory $BP^{((C_4))}\\langle 1\\rangle$, as an $\\mathcal{A}_*$-comodule algebra. $2$-locally these fixed points are $tmf_0(5)$ by a theorem of Quinn. We deduce that $tmf_0(5)$ is an indecomposable $tmf$-module that is an extension of two $tmf$-modules of the form $tmf\\otimes K$ for a finite spectrum $K$. The $K(2)$-localization of $tmf_0(5)$ is $32$-periodic, and we compute the Adams spectral sequence of $tmf_0(5)$ through the $32$-stem.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Christian Carrick"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.16531",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.16531",
+    "pid": "2611.16531",
+    "reasons": [
+     "author: Christian Carrick",
+     "title: adams spectral sequence",
+     "title: spectral sequence",
+     "abstract: k(2)-local",
+     "abstract: comodule"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "On the Adams spectral sequence of $eo_2(C_4)$",
+    "watched": [
+     "Christian Carrick"
+    ]
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "We construct $n$-categories $\\mathscr{P}_n$ with generators given by simplices and relations given by bistellar moves between them, in any dimension $n$. We show that functors out of $\\mathscr{P}_n$ into an $n$-category of theories, give the correct input for the orbifold construction for TQFTs, and subsume all previously known examples, which are all in dimensions $n \\leq 3$. In particular, in dimension 3 the construction gives a highly nontrivial categorification of a kind of nonunital, noncounital, Frobenius algebra.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Aleksandar Ivanov"
+    ],
+    "categories": [
+     "math.CT",
+     "hep-th",
+     "math-ph",
+     "math.MP",
+     "math.QA"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.17244",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.17244",
+    "pid": "2611.17244",
+    "reasons": [
+     "title: higher categor"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Higher Categorical Bistellar Moves",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "In this paper, we study the monoidal category of finite-dimensional right comodules over the path algebra $\\Bbbk Q$ of a finite acyclic quiver $Q$, equipped with the weak bialgebra structure in which every path is grouplike. We prove that the lax center of this category is monoidally equivalent to $\\operatorname{Rep}^{\\mathrm{fd}}_{\\Bbbk}(Q)$, the category of finite-dimensional representations of $Q$. We also classify all $\\Bbbk$-linear strong monoidal functors between any two such comodule categories, and all monoidal natural transformations between them. For the right adjoint of such a functor, we determine when the left or right projection formula holds. When both projection formulas hold, this adjoint will induce a functor between the lax centers, and we describe the induced functor explicitly on quiver representations.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Wentao Zhao",
+     "Jingheng Zhou"
+    ],
+    "categories": [
+     "math.RT",
+     "math.RA"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.15496",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.15496",
+    "pid": "2611.15496",
+    "reasons": [
+     "title: comodule"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Lax Centers and Monoidal Functors for Comodule Categories Associated with Acyclic Quivers",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "We show that all higher Verlinde categories are maximally nilpotent, as conjectured by Coulembier (2023). By previous results, it suffices to show that non-trivial simple objects have only finitely many non-zero symmetric powers in odd characteristic. We compute the maximal degrees of these non-zero symmetric and exterior powers explicitly, hence confirming their finiteness. We discuss some of the far-reaching consequences.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Kevin Coulembier",
+     "Johannes Flake",
+     "Joseph Newton",
+     "Victor Ostrik"
+    ],
+    "categories": [
+     "math.RT",
+     "math.CT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.14810",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.14810",
+    "pid": "2611.14810",
+    "reasons": [
+     "title: nilpoten"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Maximal nilpotence for higher Verlinde categories",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "Let $a$ denote the stabilization of the Euler class of the sign representation of $\\mathrm{C}_2$. In this paper, we show that the Behrens-Shah periodic $u$-self-equivalence of $C(a^i)$ -- a direct consequence of J.F. Adams' calculation of James periodicity -- determines the $\\mathrm{H}\\underline{\\mathbb{F}}_2$-Hurewicz image of the $\\mathrm{C}_2$-equivariant sphere spectrum, recovering a recent theorem of Guo-Li-Lu-Wu-Xu-Yang-Zhang via a different method. Furthermore, we use the $\\mathrm{C}_2$-equivariant periodic $u$-self-equivalences on the cofiber spectra $C(a^i)$ to construct new infinite families in the $\\mathrm{C}_2$-equivariant stable stems whose $\\mathrm{H}\\underline{\\mathbb{F}}_2$-Hurewicz image is trivial.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Mason Adams",
+     "Prasit Bhattacharya",
+     "Arannya Bhattacherjee",
+     "Alex Waugh"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.16462",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.16462",
+    "pid": "2611.16462",
+    "reasons": [
+     "title: equivariant",
+     "abstract: stable stems"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "New $\\mathrm{C}_2$-equivariant infinite families and the $\\mathrm{H}\\underline{\\mathbb{F}}_2$-Hurewicz image",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "We apply a derived completion construction for commutative ring spectra to give a description of the K-theory spectrum of a geometric field F (i.e. containing an algebraically closed subfield $k$) of characteristic zero purely in terms of the representation theory of its absolute Galois group $G_F$. A result that follows is that the l-adically completed Milnor K-theory of F is isomorphic to the derived completion of the representation ring of $G_F$. The main result, from which this follows, is that $K(F)$ completed at l is equivalent to the derived completion of the K-theory of the category of finite dimensional representations of $G_F$ in $k$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Gunnar Carlsson",
+     "Roy Joshua"
+    ],
+    "categories": [
+     "math.KT",
+     "math.AT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.15605",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.15605",
+    "pid": "2611.15605",
+    "reasons": [
+     "title: algebraic k-theor",
+     "abstract: ring spectr"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Representation Theory and the Algebraic K-Theory of Geometric Fields",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "XXX spin-chain Hamiltonians can be derived within the $R$-matrix formalism. For a simple Lie algebra $\\mathfrak{g}$, the rational $R$-matrix $R$ intertwines the coproduct $\\Delta$ in the Yangian $\\mathsf{Y}(\\mathfrak{g})$. $R$ admits a particular Gauss decomposition $R=LDU$, where the upper-triangular matrix $U$ can be obtained from the lower-triangular matrix $L$. We treat $U$ in three ways. Algebraically, $U$ is known as a factorization twist. It plays the role of a ``universalizer'': it conjugates a non-universal pseudo-coproduct $\\mathscr{D}$ in the molten crystal chain basis to the true Yangian coproduct $\\Delta=U^{-1}\\mathscr{D} U$. Physically, $U$ can be obtained as a Berry phase in SUSY quiver QFT for a quiver associated with the Dynkin diagram of $\\mathfrak{g}$. In this case, $U$ is calculated as a sum over tunneling amplitudes. Geometrically, $U$ can be interpreted as a renormalized Maulik-Okounkov stable envelope localized at a fixed point. In the physical setting, the Yang-Baxter equation (YBE), which ensures integrability, follows from the flatness of the Berry connection, which in turn follows from supersymmetry. However, the YBE imposes subtle constraints on the tunneling amplitudes, which we examine here. We construct recursion relations that allow higher collective amplitudes to be obtained from more elementary ones. We observe that different tunneling channels are in fact intertwined, leading to finer cancellations among amplitudes and to wall-crossing phenomena: depending on the parameters, the same amplitude is represented as a sum over different channels. We focus on $\\mathsf{Y}(\\mathfrak{sl}_2)$ with higher-spin and non-evaluation representations, as well as on the fundamental representation of $\\mathsf{Y}(\\mathfrak{sl}_{n+1})$.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Dmitry Galakhov"
+    ],
+    "categories": [
+     "hep-th",
+     "math-ph",
+     "math.AG",
+     "math.MP",
+     "math.QA",
+     "math.RT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.14793",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.14793",
+    "pid": "2611.14793",
+    "reasons": [
+     "abstract: stable envelope"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "On Tunnel Fusion and Yangian $R$-matrices",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "We compute the asymptotic dimension of spaces of multiparameter persistence modules of bounded presentation under the interleaving distance. The $d$-parameter modules with at most $n$ generators and $m$ relations have asymptotic dimension, and Assouad-Nagata dimension, exactly $d(n+m)$, the number of coordinates of their generator and relation grades, over every field; for two parameters this is $2(n+m)$. The space has continuous moduli, already for two parameters and $n,m\\ge2$: over an infinite field it contains, at every scale, infinite uniformly separated families of pairwise non-isomorphic modules with one fibered barcode, so it is not doubling even at a fixed fibered barcode; already for $m\\ge1$ it is not coarsely equivalent to a proper metric space. The proof is an induction on the number of distinct grade coordinates: an interleaving small compared with the gaps between these coordinates moves each of them by at most twice its size and preserves the induced grid representation, so the continuous moduli are invisible at large scale. Each class of modules at finite distance therefore embeds coarsely into Hilbert space; for $n,m\\ge2$ over an uncountable field, the classes that contain these families admit no such embedding into a separable Hilbert space. Under the two-parameter matching distance $2(n+m)$ is a lower bound, attained for one generator and for two generators with at most one relation; on a finite net of $S$ slices the asymptotic dimension is at most $2nS$.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Sushovan Majhi",
+     "Atish Mitra",
+     "\\v{Z}iga Virk"
+    ],
+    "categories": [
+     "math.MG",
+     "cs.CG",
+     "math.AT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.16965",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.16965",
+    "pid": "2611.16965",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Asymptotic Dimension of Persistence Modules of Bounded Presentation",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "We study Chern characteristic classes of normal vector bundles of complex generalized flag submanifolds $G_{n-1}/P_{n-1}$ in complex generalized flag manifolds $G_n/P_n$. This procedure can be regarded as the relative version of Schubert calculus for the pair $G_{n-1}/P_{n-1}$ and $G_n/P_n$. The CW structure and additive structure of the cohomology of $\\mathrm{Gr}(n, k)$ allows inductive calculation of Chern classes of the canonical and complementary canonical vector bundles over $\\mathrm{Gr}(n, k)$. The combination of representation theory and algebraic geometry allows to derive analogous properties for the isotropic Grassmannians $\\mathrm{LGr}(m, k)$ and $\\mathrm{OGr}(m, k)$ via their embeddings in $\\mathrm{Gr}(m, k)$. Then the induced CW structure yields the additive structure on the cohomology of $\\mathrm{LGr}(m, k)$ and $\\mathrm{OGr}(m, k)$, and consequently leads to the calculation of Chern classes of the canonical and complementary canonical vector bundles over $\\mathrm{LGr}(m, k)$ and $\\mathrm{OGr}(m, k)$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Jakub Knesel",
+     "Petr Somberg"
+    ],
+    "categories": [
+     "math.AG",
+     "math.AT",
+     "math.DG",
+     "math.RT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.16837",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.16837",
+    "pid": "2611.16837",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Chern characteristic classes of normal bundles of complex generalized flag submanifolds in generalized flag manifolds",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "Geometric chains are formal combinations of smooth maps from compact oriented manifolds or orbifolds with corners. In earlier work the author showed that, modulo a relation D that kills degenerate chains, they compute rational singular homology. We show that D can be replaced by a gluing relation, which identifies a chain with the sum of its restrictions to finitely many pieces whenever its source is glued from these pieces along whole codimension-one faces. With this relation the comparison map from singular homology is an isomorphism in all degrees for compact polyhedra and smooth manifolds without boundary, with rational and with integer coefficients. Unlike D, the gluing relation is defined through the sources alone, and chain-level identities such as the equivalence of a degree d covering with d times its base, which fails modulo D, and the correction terms of the chain map from a Morse complex, which are degenerate modulo D, become gluing relations. The proof is axiomatic; injectivity comes from integration or dual cells, surjectivity from cutting along regular levels, where the cut of a gluing relation is again one, and at the point we use Whitehead triangulations of manifolds with corners subordinate to their corner strata. The gluing relation, read on underlying spaces, also suffices for orbifold sources, with integer coefficients modulo classes with an orientation reversing automorphism, and for effective orbifold targets.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Hao Yu"
+    ],
+    "categories": [
+     "math.GT",
+     "math-ph",
+     "math.AT",
+     "math.MP"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.15551",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.15551",
+    "pid": "2611.15551",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Gluing Geometric Chains Of Manifolds And Orbifolds With Corners",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "We consider a version of Legendrian contact homology filtered by the action of Reeb chords. In this version, a union of two disjoint exact Lagrangian cobordisms with Legendrian boundary conditions gives rise to a morphism between persistence modules. We discuss a certain algebraic invariant of such morphisms and use it to obtain obstructions to Lagrangian isotopies of the cobordisms, as well as applications to symplectic and contact dynamics.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Michael Entov",
+     "Leonid Polterovich"
+    ],
+    "categories": [
+     "math.SG",
+     "math.AT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.14682",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.14682",
+    "pid": "2611.14682",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Lagrangian cobordisms and morphisms of persistence modules",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "The path homology theory is based on the notion of path complex and is a part of GLMY-theory created and developed by Grigor'yan, Lin, Muranov, and Yau in a cycle of papers in 2012-2014. In this paper we define a path complex with concatenation ($PC$-complex) which is a particular case of a path complex. We define a natural topology on a set of vertices of any $PC$-complex, and describe properties of this topology and its relation to the discrete topology of Alexandroff. We prove the existence of functorial relations between some categories of $PC$-complexes and digraphs. These relations allow to transfer covering, homotopy and various versions of homology theory from digraph theory to $PC$-complexes.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Yuri Muranov",
+     "Anna Muranova"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.15308",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.15308",
+    "pid": "2611.15308",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Path complexes with concatenation and their relation to digraphs",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "We give explicit and recursive formulas for the Poincar\\'e polynomials of Dani--Mainkar nilmanifolds associated with path graphs. We also prove that these polynomials are unimodal, and we calculate a range of Betti numbers asymptotically. As an application, we derive a sharp lower bound for the dimension of the total de Rham cohomology of a Dani--Mainkar nilmanifold.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Marco Aldi",
+     "Samuel Bevins",
+     "Eleftherios Chatzitheodoridis",
+     "Sergio Da Silva",
+     "Quincy Frias",
+     "Tom\\'as Mej\\'ia G\\'omez"
+    ],
+    "categories": [
+     "math.AT",
+     "math.AC",
+     "math.CO",
+     "math.RT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.17014",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.17014",
+    "pid": "2611.17014",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Poincar\\'e polynomials of nilmanifolds associated with path graphs",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "We describe a quantization procedure for Betti mapping stacks with shifted Poisson targets by combining factorization homology and formal geometry. We quantize derived stacks of local systems of low-dimensional manifolds.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "John Francis",
+     "Owen Gwilliam",
+     "Rajiv Kaipa"
+    ],
+    "categories": [
+     "math.QA",
+     "math-ph",
+     "math.AG",
+     "math.AT",
+     "math.MP"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.16137",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.16137",
+    "pid": "2611.16137",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Quantization of Betti Mapping Stacks",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "paper": {
+    "abstract": "Given a locally finite open cover of a paracompact space, a subordinate partition of unity defines a map into the geometric realization of the nerve. When the cover is good, the nerve theorem asserts that this map is a homotopy equivalence. In applied topology, one specializes this construction to covers of metric data by open balls centered at finitely many landmarks. The corresponding nerve map represents the data inside the \\v{C}ech complex, enabling one to pull cohomological or spectral invariants back to the data. Since point cloud data often comes equipped with weights encoding domain-specific importance, we introduce a weighted version of the nerve map and study its stability under perturbations of the landmarks and weights using metrics from optimal transport. Our main result is a Lipschitz stability theorem for the weighted nerve map under a uniform nondegeneracy assumption. We state the bound in terms of a scale-dependent optimal transport distance, and give an example where our estimate is attained. Since this distance is dominated by a multiple of the $1$-Wasserstein distance, Wasserstein stability follows as a corollary. We also give geometric conditions ensuring nondegeneracy, obtain explicit estimates of the Lipschitz constant for closed Riemannian manifolds, and sketch applications to Laplacian eigenvector cascading and Eilenberg--MacLane coordinates.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Kenneth McCabe",
+     "Jose A. Perea"
+    ],
+    "categories": [
+     "math.AT",
+     "math.MG"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.15938",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.15938",
+    "pid": "2611.15938",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Wasserstein Stability of the Nerve Map",
+    "watched": []
+   }
+  },
+  {
    "day": "2026-11-12",
    "paper": {
     "abstract": "We study the restriction data carried by dependent-product extension along a monomorphism. In a locally cartesian closed category, the extended map is an isomorphism after a change of base if and only if the input map is an isomorphism on the restricted base. In a topos, its isomorphism locus is therefore the universal quantification of the input locus. A terminal characterization gives coherent comparisons for base change and successive extension, together with formulas for intersections and unions. Under explicit homotopical, cartesian, and universe hypotheses, this construction gives equivalence extension and preserves the boundary identifications used to prove fibrancy of a universe. Graph comparisons and strict fillers of a fixed universe boundary are represented by trivially fibrant objects. A single realignment over the comparison object induces a weak equivalence between these parameter objects, and both admit extensions of every finite cubical boundary. A finite-groupoid example shows that graph comparisons cannot be selected naturally under all isomorphisms of unstructured input.",
@@ -4901,54 +5333,438 @@
  ],
  "hexagon_since": "2026-11-12",
  "last_page": {
-  "day": "2026-11-12",
+  "day": "2026-11-13",
   "papers": [
    {
-    "abstract": "Finster, Kleiner, and Paganini derived from causal fermion systems (CFS) a nonrelativistic effective collapse model whose statistical operator obeys, to leading order, a Kossakowski--Lindblad equation. In the factorized regime of that derivation, the dissipator is built from purely spatial operators $N_{k,a}$ with positive rates fixed by microscopic time-nonlocal kernels. We translate this CFS-specific generator into quantities accessible to coherent quantum processors. The resulting CFS Dirichlet form obeys an exact purity-loss identity under arbitrary Hamiltonian control, and its null algebra is the commutant of the $*$-algebra generated by the projected $N_{k,a}$. For joint eigenbranches we obtain an exact distinguishability functional controlling exponential coherence loss and a lower bound on channel distance from ideal unitary evolution. In an $n$-qubit dephasing sector, the projected kernels generate a positive-semidefinite covariance matrix $C$, with GHZ visibility $\\exp[-2T\\bm{1}^{\\mathsf T}C\\bm{1}]$. We prove that uniformly summable finite-range correlations yield at most $O(n)$ GHZ decay, whereas $O(n^2)$ scaling requires a collective non-summable component. Single- and two-qubit cat coherences reconstruct $C$, giving a covariance-spectroscopy protocol, while Knill--Laflamme conditions characterize first-order correctability of the projected CFS error algebra. We also derive an explicit compatibility inequality between macroscopic state reduction and long coherent computation and show why absence of probe heating does not imply absence of coherence signatures. The results do not exclude CFS: its covariance strength, $\\ellmin$, and hardware projection remain underdetermined. They instead identify the microscopic input required for a genuine no-go theorem and establish scalable quantum processors as direct probes of the CFS collapse sector.",
-    "ai_mode": "no-human-author-claimed",
+    "abstract": "We calculate the mod $2$-homology of the fixed points of the $C_4$-equivariant Hill--Hopkins--Ravenel theory $BP^{((C_4))}\\langle 1\\rangle$, as an $\\mathcal{A}_*$-comodule algebra. $2$-locally these fixed points are $tmf_0(5)$ by a theorem of Quinn. We deduce that $tmf_0(5)$ is an indecomposable $tmf$-module that is an extension of two $tmf$-modules of the form $tmf\\otimes K$ for a finite spectrum $K$. The $K(2)$-localization of $tmf_0(5)$ is $32$-periodic, and we compute the Adams spectral sequence of $tmf_0(5)$ through the $32$-stem.",
+    "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Benjamin Kaminsky"
+     "Christian Carrick"
     ],
     "categories": [
-     "quant-ph",
-     "cs.CC",
-     "math-ph"
+     "math.AT"
     ],
-    "date": "2026-11-11",
-    "link": "https://hexagonmath.org/abs/2611.00324v1",
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.16531",
     "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2611.00324v1",
-    "pid": "hexagon:2611.00324",
+    "pdf": "https://arxiv.org/pdf/2611.16531",
+    "pid": "2611.16531",
     "reasons": [
-     "abstract: covariance-spectr"
+     "author: Christian Carrick",
+     "title: adams spectral sequence",
+     "title: spectral sequence",
+     "abstract: k(2)-local",
+     "abstract: comodule"
     ],
-    "source": "hexagon",
-    "tier": 3,
-    "title": "Quantum-Information Probes of Collapse Dynamics in Causal Fermion Systems",
-    "watched": []
+    "source": "arxiv",
+    "tier": 1,
+    "title": "On the Adams spectral sequence of $eo_2(C_4)$",
+    "watched": [
+     "Christian Carrick"
+    ]
    },
    {
-    "abstract": "We study the restriction data carried by dependent-product extension along a monomorphism. In a locally cartesian closed category, the extended map is an isomorphism after a change of base if and only if the input map is an isomorphism on the restricted base. In a topos, its isomorphism locus is therefore the universal quantification of the input locus. A terminal characterization gives coherent comparisons for base change and successive extension, together with formulas for intersections and unions. Under explicit homotopical, cartesian, and universe hypotheses, this construction gives equivalence extension and preserves the boundary identifications used to prove fibrancy of a universe. Graph comparisons and strict fillers of a fixed universe boundary are represented by trivially fibrant objects. A single realignment over the comparison object induces a weak equivalence between these parameter objects, and both admit extensions of every finite cubical boundary. A finite-groupoid example shows that graph comparisons cannot be selected naturally under all isomorphisms of unstructured input.",
-    "ai_mode": "human",
+    "abstract": "We construct $n$-categories $\\mathscr{P}_n$ with generators given by simplices and relations given by bistellar moves between them, in any dimension $n$. We show that functors out of $\\mathscr{P}_n$ into an $n$-category of theories, give the correct input for the orbifold construction for TQFTs, and subsume all previously known examples, which are all in dimensions $n \\leq 3$. In particular, in dimension 3 the construction gives a highly nontrivial categorification of a kind of nonunital, noncounital, Frobenius algebra.",
+    "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Zhenyu Sun"
+     "Aleksandar Ivanov"
     ],
     "categories": [
      "math.CT",
-     "math.AT",
-     "math.LO"
+     "hep-th",
+     "math-ph",
+     "math.MP",
+     "math.QA"
     ],
-    "date": "2026-11-12",
-    "link": "https://hexagonmath.org/abs/2611.00400v1",
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.17244",
     "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2611.00400v1",
-    "pid": "hexagon:2611.00400",
+    "pdf": "https://arxiv.org/pdf/2611.17244",
+    "pid": "2611.17244",
+    "reasons": [
+     "title: higher categor"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Higher Categorical Bistellar Moves",
+    "watched": []
+   },
+   {
+    "abstract": "In this paper, we study the monoidal category of finite-dimensional right comodules over the path algebra $\\Bbbk Q$ of a finite acyclic quiver $Q$, equipped with the weak bialgebra structure in which every path is grouplike. We prove that the lax center of this category is monoidally equivalent to $\\operatorname{Rep}^{\\mathrm{fd}}_{\\Bbbk}(Q)$, the category of finite-dimensional representations of $Q$. We also classify all $\\Bbbk$-linear strong monoidal functors between any two such comodule categories, and all monoidal natural transformations between them. For the right adjoint of such a functor, we determine when the left or right projection formula holds. When both projection formulas hold, this adjoint will induce a functor between the lax centers, and we describe the induced functor explicitly on quiver representations.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Wentao Zhao",
+     "Jingheng Zhou"
+    ],
+    "categories": [
+     "math.RT",
+     "math.RA"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.15496",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.15496",
+    "pid": "2611.15496",
+    "reasons": [
+     "title: comodule"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Lax Centers and Monoidal Functors for Comodule Categories Associated with Acyclic Quivers",
+    "watched": []
+   },
+   {
+    "abstract": "We show that all higher Verlinde categories are maximally nilpotent, as conjectured by Coulembier (2023). By previous results, it suffices to show that non-trivial simple objects have only finitely many non-zero symmetric powers in odd characteristic. We compute the maximal degrees of these non-zero symmetric and exterior powers explicitly, hence confirming their finiteness. We discuss some of the far-reaching consequences.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Kevin Coulembier",
+     "Johannes Flake",
+     "Joseph Newton",
+     "Victor Ostrik"
+    ],
+    "categories": [
+     "math.RT",
+     "math.CT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.14810",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.14810",
+    "pid": "2611.14810",
+    "reasons": [
+     "title: nilpoten"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Maximal nilpotence for higher Verlinde categories",
+    "watched": []
+   },
+   {
+    "abstract": "Let $a$ denote the stabilization of the Euler class of the sign representation of $\\mathrm{C}_2$. In this paper, we show that the Behrens-Shah periodic $u$-self-equivalence of $C(a^i)$ -- a direct consequence of J.F. Adams' calculation of James periodicity -- determines the $\\mathrm{H}\\underline{\\mathbb{F}}_2$-Hurewicz image of the $\\mathrm{C}_2$-equivariant sphere spectrum, recovering a recent theorem of Guo-Li-Lu-Wu-Xu-Yang-Zhang via a different method. Furthermore, we use the $\\mathrm{C}_2$-equivariant periodic $u$-self-equivalences on the cofiber spectra $C(a^i)$ to construct new infinite families in the $\\mathrm{C}_2$-equivariant stable stems whose $\\mathrm{H}\\underline{\\mathbb{F}}_2$-Hurewicz image is trivial.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Mason Adams",
+     "Prasit Bhattacharya",
+     "Arannya Bhattacherjee",
+     "Alex Waugh"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.16462",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.16462",
+    "pid": "2611.16462",
+    "reasons": [
+     "title: equivariant",
+     "abstract: stable stems"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "New $\\mathrm{C}_2$-equivariant infinite families and the $\\mathrm{H}\\underline{\\mathbb{F}}_2$-Hurewicz image",
+    "watched": []
+   },
+   {
+    "abstract": "We apply a derived completion construction for commutative ring spectra to give a description of the K-theory spectrum of a geometric field F (i.e. containing an algebraically closed subfield $k$) of characteristic zero purely in terms of the representation theory of its absolute Galois group $G_F$. A result that follows is that the l-adically completed Milnor K-theory of F is isomorphic to the derived completion of the representation ring of $G_F$. The main result, from which this follows, is that $K(F)$ completed at l is equivalent to the derived completion of the K-theory of the category of finite dimensional representations of $G_F$ in $k$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Gunnar Carlsson",
+     "Roy Joshua"
+    ],
+    "categories": [
+     "math.KT",
+     "math.AT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.15605",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.15605",
+    "pid": "2611.15605",
+    "reasons": [
+     "title: algebraic k-theor",
+     "abstract: ring spectr"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Representation Theory and the Algebraic K-Theory of Geometric Fields",
+    "watched": []
+   },
+   {
+    "abstract": "XXX spin-chain Hamiltonians can be derived within the $R$-matrix formalism. For a simple Lie algebra $\\mathfrak{g}$, the rational $R$-matrix $R$ intertwines the coproduct $\\Delta$ in the Yangian $\\mathsf{Y}(\\mathfrak{g})$. $R$ admits a particular Gauss decomposition $R=LDU$, where the upper-triangular matrix $U$ can be obtained from the lower-triangular matrix $L$. We treat $U$ in three ways. Algebraically, $U$ is known as a factorization twist. It plays the role of a ``universalizer'': it conjugates a non-universal pseudo-coproduct $\\mathscr{D}$ in the molten crystal chain basis to the true Yangian coproduct $\\Delta=U^{-1}\\mathscr{D} U$. Physically, $U$ can be obtained as a Berry phase in SUSY quiver QFT for a quiver associated with the Dynkin diagram of $\\mathfrak{g}$. In this case, $U$ is calculated as a sum over tunneling amplitudes. Geometrically, $U$ can be interpreted as a renormalized Maulik-Okounkov stable envelope localized at a fixed point. In the physical setting, the Yang-Baxter equation (YBE), which ensures integrability, follows from the flatness of the Berry connection, which in turn follows from supersymmetry. However, the YBE imposes subtle constraints on the tunneling amplitudes, which we examine here. We construct recursion relations that allow higher collective amplitudes to be obtained from more elementary ones. We observe that different tunneling channels are in fact intertwined, leading to finer cancellations among amplitudes and to wall-crossing phenomena: depending on the parameters, the same amplitude is represented as a sum over different channels. We focus on $\\mathsf{Y}(\\mathfrak{sl}_2)$ with higher-spin and non-evaluation representations, as well as on the fundamental representation of $\\mathsf{Y}(\\mathfrak{sl}_{n+1})$.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Dmitry Galakhov"
+    ],
+    "categories": [
+     "hep-th",
+     "math-ph",
+     "math.AG",
+     "math.MP",
+     "math.QA",
+     "math.RT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.14793",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.14793",
+    "pid": "2611.14793",
+    "reasons": [
+     "abstract: stable envelope"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "On Tunnel Fusion and Yangian $R$-matrices",
+    "watched": []
+   },
+   {
+    "abstract": "We compute the asymptotic dimension of spaces of multiparameter persistence modules of bounded presentation under the interleaving distance. The $d$-parameter modules with at most $n$ generators and $m$ relations have asymptotic dimension, and Assouad-Nagata dimension, exactly $d(n+m)$, the number of coordinates of their generator and relation grades, over every field; for two parameters this is $2(n+m)$. The space has continuous moduli, already for two parameters and $n,m\\ge2$: over an infinite field it contains, at every scale, infinite uniformly separated families of pairwise non-isomorphic modules with one fibered barcode, so it is not doubling even at a fixed fibered barcode; already for $m\\ge1$ it is not coarsely equivalent to a proper metric space. The proof is an induction on the number of distinct grade coordinates: an interleaving small compared with the gaps between these coordinates moves each of them by at most twice its size and preserves the induced grid representation, so the continuous moduli are invisible at large scale. Each class of modules at finite distance therefore embeds coarsely into Hilbert space; for $n,m\\ge2$ over an uncountable field, the classes that contain these families admit no such embedding into a separable Hilbert space. Under the two-parameter matching distance $2(n+m)$ is a lower bound, attained for one generator and for two generators with at most one relation; on a finite net of $S$ slices the asymptotic dimension is at most $2nS$.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Sushovan Majhi",
+     "Atish Mitra",
+     "\\v{Z}iga Virk"
+    ],
+    "categories": [
+     "math.MG",
+     "cs.CG",
+     "math.AT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.16965",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.16965",
+    "pid": "2611.16965",
     "reasons": [],
-    "source": "hexagon",
+    "source": "arxiv",
     "tier": 4,
-    "title": "Isomorphism Loci and Coherence in Equivalence Extension",
+    "title": "Asymptotic Dimension of Persistence Modules of Bounded Presentation",
+    "watched": []
+   },
+   {
+    "abstract": "We study Chern characteristic classes of normal vector bundles of complex generalized flag submanifolds $G_{n-1}/P_{n-1}$ in complex generalized flag manifolds $G_n/P_n$. This procedure can be regarded as the relative version of Schubert calculus for the pair $G_{n-1}/P_{n-1}$ and $G_n/P_n$. The CW structure and additive structure of the cohomology of $\\mathrm{Gr}(n, k)$ allows inductive calculation of Chern classes of the canonical and complementary canonical vector bundles over $\\mathrm{Gr}(n, k)$. The combination of representation theory and algebraic geometry allows to derive analogous properties for the isotropic Grassmannians $\\mathrm{LGr}(m, k)$ and $\\mathrm{OGr}(m, k)$ via their embeddings in $\\mathrm{Gr}(m, k)$. Then the induced CW structure yields the additive structure on the cohomology of $\\mathrm{LGr}(m, k)$ and $\\mathrm{OGr}(m, k)$, and consequently leads to the calculation of Chern classes of the canonical and complementary canonical vector bundles over $\\mathrm{LGr}(m, k)$ and $\\mathrm{OGr}(m, k)$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Jakub Knesel",
+     "Petr Somberg"
+    ],
+    "categories": [
+     "math.AG",
+     "math.AT",
+     "math.DG",
+     "math.RT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.16837",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.16837",
+    "pid": "2611.16837",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Chern characteristic classes of normal bundles of complex generalized flag submanifolds in generalized flag manifolds",
+    "watched": []
+   },
+   {
+    "abstract": "Geometric chains are formal combinations of smooth maps from compact oriented manifolds or orbifolds with corners. In earlier work the author showed that, modulo a relation D that kills degenerate chains, they compute rational singular homology. We show that D can be replaced by a gluing relation, which identifies a chain with the sum of its restrictions to finitely many pieces whenever its source is glued from these pieces along whole codimension-one faces. With this relation the comparison map from singular homology is an isomorphism in all degrees for compact polyhedra and smooth manifolds without boundary, with rational and with integer coefficients. Unlike D, the gluing relation is defined through the sources alone, and chain-level identities such as the equivalence of a degree d covering with d times its base, which fails modulo D, and the correction terms of the chain map from a Morse complex, which are degenerate modulo D, become gluing relations. The proof is axiomatic; injectivity comes from integration or dual cells, surjectivity from cutting along regular levels, where the cut of a gluing relation is again one, and at the point we use Whitehead triangulations of manifolds with corners subordinate to their corner strata. The gluing relation, read on underlying spaces, also suffices for orbifold sources, with integer coefficients modulo classes with an orientation reversing automorphism, and for effective orbifold targets.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Hao Yu"
+    ],
+    "categories": [
+     "math.GT",
+     "math-ph",
+     "math.AT",
+     "math.MP"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.15551",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.15551",
+    "pid": "2611.15551",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Gluing Geometric Chains Of Manifolds And Orbifolds With Corners",
+    "watched": []
+   },
+   {
+    "abstract": "We consider a version of Legendrian contact homology filtered by the action of Reeb chords. In this version, a union of two disjoint exact Lagrangian cobordisms with Legendrian boundary conditions gives rise to a morphism between persistence modules. We discuss a certain algebraic invariant of such morphisms and use it to obtain obstructions to Lagrangian isotopies of the cobordisms, as well as applications to symplectic and contact dynamics.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Michael Entov",
+     "Leonid Polterovich"
+    ],
+    "categories": [
+     "math.SG",
+     "math.AT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.14682",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.14682",
+    "pid": "2611.14682",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Lagrangian cobordisms and morphisms of persistence modules",
+    "watched": []
+   },
+   {
+    "abstract": "The path homology theory is based on the notion of path complex and is a part of GLMY-theory created and developed by Grigor'yan, Lin, Muranov, and Yau in a cycle of papers in 2012-2014. In this paper we define a path complex with concatenation ($PC$-complex) which is a particular case of a path complex. We define a natural topology on a set of vertices of any $PC$-complex, and describe properties of this topology and its relation to the discrete topology of Alexandroff. We prove the existence of functorial relations between some categories of $PC$-complexes and digraphs. These relations allow to transfer covering, homotopy and various versions of homology theory from digraph theory to $PC$-complexes.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Yuri Muranov",
+     "Anna Muranova"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.15308",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.15308",
+    "pid": "2611.15308",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Path complexes with concatenation and their relation to digraphs",
+    "watched": []
+   },
+   {
+    "abstract": "We give explicit and recursive formulas for the Poincar\\'e polynomials of Dani--Mainkar nilmanifolds associated with path graphs. We also prove that these polynomials are unimodal, and we calculate a range of Betti numbers asymptotically. As an application, we derive a sharp lower bound for the dimension of the total de Rham cohomology of a Dani--Mainkar nilmanifold.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Marco Aldi",
+     "Samuel Bevins",
+     "Eleftherios Chatzitheodoridis",
+     "Sergio Da Silva",
+     "Quincy Frias",
+     "Tom\\'as Mej\\'ia G\\'omez"
+    ],
+    "categories": [
+     "math.AT",
+     "math.AC",
+     "math.CO",
+     "math.RT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.17014",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.17014",
+    "pid": "2611.17014",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Poincar\\'e polynomials of nilmanifolds associated with path graphs",
+    "watched": []
+   },
+   {
+    "abstract": "We describe a quantization procedure for Betti mapping stacks with shifted Poisson targets by combining factorization homology and formal geometry. We quantize derived stacks of local systems of low-dimensional manifolds.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "John Francis",
+     "Owen Gwilliam",
+     "Rajiv Kaipa"
+    ],
+    "categories": [
+     "math.QA",
+     "math-ph",
+     "math.AG",
+     "math.AT",
+     "math.MP"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.16137",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.16137",
+    "pid": "2611.16137",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Quantization of Betti Mapping Stacks",
+    "watched": []
+   },
+   {
+    "abstract": "Given a locally finite open cover of a paracompact space, a subordinate partition of unity defines a map into the geometric realization of the nerve. When the cover is good, the nerve theorem asserts that this map is a homotopy equivalence. In applied topology, one specializes this construction to covers of metric data by open balls centered at finitely many landmarks. The corresponding nerve map represents the data inside the \\v{C}ech complex, enabling one to pull cohomological or spectral invariants back to the data. Since point cloud data often comes equipped with weights encoding domain-specific importance, we introduce a weighted version of the nerve map and study its stability under perturbations of the landmarks and weights using metrics from optimal transport. Our main result is a Lipschitz stability theorem for the weighted nerve map under a uniform nondegeneracy assumption. We state the bound in terms of a scale-dependent optimal transport distance, and give an example where our estimate is attained. Since this distance is dominated by a multiple of the $1$-Wasserstein distance, Wasserstein stability follows as a corollary. We also give geometric conditions ensuring nondegeneracy, obtain explicit estimates of the Lipschitz constant for closed Riemannian manifolds, and sketch applications to Laplacian eigenvector cascading and Eilenberg--MacLane coordinates.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Kenneth McCabe",
+     "Jose A. Perea"
+    ],
+    "categories": [
+     "math.AT",
+     "math.MG"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.15938",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.15938",
+    "pid": "2611.15938",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Wasserstein Stability of the Nerve Map",
+    "watched": []
+   },
+   {
+    "abstract": "We give a generic presentation of the pre-Bloch group of a local ring with residue field $\\mathbb{F}_{2}$. We apply this to the calculation of pre-Bloch groups and Bloch groups of some local rings.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Kevin Hutchinson"
+    ],
+    "categories": [
+     "math.KT",
+     "math.AC"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.16635",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.16635",
+    "pid": "2611.16635",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 5,
+    "title": "Bloch groups of local rings with residue field $\\mathbb{F}_2$",
+    "watched": []
+   },
+   {
+    "abstract": "We study the category of bounded complexes of finite sums of indecomposable injectives over a locally Noetherian scheme, which we call the immaculate complexes. We show that regularity and finiteness of dimension can be detected from this category using strong generation. Our methods involve studying when the unbounded derived category of a Grothendieck category is strongly generated by injectives. As applications we prove a conjecture of Hartshorne and recover a result of Keller and Krause. To any specialisation closed subset we associate a semi-orthogonal decomposition of the immaculates and use this to compute additive finitary invariants in terms of the completions of the local rings. The immaculates are equivalent to the perfect derived category of a left coherent preadditive category i.e. a ring with many objects and we compute this category for one-dimensional integral or Gorenstein schemes.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Isambard Goodbody"
+    ],
+    "categories": [
+     "math.AG",
+     "math.AC",
+     "math.KT"
+    ],
+    "date": "2026-11-13",
+    "link": "https://arxiv.org/abs/2611.16680",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.16680",
+    "pid": "2611.16680",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 5,
+    "title": "Immaculate complexes and Strong Generation by Injectives",
     "watched": []
    }
   ]
@@ -4963,6 +5779,7 @@
   "1310.3048": "2026-11-10",
   "1311.1929": "2026-10-19",
   "1504.06592": "2026-10-20",
+  "1604.01005": "2026-11-13",
   "1608.06029": "2026-11-05",
   "1701.02945": "2026-10-09",
   "1701.06238": "2026-10-27",
@@ -4982,12 +5799,14 @@
   "1911.02642": "2026-10-21",
   "2001.04083": "2026-10-27",
   "2004.03198": "2026-10-30",
+  "2007.00342": "2026-11-13",
   "2008.08852": "2026-10-08",
   "2009.05433": "2026-10-12",
   "2009.12646": "2026-10-19",
   "2011.09163": "2026-11-10",
   "2011.14649": "2026-10-08",
   "2101.01913": "2026-10-27",
+  "2103.15380": "2026-11-13",
   "2109.01210": "2026-10-08",
   "2109.01213": "2026-10-08",
   "2109.14655": "2026-10-08",
@@ -5027,6 +5846,7 @@
   "2304.13411": "2026-10-14",
   "2305.01499": "2026-10-27",
   "2305.06922": "2026-10-14",
+  "2305.08699": "2026-11-13",
   "2305.10859": "2026-11-10",
   "2305.14138": "2026-10-14",
   "2305.18609": "2026-10-14",
@@ -5040,6 +5860,7 @@
   "2308.15305": "2026-11-10",
   "2309.05012": "2026-10-12",
   "2309.05231": "2026-11-09",
+  "2309.08326": "2026-11-13",
   "2309.10555": "2026-10-20",
   "2310.02912": "2026-10-26",
   "2310.08018": "2026-10-30",
@@ -5118,9 +5939,12 @@
   "2408.01788": "2026-10-09",
   "2408.03111": "2026-10-14",
   "2408.06479": "2026-11-11",
+  "2408.07895": "2026-11-13",
   "2408.17301": "2026-10-14",
   "2409.01237": "2026-11-10",
   "2409.03465": "2026-11-03",
+  "2409.06006": "2026-11-13",
+  "2409.06193": "2026-11-13",
   "2409.06553": "2026-10-08",
   "2409.06657": "2026-10-28",
   "2409.08370": "2026-10-14",
@@ -5169,6 +5993,7 @@
   "2501.00400": "2026-11-10",
   "2501.01403": "2026-11-06",
   "2501.02466": "2026-10-28",
+  "2501.03890": "2026-11-13",
   "2501.06421": "2026-10-27",
   "2501.07551": "2026-10-20",
   "2501.09272": "2026-11-11",
@@ -5183,6 +6008,7 @@
   "2501.17869": "2026-11-09",
   "2501.18404": "2026-11-10",
   "2501.19101": "2026-10-14",
+  "2502.02325": "2026-11-13",
   "2502.03477": "2026-10-30",
   "2502.03642": "2026-10-16",
   "2502.09176": "2026-10-30",
@@ -5216,6 +6042,7 @@
   "2504.20265": "2026-11-03",
   "2504.20949": "2026-10-30",
   "2505.00680": "2026-10-16",
+  "2505.00801": "2026-11-13",
   "2505.01216": "2026-10-22",
   "2505.01375": "2026-10-27",
   "2505.04023": "2026-11-10",
@@ -5223,6 +6050,8 @@
   "2505.05220": "2026-10-14",
   "2505.07297": "2026-10-14",
   "2505.07806": "2026-10-23",
+  "2505.08755": "2026-11-13",
+  "2505.09015": "2026-11-13",
   "2505.09483": "2026-11-10",
   "2505.10730": "2026-10-22",
   "2505.11596": "2026-10-12",
@@ -5244,6 +6073,7 @@
   "2506.10436": "2026-10-28",
   "2506.10519": "2026-10-14",
   "2506.12663": "2026-11-03",
+  "2506.15605": "2026-11-13",
   "2506.17420": "2026-11-11",
   "2506.17888": "2026-10-15",
   "2506.20942": "2026-11-02",
@@ -5257,6 +6087,7 @@
   "2507.01226": "2026-10-08",
   "2507.02483": "2026-10-19",
   "2507.02852": "2026-10-12",
+  "2507.05792": "2026-11-13",
   "2507.06318": "2026-10-22",
   "2507.06995": "2026-10-21",
   "2507.07091": "2026-11-04",
@@ -5271,6 +6102,7 @@
   "2507.19708": "2026-10-27",
   "2507.20393": "2026-11-05",
   "2507.21737": "2026-11-05",
+  "2508.00662": "2026-11-13",
   "2508.01294": "2026-10-14",
   "2508.01527": "2026-10-23",
   "2508.02367": "2026-11-02",
@@ -5292,6 +6124,7 @@
   "2509.00954": "2026-11-02",
   "2509.02239": "2026-11-03",
   "2509.03993": "2026-10-20",
+  "2509.04274": "2026-11-13",
   "2509.04433": "2026-10-27",
   "2509.05462": "2026-10-19",
   "2509.05900": "2026-10-30",
@@ -5302,10 +6135,12 @@
   "2509.07476": "2026-10-14",
   "2509.07720": "2026-10-15",
   "2509.09047": "2026-11-06",
+  "2509.11423": "2026-11-13",
   "2509.11664": "2026-10-14",
   "2509.12186": "2026-11-10",
   "2509.13602": "2026-11-10",
   "2509.15825": "2026-11-10",
+  "2509.16042": "2026-11-13",
   "2509.16933": "2026-11-09",
   "2509.17001": "2026-10-20",
   "2509.17624": "2026-10-28",
@@ -5342,7 +6177,9 @@
   "2510.12057": "2026-10-28",
   "2510.12118": "2026-10-30",
   "2510.12578": "2026-11-04",
+  "2510.13596": "2026-11-13",
   "2510.14716": "2026-11-04",
+  "2510.14860": "2026-11-13",
   "2510.16796": "2026-11-10",
   "2510.17223": "2026-10-30",
   "2510.17678": "2026-10-20",
@@ -5354,6 +6191,7 @@
   "2510.21497": "2026-10-22",
   "2510.21594": "2026-10-30",
   "2510.22612": "2026-11-05",
+  "2510.23097": "2026-11-13",
   "2510.23265": "2026-10-28",
   "2510.23767": "2026-10-28",
   "2510.23967": "2026-10-28",
@@ -5363,6 +6201,7 @@
   "2510.26488": "2026-10-27",
   "2511.01245": "2026-10-20",
   "2511.02425": "2026-10-14",
+  "2511.02641": "2026-11-13",
   "2511.04582": "2026-11-10",
   "2511.04836": "2026-10-23",
   "2511.05922": "2026-11-02",
@@ -5377,6 +6216,7 @@
   "2511.10818": "2026-10-21",
   "2511.14675": "2026-10-14",
   "2511.15616": "2026-10-20",
+  "2511.15953": "2026-11-13",
   "2511.18395": "2026-10-12",
   "2511.19282": "2026-10-08",
   "2511.21396": "2026-11-04",
@@ -5393,6 +6233,7 @@
   "2512.05510": "2026-10-21",
   "2512.06371": "2026-11-10",
   "2512.06623": "2026-10-19",
+  "2512.07238": "2026-11-13",
   "2512.10082": "2026-11-06",
   "2512.12556": "2026-11-05",
   "2512.14207": "2026-10-28",
@@ -5405,6 +6246,7 @@
   "2512.20360": "2026-10-19",
   "2512.22432": "2026-10-12",
   "2512.23285": "2026-10-20",
+  "2512.24357": "2026-11-13",
   "2512.24783": "2026-10-08",
   "2512.24967": "2026-10-21",
   "2512.25058": "2026-11-02",
@@ -5420,7 +6262,9 @@
   "2601.10895": "2026-10-23",
   "2601.11084": "2026-10-16",
   "2601.12177": "2026-11-10",
+  "2601.12897": "2026-11-13",
   "2601.13482": "2026-11-03",
+  "2601.13527": "2026-11-13",
   "2601.14116": "2026-10-26",
   "2601.14237": "2026-11-03",
   "2601.16557": "2026-10-14",
@@ -5431,6 +6275,7 @@
   "2601.19426": "2026-11-10",
   "2601.19698": "2026-11-10",
   "2601.20804": "2026-10-14",
+  "2601.21843": "2026-11-13",
   "2601.21958": "2026-10-23",
   "2601.21973": "2026-10-26",
   "2601.22591": "2026-10-16",
@@ -5445,6 +6290,7 @@
   "2602.09879": "2026-11-10",
   "2602.10000": "2026-10-15",
   "2602.11110": "2026-11-03",
+  "2602.11943": "2026-11-13",
   "2602.12363": "2026-11-02",
   "2602.12439": "2026-11-03",
   "2602.14109": "2026-10-20",
@@ -5488,6 +6334,7 @@
   "2603.18041": "2026-10-20",
   "2603.18321": "2026-11-03",
   "2603.19391": "2026-11-10",
+  "2603.19553": "2026-11-13",
   "2603.23157": "2026-10-22",
   "2603.23695": "2026-11-02",
   "2603.25117": "2026-10-19",
@@ -5534,6 +6381,7 @@
   "2604.21785": "2026-11-03",
   "2604.21880": "2026-11-06",
   "2604.21900": "2026-10-23",
+  "2604.22078": "2026-11-13",
   "2604.22578": "2026-10-19",
   "2604.23395": "2026-10-15",
   "2604.24508": "2026-10-09",
@@ -5552,6 +6400,7 @@
   "2605.08086": "2026-11-05",
   "2605.08394": "2026-10-08",
   "2605.08507": "2026-10-21",
+  "2605.09210": "2026-11-13",
   "2605.09609": "2026-11-06",
   "2605.09828": "2026-10-14",
   "2605.09866": "2026-10-27",
@@ -5615,6 +6464,7 @@
   "2606.20268": "2026-10-30",
   "2606.21421": "2026-10-27",
   "2606.21717": "2026-10-14",
+  "2606.23622": "2026-11-13",
   "2606.23876": "2026-10-21",
   "2606.23906": "2026-10-20",
   "2606.25516": "2026-10-14",
@@ -5643,6 +6493,7 @@
   "2607.06543": "2026-10-16",
   "2607.07053": "2026-11-10",
   "2607.07355": "2026-10-27",
+  "2607.07558": "2026-11-13",
   "2607.10010": "2026-10-22",
   "2607.10602": "2026-11-11",
   "2607.11198": "2026-10-14",
@@ -5701,17 +6552,20 @@
   "2608.01474": "2026-11-10",
   "2608.02623": "2026-10-21",
   "2608.03434": "2026-10-08",
+  "2608.03592": "2026-11-13",
   "2608.03601": "2026-10-14",
   "2608.04228": "2026-11-04",
   "2608.04462": "2026-10-14",
   "2608.05764": "2026-10-28",
   "2608.07849": "2026-10-09",
+  "2608.08193": "2026-11-13",
   "2608.08298": "2026-10-27",
   "2608.08538": "2026-10-08",
   "2608.08680": "2026-11-04",
   "2608.08737": "2026-11-04",
   "2608.08766": "2026-10-28",
   "2608.08877": "2026-10-30",
+  "2608.08890": "2026-11-13",
   "2608.08969": "2026-10-19",
   "2608.09163": "2026-10-27",
   "2608.11009": "2026-11-11",
@@ -5732,10 +6586,12 @@
   "2608.18599": "2026-11-04",
   "2608.18789": "2026-11-06",
   "2608.18928": "2026-10-12",
+  "2608.19570": "2026-11-13",
   "2608.19829": "2026-11-04",
   "2608.19830": "2026-10-30",
   "2608.19921": "2026-10-14",
   "2608.20203": "2026-11-10",
+  "2608.21922": "2026-11-13",
   "2608.21980": "2026-10-20",
   "2608.22208": "2026-10-21",
   "2608.22317": "2026-10-20",
@@ -5751,6 +6607,7 @@
   "2608.27425": "2026-10-14",
   "2608.27834": "2026-10-14",
   "2608.28372": "2026-10-12",
+  "2608.29125": "2026-11-13",
   "2608.29485": "2026-10-12",
   "2608.29836": "2026-10-19",
   "2608.30417": "2026-10-16",
@@ -5772,15 +6629,18 @@
   "2609.04430": "2026-10-15",
   "2609.04816": "2026-10-12",
   "2609.05055": "2026-11-10",
+  "2609.05215": "2026-11-13",
   "2609.06274": "2026-10-20",
   "2609.06824": "2026-11-04",
   "2609.06845": "2026-10-15",
+  "2609.07522": "2026-11-13",
   "2609.08179": "2026-10-22",
   "2609.08876": "2026-10-30",
   "2609.09633": "2026-11-10",
   "2609.10349": "2026-10-09",
   "2609.10353": "2026-10-20",
   "2609.10440": "2026-10-14",
+  "2609.10869": "2026-11-13",
   "2609.10912": "2026-10-08",
   "2609.11009": "2026-10-16",
   "2609.11106": "2026-10-08",
@@ -5800,6 +6660,7 @@
   "2609.17330": "2026-10-28",
   "2609.17611": "2026-10-22",
   "2609.17742": "2026-10-21",
+  "2609.18115": "2026-11-13",
   "2609.18919": "2026-10-27",
   "2609.18936": "2026-10-14",
   "2609.19474": "2026-10-21",
@@ -5813,6 +6674,7 @@
   "2609.22414": "2026-10-14",
   "2609.22544": "2026-10-30",
   "2609.22551": "2026-11-03",
+  "2609.22557": "2026-11-13",
   "2609.23440": "2026-10-14",
   "2609.23556": "2026-10-14",
   "2609.23822": "2026-10-22",
@@ -5827,6 +6689,7 @@
   "2609.27751": "2026-10-20",
   "2609.27870": "2026-11-04",
   "2609.27916": "2026-10-09",
+  "2609.28051": "2026-11-13",
   "2609.28203": "2026-10-23",
   "2609.28435": "2026-10-08",
   "2609.28489": "2026-11-05",
@@ -5887,6 +6750,7 @@
   "2610.03309": "2026-11-09",
   "2610.03582": "2026-10-16",
   "2610.03584": "2026-10-08",
+  "2610.03688": "2026-11-13",
   "2610.03719": "2026-11-11",
   "2610.04096": "2026-10-26",
   "2610.04099": "2026-10-20",
@@ -5896,6 +6760,7 @@
   "2610.04516": "2026-10-09",
   "2610.04730": "2026-10-14",
   "2610.05018": "2026-11-11",
+  "2610.05179": "2026-11-13",
   "2610.05427": "2026-11-02",
   "2610.05441": "2026-10-08",
   "2610.05716": "2026-10-20",
@@ -7450,6 +8315,105 @@
   "2611.14453": "2026-11-11",
   "2611.14466": "2026-11-11",
   "2611.14507": "2026-11-11",
+  "2611.14523": "2026-11-13",
+  "2611.14543": "2026-11-13",
+  "2611.14550": "2026-11-13",
+  "2611.14591": "2026-11-13",
+  "2611.14631": "2026-11-13",
+  "2611.14682": "2026-11-13",
+  "2611.14689": "2026-11-13",
+  "2611.14743": "2026-11-13",
+  "2611.14747": "2026-11-13",
+  "2611.14773": "2026-11-13",
+  "2611.14793": "2026-11-13",
+  "2611.14810": "2026-11-13",
+  "2611.14816": "2026-11-13",
+  "2611.14831": "2026-11-13",
+  "2611.14847": "2026-11-13",
+  "2611.14873": "2026-11-13",
+  "2611.14976": "2026-11-13",
+  "2611.15034": "2026-11-13",
+  "2611.15116": "2026-11-13",
+  "2611.15148": "2026-11-13",
+  "2611.15191": "2026-11-13",
+  "2611.15245": "2026-11-13",
+  "2611.15308": "2026-11-13",
+  "2611.15312": "2026-11-13",
+  "2611.15330": "2026-11-13",
+  "2611.15332": "2026-11-13",
+  "2611.15483": "2026-11-13",
+  "2611.15496": "2026-11-13",
+  "2611.15551": "2026-11-13",
+  "2611.15605": "2026-11-13",
+  "2611.15611": "2026-11-13",
+  "2611.15630": "2026-11-13",
+  "2611.15643": "2026-11-13",
+  "2611.15696": "2026-11-13",
+  "2611.15702": "2026-11-13",
+  "2611.15725": "2026-11-13",
+  "2611.15768": "2026-11-13",
+  "2611.15788": "2026-11-13",
+  "2611.15790": "2026-11-13",
+  "2611.15799": "2026-11-13",
+  "2611.15830": "2026-11-13",
+  "2611.15899": "2026-11-13",
+  "2611.15908": "2026-11-13",
+  "2611.15938": "2026-11-13",
+  "2611.15943": "2026-11-13",
+  "2611.15962": "2026-11-13",
+  "2611.15986": "2026-11-13",
+  "2611.16002": "2026-11-13",
+  "2611.16014": "2026-11-13",
+  "2611.16017": "2026-11-13",
+  "2611.16024": "2026-11-13",
+  "2611.16030": "2026-11-13",
+  "2611.16034": "2026-11-13",
+  "2611.16036": "2026-11-13",
+  "2611.16068": "2026-11-13",
+  "2611.16105": "2026-11-13",
+  "2611.16137": "2026-11-13",
+  "2611.16254": "2026-11-13",
+  "2611.16268": "2026-11-13",
+  "2611.16277": "2026-11-13",
+  "2611.16343": "2026-11-13",
+  "2611.16436": "2026-11-13",
+  "2611.16443": "2026-11-13",
+  "2611.16449": "2026-11-13",
+  "2611.16453": "2026-11-13",
+  "2611.16462": "2026-11-13",
+  "2611.16529": "2026-11-13",
+  "2611.16531": "2026-11-13",
+  "2611.16593": "2026-11-13",
+  "2611.16635": "2026-11-13",
+  "2611.16651": "2026-11-13",
+  "2611.16659": "2026-11-13",
+  "2611.16680": "2026-11-13",
+  "2611.16690": "2026-11-13",
+  "2611.16695": "2026-11-13",
+  "2611.16763": "2026-11-13",
+  "2611.16768": "2026-11-13",
+  "2611.16784": "2026-11-13",
+  "2611.16837": "2026-11-13",
+  "2611.16847": "2026-11-13",
+  "2611.16899": "2026-11-13",
+  "2611.16900": "2026-11-13",
+  "2611.16911": "2026-11-13",
+  "2611.16953": "2026-11-13",
+  "2611.16963": "2026-11-13",
+  "2611.16965": "2026-11-13",
+  "2611.17004": "2026-11-13",
+  "2611.17014": "2026-11-13",
+  "2611.17047": "2026-11-13",
+  "2611.17106": "2026-11-13",
+  "2611.17113": "2026-11-13",
+  "2611.17120": "2026-11-13",
+  "2611.17132": "2026-11-13",
+  "2611.17138": "2026-11-13",
+  "2611.17149": "2026-11-13",
+  "2611.17155": "2026-11-13",
+  "2611.17162": "2026-11-13",
+  "2611.17244": "2026-11-13",
+  "2611.17282": "2026-11-13",
   "hexagon:2609.00001": "2026-10-08",
   "hexagon:2609.00102": "2026-10-08",
   "hexagon:2609.00104": "2026-10-08",
