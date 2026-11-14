@@ -1,0 +1,518 @@
+{
+"day": "2026-11-14",
+"updated": "2026-11-14T11:36:24+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2611.00429",
+"title": "A Conjecture on the Permanent of Positive Semidefinite Matrices",
+"abstract": "We state the following conjecture of the author and prove it for $n\\leq5$. Let $A=(a_{ij})$ be a complex positive semidefinite $n\\times n$ matrix with $n\\geq1$, and let $\\chi_\\lambda$ be an irreducible character of $S_n$ of degree $d_\\lambda$. For $\\sigma\\in S_n$, put $a_\\sigma=\\prod_{i=1}^n a_{i,\\sigma(i)}$. The conjecture asserts that $\\sum_{\\sigma,\\tau\\in S_n}\\chi_\\lambda(\\sigma\\tau)a_\\sigma a_\\tau \\leq d_\\lambda(\\operatorname{per}A)^2.$ We show that Soules' permanent-on-top conjecture implies this inequality, and that it in turn implies both Lieb's immanant dominance and Chollet's permanent inequality. We also settle the previously unresolved order-four case of Soules' conjecture.",
+"authors": [
+"Yair Lavi"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00429v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00429v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00422",
+"title": "A law of large numbers for infinitesimal characters of real reductive Lie algebras",
+"abstract": "We prove a law of large numbers for the infinitesimal characters of real reductive Lie algebras. Let $\\pi$ be a unitary representation of a connected Lie group with reductive Lie algebra. For product states on the tensor powers of $\\pi$ whose sites have uniformly bounded moments, for instance identical sites, the infinitesimal character divided by the number of sites concentrates at the spectrum of the limiting mean moment, with probabilities of deviation $O(n^{-m})$ for every $m$. The generators may be unbounded and the group non-compact. For compact groups this recovers the laws of large numbers of Keyl and Werner and of Botero, Christandl and Vrana, which enter the asymptotic analysis of linear programming bounds for binary codes; spherical designs require the non-compact case. We give concrete examples arising from Howe dual pairs on bosonic Fock space.",
+"authors": [
+"Andrew Salmon"
+],
+"categories": [
+"math.RT",
+"math.PR",
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00422v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00422v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00426",
+"title": "A proof of Brauer's $k(B)$-conjecture at the prime two",
+"abstract": "We prove that every $2$-block of a finite group has at most as many ordinary irreducible characters as the order of its defect groups.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.GR",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00426v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00426v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00406",
+"title": "A proof of Lusztig's connectedness conjecture in finite type",
+"abstract": "We prove that every equal-parameter Kazhdan–Lusztig left cell in a finite Weyl group is connected by simple left multiplications.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00406v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00406v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00411",
+"title": "A proof of Lusztig’s conjectures for extended affine Weyl groups",
+"abstract": "We prove Lusztig’s conjectures P1–P15 for extended affine Weyl groups with positive integer-valued weight functions.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT",
+"math.CO",
+"math.GR"
+],
+"link": "https://hexagonmath.org/abs/2611.00411v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00411v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00427",
+"title": "A proof of the Hausel–Rodriguez-Villegas conjecture",
+"abstract": "We prove the Hausel–Rodriguez-Villegas conjecture on the mixed Hodge polynomials of primitive-twisted \\(\\mathrm{GL}_n\\) character varieties.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.AG",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00427v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00427v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00408",
+"title": "A proof of the scheme-theoretic Humphreys conjectures",
+"abstract": "We prove the relative and traditional scheme-theoretic Humphreys conjectures for connected reductive groups over algebraically closed fields of positive characteristic exceeding the Coxeter number of every simple factor. We also prove that the self-extension support scheme of every finite-dimensional tilting module is reduced.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00408v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00408v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00428",
+"title": "A √3 growth criterion for weighted reciprocal series",
+"abstract": "We prove that $\\sum_{n\\ge1}1/(a_n^2a_{n+1})$ is irrational for every strictly increasing sequence of positive integers satisfying $\\limsup_{n\\to\\infty}\\log a_n/(\\sqrt{3})^n=\\infty$. This lowers the sufficient growth base from $2$ to $\\sqrt{3}$ in the criterion of Barreto, Kang, Kim, Kovač and Zhang (Bull. Lond. Math. Soc. 58 (2026), e70457, Theorem 3) for weights $(2,1)$. Irregular growth is allowed. The result also extends to nondecreasing sequences and positive integer numerators subject to polynomial size bounds.",
+"authors": [
+"twinheterodox"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00428v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00428v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00413",
+"title": "Algebra-Valued Yang-Mills-Type Theories: Polynomial Obstructions and Holonomy Reductions",
+"abstract": "We study algebra-valued Yang-Mills-type ($A$-YMT) theories over a smooth $n$-manifold $M$, where connections take values in a general (not necessarily associative, commutative, or Lie) $\\mathfrak{m}$-graded algebra $(A, *)$ and descend to an associated algebra bundle $E_A = P \\times_\\rho A \\to M$ over a principal $G$-bundle $\\pi : P \\to M$. We first derive the variational field equations, infinitesimal gauge transformations, and generalized Bianchi identities, showing that affine Ehresmann compatibility forces the vertical image of $\\mathfrak{g}$ into the Lie nucleus $\\mathcal{N}_{\\mathrm{Lie}}(A)$ of the commutator $[x,y]_* = x*y - y*x$, and proving that non-linear gauge covariance and the differential Bianchi identity are obstructed precisely by the Jacobiator $\\mathrm{Jac}_{[\\cdot,\\cdot]_*}$ (leaving principal $G$-gauge transformations universally anomaly-free). We then establish polynomial and geometric obstructions in three settings. First, we prove a vanishing theorem for internal-product Chern-Weil and self-dual $A$-YMT functionals in weak $(2,s)$-solvable algebras, invariant under $(Q,S)$-splitting extensions. Second, in reductive Cartan-Yang-Mills theories valued in $A = \\mathbb{R}^k \\oplus \\mathfrak{h}$, we compare quartic-block against recursive binary-tree parenthesization, proving a strict dimensional cutoff at $n \\ge 8$ for quartic blocks and an exact Jacobsthal-number cutoff ($n - 4 \\notin \\bigcup_{r \\ge 3}\\{2 J_r, J_{r+1}\\}$, plus coframe-rank vanishing for $n \\ge k + 5$) for binary trees. We also catalog the admissible Berger holonomy reductions for $4 \\le n \\le 7$, establishing an on-shell vanishing (torsion-free) versus off-shell survival (torsionful) dichotomy both in 4D for $U(2)$ and $SU(2)$ connections---via $e \\curlywedge_\\rtimes (e \\curlywedge_\\rtimes \\Omega_\\omega) = \\frac{1}{2}(e \\curlywedge_\\rtimes e) \\curlywedge_\\rtimes \\Omega_\\omega$ and the first Bianchi identity---and in 7D for $G_2$-connections. Third, we prove an associator-quotient collapse and Jacobiator vertex-dichotomy theorem for odd-dimensional internal $A$-Chern-Simons theories, with applications to $A$-$BF$ theories, octonionic and reductive Yang-Mills-Higgs Proca mass spectra, and reductive dualities.",
+"authors": [
+"Yuri Ximenes Lecca",
+"Willian Goulart Gomes Velasco"
+],
+"categories": [
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00413v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00413v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00424",
+"title": "An order-eleven counterexample to triangular realization of sign matrix permanents",
+"abstract": "We construct an \\(11\\times11\\) sign matrix with permanent \\(P=2\\,029\\,568\\). An exhaustive enumeration shows that \\(\\lvert\\per B\\rvert\\ne P\\) for every sign matrix \\(B\\) of order eleven whose entries below the diagonal are all \\(+1\\). This gives a negative answer to a question of Ingram and Razborov.",
+"authors": [
+"Weiming Zhang"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00424v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00424v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00419",
+"title": "Bounded Presentations and Normalization in Arithmetic Reconstruction",
+"abstract": "We study bounded presentations of selected constructions in absolute anabelian geometry and Frobenioid theory. In bounded Zermelo set theory with Choice, we prove uniform recursion for a common state space and a uniformly supplied transition rule. Under explicit index bounds, membership-table codes place the states and their histories at the same finite type level. We construct coherent comparisons for representative quotients, fiberwise full skeletons, isofibrational base changes, and countable towers, and verify the lifting properties for model Frobenioids and angular presentations. For nonzero numerical observables transforming by positive scalars, compatible normalization exists exactly when the associated character is trivial on every isotropy group. A self-equivalence of the realified arithmetic Frobenioid over \\(\\mathbb{Q}\\) preserves degree and every object isomorphism class but does not lift to the unit-trivialized perfection. The structural results give a relative uniform interpretation theorem: the weak theory constructs the bounded presentations and comparison maps, and specified arithmetic recognition theorems identify the resulting structures.",
+"authors": [
+"Zhenyu Sun"
+],
+"categories": [
+"math.LO",
+"math.CT",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00419v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00419v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00412",
+"title": "Class-two Lie algebras and quadratic-dual current constructions",
+"abstract": "For a reductive Lie algebra $\\s$, a finite-dimensional $\\s$-module $R$ and an $\\s$-submodule $K\\subseteq\\bigwedge^2R$, the class-two radical $R\\oplus(\\bigwedge^2R/K)$ carries an $\\s$-action. For semisimple $\\s$ the semidirect products $\\s\\ltimes(R\\oplus(\\bigwedge^2R/K))$ are, up to isomorphism, all Lie algebras whose radical has class at most two. We study the isomorphisms that fix the acting algebra pointwise, including their central mixing and shear terms. On the locus where central mixing vanishes, the resulting groupoid admits a description by invariant Grassmannians and equivariant linear groups. We express the wild matrix-pair construction as a functor into class-two Lie algebras and give its equivariant square in $\\s$-modules. We work out single-isotypic slices, signed multiplicity-free tensor squares, and explicit low-dimensional multiplicity-space examples. The acting algebra may be zero and its central action need not be semisimple. Finally, we study pairs of Lie brackets on one object whose mixed composites vanish. Tensoring them with algebras carrying two independent commutative associative products, for instance pointwise multiplication and convolution exchanged by Fourier transform, produces further Lie algebras. For these pairs, in representations of $\\s$, we define the groupoid of objects that are isomorphic to their bracket exchange $\\sigma X$; we give the structure of the switches $X\\to\\sigma X$, the obstruction to an involutive switch, and its indecomposable objects in small dimension for semisimple $\\s$.",
+"authors": [
+"Ammar Husain"
+],
+"categories": [
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00412v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00412v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00416",
+"title": "Convergence Criteria for Measure-Valued Population Dynamics with Mutation and Horizontal Transfer",
+"abstract": "We study a measure-valued population equation on a compact trait space with positive baseline growth and competition, an additional mutation birth gain, and frequency-dependent horizontal transfer with an antisymmetric net kernel. We give sufficient conditions for convergence to a unique nonzero equilibrium. Separating total mass from trait frequencies yields positive mass bounds. Without mutation, maximal time-averaged fitness on the initial support tends to zero, and the endpoint measure in each joint subsequential limit is supported on the zero set of the limiting averaged fitness. Potential transfer and recipient-independent competition reduce the frequency dynamics to a normalized positive semigroup. For general transfer, a common-reference balance gives an entropy criterion allowing arbitrarily strong circulation. An adjoint-weighted entropy identity includes singular population components and the normalization correction in transfer. Mutation dissipates deviations in weighted composition, while a quadratic-form condition controls the remaining mass deviation; in finite dimensions, mutation can also compensate for negative directions of that form. A separate contraction criterion compares arbitrary trajectories using only coefficient bounds. Invariant resident laws yield invasion indices for recurrent environments. Examples exhibit bistability under complete reset mutation and periodic populations whose time averages are not equilibria. For rank-one mutation, we classify stationary frequencies, prove a critical lower bound ruling out exponential convergence from an initial point mass at a maximizer, and determine the condensate when the initial population assigns positive mass to the maximizing set.",
+"authors": [
+"Zhenyu Sun"
+],
+"categories": [
+"math.DS",
+"math.AP",
+"math.SP"
+],
+"link": "https://hexagonmath.org/abs/2611.00416v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00416v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00415",
+"title": "Every even integer greater than 2 is a prime plus a product of at most 18 primes",
+"abstract": "We prove that every even integer $N \\ge 4$ can be written as $N = p + \\eta$ with $p$ prime and $\\eta \\ge 2$ a product of at most $18$ primes, counted with multiplicity. The best previously stated unconditional value we have located is due to Johnston and Starichkova: $395$ in the latest version of their paper, which revised the $369$ of its first two arXiv versions. Assuming that no Dirichlet $L$-function vanishes in the half-plane $\\operatorname{Re} s > 7/8$, the same holds with at most $14$ primes, and under the generalised Riemann hypothesis for Dirichlet $L$-functions with at most $9$. The improvement comes from counting rather than bounding: an explicit lower bound for the number of primes $p$ with $N - p$ free of small primes is played against explicit Hardy--Ramanujan-type upper bounds for the integers with many prime factors, both in the range below the sieve threshold and inside the sieved sets. These upper bounds weight by Chebyshev's identity $\\log n = \\sum_{d \\mid n} \\Lambda(d)$, use the exact power-series coefficients of a majorant of a finite Euler product and the Mertens density of rough primes, and pre-sieve modulo $1155$, so that the integers to be excluded inherit the residue classes of the primes that produce them. All numerical steps are certified in interval or ball arithmetic, except some discrete convolutions with nonnegative terms, which are evaluated in binary64 under an explicit rounding-error bound and were also recomputed independently in ball arithmetic.",
+"authors": [
+"Wren Aquila"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00415v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00415v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00425",
+"title": "Global twistor sources for analytic Einstein spacetimes",
+"abstract": "We globalize the local analytic projective twistor correspondence for the gravitational googly problem, retaining its convergent nonlinear treatment of both gravitational chiralities. For each fixed Einstein coefficient, the correspondence identifies independently defined atlases of two analytic Čech classes of weights $2$ and $-6$, structured operator sources on null monodromy presentations, and holomorphic oriented spin Einstein four-manifolds. Its inverse comparisons preserve the original source operations, Einstein scale, spin structure and complete point family, together with calibrated modules on parametrized incidence. For analytic Lorentz developments with a compact marked Cauchy surface, germs along the entire real development give the corresponding equivalence, and the maximal analytic Cauchy development determines a terminal source germ. A Nariai example admits no Hausdorff contact carrier containing the full complex skies over all points of the real development. In its product complexification and every allowed point restriction containing the entire real development, every real point sky has nonclosed saturation, so no ordinary locally finitely generated module has exactly that saturated support. These obstructions explain the use of null monodromy and parametrized incidence in the global correspondence, with compact point objects recovered by central specialization.",
+"authors": [
+"Lior Isthmus"
+],
+"categories": [
+"math-ph",
+"math.CV",
+"math.DG"
+],
+"link": "https://hexagonmath.org/abs/2611.00425v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00425v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00418",
+"title": "Higher invariants of complex Hadamard matrices",
+"abstract": "Associated to any complex Hadamard matrix $H\\in M_N(\\mathbb T)$ is a quantum permutation group $G\\subset_uS_N^+$, the Hopf image of the representation associated to the magic matrix formed by the rank 1 projections $P_{ij}=Proj(H_i/H_j)$, and its invariants $c_k=\\dim(Fix(u^{\\otimes k}))$ are the dimensions of the relative commutants of the subfactor associated to $H$. We compute these invariants well beyond the levels $k=2,3$ previously known, up to $k=9$ in the best cases, by using Jones--Wenzl and annular decompositions. For the Di\\c t\\u a deformations of the Fourier matrices we compute $G$ for all values of the parameters, and we study the order 8 families $F_{8,5}$, in connection with free wreath products. For the matrices of small order with $c_2=2$, such as the Karlsson ones at generic parameters, we find $c_k=Cat_k$ at all the levels computed. Finally, via an integrality principle and character sums, we prove that the Paley II matrices, and more generally those coming from symmetric conference matrices, have infinite depth, as well as the Paley I matrices with $11\\leq q<10^5$.",
+"authors": [
+"Teo Banica"
+],
+"categories": [
+"math.OA",
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2611.00418v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00418v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00432",
+"title": "Irrationality of $\\chi_2(1/q)$, $\\mathrm{Ti}_2(1/q)$ and $\\chi_2(2/q)$",
+"abstract": "Let $\\chi_2(z)=\\sum_{n\\ge0}z^{2n+1}/(2n+1)^2$ be Legendre's chi function and $\\mathrm{Ti}_2(z)=\\sum_{n\\ge0}(-1)^nz^{2n+1}/(2n+1)^2$ the inverse tangent integral. We prove three theorems: $\\chi_2(1/q)$ is irrational for every integer $q\\ge3$ with $q\\ne4$; $\\mathrm{Ti}_2(1/q)$ is irrational for every integer $q\\ge5$; and $\\chi_2(2/q)$ is irrational for every odd integer $q\\ge175$. All three come from one construction: the Hankel determinants of a moment functional with half-integer poles and geometric weight $w$, read at $w=q^{-2}$, $w=-q^{-2}$ and $w=4q^{-2}$. Their denominators are bounded prime by prime, their size by a discrete log-gas argument against explicit dual certificates, and their nonvanishing by a reduction modulo an auxiliary prime. The three cases differ at the prime $2$, where each needs its own lemma, in the certificates, and in how the nonvanishing lemma is transferred. For large $q$ the three statements follow from the linear independence criteria of David, Hirata-Kohno and Kawashima; for the first two, a 1990 criterion of Hata, which we could not consult, also applies from a threshold unknown to us. Below these ranges the results are new as far as we know. All three theorems are formalised in Lean 4 with Mathlib and checked by the Lean kernel, using only Lean's three standard axioms.",
+"authors": [
+"Shawn Krisman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00432v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00432v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00421",
+"title": "Joint marked moments and optimized zero-free half-planes for unitary Hecke L-functions",
+"abstract": "In this paper, we improve the uniform zero-free bound for the Quasi-Riemann Hypothesis and obtain the half-plane LK (s,ω) ̸= 0 (Re s>B∗ = 0.8733458561067185768...) for every continuous unitary Hecke character ω over every number field K, with the possible norm-character pole permitted. We prove joint moment estimates for inverse and ordinary character sums and apply them to zero detection and the averaged Mellin numerator. The proof uses the earlier number-field theta and moment theorems and the unitary estimates of Hu and Gao. The same half-plane holds for finite-dimensional continuous unitary Weil representations, with pole orders equal to the multiplicities of their norm-character constituents. We determine B∗ asanalgebraicnumberofdegreenineandastheinfimumofthespecifiedpositivecomparison, allowing unequal ordinary moments and variable comparison lengths.",
+"authors": [
+"Baiying Liu"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00421v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00421v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00423",
+"title": "Landau's problems through ratios of $L$-functions",
+"abstract": "Very recently, Lee announced a proof of the Twin Prime Conjecture assuming the Ratios Conjecture for the Riemann zeta function. We obtain conditional asymptotic formulas with power-saving errors for each of Landau's four prime problems. Similar results may be possible for other problems in analytic number theory.",
+"authors": [
+"Haozhe Gou",
+"Victor Wang",
+"Max Wenqiang Xu"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00423v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00423v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00431",
+"title": "Regularity criteria and an effective bound for irregular extensions of Euler triples",
+"abstract": "An Euler triple is a Diophantine triple $\\{a,b,c\\}$ with $a<b<c=a+b+2\\sqrt{ab+1}$. It extends to the regular Diophantine quadruple $\\{a,b,c,d_+\\}$, and it is conjectured that it has no other extension $d>c$. We prove that an irregular extension forces $c<4\\cdot10^{48}$, against $c<10^{98}$ in recent work of He and Togb\\'e. The proof squeezes the index $m$ of the extension, which locates a common term of two Pell sequences, between a floor from congruences, $c<8m^4$, valid for every irregular extension, and ceilings from linear forms in logarithms. The same squeeze, with other bounds, gives three regularity criteria: by the size of $b/a$, which confines irregular extensions to $1+\\frac1{1538}<b/a<3355^2$; by pair coordinates, through the hypergeometric method; and by coprime divisors of the index combinations, which settles every Euler triple with two elements in a ratio $j:k$ with $jk\\le300$. As applications, the three-parameter family of Cipu, Fujita and Mignotte extends only regularly when $\\nu A\\ge2$ and $K\\ge643$, and when $K=1$, $A\\in\\{2,3\\}$ and $\\nu\\ge2$; the latter contains the Hoggatt--Bergum triples, for which this recovers Dujella's theorem for extensions $d>c$.",
+"authors": [
+"Sinisa Slijepcevic",
+"Andrej Dujella"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00431v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00431v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00409",
+"title": "The Shapiro–Shapiro conjecture for ordered positive flags",
+"abstract": "We prove the Shapiro–Shapiro conjecture for ordered totally positive flags in Grassmannians.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.AG",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00409v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00409v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00430",
+"title": "The Sharp Exponential Constant for 6-Regular Circulant Matrices",
+"abstract": "We prove that, for every integer $n\\ge6$ and six-element set $S\\subseteq\\mathbb Z_n$, the binary circulant $C_n(S)=(1_{\\{j-i\\in S\\}})_{i,j\\in\\mathbb Z_n}$ satisfies $\\operatorname{per}C_n(S)\\ge((3125/1296)e^{7/250000})^n$. For every integer $d\\ge2$, we identify the optimal uniform base as $\\inf_{n\\ge d}\\inf_{|S|=d}\\operatorname{per}C_n(S)^{1/n}=\\lim_{q\\to\\infty}\\operatorname{per}C_{q^{d-1}}(\\{0,1,q,\\ldots,q^{d-2}\\})^{1/q^{d-1}}$, where $S\\subseteq\\mathbb Z_n$ and $q$ runs through integers at least $2$. In degree six this base is at most $163812873663198^{1/35}$, while the lower bound strictly exceeds the sharp unrestricted base $3125/1296$. This resolves the surviving circulant lower-bound question in Minc's Problem 10; its proposed full upper bound fails even for circulants.",
+"authors": [
+"Yair Lavi"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00430v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00430v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00410",
+"title": "Verification of the Markov Uniqueness Conjecture for the First One Trillion Markov Values: Meridians on the Markov Surface and Farey Addresses",
+"abstract": "The Markov unicity problem asks whether the largest entry of a positive integer solution determines the other two. We organize the triples into families called Meridians, with compact addresses and explicit evaluation rules. The construction starts with catenary profiles: a fixed host sets the curve, and two heights one unit apart solve the Markov equation with that host. Selected positions give integer triples. Reversing geometric descent gives an exact indexing of these triples. Remainder patterns, growth bounds, corridor paths, and Fibonacci-matrix and snake-graph arguments then restrict possible collisions. The Meridian description of starting scales and logarithmic spacing guided the organization of a large verification into magnitude bands. The implementation uses Farey addresses and certified matrix bounds to select each band; its correctness does not require the Meridian collision theorems. Production finished on 10 November 2026 at 03:54:13 UTC (9 November, 21:54:13 CST). The combined computation compared 1,101,388,071,945 configurations and certified uniqueness of the first one trillion Markov values in numerical order. The trillionth value has 1,021,609 decimal digits. All 12 repeated 64-bit residue groups were resolved by exact arithmetic, with no equal maxima. On eight workers, retained active band processing took 23 h 57 min 23.146 s, including the inherited 500-billion certificate; the maximum recorded temporary key-file footprint was 1,065,664,392 bytes (0.992 GiB). This elapsed processing time is distinct from summed CPU time and the calendar span. Both final replays passed. A separate computer-checked certificate covers all 5,067,077 Meridians of degree at most 10,000, at every integer phase. The general unicity problem remains open.",
+"authors": [
+"Elleard Felix Webster Heffern"
+],
+"categories": [
+"math.NT",
+"math.CO",
+"cs.MS"
+],
+"link": "https://hexagonmath.org/abs/2611.00410v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00410v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-12",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
