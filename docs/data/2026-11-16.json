@@ -1,0 +1,3036 @@
+{
+"day": "2026-11-16",
+"updated": "2026-11-16T05:06:44+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "2611.18212",
+"title": "Frobenius and perfection in framed motives",
+"abstract": "We develop explicit Frobenius and perfection arguments for framed motives over imperfect fields. In positive characteristic, power framing homotopies and local framed transfers make relative Frobenius invertible after inverting the characteristic. Descent through successive Frobenius twists then gives a proof of strict homotopy invariance for homotopy invariant quasi-stable additive framed presheaves and identifies the canonical comparison with the perfect closure as a stable Nisnevich local equivalence of framed motives. We extend the comparison to E-framed motives for every motivic Thom spectrum E. It also yields the cancellation theorem and the cone theorem. For commutative symmetric Thom ring spectra, we identify triangulated categories of effective E-framed motives and effective E-modules and prove perfection invariance of these triangulated categories. All comparisons are made after inverting the exponential characteristic.",
+"authors": [
+"Grigory Garkusha"
+],
+"categories": [
+"math.AG",
+"math.AT"
+],
+"link": "https://arxiv.org/abs/2611.18212",
+"pdf": "https://arxiv.org/pdf/2611.18212",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 3,
+"reasons": [
+"abstract: ring spectr"
+],
+"watched_authors": []
+},
+{
+"pid": "2611.18555",
+"title": "Towards invertibility of derived categories of sheaf-theoretic line operators",
+"abstract": "We investigate when the braided monoidal $\\infty$-categories of sheaf-theoretic line operators of $3$-dimensional topological quantum field theories are invertible in the higher Morita category, so that they determine invertible $4$-dimensional anomaly theories. We consider a zoo of different examples which are inherently derived. First, enhancing Ben-Zvi--Francis--Nadler, we show that a symmetric monoidal category of quasi-coherent sheaves $\\mathrm{QC}(X)$ is invertible only if $X$ is a point, and convolution categories on loop stacks are Morita trivial whenever the stack satisfies descent along its diagonal, e.g. for classifying stacks. Secondly, we provide an example showing that, unlike for finite braided tensor categories, non-degeneracy does not imply invertibility in the derived setting: For an odd vector space $V[1]$, the $2$-shifted $\\mathcal{D}$-modules $\\mathrm{DMod}^2(V[1])$ are $3$-dualizable and non-degenerate but neither factorizable nor cofactorizable. This category is closely related to the line operators of linear Rozansky--Witten theory. Finally, we define an anomaly of a group action on an invertible braided monoidal $\\infty$-category as a Witt class over $\\mathrm{Rep}(G)$, and show that the category of representations of the quantum group of a torus at a root of unity is invertible relative to its quantum Frobenius.",
+"authors": [
+"Claudia Scheimbauer",
+"Jackson Van Dyke"
+],
+"categories": [
+"math.QA",
+"math-ph",
+"math.AG",
+"math.CT",
+"math.MP"
+],
+"link": "https://arxiv.org/abs/2611.18555",
+"pdf": "https://arxiv.org/pdf/2611.18555",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 3,
+"reasons": [
+"abstract: infinity-categor"
+],
+"watched_authors": []
+},
+{
+"pid": "2611.17557",
+"title": "Freeness of crossed modules, augmented quandles, and augmented racks",
+"abstract": "We study freeness of crossed modules, augmented quandles, and augmented racks. We show that the associated quandle functor and the associated crossed module functor are left adjoint to the natural forgetful functors. For a map $f\\colon S\\to G$, we define the free augmented rack $R_f\\to G$ and the free augmented quandle $Q_f\\to G$. If $C_f\\to G$ denotes the free crossed module determined by $f$, then the associated crossed modules of $R_f$ and $Q_f$ are both isomorphic to $C_f\\to G$. We also characterize free augmented quandles in terms of stabilizers. As applications, we prove that the canonical inner augmentation of every generalized Alexander quandle is free and that the canonical inner augmentation of a classical knot quandle is free if and only if the knot is a torus knot, whereas for every $n$-knot with $n\\geq2$ it is free.",
+"authors": [
+"Toshiyuki Akita",
+"Sota Takase"
+],
+"categories": [
+"math.GT",
+"math.AT",
+"math.GR"
+],
+"link": "https://arxiv.org/abs/2611.17557",
+"pdf": "https://arxiv.org/pdf/2611.17557",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 4,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18058",
+"title": "Perfect Matching Complexes of $3\\times 2n$ Grid Graph",
+"abstract": "The perfect matching complex of a simple graph $G$ is an abstract simplicial complex whose facets (maximal faces) are precisely the perfect matchings of $G$. In this article, we study the topology of the perfect matching complex of the $3\\times 2n$ grid graph and show that it is homotopy equivalent to a wedge of $f_{n-1}$ copies of $(n-1)$-dimensional spheres, where $f_{k}$ denotes the $k$-th Fibonacci number. This proves a particular case of the conjecture given by Chandrakar and Singh for perfect matching complex of grid graphs.",
+"authors": [
+"Himanshu Chandrakar",
+"Trung Chau",
+"Shuchita Goyal",
+"Rahul Karki",
+"B. Subhash"
+],
+"categories": [
+"math.CO",
+"math.AT"
+],
+"link": "https://arxiv.org/abs/2611.18058",
+"pdf": "https://arxiv.org/pdf/2611.18058",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 4,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18195",
+"title": "Stability theorems for $\\varepsilon$-simplicial sets",
+"abstract": "We establish stability results for internal homs of $\\varepsilon$-simplicial sets, a framework motivated by nerves of Frobenius monoids in the category of relations. Rotations are modelled through edge witnesses and horn-filling conditions, without requiring unique fillers. For $\\varepsilon$-fibrant objects $X$ and $Y$, we prove that the internal hom $\\mathrm{Fun}(X,Y)$ satisfies the $\\varepsilon$-coherence conditions and admits fillers for all $\\varepsilon$-horns of dimension at least two. Its subobject consisting of simplices whose vertices correspond to $\\eta$-edge-preserving maps is $\\varepsilon$-fibrant. We also introduce $\\eta\\varepsilon$-simplicial sets by adding explicit $\\eta$-witnesses and prove that the internal hom of two $\\eta\\varepsilon$-fibrant objects is again $\\eta\\varepsilon$-fibrant.\n  Our proofs use adjunctions relating $\\varepsilon$-simplicial sets and paracyclic sets. We characterise the $\\varepsilon$-horn filling property by requiring the corresponding counit to be a trivial Kan fibration. Consequently, for every object satisfying this property, coherent choices of rotations of each simplex form a contractible Kan complex.",
+"authors": [
+"Dominik Lachman"
+],
+"categories": [
+"math.CT",
+"math.AT"
+],
+"link": "https://arxiv.org/abs/2611.18195",
+"pdf": "https://arxiv.org/pdf/2611.18195",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 4,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17443",
+"title": "$A_1^{(1)}$-Grounded partitions at levels $1$ and $2$, Part II: affine crystal structure",
+"abstract": "Grounded partitions are coloured partitions with difference conditions, introduced by Dousse and Konan, that are in bijection with the paths of the Kyoto path model of Kang, Kashiwara, Misra, Miwa, Nakashima and Nakayashiki. We describe the affine crystal structure on the grounded partitions arising from the level $1$ and level $2$ perfect crystals of type $A_1^{(1)}$. At level $1$, grounded partitions are naturally identified with $2$-restricted partitions, and the affine crystal structure is given by Kleshchev's modular branching rule for symmetric groups in characteristic $2$. At level $2$, we give explicit bracketing rules which make grounded partitions into affine crystal graphs of highest weights $2\\Lambda_0$, $\\Lambda_0+\\Lambda_1$, and $2\\Lambda_1$. We prove this by constructing explicit graph isomorphisms with the asymptotic model of Ariki and Mathas, whose vertices are Kleshchev multipartitions arising from Ariki-Koike algebras. Finally, we erase the $0$-arrows, which leaves the crystal graphs of the restrictions to the Levi subalgebra, and decompose them into finite strings. This decomposition gives new $q$-series identities at levels $1$ and $2$.",
+"authors": [
+"Benedek Dombos",
+"Jihyeug Jang"
+],
+"categories": [
+"math.CO",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.17443",
+"pdf": "https://arxiv.org/pdf/2611.17443",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00461",
+"title": "A Central-Commutator Regge Seed: BCC Sublattices, Face-Matched Hinges, and Quaternionic Spectral Gaps",
+"abstract": "(i) At the arithmetic parameter \\delta = 1/3, the three short face diagonals of the negative-cycle ternary Gram form become mutually orthogonal and generate a simple-cubic sublattice of index two; the full lattice is body-centered cubic. (ii) The positive- and negative-cycle Gram tetrahedra admit matching hinge faces. A four-tetrahedron Regge star consisting of one negative-cycle tetrahedron and three positive-cycle tetrahedra has an exactly computable positive deficit angle. (iii) A figure-eight graph with quaternionic cycle holonomies i and j has a nonzero spectral gap; its characteristic polynomial is computed exactly and its smallest eigenvalue is isolated by rational bounds. (iv) The commutator [i, j] = -1 identifies the graph's central Z_2 obstruction with the negative signed-cycle class of the Gram construction. The statements are finite-dimensional results about lattices, piecewise-Euclidean complexes, and unitary graph connections. They do not construct a closed shell, a Lorentzian spacetime, or a solution of the Einstein-matter equations; they do not prove the dominant energy condition or dynamical stability. The term \"negative-cycle\" refers only to a sign invariant and has no implication of negative physical energy.",
+"authors": [
+"Changxia Lin"
+],
+"categories": [
+"math.NT",
+"math.SP"
+],
+"link": "https://hexagonmath.org/abs/2611.00461v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00461v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00476",
+"title": "A certified upper bound for the beat the average game",
+"abstract": "Let $C$ be the supremum of $\\mathbb{P}[X_1+X_2+X_3<2X_4]$ over all probability measures on $[0,\\infty)$, where $X_1,\\dots,X_4$ are independent with the given law. Determining $C$ is Problem 6.39, the beat the average game, in the list of Georgiev, Gómez-Serrano, Tao and Wagner. Bellec and Fritz proved $0.4006953\\le C\\le 673/1615$ and conjectured that the lower bound, $0.4006953723\\ldots$, is the exact value. We prove $C\\le0.40069634$, less than $10^{-6}$ above the conjectured value. The proof applies Razborov's flag algebra method to samples of nine points. Since the points are independent, the positivity constraints of flag algebras hold for every single measure, so that no limit objects are needed. An exact certificate is checked in rational arithmetic, and the bound is also proved in the Lean 4 proof assistant, with Lean's kernel checking the certificate.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.PR",
+"math.OC",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00476v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00476v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00489",
+"title": "A Counterexample to the Realizability Conjecture for Surface Classes",
+"abstract": "We give a counterexample to Huang–Huh–Michałek–Wang–Wang’s conjecture on the real realizability of universally pseudoeffective surface classes.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00489v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00489v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17844",
+"title": "A Helly theorem for the Bruhat-Tits building",
+"abstract": "Let $K$ be a discretely valued field with valuation ring $\\mathcal{O}$. We show that a finite family of $\\mathcal{O}$-lattices in $K^m$ is adapted to a common basis if any subfamily of at most $m+1$ $\\mathcal{O}$-lattices is. In other words, in the Bruhat-Tits building of $\\operatorname{GL}(m)$, a finite family of simplices lies in a common apartment if and only if any subfamily of at most $m+1$ simplices does. The proof uses a version of Radon's theorem for $\\mathcal{O}$-lattices. We also give an alternative proof using truncated modules.",
+"authors": [
+"Rudrendra Kashyap",
+"Kiumars Kaveh",
+"Christopher Manon",
+"Boris Tsvelikhovskiy"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://arxiv.org/abs/2611.17844",
+"pdf": "https://arxiv.org/pdf/2611.17844",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00475",
+"title": "A lower bound for Moser's worm problem with rotations and translations",
+"abstract": "In its convex form, Moser's worm problem asks for the least area of a convex set in the plane that contains a copy of every arc of length $1$. For the version in which the copies may be rotated and translated but not reflected, we prove that this least area $M^{+}$ satisfies $M^{+}\\ge0.2414$; the best bound before, $0.239$, follows from Keller's bound for the version with reflections. The proof bounds the area of the convex hull of copies of five polygonal arcs, among them two zigzags that turn in opposite directions, so that without reflections the hull must contain a zigzag turning each way. A branch and bound over the placements of the arcs, with second-order Taylor bounds for signed areas of polygons, produces a certificate, which is checked in ball arithmetic and in the Lean proof assistant.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.MG",
+"cs.CG",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00475v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00475v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00483",
+"title": "A lower bound for the Bohr radius of the bidisc",
+"abstract": "We prove that the Bohr radius $K_2$ of the bidisc, whose exact value is unknown, satisfies $K_2>0.301665$, improving Patel's bound $K_2>0.30158758$. As in his argument, we pass to functions with positive real part and value $1$ at the origin; we bound the sum of the moduli of their coefficients of degree $n$ by $2S_n$ instead of $2\\sqrt n$, where $S_n$ is the Sidon constant of $\\{0,1,\\dots,n\\}$, and we bound $S_5$, $S_6$ and $S_7$ with computer-assisted certificates. In Lean 4 we also prove $K_2\\ge0.301665$, assuming Patel's inequality coupling the coefficients of degrees two and three.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.CV",
+"math.FA",
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.00483v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00483v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00478",
+"title": "A lower bound for the essential minimum of the Zhang–Zagier height",
+"abstract": "For an algebraic number $\\alpha$ let $h(\\alpha)$ be its absolute logarithmic Weil height, and let $h_Z(\\alpha)=h(\\alpha)+h(1-\\alpha)$. The essential minimum of $h_Z$ is the supremum of the numbers $H$ for which only finitely many algebraic numbers satisfy $h_Z(\\alpha)\\le H$. Zagier showed that it is at least $\\frac12\\log\\frac{1+\\sqrt5}{2}=0.2406059\\ldots$, and the best lower bound so far is $0.24874$, due to Flammang. We prove that the essential minimum is at least $0.24982933$. The proof combines Smyth's method of auxiliary functions, here with five integer polynomials in $z(1-z)$, with a logarithmic energy term relative to a measure on the circles $|z|=1$ and $|1-z|=1$. Resultants and discriminants of minimal polynomials are nonzero integers. They bound the polynomial terms and the energy term, and a condition on the degrees absorbs the leading coefficients, so the argument applies to all algebraic numbers. A superharmonicity argument reduces the positivity of the auxiliary function to the unit circle, where two separately written programs verify it in ball arithmetic for a certificate with exact rational data. We also prove this lower bound in Lean.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.NT",
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.00478v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00478v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00480",
+"title": "A lower bound for the smallest limit point of the absolute Mahler measure of totally positive algebraic integers",
+"abstract": "Let $\\ell_+$ be the smallest limit point of the absolute Mahler measures $\\Omega(\\alpha)=M(\\alpha)^{1/\\deg\\alpha}$ of totally positive algebraic integers $\\alpha$. By work of Smyth, $\\ell_+\\le1.7274$, and the best lower bound was Flammang's $\\ell_+\\ge1.722069$. We prove that all but finitely many totally positive algebraic numbers $\\alpha$ satisfy $\\Omega(\\alpha)>1.7234615$, and that $\\ell_+>1.7234615$. We also prove that all but finitely many totally real algebraic numbers $\\beta$ have absolute logarithmic Weil height $\\log\\Omega(\\beta)>0.2721673$. The proof adds to Smyth's method of auxiliary functions the logarithmic energy term that Orloski, Talebizadeh Sardari and Smith derived from the integrality of discriminants for the Schur–Siegel–Smyth trace problem. The resulting inequality is verified rigorously by computer, and the lower bounds are also proved in the Lean proof assistant.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.NT",
+"math.CV",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00480v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00480v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00453",
+"title": "A midpoint locally uniformly rotund Banach space with the Daugavet property",
+"abstract": "We construct a separable Banach space with the Daugavet and Schur properties whose norm is midpoint locally uniformly rotund and G\\^ateaux smooth. The construction combines the ergodic orbit norm of Dantas, Kaasik and Perreau with a Bourgain--Rosenthal enlargement in the form developed by Kadets and Werner.",
+"authors": [
+"Samir Hamad"
+],
+"categories": [
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2611.00453v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00453v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17536",
+"title": "A new tautological relation on $\\overline{\\mathcal{M}}_{2,14}$ in cohomology",
+"abstract": "We construct a relation $\\mathsf{Q}$ in the cohomological tautological ring $\\mathsf{RH}^*(\\overline{\\mathcal{M}}_{2,14})$ which lies outside the space of $3$-spin relations. $\\mathsf{Q}$ is a simple linear combination of pure boundary strata classes of codimension 9 supported on the divisor $\\Delta_0 \\subset \\overline{\\mathcal{M}}_{2,14}$ of irreducible nodal curves, and transforms according to the irreducible representation of $\\Sigma_{14}$ associated to the partition $(2^7)$. The result shows that the set of $3$-spin relations cannot be complete in cohomology. Motivic conjectures relating algebraic cycles to special values of $L$-functions suggest that $\\mathsf{Q}$ is nonzero in Chow. More precisely, we prove that the Chow nonvanishing of $\\mathsf{Q}$ follows from a conjecture of Harder concerning the failure of the Manin--Drinfeld principle in genus 2.\n  We prove that $\\mathsf{Q}$ vanishes in cohomology by pairing with generators of the tautological ring. To prove $\\mathsf{Q}$ is not in the set of $3$-spin relations requires an argument involving the $\\Sigma_{14}$-representation-theoretic properties of the $3$-spin relations and the cohomology of local systems on $\\mathcal{A}_2$ and $\\mathcal{M}_2$. Parallel constructions for other moduli spaces $\\overline{\\mathcal{M}}_{g,n}$ are discussed in the paper. There are many open questions.",
+"authors": [
+"Samir Canning",
+"Bochao Kong",
+"Rahul Pandharipande",
+"Dan Petersen",
+"Aaron Pixton",
+"Johannes Schmitt"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.17536",
+"pdf": "https://arxiv.org/pdf/2611.17536",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00441",
+"title": "A proof of the HLRV conjecture",
+"abstract": "We prove the Hausel–Letellier–Rodriguez-Villegas conjecture on the mixed Hodge polynomials of generic semisimple \\(\\mathrm{GL}_n\\) character varieties.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.AG",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00441v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00441v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18432",
+"title": "A quotient formula for the Behrend function",
+"abstract": "The Behrend function is essential in enumerative geometry. However, computing it, even in zero dimension, has been a highly subtle and mysterious matter since its introduction in the 2000s. We present a quotient formula for the Behrend function of any closed $r$-dimensional affine scheme $X^r \\subset \\mathbb{A}^N$, evaluated at a singular point, where $0\\leq r \\leq N-1$. In particular, if the scheme is monomial, we associate parallelepipeds to it and interpret the Behrend function as simple volume information about them. The results here, in particular, recover the recent results of Graffeo-Ricolfi for the zero-dimensional case in 2D in \\cite{Graffeo-Ricolfi}, and also the more recent result of Polini-Sammartan-Ulrich on the zero-dimensional case in \\cite{PSU26}.",
+"authors": [
+"Fatemeh Rezaee"
+],
+"categories": [
+"math.AG",
+"math.AC",
+"math.CO"
+],
+"link": "https://arxiv.org/abs/2611.18432",
+"pdf": "https://arxiv.org/pdf/2611.18432",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2604.02516",
+"title": "A rational model for the fiberwise THH transfer I: Sullivan algebras",
+"abstract": "Given a map $f$ of fibrations over a space $B$ such that the fiber of $f$ is simply connected and finitely dominated, we prove that its fiberwise THH transfer, considered as a map of parametrized spectra over $B$, is rationally modeled by the Hochschild homology transfer of a Sullivan model of $f$. The proof goes in two steps. Firstly, we use the machinery of higher categorical traces to show that the fiberwise THH transfer can be computed internally to parametrized spectra. Secondly, we model the resulting description rationally using work of Braunack-Mayer, who proved that parametrized spectra can be modeled by modules over Sullivan algebras. In Part II, we will use our result to obtain a rational model of the Becker-Gottlieb transfer, and for applications to manifold topology.",
+"authors": [
+"Florian Naef",
+"Robin Stoll"
+],
+"categories": [
+"math.AT",
+"math.KT",
+"math.RA"
+],
+"link": "https://arxiv.org/abs/2604.02516",
+"pdf": "https://arxiv.org/pdf/2604.02516",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [
+"title: thh",
+"abstract: higher categor"
+],
+"watched_authors": []
+},
+{
+"pid": "2611.17694",
+"title": "Admissible Yang--Baxter equation for Nijenhuis perm superalgebras",
+"abstract": "We develop a superization of the theory of admissible Yang--Baxter equations for Nijenhuis perm algebras initiated by Ma and Song. We introduce Nijenhuis perm superalgebras, their representations, and the dual representation, with Koszul signs chosen so that the contraction of the Yang--Baxter tensor matches the $\\mathcal O$-operator equation exactly. We define Nijenhuis perm superbialgebras and characterise them by matched pairs. In the coboundary case, we show that every even supersymmetric solution of the $S$-admissible perm Yang--Baxter equation gives rise to a Nijenhuis perm superbialgebra, and we give sufficient conditions for a perm superalgebra to admit a Nijenhuis operator constructed from such a solution. Examples with purely odd components illustrate the role of the grading.",
+"authors": [
+"Imed Basdouri",
+"Bouzid Mosbahi",
+"Yuanyuan Zhang"
+],
+"categories": [
+"math.RA",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.17694",
+"pdf": "https://arxiv.org/pdf/2611.17694",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00434",
+"title": "Aigner's Three Monotonicities from Fibonacci Matrices and Six Snake Pieces",
+"abstract": "Starting from the established fact that Markov numbers count perfect matchings of their Markov snake graphs, we give a self-contained proof of the fixed-sum, fixed-numerator, and fixed-denominator orderings proposed by Aigner. The author's Fibonacci-matrix normalization begins with $(AC)_{11}-(B^2)_{11}=2$ for consecutive odd-indexed Fibonacci blocks. Fibonacci matrices prove normalization and fixed-numerator monotonicity. The author's six-piece decomposition proves the remaining fixed-sum comparison and fixed-denominator monotonicity. We credit the matching correspondence to its original 2002–2003 REACH development and distinguish that history from the later ordering theorems.",
+"authors": [
+"Elleard Felix Webster Heffern"
+],
+"categories": [
+"math.NT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00434v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00434v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00462",
+"title": "Algebraically independent counterexamples with rational-power separation",
+"abstract": "Starting from Apicella’s private-prime construction, we give a proof draft of divergent reciprocal-logarithmic-weight examples that are algebraically independent, admit any prescribed positive integer-anchor error and have growing mixed-power gaps for rational dilations with bounded denominators. The integer numerator remains unrestricted. We record transcendence and field consequences and retain an elementary reconstruction of Apicella’s rational example in an appendix, with its prior-work attribution explicit.",
+"authors": [
+"Sunay Venkat"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00462v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00462v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00439",
+"title": "An edge comparison with constant 3/2 and the coefficient 6/sqrt(2 pi) for the average sensitivity of polynomial threshold functions",
+"abstract": "For every real polynomial threshold function f of degree at most d on the uniform cube {-1,1}^n we prove AS(f) <= min{n, 6 d b_n (n+d)/(n+2d)} <= (6/sqrt(2 pi)) d sqrt(n) < 2.394 d sqrt(n), where b_n = E|B_n - n/2| for B_n ~ Bin(n,1/2). The previous coefficient was 8/sqrt(2 pi) = 3.1915... The new ingredient is an edge comparison with constant 3/2 in place of 2 in OpenAI's weighted-grading argument: for every positive weight and every sign function h, the number of ordered equal-sign edges of h is at most (3/2)||MH+HM||_HS^2. The proof rests on the exact identity (Z_i M Z_i - M)^2 = I - A_i^2, where A_i is the grade-diagonal part of the multiplication by x_i. Combined with OpenAI's original coupling estimate alone, the lemma already gives AS(f) <= 6 d sqrt(n).",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"cs.CC",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00439v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00439v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2609.17519",
+"title": "An Equivariant Landweber Exact Functor Theorem for Abelian Compact Lie Groups",
+"abstract": "We prove an equivariant Landweber exact functor theorem for abelian compact Lie groups $G$. For a graded module $N$ over the $G$-equivariant Lazard ring $L_G$, we give necessary and sufficient algebraic conditions on $N$ for the functor\n  \\[\n  X\\longmapsto (MU_G)_*(X)\\otimes_{L_G} N\n  \\]\n  to define a homology theory on the category $\\mathrm{Sp}^G$ of genuine $G$-spectra. Our criterion is obtained by varifying the Landweber exactness on each stratum indexed by a closed subgroup of $G$ and then gluing the local flatness data via Euler classes. As an application, we show that for any non-equivariant Landweber exact ring spectrum $E$, $MU_G\\wedge_{MU} E$ is equivariantly Landweber exact, thereby proving a conjecture of Wisdom. Finally, we study the $G$-equivariant formal groups $\\widehat E_G$ over $\\hom(G^*,E)$ associated to elliptic curves $E/S$. We prove that its classifying map $\\hom(G^*,E)\\to\\mathcal M_{\\mathrm{FG}}^G$ is flat whenever $S\\to\\mathcal M_{\\mathrm{ell}}$ is flat, and recover $\\widehat E_G$ from Gepner-Meier's equivariant elliptic cohomology associated to any oriented spectral lifting of $E/S$.",
+"authors": [
+"Yingxin Li"
+],
+"categories": [
+"math.AT"
+],
+"link": "https://arxiv.org/abs/2609.17519",
+"pdf": "https://arxiv.org/pdf/2609.17519",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [
+"title: equivariant",
+"abstract: ring spectr",
+"abstract: genuine g-spectr",
+"abstract: g-spectr"
+],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00470",
+"title": "An explicit bound below 2/π for the maximum term of an entire function",
+"abstract": "For a transcendental entire function $f$ let $\\mu(r)$ be its maximum term and $M(r)$ its maximum modulus on $|z|=r$. Erdős asked for the largest possible value $B$ of $\\liminf_{r\\to\\infty}\\mu(r)/M(r)$. An argument of Clunie gives $B\\le 2/\\pi=0.636619\\ldots$, and Clunie and Hayman proved $B\\le 2/\\pi-c$ for an absolute constant $c>0$ that they did not compute. We prove $B\\le0.63005$. We make the stability argument of Clunie and Hayman quantitative by testing $f$ against trigonometric polynomials at one or both of two consecutive radii where the central index jumps. The proof is computer-assisted, and the theorem is also proved in the Lean proof assistant.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.CV",
+"math.CA",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00470v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00470v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00433",
+"title": "An explicit determinantal formula for Sinkhorn limits of matrices and tensors",
+"abstract": "We give an explicit formula, as a single determinant, for the polynomial satisfied by any entry of the limit obtained by scaling a positive tensor of format $n_1\\times\\dots\\times n_r$ to arbitrary prescribed one-dimensional margins (Sinkhorn--Knopp scaling, Kruithof's method, iterative proportional fitting). The polynomial is the multilinear resultant, on the Segre variety $\\PP^{n_1-1}\\times\\dots\\times\\PP^{n_r-1}$, of the linear forms expressing the margin conditions. Its degree is the multinomial coefficient $N=\\binom{d}{n_1-1,\\dots,n_r-1}$ with $d=\\sum_k(n_k-1)$, and for generic tensors its roots are the corresponding entries of all complex solutions of the scaling equations. A Sylvester matrix turns it into an explicit $N\\times N$ generalized eigenvalue problem, whose null vector recovers the whole limit. The leading coefficient is the principal $A$-determinant of the product of simplices, that is, the product of the hyperdeterminants of all faces of the tensor. The constant term is likewise a product of face hyperdeterminants, and the faces avoiding the chosen entry split off as a factor independent of that entry. For matrices we also give a short proof, in Pl\\\"ucker coordinates, of a diagonal form of the eliminant. For every positive tensor, the limit is the unique root for which the Sylvester matrix has a positive null vector of monomials. Generically, the other roots are the corner entries of the solutions of the same scaling equations with complex scaling factors.",
+"authors": [
+"Shankar Sivarajan"
+],
+"categories": [
+"math.AG",
+"math.AC",
+"math.OC",
+"math.ST"
+],
+"link": "https://hexagonmath.org/abs/2611.00433v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00433v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00488",
+"title": "An Irredundant Test for Circular Positivity",
+"abstract": "We give an inclusion-minimal circular-minor positivity test on five boundary vertices that is not weakly separated. This refutes the inclusion-minimal version of Conjecture 6.3.4 of Alman, Lian and Tran.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00488v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00488v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00494",
+"title": "An unconditional estimate and the structure of the Bäcklund orbit",
+"abstract": "Let $f$ be an arbitrary $C^\\infty$ solution of the sine-Gordon equation $f_{xy}=\\sin f$ in the square $W=[-L,L]^2$, and let $\\omega_n$ be obtained by $n$ successive B\\\"acklund transformations with arbitrary real parameters $a_1,\\dots,a_n>0$ and arbitrary normalization constants $c_j$. For a solution $\\omega$ let $r(\\omega)$ be the associated smooth map of a surface of curvature $K=-1$ (Chebyshev net, common initial frame at the origin). We prove the unconditional estimate $\\|r(\\omega_n)-r((-1)^n f)\\|_{L^\\infty(W)}\\le K_n\\sum_{j=1}^n 1/a_j$, $K_n=3L^2+(1+L)\\pi(2T_*+\\pi)3^{n-1}$, $T_*=\\sup_{|x|\\le L}\\int_{-L}^{L}|f_y|\\,dy$, with no restrictions on the $a_j$, their ratios, the $c_j$, or $L$. The proof reduces the problem to a cascade of forced pendulum equations, controlled by an integral Lyapunov estimate and by cumulative estimates for the orthogonal Gauss-Weingarten propagator. For the Amsler seed $f=Y(xy)$ we show $T_*\\le 2L^2$, which gives an explicit constant; the order $1/a$ is sharp. We also study the dependence on the data: smoothness along finite-dimensional families, continuity on the Fr\\'echet data space, convergence of the immersions in $C^0$ and $W^{1,p}$ although the solutions $\\omega_n$ themselves need not converge, partial limits along arbitrary index sets for $a_j\\to\\infty$ and for $a_j\\to0$, and a two-chamber structure of the orbit under B\\\"acklund chains.",
+"authors": [
+"Anton Kalmykov",
+"Alexander Timmermans"
+],
+"categories": [
+"math.DG",
+"math.AG",
+"math.AP",
+"cs.MS"
+],
+"link": "https://hexagonmath.org/abs/2611.00494v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00494v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00474",
+"title": "An upper bound for the connective constant of the square lattice",
+"abstract": "We prove that the connective constant $\\mu$ of the square lattice $\\mathbb{Z}^2$, the exponential growth rate of the number of $n$-step self-avoiding walks, satisfies $\\mu\\le2.6586513$. The previous best upper bound, $\\mu\\le2.662342426$, is due to Couronné. Like the bounds of Pönitz and Tittmann and of Couronné, ours comes from a finite automaton that remembers a bounded part of the past of the walk. The new idea is to count bridges. Since they can all be preceded by the same infinite history, the automaton may treat as visited the unvisited cells that no infinite self-avoiding continuation can reach, and three tests on the current state and the next step recognize such cells. The bound is checked in exact integer arithmetic and proved in the Lean proof assistant.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.CO",
+"math-ph",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00474v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00474v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00481",
+"title": "An upper bound for the smallest limit point of the absolute Mahler measure of totally positive algebraic integers",
+"abstract": "Let $\\ell_+$ be the smallest limit point of the values of the absolute Mahler measure $\\Omega(\\alpha)=M(\\alpha)^{1/\\deg\\alpha}$ on totally positive algebraic integers $\\alpha$. Smyth's work gives $\\ell_+\\le\\ell^2=1.72731\\ldots$, where $\\ell=1.31427\\ldots$ is the limit point that he found for totally real algebraic integers. We prove $\\ell_+\\le1.7239501$, and that infinitely many totally positive algebraic integers satisfy $\\Omega(\\alpha)<1.7239501$. Together with the lower bound $\\ell_+>1.7234615$ of a companion paper, this places $\\ell_+$ in an interval of length less than $4.9\\cdot10^{-4}$. The proof exhibits a measure $\\mu$ on $[0,9]$ with a piecewise linear density on $3{,}481$ rational nodes. Its logarithmic potential is bounded below by a combination of $\\log|Q|$ for $21$ irreducible polynomials $Q$, namely $x$ and polynomials taken from Flammang's work. By a criterion of Smith, $\\mu$, normalized to mass $1$, is a limit of distributions of conjugates of totally positive algebraic integers, and its integral of $\\log^{+} x$ gives the bound. Two separately written programs verify the conditions in ball arithmetic. Both results are also proved in the Lean proof assistant, assuming Smith's theorem and a lower bound for the potential of the arcsine measure, with the checks of the certificate run either as compiled code or by Lean's kernel.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.NT",
+"math.CV",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00481v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00481v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00477",
+"title": "An upper bound of 2√2 for the three-dimensional sofa problem in a snake-shaped corridor",
+"abstract": "The moving sofa problem in a snake-shaped corridor, posed by O'Rourke and by Georgiev, Gómez-Serrano, Tao and Wagner, asks for the largest volume of a connected body that can be moved through a corridor of unit-square cross-section with two turns that are far apart, one in the $x$–$y$ plane and one in the $y$–$z$ plane. The largest reported body has volume at least $1.8558404$, and Tang obtained upper bounds for this problem, the best of which is $3.4083$. We prove by hand that the largest volume is at most $2\\sqrt2$ whenever the straight section between the turns is longer than $2+\\sqrt2$. The main new tool is a sharp bound: two infinite tubes of unit-square cross-section whose axes make an angle $\\theta$ meet in volume at most $1/\\sin\\theta$. With it, Hammersley's argument for the planar moving sofa problem carries over to three dimensions. The same argument gives explicit bounds for shorter straight sections; these and the main bound have also been proved in Lean 4 with Mathlib.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.MG",
+"math.OC",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00477v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00477v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00443",
+"title": "Automorphisms of the modular curves $X_\\Delta(N)$",
+"abstract": "We show that every automorphism of a modular curve $X_\\Delta(N)$ of genus at least $2$, where $\\Gamma_1(N)\\subseteq \\Gamma_\\Delta(N)\\subseteq \\Gamma_0(N)$, is induced by the normalizer of $\\Gamma_\\Delta(N)$ in $\\mathrm{PSL}_2(\\mathbb{R})$, except for five curves, namely $X_0(37)$, $X_0(63)$, $X_0(108)$, a curve of level $37$ found by Jeon, Kim and Schweizer, and a curve of level $63$ whose non-modular automorphisms had, to our knowledge, not been noticed before. In particular every automorphism of $X_1(N)$ normalizes the group of diamond operators, as claimed for square-free $N$ in an unpublished preprint of Momose. The proof combines a twisted Hecke relation, which comes from the Galois action on the Tate module of the Jacobian, with a uniform bound for the dimension of the CM part of the Jacobian and with computations for finitely many levels.",
+"authors": [
+"Filip Najman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00443v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00443v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00458",
+"title": "Axiomatic Foundations of Astrophysical Systems: Model-Independent Obstructions Between Equations of State, Observables, and Field Equations",
+"abstract": "Continuing the axiomatic program for astrophysics initiated in previous works, we introduce a gravity-model-independent and scale-independent definition of an \\emph{astrophysical system} and of \\emph{clusters of astrophysical systems} over arbitrary piecewise smooth spatial manifolds. A cluster is modeled as a subspace of piecewise differentiable sections of matter and gravitational bundles (modulo coincidence on dense open sets), endowed with macroscopic observable functionals and coupled through a parametric field operator $\\mathcal{D}_{\\mathrm{grav}}$ encompassing Newtonian gravity, General Relativity, and modified gravity theories ($f(R)$, Rastall, scalar-tensor, and MOND-type models). Restricting local equations of state to bounded extended-norm balls (which form affine Banach spaces on fixed partitions) and applying Implicit Function Theorems in locally convex spaces, we prove four universal obstruction theorems: (i) a direct multi-observable obstruction theorem; (ii) a gravity-coupled structural obstruction theorem via locally density-solvable field equations and reference evaluation operators; (iii) a causal lifting theorem for general acoustic cones; and (iv) an \\emph{inverse obstruction theorem}, showing that combining causality-constrained equations of state with empirical observable relations induces \\emph{a priori} bounds on the parameter space of the gravitational theory. We also prove that finite-dimensional gravity-coupled clusters are closed and nowhere dense in any Hausdorff locally convex topology, and apply our results to compact stars in Rastall and perturbative $f(R)$ gravity, Bowers--Liang anisotropic stars, and galaxies obeying the Baryonic Tully--Fisher Relation.",
+"authors": [
+"Yuri Ximenes Lecca"
+],
+"categories": [
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00458v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00458v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00484",
+"title": "Bounds for the sign uncertainty constant in dimension one",
+"abstract": "Bourgain, Clozel and Kahane proved that a nonzero even real function $f$ on $\\mathbb{R}$ with $f$ and $\\widehat{f}$ integrable, $f(0)\\le0$ and $\\widehat{f}(0)\\le0$ cannot have $f$ and $\\widehat{f}$ both nonnegative outside an arbitrarily small neighborhood of the origin. The sharp constant in this sign uncertainty principle is $A_+(1)$, the infimum of $\\sqrt{A(f)A(\\widehat{f})}$ over all such $f$, where $A(f)$ is the radius beyond which $f$ is nonnegative; its square is the constant of Problem 6.11 in the list of Georgiev, Gómez-Serrano, Tao and Wagner. We prove $0.5502<A_+(1)\\le0.5509$, improving the previous bounds $0.45\\le A_+(1)\\le\\sqrt{0.3089}$; in particular $A_+(1)<0.555$, as conjectured by Gonçalves, Oliveira e Silva and Ramos. The lower bound comes from a weight in the spirit of the summation formulas of Cohn and Gonçalves, built from Gaussians and cosines and corrected near the origin by an approximate solution of a Fredholm integral equation, and the upper bound from an explicit self-dual combination of Gaussians. The numerical inequalities in both proofs are verified in ball arithmetic, and the bounds $0.5502\\le A_+(1)\\le0.5509$ also have formal proofs in Lean 4.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.CA",
+"math.FA",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00484v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00484v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00482",
+"title": "Bounds for the smallest limit point of the areal Mahler measure of totally positive algebraic integers",
+"abstract": "Pritsker's areal analog $\\|P\\|_0$ of the Mahler measure replaces the integral of $\\log|P|$ over the unit circle by its integral over the unit disc with respect to normalized area. For an algebraic number $\\alpha$ of degree $n$ with minimal polynomial $P\\in\\mathbb{Z}[x]$, taken primitive with positive leading coefficient, let $N_0(\\alpha)=\\|P\\|_0^{1/n}$. Flammang proved that $N_0(\\alpha)\\ge1.380047$ for every totally positive algebraic integer $\\alpha$ outside an explicit finite set. We prove that the smallest limit point of the values of $N_0$ on totally positive algebraic integers and their essential minimum lie between $1.3830134$ and $1.3839579$. The lower bound improves on Flammang's constant: it holds for all but finitely many totally positive algebraic numbers, not only integers, although the exceptions are not determined. Infinitely many totally positive algebraic integers satisfy $N_0(\\alpha)<1.3839579$. The lower bound comes from an auxiliary function with a logarithmic energy term, and the upper bound from an explicit measure that, by a criterion and a theorem of Smith, is a limit of distributions of conjugates of totally positive algebraic integers. The inequalities behind both bounds are verified in ball arithmetic, and both bounds are also proved in Lean, the upper one assuming Smith's theorem.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.NT",
+"math.CV",
+"math.NA",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00482v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00482v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00479",
+"title": "Bounds for the weak type (1,1) constant of the centred maximal operator over squares",
+"abstract": "Let $c_2$ be the best constant in the weak type $(1,1)$ inequality for the centred Hardy–Littlewood maximal operator over axis-parallel squares in the plane. We prove $1.7027237335\\le c_2\\le3.59123$, improving the bounds $1.6855\\ldots\\le c_2<3.615749$ obtained by Lin. The upper bound comes from a new kernel in Lin's comparison principle, which bounds $c_2$ by half the integral of a suitable kernel; closed forms for the fractional operator in this principle make its conditions checkable. The lower bound comes from a periodic measure obtained by modifying Lin's lattice of point masses. Both proofs are computer-assisted and formally verified in Lean.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.CA",
+"math.AP",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00479v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00479v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00467",
+"title": "Certified upper bounds for the Chvátal–Sankoff constant",
+"abstract": "Let $\\gamma_2$ be the Chvátal–Sankoff constant, so that the expected length of a longest common subsequence of two independent uniformly random binary strings of length $n$ is $\\gamma_2n+o(n)$. Lueker proved $\\gamma_2\\le0.826280$ with a finite automaton that reads a pair of strings as a sequence of minimal match pairs and remembers the last $h$ symbols of each string, for $h=8$. We carry out his method up to $h=13$ and prove $\\gamma_2\\le0.821963$. For $h=13$ the certificate lists $165{,}695{,}219{,}469$ states of the automaton, reduced by a symmetry. The bound rests on an explicit positive vector for the weighted transition matrix of the automaton; a checker rebuilds every transition with its own code and verifies the required inequalities in exact integer arithmetic. We also give a complete proof that the automaton accepts the truncated canonical decomposition of every pair of strings, the property on which the method depends. The bound $\\gamma_2\\le0.821963$ is also proved in the Lean 4 proof assistant, with a computation evaluated by compiled code, and the bounds $\\gamma_2\\le0.825101$, $\\gamma_2\\le0.824120$, $\\gamma_2\\le0.823290$ and $\\gamma_2\\le0.822579$ for $h=9$, $10$, $11$ and $12$ by formal proofs that are checked entirely by the Lean kernel.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.PR",
+"math.CO",
+"cs.FL",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00467v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00467v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00469",
+"title": "Certified upper bounds for two sum-difference exponents",
+"abstract": "For finite sets $A,B$ of real numbers and $G\\subseteq A\\times B$, Katz and Tao proved in 1999 that $\\{a-b:(a,b)\\in G\\}$ has at most $N^{11/6}$ elements whenever $A$, $B$ and $\\{a+b:(a,b)\\in G\\}$ have at most $N$ elements; by an argument of Bourgain, bounds of this kind give lower bounds for the dimension of Kakeya sets. We lower the exponent $11/6$ to $1.8273$, and to $1.8295$ in every abelian group. We also prove $|X-Y|\\le|X+Y|^{1.4209}$ for all finite sets $X,Y$ of integers, improving the exponent $1.4543$ of Kleinwaks; through his transfer theorem, this lowers the upper bound for the sum-difference constant of Gyarmati, Hennecart and Ruzsa from $1.3124$ to $1.2962$. Both proofs add up entropy inequalities among integer combinations of coordinates of several copies of a random pair, with rational weights found by linear programming; all four bounds are also proved in Lean 4.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.CO",
+"math.NT",
+"cs.IT"
+],
+"link": "https://hexagonmath.org/abs/2611.00469v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00469v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17901",
+"title": "Chow Stability of Polarized K3 Surfaces with ADE singularities",
+"abstract": "The asymptotic Chow stability of smooth polarized K3 surfaces is known through the existence of Ricci-flat metrics and Donaldson's theorem. We give a purely algebraic proof and extend the result to polarized K3 surfaces with at worst ADE singularities. The proof gives a uniform effective bound for the exponent, depending only on the degree of the polarization. Following the approach of Mumford and Morrison, we establish quantitative estimates for linear systems and their contributions to Chow weights, without restrictions on the Picard number.",
+"authors": [
+"Zhiyuan Li"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.17901",
+"pdf": "https://arxiv.org/pdf/2611.17901",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17812",
+"title": "Closed formulas for the permanents of structured matrices",
+"abstract": "We give finite formulas for permanents of structured matrices and prove polynomial bounds for their evaluation. Over any field, the permanent of a matrix of bounded rank-width can be computed from the matrix alone, answering a question of Lyaudet. In characteristic $p>0$, the bound is $p^{O(k)}n^{O(1)}$, where $k$ is the rank-width. In characteristic zero, a determinant formula treats Cauchy matrices with an added polynomial of fixed degrees in the row and column nodes. This includes polynomial perturbations of Hilbert matrices and dense Toeplitz and Hankel families. For ordered cuts we give a single determinant; in positive characteristic, rational diagonal sequences give a fixed rational generating function for the Toeplitz permanents. We also give formulas for cycle weights and hook immanants. For translation matrices we obtain signed determinant formulas and classify the supports for which the permanent is the coefficientwise absolute value of the determinant. Further formulas cover cyclic block matrices, residue supports, and bands bounded on one side.",
+"authors": [
+"M. Fazeel Anwar"
+],
+"categories": [
+"math.CO",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.17812",
+"pdf": "https://arxiv.org/pdf/2611.17812",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00455",
+"title": "Colossally Abundant Numbers and Nicolas' Second Criterion",
+"abstract": "Robin's criterion states that the Riemann Hypothesis holds if and only if $\\sigma(n) < e^{\\gamma} n \\log\\log n$ for every $n > 5040$. Nicolas' second criterion, in the form given by Broughan, states that it holds if and only if $n/\\varphi(n) < e^{\\gamma} \\log\\log n + e^{\\gamma}(2 + \\tau)/\\sqrt{\\log n}$ for every $n \\geq N_{120569}$, where $N_{k}$ is the $k$-th primorial and $\\tau = 2 + \\gamma - \\log(4\\pi)$; for $N_{k}$ this inequality reads $c(p_{k}) < E(p_{k})$. Let $N$ be a colossally abundant number, let $q = p_{k}$ be the largest prime not exceeding the number $\\xi(N)$ associated with $N$ by Nicolas, and write $\\Delta(N) = \\log(\\sigma(N)/N) - \\gamma - \\log\\log\\log N$. For $\\log q \\geq 31$ we prove unconditionally that $1.317/(\\sqrt{q}\\log^{2} q) \\leq \\Delta(N) - c(q) + E(q) + (2\\sqrt{2} - 2 - \\tau)/(\\sqrt{q}\\log q) \\leq 3.973/(\\sqrt{q}\\log^{2} q)$. Consequently, the second inequality for $N_{k}$ implies $\\Delta(N) < -0.654/(\\sqrt{q}\\log q)$. We also prove that the primorials are the extremal cases of the second inequality, and that if it holds for every $N_{k}$ with $e^{31} \\leq p_{k} \\leq X$, then Robin's inequality holds for every $n > 5040$ with $\\log n \\leq X(1 - \\log^{-3} X) - \\log X$. A computation over the primes up to $X = 100{,}000{,}008{,}765{,}439$ verifies this hypothesis, so Robin's inequality holds unconditionally for $5040 < n \\leq 10^{10^{13.6377}}$. To the author's knowledge, this is the largest range for which Robin's inequality has been verified: it extends the range $5040 < n \\leq 10^{10^{13.11485}}$ of Morrill and Platt.",
+"authors": [
+"Frank Vega"
+],
+"categories": [
+"math.NT",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00455v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00455v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00485",
+"title": "Complex central configurations of the planar five-body problem at special masses",
+"abstract": "We study the complex solution sets of the polynomial system for planar central configurations of five bodies, modulo rotations, at the masses $(1,4,4,4,4)$, $(1,1,4,4,4)$ and $(9,36,36,36,4)$, where the proof of finiteness for all positive masses in a companion paper counts the real central configurations. At $(1,4,4,4,4)$ the solution set is the union of $36$ explicit, pairwise disjoint irreducible curves and a finite set; the curves contain the modified Roberts continuum of Albouy and Kaloshin, up to relabelling the bodies, but none of their points is a positive central configuration. At $(1,1,4,4,4)$ the solution set is finite, and at $(9,36,36,36,4)$ the potential, which is positive at every central configuration, vanishes identically on every curve in the solution set, so these curves contain no positive central configuration. Finiteness at these masses, their positive multiples and their permutations therefore follows without a count. We also show that at positive masses two of the limit diagrams of Albouy and Kaloshin occur only for masses on finitely many explicit curves in the projective space of masses.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.DS",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00485v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00485v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00452",
+"title": "Constructions and explicit power savings for point--unit-circle incidences",
+"abstract": "Let $\\mathcal U(n,m)$ be the maximum number of incidences between $n$ distinct points and $m$ distinct unit circles in the plane. We give two constructions and an explicit upper bound for this function. Writing $s=\\min(n,m)$ and $M=\\max(n,m)$, the first construction gives a four-piece monomial lower bound for all cardinalities, with balanced exponent $1.041169920$. The second gives balanced configurations along an unbounded sequence with exponent $1.0431722305539701$, and further unbalanced configurations. The upper bound is $\\mathcal U(n,m)\\ll M+s^{2/3-2\\delta}M^{2/3+\\delta}$, where $\\delta=2^{-2^{664}}/514560000000>2^{-2^{665}}$. The constructions use two windows in a relative-norm-one number-field lattice, strengthened arithmetic estimates, and interpolation between local profiles. The upper bound uses finite incidence regularization, prediction, arithmetic heights, and a six-by-five rigidity obstruction. The resulting bounds for the unit-distance problem follow as corollaries.",
+"authors": [
+"Yuda Chen",
+"Yifei Wang"
+],
+"categories": [
+"math.CO",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00452v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00452v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17683",
+"title": "delta-Derivations of Finite-Dimensional Simple Lie Algebras with Values in Arbitrary Modules",
+"abstract": "We determine the spaces of \\(\\delta\\)-derivations of finite-dimensional complex simple Lie algebras with values in arbitrary modules for \\(\\delta\\ne0,1\\). In rank at least two, these derivations vanish unless \\(\\delta=\\frac{1}{2}\\), in which case they are precisely the module homomorphisms from the adjoint module. For \\(\\mathfrak{sl}_2\\), we characterize the derivation spaces in terms of Casimir eigenspaces and determine when they are nonzero. When the coefficient module is simple, every nonzero derivation module is simple except possibly at \\(\\delta=2\\), where it has a simple essential socle with a finite-dimensional semisimple quotient. We describe these modules via translation functors and give explicit formulas for the derivations.",
+"authors": [
+"Lulu Jiang",
+"Dong Liu",
+"Yufeng Pei"
+],
+"categories": [
+"math.RA",
+"math-ph",
+"math.MP",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.17683",
+"pdf": "https://arxiv.org/pdf/2611.17683",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00490",
+"title": "Density-One Uniqueness for Markoff–Hurwitz Solutions",
+"abstract": "For each fixed integer $n\\ge4$, we prove that almost every positive integer solution of $\\sum_{i=1}^n x_i^2=n\\prod_{i=1}^n x_i$ is determined up to permutation by its largest coordinate. The density is taken over sorted solutions with largest coordinate at most $R$, as $R\\to\\infty$.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00490v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00490v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17399",
+"title": "Depth-0 supercuspidal L-packets of tame covers",
+"abstract": "We generalize DeBacker and Reeder's construction (or rather, its refinement by Kaletha) of depth-0 supercuspidal L-packets to tame covers of unramified reductive groups defined by \\'etale levels. These include, in particular, all tame covers associated to Brylinski-Deligne data. We prove that our L-packets satisfy invariance of formal degrees and an appropriate notion of stability.",
+"authors": [
+"Nhat Hoang Le",
+"Yifei Zhao"
+],
+"categories": [
+"math.RT",
+"math.NT"
+],
+"link": "https://arxiv.org/abs/2611.17399",
+"pdf": "https://arxiv.org/pdf/2611.17399",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2602.05834",
+"title": "Descent properties for an abelian variety with extended Galois representation",
+"abstract": "Let $K$ be a field, $L$ a finite Galois extension of $K$, and $X$ an abelian variety defined over $L$. If $X$ is isogenous over $L$ to an abelian variety defined over $K$, then the $\\ell$-adic Galois representations associated to $X$ extend to representations $\\bar{\\rho}_{\\ell,X}:\\mathrm{Gal}(\\bar{L}/K)\\to\\mathrm{Aut}(V_\\ell X)$ for every prime $\\ell$. This paper aims to show that the converse is true for abelian varieties of Type I, with some supplementary conditions needed on the endomorphisms of $X$, when $L$ is either a number field or a function field of prime characteristic different from $2$.",
+"authors": [
+"Ludovic Felder"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2602.05834",
+"pdf": "https://arxiv.org/pdf/2602.05834",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18049",
+"title": "Dualizing involutions on Kazhdan-Patterson covers of $\\mathrm{GL}(r)$",
+"abstract": "Let $F$ be a non-Archimedean local field of characteristic zero and $G=\\mathrm{GL}(r,F).$ Let $r,n \\geq 2$ and $\\widetilde{G}$ be an $n$-fold Kazhdan-Patterson cover of $G$. Let $\\pi$ be an irreducible smooth representation of $G$ and $\\pi^{\\vee}$ be the contragredient of $\\pi$. Let $\\tau$ be an involutive anti-automorphism of $G$ satisfying $\\pi^{\\tau}\\simeq \\pi^{\\vee}$. In this case, we say that $\\tau$ is a dualizing or duality involution. When $r=2$, it is known that any lift of the standard involution on $G$ to $\\widetilde{G}$ is a dualizing involution if and only if $n=2$. In this paper, we study the dualizing property of the lifts of the standard involution on $G$ to $\\widetilde{G}$ and prove the following: (i) When $r \\geq 2$ and $n \\geq 3$, we show that any lift of the standard involution to $\\widetilde{G}$ is never a dualizing involution. (ii) When $r=2t$ and $n=2$, we show that any lift of the standard involution to $\\widetilde{G}$ is a dualizing involution. (iii) When $r=2t+1$ and $n=2$, we show that there is a unique lift of the standard involution to $\\widetilde{G}$ which is a dualizing involution.",
+"authors": [
+"Ila Ahmad",
+"Kumar Balasubramanian",
+"Sanjeev Kumar Pandey",
+"Ekta Tiwari",
+"Varsha Vasudevan"
+],
+"categories": [
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.18049",
+"pdf": "https://arxiv.org/pdf/2611.18049",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2608.15444",
+"title": "Eigenvalues of locally positive semidefinite matrices: Non-convexity and Geometry",
+"abstract": "A real symmetric matrix is called $d$-locally positive semidefinite if all of its $d \\times d$ principal submatrices are positive semidefinite. We investigate the spectral geometry of $d$-locally positive semidefinite matrices. The set of vectors of eigenvalues of $d$-locally positive semidefinite matrices of size $n \\times n$ is fully understood and known to be convex when $d \\in \\{1,n-1,n\\}$ \\cite{blekherman2022hyperbolic}. In the smallest remaining case $n=4, d=2$, non-convexity of the set of vectors of eigenvalues was proved in \\cite{kozhasov2023eigenvalues}, but even in this case the full description was unknown. We provide a basic semialgebraic description of the set of vectors of eigenvalues for $n=4, d=2$ by establishing a Fischer-type inequality for $2$-locally positive semidefinite matrices of size $4 \\times 4$. We prove non-convexity for all $n \\geq 4$ and $2 \\leq d \\leq n - 2$. For $d=2$ we prove a natural linear inequality on a linear slice of eigenvalues of locally positive semidefinite matrices which is tight at exactly two points. This gives a stronger proof of non-convexity in this case. For $d \\in \\{2, n - 2\\}$, analyzing this slice involves solving certain non-smooth and non-convex min-max point configuration problems in the complex plane, which could be of independent interest. Similar problems were considered in \\cite{nesterenko2024submatrices,sengupta2026submatrices} in the context of matrix decomposition and approximation.",
+"authors": [
+"Jose Acevedo",
+"Grigoriy Blekherman",
+"Sebastian Debus",
+"Seokbin Lee",
+"Cordian Riener"
+],
+"categories": [
+"math.RA",
+"math.AG",
+"math.OC"
+],
+"link": "https://arxiv.org/abs/2608.15444",
+"pdf": "https://arxiv.org/pdf/2608.15444",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00454",
+"title": "Ekeland–Hofer capacities and convex duality: ordinary and real spectral invariants",
+"abstract": "We identify the rational Ekeland–Hofer capacities of convex bodies with Clarke’s homogeneous dual-action selectors by a direct minimax argument. Convex reduction and a common nonresonant quadratic tail give the cohomological real analogue for bodies invariant under a linear anti-symplectic involution. In the real case, the mod-two index of half-period translation requires linking in the presence of fixed Fourier modes. The real selectors are full actions of generalized brake characteristics and converge to twice the least brake action. Convex approximation includes nonsmooth bodies, and Fourier decomposition computes both sequences on diagonal ellipsoids.",
+"authors": [
+"Zhen Gao"
+],
+"categories": [
+"math.SG"
+],
+"link": "https://hexagonmath.org/abs/2611.00454v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00454v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00438",
+"title": "Electric-field hotspot packing and power channels in dielectric media",
+"abstract": "We study quantified versions of two questions on field concentration and power channels posed by Miller and Monticone in OQ14. At a fixed driving frequency and under a common positive permittivity bound, we construct arbitrarily many simultaneous localized electric-field peaks in a single driven field, both in a two-dimensional invariant setting and in finite three-dimensional dielectrics. We also construct arbitrarily many localized peaks in a single normalized outgoing mode of a finite smooth dielectric, with prescribed real part of the complex resonance frequency and an arbitrarily high quality-factor target. The modal normalization is a reciprocal-residue normalization. Its relation to other possible interpretations of the original modal-volume question requires separate justification. For a specified channel definition, we construct, for every finite $N$, an $N$-dimensional counted input space through the same square section at fixed frequency, material bounds, and thresholds. The construction applies when the permitted absolute-bypass threshold exceeds the required passage threshold and when the selected output is the complete outgoing scattering map, including reflection. Thus the corresponding unrestricted uniform finiteness assertion fails. The result does not decide stricter bypass conditions or receiving-only output formulations. These quantified results do not resolve every interpretation of the original OQ14. The formal verification and its scope are described in the manuscript.",
+"authors": [
+"Daniel Wang"
+],
+"categories": [
+"math.MP",
+"math.AP"
+],
+"link": "https://hexagonmath.org/abs/2611.00438v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00438v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00466",
+"title": "Equality cases and every-copy results for the Werner endpoint inequality",
+"abstract": "Whether every entangled state with a non-positive partial transpose (NPT) can be distilled is open. For the Werner states $\\rho(d,\\alpha)$, a criterion of Costa Rico reduces $k$-copy undistillability to an inequality for matrices of rank at most two: an alternating sum of the squared norms of their partial traces must be nonnegative. At $\\alpha=-1/2$ we call it the endpoint inequality. It is known for two and three copies, and if it held for every $k$ in some dimension $d\\ge3$, NPT bound entanglement would exist. For two copies we show that every equality case has rank two, with its range and that of its adjoint in products of two-dimensional subspaces. We also show that a first failure would produce, at some $\\alpha>-1/2$, an equality case whose range has reduced states of rank at least three on every copy, unlike all known equality cases at $\\alpha=-1/2$. For every $k$ we prove the endpoint inequality on an explicit class of matrices whose ranges generically have such reduced states. For four copies we give a computer-assisted proof of it in every dimension for all matrices $C$ such that the ranges of $C$ and of its adjoint lie in one two-dimensional subspace, as they do for all normal matrices of rank two.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"quant-ph",
+"math-ph",
+"math.FA",
+"math.OC"
+],
+"link": "https://hexagonmath.org/abs/2611.00466v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00466v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18167",
+"title": "Equidistribution of Gross lattices of supersingular elliptic curves",
+"abstract": "For a prime $p$, we consider two important families of integral quadratic lattices associated to isomorphism classes of supersingular elliptic curves over $\\overline{\\mathbb{F}_{p}}$, the lattices of endomorphisms of trace zero, and the Gross lattices of endomorphisms. We prove effective equidistribution of the shapes of these lattices as $p\\to\\infty$ through primes, in the arithmetic locally symmetric space of unimodular lattices up to isometry. As an application, we obtain, as $p\\to\\infty$, the asymptotic distribution of successive minima of these lattices. These results are proved using tools from homogeneous dynamics, in particular, the key dynamical input is a recent adelic equidistribution theorem due to Einsiedler, Margulis, Mohammadi, and Venkatesh.",
+"authors": [
+"Lam L. Pham"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.18167",
+"pdf": "https://arxiv.org/pdf/2611.18167",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.14090",
+"title": "Equivariant Quantisation of Hypertoric Varieties via Symplectic Cuts",
+"abstract": "We study the equivariant geometric quantisation of a non-compact hypertoric orbifold of complex dimension $2n$ by compact symplectic cuts. When the defining arrangement has a non-empty bounded base region and the fixed lift is integral, we prove that, at every positive regular integral level $d$, the space of sections on the cut is the sum of the fibre-rotation weight spaces of weight at most $d$ in the original quantisation. The higher cohomology of the cut pre-quantum line orbibundle vanishes, so its equivariant index is the character of its actual section space. Using the moment polyptychs introduced in a companion paper (arXiv:2610.37724), we give an orbifold Kawasaki-Riemann-Roch localisation formula for this character. We also compute it as a weighted lattice-point sum: a residual weight $x$ occurs at level $d$ if and only if the arrangement slack function satisfies $\\mathcal{S}(x) \\leq d$, with multiplicity $\\binom{d - \\mathcal{S}(x) + n}{n}$. The examples compare these calculations in rank one, including a cut with an orbifold point, and in rank two, for smooth cuts that are not toric.",
+"authors": [
+"Benjamin C. W. Brown"
+],
+"categories": [
+"math.SG",
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.14090",
+"pdf": "https://arxiv.org/pdf/2611.14090",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18258",
+"title": "Equivariant resolution of singularities for $T$-varieties in positive characteristic",
+"abstract": "Let the ground field be algebraically closed of positive characteristic. We prove that every variety endowed with an algebraic torus action whose general orbits have codimension at most three admits an equivariant resolution of singularities. The proof combines the description of such varieties in terms of proper polyhedral divisors and divisorial fans, the existence of log resolutions in dimension at most three, and the resolution of toroidal embeddings established by Kempf, Knudsen, Mumford and Saint-Donat.",
+"authors": [
+"Gary Mart\\'inez-N\\'unez"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.18258",
+"pdf": "https://arxiv.org/pdf/2611.18258",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00465",
+"title": "Essential enhancements of site percolation in every dimension and on periodic lattices",
+"abstract": "We prove Conjecture 1 of Balister, Bollobás and Riordan for site percolation on $\\mathbb Z^d$ in every dimension $d\\ge2$: for every essential enhancement, activated at any positive density, the enhanced configuration percolates for all $p<p_c$ close enough to the critical probability $p_c$. Aizenman and Grimmett gave an argument for this in 1991, but Balister, Bollobás and Riordan found that its combinatorial step can fail. They proved the cases $d=2,3$, outlined proofs for bond percolation on $\\mathbb Z^d$ and for site percolation on the triangular lattice, and left the cases $d\\ge4$ open. Near a site that is pivotal for a long connection, our proof reroutes the open path through a finite configuration in which the enhancement creates a connection, inside a ball that need not be centred at the pivotal site. A theorem valid in every dimension makes this possible unless the first and last sites of the path in the ball lie at a corner of the ball, and a mass-transport argument finds a ball where they do not. The method extends to site percolation on fourteen further periodic lattices, among them all Archimedean lattices other than the square lattice, and to bond percolation on the honeycomb lattice. The proof for $\\mathbb Z^d$ uses no computer, parts of most lattice proofs are finite computer checks of local configurations, and the main theorems for $\\mathbb Z^d$ and for nine of the lattices have been checked in the Lean proof assistant.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.PR",
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00465v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00465v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2504.16150",
+"title": "Evaluating the Generalizability and Explainability of Firn Image Classification with Topological Features",
+"abstract": "In this paper we evaluate the performance of topological features for generalizable and explainable classification of firn image data, with the broader goal of understanding the advantages, pitfalls, and trade-offs in topological featurization. Firn refers to layers of granular snow within glaciers that haven't yet been compressed into ice. This compaction process imposes distinct topological and geometric structure on firn that varies with depth within the firn column. However, the limited and highly correlated training data available results in naive classifiers (such as convolutional neural networks) overfitting to orientation-dependent features. This motivates us to evaluate topological data analysis (TDA) as a way to design features which capture the shape of the firn data while retaining a large degree of invariance. We evaluate two classes of topological features, sublevel set features and distance transform features, together with persistence curves, to predict sample depth from firn images. A range of challenging training-test scenarios reveals that no one choice of method dominates in all categories. In particular, we see a tradeoff between accuracy on the one hand, and generalizability and explainability (via feature importance) on the other.",
+"authors": [
+"Jesse Dimino",
+"Matt Jester",
+"Kaitlin Keegan",
+"Thomas Weighill",
+"Sarah Day"
+],
+"categories": [
+"cs.CV",
+"math.AT"
+],
+"link": "https://arxiv.org/abs/2504.16150",
+"pdf": "https://arxiv.org/pdf/2504.16150",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2503.21265",
+"title": "Exact module categories over $\\mathrm{Rep}(u_q(\\mathfrak{sl}_2))$",
+"abstract": "We give a complete list of indecomposable exact module categories over the finite tensor category $\\mathrm{Rep}(u_q(\\mathfrak{sl}_2))$ of representations of the small quantum group $u_q(\\mathfrak{sl}_2)$, where $q$ is a root of unity of odd order. Each of them is given as the category of representations of a left comodule algebra over $u_q(\\mathfrak{sl}_2)$ explicitly presented by generators and relations.",
+"authors": [
+"Daisuke Nakamura (Okayama University of Science)",
+"Taiki Shibata (Okayama University of Science)",
+"Kenichi Shimizu (Shibaura Institute of Technology)"
+],
+"categories": [
+"math.QA",
+"math.CT",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2503.21265",
+"pdf": "https://arxiv.org/pdf/2503.21265",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [
+"abstract: comodule"
+],
+"watched_authors": []
+},
+{
+"pid": "2609.03524",
+"title": "Exceptional model structures and the induced extriangulated categories",
+"abstract": "A Hovey triple $(\\mathcal{C}, \\mathcal{F}, \\mathcal{W})$ is {\\it exceptional}, if $(\\mathcal{C} \\cap \\mathcal{F}, \\ \\mathcal{C} \\cap \\mathcal{F} \\cap \\mathcal{W})$ is not a Frobenius pair. One has a disjoint union $\\{\\text{Hovey triple}\\} = \\{\\text{Hereditary Hovey triple}\\} \\ \\dot\\bigcup \\ \\{\\text{Exceptional Hovey triple}\\}$ \\ $\\dot\\bigcup \\ \\{\\text{non-hereditary and non-exceptional Hovey triple}\\}.$ Exceptional Hovey triples appear widely. For a selfinjective Nakayama algebra $A= kC_n/J^t$, $A\\mbox{-}{\\rm mod}$ admits exceptional Hovey triples if and only if $\\gcd (n, t) \\ge 2$ and $t \\geq 3$. Their homotopy categories reveal new phenomena. Nakaoka-Palu's Theorem implies that there is a triangulation on $\\frac{\\mathcal C\\cap\\mathcal F}{\\mathcal C\\cap\\mathcal F\\cap\\mathcal W}.$ It is proved that a Hovey triple in a weakly idempotent complete extriangulated category $(\\mathcal A, \\mathbb E, \\mathfrak s)$ is exceptional if and only if the induced extriangulated structure $\\bigl(\\frac{\\mathcal C\\cap\\mathcal F}{\\mathcal C\\cap\\mathcal F\\cap\\mathcal W}, \\ \\overline{\\mathbb E}, \\ \\overline{\\mathfrak s}\\bigr)$ is not {\\it canonically triangulated}. Between this extriangulated structure and the one arising from the triangulation, the intermediate extriangulated structures are in one-to-one correspondence with Serre subcategories of $\\mathrm{fp}((\\frac{\\mathcal P(\\mathcal C\\cap\\mathcal F)}{\\mathcal C\\cap\\mathcal F\\cap\\mathcal W})^{\\mathrm{op}}, \\mathrm{Ab})$.",
+"authors": [
+"Chencheng Zhang",
+"Pu Zhang"
+],
+"categories": [
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2609.03524",
+"pdf": "https://arxiv.org/pdf/2609.03524",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17782",
+"title": "Exceptional sequences of line bundles on $\\mathrm{Fl}(1,\\ell;\\ell+1)$",
+"abstract": "Let $X_\\ell=\\mathrm{Fl}(1,\\ell;\\ell+1)\\subset\\mathbb{P}^\\ell\\times(\\mathbb{P}^\\ell)^\\vee$ be the incidence variety of points and hyperplanes in $\\mathbb{P}^\\ell$. We prove that for every $\\ell\\ge 3$, every exceptional sequence of line bundles on $X_\\ell$ of maximal length $\\ell(\\ell+1)=\\operatorname{rk} K_0(X_\\ell)$ is full. Together with the case $\\ell=2$, due to Altmann, Hochenegger and Witt, this shows that for all $\\ell\\ge2$ an exceptional sequence of line bundles on $X_\\ell$ is full if and only if it has maximal length. The proof translates exceptionality into a combinatorial condition on lattice points of $\\operatorname{Pic}(X_\\ell)\\cong\\mathbb{Z}^2$ and reduces fullness to sequences containing a non-orthogonal descent. A capacity count for admissibly ordered subsets rules out all but one family of descents; for that family we classify the possible configurations and verify generation using Euler sequences and Koszul complexes.",
+"authors": [
+"Likai Yang"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.17782",
+"pdf": "https://arxiv.org/pdf/2611.17782",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17893",
+"title": "Fano-Enriques threefolds of Fano index $>1$",
+"abstract": "We study $\\mathbb{Q}$-Fano threefolds of Fano index greater than $1$ whose Weil divisor class group has nontrivial torsion. We give a complete list of their possible numerical types: there are $176$ of them, which refine to $182$ possible graded Hilbert series. At least $40$ numerical types are realised: $27$ by quotients of weighted complete intersections by cyclic groups, twelve by quotients of threefolds of codimension $4$ or $5$ and one by a quotient of the del Pezzo threefold of degree $5$. Seventy-two numerical types are shown not to occur. In particular the torsion subgroup need not have prime order, and the Weil and $\\mathbb{Q}$-Fano indices can be $(1,2)$, $(1,3)$ or $(1,4)$.",
+"authors": [
+"Kuzma Khrabrov"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.17893",
+"pdf": "https://arxiv.org/pdf/2611.17893",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2602.19904",
+"title": "Finitary Cartesian closed varieties and semigroup actions",
+"abstract": "We build on some ideas of Richard Garner. Let $M$ be a monoid and $B$ a Boolean algebra. A matched pair $[B|M]$ consists of $B$ and $M$ satisfying some axioms introduced by Garner. He then showed that every such matched pair determines a Boolean left restriction monoid $S = S[B|M]$. In this paper, we show that the data of a $[B|M]$-set, an action of a matched pair, may be encoded by means of what we call a factorizable Boolean supported action by $S$. This means that the category of $[B|M]$-sets is equivalent to the category of factorizable Boolean supported actions of $S$. We deduce, as a result of Garner's work, that every non-degenerate finitary Cartesian closed variety is equivalent to the category of factorizable Boolean supported actions of some Boolean left restriction monoid $S$.",
+"authors": [
+"Mark V Lawson"
+],
+"categories": [
+"math.CT"
+],
+"link": "https://arxiv.org/abs/2602.19904",
+"pdf": "https://arxiv.org/pdf/2602.19904",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00456",
+"title": "Flat linearity of uniform groups",
+"abstract": "A uniform group is a quotient $\\mathbb Z_K^{*M}\\to\\Gamma\\to\\mathbb Z_K^M$ on which $S_M$ acts by permuting the generators, and a flat representation is a representation $\\pi:\\Gamma\\to U_K$ such that each $\\pi(g_i)$ has the $K$-th roots of unity as eigenvalues. These are the quasi-flat matrix models of the group duals $\\widehat{\\Gamma}\\subset S_{KM}^+$. We show that $\\mathbb Z_K^{*M}$ is flat linear, in the sense that its flat representations separate points, and that for finite groups, flat linearity and stationarity reduce to exact covering problems. We use this to compute a census, and to prove results on the Heisenberg and metabelian groups.",
+"authors": [
+"Teo Banica"
+],
+"categories": [
+"math.GR",
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2611.00456v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00456v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17677",
+"title": "Folding of cluster algebras",
+"abstract": "We develop a general framework for folding cluster algebras from simply-laced Cartan data equipped with admissible finite-group actions. For arbitrary finite sequences, we establish folding of root data, compatible pairs, $\\bfi$-box seeds, and their individual cluster variables, without reducedness, finite-type, or acyclicity assumptions. In the reduced case, the folding is realized through quantum unipotent coordinate algebras and is compatible with dual PBW generators. It sends cluster monomials associated with canonical lifted $\\bfi$-box seeds to elements of the classical dual canonical basis for the quotient Cartan datum. For arbitrary positive braids in finite Cartan type, the folding is realized through quantum virtual Grothendieck rings and, after specialization at $q=1$, is induced by a single ambient Grothendieck-ring homomorphism. Finally, for arbitrary symmetrizable Cartan data and arbitrary positive braids, we prove that the Laurent homomorphism identifying corresponding seed variables restricts to a surjective algebra homomorphism between the corresponding cluster algebras. We also extend the Kimura--Oya quantum twist automorphisms to arbitrary positive braids after localization at the frozen variables, and prove that their commutative specializations commute with the folding homomorphisms.",
+"authors": [
+"Woo-Seok Jung",
+"Se-jin Oh"
+],
+"categories": [
+"math.RT",
+"math.QA"
+],
+"link": "https://arxiv.org/abs/2611.17677",
+"pdf": "https://arxiv.org/pdf/2611.17677",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00492",
+"title": "From Four-Dimensional Wilson Lattice Gauge Theory to Quantum Yang--Mills Theory: Construction with Proofs from Certified Assumptions, and the Record of Its Independent Validation",
+"abstract": "We present a complete formal paper compiling the Lean-verified construction of quantum Yang--Mills theory submitted on October 28, 2026, and independently validated by the Yang--Mills Shepherding Committee. Starting from the Wilson definition of lattice gauge theory on a four-dimensional torus, we give full proofs of every step that can be carried out from the definitions: the field-label algebra, the finite lattice theory, and---under an explicit, individually certified package of renormalization-group and analytic assumptions (RG1)--(RG5), (UV1), (PH1)--(PH3), (AN1), (Y1)--(Y4), (B1), (C1)---the fixed-volume ultraviolet limit, the subsequential infinite-volume limit, the phase decomposition with clustering and full support, the Osterwalder--Schrader reconstruction satisfying the Wightman axioms, and the Yang--Mills identification: the stress tensor and its Ward identity, the trace anomaly with the verified constant $3\\dim_{\\mathbb{R}}\\mathfrak{g}/\\pi^{4}$, the exclusion of a precise class of free-field descriptions, the one-loop running coupling, and the operator product expansion. The independent validation (clean rebuild, Lean kernel replay, Comparator runs, the verification of the OS axioms against an independent axiom system, and the lattice-law, Ward-identity, common-scale, short-distance, and OPE adapters) is recorded in the second part. Two errata to the source validation document are corrected in the text. For the mass gap we prove two logical boundaries: an explicit OS model satisfies all sixteen registered inputs, with E4 clustering (equivalently, vacuum uniqueness) holding, yet its Hamiltonian has no spectral gap, and a mass gap is equivalent to a uniform exponential rate in the clustering axiom E4; the sixteen registered inputs therefore do not imply a mass gap. The gap problem is reduced to a single volume-uniform, label-uniform rate (MG); the cluster-expansion, spectral, rate and Wilson-loop routes, the random-mechanics criteria, the source-level adjudication, and the complete status are recorded in an appendix. A positive mass gap, uniqueness of the infinite-volume limit, uniqueness of the vacuum of the mixed theory, and order-by-order agreement of the OPE with perturbation theory are not proved, and the paper records precisely what is and is not proved at every step.",
+"authors": [
+"Zeng Chunping"
+],
+"categories": [
+"math-ph",
+"math.MP",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00492v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00492v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00451",
+"title": "Further cases of the inductive Alperin–McKay condition",
+"abstract": "We prove the inductive Alperin–McKay condition at every prime for finite simple groups of types $A$, ${}^2A$, $B$, $C$, and $F_4$, and for those of type $D$ in characteristic two. We also prove the corresponding block condition for all unipotent blocks of natural groups of type $D$ on their prescribed central quotients.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.GR",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00451v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00451v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17702",
+"title": "General linear groups in tangent categories",
+"abstract": "General linear groups are well-studied Lie groups that encode the linear symmetries of a finitely-dimensional linear space. In differential geometry, they are an important ingredient of various constructions, including fibre bundles and the frame bundle of a principal bundle. They also appear in algebraic geometry as affine group schemes. Their Lie algebra, known as the general linear Lie algebra, is isomorphic to the Lie algebra of square matrices, whose Lie bracket is given by the commutator. Building on previous work on Lie groups, in this paper we introduce general linear group objects in the context of tangent categories. We define the general linear group of a differential object as a classifier of the Kleisli parametrized linear automorphisms of the differential object, a class of maps that generalize linear automorphisms in a suitable sense. We prove that such a group can be entirely constructed via a tangent triple equalizer and use this characterization to prove that the Lie algebra of general linear group objects is isomorphic to the Lie algebra of linear endomorphisms.",
+"authors": [
+"Marcello Lanfranchi"
+],
+"categories": [
+"math.CT"
+],
+"link": "https://arxiv.org/abs/2611.17702",
+"pdf": "https://arxiv.org/pdf/2611.17702",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00496",
+"title": "Geometric Equivalence of the Riemann Hypothesis",
+"abstract": "We study the complex rational extensions of two sequences, called SeqImpar and SeqPar, and the way their geometric images relate to the nontrivial zeros of the Riemann zeta function. We prove that I(z) = 5 − 4/(z − 1) maps the critical line Re(z) = 1/2 to the circle |w − 9| = 4, and that, for w = I(ρ), rational inversion recovers exactly the coordinates Re(ρ) and γ = Im(ρ). We show that SeqPar induces a second rational curve and that its extension is injective in the half-plane Re(z) > 0. To distinguish points corresponding to zeta zeros from the other points on these curves, we use a Dirichlet series weighted by the convergence errors of the sequences and prove the correspondence between its poles and the nontrivial zeros. This yields a geometric criterion rigorously equivalent to the Riemann Hypothesis: all relevant poles of the transformed function must lie on the indicated circle. We present formulas for extracting ordinates using residues and contour integrals, together with numerical checks involving the first five known zeros. The results constitute an exact reformulation of the hypothesis, not a proof of its truth or an independent algorithm for computing new zeros.",
+"authors": [
+"FELIPE MARTINS SANTOS"
+],
+"categories": [
+"math.NT",
+"math.CV",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00496v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00496v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00495",
+"title": "Geometric Root Calculators: Radical supports of orders five and nine and real-degree enclosures in the Pandrosion rectangle",
+"abstract": "We study ruler-and-compass iterations for the positive root $X^{1/p}$ that share one rectangle, one power stage and one readout, and differ only in a support line. Every support approximates the same target function $\\kappa_*(t)=(t-1)/(t^{1/p}-1)$ of the residual $t$, and the contact order of the approximation fixes the order of the iteration. Besides the classical supports of orders one to four we treat three radical supports. A decentered arc gives a globally monotone fifth-order iteration. Two supports have local order exactly nine for every real $p>2$ and converge monotonically from every positive start: a support built from two successive mean proportionals, with error constant $7/648$ for cube roots, and a combination of the arithmetic mean, the geometric mean and one conic mean of $1$ and $t$, with error constant $23/20736$ for cube roots, drawn with three arcs. For integer $p\\ge 3$ one step costs at most $10p+9$ elementary traces for the decentered arc, $10p+11$ for the three-mean support and $10p+59$ for the nested support; measured by the efficiency index, and under the stated counting conventions, the three-mean support is preferable for every $p\\ge3$. We then separate what is a finite construction from what is only a scalar statement: the fast iterations are finite constructions for rational degrees, whereas for irrational $p$ a single step is not. For arbitrary real $p\\neq 0$ a power-free subdivision with one final Padé readout encloses the root with relative width at most $z^5/256$ in at most $15n+63$ traces after $n$ subdivisions (for $X>1$, $p\\ge 1$). Global convergence and the local orders with their constants, for the three radical supports and every real $p>2$, are checked in Lean, as are the degree, approximation and efficiency statements; the drawing inventories are written protocols.",
+"authors": [
+"Ivan BESEVIC"
+],
+"categories": [
+"math.NA",
+"math.MG",
+"cs.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00495v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00495v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17734",
+"title": "Global generation of coinvariant vector bundles on $\\overline{\\mathrm{M}}_{0,n}$",
+"abstract": "Using fusion closed-ness and strong generation properties, we identify collections of modules over vertex operator algebras (VOAs) whose induced vector bundles of coinvariants on the moduli space $\\overline{\\mathrm M}_{0,n}$ of stable $n$-pointed curves of genus zero are globally generated. These results specialize to \\cite{Fak12} for affine VOAs at positive integer levels, and of \\cite{DG23} for strongly rational VOAs that are generated in degree 1. To illustrate the results, and to show that fusion-closedness is essential, we give numerous examples, including Lattice VOAs, Simple Current Extensions of Affine VOAs, and various tensor products.",
+"authors": [
+"Avik Chakravarty",
+"Jianqi Liu"
+],
+"categories": [
+"math.AG",
+"math.QA"
+],
+"link": "https://arxiv.org/abs/2611.17734",
+"pdf": "https://arxiv.org/pdf/2611.17734",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17403",
+"title": "Graded unitarity constraints on simply-laced affine Kac--Moody algebras",
+"abstract": "We investigate constraints imposed by four-dimensional unitarity (recently formalised as graded unitarity) on possible simply-laced affine Kac--Moody vertex algebras arising from four dimensions via the SCFT/VOA correspondence. Under the assumption that the $\\mathfrak{R}$-filtration is weight-based with respect to the currents and the Casimir operators, with appropriately shifted $R$-charge assignments for the latter, we demonstrate that all values of the level other than a discrete set are incompatible with four-dimensional unitarity. This set includes all the boundary admissible affine vertex algebras, those corresponding to rank-one Kodaira SCFTs, as well as certain non-admissible families conjecturally associated with specific $D^b_q(\\mathfrak{g})$ Argyres--Douglas theories. Specialising to $\\mathfrak{sl}_N$ with $N$ prime, we find a stronger result: under the same $\\mathfrak{R}$-filtration assumption, four-dimensional unitarity rules out all levels except the boundary admissible $k = k_{N,q}$, which are precisely those corresponding to the $D_q^N(\\mathfrak{sl}_N)$ Argyres--Douglas theories.",
+"authors": [
+"Harshal Kulkarni"
+],
+"categories": [
+"hep-th",
+"math.QA",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.17403",
+"pdf": "https://arxiv.org/pdf/2611.17403",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00440",
+"title": "Growth criteria for reciprocal series with nonincreasing weights",
+"abstract": "Fix nonincreasing positive integer weights $w_0,\\ldots,w_{d-1}$ and define $c>1$ by $(c-1)^2\\sum_{j=0}^{d-1}w_jc^j=w_0$. If the total weight is at least two, we prove irrationality of $\\sum_{n\\ge1}1/(a_n^{w_0}\\cdots a_{n+d-1}^{w_{d-1}})$ whenever the positive integers $a_n$ are strictly increasing and $\\limsup_{n\\to\\infty}(\\log a_n)/c^n=\\infty$. For every nonconstant nonincreasing weight profile, this lowers the sufficient base in the general criterion of Barreto, Kang, Kim, Kovač and Zhang (Bull. Lond. Math. Soc. 58 (2026), e70457, Theorem 3), with the classical base-2 criterion included in the comparison. For weights $(3,2,1)$ the base becomes $\\sqrt[3]{4}$; staircase weights $(d,d-1,\\ldots,1)$ give $(d+1)^{1/d}$. Irregular growth is allowed. A more general form permits nondecreasing sequences and positive integer numerators under polynomial size bounds.",
+"authors": [
+"twinheterodox"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00440v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00440v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2603.29157",
+"title": "Hodge Structures in Sextic Fourfolds Equipped with an Involution",
+"abstract": "To each ternary sextic $f(X_0, X_1, X_2)$ whose associated plane curve is smooth, the Shioda construction attaches a smooth sextic fourfold $X \\subset \\mathbb{P}^5$ whose defining equation $f(X_0, X_1, X_2) - f(Y_0, Y_1, Y_2)$ is fixed under the involution $\\iota : (X_0, X_1, X_2, Y_0, Y_1, Y_2) \\mapsto i \\cdot (Y_0, Y_1, Y_2, -X_0, -X_1, -X_2)$. The induced action $\\iota^* : H^4(X, \\mathbb{Q}) \\to H^4(X, \\mathbb{Q})$ fixes a Hodge substructure $H \\subset H^4(X, \\mathbb{Q})$ whose Hodge coniveau is 1. By the general Hodge conjecture, we expect that there should exist a divisor $Y \\subset X$ for which $H \\subset \\ker\\left( H^4(X, \\mathbb{Q}) \\to H^4(X \\setminus Y, \\mathbb{Q}) \\right)$. We verify this prediction in case the Waring rank of $f(X_0, X_1, X_2)$ takes on its minimum possible value, partially answering a question of Voisin (J. Math. Sci. Univ. Tokyo '15).",
+"authors": [
+"Benjamin E. Diamond"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2603.29157",
+"pdf": "https://arxiv.org/pdf/2603.29157",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2512.08395",
+"title": "Holomorphic one-forms without zeros on K\\\"ahler manifolds of Kodaira codimension one",
+"abstract": "We give a bimeromorphic classification of compact K\\\"ahler manifolds of Kodaira codimension one that admit a holomorphic one form without zeros.",
+"authors": [
+"Simon Pietig"
+],
+"categories": [
+"math.CV",
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2512.08395",
+"pdf": "https://arxiv.org/pdf/2512.08395",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "1911.04717",
+"title": "Holomorphic vector fields and rationality",
+"abstract": "We prove Carrell's conjecture that a smooth complex projective variety with a holomorphic vector field having a nonempty finite zero set is rational. The proof uses slices for projective additive group actions and a birational invariant in the dimension-graded Grothendieck ring. For a vector field with one zero, we bound the second Betti number by the dimension of the kernel of the linear part at that zero. A multiplicative group that normalizes the additive action with a nontrivial character gives a product formula for the Betti numbers and a sharp upper bound for the Euler characteristic. We classify smooth projective surfaces admitting a holomorphic vector field with exactly one zero. Among smooth projective threefolds of Picard number one admitting a holomorphic vector field with exactly one zero, there are five isomorphism types.",
+"authors": [
+"Wenchuan Hu",
+"Peihan Wu"
+],
+"categories": [
+"math.AG",
+"math.DG"
+],
+"link": "https://arxiv.org/abs/1911.04717",
+"pdf": "https://arxiv.org/pdf/1911.04717",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00468",
+"title": "Homological percolation in characteristic two: the Ising gauge case",
+"abstract": "Duncan and Schweinhart proved that the $i$-dimensional plaquette random-cluster model with cluster weight $q$ on the $2i$-dimensional torus has a sharp homological percolation transition at the self-dual point, for coefficients in a field of characteristic other than $2$. Their proof needs the point group of the lattice to act irreducibly on the $i$-th homology of the torus. In characteristic $2$ it does not, and the most important case is excluded: $q = 2$ with $\\mathrm{F}_2$ coefficients, which represents the $(i-1)$-form Ising lattice gauge theory. We prove the theorem for $q = 2^r$ with $r \\ge 1$ and $\\mathrm{F}_2$ coefficients. The representation-theoretic step is replaced by a transfer-matrix inequality, the classical positivity of the partition functions of 't Hooft's electric-flux sectors; read in the random-cluster representation, this inequality compares the probabilities of homological events. As a corollary, for the ferromagnetic $(i-1)$-form Ising gauge theory on the $2i$-dimensional torus (Wegner's model when $i = 2$), the free energy of every nontrivial 't Hooft twist tends to $0$ below the self-dual coupling and to infinity above it as the torus grows. For Bernoulli plaquette percolation ($q = 1$) the characteristic-$2$ case remains open for $i \\ge 2$; we describe obstructions to proving it, and on the $4$-torus we prove a computer-assisted divisibility theorem for the classes of integral giant cycles just above $p = 1/2$.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.PR",
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00468v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00468v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17841",
+"title": "Inequalities for intersection numbers from Hodge-Riemann relations",
+"abstract": "We derived inequalities for intersection numbers of nef classes inside algebras satisfying the K\\\"ahler package, using Hodge-Riemann relations up to degree two. As an application, we construct certain strictly Lorentzian polynomials and show that they cannot be realized as the volume polynomial of nef classes inside such an algebra.",
+"authors": [
+"Xiangru Zeng"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://arxiv.org/abs/2611.17841",
+"pdf": "https://arxiv.org/pdf/2611.17841",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18198",
+"title": "Infinite Index Identities for Argyres-Douglas Theories and Graded Vector Space Isomorphisms for VOAs",
+"abstract": "Supersymmetric indices provide stringent tests of dualities between superconformal field theories (SCFTs). We establish infinite families of Schur-index identities among four-dimensional $\\mathcal N=2$ Argyres-Douglas (AD) theories, with the logarithms of their fugacities related linearly. These identities connect theories with markedly different physical properties without requiring infrared duality, while still implying simple relations among their central charges and flavor levels. Through the SCFT/VOA correspondence, they become character identities for the associated affine and $W$-algebras. One broad family relates $D_p(G)$ and $(A_{(h+1)(p-1)},G)$ theories, corresponding to affine and principal $W$-algebras at boundary admissible levels. At the level of the underlying state spaces, these character identities suggest that the corresponding VOAs are related by graded vector space isomorphisms, which are weaker than full VOA isomorphisms. We explicitly construct such a graded isomorphism between the VOAs associated with $(A_1,A_{4p-3})$ and $(A_1,D_{2p})$. We also show the correspondence for universal affine and principal $W$-algebras and test its compatibility with their simple quotients by matching the lowest-degree null states. We establish analogous character identities for certain non-vacuum modules in concrete examples and conjecture a broader extension. Finally, beyond the SCFT/VOA correspondence, we discover similar identities between level-one affine and Virasoro algebras, whose further generalizations point toward a new spectral level-rank duality in WZW models.",
+"authors": [
+"Hongliang Jiang"
+],
+"categories": [
+"hep-th",
+"math-ph",
+"math.MP",
+"math.QA",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.18198",
+"pdf": "https://arxiv.org/pdf/2611.18198",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00463",
+"title": "Integer-power separation does not force rational-dilation separation",
+"abstract": "We construct an algebraically independent set with divergent reciprocal-logarithmic weight, arbitrary prescribed proximity to selected integers and growing integer-power separation on tails. Nevertheless, every tail contains arbitrarily close rational-dilation pairs for each member of a dense family. The necessary integer-power finite-state lemmas and their proofs are included. This supplies a contrasting construction to the bounded-denominator rational-power example in the companion paper.",
+"authors": [
+"Sunay Venkat"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00463v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00463v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00446",
+"title": "Karlsson matrices and the kagome lattice",
+"abstract": "For the subfactor associated to a generic Karlsson matrix of order 6, the first 18 fixed-space dimensions are the Catalan numbers. We obtain this from the quantum group of a Di\\c t\\u a limit. A first additional invariant tensor for a quantum $2$-transitive overgroup of this group would give a probability measure on closed walks on the kagome lattice with prescribed local distributions. At every even level a straight walk forces its return path and rules out such a measure. At odd levels a family of staircase tests and a 7-letter certificate at level 15 exclude further first occurrences. The least remaining level is 19. We also give an application to free wreath products and examine the second-order variation of the fixed spaces at special parameters.",
+"authors": [
+"Teo Banica"
+],
+"categories": [
+"math.OA",
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2611.00446v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00446v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18328",
+"title": "Matrix ultraproducts have trivial fundamental group",
+"abstract": "We prove that every tracial ultraproduct $\\prod_{\\mathcal{U}} M_n(\\mathbb{C})$ of matrix algebras has trivial fundamental group. In particular, this establishes that there are uncountably many nonisomorphic matrix ultraproducts, answering a question of Sorin Popa. We actually prove the stronger result that every matrix ultraproduct has trivial first-order fundamental group and thus our techniques are model-theoretic in nature.",
+"authors": [
+"Hiroshi Ando",
+"Isaac Goldbring"
+],
+"categories": [
+"math.OA",
+"math.LO",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.18328",
+"pdf": "https://arxiv.org/pdf/2611.18328",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18222",
+"title": "Motivic Invariants of Automorphisms and the Plane Cremona Group",
+"abstract": "Recent work of Campbell and Zakharevich studies the $K$-theory spectrum of varieties. In previous work, the second author constructs a derived version of the $\\mathbb{A}^1$-Euler characteristic, giving a map out of this spectrum. We analyse the morphism that the derived $\\mathbb{A}^1$-Euler characteristic induces out of $K_1(\\mathrm{Var}_k)$. We obtain an explicit description of this map, which encodes information about automorphisms of varieties. We use Hermitian $K$-theory to obtain a geometric description for part of this morphism in terms of Hodge cohomology. This allows us to obtain structural results about the group $K_1(\\mathrm{Var}_k)$. As an application, we use the $\\mathbb{Z}/2\\mathbb{Z}$-equivariant minimal model programme for surfaces to construct an arithmetic invariant of a large class of involutions in the plane Cremona group. We use this to construct two non-conjugate de Jonqui\\`eres involutions with isomorphic positive genus fixed curves over any perfect field $k$ of characteristic not $2$ with at least 6 elements which admits a quadratic extension.",
+"authors": [
+"Ran Azouri",
+"Anubhav Nanavaty",
+"Jesse Pajwani"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.18222",
+"pdf": "https://arxiv.org/pdf/2611.18222",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00472",
+"title": "New lower bounds for Romanoff's constant",
+"abstract": "Romanoff proved in 1934 that the integers of the form $p+2^a$, with $p$ prime and $a\\ge1$, have positive lower density $d$. We prove that $d\\ge0.110825$ and, conditionally on an upper bound for prime pairs that Johnston and Trudgian derive from Lichtman's work on primes in arithmetic progressions, that $d\\ge0.119178$; the best lower bound so far was $0.10788$. The proof refines the method of Elsholtz and Schlage-Puchta, which bounds the second moment of the number of representations in each residue class modulo a fixed integer. Both bounds are certified by computer and also proved in the Lean proof assistant, with the analytic inputs as hypotheses.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.NT",
+"math.OC"
+],
+"link": "https://hexagonmath.org/abs/2611.00472v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00472v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18317",
+"title": "Non-abelian Hodge correspondence for semistable parabolic connections on curves in positive characteristic",
+"abstract": "Let $C$ be a smooth projective curve over an algebraically closed field $k$ of characteristic $p>0$. We establish a non-abelian Hodge correspondence between semistable parabolic connections on $C$ and semistable parabolic Higgs bundles on its Frobenius twist $C'$, allowing arbitrary prescribed residue eigenvalues, parabolic weights and filtration types. The relationship between the parabolic weights and residue eigenvalues on the two sides is encoded in a table analogous to Simpson's table. We obtain this result by extending the notion of \"very good regular connections\" to incorporate a residue-dependent degree condition, and by developing a Cartier descent formalism for parabolic connections. Working with filtered sheaves, we obtain a particularly clean description of this Cartier descent formalism that potentially extends to higher dimensional varieties.",
+"authors": [
+"Shiyu Shen"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.18317",
+"pdf": "https://arxiv.org/pdf/2611.18317",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2606.03062",
+"title": "On $\\mathbb J$-strata with Parahoric Stabilizers in Affine Deligne-Lusztig Varieties",
+"abstract": "In this paper, we study the $\\mathbb J$-stratification of basic affine Deligne-Lusztig varieties for a minuscule cocharacter $\\mu$. This stratification was introduced by Chen-Viehmann and has been expected to serve as an interesting tool for studying basic loci in Shimura varieties. We parametrize the $\\mathbb J$-strata whose stabilizers in the Frobenius-twisted centralizer group are parahoric by constructing a natural bijection to combinatorial invariants called small cocharacters. We further prove that the cardinality of these sets is equal to that of a certain subset of the Weyl group orbit of $\\mu$. A relationship with the weakly fully Hodge-Newton decomposability of Chen-Tong is also discussed.",
+"authors": [
+"Ryosuke Shimada"
+],
+"categories": [
+"math.AG",
+"math.NT"
+],
+"link": "https://arxiv.org/abs/2606.03062",
+"pdf": "https://arxiv.org/pdf/2606.03062",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17993",
+"title": "On character conductors and Sylow p-subgroups",
+"abstract": "Let $P\\in\\operatorname{Syl}_p(G)$, where $G$ is a finite group and $p$ is a prime, and let $\\chi\\in\\operatorname{Irr}(G)$. In 2024, I. M. Isaacs and G. Navarro asked whether the degree of $\\mathbb{Q}_{p^f}$ over $\\mathbb{Q}_p(\\chi_P)$ is always at most the $p$-part $\\chi(1)_p$ of $\\chi(1)$, where $p^f$ is the $p$-part of the conductor of $\\chi$ and $f\\geq1$. Here $\\mathbb{Q}_n=\\mathbb{Q}(e^{2\\pi i/n})$ is the $n$th cyclotomic field, $\\chi_P$ is the restriction of $\\chi$ to $P$, and $\\mathbb{Q}_p(\\chi_P)$ is the field generated over $\\mathbb{Q}_p$ by the values of $\\chi_P$. We prove that this inequality holds for $p$-solvable groups.",
+"authors": [
+"Yang Zhou",
+"Heguo Liu"
+],
+"categories": [
+"math.GR",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.17993",
+"pdf": "https://arxiv.org/pdf/2611.17993",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2603.29609",
+"title": "On intersections of function fields",
+"abstract": "Let $X:\\mathcal{E}\\rightarrow\\mathcal{R}$ and $Y:\\mathcal{E}\\rightarrow\\mathcal{T}$ be holomorphic maps between compact Riemann surfaces such that $X^*M(\\mathcal{R})\\cdot Y^*M(\\mathcal{T})=M(\\mathcal{E})$, where $M(\\mathcal{S})$ denotes the field of meromorphic functions on a Riemann surface $\\mathcal{S}$. We study the problem of determining when the degree $[M(\\mathcal{E}):X^*M(\\mathcal{R})\\cap Y^*M(\\mathcal{T})]$ is finite and attains the minimal possible value $\\mathrm{deg}\\,X\\cdot\\mathrm{deg}\\,Y$. When $X$ is a Galois covering, we give a complete characterization in terms of factorizations of $Y$ into an equivariant map followed by a Galois covering. We also establish some results without the maximality condition, as well as general results on the functional equation $A\\circ X=B\\circ Y$ when one of the maps involved is a Galois covering.",
+"authors": [
+"Fedor Pakovich"
+],
+"categories": [
+"math.AG",
+"math.CV"
+],
+"link": "https://arxiv.org/abs/2603.29609",
+"pdf": "https://arxiv.org/pdf/2603.29609",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18285",
+"title": "On non-vanishing of the first Hochschild cohomology of blocks",
+"abstract": "Let $B$ be a block of a finite group algebra $kG$, where $k$ is an algebraically closed field of characteristic $p>0$. Inspired by the result of Fleischmann, Janiszczak and Lempken that $\\mathrm{HH}^1(kG) \\not=0$ when $p$ divides the order of $G$, Linckelmann conjectured that $\\mathrm{HH}^1(B)\\not= 0$ when $B$ has non-trivial defect. By developing the methods of Briggs, Rubio y Degrassi and the author, we give a fusion theoretic criterion for non-vanishing, proving the conjecture holds for all blocks of abelian defect. Further, we show the criterion holds for all blocks at $p > 5$, proving the conjecture for all such primes",
+"authors": [
+"Matthew Antrobus"
+],
+"categories": [
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.18285",
+"pdf": "https://arxiv.org/pdf/2611.18285",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18560",
+"title": "On the pure part of the cohomology of character varieties",
+"abstract": "We prove the purity conjecture of Hausel and Rodriguez-Villegas relating the graded dimension of the pure part of the cohomology of the twisted character variety $M^B(r,d)$ of $GL(r)$ of genus $g$ with the cohomology of a suitable quiver variety associated to the quiver $S_g$ with one vertex and $g$ loops. In particular, this provides an explicit formula for the pure part of the mixed Hodge polynomial of $M^B(r,d)$ in terms of the Kac polynomial $A_{S_g,r}(q)$. Our approach is based on the $P=W$ theorem to transfer the purity conjecture into a statement about the perverse filtration on the cohomology of th stack of Higgs bundles on a genus $g$ curve. We use the theory of BPS Lie algebras, their $\\chi$-independence property (proven by Kinjo-Koseki), the recent proof of the stack version of $P=C$ due to Picovschi and Davison's analytic neighborhood theorem to reduce the conjecture to a comparison problem between (the 'pure' part) of the BPS Lie algebra asociated to the stack of Higgs bundles on a genus $g$ curve and the BPS Lie algebra of the stack of representations of the preprojective algebra of the quiver $S_g$. This last step is taken care of by a quiver analog of Markman's tautological generation theorem for the BPS Lie algebra of arbitrary quivers (this last result is also proven by Davison and Hennecart).",
+"authors": [
+"Olivier Schiffmann",
+"Eric Vasserot"
+],
+"categories": [
+"math.AG",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.18560",
+"pdf": "https://arxiv.org/pdf/2611.18560",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00448",
+"title": "Points from Processes: Vakarelov’s Dynamic Mereotopology and Whitehead’s Point-Free Program",
+"abstract": "Whitehead held that neither points of space nor instants of time should be primitive: both ought to be definable from relations between material things. Region-based theories of space have largely carried out the spatial half of this program, but the temporal half has remained informal. This paper offers an expository and philosophical account of Dimiter Vakarelov’s dynamic mereotopology, developed in five papers between 2010 and 2016, which aims at a theory of space and time that is point-free in this double sense. We argue that the program is best read as a staged realization of Whitehead’s demand. Each stage enriches the primitive spatio-temporal relations between changing regions just enough to recover a further layer of temporal structure: first moments without order, then an ordered time, and finally nameable, spatially non-trivial epochs. The staging culminates in a structural result Whitehead anticipated but never formalized: points of space and points of time turn out to be different aggregations of one and the same stock of abstract atoms. We also argue that the representation theorems on which the program rests deliver a reconstruction, rather than a reduction, of points, and that reconstruction is what Whitehead’s program requires.",
+"authors": [
+"John Hessler"
+],
+"categories": [
+"math.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00448v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00448v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18518",
+"title": "Polytopal realization of double root free subword complexes",
+"abstract": "We give a convex geometric sufficient condition for a convex polytope to realize a spherical subword complex. Using this criterion, we first prove that each root independent spherical subword complex is polytopal, for any Coxeter group. Then we prove the polytopality of double root free subword complexes, for any Coxeter groups. To prove this, we construct a polytope in an auxiliary vector space whose image under a natural affine map is the usual brick polytope. In the complex Kac-Moody case, the polytope is integral, with vertices in the character lattice of the torus of unfolded galleries in a thick building. In finite Lie types, in double root free cases, these tori are precisely the corresponding braid varieties.",
+"authors": [
+"Zijun Li"
+],
+"categories": [
+"math.CO",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.18518",
+"pdf": "https://arxiv.org/pdf/2611.18518",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2502.03137",
+"title": "Positivity of line bundles on general blow ups of Hirzebruch surfaces",
+"abstract": "We investigate various positivity properties of line bundles on general blow ups of Hirzebruch surfaces motivated by \\cite{Han}, where the author has studied general blow ups of $\\mathbb{P}^2$. For each of the properties: ampleness, global generation, very ampleness, and $k$-very ampleness, we provide several sufficient numerical conditions.",
+"authors": [
+"Cyril J. Jacob",
+"Bivas Khan"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2502.03137",
+"pdf": "https://arxiv.org/pdf/2502.03137",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17847",
+"title": "Projective surfaces with infinite fundamental group and trivial profinite completion",
+"abstract": "For every nontrivial finite abelian group \\(A\\) of odd order, we construct a smooth complex projective surface with infinite topological fundamental group and trivial \\'{e}tale fundamental group. The isomorphism types of its finite subgroups are precisely those of the subgroups of \\(A\\). The surface is Kobayashi hyperbolic and has Stein universal cover.",
+"authors": [
+"Wenchuan Hu",
+"Peihan Wu"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.17847",
+"pdf": "https://arxiv.org/pdf/2611.17847",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2406.01999",
+"title": "Random Abstract Cell Complexes",
+"abstract": "In machine learning and signal processing, methods based on (abstract) cell complexes (CCs) are being applied successfully in different applications. However, there is currently a lack of random models, which are necessary for a thorough evaluation of these methods, both by generating synthetic data and as null models to compare results to. We fill this gap by defining a random model for abstract cell complexes based on independent inclusion probabilities, similar to the Erd\\H{o}s-R\\'enyi model for graphs. We also discuss how modifications to bias the model to incorporate more structure can be implemented. The model can also be used to lift a graph (or other cell complex) to a cell complex of arbitrary dimension. The main challenge in this is that the number of cycles (possible 2-cells) on graphs is exponential, and the same is true in higher dimensions. We overcome this complexity with an approximate sampling algorithm limited to 2-cells (polygons) that is based on a recent advance in sampling cycles on a graph. Using this algorithm, we analyze the properties of random 2-dimensional CCs and showcase its usage as a performance baseline for both topological signal processing and topological deep learning. The algorithm is available in the package py-raccoon on the Python Package Index.",
+"authors": [
+"Josef Hoppe",
+"Michael T. Schaub"
+],
+"categories": [
+"cs.DS",
+"cs.DM",
+"cs.SI",
+"math.AT"
+],
+"link": "https://arxiv.org/abs/2406.01999",
+"pdf": "https://arxiv.org/pdf/2406.01999",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17764",
+"title": "Rational lines on pairs of quadrics and cubic hypersurfaces",
+"abstract": "We study rational lines on smooth intersections of two quadrics and on smooth cubic hypersurfaces over number fields. For an intersection of two quadrics in $n$ variables, we prove the Hasse principle and weak approximation for the variety of lines when $n\\geq 11$, and more generally for the variety of $r$-planes when $n\\geq 3r+8$. In this range an $r$-plane exists over the ground field if and only if one exists over every real completion. For the variety of lines, we also prove the Hasse principle and weak approximation when $n\\geq 8$, conditional on the finiteness of certain Tate-Shafarevich groups. For a smooth cubic hypersurface in $n$ variables, we prove that a line exists over the ground field when $n\\geq 23$.",
+"authors": [
+"Tim Browning",
+"Stephanie Chan",
+"Nick Rome"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.17764",
+"pdf": "https://arxiv.org/pdf/2611.17764",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00459",
+"title": "Realizer Bounds and Repetition Constraints at the First Coefficient Crossing in the 3x + 1 Problem",
+"abstract": "Terras’s coefficient stopping time conjecture asks whether the shortcut Collatz orbit of every integer n ≥ 2 lies below n when its coefficient ρk = 3d/2k first falls below one. Here k counts shortcut steps and d counts their odd inputs. We prove that every eligible realizer descends when the first-crossing word has at most 75 maximal runs of odd inputs. Any counterexample requires at least 76 such runs, 10 439 860 591 steps and 6 586 818 670 odd inputs. The proof uses a lower bound on the seed from the length of its odd runs, rational approximations to log2 3, the verified range of Rozier and Terracol, and Rhin’s estimate for a linear form in logarithms. We also prove descent for a family with arbitrarily many odd runs. Two further restrictions narrow the remaining words. An initial square U U in a failing word satisfies |U | < 35 log2 k. For a counterexample of shortest crossing length, the reciprocal-sum estimate of Nikzad, Frinkle and Bagherzadeh gives a lower bound on ρk whose value begins 0.9441733669 . . .. The open inequality compares the least eligible starting value in each remaining parity class with an explicit threshold.",
+"authors": [
+"Elias  De Jesús"
+],
+"categories": [
+"math.NT",
+"math.CO",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00459v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00459v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18191",
+"title": "Representing in Low rank II: Virtual structure and Isomorphism problem",
+"abstract": "We group theoretically characterise the finite groups $G$ and number fields $F$ such that all $F$-representations of reduced degree at least $2$ are so-called exceptional. If $G$ is not a $2$-group, we obtain a full classification. Secondly, we determine whether such groups are uniquely determined by their group algebra $FG$. In particular, we obtain an instance of the virtual structure problem of Kleinert and answer the rational isomorphism problem for such groups.",
+"authors": [
+"Robynn Corveleyn",
+"Geoffrey Janssens",
+"Doryan Temmerman"
+],
+"categories": [
+"math.GR",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.18191",
+"pdf": "https://arxiv.org/pdf/2611.18191",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17732",
+"title": "Rigidity for pivotal braided r-categories of moderate growth and applications to vertex operator algebras",
+"abstract": "Let $\\mathcal{C}$ be an abelian pivotal braided r-category with simple unit object $\\mathbf{1}$ over any field. We present a ChatGPT-generated proof, prompted by Bin Gui, that any object $X$ in $\\mathcal{C}$ of moderate growth, in the sense that $\\dim\\mathrm{End}(X^{\\otimes n})<n!$ for some $n\\in\\mathbb{Z}_{\\geq 1}$, is rigid. The proof crucially uses ideas from the recent proof of Etingof and Penneys that $X$ is rigid if it is also non-negligible, that is, $X\\otimes Y$ contains $\\mathbf{1}$ as a direct summand for some object $Y$. In the present paper, the non-negligible assumption is removed using a rigidity criterion developed previously by the author for use in non-semisimple categories. We also present a variant result (found without further AI assistance) that $X$ is also rigid if $\\dim\\mathrm{Hom}((DX)^{\\otimes n}\\otimes X^{\\otimes n},\\mathbf{1})<n!$ for some $n\\in\\mathbb{Z}_{\\geq 1}$, where $D$ is the Grothendieck-Verdier duality functor of $\\mathcal{C}$. Using this variant, we show that if $V$ is a simple self-contragredient vertex operator algebra such that the category $\\mathcal{C}^1_V$ of $C_1$-cofinite grading-restricted generalized $V$-modules is closed under contragredient modules, then $\\mathcal{C}^1_V$ is a locally finite $\\mathbb{C}$-linear abelian rigid braided ribbon category. We also show that if $V$ is a simple $\\mathbb{Z}_{\\geq 0}$-graded self-contragredient $C_2$-cofinite vertex operator algebra, then the category of all grading-restricted generalized $V$-modules is a (not necessarily semisimple) modular tensor category.",
+"authors": [
+"Robert McRae"
+],
+"categories": [
+"math.QA",
+"math-ph",
+"math.CT",
+"math.MP",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.17732",
+"pdf": "https://arxiv.org/pdf/2611.17732",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17419",
+"title": "Sasakian Hodge Numbers of Calabi-Yau Links",
+"abstract": "The link of an isolated weighted homogeneous hypersurface singularity whose degree equals the sum of its weights is a Sasakian manifold that admits a contact Calabi-Yau structure, and its Sasakian Hodge numbers are dimensions of graded pieces of the Milnor algebra of the defining polynomial. In earlier work these numbers were computed with Gr\\\"obner bases for the $7$-dimensional links of $7549$ of the $7555$ weighted Calabi-Yau threefold links, and two conjectures were raised from the data. The first asserts that polynomials with the same weights have Milnor algebras whose relevant graded pieces have equal dimensions; the second asserts that the Sasakian Hodge number $h^{2,1}_S$ of the link is bounded above by the Hodge number $h^{2,1}$ of the base Calabi-Yau threefold. Both conjectures are proved here. The first holds for every polynomial with an isolated singularity, because its partial derivatives form a regular sequence; an independent derivation of the Sasakian Hodge numbers by sheaf cohomology on the leaf-space orbifold is also given. For the second, the stringy Hodge numbers of the Calabi-Yau orbifold are shown to bound the middle Sasakian Hodge numbers in every dimension $n\\ge2$, and for $n\\ge3$ the gap in $h^{n-1,1}$ is shown to be a sum of geometric genera of loci of orbifold points; for threefolds the bound is attained exactly when all curves of orbifold points are rational. The resulting closed formulae give the Sasakian Hodge numbers of the six $7$-dimensional links left open in the earlier work and complete datasets for all $95$ five-dimensional K3 links and all $1\\,100\\,055$ nine-dimensional Calabi-Yau fourfold links; for the K3 links they recover the previously known second Betti numbers.",
+"authors": [
+"Edward Hirst",
+"Henrique N. S\\'a Earp",
+"Tom\\'as S. R. Silva"
+],
+"categories": [
+"math.AG",
+"hep-th",
+"math.DG"
+],
+"link": "https://arxiv.org/abs/2611.17419",
+"pdf": "https://arxiv.org/pdf/2611.17419",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00486",
+"title": "Schur Nonnegativity of Double-Wiring Cluster Variables",
+"abstract": "We prove Cuenca’s conjecture that every cluster variable of the matrix cluster algebra associated with a double wiring diagram evaluates to a Schur nonnegative symmetric function on every generalized Jacobi–Trudi matrix. The result extends to cluster monomials.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.CO",
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2611.00486v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00486v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00444",
+"title": "Self-embedding monoids and the existential Thomas conjecture",
+"abstract": "We give a countable homogeneous finitely bounded Ramsey structure in a finite relational language with finitely many reducts up to first-order interdefinability but infinitely many self-embedding monoids of reducts. The reducts producing these monoids are first-order interdefinable, while their monoids form a strictly increasing chain. This refutes the existential strengthening of Thomas' conjecture even under the Ramsey hypothesis. The example is an ordered expansion of an equivalence-relation structure. Before the order is added, that structure has exactly five reducts up to first-order interdefinability. We also give a revised proof of the classification of self-embedding monoids for reducts of the countable existentially closed binary branching semilinear order. Exactly five monoids occur, refining its three-class first-order classification. The proof transfers the known classification for the homogeneous binary branching $C$-relation from antichains to arbitrary finite configurations. The additional step is a connectivity argument on finite labelled trees, using both preservation and reflection of the reduct's basic relations.",
+"authors": [
+"Dr. András Pongrácz"
+],
+"categories": [
+"math.LO",
+"math.GR"
+],
+"link": "https://hexagonmath.org/abs/2611.00444v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00444v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2507.04124",
+"title": "Semiadditive Alternating Powers and Twisted Power Operations",
+"abstract": "We study a class of representations of symmetric groups in higher semiadditive categories. For these representations in $\\mathrm{Mod}^{\\wedge}_{E_n}$, the transchromatic character of Hopkins--Kuhn--Ravenel and Stapleton is recovered as a sequence of monoidal characters on suitable categorifications, giving an explicit algorithm for its computation, and relating it to the iterated monoidal character in $(\\infty,n)$-categories. These representations also give rise to notions of alternating powers and power operations in semiadditive categories, extending the classical alternating powers and $\\lambda$-operations in $\\mathrm{K}$-theory. We provide explicit computations in both the chromatic and higher categorical settings at low heights.",
+"authors": [
+"Shai Keidar",
+"Shaul Ragimov"
+],
+"categories": [
+"math.AT"
+],
+"link": "https://arxiv.org/abs/2507.04124",
+"pdf": "https://arxiv.org/pdf/2507.04124",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [
+"title: power operation",
+"abstract: (infinity,n)",
+"abstract: higher categor"
+],
+"watched_authors": []
+},
+{
+"pid": "2611.17685",
+"title": "Semistable 1-Motives: Monodromy, Explicit Periods, and Local Duality",
+"abstract": "Let $K/\\mathbf Q_p$ be unramified, with $p>2$. For a $1$-motive with constant lattice, split torus, and good abelian quotient, we compute the semistable extension complex from toric valuations and formal-group logarithms. A canonical monodromy boundary exists for every semistable representation; it detects splitting over crystalline periods and the increase in monodromy rank. For the stated $1$-motives, this boundary and the unramified quotient recover the restricted local Tate pairing, with exponential radicals. Nonsplit elliptic examples, Raynaud uniformization, and a height-one positive-period bound explain the geometric range. For toric motives we construct actual periods, convergent Robba bases, and integral action matrices. A toric basis family has perfect projective/trace-zero matrix duality, including its exact integral defect. An explicit residue-zero solution operator constructs every dual Herr class. Applied componentwise, the same operator gives relative full dual lifts for general constant-lattice $1$-motives once their coefficient sequence is specified. Finally, finite-base coefficient traces realize division-tower Iwasawa cohomology for any Tate lattice, and the period cup pairing equals the arithmetic group-ring pairing.",
+"authors": [
+"Mohammadreza Mohajer"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.17685",
+"pdf": "https://arxiv.org/pdf/2611.17685",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00457",
+"title": "SeqImpar and SeqPar: Analytic Characterizations of the Zeros of the Riemann Zeta and Dirichlet Beta Functions and a Criterion Equivalent to the Riemann Hypothesis",
+"abstract": "We study two rational sequences, called SeqImpar and SeqPar, originally defined by recurrences and converging to the common limit 5. The ratio of their convergence errors tends to 1/2. Using this ratio, we construct two Dirichlet series weighted by the von Mangoldt function and associated with the Riemann zeta function and the Dirichlet beta function. We prove that these series admit meromorphic continuations whose poles in the critical strip correspond exactly to the zeros of the respective functions, with residues equal to minus one-half of their multiplicities. We then prove that an estimate for the partial sum weighted by SeqImpar and SeqPar is equivalent to the Riemann Hypothesis, and state a parallel criterion for the Dirichlet beta function. The paper rigorously distinguishes proved identities, equivalences, and open problems: the coincidence of the number 1/2 with the critical line does not, by itself, constitute a proof of the Riemann Hypothesis.",
+"authors": [
+"FELIPE MARTINS SANTOS"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00457v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00457v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00447",
+"title": "Sharp Poisson approximation and second-order correction for long multiplicative runs",
+"abstract": "Let $f$ be completely multiplicative with independent fair signs at primes. We count starts of constant runs of length at least $L$ in $[N,2N)$, with $L=\\log_2N+O(1)$ and both signs included. The total variation distance to the Poisson law with nominal or exact mean has an explicit equivalent of order $LN^{-2/3}$, with a coefficient depending on $N2^{-L}$ and $L\\bmod3$. After retaining the exact mean and second factorial cumulant, the quadratic Poisson–Charlier approximation has optimal error power $4/3$: for every fixed $\\varepsilon>0$, its $\\ell^1$ error lies between constant multiples of $N^{-4/3-\\varepsilon}$ and $N^{-4/3+\\varepsilon}$, uniformly in each fixed critical band. The leading correction comes from rational pairs. Keeping all channels up to a fixed height $h$ gives an explicit distance equivalent with power $h/(h+1)$, determined by the first omitted height. The third factorial cumulant has optimal power $41/30$. The proof expands around the exact Bernoulli marginals and stops at the first excluded dependent configuration. Arithmetic bounds for fixed configurations and a separate uniform tail estimate control the resulting positive boundary mass. Short square relations and a common algebraic curve bound the triple interactions; a fourth Charlier test detects the two-pair contribution that makes the quadratic exponent optimal.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.PR",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00447v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00447v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2603.26180",
+"title": "Smooth plane curves with a unique outer Galois point and their automorphism groups",
+"abstract": "We consider smooth plane curves $\\mathcal{X}$ of degree $d\\geq4$, defined over an algebraically closed field of characteristic $0$, that possess a unique outer Galois point. This geometric condition forces the curve to be a cyclic covering of the projective line, and ensures that its automorphism group fits into a specific theoretical framework. For each possible non-cyclic reduced automorphism group $\\operatorname{Aut}_{\\operatorname{red}}(\\mathcal{X})$, we fully characterize the defining equation of $\\mathcal{X}$ and the precise structure of its full automorphism group $\\operatorname{Aut}(\\mathcal{X})$.\n  This comprehensive analysis not only identifies the exact form of the equation for each automorphism type but also establishes the detailed criteria under which these scenarios can occur, thereby offering a complete classification of defining equations for smooth plane curves with a unique outer Galois point and a non-cyclic reduced automorphism group.",
+"authors": [
+"Eslam Badr",
+"Takeshi Harui"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2603.26180",
+"pdf": "https://arxiv.org/pdf/2603.26180",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00445",
+"title": "Solutions of the set-theoretic quantum Yang--Baxter equation arising from posets",
+"abstract": "We extend Victoria Lebed’s construction of idempotent solutions of the braid equation by introducing four families of solutions associated with posets. We show that every group can be realized as the automorphism group of such a solution, and establish a classification of solutions that either preserve or interchange the components of each pair. We also characterize when two solutions arising from posets are isomorphic. Finally, for finite posets, we construct two families of involutive solutions whose automorphism groups are explicitly described in terms of the automorphisms and anti-automorphisms of the underlying posets.",
+"authors": [
+"G. Militaru"
+],
+"categories": [
+"math.QA",
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.00445v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00445v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00436",
+"title": "Subrings and cotypes of truncated polynomial rings",
+"abstract": "We study unital finite-index subrings of $R_n=\\Z[t]/(t^n)$. We compute the cubic cotype function and the quartic total and cocyclic functions at every prime, including the exceptional factors at $2$, and prove the corresponding global counting theorems in degrees three, four, and five. Explicit Hermite sums with determinantal weights give full cotype formulas for $n=4,5$, without an asserted closed rational evaluation. We extend these calculations by a linear lifting recursion for every degree and by a two-parameter description of every cocyclic subring for $n\\ge4$. The latter gives $2-2/(n-1)\\le\\alpha_n^{\\cc}\\le2$ for the global cocyclic convergence abscissa, and hence $\\alpha_n^{\\cc}\\to2$. An exact quadratic family of quintic diagonal counts gives absolute convergence of the residual Dirichlet series for $\\Rea s>19/13$. All asymptotics are obtained by elementary summation and absolutely convergent convolution.",
+"authors": [
+"Ramin Takloo-Bighash",
+"Sarthak Chimni"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00436v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00436v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-13",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18308",
+"title": "Syzygy matrices and higher extensions over string algebras",
+"abstract": "Over a finite-dimensional string algebra, higher extension dimensions may eventually vanish, become periodic, or grow without bound. We show how their behaviour can be read from a finite directed graph. Second syzygies split into uniserial modules from a finite family; their syzygies define a nonnegative integer matrix, so higher extension dimensions become weighted counts of walks. Only the part of the graph relevant to the chosen pair of modules contributes. This gives four growth regimes: eventual vanishing, periodicity, quasi-polynomial growth, and exponential growth. We derive the construction from projective covers, give explicit extension formulas over truncated cycles, and illustrate the growth regimes with examples.",
+"authors": [
+"Martin Irungu"
+],
+"categories": [
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.18308",
+"pdf": "https://arxiv.org/pdf/2611.18308",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18374",
+"title": "The $\\operatorname{Proj}$ construction for pro-graded Huber pairs",
+"abstract": "Inspired by the theory of pro-graded adic rings developed recently by Ishizuka and Yoshikawa, we introduce and study the notions of a pro-graded Huber ring and a pro-graded Huber pair \\begin{equation*}((\\mathcal{A}, \\mathcal{A}_{\\textrm{gr}}), \\mathcal{A}^{+}),\\end{equation*}which capture the intuition of a complete Huber ring (or Huber pair) equipped with a dense graded subring. Using these notions, we define and study an analog \\begin{equation*}\\operatorname{Proj}(\\mathcal{A}, \\mathcal{A}_{\\textrm{gr}}, \\mathcal{A}^{+})\\end{equation*}of the $\\operatorname{Proj}$ construction from algebraic geometry in the realm of adic spaces, without restricting our attention to adic spaces satisfying any Noetherian or finite-type assumptions. We consider gradings both by $\\mathbb{Z}$ and by $\\mathbb{Z}[1/p]$ for a fixed prime number $p$, so our $\\operatorname{Proj}$ construction recovers both classical examples such as usual adic projective space $\\mathbb{P}_{K}^{n,\\textrm{ad}}$ and infinite-type, perfectoid examples such as perfectoid projective space $\\mathbb{P}_{K}^{n,\\textrm{perfd}}$. Using GAGA, we prove that the adic analytification of any projective variety $X$ over a nonarchimedean field $K$ can be described as the adic $\\operatorname{Proj}$ of a suitable pro-graded affinoid algebra $\\mathcal{A}$. Moreover, we prove that in this case $\\dim X=\\dim \\mathcal{A}-1$. We also relate our adic $\\operatorname{Proj}$ construction to formal models.",
+"authors": [
+"Dimitri Dine"
+],
+"categories": [
+"math.AG",
+"math.AC",
+"math.NT"
+],
+"link": "https://arxiv.org/abs/2611.18374",
+"pdf": "https://arxiv.org/pdf/2611.18374",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00442",
+"title": "The Barker--Larman problem in dimension three A counterexample to the Barker--Larman problem in dimension three",
+"abstract": "We construct an origin-symmetric convex body of revolution in \\(\\R^3\\), with real-analytic boundary and positive principal curvatures, whose planar sections tangent to a concentric inner ball all have the same area. The body is nonspherical and has the same section data as a centered ball. The construction bifurcates from the unit ball at height \\(1/\\sqrt{3}\\), where degree two is the only even Legendre resonance. We construct approximate solutions to arbitrary order and correct them by a Newton iteration on nested closed parameter sets. A finite-order reduction of the linearized section operator and measure estimates for its small divisors provide the inverse bounds needed for convergence.",
+"authors": [
+"Sihan Chen"
+],
+"categories": [
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00442v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00442v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18218",
+"title": "The Chabauty--Kim dimension inequality via noncommutative Iwasawa theory",
+"abstract": "We establish Kim's conjectural dimension inequality for smooth projective geometrically connected curves $C/\\mathbb{Q}$ of genus at least two with a rational basepoint. For every odd prime $p$ of good reduction, we prove that $$\\mathrm{dim} H_f^1(G_{\\mathbb{Q},\\Sigma},U_n^\\mathrm{\\'et}) < \\mathrm{dim}(U_n^{\\mathrm{dR}}/F^0)$$ for all sufficiently large $n$, where $U_n^\\mathrm{\\'et}$ and $U_n^\\mathrm{dR}$ are the $n$'th lower central series truncations of the $\\mathbb{Q}_p$-pro-unipotent geometric \\'etale, and de Rham fundamental groups of $C$, and $\\Sigma$ is any finite set of places containing $p$, $\\infty$, and the primes of bad reduction. Inspired by Coates and Kim's work on curves with CM Jacobians, we use noncommutative Iwasawa theory to bound second Galois cohomology through dimensions of kernels of certain Iwasawa operators, acting on finite dimensional representations of the ambient generalized symplectic group. We establish bounds for these kernels in terms of the highest weight and dimension of the ambient symplectic representation. No restriction is imposed on the Jacobian's geometric endomorphism ring or its Tate-module Galois image. Consequently, the Chabauty--Kim loci are finite at all sufficiently large levels, recovering the Mordell theorem over $\\mathbb{Q}$ through the Chabauty--Kim method.",
+"authors": [
+"Sa'ar Zehavi"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.18218",
+"pdf": "https://arxiv.org/pdf/2611.18218",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2408.14695",
+"title": "The Column-Diamond Resolution over Quadratic Monomial Rings",
+"abstract": "We study infinite minimal free resolutions of modules $M = R/(x_{i_1},\\ldots,x_{i_m})$ over quadratic monomial rings $R = k[x_1,\\ldots,x_n]/I$. We introduce the Column-Diamond construction, a recursive diagrammatic procedure that builds an explicit free resolution of $M$ from columns and diamonds determined by the quadratic generators of $I$. We prove that this resolution is exact and minimal. As an application, the Betti numbers of $M$ are counted by valid words in a graph associated to $I$, which yields a combinatorial rational formula for the Poincar\\'e series.",
+"authors": [
+"Daniel Bravo",
+"Federico Castillo",
+"Nelly Villamizar"
+],
+"categories": [
+"math.AC",
+"math.KT"
+],
+"link": "https://arxiv.org/abs/2408.14695",
+"pdf": "https://arxiv.org/pdf/2408.14695",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00450",
+"title": "The inductive Alperin–McKay condition for $G_2(q)$ and ${}^3D_4(q)$",
+"abstract": "We verify the inductive Alperin–McKay condition for $G_2(q)$ ($q\\geq3$) and ${}^3D_4(q)$ ($q\\geq2$) at every odd prime.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RT",
+"math.GR"
+],
+"link": "https://hexagonmath.org/abs/2611.00450v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00450v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18357",
+"title": "The Moduli of Canonical Threefolds of Minimum Volume",
+"abstract": "We determine the moduli space of complex projective canonical threefolds of volume $1/420$. It consists of an irreducible rational component of dimension $33$ and two isolated points, represented by the explicitly constructed rigid threefolds Vega and Altair.",
+"authors": [
+"Pinxian Bie",
+"Peien Du",
+"Zhengjie Yu"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.18357",
+"pdf": "https://arxiv.org/pdf/2611.18357",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17719",
+"title": "The non-stationary $\\widehat{\\mathfrak{gl}}_N$ affine Laumon function and its difference equation",
+"abstract": "We present an explicit $q$-Givental type formula for the $\\widehat{\\mathfrak{gl}}_N$ non-stationary affine relativistic Toda or affine Laumon function introduced by Shiraishi. We prove the conjecture of [J. Shiraishi, Affine screening operators, affine Laumon spaces and conjectures concerning non-stationary Ruijsenaars functions. J. of Int. Systems, 4 (2019)], that this function obeys a non-stationary difference equation involving an operator $\\widehat{\\mathcal T}$, which represents a quiver automorphism (Dehn twist) of the quantum cluster algebra of the affine $A_{N-1}^{(1)}$ Q-system.",
+"authors": [
+"Philippe Di Francesco",
+"Rinat Kedem"
+],
+"categories": [
+"math-ph",
+"math.MP",
+"math.QA",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.17719",
+"pdf": "https://arxiv.org/pdf/2611.17719",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00491",
+"title": "The reciprocal cube sums of Lucas sequences of quadratic units are irrational",
+"abstract": "Let $\\eta>1$ be a unit of a real quadratic order and $U_n=(\\eta^n-\\bar\\eta^n)/(\\eta-\\bar\\eta)$ its Lucas sequence. We prove that $\\sum_{n\\ge1}U_n^{-3}$ is irrational. Equivalently, $\\sum_{n\\ge1}U_n(P,Q)^{-3}\\notin\\mathbb{Q}$ for the Lucas sequences with $Q=-1$, $P\\ge1$, and with $Q=1$, $P\\ge3$. In particular the sums of the reciprocal cubes of the Pell numbers and of the numbers $F_{kn}$, for every $k\\ge1$, are irrational. The case of the Fibonacci numbers was treated in earlier work of the author; the proof here is the same Hankel-determinant construction, carried out for a general unit and for both signs of its norm. The constants of the argument do not depend on $\\eta$ once they are measured in units of $\\log\\eta$. The whole argument is formalised in Lean 4 with Mathlib.",
+"authors": [
+"Shawn Krisman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00491v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00491v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00473",
+"title": "The sum of the reciprocal cubes of the Fibonacci numbers is irrational",
+"abstract": "We prove that $\\zeta_F(3)=\\sum_{n\\ge1}F_n^{-3}$ is irrational, where $F_n$ are the Fibonacci numbers. To our knowledge the only odd value of the Fibonacci zeta function previously known to be irrational was $\\zeta_F(1)$. The proof is a Hankel-determinant construction over $\\mathbb{Z}[\\varphi]$, $\\varphi=(1+\\sqrt5)/2$, adapted from a recent unrefereed construction for the $q$-zeta value $\\sum n^2/(p^n-1)$ at integers $p\\ge2$. Four estimates are combined: a real decay of size $\\exp(-\\tfrac29K^3\\log\\varphi)$, a smallness $\\exp(-K^3\\log\\varphi)$ at the Galois conjugate, which replaces the base-prime content gain of the integer case, local cyclotomic denominator bounds at the twisted roots of unity that occur, and nonvanishing by rational interpolation. The whole argument is formalised in Lean 4 with Mathlib.",
+"authors": [
+"Shawn Krisman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00473v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00473v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2509.05894",
+"title": "Toric geometry of ReLU neural networks",
+"abstract": "Given a continuous piecewise linear function $f:\\mathbb{R}^{n_0} \\to \\mathbb{R}$ and a fixed architecture of feedforward ReLU neural networks, the exact function realization problem asks when a network of that architecture realizes $f$. In contrast, expressivity concerns characterizing all functions exactly realizable by a given architecture. To address these questions systematically, we establish a connection between toric geometry and ReLU neural networks, allowing tools from algebraic geometry to analyze the structures. Starting with an unbiased ReLU network with rational weights, we define the ReLU fan, the ReLU toric variety, and the ReLU Cartier divisor associated with the network. This work also relates the tropical and the toric geometry: the former captures combinatorial data of ReLU networks, while the latter recovers the underlying geometric structure. As an application, we obtain a complete characterization of the functions realizable by unbiased shallow ReLU networks with rational weights. The characterization is expressed in terms of intersection numbers of ReLU Cartier divisors with torus-invariant curves and leads to a decomposition of piecewise-linear functions into shallow and non-shallow components.",
+"authors": [
+"Yaoying Fu"
+],
+"categories": [
+"math.AG",
+"cs.LG",
+"stat.ML"
+],
+"link": "https://arxiv.org/abs/2509.05894",
+"pdf": "https://arxiv.org/pdf/2509.05894",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17380",
+"title": "Toward a Holographic Representation Theory of the Bosonic de Sitter Discrete Series",
+"abstract": "We propose a program toward a holographic representation theory of the non-scalar bosonic discrete series $\\Pi^\\pm_{p,q}$, $p,q\\in\\mathbb{N}$, $1\\leqslant q\\leqslant p$, of the de Sitter ($\\mathrm{dS}_{4}$) group $G=\\mathrm{SO}_0(1,4)$. The proposal exploits two complementary realizations of the same unitary irreducible representation (UIR): a bounded-domain realization on an open ball $\\mathbb{B}$ modeling the hyperbolic space $G/\\mathrm{SO}(4)$, with $\\partial\\mathbb{B}\\simeq\\mathbb{S}^{3}$, and a covariant spacetime realization on $\\mathrm{dS}_{4}$, with conformal boundaries $\\mathscr{I}^{\\pm}\\simeq\\mathbb{S}^{3}$, in which the physical UIR is obtained through the corresponding gauge reduction. This leads to two boundary constructions and an explicit compatibility problem,\n  \\begin{align*}\n  \\mathbb{B}\n  \\;\\overset{?\\mathrm{hol}}{\\longleftrightarrow}\\;\n  \\partial\\mathbb{B}\\simeq\\mathbb{S}^{3}\n  \\quad\\overset{?}{\\simeq}\\quad\n  \\mathscr{I}^{\\pm}\\simeq\\mathbb{S}^{3}\n  \\;\\overset{?\\mathrm{hol}}{\\longleftrightarrow}\\;\n  \\mathrm{dS}_{4} \\,.\n  \\end{align*}\n  The two outer problems seek explicit intertwiners between the bulk and boundary realizations, with their invariant norms, constraints, and physical quotients properly identified. The middle problem asks how to construct and normalize a unitary intertwiner between the two boundary realizations once both have been shown to carry the same UIR. The bounded picture exposes the unitary and harmonic structure of the representation, while the spacetime picture makes its covariant and gauge-theoretic structure manifest, allowing the two constructions to constrain and illuminate one another. The established scalar family $\\Pi_{p,0}$, $p\\in\\mathbb{N}$, with its spherical realization on $\\mathbb{S}^{3}$, provides the guiding prototype. Particular attention is given to ...",
+"authors": [
+"Maryam Bajalan",
+"Jean-Pierre Gazeau",
+"Hamed Pejhan"
+],
+"categories": [
+"math-ph",
+"hep-th",
+"math.MP",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2611.17380",
+"pdf": "https://arxiv.org/pdf/2611.17380",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00497",
+"title": "Towards a conformal field theory of critical percolation. I. The bulk stress tensor and Ward identities.",
+"abstract": "We construct joint correlations of the bulk holomorphic stress tensor and the density field for critical site percolation on the triangular lattice, allowing any fixed finite numbers of insertions at separated points in the plane. Density correlations encode open-cluster connections; their two-point function is the renormalized probability that an open path joins two marked sites. Each stress insertion probes the directional response of these connections by closing and rotating a small ellipse and extracting the second angular component. To justify this construction, we extend Camia’s existence and conformal covariance results for density correlations from simply connected domains to the domains with finitely many analytic holes created by the ellipses, and prove uniform bounds for combining these correlations with the local ellipse responses. The main estimate controls the complete frontier record: the second angular coefficient has a comparable-scale defect of order (r/d)^(9/4), giving a Cauchy exponent 1/4 after quadratic normalization. The limits require no radius averaging, are distributions in the density coordinates, and are independent of the fixed ellipse shape parameters. They satisfy the conformal Ward identities with central charge zero and yield sequential stress-collision and contour identities.",
+"authors": [
+"Alberto Gandolfi"
+],
+"categories": [
+"math.PR",
+"math.MP",
+"math.QA",
+"math-ph",
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00497v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00497v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18289",
+"title": "Transforming local positivity: from minimal valuations to irrational Seshadri constants",
+"abstract": "We explain how a valuative Nagata type statement proposed by Dumnicki, Harbourne, K\\\"uronya, Ro\\'e and Szemberg on a polarised surface $(S, H)$ implies maximality (and hence often irrationality) of Seshadri constants on simple cyclic covers.\n  As sample applications we show that very general degree two K3 surfaces and very general hypersurfaces in $\\mathbb P^3$ of degree $6$, $8$ or $d\\geq 10$ have irrational Seshadri constant at a very general point, unless $d$ is a square.",
+"authors": [
+"S\\\"onke Rollenske"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.18289",
+"pdf": "https://arxiv.org/pdf/2611.18289",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.18047",
+"title": "Twisted Fourier-Mukai partners of genus 1 curves",
+"abstract": "We study twisted derived equivalence between genus 1 curves over an arbitrarly perfect field.",
+"authors": [
+"Tanya Kaushal Srivastava",
+"Sofia Tirabassi",
+"Na\\\"ia Vivares"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://arxiv.org/abs/2611.18047",
+"pdf": "https://arxiv.org/pdf/2611.18047",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00464",
+"title": "Undistillability of Werner states from three, four and five copies",
+"abstract": "Whether every entangled state with a non-positive partial transpose (NPT) can be distilled is a long-standing open problem of entanglement theory. It reduces to the Werner states $\\rho(d,\\alpha)$, which for $d\\ge3$ and $-1/2\\le\\alpha<-1/d$ are NPT but cannot be distilled from one copy; if one of them stays undistillable from every number of copies, NPT bound entanglement exists. We prove that for every $d\\ge3$ the state $\\rho(d,\\alpha)$ is three-copy distillable if and only if $\\alpha<-1/2$, the threshold known for one and two copies, so a third copy does not help. In every dimension we also prove four-copy undistillability for $\\alpha\\ge-79/160$ and five-copy undistillability for $\\alpha\\ge-9/20$, and improved bounds of order $1/k$ for $k\\ge6$ copies. The proofs use a criterion of Costa Rico and computer-verified certificates for quartic moment relaxations that hold for all large dimensions at once; for many copies they combine the resulting inequalities with known partial-trace inequalities. Whether $-1/2$ remains the threshold from four copies on is open.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"quant-ph",
+"math-ph",
+"math.FA",
+"math.OC"
+],
+"link": "https://hexagonmath.org/abs/2611.00464v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00464v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2511.15876",
+"title": "Universal TT- and TQ-relations via centrally extended q-Onsager algebra",
+"abstract": "Let $A_q$ be the alternating central extension of the q-Onsager algebra, a comodule algebra over the quantum loop algebra of $sl_2$. We classify one-dimensional representations of $A_q$, and show that spin-j K-operators constructed in arXiv:2301.00781 act as K-matrices previously obtained in the literature. Using these K-operators and K-matrices, we construct universal spin-j transfer matrices generating commutative subalgebras in $A_q$. Within a technical conjecture, we derive their fusion hierarchy, the so-called universal TT-relations. On spin-chain representations of $A_q$, we show how the universal transfer matrices evaluate to spin-chain transfer matrices, and as a result we get explicit TT-relations for all values of spins for auxiliary and quantum spaces, any inhomogeneities, and general integrable boundary conditions. In particular, we derive previously conjectured TT-relations. Using the TT-relations, we show that n-th local conserved quantities of the spin-j chains of length N are polynomials of total degree 4Njn in two non-local operators of the q-Onsager algebra. As a result, we give an algorithm of explicit calculation of all local conserved quantities in terms of spin operators. Furthermore, using the universal TT-relations we derive exchange relations between spin-j Hamiltonians and the two non-local operators showing non-trivial symmetries for special boundary conditions, that they commute with all Hamiltonian densities. As another application of our universal TT-relations we propose universal T-system, Y-system and universal TQ-relations for $A_q$, and as a result, universal TQ for the q-Onsager algebra. For diagonal boundary conditions, we also obtain universal TT- and TQ-relations for a degenerate version of $A_q$ known as centrally extended augmented q-Onsager algebra. We finally discuss implications of our results for generalized Gibbs ensemble construction.",
+"authors": [
+"Pascal Baseilhac",
+"Azat M. Gainutdinov",
+"Guillaume Lemarthe"
+],
+"categories": [
+"math.QA",
+"cond-mat.stat-mech",
+"math-ph",
+"math.MP",
+"math.RT"
+],
+"link": "https://arxiv.org/abs/2511.15876",
+"pdf": "https://arxiv.org/pdf/2511.15876",
+"source": "arxiv",
+"announce": "replace-cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [
+"abstract: comodule"
+],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00487",
+"title": "Unramified multiplicity one spherical pairs",
+"abstract": "Let $p$ be an odd prime and let $k$ be a finite extension of $\\mathbb{Q}_{p}$. We study the distinction between multiplicity one for unramified representations and multiplicity one for irreducible unitary representations. We prove that (G2, SL3) has the former property but not the latter. The unramified multiplicity one assertion uses spherical functions and the spherical Hecke module. For the failure of multiplicity one property, we use Weil representations and theta lifting to obtain an irreducible unitarizable representation with at least two independent SL3(k)-invariant linear forms.",
+"authors": [
+"Rui Chen"
+],
+"categories": [
+"math.RT",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00487v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00487v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00471",
+"title": "Upper and lower bounds for the Schur–Siegel–Smyth trace problem",
+"abstract": "The Schur–Siegel–Smyth trace constant $C_{86}$ is the lower limit of $\\operatorname{tr}(\\alpha)/\\deg(\\alpha)$ over totally positive algebraic integers $\\alpha$. We prove $1.8022225<C_{86}<1.8070809$. For the upper bound we exhibit a measure on $[0,6]$ that satisfies the hypotheses of Smith's theorem on limits of distributions of conjugates, which we check with the help of $21$ integer polynomials. This improves the upper bounds $1.8216$ of Orloski and Talebizadeh Sardari and $1.8117251$ of Pinho. The lower bound comes from the method of Orloski, Talebizadeh Sardari and Smith with fifteen polynomials, three of them of degree $10$ found by McKee and Smyth. It is larger than the bound $1.80220$ reported by Giraudin, whose verification evaluates its bounds in floating-point arithmetic with fixed safety margins; ours encloses every rounding error. For each bound, two separately written programs check the certificate in ball arithmetic. Both bounds are also proved in Lean 4, the upper bound under the assumption of Smith's theorem, also in a version in which all checks on the certificates are carried out by Lean's kernel. We also give evidence that certificates of this kind cannot lower the upper bound much further without integer polynomials of high degree.",
+"authors": [
+"Tejasvi Singh Tomar"
+],
+"categories": [
+"math.NT",
+"math.CV",
+"math.NA",
+"math.OC"
+],
+"link": "https://hexagonmath.org/abs/2611.00471v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00471v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17647",
+"title": "Vector bundles on spin K\\\"ahler surfaces and the multi-spinor Seiberg-Witten equations",
+"abstract": "We compute new lower bounds on the second Chern class of a vector bundle $\\mathscr{E}$ on a spin K\\\"ahler surface $X$ that satisfies $c_1(\\mathscr{E}) = 0$ and $H^2(\\text{End}_0\\mathscr{E}) = 0.$ When $X$ is a regular elliptic surface and $\\mathscr{E}$ has rank 2, our bound is sharp. Our technique is to use Furuta's finite-dimensional approximation on the multi-spinor Seiberg-Witten equations, together with their algebro-geometric interpretation by the second named author. We also use these techniques to prove an existence theorem for singular Fueter sections and multi-spinor Seiberg-Witten solutions that holds for every Riemannian metric on a large class of 4-manifolds.",
+"authors": [
+"Minh Lam Nguyen",
+"Ollie Thakar"
+],
+"categories": [
+"math.AG",
+"math.DG",
+"math.GT"
+],
+"link": "https://arxiv.org/abs/2611.17647",
+"pdf": "https://arxiv.org/pdf/2611.17647",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00449",
+"title": "Vector Packing and Sharp Bounds for Matrices of Bounded Rank",
+"abstract": "We prove a packing theorem in real and complex normed spaces. Given a possibly infinite family of vectors $(v_j)$ whose span has finite dimension $r\\ge1$, let $M$ be the supremum of the norms of its finite linear combinations with coefficients of modulus at most one. If $M$ is finite, the family splits into $r$ nonempty sets, each with sum of norms at most $M$. The same partition works for every norm on the span, using that norm's value of $M$. We also determine exactly which finite lists of nonnegative numbers can be realized as the norms of a family of capacity one in some normed space of dimension at most $k$. We also obtain sharp rank-dependent bounds for products of the moduli of the entries on generalized diagonals and the permanent of the entrywise modulus, extending the known nonnegative-matrix bounds to real and complex matrices. The packing theorem also gives sharp support and entropy bounds for doubly stochastic matrices of bounded rank.",
+"authors": [
+"Yair Lavi"
+],
+"categories": [
+"math.CO",
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2611.00449v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00449v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-14",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00493",
+"title": "Vieta invariants and Markoff–Hurwitz orbits",
+"abstract": "We classify rational Vieta invariants for Guéritaud's family in characteristic zero, including every nonzero fiber. For each positive integer coefficient and each dimension residue class, we construct infinitely many Markoff–Hurwitz equations with infinitely many maxima shared by at least any prescribed number of distinct positive integer orbits.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00493v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00493v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.17496",
+"title": "Wasserstein geometry of analytic cycle spaces",
+"abstract": "We use optimal transport to define an intrinsic distance on connected components of the Barlet space of analytic cycles on a compact K\\\"ahler manifold, by associating to each cycle its normalized volume measure. We prove that any two cycles in the same connected component can be joined by a deformation of finite Wasserstein length, and that the resulting metric is complete and geodesic. On the locus of smooth reduced cycles at regular parameter points, Wasserstein lengths and energies coincide with those of the normalized Weil--Petersson metric. The construction thus gives a transport interpretation of Weil--Petersson geometry and extends beyond it to components containing no smooth reduced cycles.",
+"authors": [
+"Fabio Cavalletti",
+"Lorenzo Cecchi",
+"Antonio Lerario"
+],
+"categories": [
+"math.DG",
+"math.AG",
+"math.MG"
+],
+"link": "https://arxiv.org/abs/2611.17496",
+"pdf": "https://arxiv.org/pdf/2611.17496",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2603.28745",
+"title": "Weakly special varieties, Campana stacks, and Remarks on Orbifold Mordell",
+"abstract": "We construct the first weakly special surfaces that are not Campana-special, including the complement of the plane curve $x^2y^3 = 1$ in $\\mathbb{A}^2$. We prove that the set of $\\mathcal{O}_{K,S}$-integral points on this surface is non-dense for every number field $K$ and finite set $S$ of finite places of $K$ if and only if Campana's Orbifold Mordell conjecture holds for $(\\mathbb{G}_m, \\tfrac{1}{2}[1])$. This basic example carries a natural $\\mathbb{G}_m$-action, and the quotient stack is an Artin stack parametrizing points on a C-pair. This leads to the introduction of \"Campana stacks\", which encode morphisms of C-pairs in a manner analogous to the role of root stacks for integral points satisfying prescribed divisibility conditions.",
+"authors": [
+"Finn Bartsch",
+"Ariyan Javanpeykar"
+],
+"categories": [
+"math.AG",
+"math.NT"
+],
+"link": "https://arxiv.org/abs/2603.28745",
+"pdf": "https://arxiv.org/pdf/2603.28745",
+"source": "arxiv",
+"announce": "replace",
+"date": "2026-11-16",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
