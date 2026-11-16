@@ -1,6 +1,6 @@
 {
 "day": "2026-11-16",
-"updated": "2026-11-16T16:58:19+00:00",
+"updated": "2026-11-16T19:47:22+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -223,6 +223,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00510",
+"title": "A DETAILED FINITE-CARRY PROOF OF A CONJECTURE ON PERMUTATION BINOMIALS IN CHARACTERISTIC TWO",
+"abstract": "Let q = 2m, where m ≥ 5 is odd and 3 | m. Tu, Zeng, Jiang and Li formulated a conjecture asserting that if a family of Hermite-type sums Sr,α(y), attached to the binomial xr(a+ x3(q−1)), vanishes for every α with 3 | (1 + α), then y3 = 1. We give a detailed proof, including all exceptional and boundary cases. In fact, seven indices suffice: α ∈ {2,8,14,20,26,32,38}. The first two indices reduce a hypothetical counterexample to a primitive seventh root of unity. Lucas’s theorem then turns the remaining equations into six-bit conditions, and an explicit finite carry elimination completes the proof. The paper records the complete residue tables, their derivation, and a short SageMath verification certificate.",
+"authors": [
+"yi li"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00510v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00510v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.17844",
 "title": "A Helly theorem for the Bruhat-Tits building",
 "abstract": "Let $K$ be a discretely valued field with valuation ring $\\mathcal{O}$. We show that a finite family of $\\mathcal{O}$-lattices in $K^m$ is adapted to a common basis if any subfamily of at most $m+1$ $\\mathcal{O}$-lattices is. In other words, in the Bruhat-Tits building of $\\operatorname{GL}(m)$, a finite family of simplices lies in a common apartment if and only if any subfamily of at most $m+1$ simplices does. The proof uses a version of Radon's theorem for $\\mathcal{O}$-lattices. We also give an alternative proof using truncated modules.",
@@ -242,6 +263,27 @@
 "announce": "new",
 "date": "2026-11-16",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00515",
+"title": "A lower bound 0.11096505 for Romanoff's constant",
+"abstract": "Let d be the lower density of the integers of the form p + 2^a with p prime and a >= 1. We prove d >= 0.11096505, unconditionally. The previous best unconditional bound is d >= 0.110825, due to Tomar. The proof is Tomar's method, with the same analytic inputs, applied to a different modulus of the same period 27720; the bound is certified in exact rational arithmetic by Tomar's checking program, with changes that only make the computation faster and that we verify against the original program.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00515v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00515v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -360,6 +402,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00516",
+"title": "A narrower admissible 234 360 000-tuple and H_5 <= 4 891 341 734",
+"abstract": "Let H_m = liminf (p_{n+m} - p_n). Kapila proved DHL[234360000,6] and deduced H_5 <= 5040082836, the diameter of the tuple formed by the 234360000 smallest primes larger than 234360000. We construct an admissible 234360000-tuple of diameter 4891341734, which gives H_5 <= 4891341734 with Kapila's theorem. The tuple consists of +-1 and of +-q for primes q in a symmetric window, with 1746831 primes removed; its admissibility is checked by two independent programs.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00516v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00516v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.17536",
 "title": "A new tautological relation on $\\overline{\\mathcal{M}}_{2,14}$ in cohomology",
 "abstract": "We construct a relation $\\mathsf{Q}$ in the cohomological tautological ring $\\mathsf{RH}^*(\\overline{\\mathcal{M}}_{2,14})$ which lies outside the space of $3$-spin relations. $\\mathsf{Q}$ is a simple linear combination of pure boundary strata classes of codimension 9 supported on the divisor $\\Delta_0 \\subset \\overline{\\mathcal{M}}_{2,14}$ of irreducible nodal curves, and transforms according to the irreducible representation of $\\Sigma_{14}$ associated to the partition $(2^7)$. The result shows that the set of $3$-spin relations cannot be complete in cohomology. Motivic conjectures relating algebraic cycles to special values of $L$-functions suggest that $\\mathsf{Q}$ is nonzero in Chow. More precisely, we prove that the Chow nonvanishing of $\\mathsf{Q}$ follows from a conjecture of Harder concerning the failure of the Manin--Drinfeld principle in genus 2.\n  We prove that $\\mathsf{Q}$ vanishes in cohomology by pairing with generators of the tautological ring. To prove $\\mathsf{Q}$ is not in the set of $3$-spin relations requires an argument involving the $\\Sigma_{14}$-representation-theoretic properties of the $3$-spin relations and the cohomology of local systems on $\\mathcal{A}_2$ and $\\mathcal{M}_2$. Parallel constructions for other moduli spaces $\\overline{\\mathcal{M}}_{g,n}$ are discussed in the paper. There are many open questions.",
@@ -458,6 +521,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00506",
+"title": "A uniform 7/48 cubic upper bound for reset thresholds",
+"abstract": "We prove that every complete synchronizing deterministic finite automaton $A$ with $n$ states satisfies $\\operatorname{rt}(A)\\le\\frac{7}{48}n^3+o(n^3)$, uniformly over the automaton and its finite alphabet. The coefficient is the milestone proposed in Trahtman's 2011 half-rank approach. The argument fixes a short word whose kernel is stable over a dyadic length interval. Degree transport in the graphs of pairs mergeable by short words, combined with a simultaneous selection of times of small degree growth, gives a compression bound for every sufficiently large subset of states. The bound remains available after replacing the current word. We combine it with the cheap-gap construction and the Pin--Frankl rank upgrade: the cost of reaching half rank is paid by a saving in the subsequent rank reductions. The required scalar comparison has an elementary analytic proof over its entire parameter domain. An explicit two-parameter estimate proves uniformity and extends the result from strongly connected automata to arbitrary complete synchronizing automata. The full theorem, including the word constructions used as classical inputs, has also been formalized in Lean 4.",
+"authors": [
+"SUNGBIN HONG"
+],
+"categories": [
+"cs.FL",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00506v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00506v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.17694",
 "title": "Admissible Yang--Baxter equation for Nijenhuis perm superalgebras",
 "abstract": "We develop a superization of the theory of admissible Yang--Baxter equations for Nijenhuis perm algebras initiated by Ma and Song. We introduce Nijenhuis perm superalgebras, their representations, and the dual representation, with Koszul signs chosen so that the contraction of the Yang--Baxter tensor matches the $\\mathcal O$-operator equation exactly. We define Nijenhuis perm superbialgebras and characterise them by matched pairs. In the coboundary case, we show that every even supersymmetric solution of the $S$-admissible perm Yang--Baxter equation gives rise to a Nijenhuis perm superbialgebra, and we give sufficient conditions for a perm superalgebra to admit a Nijenhuis operator constructed from such a solution. Examples with purely odd components illustrate the role of the grading.",
@@ -519,6 +604,28 @@
 "announce": "new",
 "date": "2026-11-15",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00508",
+"title": "An Algebraic Proof of Hilbert Nullstellensatz over Rationals",
+"abstract": "We, with the aid of AI, prove a finite approximate form of the weak Nullstellensatz over the Gaussian rationals: Let $f_1,\\ldots,f_m$ be polynomials in $n$ variables with rational complex coefficients. If there are no polynomials $g_1,\\ldots,g_m$ in the same variables with rational complex coefficients such that $1=g_1f_1+\\cdots+g_mf_m$. (A finite Gr\\\"obner basis computation decides whether such polynomials exist.), then, for any positive rational number $\\varepsilon$, there exists a pont $z$ with $n$ rational complex coordinates such that \\[ \\sum_{j=1}^{m}\\N(f_j(z))<\\varepsilon^2, \\] where $\\N(a+ib)=a^2+b^2$. The proof is constructive and relis only on finite rational arithmetics without using real numbers or infinite sets concepts, and extends authors' earlier one-vaiable result on Fundemental Theorem of Algerba to several-varaibles case.",
+"authors": [
+"liang zhang",
+"Xiaohua(Michael) Xuan"
+],
+"categories": [
+"math.GM"
+],
+"link": "https://hexagonmath.org/abs/2611.00508v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00508v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -937,6 +1044,30 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00507",
+"title": "Closed-Form Adiabatic Asymptotics of the Solution of the Amsler Equation",
+"abstract": "We consider the regular solution \\(y(x;s)\\) of the Amsler equation \\((xy')'=\\sin y\\), \\(y(0)=\\pi s\\), \\(y'(0)=\\sin\\pi s\\), with \\(s\\in(0,1)\\), and prove that as \\(x\\to\\infty\\) it is approximated, with accuracy \\(O(\\tau^{-5/2})\\) for \\(\\tau=2\\sqrt{x}\\), by an explicit closed-form adiabatic ansatz \\(y_{\\rm ad}\\): a libration of the pendulum \\(w''+\\sin w=0\\) (\\(w=y-\\pi\\)) whose parameter \\(m_0(\\tau)\\) is determined by the adiabatic invariant \\(\\tau\\,\\ell(m_0)=\\pi\\nu\\), where \\(\\ell(m)=E(m)-(1-m)K(m)\\) and \\(\\nu=\\pi^{-1}\\ln\\csc\\frac{\\pi s}{2}\\), and whose phase is \\(\\Phi=\\tau f(m_0)+\\Theta_0-\\frac{1}{8\\tau}\\) with \\(f(m)=E(1-m)-mK(1-m)\\) and \\(\\Theta_0=C_2+\\nu(1+\\ln\\frac{8}{\\nu})\\); explicitly, \\(y_{\\rm ad} x)=\\pi+2\\arcsin\\!\\bigl(\\sqrt{m_0}\\,\\mathrm{sn}\\bigl(\\tfrac{2K(m_0)}{\\pi}\\Phi\\,\\big|\\,m_0\\bigr)\\bigr)\\). The proof combines elementary adiabatic analysis of the damped pendulum (residual estimates, absence of low-order resonances, an approximate fundamental system) with two external inputs stated explicitly: Maevsky's asymptotics for \\(y\\) and the Its--Novokshenov/Kitaev connection formula for the sine-Gordon (\\(D_8\\)) reduction of the Painlev\\'e III equation. The matching of the two determines the amplitude and phase constants in closed form, \\(C_1=\\sqrt{8\\nu}\\), \\(C_2=\\frac{5\\pi}{4}+\\arg\\Gamma(1+i\\nu)-3\\nu\\ln2\\); in particular, the result is a closed-form description of the large-\\(x\\) behaviour of every regular solution (up to the symmetries \\(y\\mapsto-y\\), \\(y\\mapsto y+2\\pi\\)), conditional on the two external inputs and with no fitting parameters.",
+"authors": [
+"Anton Kalmykov"
+],
+"categories": [
+"math.CA",
+"math.MP",
+"cs.MS",
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00507v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00507v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00455",
 "title": "Colossally Abundant Numbers and Nicolas' Second Criterion",
 "abstract": "Robin's criterion states that the Riemann Hypothesis holds if and only if $\\sigma(n) < e^{\\gamma} n \\log\\log n$ for every $n > 5040$. Nicolas' second criterion, in the form given by Broughan, states that it holds if and only if $n/\\varphi(n) < e^{\\gamma} \\log\\log n + e^{\\gamma}(2 + \\tau)/\\sqrt{\\log n}$ for every $n \\geq N_{120569}$, where $N_{k}$ is the $k$-th primorial and $\\tau = 2 + \\gamma - \\log(4\\pi)$; for $N_{k}$ this inequality reads $c(p_{k}) < E(p_{k})$. Let $N$ be a colossally abundant number, let $q = p_{k}$ be the largest prime not exceeding the number $\\xi(N)$ associated with $N$ by Nicolas, and write $\\Delta(N) = \\log(\\sigma(N)/N) - \\gamma - \\log\\log\\log N$. For $\\log q \\geq 31$ we prove unconditionally that $1.317/(\\sqrt{q}\\log^{2} q) \\leq \\Delta(N) - c(q) + E(q) + (2\\sqrt{2} - 2 - \\tau)/(\\sqrt{q}\\log q) \\leq 3.973/(\\sqrt{q}\\log^{2} q)$. Consequently, the second inequality for $N_{k}$ implies $\\Delta(N) < -0.654/(\\sqrt{q}\\log q)$. We also prove that the primorials are the extremal cases of the second inequality, and that if it holds for every $N_{k}$ with $e^{31} \\leq p_{k} \\leq X$, then Robin's inequality holds for every $n > 5040$ with $\\log n \\leq X(1 - \\log^{-3} X) - \\log X$. A computation over the primes up to $X = 100{,}000{,}008{,}765{,}439$ verifies this hypothesis, so Robin's inequality holds unconditionally for $5040 < n \\leq 10^{10^{13.6377}}$. To the author's knowledge, this is the largest range for which Robin's inequality has been verified: it extends the range $5040 < n \\leq 10^{10^{13.11485}}$ of Morrill and Platt.",
@@ -975,6 +1106,30 @@
 "announce": "new",
 "date": "2026-11-15",
 "ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00514",
+"title": "Consecutive primes at distance 122,290",
+"abstract": "We exhibit two consecutive primes whose difference is exactly $122\\,290$. Both primes have $8\\,262$ decimal digits. Every integer strictly between them has a prime divisor at most $32\\,467$. We give the covering argument and the elliptic-curve criterion that certify the result. The proof is computer-assisted and uses finite arithmetic checks to establish endpoint primality and the compositeness of every interior integer.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00514v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00514v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2065,6 +2220,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00509",
+"title": "Pair correlation of $L$-zeros and Hooley's conjecture",
+"abstract": "In this article, we study the form factor for zeros of Dirichlet $L$-functions, pairing zeros of the same $L$-function and then averaging over primitive characters modulo a prime conductor. Unconditionally, we show for $|\\alpha|<1$ that the form factor agrees with the random matrix prediction from the Circular Unitary Ensemble (CUE). Under GRH and the Hardy--Littlewood twin primes conjecture, we extend this agreement to $|\\alpha|<2$. For $|\\alpha|\\ge1$, we prove that the CUE prediction is equivalent to Hooley's conjecture for the variance of primes in arithmetic progressions with prime moduli. We also explore applications of these form-factor results to the simplicity of zeros.",
+"authors": [
+"Travor Zihao Liu"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00509v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00509v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00448",
 "title": "Points from Processes: Vakarelov’s Dynamic Mereotopology and Whitehead’s Point-Free Program",
 "abstract": "Whitehead held that neither points of space nor instants of time should be primitive: both ought to be definable from relations between material things. Region-based theories of space have largely carried out the spatial half of this program, but the temporal half has remained informal. This paper offers an expository and philosophical account of Dimiter Vakarelov’s dynamic mereotopology, developed in five papers between 2010 and 2016, which aims at a theory of space and time that is point-free in this double sense. We argue that the program is best read as a staged realization of Whitehead’s demand. Each stage enriches the primitive spatio-temporal relations between changing regions just enough to recover a further layer of temporal structure: first moments without order, then an ordered time, and finally nameable, spatially non-trivial epochs. The staging culminates in a structural result Whitehead anticipated but never formalized: points of space and points of time turn out to be different aggregations of one and the same stock of abstract atoms. We also argue that the representation theorems on which the program rests deliver a reconstruction, rather than a reduction, of points, and that reconstruction is what Whitehead’s program requires.",
@@ -2653,6 +2829,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00518",
+"title": "The dimension-free symmetric Gaussian isoperimetric profile: finite attainment and critical rank",
+"abstract": "We determine the infimum of Gaussian perimeter over centrally symmetric sets when the ambient dimension is allowed to vary. The answer is the lower envelope of the perimeters of centered balls and their complements. At every mass other than one half the infimum is attained in finite dimension, proving the finite-attainment conjecture stated by Heilman. Every attaining ball rank is at most $1/(2|a-1/2|^2)$. At mass one half the value is $1/\\sqrt\\pi$ and no finite-dimensional centrally symmetric set attains it. Every optimal ball rank satisfies $k|a-1/2|^2\\to1/(9\\pi)$ as $a\\to1/2$. The profile has expansion $\\pi^{-1/2}-(3\\sqrt\\pi/2)|a-1/2|^2+O(|a-1/2|^4)$, and it yields the sharp even Gaussian Cheeger inequality. The geometric input is Viana's classification of isoperimetric regions in real projective spaces. The additional step is a stability estimate that controls the smaller of the two spherical ranks away from half volume and identifies the only regime in which both ranks can escape to infinity.",
+"authors": [
+"Sihan Chen"
+],
+"categories": [
+"math.DG"
+],
+"link": "https://hexagonmath.org/abs/2611.00518v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00518v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00450",
 "title": "The inductive Alperin–McKay condition for $G_2(q)$ and ${}^3D_4(q)$",
 "abstract": "We verify the inductive Alperin–McKay condition for $G_2(q)$ ($q\\geq3$) and ${}^3D_4(q)$ ($q\\geq2$) at every odd prime.",
@@ -2717,6 +2914,28 @@
 "announce": "cross",
 "date": "2026-11-16",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00511",
+"title": "The planar data-selection constants $F(2,n)=2n/(2n-1)$, including $F(2,3)=6/5$ and $F(2,2)=4/3$",
+"abstract": "For a finite multiset $D\\subset\\mathbb{R}^2$ let $L_D^*$ be the least mean squared distance from a point to $D$, and let $L_D^*(n)$ be the least such loss attained at the average of $n$ points selected from $D$ with repetition. Hanneke, Moran, Shlimovich and Yehudayoff asked for $F(d,n)=\\sup_D L_D^*(n)/L_D^*$. We prove $F(2,n)=2n/(2n-1)$ for every $n\\ge2$: every finite planar multiset satisfies $L_D^*(n)\\le\\frac{2n}{2n-1}L_D^*$, with equality for $2n-1$ copies of $(0,0)$ and one copy of $(1,0)$. In particular $F(2,3)=6/5$, and $F(2,2)=4/3$ receives a short proof. The proof reduces to three support points by a mean-preserving Carathéodory argument and then exhibits an explicit random selection of $n$ support points, supported on one small triangle of the selection grid, whose second moment about the population weights is dominated by $\\frac{1}{2n-1}$ times the categorical covariance. For $n\\in\\{2,3\\}$ we also give random selections attaining this second moment exactly.",
+"authors": [
+"Samuil Petkov"
+],
+"categories": [
+"math.ST",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00511v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00511v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
