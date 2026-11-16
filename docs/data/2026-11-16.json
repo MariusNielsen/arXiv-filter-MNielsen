@@ -1,6 +1,6 @@
 {
 "day": "2026-11-16",
-"updated": "2026-11-16T05:06:44+00:00",
+"updated": "2026-11-16T16:58:19+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -1866,6 +1866,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00503",
+"title": "Maximal torus theory for crossed product quantum groups",
+"abstract": "We give counterexamples to three proposed tests for characters, amenability and polynomial growth using the group-dual subgroups of a compact matrix quantum group. For an action on a compact connected Lie group, a single such subgroup detects all three properties exactly when the action preserves a maximal torus of the base. For a lattice bicrossed product whose compact factor has infinitely many components, failure of character detection is witnessed by a class function on that factor, and a torus of a quantum quotient detects exponential growth. These results suggest three conjectures. The character conjecture uses the quotient by the quantum center. The amenability and growth conjectures use tori of cocycle twists of quantum quotients.",
+"authors": [
+"Teo Banica"
+],
+"categories": [
+"math.QA",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00503v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00503v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.18222",
 "title": "Motivic Invariants of Automorphisms and the Plane Cremona Group",
 "abstract": "Recent work of Campbell and Zakharevich studies the $K$-theory spectrum of varieties. In previous work, the second author constructs a derived version of the $\\mathbb{A}^1$-Euler characteristic, giving a map out of this spectrum. We analyse the morphism that the derived $\\mathbb{A}^1$-Euler characteristic induces out of $K_1(\\mathrm{Var}_k)$. We obtain an explicit description of this map, which encodes information about automorphisms of varieties. We use Hermitian $K$-theory to obtain a geometric description for part of this morphism in terms of Hodge cohomology. This allows us to obtain structural results about the group $K_1(\\mathrm{Var}_k)$. As an application, we use the $\\mathbb{Z}/2\\mathbb{Z}$-equivariant minimal model programme for surfaces to construct an arithmetic invariant of a large class of involutions in the plane Cremona group. We use this to construct two non-conjugate de Jonqui\\`eres involutions with isomorphic positive genus fixed curves over any perfect field $k$ of characteristic not $2$ with at least 6 elements which admits a quadratic extension.",
@@ -2449,6 +2471,49 @@
 "announce": "new",
 "date": "2026-11-14",
 "ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00502",
+"title": "Spherical space forms in K3: an instanton parity argument",
+"abstract": "Let $R$ be a connected subdiagram of the Dynkin diagram $E_8$, and let $Y_R$ be the spherical three-manifold which bounds the corresponding plumbing of $(-2)$-spheres. We show that if a negative-definite four-manifold $N$ with $H_1(N)=0$ and oriented boundary $Y_R$ is embedded in the K3 surface, then the intersection form of $N$ is the negative-definite root lattice $-R$. As a consequence, the traces of $-2$ and $-4$ surgery on the left-handed trefoil do not embed in K3. Heegaard Floer correction terms and the theory of lattices reduce the theorem to the exclusion of one smaller lattice for each of $R=D_5$, $D_6$, $D_7$ and $E_7$. In these cases, stretching the K3 surface along $Y_R$ exhibits a zero-dimensional moduli space of instantons as the zero set of a section of a real two-plane bundle over a compact surface. The quaternionic nature of the linearized anti-self-duality equations on K3 shows that the Euler number of this bundle is even, while the corresponding Donaldson invariant is odd.",
+"authors": [
+"Peter Kronheimer",
+"Tomasz Mrowka"
+],
+"categories": [
+"math.GT"
+],
+"link": "https://hexagonmath.org/abs/2611.00502v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00502v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-15",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00504",
+"title": "Stationary prediction from finite calibration: obstructions and sharp history rates under interval catastrophes",
+"abstract": "Can calibration experiments confined to a fixed spatial diameter determine stationary block probabilities on larger spatial scales? We answer this question for a one-dimensional recovery process driven by independent rows of Poisson interval catastrophes with an unknown intensity law, under a common small recovery-weighted intensity budget. For every calibration diameter, two laws have exactly the same complete local damage-word distributions and deterministic-initial experimental transcripts, even under arbitrarily many adaptive repetitions, while a sufficiently large stationary block has probabilities separated by a positive constant. The pair also matches intensity moments of orders zero, one and two and the eventual power-law parameters. For the upper stationary open phase, we then prove that all-open finite-history approximations converge uniformly over a law class and all finite targets if and only if the recovery-weighted tails vanish uniformly. Under a common intensity-moment budget of order $2+\\epsilon$, $0<\\epsilon\\le1$, the worst missing-history error has matching scale $\\min\\{b,B[\\max(m_0,T)]^{-\\epsilon}\\}$, with constants depending only on a fixed small recovery budget $b$. Here $T$ counts retained physical rows, $B$ is the moment budget and $m_0$ the minimum interval length. The lower bound holds at one fixed site; the upper bound covers every finite target and the full moment class, including zero intensity and laws without regular variation. Together, these results identify the obstruction to local calibration, the exact tail condition for uniform history approximation, and the sharp deterministic depth of the all-open truncation.",
+"authors": [
+"Man Huang"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00504v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00504v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
