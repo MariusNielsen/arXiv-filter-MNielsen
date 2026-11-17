@@ -4,6 +4,33 @@
  ],
  "feed": [
   {
+   "day": "2026-11-17",
+   "paper": {
+    "abstract": "We provide a self-contained exposition of cohesive $(2,1)$-topos theory, its internal synthetic geometry, and its realization of intrinsic, modal, and differential nonabelian cohomology. Starting from the $(2,1)$-categorical hierarchy, Grothendieck $(2,1)$-topoi, effective internal groupoids, and $\\E_k$-algebra objects over $(2,1)$-operads, we develop a detailed comparison between \\emph{internal} and \\emph{external} deloopings in $(2,1)$-presheaf and Grothendieck $(2,1)$-topoi. Specifically, we formalize external delooping by transporting the canonical delooping transformation along the group, discrete, and groupoid Yoneda 2-embeddings, proving that it is 2-naturally equivalent to the internal delooping in any Grothendieck $(2,1)$-topos. We then establish the 2-truncated Dunn--Lurie additivity, Baez--Dolan stabilization, and Eckmann--Hilton characterization of $k$-tuply groupal objects as groupal $\\E_k$-algebras stabilizing at $k=3$, and clarify the truncation behavior of iterated deloopings $B_{\\mathbf{H}}^k G$. Finally, we review Lawvere--Schreiber cohesive modalities, construct abstract principal $k$-bundles, the flat de Rham modality $\\flat_{\\dR}$, universal Maurer--Cartan forms $\\theta_k$, connection moduli stacks $B^k_{\\con}G$, and sharp-adjusted internal connection moduli $G\\Conn^k(X)$. The paper culminates in synthetic differential cohomology, where we discuss extensions of the Maurer--Cartan morphism to non-groupal coefficients via $\\int_{\\dR} \\dashv \\flat_{\\dR}$, and internal classifying structures.",
+    "ai_mode": "human",
+    "announce": "new",
+    "authors": [
+     "Yuri Ximenes Lecca",
+     "Willian Goulart Gomes Velasco"
+    ],
+    "categories": [
+     "math-ph"
+    ],
+    "date": "2026-11-16",
+    "link": "https://hexagonmath.org/abs/2611.00532v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2611.00532v1",
+    "pid": "hexagon:2611.00532",
+    "reasons": [
+     "title: -topoi"
+    ],
+    "source": "hexagon",
+    "tier": 2,
+    "title": "Cohesive 2-Topoi: Foundational Aspects and Nonabelian Differential Cohomology",
+    "watched": []
+   }
+  },
+  {
    "day": "2026-11-16",
    "paper": {
     "abstract": "We develop explicit Frobenius and perfection arguments for framed motives over imperfect fields. In positive characteristic, power framing homotopies and local framed transfers make relative Frobenius invertible after inverting the characteristic. Descent through successive Frobenius twists then gives a proof of strict homotopy invariance for homotopy invariant quasi-stable additive framed presheaves and identifies the canonical comparison with the perfect closure as a stable Nisnevich local equivalence of framed motives. We extend the comparison to E-framed motives for every motivic Thom spectrum E. It also yields the cancellation theorem and the cone theorem. For commutative symmetric Thom ring spectra, we identify triangulated categories of effective E-framed motives and effective E-modules and prove perfection invariance of these triangulated categories. All comparisons are made after inverting the exponential characteristic.",
@@ -4863,423 +4890,34 @@
     "title": "The flipping principle for boundedly acyclic covers and colorings",
     "watched": []
    }
-  },
-  {
-   "day": "2026-10-26",
-   "paper": {
-    "abstract": "We prove that Atiyah duality holds in the $\\infty$-category of non-$\\mathbb A^1$-invariant motivic spectra over arbitrary derived schemes: every smooth projective scheme is dualizable with dual given by the Thom spectrum of its negative tangent bundle. The Gysin maps recently constructed by L. Tang are a key ingredient in the proof. We then present several applications. First, we study $\\mathbb A^1$-colocalization, which transforms any module over the $\\mathbb A^1$-invariant sphere into an $\\mathbb A^1$-invariant motivic spectrum without changing its values on smooth projective schemes. This can be applied to all known $p$-adic cohomology theories and gives a new elementary approach to \"logarithmic\" or \"tame\" cohomology theories; it recovers for instance the logarithmic crystalline cohomology of strict normal crossings compactifications over perfect fields and shows that the latter is independent of the choice of compactification. Second, we prove a motivic Landweber exact functor theorem, associating a motivic spectrum to any graded formal group law classified by a flat map to the moduli stack of formal groups. Using this theorem, we compute the ring of $\\mathbb P^1$-stable cohomology operations on the algebraic K-theory of qcqs derived schemes, and we prove that rational motivic cohomology is an idempotent motivic spectrum.",
-    "ai_mode": "",
-    "announce": "replace",
-    "authors": [
-     "Toni Annala",
-     "Marc Hoyois",
-     "Ryomei Iwasa"
-    ],
-    "categories": [
-     "math.AG",
-     "math.AT",
-     "math.KT"
-    ],
-    "date": "2026-10-26",
-    "link": "https://arxiv.org/abs/2403.01561",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2403.01561",
-    "pid": "2403.01561",
-    "reasons": [
-     "author: Marc Hoyois",
-     "title: motivic spectr",
-     "title: motivic",
-     "abstract: moduli stack of formal groups",
-     "abstract: infinity-categor",
-     "abstract: algebraic k-theor"
-    ],
-    "source": "arxiv",
-    "tier": 1,
-    "title": "Atiyah duality for motivic spectra",
-    "watched": [
-     "Marc Hoyois"
-    ]
-   }
-  },
-  {
-   "day": "2026-10-26",
-   "paper": {
-    "abstract": "We prove relative Langlands duality for $X = GL_{p+q}/(GL_p \\times GL_q)$. These symmetric spaces arise in the setting of the linear period of Friedberg-Jacquet when $p=q$, and exhibit non-tempered behavior when $q>p+1$. Via the real-symmetric correspondence, we establish a derived Satake equivalence for the real group $G_{\\mathbb R}=U(p,q)$, and use it to obtain a constructible realization of coherent sheaves on Kato's exotic nilpotent cones. Along the way, we describe the dual variety of $X$ in terms of the Whittaker cotangent bundle and regular centralizers, viewed as Coulomb branches.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Tsao-Hsien Chen",
-     "Sanath K. Devalapurkar",
-     "Mark Macerato",
-     "David Nadler"
-    ],
-    "categories": [
-     "math.RT",
-     "math.AG"
-    ],
-    "date": "2026-10-26",
-    "link": "https://arxiv.org/abs/2610.31771",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.31771",
-    "pid": "2610.31771",
-    "reasons": [
-     "author: Sanath K. Devalapurkar"
-    ],
-    "source": "arxiv",
-    "tier": 1,
-    "title": "Relative Langlands duality for linear periods",
-    "watched": [
-     "Sanath K. Devalapurkar"
-    ]
-   }
-  },
-  {
-   "day": "2026-10-26",
-   "paper": {
-    "abstract": "We study spectral sequences as an obstruction theory to deforming cohomology classes via the Rees construction. A filtered complex is interpreted as an equivariant family over the affine line, in which higher spectral sequence differentials arise as obstructions to lifting cohomology classes through infinitesimal neighborhoods of the special fibre. This leads to various geometric and module-theoretic degeneration criteria. We give various applications to $\\mathrm{Ext}$ spectral sequences for complex Lagrangians and the formality results of Melani-Rubi\\'o amongst others. For double complexes, we revisit the Khovanov-Qi decomposition on the Rees side and introduce a two-parameter Rees construction over the affine plane. The higher differentials of the two associated spectral sequences correspond to torsion modules supported on the thickened coordinate axes. We obtain degeneration criteria in terms of these modules and an intrinsic characterisation of the $\\partial\\bar\\partial$-lemma.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Borislav Mladenov"
-    ],
-    "categories": [
-     "math.AG",
-     "math.AT",
-     "math.RT"
-    ],
-    "date": "2026-10-26",
-    "link": "https://arxiv.org/abs/2610.32593",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.32593",
-    "pid": "2610.32593",
-    "reasons": [
-     "title: spectral sequence"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "Deformations of cohomology classes and spectral sequences",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-26",
-   "paper": {
-    "abstract": "A celebrated conjecture of Gromov states that for closed aspherical manifolds, the vanishing of simplicial volume implies the vanishing of the Euler characteristic. We prove Gromov's conjecture for closed convex projective manifolds and, more generally, for closed orientable smooth manifolds admitting an immersed straightening. Generalising the straightening of simplices in properly convex domains in real projective space, we introduce the notion of immersed straightening and prove that, for every integer $d\\geq 1$, there exists a constant $C_d>0$ such that every closed orientable smooth $d$-manifold $M$ admitting an immersed straightening satisfies $|\\chi(M)|\\le C_d||M||$.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Michelle Bucher",
-     "Stefano Francaviglia",
-     "Grazia Rago"
-    ],
-    "categories": [
-     "math.GT",
-     "math.AT"
-    ],
-    "date": "2026-10-26",
-    "link": "https://arxiv.org/abs/2610.32342",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.32342",
-    "pid": "2610.32342",
-    "reasons": [
-     "abstract: straightening"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Angle cocycles, Euler characteristic, and simplicial volume of smooth manifolds",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-26",
-   "paper": {
-    "abstract": "On stacks there is a richer version of $\\mathcal{D}$-modules---called $\\textit{potent }\\mathcal{D}\\textit{-modules}$---which decompletes at equivariant parameters, in the same sense that genuine equivariant $K$-theory decompletes equivariant cohomology. In this paper, we prove a ``genuine'' version of Kashiwara's lemma for $\\mathcal{D}$-modules. Namely, we show that for a broad class of geometric stacks $X$, if $Z \\subset X$ is a closed substack, the category $\\mathcal{D}^{\\mathrm{pot}}(Z)$ of potent $\\mathcal{D}$-modules on $Z$ is equivalent under pushforward to the category $\\mathcal{D}^{\\mathrm{pot}} _Z(X)$ of potent $\\mathcal{D}$-modules on $X$ with support contained in $Z$.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Jacob Erlikhman",
-     "Kendric Schefers"
-    ],
-    "categories": [
-     "math.AG",
-     "math.AT",
-     "math.RT"
-    ],
-    "date": "2026-10-26",
-    "link": "https://arxiv.org/abs/2610.32003",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.32003",
-    "pid": "2610.32003",
-    "reasons": [
-     "abstract: genuine equivariant"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Kashiwara's Lemma for Potent D-modules",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-26",
-   "paper": {
-    "abstract": "Let $p$ be a prime and $n\\geq 1$. We prove that the Tate-Frobenius of the $\\operatorname{K}(n)$-local sphere induces an equivalence between $L_{n-1}L_{\\operatorname{K}(n)}Y$ and $(L_{\\operatorname{K}(n)}Y)^{t\\Sigma_p} \\cong (L_nY)^{t\\Sigma_p}$ for any finite $p$-local type $n-1$ spectrum $Y$ with trivial $\\Sigma_p$-action.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Pengkun Huang"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-10-26",
-    "link": "https://arxiv.org/abs/2610.31806",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.31806",
-    "pid": "2610.31806",
-    "reasons": [
-     "abstract: k(n)-local"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Tate Frobenius and chromatic blueshift of finite spectra",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-26",
-   "paper": {
-    "abstract": "Every nonempty connected finite-dimensional CW topological semigroup admits a continuous associative multiplication on its universal cover that lifts the multiplication of the base. Such a multiplication is unique up to a deck transformation: in fact, any two associative lifts are conjugate whenever they exist. We show that the finite-dimensional hypothesis cannot be dropped in general: a connected, countable, infinite-dimensional CW topological semigroup is constructed for which continuous lifts of multiplication exist, but none is associative. The counterexample has nonabelian fundamental group isomorphic to Thompson's group $F$. Thus finite dimensionality is sufficient for associative lifting in the CW setting, whereas the unrestricted infinite-dimensional statement fails.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Stefano Bonzio",
-     "Andrea Loi"
-    ],
-    "categories": [
-     "math.AT",
-     "math.GN",
-     "math.GR"
-    ],
-    "date": "2026-10-26",
-    "link": "https://arxiv.org/abs/2610.32426",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.32426",
-    "pid": "2610.32426",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Associative Lifts of CW Semigroups",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-26",
-   "paper": {
-    "abstract": "We study higher complements of pseudohyperplane arrangements and the specialization maps between them, induced by degenerations. We develop a presheaf formalism on oriented matroids and weak maps, which model degenerations. Our main constructions are the posets of weighted and weightwise topes, which provide functorial combinatorial models for higher complements and their specialization morphisms. Their presheaf structure yields a deletion-contraction homotopy pushout, from which we derive a uniform combinatorial proof of the integral cohomology presentation for all $n \\geq 2$. This presentation is natural with respect to weak maps and identifies cohomology rings with higher Orlik-Solomon algebras extending the known formulas for linear arrangements to non-realizable oriented matroids. Finally, we equip Deligne groupoids with a presheaf structure and identify them functorially with the fundamental groupoids of the complexified complements.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Basile Coron",
-     "Denis Lyskov"
-    ],
-    "categories": [
-     "math.AT",
-     "math.CO"
-    ],
-    "date": "2026-10-26",
-    "link": "https://arxiv.org/abs/2610.31837",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.31837",
-    "pid": "2610.31837",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Presheaf structures governed by oriented matroids and pseudohyperplane arrangements",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-26",
-   "paper": {
-    "abstract": "We compute the Chern classes of irreducible representations for the dihedral groups $D_{2n}$ and the generalized quaternion groups $Q_{2^n}$. Utilizing these computations, we investigate whether every even-dimensional class in the integral group cohomology of these families can be realized as a Chern class of some complex representation. It turns out that this realizability question answers in the affirmative for the generalized quaternion groups. In contrast, it turns out that the answer for dihedral groups is erratic.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Sutirtha Datta",
-     "Jyotirmoy Ganguly",
-     "Rohit Joshi"
-    ],
-    "categories": [
-     "math.RT",
-     "math.AT",
-     "math.GR"
-    ],
-    "date": "2026-10-26",
-    "link": "https://arxiv.org/abs/2610.32680",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.32680",
-    "pid": "2610.32680",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Realizable Cohomology Classes of Dihedral and Generalized Quaternion Groups",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-26",
-   "paper": {
-    "abstract": "Sierksma's conjecture asserts that every affine map $a\\colon\\Delta_{(d+1)(r-1)}\\longrightarrow\\mathbb{R}^d$ has at least $((r-1)!)^d$ unordered Tverberg partitions into $r$ parts. Until now, lower bounds growing with $d$ were known only when $r$ is a prime power. As one of our main results we prove that for every integer $r\\geq3$, every decomposition $r=kq+s$ into $q=p^\\alpha$ a prime power, $k\\geq1$ and $s\\geq0$, and every affine map $a$, the number $\\operatorname{Tv}(a)$ of unordered Tverberg partitions satisfies \\[\n  \\operatorname{Tv}(a)\\ \\geq\\ \\frac{q}{r!}\\,\\Big(\\frac{q}{\\alpha+1}\\Big)^{\\big\\lceil\\frac{(r-1-2s)(d+1)}{2}\\big\\rceil}. \\]",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Matija Blagojevi\\'c",
-     "Pavle V. M. Blagojevi\\'c"
-    ],
-    "categories": [
-     "math.CO",
-     "math.AT",
-     "math.MG"
-    ],
-    "date": "2026-10-26",
-    "link": "https://arxiv.org/abs/2610.32086",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.32086",
-    "pid": "2610.32086",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "The number of Tverberg partitions beyond prime powers",
-    "watched": []
-   }
   }
  ],
- "hexagon_since": "2026-11-16",
+ "hexagon_since": "2026-11-17",
  "last_page": {
-  "day": "2026-11-16",
+  "day": "2026-11-17",
   "papers": [
    {
-    "abstract": "We develop explicit Frobenius and perfection arguments for framed motives over imperfect fields. In positive characteristic, power framing homotopies and local framed transfers make relative Frobenius invertible after inverting the characteristic. Descent through successive Frobenius twists then gives a proof of strict homotopy invariance for homotopy invariant quasi-stable additive framed presheaves and identifies the canonical comparison with the perfect closure as a stable Nisnevich local equivalence of framed motives. We extend the comparison to E-framed motives for every motivic Thom spectrum E. It also yields the cancellation theorem and the cone theorem. For commutative symmetric Thom ring spectra, we identify triangulated categories of effective E-framed motives and effective E-modules and prove perfection invariance of these triangulated categories. All comparisons are made after inverting the exponential characteristic.",
-    "ai_mode": "",
+    "abstract": "We provide a self-contained exposition of cohesive $(2,1)$-topos theory, its internal synthetic geometry, and its realization of intrinsic, modal, and differential nonabelian cohomology. Starting from the $(2,1)$-categorical hierarchy, Grothendieck $(2,1)$-topoi, effective internal groupoids, and $\\E_k$-algebra objects over $(2,1)$-operads, we develop a detailed comparison between \\emph{internal} and \\emph{external} deloopings in $(2,1)$-presheaf and Grothendieck $(2,1)$-topoi. Specifically, we formalize external delooping by transporting the canonical delooping transformation along the group, discrete, and groupoid Yoneda 2-embeddings, proving that it is 2-naturally equivalent to the internal delooping in any Grothendieck $(2,1)$-topos. We then establish the 2-truncated Dunn--Lurie additivity, Baez--Dolan stabilization, and Eckmann--Hilton characterization of $k$-tuply groupal objects as groupal $\\E_k$-algebras stabilizing at $k=3$, and clarify the truncation behavior of iterated deloopings $B_{\\mathbf{H}}^k G$. Finally, we review Lawvere--Schreiber cohesive modalities, construct abstract principal $k$-bundles, the flat de Rham modality $\\flat_{\\dR}$, universal Maurer--Cartan forms $\\theta_k$, connection moduli stacks $B^k_{\\con}G$, and sharp-adjusted internal connection moduli $G\\Conn^k(X)$. The paper culminates in synthetic differential cohomology, where we discuss extensions of the Maurer--Cartan morphism to non-groupal coefficients via $\\int_{\\dR} \\dashv \\flat_{\\dR}$, and internal classifying structures.",
+    "ai_mode": "human",
     "announce": "new",
     "authors": [
-     "Grigory Garkusha"
+     "Yuri Ximenes Lecca",
+     "Willian Goulart Gomes Velasco"
     ],
     "categories": [
-     "math.AG",
-     "math.AT"
+     "math-ph"
     ],
     "date": "2026-11-16",
-    "link": "https://arxiv.org/abs/2611.18212",
+    "link": "https://hexagonmath.org/abs/2611.00532v1",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.18212",
-    "pid": "2611.18212",
+    "pdf": "https://hexagonmath.org/pdf/2611.00532v1",
+    "pid": "hexagon:2611.00532",
     "reasons": [
-     "abstract: ring spectr"
+     "title: -topoi"
     ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Frobenius and perfection in framed motives",
-    "watched": []
-   },
-   {
-    "abstract": "We investigate when the braided monoidal $\\infty$-categories of sheaf-theoretic line operators of $3$-dimensional topological quantum field theories are invertible in the higher Morita category, so that they determine invertible $4$-dimensional anomaly theories. We consider a zoo of different examples which are inherently derived. First, enhancing Ben-Zvi--Francis--Nadler, we show that a symmetric monoidal category of quasi-coherent sheaves $\\mathrm{QC}(X)$ is invertible only if $X$ is a point, and convolution categories on loop stacks are Morita trivial whenever the stack satisfies descent along its diagonal, e.g. for classifying stacks. Secondly, we provide an example showing that, unlike for finite braided tensor categories, non-degeneracy does not imply invertibility in the derived setting: For an odd vector space $V[1]$, the $2$-shifted $\\mathcal{D}$-modules $\\mathrm{DMod}^2(V[1])$ are $3$-dualizable and non-degenerate but neither factorizable nor cofactorizable. This category is closely related to the line operators of linear Rozansky--Witten theory. Finally, we define an anomaly of a group action on an invertible braided monoidal $\\infty$-category as a Witt class over $\\mathrm{Rep}(G)$, and show that the category of representations of the quantum group of a torus at a root of unity is invertible relative to its quantum Frobenius.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Claudia Scheimbauer",
-     "Jackson Van Dyke"
-    ],
-    "categories": [
-     "math.QA",
-     "math-ph",
-     "math.AG",
-     "math.CT",
-     "math.MP"
-    ],
-    "date": "2026-11-16",
-    "link": "https://arxiv.org/abs/2611.18555",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.18555",
-    "pid": "2611.18555",
-    "reasons": [
-     "abstract: infinity-categor"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Towards invertibility of derived categories of sheaf-theoretic line operators",
-    "watched": []
-   },
-   {
-    "abstract": "We study freeness of crossed modules, augmented quandles, and augmented racks. We show that the associated quandle functor and the associated crossed module functor are left adjoint to the natural forgetful functors. For a map $f\\colon S\\to G$, we define the free augmented rack $R_f\\to G$ and the free augmented quandle $Q_f\\to G$. If $C_f\\to G$ denotes the free crossed module determined by $f$, then the associated crossed modules of $R_f$ and $Q_f$ are both isomorphic to $C_f\\to G$. We also characterize free augmented quandles in terms of stabilizers. As applications, we prove that the canonical inner augmentation of every generalized Alexander quandle is free and that the canonical inner augmentation of a classical knot quandle is free if and only if the knot is a torus knot, whereas for every $n$-knot with $n\\geq2$ it is free.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Toshiyuki Akita",
-     "Sota Takase"
-    ],
-    "categories": [
-     "math.GT",
-     "math.AT",
-     "math.GR"
-    ],
-    "date": "2026-11-16",
-    "link": "https://arxiv.org/abs/2611.17557",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.17557",
-    "pid": "2611.17557",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Freeness of crossed modules, augmented quandles, and augmented racks",
-    "watched": []
-   },
-   {
-    "abstract": "The perfect matching complex of a simple graph $G$ is an abstract simplicial complex whose facets (maximal faces) are precisely the perfect matchings of $G$. In this article, we study the topology of the perfect matching complex of the $3\\times 2n$ grid graph and show that it is homotopy equivalent to a wedge of $f_{n-1}$ copies of $(n-1)$-dimensional spheres, where $f_{k}$ denotes the $k$-th Fibonacci number. This proves a particular case of the conjecture given by Chandrakar and Singh for perfect matching complex of grid graphs.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Himanshu Chandrakar",
-     "Trung Chau",
-     "Shuchita Goyal",
-     "Rahul Karki",
-     "B. Subhash"
-    ],
-    "categories": [
-     "math.CO",
-     "math.AT"
-    ],
-    "date": "2026-11-16",
-    "link": "https://arxiv.org/abs/2611.18058",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.18058",
-    "pid": "2611.18058",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Perfect Matching Complexes of $3\\times 2n$ Grid Graph",
-    "watched": []
-   },
-   {
-    "abstract": "We establish stability results for internal homs of $\\varepsilon$-simplicial sets, a framework motivated by nerves of Frobenius monoids in the category of relations. Rotations are modelled through edge witnesses and horn-filling conditions, without requiring unique fillers. For $\\varepsilon$-fibrant objects $X$ and $Y$, we prove that the internal hom $\\mathrm{Fun}(X,Y)$ satisfies the $\\varepsilon$-coherence conditions and admits fillers for all $\\varepsilon$-horns of dimension at least two. Its subobject consisting of simplices whose vertices correspond to $\\eta$-edge-preserving maps is $\\varepsilon$-fibrant. We also introduce $\\eta\\varepsilon$-simplicial sets by adding explicit $\\eta$-witnesses and prove that the internal hom of two $\\eta\\varepsilon$-fibrant objects is again $\\eta\\varepsilon$-fibrant.\n  Our proofs use adjunctions relating $\\varepsilon$-simplicial sets and paracyclic sets. We characterise the $\\varepsilon$-horn filling property by requiring the corresponding counit to be a trivial Kan fibration. Consequently, for every object satisfying this property, coherent choices of rotations of each simplex form a contractible Kan complex.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Dominik Lachman"
-    ],
-    "categories": [
-     "math.CT",
-     "math.AT"
-    ],
-    "date": "2026-11-16",
-    "link": "https://arxiv.org/abs/2611.18195",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.18195",
-    "pid": "2611.18195",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Stability theorems for $\\varepsilon$-simplicial sets",
+    "source": "hexagon",
+    "tier": 2,
+    "title": "Cohesive 2-Topoi: Foundational Aspects and Nonabelian Differential Cohomology",
     "watched": []
    }
   ]
@@ -8999,16 +8637,46 @@
   "hexagon:2611.00502": "2026-11-16",
   "hexagon:2611.00503": "2026-11-16",
   "hexagon:2611.00504": "2026-11-16",
+  "hexagon:2611.00505": "2026-11-17",
   "hexagon:2611.00506": "2026-11-16",
   "hexagon:2611.00507": "2026-11-16",
   "hexagon:2611.00508": "2026-11-16",
   "hexagon:2611.00509": "2026-11-16",
   "hexagon:2611.00510": "2026-11-16",
   "hexagon:2611.00511": "2026-11-16",
+  "hexagon:2611.00512": "2026-11-17",
+  "hexagon:2611.00513": "2026-11-17",
   "hexagon:2611.00514": "2026-11-16",
   "hexagon:2611.00515": "2026-11-16",
   "hexagon:2611.00516": "2026-11-16",
   "hexagon:2611.00518": "2026-11-16",
+  "hexagon:2611.00519": "2026-11-17",
+  "hexagon:2611.00520": "2026-11-17",
+  "hexagon:2611.00521": "2026-11-17",
+  "hexagon:2611.00522": "2026-11-17",
+  "hexagon:2611.00523": "2026-11-17",
+  "hexagon:2611.00524": "2026-11-17",
+  "hexagon:2611.00525": "2026-11-17",
+  "hexagon:2611.00526": "2026-11-17",
+  "hexagon:2611.00527": "2026-11-17",
+  "hexagon:2611.00528": "2026-11-17",
+  "hexagon:2611.00529": "2026-11-17",
+  "hexagon:2611.00530": "2026-11-17",
+  "hexagon:2611.00531": "2026-11-17",
+  "hexagon:2611.00532": "2026-11-17",
+  "hexagon:2611.00533": "2026-11-17",
+  "hexagon:2611.00534": "2026-11-17",
+  "hexagon:2611.00535": "2026-11-17",
+  "hexagon:2611.00536": "2026-11-17",
+  "hexagon:2611.00538": "2026-11-17",
+  "hexagon:2611.00540": "2026-11-17",
+  "hexagon:2611.00541": "2026-11-17",
+  "hexagon:2611.00542": "2026-11-17",
+  "hexagon:2611.00543": "2026-11-17",
+  "hexagon:2611.00544": "2026-11-17",
+  "hexagon:2611.00546": "2026-11-17",
+  "hexagon:2611.00547": "2026-11-17",
+  "hexagon:2611.00548": "2026-11-17",
   "math/0111031": "2026-10-27",
   "math/0702082": "2026-10-22"
  }

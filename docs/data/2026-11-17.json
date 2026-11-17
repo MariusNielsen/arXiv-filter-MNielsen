@@ -1,0 +1,677 @@
+{
+"day": "2026-11-17",
+"updated": "2026-11-17T05:05:54+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2611.00532",
+"title": "Cohesive 2-Topoi: Foundational Aspects and Nonabelian Differential Cohomology",
+"abstract": "We provide a self-contained exposition of cohesive $(2,1)$-topos theory, its internal synthetic geometry, and its realization of intrinsic, modal, and differential nonabelian cohomology. Starting from the $(2,1)$-categorical hierarchy, Grothendieck $(2,1)$-topoi, effective internal groupoids, and $\\E_k$-algebra objects over $(2,1)$-operads, we develop a detailed comparison between \\emph{internal} and \\emph{external} deloopings in $(2,1)$-presheaf and Grothendieck $(2,1)$-topoi. Specifically, we formalize external delooping by transporting the canonical delooping transformation along the group, discrete, and groupoid Yoneda 2-embeddings, proving that it is 2-naturally equivalent to the internal delooping in any Grothendieck $(2,1)$-topos. We then establish the 2-truncated Dunn--Lurie additivity, Baez--Dolan stabilization, and Eckmann--Hilton characterization of $k$-tuply groupal objects as groupal $\\E_k$-algebras stabilizing at $k=3$, and clarify the truncation behavior of iterated deloopings $B_{\\mathbf{H}}^k G$. Finally, we review Lawvere--Schreiber cohesive modalities, construct abstract principal $k$-bundles, the flat de Rham modality $\\flat_{\\dR}$, universal Maurer--Cartan forms $\\theta_k$, connection moduli stacks $B^k_{\\con}G$, and sharp-adjusted internal connection moduli $G\\Conn^k(X)$. The paper culminates in synthetic differential cohomology, where we discuss extensions of the Maurer--Cartan morphism to non-groupal coefficients via $\\int_{\\dR} \\dashv \\flat_{\\dR}$, and internal classifying structures.",
+"authors": [
+"Yuri Ximenes Lecca",
+"Willian Goulart Gomes Velasco"
+],
+"categories": [
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00532v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00532v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "human",
+"other_links": {},
+"tier": 2,
+"reasons": [
+"title: -topoi"
+],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00536",
+"title": "Consecutive primes at distances 123,662 and 125,318",
+"abstract": "We exhibit consecutive-prime gaps of exactly $123\\,662$ and $125\\,318$, with endpoints of $8\\,416$ and $6\\,454$ decimal digits, respectively. Covering congruences certify most interior integers as composite. For the second gap, the remaining integers are certified by proper divisors or Fermat witnesses. Elliptic-curve certificates prove all four endpoints prime. We give the elementary arguments that turn these finite arithmetic checks into a proof. The proof is computer-assisted.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00536v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00536v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00523",
+"title": "Diameters of the order and chain polytopes of a connected poset",
+"abstract": "For a finite poset $P$, Stanley's order polytope $\\mathcal O(P)$ and chain polytope $\\mathcal C(P)$ have the same number of vertices and, by a theorem of Hibi, Li, Sahara and Shikama, the same number of edges. On disconnected posets the diameters of their graphs can differ by any amount, since both diameters add over disjoint unions and already differ on small examples, but on connected posets a computer search of Lee found no difference larger than $1$. We show that on connected posets, too, the two diameters can be far apart. For every $k\\ge1$ we describe a connected poset $B_k$ with $3k$ elements whose order polytope has graph diameter $k$ and whose chain polytope has graph diameter at most $\\lfloor3(k+1)/4\\rfloor$; hence the first diameter can exceed the second by any amount. For every $n\\ge4$ we construct a connected poset $P_n$ with $2n^2+5n+1$ elements whose order polytope has graph diameter $2$ and whose chain polytope has graph diameter $4$. Finally, for every finite poset $P$, if the graph of $\\mathcal O(P)$ has diameter at most $2$, then the graph of $\\mathcal C(P)$ has diameter at most $4$; so $2$ is the largest possible difference when the order polytope has graph diameter $2$.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CO",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00523v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00523v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00535",
+"title": "Essential dimension of geometric local systems",
+"abstract": "Let f : X → B be a smooth projective family over a smooth complex variety, and let H = (Rmf∗Z)/tors. We prove that there is an integer N such that, whenever pn ≥N, the essential dimension at p of H/pn is at least the dimension of its period image. This proves the Brosnan–Fakhruddin conjecture for these local systems. The proof compares the geometric Sen operator with the Higgs field. Integral Hodge–Tate theory gives a bound uniform in large primes. For each remaining prime, a bounded rational comparison at one geometric point suffices when n is large.",
+"authors": [
+"Mark Kisin"
+],
+"categories": [
+"math.AG",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00535v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00535v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00533",
+"title": "Even Asymptotic Expansions and Uniform Hard-Edge Approximations for Wigner $3j$ and $6j$ Symbols at Fixed Rank",
+"abstract": "We study Wigner $3j$ symbols with two large and one small angular momentum, and the $6j$ symbols with one small entry (Edmonds' limit), both at fixed rank: the small labels stay fixed while the large ones grow. Their classical limits are Wigner rotation matrix elements. Combining a Regge symmetry with the Weyl shift $j\\mapsto j+\\tfrac12$ singles out midpoint variables: for $3j$, the large scale $N=j_-+j_++1$ ($j_\\mp$ the two large angular momenta) and $x=2\\mu/N$ ($2\\mu$ the difference of the two large magnetic indices), and, for $6j$, large lengths $A,B,C$ shifted by offsets that depend on the small labels. Among constant shifts of the large labels and magnetic coordinate, and up to rank-independent gauge factors, these are the only centerings that remove the generic first-order term of the exact recurrences. In these variables the normalized symbols are values of analytic functions of the inverse square of the large scale, for integer and half-integer small labels alike (including spin–orbit coefficients): the expansions contain only even powers and converge. The first correction is a closed formula in one Wigner $d$ function and its derivative, improving the error from second to fourth order in the inverse large scale; all higher corrections are constructed as local differential operators. The exact finite problems are Hahn and Racah spectral systems with undeformed Wigner spectra. Near the ends of the physical lattice (the hard edges), an explicit product of Pochhammer factors carries the difference between the discrete and continuum weights; extracting it gives expansions that are uniform on the whole lattice, including the $6j$ corner where two large lengths nearly coincide ($A\\approx B$). We also show that centered Hahn and Racah polynomials are even deformations of Jacobi polynomials.",
+"authors": [
+"Antony Lewis"
+],
+"categories": [
+"math.CA",
+"math-ph",
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00533v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00533v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00520",
+"title": "Flow reconfiguration with one modulus for all graphs, and Cereceda's conjecture for bipartite 2-degenerate graphs",
+"abstract": "This paper answers a question of Esperet, Hendrey, Lagoutte, Marseloo, Norin and Steiner on flow reconfiguration and makes inroads into Cereceda's recolouring conjecture for $d=2$. Parts I and II are about flows. For a finite multigraph $G$ and an integer $k\\ge 2$, let $M_k(G)$ be the graph on the nowhere-zero $\\mathbb{Z}_k$-flows of $G$, and $I_k(G)$ the graph on the integer flows $F$ of $G$ with $1\\le|F(e)|\\le k-1$ on every edge; two flows are adjacent if the support of their difference is a cycle. We prove that $M_k(G)$ and $I_k(G)$ are connected for every finite bridgeless loopless multigraph $G$ if $k=40$, if $k=48$, or if $k$ is a multiple of $4$ with $k\\ge 52$. This answers their Problem 1.2. The same holds for $k=66$, for every prime power $p^N$ with $N\\ge 6$, and for a set of moduli of natural density one; these results do not cover every $k\\ge 40$. A master theorem for finite abelian groups gives the connectivity of the flow graph $F(G,\\Gamma)$ for every abelian group $\\Gamma$ of order $40$, and a binary form of it for every abelian group of exponent dividing $4$ and order at least $32$, in particular $\\mathbb{F}_2^5$ (Esperet et al. proved $\\mathbb{F}_2^8$). Part III is about colourings: two proper $k$-colourings of a graph $G$ are adjacent if they differ at exactly one vertex. Cereceda conjectured that this graph has diameter $O(n^2)$ for every $d$-degenerate graph on $n$ vertices and $k=d+2$; the case $d=2$ is open. For four colours we prove the diameter bound $2n(n+1)$ for every bipartite graph of degeneracy at most $2$, with the order $n^2$ sharp in this class, also at girth $6$; the bound $5n(n+1)$ when an independent set of vertices of degree at most $2$ is added; and, with a computer-verified certificate, $4n(n+1)$ for every graph of cone width at most $2$, a class that contains all graphs of treewidth at most $2$ and some graphs of treewidth $3$ with triangles.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00520v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00520v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00543",
+"title": "From Four-Dimensional Wilson Lattice Gauge Theory to Quantum Yang--Mills Theory, with a Conditional Mass-Gap Theorem",
+"abstract": "We present a complete formal paper compiling the Lean-verified construction of quantum Yang--Mills theory submitted on October 28, 2026, and independently validated by the Yang--Mills Shepherding Committee. Starting from the Wilson definition of lattice gauge theory on a four-dimensional torus, we give full proofs of every step that can be carried out from the definitions: the field-label algebra, the finite lattice theory, and--under an explicit, individually registered package of renormalization-group and analytic assumptions--the fixed-volume ultraviolet limit, the subsequential infinite-volume limit, the phase decomposition with clustering and full support, the Osterwalder--Schrader reconstruction satisfying the Wightman axioms, and the Yang--Mills identification: the stress tensor and its Ward identity, the trace anomaly with the verified constant 3 dim_R(g)/pi^4, the exclusion of a precise class of free-field descriptions, the one-loop running coupling, and the operator product expansion. For the mass gap we prove two logical boundaries: an explicit model satisfies all registered inputs with clustering, yet its Hamiltonian has no spectral gap; and a mass gap is equivalent to a uniform exponential rate in the clustering axiom, with the bridge from the volume-uniform transfer-matrix condition to the continuum gap proved. A uniform mass gap requires new infrared input; we develop one explicitly conditional route (semiclassical tunneling in the defining representation of SU(2)), and we prove that, with the registered input set fixed, removing the conditionality is equivalent to proving the mass gap itself. A positive mass gap is not proved.",
+"authors": [
+"Zeng Chunping"
+],
+"categories": [
+"math.MP",
+"math.FA",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00543v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00543v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00526",
+"title": "Improving Razmyslov's (1974) bound: the Nagata–Higman index is at most n² − 2 for n ≥ 3",
+"abstract": "Let $d(n)$ be the least $m$ such that every associative (not necessarily unital) algebra over a field of characteristic zero satisfying the identity $x^n=0$ also satisfies $x_1x_2\\cdots x_m=0$; this is the Nagata–Higman index. Razmyslov proved $d(n)\\le n^2$ in 1974; Kuzmin proved $d(n)\\ge n(n+1)/2$ and conjectured equality; this is the Kuzmin (1975) conjecture. We prove $d(n)\\le n^2-2$ for $n\\ge3$ (and, by a simpler case of the same method, $d(n)\\le n^2-1$ for $n\\ge2$); in particular $d(6)\\le34$. To our knowledge, $n=6$ is the first case in which the new bound improves the known bounds, and this is the first improvement of Razmyslov's bound for general $n$. For $m=n^2-1$ and $m=n^2-2$, Formanek's criterion reduces $d(n)\\le m$ to the statement that no nonzero linear combination of $(m+1)$-cycles lies in one particular isotypic block of the group algebra of $S_{m+1}$. For $m=n^2-1$ this statement follows from the branching rule; for $m=n^2-2$ we prove it using the Jucys–Murphy elements and a theorem of Frobenius on the characters of the alternating group. These bounds have also been proved in the Lean proof assistant.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.RA",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00526v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00526v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00527",
+"title": "Improving Razmyslov's (1974) bound: the Nagata–Higman index is at most n² − 2 for n ≥ 3, and other miscellanea",
+"abstract": "Let $d(n)$ be the least $m$ such that every associative algebra over a field of characteristic zero satisfying $x^n=0$ also satisfies $x_1x_2\\cdots x_m=0$ (the Nagata–Higman index). Razmyslov proved $d(n)\\le n^2$ in 1974, and the Kuzmin (1975) conjecture is $d(n)=n(n+1)/2$. We prove $d(n)\\le n^2-1$ for $n\\ge2$ and $d(n)\\le n^2-2$ for $n\\ge3$; in particular $d(6)\\le34$. The proof uses Formanek's criterion in cycle form and studies, one isotypic block of $S_N$ at a time, the span of the $N$-cycles inside the block: a block with two corners meets this span exactly when its shape is a self-conjugate hook, and for every $k\\ge2$ the block of $(k+1,2,1^{k-1})$, which has three corners, meets it too. The next step, $d(n)\\le n^2-3$, reduces to one statement about the block of $(n^{n-2},n-1,n-2)$; for every $n\\ge4$ we prove the part of it that concerns the constituents with at most two rows of length $3$, and for $n=5$ the whole statement (computer-assisted). Through the hook theorem the question becomes one about the polynomial identities of Kemer's superalgebras $M_{k,l}$ over the Grassmann algebra: lower bounds for their PI degrees give upper bounds for $d(n)$, and the lower half of the Samoilov (2010) conjecture on these PI degrees would give $d(n)<\\frac89n^2$ for $n\\ge3$.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.RA",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00527v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00527v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00521",
+"title": "Integer and modular flow reconfiguration: the moduli up to six, chords, and large moduli",
+"abstract": "For a finite multigraph $G$ and an integer $k\\ge2$, let $\\mathcal M_k(G)$ be the graph on the nowhere-zero $\\mathbb Z_k$-flows of $G$, and $\\mathcal I_k(G)$ the graph on the integer flows $F$ of $G$ with $1\\le|F(e)|\\le k-1$ on every edge; a step adds a nonzero constant along one cycle. The Esperet–Hendrey–Lagoutte–Marseloo–Norin–Steiner (2025) lifting question asks for a proof that $\\mathcal I_k(G)$ is connected whenever $\\mathcal M_k(G)$ is connected; its authors write that they do not know how to prove this even for $k=4$. We prove it for $k=2,3,4,5,6$ and every graph, in a stronger form: reduction modulo $k$ induces a bijection between the components of $\\mathcal I_k(G)$ and of $\\mathcal M_k(G)$. We prove the same for every $k$ on the graphs in which every cycle with more than nine edges has a chord between two vertices that are not neighbors on the cycle. We also prove that $\\mathcal I_k(G)$ is connected for every bridgeless multigraph $G$ and every $k\\ge\\operatorname{mc}(G)+2$, where $\\operatorname{mc}(G)$ is the largest number of edges of a cut of $G$; and that scaling by $m$ carries the components of $\\mathcal M_k(G)$ into components of $\\mathcal I_{mk}(G)$. With a theorem of Esperet et al. on planar graphs, the first result settles the question for every planar graph and every $k$. The bijection of the components for $k\\le6$ holds more generally for the integer and modular kernel vectors of every totally unimodular matrix, with the circuit vectors as steps, and in this generality it fails at every prime $p\\ge7$, for the tensions of a graph on $2p$ vertices; this does not answer the question for the flows of graphs. For the six moduli $k=8,9,12,16,18,36$ we prove the bijection of the components for every graph also; this is a short deduction from a lemma on liftable steps of a companion paper. For the other $k\\ge7$ this paper does not settle the question on arbitrary graphs.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00521v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00521v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00524",
+"title": "Modular Kittaneh Numerical Radius Inequalities",
+"abstract": "We show that for adjointable morphisms on Hilbert C*-module over a commutative unital C*-algebra, a version of breakthrough numerical radius inequalities obtained by Kittaneh [\\textit{{Stud. Math.}, 2005}] hold.",
+"authors": [
+"K. MAHESH KRISHNA"
+],
+"categories": [
+"math.OA",
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2611.00524v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00524v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00522",
+"title": "Nowhere-zero flow reconfiguration in every finite abelian group of order at least 3024",
+"abstract": "For a finite multigraph $G$ and a finite abelian group $\\Gamma$, let $F(G,\\Gamma)$ be the graph on the nowhere-zero $\\Gamma$-flows of $G$ in which two flows are adjacent if the support of their difference is a cycle. We prove that $F(G,\\Gamma)$ is connected for every finite bridgeless multigraph $G$ and every finite abelian group $\\Gamma$ of order at least $3024$. The previous bound for all finite abelian groups, due to Esperet, Hendrey, Lagoutte, Marseloo, Norin and Steiner, is a number with $694$ digits; for the cyclic groups of prime order $p$ their bound is $p>2.26\\cdot 10^{15}$. A theorem of an earlier paper of the author covers every group that is not cyclic of prime-power order and whose order has a divisor $d$ with $4\\le d\\le|\\Gamma|/10$; from the order $100$ on, it leaves only the cyclic groups whose order is a prime power, twice a prime or three times a prime. For a cyclic factor $\\mathbb{Z}_n$ we use units of $\\mathbb{Z}_n$ as scales, and we average over a set of scales that is generated by good units. Counts of the bad units settle the orders from $3999$ on, and a finite arithmetic certificate with $230$ rows settles the orders from $3024$ to $3998$.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00522v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00522v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00505",
+"title": "Orthogonal bases of symmetric unitary matrices in odd dimensions and the mixed-unitary rank of the symmetric Werner–Holevo channel",
+"abstract": "Let Sym_n denote the space of complex symmetric n×n matrices with the Hilbert–Schmidt inner product. Girard, Leung, Levick, Li, Paulsen, Poon and Watrous showed that the symmetric Werner–Holevo channel on M_n has minimal mixed-unitary rank binom(n+1,2) if and only if Sym_n admits an orthogonal basis consisting of unitary matrices. They established this for even n and for n=3, and conjectured it for all odd n; Levick and Rahaman settled the case of primes n≡7 (mod 8). We introduce a family of symmetric unitaries (“chirped circulants”) for odd n and prove that, for this family, the pairwise orthogonality conditions reduce exactly to a square system of (n^2-1)/4 real equations in as many unknown phases. Using this reduction we give (i) a fully explicit basis for n=5, with all entries in an explicit degree-8 number field and an exact-arithmetic verification, and (ii) a computer-assisted proof, based on the Krawczyk operator evaluated in Arb ball arithmetic, that a symmetric unitary orthogonal basis exists for every odd n with 3≤n≤67. Consequently the conjecture of Girard et al. holds for all n≤68. We also record several obstructions to natural approaches for general odd n, and a further reduction for prime n.",
+"authors": [
+"Qiyuan Ma"
+],
+"categories": [
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2611.00505v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00505v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00538",
+"title": "Phase Transition and Spontaneous Translation Symmetry Breaking in Negative Temperature Point Vortex Ensembles",
+"abstract": "We establish a canonical phase transition and spontaneous translation symmetry breaking for balanced two-species point vortices on the square torus. A sharp inequality identifies the transition at $\\beta=4\\pi^2$, below collapse at $\\beta=16\\pi$. In the intervening regime, all global minimizers form one translation orbit of an explicit dipole. We prove a large deviation principle below collapse and identify the uniform random phase, phase-centered Gaussian fluctuations, and precise partition asymptotics in the ordered regime. For general prescribed bounded strengths, we distinguish global ordering, local instability, and collapse.",
+"authors": [
+"Francesco Grotto",
+"Marco Romito"
+],
+"categories": [
+"math.MP",
+"math.AP",
+"math.FA",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00538v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00538v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00528",
+"title": "Quantitative similarities for amenable algebras of two-by-two matrix-valued functions",
+"abstract": "We study norm-closed subalgebras $A$ of $\\mathrm{C}(X,\\mathrm{M}_2)$ containing the scalar functions, where $X$ is a compact metrizable space. We characterize amenability of $A$ by semisimplicity of its fibres and a uniform bound on the norms of the elements $2p-\\mathrm{I}_2$ associated with their primitive idempotents. This bound is the exact similarity constant in the faithful representation given by the direct sum of all evaluations. In particular, an amenable algebra of this form admits a similarity to a nuclear $\\mathrm{C}^*$-algebra with cost at most $\\sqrt{2\\operatorname{AM}(A)-1}$. The estimate is sharp already for a two-dimensional algebra in $\\mathrm{M}_2$. The similarity is constructed from positive matrix-valued functions which are continuous away from the scalar fibres. Although these functions need not be continuous everywhere, the induced algebra isomorphism preserves continuous sections. We also prove the corresponding results for locally trivial bundles of $\\mathrm{M}_2$-algebras, and give a noncommutative example for which no continuous matrix-valued similarity is available.",
+"authors": [
+"Cédric ARHANCET"
+],
+"categories": [
+"math.OA",
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2611.00528v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00528v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00519",
+"title": "Sheil-Small's (1974) covering problem has a positive answer, and other miscellanea",
+"abstract": "T. Sheil-Small asked whether every self-inversive polynomial maps the unit disc onto a domain that contains a disc whose radius is the largest modulus of the polynomial's coefficients (Problem 4.24 in Hayman and Lingham's problem book). We show that the answer is yes. More generally, every non-constant polynomial whose coefficients have the same moduli when read in reverse order maps the unit disc onto a domain that contains an open disc of this radius. This class contains both the self-inversive polynomials, whose zeros are symmetric with respect to the unit circle, and the polynomials whose zeros, with multiplicity, are symmetric under taking reciprocals (the literal reading of the problem as printed), so the theorem answers the question under either reading. The radius cannot be increased. For a polynomial with all its zeros on the unit circle, the largest disc in the image has radius exactly half the maximum modulus of the polynomial on the circle. For these polynomials the question is therefore equivalent to asking whether every coefficient has modulus at most half this maximum. O'Hara and Rodriguez and, independently, Saff and Sheil-Small proved this in 1974 for every coefficient except the middle one, and Kristiansen proved the middle case in 1979. The new case is that of polynomials with zeros off the unit circle. We treat this case with the Schur–Cohn Hermitian form of the polynomial minus a value that it does not take in the disc. This expanded version adds a description by rays of the image of a self-inversive polynomial, two examples, and the trigonometric form of the middle case. The results of Sections 2–5 are also proved in Lean 4, with the coefficient bound taken as given.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CV",
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.00519v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00519v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00534",
+"title": "Smooth isometric bending of a closed sphere",
+"abstract": "We construct a smooth embedded sphere $\\Sigma\\subset\\mathbb R^3$ together with a smooth one-parameter family of isometric embeddings of $\\Sigma$ whose images are not all congruent. The family is periodic; an inner disk and a complementary cap stay fixed pointwise; and the area, the enclosed volume and the total mean curvature do not change. This gives a flexible closed surface in the smooth category. The mechanism is elementary. A disk whose metric is rotationally symmetric, but whose embedding is not, can be turned inside a fixed shell provided it is exactly planar near its rim. The whole difficulty is to produce such a disk. This reduces to a scalar equation of Monge–Ampère type on an annulus, the Darboux equation, for a height function which must be nonradial and yet constant to infinite order at both boundary circles. We solve this equation by a Nash–Moser argument around an infinitesimal bending of a radial profile. The profile is forced to change the sign of its curvature infinitely often near each boundary circle, so the linearized equation changes type on infinitely many circles accumulating at both ends. We build the profile from explicitly solvable one-dimensional models, describe its accumulating ends by an exact three-term recurrence, and invert the linearized operator on the whole annulus. Two modifications of the linearization, each proportional to an unsolved equation, keep the type-change circles and the characteristic return maps fixed during the iteration, so that all linearized operators act on one domain.",
+"authors": [
+"Boyang Hu"
+],
+"categories": [
+"math.DG",
+"math.AP",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00534v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00534v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00530",
+"title": "Smooth Numbers in Arithmetic Progressions with Uniformity in the Residue Class",
+"abstract": "We improve the level of distribution of smooth numbers in arithmetic progressions to $x^{5/8-\\epsilon}$, with uniformity in the residue class. In particular, for every $\\epsilon,A>0$ and integer $k\\geq1$, there exist $\\delta,C>0$ such that $$ \\sum_{\\substack{q\\leq x^{5/8-\\epsilon}\\\\(q,a_1a_2)=1}}\\tau_k(q)\\sup_{0\\leq z\\leq x} \\Biggl|\\Psi(z,y;a_1\\overline{a_2},q) -\\frac{1}{\\phi(q)}\\Psi_q(z;y)\\Biggr| \\ll_{\\epsilon,A,k}\\frac{\\Psi(x;y)}{(\\log x)^A}, $$ uniformly for $x\\geq2$, $(\\log x)^C\\leq y\\leq x^{1/C}$, and $a_1,a_2\\in\\Z\\setminus\\{0\\}$ satisfying $$ |a_1|\\leq x^{1+\\delta},\\qquad |a_2|\\leq x^\\delta,\\qquad (a_1,a_2)=1. $$ Here $\\Psi(z;y)$ counts the $y$-smooth integers up to $z$, $\\Psi_q(z;y)$ counts those coprime to $q$, and $\\Psi(z,y;a,q)$ counts those congruent to $a$ modulo $q$; $\\tau_k$ is the $k$-fold divisor function. The proof combines dispersion with second and fourth spectral moments.",
+"authors": [
+"Sarvagya Jain"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00530v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00530v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00512",
+"title": "The Hibi–Li (2016) conjecture is fully resolved",
+"abstract": "Hibi and Li conjectured that the order polytope 𝒪(P) of a finite poset P has at most as many faces of each dimension as its chain polytope 𝒞(P), and that equality in some dimension k with 1 ≤ k ≤ |P| − 1 forces the two polytopes to be unimodularly equivalent. Fourier proved the inequality in a 2026 preprint. Let X be the five-element poset in which an element lies above two incomparable elements and below two other incomparable elements. Using two results from Fourier's preprint, we show that if an n-element poset contains X as an induced subposet, then, for every k with 2 ≤ k ≤ n − 1, its chain polytope has at least (n−3 choose k−2) more k-dimensional faces than its order polytope, and that for every n ≥ 5 some n-element poset containing X attains all these bounds at once. Since Hibi and Li showed that 𝒪(P) and 𝒞(P) are unimodularly equivalent exactly when P does not contain X, this proves the equality statement for these values of k. The second version of Fourier's preprint gives an independent proof of this statement. For k = 1, the equality statement is false: the polytopes 𝒪(X) and 𝒞(X) have the same number of edges (Hibi, Li, Sahara and Shikama) but are not unimodularly equivalent. Together with Fourier's inequality, these results settle the conjecture. Our results are formalized in Lean 4, with one result of Fourier's preprint and three published results taken as hypotheses.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CO",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00512v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00512v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00513",
+"title": "The Hibi–Li (2016) conjecture is fully resolved, and other miscellanea",
+"abstract": "We prove the equality part of the Hibi–Li (2016) conjecture, its last open part: for every n-element poset P and every 2 ≤ k ≤ n−1, if the chain polytope 𝒞(P) and the order polytope 𝒪(P) have the same number of k-dimensional faces, then they are unimodularly equivalent. Its inequality part, that 𝒞(P) has at least as many k-dimensional faces as 𝒪(P), was first proved by Fourier; for edges the equality part fails, since the two polytopes always have the same number of edges. So the conjecture is now fully resolved. The second version of Fourier's preprint gives an independent proof of the equality part. Both parts follow from two theorems. First, the face numbers of a bounded marked chain-order polytope weakly increase when its chain part grows; the partition is arbitrary, and the marking may be real and degenerate. Its admissible case is also proved, independently, in the second version of Fourier's preprint. Second, for an ordinary n-element poset P whose order and chain polytopes are not unimodularly equivalent, we prove the sharp inequalities f_k(𝒞(P))−f_k(𝒪(P)) ≥ (n−3 choose k−2) for 2 ≤ k ≤ n−1. We characterize the posets for which all these bounds are attained at once, and the set of indices k at which the bound is attained. For posets whose order and chain polytopes differ by one in the number of 2-faces, we obtain a sharper bound that depends on the difference of the facet numbers. For nested chain parts C ⊆ C' in the bounded marked setting, equality of facet numbers is equivalent to affine equivalence; integral markings give lattice equivalence. We prove that regular marked posets have irredundant canonical facet descriptions for every partition, including when maximal elements are unmarked. In that unbounded setting, a switch, which adds one element to the chain part, weakly increases every face number if the element has an upper endpoint, and weakly decreases every face number otherwise. A nonzero change has its nonzero coefficients exactly in an interval of degrees that ends one below the dimension. Its quotient by (1+t)^2 for an increase, and by 1+t for a decrease, has coefficients of the sign of the change. A connected example shows that increases and decreases can cancel along a nested sequence. For bounded marked posets and several pairwise incomparable switched order elements, the alternating sum of face polynomials is a higher-order subdivision defect. It obeys a sign rule under mutual transversality, and for layered posets whose distinct lower and upper neighbourhoods form Berge-acyclic families; without these hypotheses the sign rule can fail, and the defect can have coefficients of both signs. When all these neighbourhoods have two elements, the defect is, up to sign, a power of 2+t times the chromatic polynomials of the lower and the upper neighbourhood graph, evaluated at −t; the sign rule then holds exactly when both graphs are forests. For neighbourhoods of any size, the defect of a layered poset is, up to sign and a power of 2+t, a product of two alternating sums of chromatic polynomials of hypergraphs at −t; for neighbourhoods with three or more elements, Berge-acyclicity is not necessary for the sign rule. The arguments combine fixed-height lifts and clipped markings with general transverse-subdivision results proved in the appendices.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CO",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00513v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00513v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00525",
+"title": "The Lee (2026) conjecture on the diameters of order and chain polytopes fails in both directions, and other miscellanea",
+"abstract": "For a finite poset $P$, Stanley's order polytope $\\mathcal O(P)$ and chain polytope $\\mathcal C(P)$ have the same number of vertices and, by a theorem of Hibi, Li, Sahara and Shikama, the same number of edges. J. Lee recently conjectured that for a connected poset the diameters of their graphs differ by at most $1$. We show that this fails in both directions. For every $k\\ge1$ we describe a connected poset $B_k$ with $3k$ elements on three consecutive antidiagonals of the grid $\\mathbb Z^2$, for which the graph of $\\mathcal O(B_k)$ has diameter exactly $k$, while the graph of $\\mathcal C(B_k)$ has diameter exactly $\\lfloor2k/3\\rfloor+1$. Their difference is therefore $\\lceil k/3\\rceil-1$, and their ratio tends to $3/2$. Hence no constant bounds $\\operatorname{diam}\\mathcal O(P)-\\operatorname{diam}\\mathcal C(P)$ on connected posets. In the other direction, for every $n\\ge4$ we construct a connected poset $P_n$ with $2n^2+5n+1$ elements such that $\\operatorname{diam}\\mathcal O(P_n)=2$ and $\\operatorname{diam}\\mathcal C(P_n)=4$. We also show that $\\operatorname{diam}\\mathcal O(P)\\le2$ implies $\\operatorname{diam}\\mathcal C(P)\\le4$ for every finite poset $P$, so a difference of $2$ is the largest possible at order diameter $2$.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CO",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00525v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00525v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00547",
+"title": "The Matsaev (1971) conjecture is false for every p ≠ 2",
+"abstract": "The Matsaev (1971) conjecture asserts that for 1 < p < ∞, every contraction T on an Lᵖ space and every polynomial P satisfy ‖P(T)‖ ≤ ‖P(S)‖, where S is the right shift on ℓᵖ(ℕ); for p = 2 this is von Neumann's inequality. Drury (2011) disproved it for p = 4, and hence, by duality, for p = 4/3, with a computer-assisted example. We prove that it fails for every p ∈ (1, ∞) ∖ {2}, even with T a real 2×2 matrix and P a real quadratic polynomial. Let Pₐ(z) = 1 + az − Bz² with B > 0. For p ≠ 2 and small a > 0 we show that ‖Pₐ(S)‖ = ‖Pₐ(J)‖, where J is the rotation of ℓᵖ₂ (ℂ² with the ℓᵖ norm) by a right angle. For p > 2 the bound ‖Pₐ(S)‖ ≤ ‖Pₐ(J)‖ comes from a Bellman function: a function G of two real variables such that, for every real sequence x ∈ ℓᵖ(ℕ) (with x₋₁ = x₋₂ = 0) and every n ≥ 0, |(Pₐ(S)x)ₙ|ᵖ ≤ ‖Pₐ(J)‖ᵖ|xₙ|ᵖ + G(xₙ₋₁, xₙ₋₂) − G(xₙ, xₙ₋₁); the G terms cancel in the sum over n. For 1 < p < 2 the bound follows by duality. If B > 1, a rotation by an angle slightly larger than π/2, scaled down to a contraction, gives a real 2×2 matrix T with ‖Pₐ(T)‖ > ‖Pₐ(J)‖ = ‖Pₐ(S)‖. In the other direction, the conjecture holds for every quadratic whose constant and leading coefficients have equal modulus. An expanded version of this paper, with many other results, is posted on Zenodo: https://doi.org/10.5281/zenodo.23691816.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.FA",
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.00547v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00547v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00548",
+"title": "The Matsaev (1971) conjecture is false for every p ≠ 2, and other miscellanea",
+"abstract": "The Matsaev (1971) conjecture asserts that for 1 < p < ∞, every contraction T on an Lᵖ space and every polynomial P satisfy ‖P(T)‖ ≤ ‖P(S)‖, where S is the shift on ℓᵖ(ℕ). We prove that it fails for every p ∈ (1, ∞) ∖ {2}, already for a real 2×2 matrix and a real quadratic, without numerical computation, and that it holds for every quadratic whose constant and leading coefficients have equal modulus; these results and their proofs also form the short paper \"The Matsaev (1971) conjecture is false for every p ≠ 2\". This expanded version adds an explicit quadratic and an explicit family of scaled rotations that violate the conjecture on a whole punctured neighbourhood of p = 2, with a proof by hand; an exact rational re-proof of Drury's counterexample at p = 4; upper bounds, certified in exact rational arithmetic, for the shift norms of Drury's polynomial at p = 3, 4, 6, …, 20; explicit counterexamples, certified by computer, for every p ∈ [40/39, 40], p ≠ 2; and conditions that every 2×2 counterexample must satisfy.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.FA",
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.00548v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00548v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00544",
+"title": "The Osserman (1990) conjecture is fully resolved",
+"abstract": "The Osserman conjecture says that a Riemannian manifold whose Jacobi operators have the same eigenvalues for all unit tangent vectors at all points is flat or locally rank-one symmetric. Chi and Nikolayevsky proved it in every dimension except one case in dimension sixteen: a Jacobi eigenvalue of multiplicity seven or eight. Nikolayevsky reduced this case to an algebraic statement, the Nikolayevsky (2009) conjecture: an Osserman algebraic curvature tensor on ℝ¹⁶ with a Jacobi eigenvalue of multiplicity seven or eight has a Clifford structure or is a linear combination of the constant-curvature tensor and an orthogonal conjugate of the curvature tensor of the Cayley projective plane. We prove this conjecture. Hence the Osserman conjecture is true in every dimension, and so is the conformal Osserman conjecture, which is stated for dimensions greater than four. For two eigenvalues, a Cartan–Münzner quartic built from the Jacobi operators, together with the classification of isoparametric hypersurfaces with four principal curvatures, shows that the tensor is Clifford or comes from the Cayley projective plane. For three or more eigenvalues, polynomial eigenfields settle nineteen multiplicity patterns. In the remaining sixteen patterns, a sums-of-squares argument treats the case where the eigenvalue of multiplicity seven or eight is the smallest or the largest; otherwise we study the poles of a rational factorization of the Jacobi operators: a topological rigidity lemma for quadratic Gram matrices settles the case without poles, and degree bounds, real positivity and homogeneous factorization exclude each pole type or force a Clifford structure.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.DG"
+],
+"link": "https://hexagonmath.org/abs/2611.00544v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00544v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00546",
+"title": "The Osserman (1990) conjecture is fully resolved, and other miscellanea",
+"abstract": "The Osserman conjecture says that a Riemannian manifold whose Jacobi operators have the same eigenvalues in every unit direction is flat or locally rank-one symmetric. Chi and Nikolayevsky proved it in every dimension except one remaining case: dimension sixteen, when a Jacobi eigenvalue has multiplicity seven or eight. Nikolayevsky reduced this remaining case to a purely algebraic statement, the Nikolayevsky (2009) conjecture, his Conjecture A. We prove the Nikolayevsky (2009) conjecture. Hence the Osserman conjecture is true in every dimension, including its pointwise form in dimension sixteen. The same result completes the conformal Osserman conjecture, which is stated for dimensions greater than four. Conjecture A says that an Osserman algebraic curvature tensor on ℝ¹⁶ whose reduced Jacobi operator has an eigenvalue of multiplicity seven or eight has a Clifford structure or is a linear combination of the constant-curvature tensor and an orthogonal pullback of the Cayley-plane curvature tensor. For the two-eigenvalue case, we construct a Cartan–Münzner quartic and recover the original Jacobi eigenspaces from its isoparametric classification. For the remaining multiplicity patterns, we study a rational coherent factor of the Jacobi family. Its transpose pencil, polar divisors and residue images reduce the possible poles to cases excluded by degree bounds, real positivity and homogeneous factorization. A frame-independent closed-kernel identity completes the passage from local pole reductions to the algebraic classification.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.DG"
+],
+"link": "https://hexagonmath.org/abs/2611.00546v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00546v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-17",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00542",
+"title": "The relations of a Lie subalgebra considered by Tao: a complete presentation",
+"abstract": "Let g be the Lie algebra over a field of characteristic 0 generated by D_i, E_i (i ≥ 1), subject to [D_i,D_j] = [E_i,E_j] = 0 and [D_i,E_j] = [D_j,E_i]. Let h be the subalgebra generated by the elements [D_i,E_j] and E_i. On MathOverflow (question 464808), T. Tao asked whether the obvious relations [D_i,E_j] = [D_j,E_i], [E_i,E_j] = 0 and [E_i,[D_j,E_k]] = [E_k,[D_j,E_i]] generate all relations of h. We prove that they do. The proof has four steps: (1) a polarisation argument reduces the problem to multilinear components; (2) we give a presentation of the ideal generated by the E_i; (3) an excess filtration, whose associated graded algebra we compute explicitly, reduces injectivity to an equality of dimensions; (4) that equality follows from the Hilbert series of g, which is given by Eulerian numbers. The Hilbert series in step 4 is equivalent to known results. The multilinear components of the enveloping algebra of the ideal generated by the E_i coincide with the homology of the Losev–Manin spaces: their Betti numbers are due to Losev and Manin (Michigan Math. J. 48 (2000)), and the algebra structure was presented by Dotsenko, Shadrin and Tamaroff (Comm. Math. Phys. 399 (2023)). The paper explains this relation precisely. It also gives an independent, self-contained derivation, using a PBW basis of U(g) obtained from Bergman’s diamond lemma and a sign-reversing involution. By-products: h is a semidirect product of a free Lie algebra and an abelian Lie algebra; the elements [D_i,E_j] (i ≤ j) freely generate a free Lie subalgebra of g; the multilinear components of g have dimensions given by Eulerian numbers (equivalent to known results). We were unable to find the affirmative answer to Tao's question or the freeness statement in the literature. Independent computer checks are included in the separate code archive.",
+"authors": [
+"Qiyuan Ma"
+],
+"categories": [
+"math.RA",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00542v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00542v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00529",
+"title": "Three Properties of Markov–Hurwitz Equations",
+"abstract": "We prove Laurent positivity for pure Markov–Hurwitz mutations, density-one uniqueness by the largest coordinate for positive integral solutions of the symmetric generalized equation, and labelled Vieta connectivity for the pure equation on points with at most one zero coordinate over sufficiently large prime fields.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.NT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00529v2",
+"pdf": "https://hexagonmath.org/pdf/2611.00529v2",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00531",
+"title": "Which groups are automorphism groups of racks?",
+"abstract": "Every group is the automorphism group of a graph, of a magma, and even of a set-theoretic solution of the Yang-Baxter equation. We show that this fails for racks and quandles: the quaternion group of order eight is not the automorphism group of any rack, and it is the smallest group with this property. More generally, generalized quaternion groups and Hamiltonian groups are never automorphism groups of racks, and a dicyclic group is the automorphism group of a rack if and only if its order is not divisible by eight. On the positive side, dihedral, alternating and all finite abelian groups are automorphism groups of finite quandles.",
+"authors": [
+"G. Militaru"
+],
+"categories": [
+"math.GR",
+"math.QA",
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.00531v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00531v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00540",
+"title": "Wills' (1981) conjecture holds if and only if the dimension is at most 4",
+"abstract": "Let $P$ be a lattice polytope in $\\mathbb R^n$ that is symmetric about the origin and has the origin as its only interior lattice point. In 1981 Wills conjectured that each coefficient $g_i(P)$ of the Ehrhart polynomial of $P$ is at most the corresponding coefficient of the cube $[-1,1]^n$, that is, $g_i(P)\\le 2^i\\binom ni$. Wills proved this for $n\\le3$, and Henze showed in 2014 that it fails for every $n\\ge7$; the dimensions $4$, $5$ and $6$ remained open. We settle them. In dimension $4$ the conjecture holds; the new bounds are $g_1(P)\\le8$ and $g_2(P)\\le24$, and, up to unimodular equivalence, $g_1(P)=8$ only for the cube, one explicit $24$-cell and one explicit cross-polytope. In dimension $5$ we give a polytope with $50$ vertices in $[-1,1]^5$ whose linear Ehrhart coefficient is $101/10>10$; products with segments then give counterexamples in every dimension $n\\ge6$. Hence Wills' conjecture holds in $\\mathbb R^n$ if and only if $n\\le4$. The proof in dimension $4$ combines Ehrhart reciprocity, the lower bound theorem for triangulated $3$-spheres and an exhaustive computer enumeration of about three million sets of lattice points, listed up to symmetry.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CO",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00540v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00540v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00541",
+"title": "Wills' (1981) conjecture holds if and only if the dimension is at most 4, and other miscellanea",
+"abstract": "Let $P$ be a lattice polytope in $\\mathbb R^n$ that is symmetric about the origin and has the origin as its only interior lattice point. In 1981 Wills conjectured that each coefficient $g_i(P)$ of the Ehrhart polynomial of $P$ is at most the corresponding coefficient of the cube $[-1,1]^n$, that is, $g_i(P)\\le 2^i\\binom ni$. Wills proved this for $n\\le3$, and Henze showed in 2014 that it fails for every $n\\ge7$; the dimensions $4$, $5$ and $6$ remained open. We settle them. In dimension $4$ the conjecture holds; the new bounds are $g_1(P)\\le8$ and $g_2(P)\\le24$, and, up to unimodular equivalence, $g_1(P)=8$ only for the cube, one explicit $24$-cell and one explicit cross-polytope. In dimension $5$ we give a polytope with $50$ vertices in $[-1,1]^5$ whose linear Ehrhart coefficient is $101/10>10$; products with segments then give counterexamples in every dimension $n\\ge6$. Hence Wills' conjecture holds in $\\mathbb R^n$ if and only if $n\\le4$. The proof in dimension $4$ combines Ehrhart reciprocity, the lower bound theorem for triangulated $3$-spheres and an exhaustive computer enumeration of about three million sets of lattice points, listed up to symmetry. This expanded version also gives a second proof of the case in which the integer functionals bounded by $1$ on $P$ do not span $\\mathbb R^4$, determines the second largest value of $g_2$ in dimension $4$, discusses a width-two approach, describes the computer search for the counterexample, and describes all computations used in the proofs.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CO",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00541v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00541v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-16",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
