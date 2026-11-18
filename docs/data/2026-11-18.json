@@ -1,6 +1,6 @@
 {
 "day": "2026-11-18",
-"updated": "2026-11-18T06:07:09+00:00",
+"updated": "2026-11-18T07:05:07+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -298,6 +298,30 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00584",
+"title": "A finite-color partition relation for ω₁²",
+"abstract": "We prove in ZFC that \\(\\omega_1^2 \\longrightarrow (\\omega_1\\cdot\\omega,\\underbrace{3,\\ldots,3}_{k})^2_{k+1}\\) for \\(k<\\omega\\), answering Erdős problem 1171. Under a Baire category hypothesis, a branch through a countable tree of reservoirs enables an induction on the positive colors. We then show that Cohen forcing supplies the category hypothesis and that a homogeneous set of order type \\(\\omega_1\\cdot\\omega\\) in a ground-model coloring reflects to the ground model.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00584v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00584v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00562",
 "title": "A Full-Sequence Quantitative Gap Between the Chromatic and Cochromatic Numbers of a Random Graph",
 "abstract": "The cochromatic number $\\zeta(G)$ of a graph $G$ is the least number of parts in a partition of $V(G)$ into cliques and independent sets, so $\\zeta(G)\\le\\chi(G)$. Erdős and Gimbel asked whether $\\chi(G_n)-\\zeta(G_n)\\to\\infty$ with high probability for $G_n\\sim G(n,1/2)$. Heckel answered this affirmatively for about $95\\%$ of all integers $n$ and conjectured that the natural order of the difference along the full sequence is $n/(\\ln n)^3$. We prove that, as $n\\to\\infty$ through all integers, $\\chi(G_n)-\\zeta(G_n)\\ge0.063\\,n/(\\ln n)^3$ with high probability. The failure probabilities are summable, so under any coupling of the graphs $G_n$ the bound holds almost surely for all sufficiently large $n$. The proof counts partitions of the vertex set into classes of five consecutive sizes, each class declared independent or complete. The two choices per class outweigh the entropy lost by restricting the class sizes, so the expected number of such partitions is large already at a number of classes that lies order $n/(\\ln n)^3$ below the first-moment lower bound for the chromatic number, uniformly in the rounding phase. A second-moment argument, which controls all overlaps between two such partitions, including whole shared classes and large intersections of unequal classes, bounds the probability that such a partition exists from below. Vertex-exposure concentration, together with a coloring of the leftover vertices, then raises this to high probability at a cost of $o(n/(\\ln n)^3)$ extra classes.",
@@ -481,6 +505,48 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00576",
+"title": "An Averaged Iwasawa Approach to Mordell over Q",
+"abstract": "We give a new proof of the Mordell conjecture over the rational numbers via the Chabuty-Kim method.",
+"authors": [
+"Jit Wu Yap"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00576v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00576v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00577",
+"title": "An infinite cascade for the defocusing cubic nonlinear Schrödinger equation on the square torus",
+"abstract": "We prove that the defocusing cubic nonlinear Schrödinger equation on the square torus has a global solution whose $H^{6/5}$ norm tends to infinity. This result resolves a conjecture posed by Bourgain. In a weaker Sobolev topology the same solution approaches a horizontal almost periodic motion. We choose a one-dimensional invariant torus whose spatial mean has a nonzero stationary component in the mass gauge. This component couples pairs of high-frequency waves with orthogonal wave vectors. We arrange finitely many such interactions so that energy passes to horizontal modes, then realize the transfer along an exact trajectory in the stable manifold of a larger horizontal torus. A comparison in two Sobolev norms allows successive transfers to preserve the growth already attained at earlier times.",
+"authors": [
+"Xi Chen"
+],
+"categories": [
+"math.AP"
+],
+"link": "https://hexagonmath.org/abs/2611.00577v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00577v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00570",
 "title": "An upper bound 0.4893562 for the upper density of the integers p+2^k",
 "abstract": "Let A be the set of odd integers of the form p + 2^k with p prime and k >= 0. We prove that the upper density of A is less than 0.489356157186869, improving the bound 0.489440909905826 announced by Patankar in November 2026. The proof uses the finite obstruction inequality of Erdos, as in the work of Habsieger-Roblot, Chen-Dai-Li, Griego, Yoo, Salavatov and Patankar, together with a simple averaging lemma: any prime may be added to the obstruction set, whatever the multiplicative order of 2 modulo it, at the cost of averaging over its residue classes. Adding all odd primes below 200 000 to Patankar's 59-prime certificate gives the bound. Starting instead from Salavatov's 51-prime certificate, whose base histogram we rebuilt, gives the bound 0.489419333025262, which also improves the previous record. The certificates are exact rational computations and are provided with the verification programs.",
@@ -516,6 +582,30 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00582",
+"title": "Anti-concentration of the chromatic number of a dense random graph",
+"abstract": "For \\(G_n\\sim G(n,1/2)\\) and each fixed \\(0<d<1/4\\), we obtain that the supremum over intervals of radius \\(n^d\\) of the probability that \\(\\chi(G_n)\\) lies in the interval tends to zero. This implies the failure of concentration on any fixed number of possible values and gives the eventual strict half-mass bound asked for in Erdős Problem 1156. The proof treats different supplies of large independent sets by matching sums and by one- and two-count Gaussian comparisons.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00582v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00582v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
@@ -867,6 +957,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00579",
+"title": "GPF-Tribonacci sequences admit no uniform linear bound",
+"abstract": "A GPF-Tribonacci sequence is a sequence of primes in which every term is the greatest prime factor of the sum of the three preceding terms. Back and Caragiu asked whether there is a constant $L$ such that every term of every such sequence is at most $L$ times the largest of its three initial terms. We show that the answer is no. For every $C>0$ we show that there are GPF-Tribonacci sequences, starting from three distinct and arbitrarily large primes, in which three consecutive terms are all larger than $C$ times the largest initial term. This happens after $O(\\log C)$ steps. In the proof we prescribe the quotient of the sum of three consecutive terms by the next term. These quotients follow the periodic pattern $1,3,5$. Then we apply the theorem of Green, Tao and Ziegler on linear equations in primes. The conjecture of Back and Caragiu that every GPF-Tribonacci sequence is ultimately periodic remains open.",
+"authors": [
+"Ryuya Hora"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00579v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00579v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2207.14432",
 "title": "Greatest Common Divisors and an Unlikely Intersection Type Conjecture",
 "abstract": "We prove inequalities involving greatest common divisors of functions at integral points with respect to numerically parallel divisors, generalizing a result of Wang and Yasufuku (after work of Bugeaud-Corvaja-Zannier, Corvaja-Zannier, and the second author). In addition to proving results in a broader context than previously considered, we also study the exceptional set in this setting, for both the counting function and the proximity function. Based on our study of exceptional sets, we propose new conjectures connected to the topic of unlikely intersections. We prove special cases of the conjectures on abelian varieties and the algebraic torus, including a completely explicit result in the former case, and provide a link between the conjectures and exceptional sets for inequalities involving greatest common divisors.",
@@ -884,6 +995,27 @@
 "announce": "replace-cross",
 "date": "2026-11-18",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00575",
+"title": "Hybrid Quantum Algorithms for Summary Statistics of Nonlinear PDEs with Random Initial Data",
+"abstract": "I develop a hybrid classical--quantum algorithm for summary statistics of nonlinear PDEs with Gaussian random initial data. Perturbative expansion and Wick's theorem reduce ensemble averages to deterministic momentum and time integrals. Classical interpolation and quantum amplitude estimation then evaluate these integrals with improved accuracy dependence for sufficiently smooth integrands, without quantum random-access memory. I apply the method to the Einstein--de Sitter Euler--Poisson perturbation theory developed by Goroff, Grinstein, Rey, and Wise. For the one-loop matter power spectrum, I establish the integrand regularity required by the algorithm under specified assumptions on the initial spectrum. Cubic nonlinear Schrodinger evolution provides a comparison involving resonances and diagram cancellations. I account separately for preprocessing and circuit costs.",
+"authors": [
+"Soo-Jong Rey"
+],
+"categories": [
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00575v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00575v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "human",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1393,6 +1525,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00573",
+"title": "Representation of Degrees of Convergence by Nonadditive Measures",
+"abstract": "We characterize the functions that arise as degrees of convergence of sequences in metric spaces with respect to normalized capacities on $\\mathbb{N}$. More precisely, answering a question of Mi\\v{s}\\'{\\i}k and T{\\'o}th in [Fuzzy Sets and Systems \\textbf{375} (2019), 179--190], we show that these functions are precisely the $[0,1]$-valued upper semicontinuous functions whose positive supports are separable. We obtain further characterizations when the representing capacities are required to be maxitive, subadditive, submodular, superadditive, supermodular, or countably subadditive, as well as for finitely and countably additive probability measures. Remarkably, representation by a normalized submeasure is equivalent to representation by the upper asymptotic density $\\mathsf{d}^\\star$. As a byproduct, if $(X,d)$ is an uncountable compact metric space, then a map $f:X\\to [0,1]$ is upper semicontinuous if and only if there exists a sequence $(x_n)$ in $X$ such that $$ f(x)=\\inf_{\\varepsilon> 0} \\mathsf{d}^\\star (\\{n \\in \\mathbb{N}: d(x_n,x)<\\varepsilon\\}) \\quad \\text{ for all }x \\in X. $$ We also characterize the pairs of upper and lower degrees that can be represented simultaneously by a single sequence, with a sharp distinction between countable compact metric spaces and the remaining metric spaces. Lastly, we characterize the existence of universal representing sequences, and investigate the comeagerness of the family of maldistributed sequences.",
+"authors": [
+"Paolo Leonetti"
+],
+"categories": [
+"math.CA",
+"math.GN"
+],
+"link": "https://hexagonmath.org/abs/2611.00573v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00573v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-17",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00553",
 "title": "Robust Strictly Positive Real Synthesis for Polynomial Polytopes",
 "abstract": "We determine when Hurwitz stability of a polynomial polytope guarantees a common numerator of prescribed degree. The denominators are real and monic of degree $n$, and their convex hull has at most $m$ vertices. For numerator degrees $n-1$ and $n$, the guarantee holds exactly when $n\\le2$ or $m\\le2$. For degree $n+1$ there is one additional case: every Hurwitz-stable cubic triangle admits a common quartic numerator. We prove this existence result by classifying the possible contacts of a nonnegative frequency pairing. In every order $n\\ge4$ we construct a Hurwitz-stable triangle excluding all numerators of degree at most $n+1$.",
@@ -1408,6 +1562,30 @@
 "announce": "new",
 "date": "2026-11-17",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00574",
+"title": "Schwinger–Strebel measures for planar four-point correlators",
+"abstract": "The inverse-Schwinger construction associates finite positive measures on decorated moduli space to connected planar correlators of a free Hermitian matrix scalar. We determine their Lebesgue decomposition after integrating the perimeter variables in the four-point case. The reduced normal-ordered skeletons comprise ten multigraph types and $115$ oriented cells with fixed vertex labels. The path and four-cycle types have projection rank one; all other types have rank two almost everywhere. For a nonzero correlator, a singular component exists precisely when the operator degrees admit a two-against-two balance. The only purely singular degree multisets are $\\{1,1,2,2\\}$ and $\\{2,2,2,2\\}$. At equal degree $k\\geq2$, exact mass formulas give the sharp lower bound $3/(k+1)$ for the singular fraction, a quantitative stability estimate, and fixed-ratio and near-symmetric large-degree limits. We derive square and path marginal densities, including a uniform inverse-cross-ratio law at unit square shapes and a common rate, and the exact path endpoint exponents. The square density is finite and jointly smooth for all positive shapes and rates. For maximal $n$-point cells, a nondegenerate period system on the canonical cover of genus $n-3$ proves that the projections are submersions everywhere and yields a perimeter-simplex density formula. Admissible gamma-shape contractions converge weakly and admit a compensated first variation under a local Hölder condition on test-function pullbacks.",
+"authors": [
+"Zhenyu Sun"
+],
+"categories": [
+"math-ph",
+"math.AG",
+"math.CO",
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.00574v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00574v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-17",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1451,6 +1629,30 @@
 "announce": "new",
 "date": "2026-11-18",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00581",
+"title": "Sharp growth and gap exponents for admissible sequences",
+"abstract": "An increasing sequence of positive integers is admissible if any two finite subsets with the same sum have the same cardinality. We solve the growth and consecutive-gap questions of Deshouillers and Erdős. The least possible exponent in an eventual polynomial bound on the \\(n\\)-th term is \\(2+2\\sqrt 2\\). The least possible consecutive-gap exponent is \\((5+\\sqrt{17})/2\\). Both endpoints are attained with little-\\(o\\) bounds, and the endpoint gap bound holds with coefficient one at every index. We also determine the tradeoff when both bounds are imposed on the same sequence. The lower bounds use subset-sum counts, a restricted-sum progression theorem, and an elementary large-gap lemma. The upper bounds use an induction on congruences of signed subset sums.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00581v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00581v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1631,6 +1833,30 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00583",
+"title": "The sharp constant in the Erdős maximum-term problem",
+"abstract": "For a transcendental entire function \\(f\\), let \\(\\mu(r,f)\\) be its maximum term and \\(M(r,f)\\) its maximum modulus. We determine the supremum of \\(\\liminf_{r\\to\\infty}\\mu(r,f)/M(r,f)\\) as the reciprocal of the minimum circle norm in the He–Tang theta family. The minimum is characterized by a unique solution of three real equations, and the supremum is attained. The proof combines coefficient transport at radii where two terms tie, a classification of the resulting gap sequences, and a uniform quadratic comparison for arithmetic gaps. The local comparisons use exact finite arithmetic.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.00583v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00583v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00560",
 "title": "The Simultaneous Rectangle for Systems, without Homotopy: All the Solutions of a Polynomial System, Each in a Certified Ball, with a Proof That None Is Missing",
 "abstract": "This note carries the simultaneous rectangle of one polynomial (version G8) to a system of $n$ polynomial equations in $n$ unknowns, and removes the homotopy on which the previous version S1 relied. The points start on the solutions of a start system and are swept on $F$ itself with a rectangle step of order three, each point deflated of its nearest neighbours; nothing is tracked. What the sweeps do not find is obtained in three ways: the images of the solutions found by the symmetries read on the system; runs of the step of one point from random points; and the law of the residues: by the formula of Euler and Jacobi the solutions found determine the moments of the missing ones, which are then the generalised eigenvalues of small matrices. Every point passes one certificate (a contraction of a ball in interval arithmetic, and a box by Rouché's theorem for a double solution), and the output is complete when as many disjoint balls are certified as a bound of the number of solutions. For sparse systems that bound is the mixed volume, computed by mixed cells; we show that one lifting, whatever it is, gives the mixed volume as soon as an exact check meets no tie, so that the count is a proof and not a probability. With the Rust crate pandsysroots 0.21.0, on 40,000 systems of twenty-seven families the output is as expected on all of them and proved complete on 39,998; on eighteen classical or large systems, up to 6561 solutions and 64 unknowns, completeness is proved on every one, and the program is faster than a reference homotopy solver with certification on fourteen of them, level on two and slower on two (one machine, default settings). The algebra of the step, the certificate, the laws used by the residues and the argument of the lifting are checked in Lean 4 (64 theorems). The note states which results are formal proofs, written proofs, quoted theorems and numerical observations, and its limits: no theorem of convergence, no certificate for a multiplicity above two, no proof of completeness for a system with a curve of solutions.",
@@ -1649,6 +1875,28 @@
 "announce": "new",
 "date": "2026-11-17",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00572",
+"title": "The Tower Side of the DIC Audit: Semistable Towers, the Barrier $\\kappa\\le\\frac13$, and the Conductor--Discriminant Constant",
+"abstract": "For towers of curves $X_n$ over a number field with a fixed bad-reduction set and $g_n\\to\\infty$, we study the height--conductor ratio $\\kappa_n:=h_F(\\mathrm{Jac}\\,X_n)/\\log\\mathrm{cond}(\\mathrm{Jac}\\,X_n)$ and the normalised quantity $R=12\\kappa-1-\\varepsilon_{\\mathrm{ar}}+O(\\hat f^{-1})$ of the companion preprint \"The Height-Conductor Ratio on Curve Towers\" (2610.00544v2). Three structural results are established. First, $\\sigma_n\\to1$ holds for every semistable tower satisfying the tower axioms, by the combinatorial bound $\\mathrm{rank}\\,L\\le 2g-3$ together with the Saito--Liu conductor--discriminant identity. Second, the barrier $\\kappa\\le\\frac13$ reduces to irreducible isogeny factors; the archimedean branch is closed by the unconditional Theorem 8.7 of 2610.00544v2, and the remaining input $R_\\rho\\le3$ for general $\\mathrm{GL}_2$ and non-$\\mathrm{GL}_2$ towers is shown to be not derivable from the currently proved inputs, the obstruction being isolated in an explicit saturating model with $R\\equiv4$, $\\kappa\\to\\frac{5}{12}$. Third, the conductor--discriminant constant is not universal: inside the CM class it forms the continuum $(q^2+2q+3)/(q^2-1)$, and the mixed-prime model $u^{p^n}+v^{q^m}=1$ contributes the new continuum $[-\\frac{2}{p-1},-\\frac{2}{q-1}]$ with $\\Lambda^{(a)}=0$ exactly. On the Fermat tower the normalisation $\\hat f_n=(2n+1)\\log p$, the exact layer remainder $u_n$, $\\varepsilon_{\\mathrm{ar}}=-2w/(2n+1)+O(p^{-n}/n)$ and the closed form for $R_n$ are derived by finite computation with a two-channel cross-check. The upper half of Problem 10.12 is closed inside the whole Kummer family; the single-curve interior realisation (I'b) and the general bound $R\\le3$ (route II) remain open. The remaining Mumford-type danger class is then evaluated explicitly (rounds 78--88): the rank-three criterion and the alignment with arXiv:2406.19785 record five exact structures with three retractions; equality-case constructions are rigid; the finite-layer band is continuous with $\\gamma=4-\\frac32\\mu$; the $\\mathrm{End}^0$ MT-group classification leaves genus 4 as the sole survivor, realised by the explicit curve $C_{7,t}$; and all 58 degree-eight CM anchor fields of arXiv:2510.00093v2 are certified to have Galois group identifier 8T13, with 8T24 occurring zero times, closing the 8T24 path ($\\Lambda\\equiv0$) and the long-term search items. In the final rounds 89--100 the last-mile chain is run to its end: $C_{7,t}$ is realised with explicit MT structure, CM companion and conductor formula, and the characteristic-two analysis strips the remaining finite layers $3,6,12,24$, forcing tower exhaustion; a full literature-cut proof attempt of the characteristic is recorded and fails at an explicit sign barrier, leaving a conditional theorem with three propositions; the sign of $\\gamma_A$ is settled by a three-valued judgement ($1274/1274$ sample points positive), with $\\delta_\\gamma=48c/L=12\\delta_\\kappa$; and the CM anchor double-point calibration reduces the surviving input of route (II) to the single sign $\\Delta\\Phi_{\\mathrm{eff}}>0$, with all 58 endpoints satisfying $d_\\Phi=n^2$. Route (II) remains open, conditioned on this single input. Nothing in this paper proves $abc$; Theorem A of the source texts is an external input and is not independently verified here.",
+"authors": [
+"Zeng Chunping"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00572v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00572v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-17",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1691,6 +1939,28 @@
 "announce": "replace",
 "date": "2026-11-18",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00580",
+"title": "Uniform Spectral Gap for the AKLT Model on the Square Lattice",
+"abstract": "We prove that the spin-$2$ AKLT Hamiltonian on the square-lattice torus has a unique ground state and a spectral gap bounded below uniformly when both side lengths are sufficiently large, as expected since the work of Affleck, Kennedy, Lieb, and Tasaki. We also prove uniqueness of the infinite-volume frustration-free state on the square lattice. We first bound the quantum gap from below by the spectral gap of a classical block dynamics for the measure that the valence-bond-solid state defines in spin coherent states. We bound the latter through the coupling argument of Martinelli, Olivieri, and Schonmann, whose input we derive from the exponential decay of responses of pair correlations to boundary conditions. We prove this decay by an expansion into bond-self-avoiding walks, comparing the expansions with and without boundary conditions walk by walk, and closing the resulting inequality as a contraction. The proof is computer-assisted. Its local and combinatorial inputs are verified in exact integer arithmetic and in floating-point arithmetic with directed rounding.",
+"authors": [
+"P. M. Aronow",
+"Patrick Lopatto"
+],
+"categories": [
+"math.MP"
+],
+"link": "https://hexagonmath.org/abs/2611.00580v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00580v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
