@@ -1,6 +1,6 @@
 {
 "day": "2026-11-18",
-"updated": "2026-11-18T08:05:57+00:00",
+"updated": "2026-11-18T13:11:14+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -659,6 +659,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00589",
+"title": "Cluster monomials and finite type",
+"abstract": "Let A be a cluster algebra of geometric type with a full-column-rank extended exchange matrix. We prove that A is of finite type if and only if its cluster monomials form a basis over the integral Laurent coefficient ring. Finite type is also equivalent to every universally nonnegative element having a unique expansion as a finite linear combination of cluster monomials with nonnegative Laurent coefficients. In infinite type, we exhibit a universally nonnegative product of positive powers of two cluster variables that lies outside the span of the cluster monomials over the coefficient ring.",
+"authors": [
+"Jason Turner"
+],
+"categories": [
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.00589v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00589v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2411.09670",
 "title": "Cohomological VC-density: Bounds and Applications",
 "abstract": "The concept of Vapnik-Chervonenkis (VC) density is pivotal across various mathematical fields, including discrete geometry, probability theory and model theory. In this paper, we introduce a topological generalization of VC-density. Let $Y$ be a topological space and $\\mathcal{X}$ a family of closed subspaces of $Y$. For each $p \\geq 0$, we define a number, $\\mathrm{vcd}^{p}_{\\mathcal{X}}$, which we refer to as the degree $p$ VC-density of the family $\\mathcal{X}$. The classical notion of VC-density within this topological framework can be recovered by setting $p=0$.\n  Our definition of degree $p$ VC-density extends to higher orders as well. For $p \\geq 0$, $q \\geq 1$, we define the degree $p$, order $q$ VC density $\\mathrm{vcd}^{p,q}_{\\mathcal{X}}$ of $\\mathcal{X}$, which recovers Shelah's notion of higher order VC-density for $q$-dependent families when $p=0$. Our definition introduces a completely new notion when $p > 0$.\n  We examine the properties of $\\mathrm{vcd}_{\\mathcal{X}}^p$ (as well as $\\mathrm{vcd}^{p,q}_{\\mathcal{X}}$) when the families $\\mathcal{X}$ are definable in structures with some underlying topology (for instance, the Euclidean topology for o-minimal structures over $\\mathbb{R}$, the analytic topology over $\\mathbb{C}$, or the \\'{e}tale site for schemes over arbitrary algebraically closed fields). Our main result establishes that in any model of these theories\n  \\[ \\mathrm{vcd}_{\\mathcal{X}}^p \\leq (p+1) \\dim X, \\] and more generally for any $q \\geq 1$ \\[ \\mathrm{vcd}^{p,q}_{\\mathcal{X}} \\leq (p+q) \\dim X. \\] We give examples to show that our bounds are optimal. We also present combinatorial applications of our higher-degree VC-density bounds, deriving higher degree topological analogs of well-known results such as the existence of $\\varepsilon$-nets and the fractional Helly theorem.",
@@ -677,6 +698,27 @@
 "announce": "replace-cross",
 "date": "2026-11-18",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00588",
+"title": "Convex-body volume counterexamples: Convex-body volume counterexamples to hyperplane equipartition",
+"abstract": "For every \\(d\\ge4\\) and every ellipsoid in \\(\\R^d\\), we construct real-analytic convex bodies of positive curvature, converging smoothly to that ellipsoid and having the same volume, whose volume admits no equipartition by \\(d\\) affine hyperplanes. For \\(d\\ge6\\), the bodies can be chosen centrally symmetric. The four-dimensional construction uses Sober\\'on's cubic--quartic tensor nonvanishing theorem. We prove a boundary-perturbation criterion that realizes this obstruction for the uniform volume of a convex body; higher-dimensional examples follow from a finite-dimensional transversality argument. We also construct counterexamples to orthogonal equipartition near every ellipsoid with distinct semiaxes in dimensions \\(d\\ge3\\), with central symmetry when \\(d\\ge4\\). The counterexample property is open in the Hausdorff topology, giving polytopal examples as well.",
+"authors": [
+"Sihan Chen"
+],
+"categories": [
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00588v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00588v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1456,6 +1498,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00587",
+"title": "Plane Algebraic Curve Families from Normalized Zeta Series: Prime-Base Extensions and Composite Breakdown",
+"abstract": "In a companion study of Euler's alternating series $\\eta(s) = (1 - 2^{1-s})\\zeta(s)$, distributing the prefactor across individual summands $t_n(s) = (-1)^{n-1}(1 - 2^{1-s})^{-1}n^{-s}$ exposed two distinct families of plane curves along vertical lines $s = a + ib$ in the critical strip. On the critical line $\\operatorname{Re}(s) = \\frac{1}{2}$, the pure powers $t_{2^k}(\\frac{1}{2} + ib)$ trace an infinite hierarchy of closed, irreducible plane algebraic curves of degree $2k$ in $\\mathbb{Z}[x, y]$ whose enclosed signed areas sum to zero, whereas weighting non-power terms by $(1 - 2^{-s})$ yields concentric circles centered at $(0, 0)$ uniquely at $a = \\frac{1}{2}$ and open, precessing rosettes for $a \\neq \\frac{1}{2}$. This sequel investigates whether the emergence of these curve families is specific to base $2$ or extends to general integer normalizations $\\eta_q(s) = (1 - q^{1-s})\\zeta(s)$ for $q \\ge 2$. We show that every prime base $p$ generates an analogous two-family structure: the pure-power terms $t_{p,p^k}(\\frac{1}{2} + ib)$ form irreducible degree-$2k$ algebraic curves over $\\mathbb{Z}$ governed by a two-step polynomial recurrence, a Blaschke-involution elliptic perimeter integral, and a zero-sum signed-area law; their seed quartics $t_{p,p^2}(\\frac{1}{2} + ib)$ evolve geometrically from figure-eights ($p = 2, 3$) to teardrops and asymptotically circular ovals ($p \\ge 5$) while retaining degree-$4$ integer structure; their rational equations in $\\mathbb{Q}[x, y]$ uniquely single out $a = \\frac{1}{2}$ among rational abscissas $a \\in (0, 1) \\cap \\mathbb{Q}$; and all paired non-power curves ($n \\neq p^k$) transition from concentric circles of radius $\\mathcal{R}_{p,n} = |c_p(n)|/\\sqrt{pn}$ on $a = \\frac{1}{2}$ to two-dimensional rosettes off it. When $q$ is composite, however, this classification fractures. Proper prime powers $q = p^m$ ($m \\ge 2$) produce rational algebraic curves on $2m - 1$ vertical lines $a = \\frac{r}{2m}$ and create a hybrid third family of resonant sub-powers $p^j$ ($m \\nmid j$) that remain closed algebraic loops off $\\operatorname{Re}(s) = \\frac{1}{2}$, while multi-prime composites fail to gather their prime divisors into algebraic towers and break the multiplicative structure of Euler's product.",
+"authors": [
+"Ryan Hackbarth"
+],
+"categories": [
+"math.AG",
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.00587v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00587v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2512.24048",
 "title": "Polynomiality ideals, with applications to polynomial functors over free nilpotent groups",
 "abstract": "Let $k$ be a unital commutative ring. For a monoidal category $C$ whose unit is a zero object, we introduce a descending filtration of the k-linearization of $C$ by two-sided ideals, called the polynomiality ideals: the $d$-th ideal encodes polynomiality of degree at most $d$ for functors from $C$ to $k$-modules. These ideals yield general criteria for the existence of polynomial functors of a given degree and for equivalences between the categories of polynomial functors of degree at most $d$ over different base categories. For Lawvere theories satisfying a mild condition, we identify the polynomiality ideals with powers of augmentation ideals of monoids; this identification makes the criteria computable by means of classical group ring theory. As the main application, we study polynomial functors over finitely generated free nilpotent groups, comparing them across nilpotency classes and polynomial degrees. We obtain refinements of results of Baues and Pirashvili in the case of class at most 2, recover several folklore results for free groups and free abelian groups, and establish a modular analogue formulated with dimension subgroups over a field of positive characteristic in place of the lower central series. Finally, we show that, in contrast to polynomial functors, analytic functors admit no analogous ideal in most cases.",
@@ -1705,6 +1769,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00592",
+"title": "Spectral measures for subfactors and Lie groups",
+"abstract": "We compute the rooted laws of four small-index principal graphs. For a unitary fusion category we express the rooted law of the canonical Lagrangian inclusion in terms of formal codegrees. This explains why two Haagerup extensions have the same moments. We determine when the signed measures of the Deligne--de Man interpolation have positive support and nonnegative cumulative functions for all weights. For the adjoint tensor square, the second and fourth heat derivatives determine the simple Lie type. For the $n$-th tensor power, we prove an expansion in $\\frac1n$, with two correction terms after the leading factor, of the Laplace transform of the Casimir law at time $\\frac sn$. The second correction is an explicit function of the dimension and of the squared norm, divided by the dimension, of the symmetrized quartic trace tensor, affine in the latter.",
+"authors": [
+"Cédric ARHANCET"
+],
+"categories": [
+"math.FA",
+"math.OA"
+],
+"link": "https://hexagonmath.org/abs/2611.00592v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00592v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00550",
 "title": "Sun's supercongruence for two Apéry-like binomial sums",
 "abstract": "Let $f_n=\\sum_{j=0}^n\\binom{n}{j}^3$ and $Q_n=\\sum_{k=0}^n\\binom{n}{k}(-8)^{n-k}f_k$. We prove that, for every odd prime $p$, the two sums $\\sum_{n=0}^{p-1}\\binom{2n}{n} Q_n/(-32)^n$ and $\\sum_{n=0}^{p-1}\\binom{2n}{n} Q_n/64^n$ are congruent modulo $p^2$ to $4x^2-2p$ when $p=x^2+2y^2\\equiv1,3\\pmod{8}$, and to zero when $p\\equiv5,7\\pmod{8}$. For inert primes a finite quadratic differential invariant gives ordinary and singular lifting results, including a formula for the defect at a simple singularity. For split primes we certify the modular period by identities of weight eight, construct an integral Hecke polynomial with an explicit degree bound, and specialize a finite polynomial identity at two complex multiplication points. The coefficient at degree $p$, both classes of complex multiplication matrices, and the primes $3$ and $5$ are treated explicitly.",
@@ -1740,6 +1826,27 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00590",
+"title": "Sup-norm stability radii for a nodal face of the $B_3$ spherical discriminant",
+"abstract": "How large can a real perturbation be before a nodal line ceases to be a single graph in a fixed spherical sector? We study a truncated face of the degree-nine $B_3$ discriminant, allowing all 100 real spherical polynomial modes of degree at most nine and measuring the supremum norm on the entire closed tube. The failure radius equals the minimum cost of cancelling the field and its normal derivative. We bound it on the full parameter domain and determine it exactly in two sufficient regimes, using an explicit atomic mixed-jet certificate on the sphere. In these exact regimes the unique critical field is a scaled Chebyshev polynomial, and the whole closed radius ball still preserves the graph, although the critical zero level is singular; every larger amplification of that field fails. Two continuous examples separate the limits of a support criterion from those of the radius formula. Below the radius we obtain quantitative graph bounds. In the exact regimes a smooth family approaching the critical field from inside the ball has uniformly convergent graphs and terminal slopes diverging as $\\varepsilon^{-1/3}$ at the minimizing terminals. Persistence and $C^1$ conditioning therefore separate.",
+"authors": [
+"Oleksiy Babanskyy"
+],
+"categories": [
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.00590v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00590v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
@@ -1851,6 +1958,27 @@
 "announce": "cross",
 "date": "2026-11-18",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00591",
+"title": "The rational points of the non-split Cartan modular curve of level 25",
+"abstract": "We prove that the modular curve $X_{\\mathrm{ns}}^{+}(25)$ of the normalizer of a non-split Cartan subgroup of level 25, of genus 14 and Jacobian rank 14, has exactly nine rational points, all of them CM. This is the level 25 case of a conjecture of Rouse, Sutherland and Zureick-Brown, and with their theorem it determines the 5-adic images of Galois of elliptic curves over $\\mathbb{Q}$ without complex multiplication. A descent by the modular units of the curve, using no information on the Mordell–Weil group, places every rational point in the residue disc of a CM point at the prime 1151. Quadratic Chabauty at 1151, with two correspondences that change only the level structure, then shows that each of these discs holds one rational point. The local term at 5 of these correspondences vanishes, by a formula of Betts and Dogra, because their eigenvalues lie in $\\sqrt5\\,\\mathbb{Q}$, and the height pairing is fixed by the nine CM points alone.",
+"authors": [
+"Manvir Jaswal"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00591v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00591v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
