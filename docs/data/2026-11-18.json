@@ -1,6 +1,6 @@
 {
 "day": "2026-11-18",
-"updated": "2026-11-18T07:05:07+00:00",
+"updated": "2026-11-18T08:05:57+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -429,6 +429,28 @@
 "announce": "new",
 "date": "2026-11-17",
 "ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00586",
+"title": "A Universal Square-Root-of-Six Bound for Kissing Numbers",
+"abstract": "The least positive number $\\alpha$ for which the Euclidean kissing numbers satisfy $\\tau_n\\leq\\alpha^n$ in every positive dimension is $\\sqrt{6}$. We show how this follows from a classical spherical-cap estimate and known low-dimensional bounds, then give two elementary proofs that require no tables of kissing numbers. A recurrence for cap areas gives strict inequality in every dimension except two. A second proof packs explicit bodies of revolution into the unit ball. The Lean 4/Mathlib certificate registered in Palomar uses this volume construction to prove the universal bound, the planar value $\\tau_2=6$, and the optimality of the base.",
+"authors": [
+"Sebastien Palcoux"
+],
+"categories": [
+"math.MG",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00586v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00586v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1496,6 +1518,30 @@
 "announce": "new",
 "date": "2026-11-18",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00585",
+"title": "Relative independence of the simultaneous chromatic number at ℵ₁",
+"abstract": "Let \\(Q\\) assert that every graph of chromatic number \\(\\aleph_1\\) admits an edge coloring with palette \\(\\omega_1\\) such that every countable partition of its vertices has a part whose induced edges realize the whole palette. Hajnal and Komjáth proved the relative consistency of \\(Q\\) by adding a Cohen real. We prove the relative consistency of \\(\\neg Q\\) from one Woodin cardinal. In the negative model a single graph of chromatic number \\(\\aleph_1\\) has the stronger property that every binary edge coloring admits a countable partition into parts with monochromatic induced edges.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00585v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00585v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
