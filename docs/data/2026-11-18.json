@@ -1,6 +1,6 @@
 {
 "day": "2026-11-18",
-"updated": "2026-11-18T05:08:21+00:00",
+"updated": "2026-11-18T06:07:09+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -475,6 +475,27 @@
 "announce": "replace-cross",
 "date": "2026-11-18",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00570",
+"title": "An upper bound 0.4893562 for the upper density of the integers p+2^k",
+"abstract": "Let A be the set of odd integers of the form p + 2^k with p prime and k >= 0. We prove that the upper density of A is less than 0.489356157186869, improving the bound 0.489440909905826 announced by Patankar in November 2026. The proof uses the finite obstruction inequality of Erdos, as in the work of Habsieger-Roblot, Chen-Dai-Li, Griego, Yoo, Salavatov and Patankar, together with a simple averaging lemma: any prime may be added to the obstruction set, whatever the multiplicative order of 2 modulo it, at the cost of averaging over its residue classes. Adding all odd primes below 200 000 to Patankar's 59-prime certificate gives the bound. Starting instead from Salavatov's 51-prime certificate, whose base histogram we rebuilt, gives the bound 0.489419333025262, which also improves the previous record. The certificates are exact rational computations and are provided with the verification programs.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00570v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00570v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-17",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1499,6 +1520,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00571",
+"title": "The 2-adic valuation of the symmetric Prouhet-Tarry-Escott constant at sizes 13 and 15",
+"abstract": "For symmetric ideal solutions of the Prouhet-Tarry-Escott problem of odd size n over the 2-adic integers, the associated constant C was known to satisfy v_2(C) >= 12 at n = 13, with a best known solution at v_2(C) = 17, and v_2(C) >= 14 at n = 15, with no solution recorded. We show that the minimum is exactly 13 at n = 13 and exactly 14 at n = 15. The lower bounds are computer-assisted: an exhaustive 2-adic lifting, driven by the row law taken as an exact equality (units included) together with the vanishing of the odd power sums, eliminates every valuation profile below these values. The upper bounds are explicit 2-adic solutions, certified by the multivariate Hensel lemma. The same procedure reproduces exactly the known values 4, 6, 9, 11 at n = 5, 7, 9, 11. A self-contained verifier accompanies the note.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00571v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00571v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-17",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.21912",
 "title": "The BMM symmetrising trace conjecture for all exceptional complex reflection groups",
 "abstract": "We prove the symmetrising trace conjecture of Brou\\'e, Malle and Michel for the generic Hecke algebras of all exceptional complex reflection groups. A key ingredient is a new family of bases, constructed via breadth-first search, which generalise the standard basis of an Iwahori-Hecke algebra. These bases provide a uniform proof of the freeness conjecture of Brou\\'e, Malle and Rouquier for these groups. The verification for each group reduces to a finite computation, carried out using programs developed with the assistance of a large language model.",
@@ -1649,6 +1691,30 @@
 "announce": "replace",
 "date": "2026-11-18",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00569",
+"title": "Unique continuation for the Pauli-Fierz Hamiltonian",
+"abstract": "We prove a unique continuation property for eigenstates of the Pauli-Fierz Hamiltonian, viewed as functions of the electron configuration with values in the spin-photon space. The vector potential may lie in $L^6_\\mathrm{loc}$, with its divergence, curl, and the scalar potential in $L^p_\\mathrm{loc}$ for some $p>2$. As an application, we prove a Hohenberg-Kohn theorem at positive coupling strength: the spin-summed ground-state density and combined current density determine the external potentials up to a gauge transformation and an additive constant.",
+"authors": [
+"Mihaly A. Csirik"
+],
+"categories": [
+"math-ph",
+"math.AP",
+"math.SP",
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00569v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00569v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-17",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
