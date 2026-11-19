@@ -1,6 +1,6 @@
 {
 "day": "2026-11-19",
-"updated": "2026-11-19T13:27:22+00:00",
+"updated": "2026-11-19T16:31:54+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -141,6 +141,29 @@
 "tier": 3,
 "reasons": [
 "abstract: infinity-categor"
+],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00653",
+"title": "Ehrhart positivity for polypositroids",
+"abstract": "We prove that all coefficients of the Ehrhart polynomial of an integral polypositroid are strictly positive. In particular, this proves the positroid conjecture of Ferroni, Jochemko and Schröter. More generally, inclusion of integral polypositroids in a common cyclic order implies coefficientwise comparison of their Ehrhart polynomials. Hence the hypersimplex dominates every positroid of the same rank and size. We express each coefficient as a sum of relative face volumes multiplied by explicit nonnegative rational weights. The weights count linear extensions and specialize, for hypersimplices, to Ferroni's formula involving weighted Lah and Eulerian numbers. In the appendix we exhibit two representable matroids whose quartic Ehrhart coefficients exceed those of the hypersimplices of the same rank and size.",
+"authors": [
+"Luis Ferroni"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00653v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00653v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 3,
+"reasons": [
+"abstract: presentable"
 ],
 "watched_authors": []
 },
@@ -535,6 +558,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00664",
+"title": "A counterexample to a stability question for unramified multiplicity one symmetric pairs",
+"abstract": "We construct a split reductive symmetric pair over $\\mathbb{Q}_{17}$ with multiplicity at most one for every irreducible unramified representation and which is not a stable symmetric pair.",
+"authors": [
+"Rui Chen"
+],
+"categories": [
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00664v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00664v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.24594",
 "title": "A Cubic Obstruction to Sums of Tripotent and Square-Zero Matrices",
 "abstract": "Let $R$ be a nonzero unital ring of characteristic $2$, and let $\\lambda$ be a central unit of $R$. We prove that an element $a\\in R$ satisfying $a^3+a^2+\\lambda=0$ cannot be expressed as the sum of a tripotent element and a square-zero element. The proof does not require the summands to commute. Over $\\F_2$, this gives counterexamples in every order divisible by three, including order twelve, and proves the optimality of the known uniform exponent four in those orders. We also give constructive proofs that every matrix of order four or five over $\\F_2$ is a sum of a tripotent and a square-zero matrix, and deduce a complete criterion in order three. Combining the cubic obstruction with the quartic obstruction for idempotent-plus-cube-zero decompositions, we obtain two-way incomparability of the corresponding decomposition classes in every positive order divisible by twelve.",
@@ -552,6 +596,28 @@
 "announce": "cross",
 "date": "2026-11-19",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00660",
+"title": "A four-state Markovian Mpemba effect in which every triplet test fails",
+"abstract": "Avitan, Factor and Gelbwaser-Klimovsky derived necessary conditions on the transition rates of a three-level system for the Markovian Mpemba effect, and proposed applying them to every triplet of levels of an $N$-level system. For a zero-temperature bath and non-degenerate spectrum they proved that a strong violation of the conditions in all triplets excludes the effect; for non-zero temperature they conjectured, on the basis of numerical sampling, that violation in all triplets excludes it. We give an explicit reversible four-state chain, with energies $U(0,1,2,64)$ and a bath at inverse temperature $\\ln 2/U$, in which all four triplet conditions fail strictly and yet a hotter thermal initial state has a strictly smaller slow-mode amplitude than a colder one. This is a direct Mpemba effect, so the finite-temperature conjecture fails for $N=4$. The example is marginal: it uses Boltzmann weights of order $2^{-64}$, initial temperatures of order $10^2\\,U$, a relative amplitude gap of about $0.07\\%$, and three of the four triplets fail by margins of order $10^{-6}$. We then give a second, less marginal example with energies $(0,\\frac{1}{30},0.434,5)$, bath inverse temperature $3$ and initial inverse temperatures $0.06$ and $\\frac{1}{6}$: every triplet fails by at least $1.08\\times10^{-3}$ relative to its largest rate, and the relative amplitude gap is $1.22\\%$. A variant of the second example with rational Boltzmann factors has the same properties and is certified in exact rational arithmetic without exponential enclosures. All claims are reduced to finite exact rational or rational-interval computations, which we describe. In both examples the ground level escapes more slowly than the slowest mode relaxes; an exact elimination identity shows that the slow mode then sees effective couplings between the excited levels that depend on the slowest eigenvalue, and these are not visible to tests built from the original rates.",
+"authors": [
+"Samuil Petkov"
+],
+"categories": [
+"math-ph",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00660v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00660v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -831,6 +897,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00654",
+"title": "BKT asymptotics for the quenched free energy of hierarchical pinning",
+"abstract": "We study the disordered pinning model of Derrida, Hakim and Vannimenus on the diamond hierarchical lattice. Its partition functions satisfy $R_{n+1}\\overset{d}{=}(R_n^{(1)}R_n^{(2)}+B-1)/B$, where $B>2$, the two variables on the right are independent copies of $R_n$, and $R_0=e^hW$ with $W>0$ and $\\mathbb{E}W=1$. Let $F$ be the quenched free energy and $h_c$ its critical point. If $h_c>\\log(B-1)$, we prove $F(h_c+u)=\\exp[-(K+o(1))/\\sqrt{u}]$ as $u\\downarrow0$, for a finite positive constant $K$ characterized by the response at criticality to a change of field. We identify a limiting profile of the rescaled tilted measures and extend their convergence in exponential weights to every time before its first pole. This yields the free-energy upper bound; a comparison with a max-type recursion and a second-moment estimate for pairs of leaves give the matching lower bound. A Lean 4 formalization of the main results accompanies the paper.",
+"authors": [
+"Igor Kortchemski"
+],
+"categories": [
+"math.PR",
+"math.MP"
+],
+"link": "https://hexagonmath.org/abs/2611.00654v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00654v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00634",
 "title": "Black-box identity testing for affine orbits of read-once oblivious algebraic branching programs",
 "abstract": "For every fixed width, we construct a polynomial-size hitting set for read-once oblivious algebraic branching programs under an unknown invertible affine change of variables. A width bound in a single unknown order suffices. The resulting deterministic black-box identity test runs in time polynomial in the number of variables and the total degree over every field with more elements than the degree. The construction preserves the generic ranks of consecutive matrix products in descending order. At fixed dimension and width, the query count is linear in the total degree in characteristic zero or above the individual degree in the hidden coordinates. When the width bound holds in every order, cut ranks give linear dependence up to logarithmic factors even in small characteristic. We also treat multivariate layers with bounded overlap and obtain a linear query bound for bivariate programs of width two.",
@@ -1019,6 +1107,28 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-18",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00658",
+"title": "Complete positivity and equilibrium realizations of reversible observations",
+"abstract": "Complete positivity of mirrored observation matrices is necessary for equilibrium realization, but does not ensure compatible equilibrium dynamics. We study stationary finite-state continuous-time Markov chains with instantaneous deterministic labels on a fixed physical clock. For reflection-positive laws with $d$ active labels and reflected rank $r\\le d+1$, we construct a detailed-balance realization on the minimal number $r$ of states. Binary rank-four laws with two prediction dimensions per label compress to four states when a finite detailed-balance realization already exists. At $r=d+2$, a rational ten-state chain with six labels passes every mirrored matrix-CP test through one common nonnegative Gram factorization, yet admits no equilibrium realization. A rational seven-time statistic separates its law from all finite equilibrium observation laws, uniformly over hidden dimensions, rates and topology. It gives a positive entropy-production floor for every exact finite reciprocal realization, with conservative constants too small for practical statistical use. The law also has no ordinary symmetric Markov extension on any standard Borel state space at the original clock, despite factorability of its reflected half-path operator. For laws that fail a matrix-CP test, a separate deletion-deficit theorem gives a computable nonlinear dissipation bound.",
+"authors": [
+"Samuil Petkov"
+],
+"categories": [
+"math.PR",
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00658v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00658v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
 "ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
@@ -1228,6 +1338,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00657",
+"title": "Entropy Production under Hidden-State Reduction: Exact Safety and Non-Testability",
+"abstract": "Restricting hidden-state complexity can raise the least entropy production compatible with partial observations. We determine exactly when a two-hidden-state fit preserves this lower bound for finite irreducible stationary reciprocal continuous-time Markov chains with two individually observed states and one hidden label. We begin with an explicit chain with three hidden states whose observed data admit exact two-hidden-state fits, every one of which has entropy production more than sixty times that of the true chain. For strictly positive consistent stationary masses, flows, excursion counts and first duration moments, the unrestricted infimum is an explicit count functional, and four hidden states approach it while preserving every datum exactly. We classify finite attainment and safety of feasible two-hidden-state fits in every determinant regime; in the positive-determinant regime, safety is equivalent to equality of the conditional cross-excursion means, and explicit bounds quantify the reduction bias. Exact classification does not imply finite-data detectability: rare long excursions can conceal a fixed positive bias on any prescribed finite interval of stationary label observation, even under a common upper rate bound.",
+"authors": [
+"Samuil Petkov"
+],
+"categories": [
+"math.PR",
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00657v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00657v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00599",
 "title": "Equal prime divisors in disjoint blocks of consecutive integers",
 "abstract": "We construct infinitely many disjoint pairs of consecutive blocks, of lengths three and four in that order, whose products have identical prime divisors. Their starting positions disprove the finiteness and separation predictions in Erdős’s 1976 formulation. The modern Erdős problem 931 requires the earlier block to be at least as long as the later one and remains open. For any fixed lengths \\(k,\\ell\\ge2\\), the number of equal-support pairs with increasing first terms at most \\(X\\), even allowing overlap, is \\(O_{k,\\ell,\\varepsilon}(X^{2/3+\\varepsilon})\\). In the modern length order, we prove finiteness on fixed conics, on fixed equations in separated rational functions, and for pairs admitting two independent multiplicative relations. We also give exact counts in three strips of bounded separation, without a bound on either starting term.",
@@ -1266,6 +1398,49 @@
 "announce": "replace",
 "date": "2026-11-19",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00665",
+"title": "Exact minimum-cost arborescences under a single arc failure",
+"abstract": "Every rooted weighted digraph on n vertices has a subgraph with $O(n^{3/2})$ arcs that contains a minimum-cost spanning arborescence after any feasible single arc deletion, answering a question of Dey and Kavitha. An oracle of the same size reports an optimal arborescence or a shortest list of arc replacements in time linear in the output. The construction uses shortest cycles in a weighted matroid exchange graph and admits deterministic subcubic preprocessing on simple digraphs. A reduction from directed distance preservation gives an $\\Omega(n^{4/3} \\log n)$-bit lower bound for reporting on simple digraphs with input arc identifiers, even with constant per-query error.",
+"authors": [
+"Yilin Liu"
+],
+"categories": [
+"cs.DS",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00665v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00665v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00673",
+"title": "Exact Sumsets of Primitive Quadratic Norms",
+"abstract": "We determine the exact binary sumsets of primitive quadratic norm values at discriminants \\(-3,-7,-8,-11\\). The local congruence conditions are sufficient in three cases; at discriminant \\(-7\\) the complete additional exception set is \\(\\{7,77,203\\}\\). Stronger split-prime core identities separate the ramified dilations. The proofs combine quaternionic norm shells, precisely normalized classical Hecke bounds, and dyadic and ramified local filters. Explicit infinite estimates, rational interval certificates, complete finite sumset scans and multiplicative descent cover every positive target. We supply standalone verification code and explain the finite reductions that make the certificates complete. All sumsets concern numerical values, without coordinate multiplicities.",
+"authors": [
+"Roy van Rijn"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00673v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00673v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1312,6 +1487,50 @@
 "announce": "new",
 "date": "2026-11-19",
 "ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00663",
+"title": "Finite-resolution information about a common clock: alias depth, holding-time loss, and the sampled Ehrenfest chain",
+"abstract": "We study how much Fisher information about a common rate multiplier survives when a reaction system is observed only at discrete times. For a finite known mark law, the first loss at short sampling times is governed by an alias depth $h$, the smallest length mismatch among reaction-count fibres: the unrecovered fraction of reaction-count information is $1-F_p(\\lambda)=C_p\\lambda^{h-1}+O(\\lambda^h)$ with an explicit alias coefficient $C_p$. For a fixed irreducible finite generator, holding times add a separate loss: the missing log-clock information is $A_2t^2+O(t^3)$, or $(A_3+H)t^3+O(t^4)$ when $A_2=0$. As a worked example we treat the stationary symmetric Ehrenfest chain of known size $\\Omega$ observed at its endpoints, with sampling time $t$ and $\\lambda=\\Omega t$. For every population and every finite positive $t$, the exact endpoint information lies between an explicit quadratic lower bound and its matched Gaussian benchmark, $B_n\\le R_n<g(t)/\\lambda$, with relative width at most $1/(2\\lambda)$ measured from $B_n$. The symmetric compound-Poisson benchmark is uniformly relatively accurate on $1\\le\\lambda\\le L_\\Omega$ if and only if $L_\\Omega=o(\\Omega)$. A formula-level comparison with the binomial AR(1) literature (Cui–Lund; Weiß–Kim) has not been completed.",
+"authors": [
+"Samuil Petkov"
+],
+"categories": [
+"math.ST",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00663v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00663v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00655",
+"title": "Flip-connectivity of octonion bracketing classes",
+"abstract": "Substitute octonions for the letters of a word $w$. Each bracketing of $w$ is a polynomial map, and bracketings giving the same map form a kernel class inside the associahedron $K_n$ (edges: flips $(AB)C \\leftrightarrow A(BC)$). Theorem. Every kernel class is flip-connected iff $w$ has at most two distinct letters or every letter occupies one contiguous run. Hence for $n \\ge 1$, exactly $\\mathrm{Bell}(n) - 2^n + n$ words of length $n$, up to renaming, have a disconnected class ($0,0,0,3,25,145,756,\\dots$). Ideas. In-class flips must have letter-count matrix of rank $\\le 2$: for any nonzero $3\\times 3$ minor $d$ and $M = 2|d|+1$, an integer witness gives $[A,B,C] \\equiv 2dM^3 e_7 \\pmod{M^4}$. For interval words, the rank-$\\le 2$ components are separated by octonion moments that recover an explicit component invariant. For other words, “caterpillar” certificates give two Moufang-equivalent bracketings that no rank-$\\le 2$ path joins. Formalization. The main theorem, the canonical-word correspondence and the count are proved in core Lean 4 (no Mathlib): MainThm.main, Canon.canonical, Count.count_disconnected. That is 9,252 lines in lean/Caterpillar/, no sorry, standard axioms only. The one informal step is that polynomial identities over $\\mathbb{Z}^8$ and over $\\mathbb{R}^8$ agree. Disclosure. The formal proofs and much of the exposition were developed with Claude (Anthropic) under my direction. An AI referee round was done before posting (paper/REVIEW.md). I’m posting for independent human judgement, especially on Proposition T, which the paper proves via the formalization. I’d also like to know whether the associative-spectrum corollary $s_n(G) = C_{n-1}$ (Catalan numbers) is already in the literature. The paper’s two-line proof gives it for every non-associative magma with a two-sided identity, in particular for $\\mathbb{O}$. Repository: https://github.com/Dojo-1/Lemma-W-count-determinant-witness-",
+"authors": [
+"Jesus Vilela Jato"
+],
+"categories": [
+"math.RA",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00655v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00655v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1520,6 +1739,27 @@
 "announce": "cross",
 "date": "2026-11-19",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00669",
+"title": "Gradient structures on metric measure spaces",
+"abstract": "This work develops a theory of finite-rank gradients on metric measure spaces where the reference measure and the measure used to integrate gradients may be mutually singular. Examples include local trees, RCD spaces, sub-Riemannian manifolds, the harmonic Sierpiński gasket, and the Liouville Brownian motion.",
+"authors": [
+"Fabrice Baudoin"
+],
+"categories": [
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00669v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00669v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1894,6 +2134,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00671",
+"title": "Maximizing the First Positive Neumann Eigenvalue of Simple Pentagons",
+"abstract": "We prove that among all simple pentagons of prescribed area—including non-convex pentagons and pentagons with straight interior angles—the regular pentagon uniquely maximizes the first positive Neumann eigenvalue of the Laplacian up to congruence. The proof separates naturally into two regimes. For pentagons having at least one reflex or straight interior angle, the number of strictly convex vertices is at most four; conformal mapping from the unit disk together with a Schwarz–Christoffel and Blaschke-product estimate yields the uniform bound $|P|\\mu_1(P) < 10.34$, strictly below the regular-pentagon value $|R|\\mu_1(R) > 10.35335$. For strictly convex pentagons, normalizing a maximum-area vertex triangle reduces the problem to a four-dimensional shape chart coupled with a unimodular metric matrix. Combining covariance bounds, explicit polynomial trial functions, conic duality for pairs of trial functions, and Bernstein-basis branch-and-bound, we confine every potential maximizer to an explicit neighborhood of the regular pentagon in vertex Fourier coordinates. Because the first positive eigenspace of the regular pentagon is two-dimensional, we analyze both eigenfunctions simultaneously together with their first-order corrections to show that every nontrivial local deformation of the similarity class strictly decreases $|P|\\mu_1(P)$. All finite-dimensional inequalities invoked in the proof are accompanied by independently verifiable rational and interval arithmetic certificates.",
+"authors": [
+"Lüwei Dong",
+"Hongyi Wang"
+],
+"categories": [
+"math.SP"
+],
+"link": "https://hexagonmath.org/abs/2611.00671v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00671v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00622",
 "title": "Modularity of the factors of an automorphic tensor product",
 "abstract": "Let $F$ be a totally real field and let $\\rho_1,\\rho_2$ be two-dimensional $p$-adic representations of $G_F$ which are Lie-irreducible and potentially modular, each over its own extension. We prove the following: if $\\rho_1\\otimes\\rho_2$ is attached to a regular L-algebraic cuspidal automorphic representation $\\Pi$ of $\\GL_4(\\A_F)$, then $\\rho_1$ and $\\rho_2$ are modular and $\\Pi\\simeq\\pi_1\\boxtimes\\pi_2$. This is a converse to Ramakrishnan's automorphy of the Rankin--Selberg product. The proof combines the descent of Hundley--Sayag from $\\GL_4$ to $\\GSpin_4$ with $L$-function arguments based on potential modularity. To pin down the weights of the factors we use the Galois representations attached to the adjoint lifts $\\ad\\pi_i'$ on $\\GL_3$; this rules out factors of mixed parity.",
@@ -1962,6 +2224,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00666",
+"title": "Non-existence of non-Eulerian irregular Diophantine quadruples",
+"abstract": "A Diophantine quadruple $\\{a,b,c,d\\}$ with $a<b<c<d$ is irregular if $d\\ne a+b+c+2abc+2\\sqrt{(ab+1)(ac+1)(bc+1)}$. It is conjectured that there are none, and He and Togb\\'e have recently given a proof that there are only finitely many, with $c<10^{338}$. We study the non-Eulerian irregular quadruples, those whose triple $\\{a,b,c\\}$ is not an Euler triple, that is, $c\\ne a+b+2\\sqrt{ab+1}$, and reduce them to nine explicit families. The families are defined by the degree of $\\{a,b,c\\}$ under canonical descent, by the position of the descent partner $d_-(a,b,c)$ relative to $a$ and $b$, by the shape of the iterated descent, and by explicit windows for the index of $z=\\sqrt{cd+1}$ in two Pell sequences. In particular $c<10^{99}$, and $c<10^{79.71}$ when $z$ has an odd-index representation; for triples of degree one, $c<1.81\\cdot10^{47}$. He and Togb\\'e obtained $c<10^{162}$ for degree one and $c<10^{338}$ for higher degree. With the bound $c<4\\cdot10^{48}$ for Euler triples of a companion paper, every irregular Diophantine quadruple has $c<10^{99}$. For each family we give exact finite tests, in integer arithmetic or with certified rational enclosures, whose success shows that a given triple of the family has no irregular extension. Running these tests over the families is a finite computation. The numerical verification of these remaining cases is in progress, and its results will be appended to the final version of the paper.",
+"authors": [
+"Andrej Dujella",
+"Sinisa Slijepcevic"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00666v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00666v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.24186",
 "title": "Note on parallel transport of IHS manifolds of Kummer type",
 "abstract": "We give a characterization of parallel transport operators for irreducible holomorphic symplectic manifolds of Kummer type.",
@@ -2000,6 +2284,28 @@
 "announce": "new",
 "date": "2026-11-19",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00661",
+"title": "Observation cost of nonequilibrium in nonnormal networks: a matched exponent for an explicit four-state generator",
+"abstract": "We consider detection of nonequilibrium from passive, causally scheduled snapshots of a stationary continuous-time Markov chain, with gaps between snapshots of at least $\\tau$. False alarms must be controlled uniformly over every finite stationary detailed-balance chain observed through a deterministic labelling, with no restriction on hidden dimension, rates, stationary label law or mixing time. Aznagulov showed that for normal generators the optimal snapshot cost grows like $e^{2\\gamma_{\\rm irr}\\tau}$, and that for nonnormal generators its exponent lies in a spectral window. For an explicit nonnormal four-state generator $Q_4$, with a real slow mode and residual damping $\\beta$, we prove that $\\tau^{-1}\\log N^*\\to2\\gamma$, where $\\gamma=(701-\\sqrt{158761})/126\\in(2,\\beta)$ is a relaxation rate of an explicit reversible birth–death comparator; for $Q_4$ this exponent lies strictly inside the window $[2,2\\beta]$. The comparator comes from an ordered-eigenfunction completion lemma: among $\\pi$-reversible generators with a prescribed strictly monotone eigenfunction and eigenvalue, a birth–death generator maximizes the entire Dirichlet form. The upper bound uses symmetric two-lag scores whose stationary mean is nonpositive under every hidden reversible model, together with a positive-operator tilt lemma that gives the moment-generating bound $e^{32n\\theta^2}$ for a deterministic number $n$ of dependent transitions, uniformly over the null class. We also show that the two-lag pair-law approximation exponent of $Q_4$ by hidden reversible models is $\\gamma$, that the cost exponent $2\\gamma$ holds uniformly over a four-parameter box of nonnormal deformations, and that it extends to interacting path families on $\\{1,2,3,4\\}^d$ built from tensor lifts. More generally, if $u$ has distinct entries and is an eigenvector of $Q$ and of its $L^2(\\pi)$-adjoint with eigenvalue $-\\lambda$, the exponent is $2\\gamma^*$ whenever $\\gamma^*<\\beta$, where $\\gamma^*$ is the restricted gap of the completion.",
+"authors": [
+"Samuil Petkov"
+],
+"categories": [
+"math.PR",
+"math.ST"
+],
+"link": "https://hexagonmath.org/abs/2611.00661v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00661v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2306,6 +2612,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00672",
+"title": "Pointwise Correlations of Quadratic Form Values and Splitting Semigroups",
+"abstract": "Under the stated analytic inputs, we establish the fixed-shift pair asymptotics predicted by Smilansky for the ordinary values of \\(x^2+dy^2\\), \\(d=1,2,3,4,7\\). In particular, the number of \\(n\\le X\\) for which both \\(n\\) and \\(n+1\\) are sums of two squares is asymptotic to \\(X/(2\\log X)\\). For primitive positive definite binary forms of fixed discriminants \\(\\Delta_i=f_i^2D\\) sharing one negative fundamental discriminant \\(D\\), we count values admitting coprime coordinates. Replacing either form within its respective genus preserves the leading binary count, with a relative logarithmic saving through an independent classical route. Under the recent analytic inputs we give an explicit mixed leading term with relative \\(o(1)\\), including different fixed conductors in that one field, and no class-number divisor. The central mechanism is a shared comparison between sparse indicators and arithmetic models retaining every surviving congruence character. Following Walsh's proposed indicator extension, we supply the models, local factors and a uniform reflected-target argument, using the recent zero-free and weighted-dilation theorems of OpenAI. Applications to fixed subgroup restrictions and prime-coset self-sums give target-uniform asymptotics with logarithmic savings and exact eventual congruence criteria. They include prime support \\(1\\pmod{12}\\) on targets \\(2\\pmod{12}\\) and prime support \\(3\\pmod4\\) on even targets. All counts concern numerical values without coordinate or ideal multiplicities.",
+"authors": [
+"Roy van Rijn"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00672v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00672v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00593",
 "title": "Pointwise representation counts for Eisenstein restricted sums",
 "abstract": "Let \\(A\\) consist of the positive integers supported on primes \\(1\\bmod 3\\), including \\(1\\). We count distinct ordered representations \\(n=a+b\\) for \\(n\\equiv2\\bmod6\\) and \\(n=a+3b\\) for \\(n\\equiv4\\bmod6\\), with \\(a,b\\in A\\). In either family prescribe an interval of length \\(H\\) centered at \\(x\\) for one actual summand. Put \\(M=\\min(x,n-x)\\). For every fixed \\(0<\\varepsilon<1\\), if \\(H\\le M\\) and \\(H^3\\ge n^{1+\\varepsilon}M\\), the count has order \\(HJ(n)/\\log n\\) for every sufficiently large admissible \\(n\\). Here \\(J(n)\\) is the product of \\((p-1)/(p-2)\\) over the odd primes \\(p\\equiv2\\bmod3\\) dividing \\(n\\). In particular, central windows of width \\(n^\\theta\\) are allowed for \\(2/3<\\theta<1\\), and windows at a prescribed small summand of size comparable to their width are allowed for \\(1/2<\\theta<1\\). The lower bound combines angular Hecke estimates with a sieve that prescribes small split factors in both summands.",
@@ -2458,6 +2785,53 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00668",
+"title": "Schubert Cox Rings and Root Operators",
+"abstract": "We identify the Cox ring of every Schubert variety in a symmetrizable Kac--Moody partial flag variety with an upper cluster algebra whose frozen variables are not inverted. The construction also applies to Bott--Samelson varieties for arbitrary words and to their normal projective birational contractions that preserve the standard affine chart. A line-bundle recursion determines the boundary coefficients of the exchange relations. In this mutation class, each nonzero positive simple-root operator and each nonzero stabilizing negative simple-root operator acts in a suitable seed as a monomial times a partial derivative in one frozen variable. Consequently, a single theta basis describes the root filtrations on all divisorial section spaces. We compute the facets of its regular cone from the word and the surviving divisors. The leading terms of the root operators yield tropical formulas for finite-type Levi crystals and polyhedral formulas for branching multiplicities. We obtain formulas for adjoint sections and extend the adapted root charts to projective horospherical varieties with free class group under a simply connected semisimple group.",
+"authors": [
+"Jiarui Fei"
+],
+"categories": [
+"math.AG",
+"math.AC",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00668v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00668v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00670",
+"title": "Sharp packing bounds for Poly-5 and Handy-Octs",
+"abstract": "On the 89-square Poly-5 board, distinct pentominoes can cover at most 26 of the 28 boundary squares and 56 of the 60 exterior unit edges. Both maxima occur in a full tiling. For the five Handy-Octs octiamonds, the least area of a convex triangular-grid enclosure is 43 unit triangles. There is one optimal enclosure and it has precisely five packings, up to lattice symmetries. We prove the bounds by finite enumeration.",
+"authors": [
+"William Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00670v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00670v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.24695",
 "title": "Singularities of ideals with minimal tangent space dimension in the Hilbert scheme of points on a threefold",
 "abstract": "We classify all singular monomial ideals in the Hilbert scheme of $d$ points on $\\mathbb{A}^3$ whose tangent spaces have the minimal dimension $3d+6$. There are two families called the opera houses and rotating staircases, and we give their combinatorial and algebraic descriptions. All the opera houses are in one linkage class, and their singularities are smoothly equivalent to the vertex of a cone over the Grassmannian $\\mathrm{Gr}(2,6) \\hookrightarrow \\mathbb{P}^{14}$ in its Pl\\\"ucker embedding. The rotating staircases split into many linkage classes and we give some examples.",
@@ -2548,6 +2922,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00662",
+"title": "Spectral outliers of self-coupled covariance matrices with exact zero weights",
+"abstract": "We study the right spectral outliers of $M_d=n^{-1}A_dDA_d^{\\mathsf T}$, where the columns of $A_d$ are drawn from a Gaussian mixture with a fixed-dimensional signal subspace and each diagonal weight $D_{\\ell\\ell}=h_{b_\\ell}(g_\\ell)$ is a function of the class label and of the low-dimensional Gaussian coordinates of the same sample. The effective outlier theory of Ben Arous, Gheissari, Huang and Jagannath for such self-coupled matrices assumes that the weights do not accumulate at zero, which excludes hard gates such as the derivative of a rectified linear unit. Assuming $h_b(g)\\in\\{0\\}\\cup[\\tau,M]$, we prove that exact zero weights do not change the positive right-outlier equation. The proof deletes inactive columns before any linearization, keeps their random normalization, and applies the invertible-weight theory to the exact conditional mark law of the active samples; we show, by conditioning on the marks, that this theory extends to non-Gaussian fixed-dimensional marks. The limiting spectrum acquires the atom $(1-\\phi\\pi)_+$ at zero, while positive outliers are the roots of a $q\\times q$ determinant. We obtain multiplicity-preserving eigenvalue counts, absence of spurious right outliers, a projected-eigenvector normalization, an invariant-subspace formula at repeated roots, and the exact finite-dimensional kernel.",
+"authors": [
+"Samuil Petkov"
+],
+"categories": [
+"math.PR",
+"math.ST"
+],
+"link": "https://hexagonmath.org/abs/2611.00662v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00662v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.23957",
 "title": "Spectrum of the parity operator for parafermions and parabosons from character formulas",
 "abstract": "In a recent paper [J. Phys. A: Math. Theor. 59 175201 (2026)] Green's triple relations for parafermions and parabosons were extended by including a new operator $P$, referred to as the parity operator. The spectrum of $P$ in Fock space representations was computed, making use of the action of parafermion (resp.\\ paraboson) creation and annihilation operators. In the current paper, we adopt a different method to compute the spectrum of $P$, namely using character formulas. For a set of $n$ parafermions, the action of $P$ is deduced from character formulas of $so(2n+2)$. For a set of $n$ parabosons, the known spectrum of $P$ yields new character formulas of particular $osp(2|2n)$ representations.",
@@ -2589,6 +2985,28 @@
 "announce": "new",
 "date": "2026-11-18",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00656",
+"title": "State complexity of rare-switching tracking: universal bounds and sharp counter tradeoffs",
+"abstract": "We study the number of internal states required to track a symmetric binary Markov signal observed through a fixed binary symmetric channel. For homogeneous recursive controllers with independent private randomization, a posterior-covering converse gives the sharp leading state coefficient in the iterated nearly-Bayes-optimal limit, uniformly over controller kernels and stationary recurrent mixtures. At a fixed relative excess error, we also determine the exact leading coefficient within symmetric observation-driven birth–death counters with a prescribed sign decoder. Their acceptance probabilities may vary across states and tend to zero with the switching probability. A stationary flow argument links a confidence barrier to actual switch-time mass, and a discounted passage estimate controls repeated switching. For general MAP-decoded controllers, a point certificate for the same posterior covers shows that this counter coefficient is optimal at every fixed relative excess above an explicit threshold depending only on the channel; below that threshold the general frontier remains open, and the gap is narrowed. State cardinality is the resource; no thermodynamic work claim is made.",
+"authors": [
+"Samuil Petkov"
+],
+"categories": [
+"cs.IT",
+"math.ST"
+],
+"link": "https://hexagonmath.org/abs/2611.00656v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00656v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2797,6 +3215,28 @@
 "announce": "new",
 "date": "2026-11-19",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00659",
+"title": "The exact FDR–FNR frontier and a separable gap under one-factor Gaussian dependence",
+"abstract": "We determine the exact asymptotic trade-off between the false discovery rate and the false non-discovery rate in a two-group Gaussian model generated by one unobserved common factor of fixed strength. For fixed mixture weight, signal strength, equicorrelation, and false discovery target, the optimum over all randomized full-vector procedures converges to the lower convex envelope of the independent Gaussian threshold curve with effective signal \\(\\mu/\\sqrt{1-\\rho}\\). Thus not observing the factor causes no additional asymptotic loss relative to the factor-revealed experiment. The converse reveals the factor and reduces exactly to an independent experiment. For achievability, factor estimation, a pathwise threshold-crossing bound, and random-denominator control yield an observable optimal rule with finite-sample FDR calibration. If the three model parameters are replaced by consistent estimates, a plug-in rule attains the same frontier with asymptotic FDR control. We also analyze the broad coordinate-local class \\(\\delta_{n,i}=f_{n,i}(X_i,A_n)\\), where the functions may be nonidentical and dimension-dependent and the shared external seed is independent of the model. Every oracle supporting line lying strictly below the two trivial endpoint values has a positive asymptotic gap from this separable class; an analytic parameter choice certifies that such a line exists. For the constrained problem, the gap vanishes at every level exactly when the oracle frontier is the chord joining the reject-none and reject-all rules; otherwise it is strict at every level strictly between the two trivial endpoint levels. For this fixed rank-one Gaussian family, the first result exactly evaluates the compound frontier and the second proves existence of a strict gap from the stated coordinate-local class. Broad dependent model classes and the complete constrained separable frontier remain open.",
+"authors": [
+"Samuil Petkov"
+],
+"categories": [
+"math.ST",
+"stat.TH"
+],
+"link": "https://hexagonmath.org/abs/2611.00659v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00659v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-19",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
