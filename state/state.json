@@ -4,6 +4,418 @@
  ],
  "feed": [
   {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "$A_\\infty$-algebras over a commutative ring $R$ are generalizations of $R$-algebras in which multiplication is only associative up to higher homotopies. Similarly, $A_\\infty$-categories over $R$ are generalizations of $R$-linear categories in which composition of morphisms is only associative up to higher homotopies. They are important in the definition of Fukaya categories in Symplectic Geometry, and in other areas of mathematics.\n  By $\\infty$-categories we mean quasicategories, a class of simplicial sets which are a model for $(\\infty,1)$-categories, used in the work of Jacob Lurie.\n  We define and study $\\infty$-categories of $A_\\infty$-algebras and $A_\\infty$-categories. Our approach is unusual in that rather than defining them by localization, we construct our $\\infty$-categories completely explicitly as simplicial sets.\n  Our $\\infty$-categories are intended for applications to Fukaya categories in Symplectic Geometry. Given a suitable symplectic manifold $(X,\\omega)$, one should construct its Fukaya category ${\\mathscr F}(X,\\omega)$, a (filtered) $A_\\infty$-category, and its derived Fukaya category $D^b{\\mathscr F}(X,\\omega)$, a triangulated category (or better, a stable $\\infty$-category). Typically ${\\mathscr F}(X,\\omega)$ depends on many arbitrary choices. Our $\\infty$-categories give a clean way to explain in what sense ${\\mathscr F}(X,\\omega)$ and $D^b{\\mathscr F}(X,\\omega)$ are independent of these choices.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Dominic Joyce"
+    ],
+    "categories": [
+     "math.CT",
+     "math.SG"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24690",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24690",
+    "pid": "2611.24690",
+    "reasons": [
+     "title: infinity-categor",
+     "abstract: (infinity,1)",
+     "abstract: quasicategor"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "An $\\infty$-category approach to $A_\\infty$-algebras and $A_\\infty$-categories",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "We construct a map of filtered spectra inducing a map from the Atiyah--Hirzebruch spectral sequence (AHSS) to the Baker--Lazarev Adams spectral sequence of a $\\mathit{ko}$-module $M$. Using this and a theorem of Bruner--Rognes, we construct a hastened Adams spectral sequence (HASS) for the Postnikov truncations of $\\mathit{ko}$ and the connective Adams summand. Then, motivated by questions in quantum field theory, topological phases of matter, and tensor category theory, we apply the HASS to supercohomology, the cohomology theory $I_{\\mathbb{C}^\\times}(\\tau_{\\le 2}\\mathit{ko})$, and observe that in examples of interest it is easier to calculate with than either the AHSS or the usual Adams spectral sequence. We include a User's Guide to the HASS and several worked examples, as well as hastened Adams charts for many commonly encountered $\\mathcal{A}(1)$-modules.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Arun Debray",
+     "Weicheng Ye",
+     "Matthew Yu"
+    ],
+    "categories": [
+     "math.AT",
+     "cond-mat.str-el",
+     "hep-th",
+     "math-ph",
+     "math.MP"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24725",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24725",
+    "pid": "2611.24725",
+    "reasons": [
+     "title: adams spectral sequence",
+     "title: spectral sequence",
+     "abstract: filtered spectr"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "An Atiyah--Hirzebruch to Adams map and the hastened Adams spectral sequence for supercohomology",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "This paper develops a deformation theory for stable $(\\infty,n)$-categories for $n > 1$. We introduce the framework of complete $t$-structured stable presentable $(\\infty,n)$-categories. Within this setting, we establish a higher categorified Koszul duality among complete $t$-structured presentable $(\\infty,n)$-categories. Using this duality, we develop the deformation theory. We prove that the deformation problem for such categories is a well-behaved formal moduli problem determined by Hochschild cohomology, and we deduce the corresponding obstruction theory. Finally, we apply our results to sheaves of categories on perfect stacks.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Isamu Iwanari"
+    ],
+    "categories": [
+     "math.AG",
+     "math.AT",
+     "math.CT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.23899",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.23899",
+    "pid": "2611.23899",
+    "reasons": [
+     "title: higher categor",
+     "title: koszul dual",
+     "abstract: (infinity,n)",
+     "abstract: presentable"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Categorified Koszul duality and deformation theory of higher categories",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "Let $R$ be an $\\mathbb{E}_{\\infty}$-ring spectrum of height $m$. The chromatic redshift theorem implies that its $n$-fold iterated algebraic $K$-theory $K^{(n)}(R)$ has height $m+n$. Moreover, there is a natural map $K^{(n)}(R)\\to (T^n\\otimes R)^{hT^n}$, where $T^n\\otimes R$ denotes the $n$-fold iterated topological Hochschild homology. Hence it is natural to ask whether the target also has height $m+n$. Although this fails in general, we prove that it holds whenever $R$ is connective and $m\\geq1$. Our proof is based on an iterative calculation using Wilson spaces and relative topological Hochschild homology. As an application, we determine the support of the $T^n$-homotopy fixed points of $n$-fold iterated topological Hochschild homology of $\\mathrm{BP}\\langle m\\rangle$ for $n=2,3$ with $\\mathrm{BP}\\langle m\\rangle$ equipped with any $\\mathbb{E}_3$-$\\mathrm{MU}$-form.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Jiaxi Zha"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.23819",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.23819",
+    "pid": "2611.23819",
+    "reasons": [
+     "title: topological hochschild homology",
+     "abstract: chromatic redshift",
+     "abstract: ring spectr",
+     "abstract: e_infinity-ring",
+     "abstract: algebraic k-theor"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Chromatic heights of homotopy fixed points of iterated topological Hochschild homology of connective spectra",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "Let $M$ be a closed $d$-dimensional smooth manifold and $X:\\Delta^{op}\\rightarrow\\operatorname{Fin}$ a finite simplicial set whose geometric realization is homeomorphic to $M$. Given the $\\infty$-category $\\mathcal{D}\\mathrm{isk}_{/M}$ of disks embedded in $M$ and the path components functor $\\pi_0:\\mathcal{D}\\mathrm{isk}_{/M}\\rightarrow\\operatorname{Fin}$, we construct a cofinal functor $\\Gamma_X:\\Delta^{op}\\rightarrow\\mathcal{D}\\mathrm{isk}_{/M}$ such that $X=\\pi_0\\circ\\Gamma_X$.\n  This result provides an alternative construction of a simplicial model developed by Boavida de Brito, Lambrechts, Pryor and Songhafouo Tsopm\\'en\\'e to compute the space-valued presheaf $\\operatorname{Emb}(-,M):\\mathcal{D}\\mathrm{isk}^{op}\\rightarrow\\mathcal{S}$. We also extend the result to manifolds with a $G$-structure and discuss applications to manifold calculus, factorization homology, and a possible generalization to manifolds with boundary.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Rodrigue Haya Enriquez"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24703",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24703",
+    "pid": "2611.24703",
+    "reasons": [
+     "abstract: infinity-categor"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "A simplicial model for manifold calculus through the configuration category",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "Diffeological non-Abelian Hodge theory motivates the study of $C^r$ families of Higgs bundles and flat bundles for finite $r$. In this article, we provide a uniform language for treating moduli stacks parametrizing such objects in terms of diffeology. More specifically, we develop a theory of stacks presentable by diffeological groupoids over the site of $C^r$ manifolds for arbitrary $r$. As an application, we construct moduli stacks over the sites of $C^r$ manifolds parametrizing $C^r$ vector bundles over a smooth manifold, and $C^r$ families of Higgs bundles and of flat bundles over a complex manifold. We also construct $C^r$ versions of the non-Abelian Hodge filtration stack, interpolating between Higgs bundles and flat bundles through $\\lambda$--connections. We show that all these stacks are presentable by diffeological groupoids. Finally, we construct moduli stacks parametrizing $C^r$ families of $\\Delta^n$--shaped diagrams of these objects, and show that they assemble into simplicial stacks whose levels are all presentable by diffeological groupoids.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Mahmud Azam",
+     "Steven Rayan"
+    ],
+    "categories": [
+     "math.DG",
+     "math.AG",
+     "math.CT",
+     "math.CV",
+     "math.RT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.23451",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.23451",
+    "pid": "2611.23451",
+    "reasons": [
+     "abstract: presentable"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Finite regularity moduli stacks through diffeology",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "We introduce the notion of semi-exact functors between abelian categories, which are characterised by either preserving or breaking exactness of sequences. We prove semi-exact functors are always exact with respect to a canonically determined exact structure. For a symmetric tensor category $\\Cs$, we define a support theory by considering all $\\Bbbk$-linear symmetric monoidal, semi-exact functors $\\mathscr{C}\\to\\operatorname{Ver}_{p^\\infty}$ up to equivalence, and conjecture that it agrees with the Balmer spectrum of the stable category when $\\mathscr{C}$ is finite. We prove a weak form of this conjecture and other results for Tannakian categories and in characteristic 0. Critical to the positive characteristic case is a functor constructed by Coulembier and Flake who were interested in higher Frobenius functors. We show that their construction, which relies on the theory of abelian envelopes, gives a natural source for semi-exact functors, and at least in the Tannakian setting gives all $\\Bbbk$-linear, symmetric monoidal, semi-exact functors.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Alexander Sherman"
+    ],
+    "categories": [
+     "math.RT",
+     "math.CT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24471",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24471",
+    "pid": "2611.24471",
+    "reasons": [
+     "abstract: balmer spectr"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Semi-exact functors and the conjecture of Coulembier and Flake",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "Following Botvinnik--Rosenberg \\cite{BotvinnikRosenberg2023}, we define fibered-boundary bordism, introduce sphere-bundle bordism, and prove an exact sequence relating them to ordinary bordism. The sequence also holds when all sphere fibers are required to be non-$D^r$-bounding. Following Debray--Ye--Yu \\cite{DebrayYeYu2026}, we define characteristic cycles with a chosen complement structure trivializing a characteristic class. For the GM and $\\mathrm{KT}^{\\pm}$ cases, deleting tubular neighborhoods and identifying sphere-bundle structures with determinant-twisted base structures give a characteristic exact sequence. This proves the bordism-group consequence of the DYY conjecture for our definitions, without constructing the conjectured map of spectra.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Kohei Takeda"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24036",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24036",
+    "pid": "2611.24036",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A Geometric Characteristic Long Exact Sequence for Codimension-Two Spin and Pin-plus/minus Bordism",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "Given a simplicial set $X$, let $\\operatorname{B}({X})$ denote its poset of nondegenerate simplices. We define a natural stratification $\\left\\vert{X}\\right\\vert\\rightarrow\\operatorname{B}({X})$. When $X$ is locally finite, we prove that this stratification is conical. Moreover, if $X$ is finite, we prove that the exit path category $\\operatorname{Exit}^{\\operatorname{B}({X})}(\\left\\vert{X}\\right\\vert)$ satisfies the geometric realization formula $\\mathop{\\operatorname{colim}}\\limits_{\\sigma:\\Delta[p]\\rightarrow X} \\operatorname{Exit}^{\\operatorname{B}({p})}(\\Delta^p)\\simeq\\operatorname{Exit}^{\\operatorname{B}({X})}(\\left\\vert{X}\\right\\vert)$ where the colimit is indexed by the category of simplices of $X$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Rodrigue Haya Enriquez"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24680",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24680",
+    "pid": "2611.24680",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A stratified version of geometric realizations",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "We show that, after attaching a subcritical handle to $T^*\\bP^2$ to obtain a manifold $M$, the integral wrapped Floer endomorphism algebra of a cotangent fibre admits no spherical refinement for any choice of brane structure; this obstructs the existence of any wrapped Fukaya category for $M$ over the sphere spectrum. We further discuss some features of the resulting Weinstein eight-manifold $M$, which is homotopy equivalent to $S^4$.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Abigail Ward"
+    ],
+    "categories": [
+     "math.SG",
+     "math.AT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24930",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24930",
+    "pid": "2611.24930",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A Weinstein manifold without any spherical Fukaya category",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "We prove the cosmetic crossing conjecture, Problem 1.58 in Kirby's list, and the generalized cosmetic crossing conjecture for every knot whose branched double cover is an L-space; in particular, both hold for all alternating and all quasi-alternating knots. We also prove the oriented knot complement conjecture, Problem 1.81(D), for all closed 3-manifolds with finite fundamental group, in particular for all lens spaces: in such a manifold, every knot whose exterior is irreducible and not a solid torus is determined by its complement. Both results rest on a monotonicity theorem for Heegaard Floer correction terms: if a knot in a rational homology sphere has an isotropic, nonzero homology class, then the sum of all correction terms strictly increases along its surgeries with coefficients -1/j relative to the rational longitude, so no nontrivial surgery yields the original oriented manifold. We also show that every purely cosmetic band surgery on a knot with an L-space branched double cover is weakly nugatory, which answers a question of Rogers for these knots.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Seong-Jin Lee"
+    ],
+    "categories": [
+     "math.GT",
+     "math.AT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24532",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24532",
+    "pid": "2611.24532",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Cosmetic crossings and the knot complement problem",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "Hypergraphs are the natural language for group interactions, and topological data analysis has given us several ways to look at them: simplicial and cell complexes, persistent homology, and sheaves. All of these treat a hyperedge as an unordered set. In this paper, we introduce a different and, to our knowledge, new viewpoint that comes from Grothendieck's theory of dessins d'enfants and, unlike these approaches, takes into account the order in which vertices appear in each hyperedge and hyperedges appear around each vertex. A dessin is a bipartite graph drawn on a closed orientable surface. Through Walsh's classical correspondence between hypermaps and bipartite maps, every hypergraph equipped with a cyclic order of incidences at each vertex and inside each hyperedge is a dessin, and therefore determines a surface with faces and a genus. We develop this idea for temporal hypergraphs and build the surface by replaying history: incidences are added in the order in which they occurred, and each new incidence is inserted into the cyclic orders built so far, next to the earlier incidence to which it is related. We prove that every insertion either grows the hypergraph without creating a cycle, closes a cycle locally by splitting a face, or closes it globally by adding a handle; the number of independent cycles equals the number of local plus handle events, and the genus equals the number of handle events. These counts give interpretable, size-controlled measures of how a temporal hypergraph's cycles organize on a surface as it grows. We apply our method to five Stack Exchange communities and show that it separates communities that standard statistics cannot tell apart and quantifies how much the real order of interactions matters. We further discuss what the surface viewpoint adds to existing higher-order network analysis and how it opens a path toward dessin-based learning on hypergraphs.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Mehmet Emin Aktas",
+     "Esra Akbas"
+    ],
+    "categories": [
+     "cs.SI",
+     "math.AT",
+     "math.CO"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24613",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24613",
+    "pid": "2611.24613",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Dessins d'Enfants as a Topological Lens on Temporal Hypergraphs",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "In this paper, we address the construction of Eilenberg-MacLane coordinates (functions from datasets to Eilenberg-MacLane spaces $K(G,n)$) that encode nontrivial persistent cohomology classes in arbitrary dimensions $n$ and coefficient group $G$. The construction leverages the connecting homomorphism in the long exact sequence in \\v{C}ech cohomology, from the short exact sequence of sheaves of continuous maps with values in $G$, $EG$ and $BG$. Crucially, the derivation is constructive: we give an explicit, recursive formula for preimages under the connecting homomorphism, which yields a constructive version of a classical cohomology vanishing theorem and, in turn, an algorithm for general Eilenberg-MacLane coordinates. We validate our approach through experiments on synthetic datasets, and present novel examples of $K(\\mathbb{Z}/2, 2)$-coordinates not addressed in prior work.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Tony Xiaochen Xiao",
+     "Jose A. Perea"
+    ],
+    "categories": [
+     "math.AT",
+     "cs.CG"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.23659",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.23659",
+    "pid": "2611.23659",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "From Persistent Cohomology to Maps into Arbitrary Eilenberg-MacLane Spaces",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "We prove an explicit stability line for the homology $H_i(\\mathrm{Hur}_n^c,\\mathbb{Q})$ of any Hurwitz space associated to a finite rack $c$ depending only on its homology up to some finite $n$. Moreover, as the range of $n$ increases, the slope of the resulting stability line converges to the optimal slope. Thus, for any Hurwitz space, a finite computation will yield near-optimal bounds on secondary terms for the corresponding arithmetic statistics problem. Our theorem also applies more generally to higher order stability, Frobenius weights, and braided vector spaces.\n  As a special case of our theorem, we can deduce stability lines depending only on when $H_0(\\mathrm{Hur}^c_n,\\mathbb{Q})$ stabilizes, which are sharp in some cases. We apply this to two families of Hurwitz spaces to obtain bounds on the secondary term for (1) the number of $S_d$-degree $d$ function fields with squarefree discriminant, and (2) Cohen-Lenstra moments.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Zhao Yu Ma"
+    ],
+    "categories": [
+     "math.NT",
+     "math.AG",
+     "math.AT",
+     "math.QA"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.23721",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.23721",
+    "pid": "2611.23721",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Optimal homological stability: bounding secondary terms of Cohen-Lenstra moments and $S_d$-fields over $\\mathbb{F}_q[t]$",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "paper": {
+    "abstract": "We prove that every polyhedral product of disks and their boundary spheres that is a topological manifold admits a stably parallelizable smooth structure. We also show that if a moment-angle complex or a real moment-angle complex admits a smooth structure for which the coordinate action is smooth, then the link of every face of the underlying simplicial complex is a simplicial sphere, and every such smooth structure is stably parallelizable.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Suyoung Choi",
+     "Hyeontae Jang"
+    ],
+    "categories": [
+     "math.AT",
+     "math.GT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24814",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24814",
+    "pid": "2611.24814",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Smooth structures on polyhedral products of disks and spheres",
+    "watched": []
+   }
+  },
+  {
    "day": "2026-11-18",
    "paper": {
     "abstract": "By regarding the nerves of categories enriched over a monoidal poset as persistence simplicial sets, we investigate an upper bound of the interleaving distance in the homotopy category between the nerves in the sense of Lanary and Scoccola. In particular, it holds that the distance between the nerves for $r$-homotopy equivalent generalized metric spaces is less than or equal to the half of $r$. Moreover, a product on the cochain complex associated with a persistence simplicial set is introduced and related to the cup product on the magnitude cochain complex in the sense of Hepworth. As a consequence, the product gives the multiplicative structure to the cohomological magnitude-path spectral sequence (MPSS) whose first term is isomorphic to the magnitude cohomology ring. Furthermore, we discuss at which term the MPSS for a connected finite digraph collapses by using the interleaving of the enriched nerve of the digraph.",
@@ -4885,521 +5297,423 @@
     "title": "The Segal conjecture for large objects and semiadditive lifts",
     "watched": []
    }
-  },
-  {
-   "day": "2026-10-28",
-   "paper": {
-    "abstract": "In this paper, we give a new proof of the Hopkins-Morel-Hoyois theorem for fields $k$ of characteristic unequal to $p$ containing all primitive $p$-power roots of unity for a fixed prime $p$. This new proof follows Quillen's proof for the structure of the homotopy groups of $\\mathrm{MU}$ which utilizes topological power operations. To this end we define a motivic analog of the Steenrod power operations, using the theory of normed motivic spectra as developed by Bachmann--Hoyois and their application for the definition of motivic colimits as developed by Bachmann-Elmanto-Heller.",
+  }
+ ],
+ "hexagon_since": "2026-11-18",
+ "last_page": {
+  "day": "2026-11-19",
+  "papers": [
+   {
+    "abstract": "$A_\\infty$-algebras over a commutative ring $R$ are generalizations of $R$-algebras in which multiplication is only associative up to higher homotopies. Similarly, $A_\\infty$-categories over $R$ are generalizations of $R$-linear categories in which composition of morphisms is only associative up to higher homotopies. They are important in the definition of Fukaya categories in Symplectic Geometry, and in other areas of mathematics.\n  By $\\infty$-categories we mean quasicategories, a class of simplicial sets which are a model for $(\\infty,1)$-categories, used in the work of Jacob Lurie.\n  We define and study $\\infty$-categories of $A_\\infty$-algebras and $A_\\infty$-categories. Our approach is unusual in that rather than defining them by localization, we construct our $\\infty$-categories completely explicitly as simplicial sets.\n  Our $\\infty$-categories are intended for applications to Fukaya categories in Symplectic Geometry. Given a suitable symplectic manifold $(X,\\omega)$, one should construct its Fukaya category ${\\mathscr F}(X,\\omega)$, a (filtered) $A_\\infty$-category, and its derived Fukaya category $D^b{\\mathscr F}(X,\\omega)$, a triangulated category (or better, a stable $\\infty$-category). Typically ${\\mathscr F}(X,\\omega)$ depends on many arbitrary choices. Our $\\infty$-categories give a clean way to explain in what sense ${\\mathscr F}(X,\\omega)$ and $D^b{\\mathscr F}(X,\\omega)$ are independent of these choices.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Timon Tausendpfund"
+     "Dominic Joyce"
     ],
     "categories": [
-     "math.AG"
+     "math.CT",
+     "math.SG"
     ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.35903",
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24690",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.35903",
-    "pid": "2610.35903",
+    "pdf": "https://arxiv.org/pdf/2611.24690",
+    "pid": "2611.24690",
     "reasons": [
-     "title: power operation",
-     "abstract: motivic spectr"
+     "title: infinity-categor",
+     "abstract: (infinity,1)",
+     "abstract: quasicategor"
     ],
     "source": "arxiv",
     "tier": 2,
-    "title": "Motivic $C_p$-power operations in $\\mathrm{MGL}$",
+    "title": "An $\\infty$-category approach to $A_\\infty$-algebras and $A_\\infty$-categories",
     "watched": []
-   }
-  },
-  {
-   "day": "2026-10-28",
-   "paper": {
-    "abstract": "We computationally investigate a weight 3 analogue of the relationship between higher Bloch groups, algebraic K-theory, higher regulators, and special values of Dedekind zeta functions. In particular, for F a number field F, we define the pruned Bloch group B _3(F) and compare the covolume of its regulator lattice with zeta_F(3). We define a quantity kappa_3(F), which is conjecturally an integer, that is expected to be closely related to the order of K_4(O_F).",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Herbert Gangl",
-     "Paul E. Gunnells",
-     "Dan Yasaki"
-    ],
-    "categories": [
-     "math.NT",
-     "math.KT"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.36136",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.36136",
-    "pid": "2610.36136",
-    "reasons": [
-     "abstract: algebraic k-theor"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Computations in weight 3 of higher Bloch groups",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-28",
-   "paper": {
-    "abstract": "We construct tensor products of uniform matroids which are strictly freer than their generic linear tensor products. In particular, the generic tensor product of two copies of $U_{7,9}$ is not maximal. More generally, for every $a,b\\ge2$, this holds for $U_{7,a+7}$ and $U_{7,b+7}$. The construction disproves the uniform tensor-product formulation of Mason's conjecture. Its dual is a relaxation of an explicit circuit-hyperplane of a generic birigidity matroid. By the author's representability theorem, the resulting matroids are non-representable over every field. We also obtain full-rank counterexamples to the Jackson--Tanigawa hyperconnectivity conjecture in every dimension $d\\ge2$.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Mykhaylo Tyomkyn"
-    ],
-    "categories": [
-     "math.CO",
-     "math.AG"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.37616",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.37616",
-    "pid": "2610.37616",
-    "reasons": [
-     "abstract: presentable"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Generic tensor products are not maximal",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-28",
-   "paper": {
-    "abstract": "We show that several Dold-Kan type equivalences can be understood as a passage from constructible sheaves on symmetric products (i.e. spaces of polynomials) to polynomial sheaves in the sense of Goodwillie-Weiss calculus, by means of a natural analytic expansion functor. This geometric perspective provides access to standard tools from sheaf theory such as the six functor formalism and $t$-structures. For example, the equivalence between filtered objects and coherent chain complexes in a stable $\\infty$-category receives a geometric incarnation as Verdier duality between $!$-sheaves and $*$-cosheaves on an $\\infty$-dimensional simplex. As a main application, we obtain an intrinsic geometric explanation for the appearance of vanishing cycle data for perverse sheaves in a paracyclic variant of the Dold--Kan correspondence pioneered by Dwyer and Kan, at the same time lifting their equivalence to stable $\\infty$-categories.",
+   },
+   {
+    "abstract": "We construct a map of filtered spectra inducing a map from the Atiyah--Hirzebruch spectral sequence (AHSS) to the Baker--Lazarev Adams spectral sequence of a $\\mathit{ko}$-module $M$. Using this and a theorem of Bruner--Rognes, we construct a hastened Adams spectral sequence (HASS) for the Postnikov truncations of $\\mathit{ko}$ and the connective Adams summand. Then, motivated by questions in quantum field theory, topological phases of matter, and tensor category theory, we apply the HASS to supercohomology, the cohomology theory $I_{\\mathbb{C}^\\times}(\\tau_{\\le 2}\\mathit{ko})$, and observe that in examples of interest it is easier to calculate with than either the AHSS or the usual Adams spectral sequence. We include a User's Guide to the HASS and several worked examples, as well as hastened Adams charts for many commonly encountered $\\mathcal{A}(1)$-modules.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Tobias Dyckerhoff",
-     "Till Heine",
-     "Simon Schneider"
+     "Arun Debray",
+     "Weicheng Ye",
+     "Matthew Yu"
+    ],
+    "categories": [
+     "math.AT",
+     "cond-mat.str-el",
+     "hep-th",
+     "math-ph",
+     "math.MP"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24725",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24725",
+    "pid": "2611.24725",
+    "reasons": [
+     "title: adams spectral sequence",
+     "title: spectral sequence",
+     "abstract: filtered spectr"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "An Atiyah--Hirzebruch to Adams map and the hastened Adams spectral sequence for supercohomology",
+    "watched": []
+   },
+   {
+    "abstract": "This paper develops a deformation theory for stable $(\\infty,n)$-categories for $n > 1$. We introduce the framework of complete $t$-structured stable presentable $(\\infty,n)$-categories. Within this setting, we establish a higher categorified Koszul duality among complete $t$-structured presentable $(\\infty,n)$-categories. Using this duality, we develop the deformation theory. We prove that the deformation problem for such categories is a well-behaved formal moduli problem determined by Hochschild cohomology, and we deduce the corresponding obstruction theory. Finally, we apply our results to sheaves of categories on perfect stacks.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Isamu Iwanari"
     ],
     "categories": [
      "math.AG",
      "math.AT",
      "math.CT"
     ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.36314",
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.23899",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.36314",
-    "pid": "2610.36314",
+    "pdf": "https://arxiv.org/pdf/2611.23899",
+    "pid": "2611.23899",
     "reasons": [
-     "abstract: infinity-categor",
-     "abstract: goodwillie"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Sheaves on polynomials and polynomial sheaves",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-28",
-   "paper": {
-    "abstract": "Zigzag persistence modules serve as an essential tool in topological data analysis. The fundamental theorem of persistent homology states that any zigzag persistence module decomposes into a direct sum of simple building blocks called interval modules. We consider an interval cover, a possibly redundant family of interval submodules spanning every vertex space of a finite zigzag persistence module. We give an elementary descent argument that replaces a redundant cover with a minimal one that is an interval decomposition. This provides an optimisation perspective on persistence modules and their interval decomposition. As an application, we give an estimate of the generalised rank invariant in terms of a cover.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Junyan Chu",
-     "Shizuo Kaji",
-     "Meiyan Kang"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.36843",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.36843",
-    "pid": "2610.36843",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "A minimising principle for interval covers of zigzag persistence modules",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-28",
-   "paper": {
-    "abstract": "In this paper, we prove that a one-dimensional Peano continuum $X$ admits a weak homotopy equivalence $X\\to C$ to a countable space $C$ if and only if the wild set $\\mathbf{w}(X)$ is countable.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Jeremy Brazas",
-     "Petar Pavesic"
-    ],
-    "categories": [
-     "math.GN",
-     "math.AT"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.35875",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.35875",
-    "pid": "2610.35875",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Countable models of one-dimensional Peano continua",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-28",
-   "paper": {
-    "abstract": "We determine the multiplicative structures of the homotopy operations on derived Lie algebras, derived restricted Lie algebras and partition Lie algebras, as well as the relation between these. Under Koszul duality, this follows from a calculation of the homotopy operations on derived rings, p-truncated algebras and divided power algebras over $\\mathbb{F}_p$.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Joost Nuiten",
-     "Jiaqi Fu"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.36942",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.36942",
-    "pid": "2610.36942",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Homotopy operations on higher Lie algebras",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-28",
-   "paper": {
-    "abstract": "We use the method of equivariant localization to obtain a recursion for the cobordism-valued one-point psi-class intersections on $\\overline{\\mathcal{M}}_{0,n}$, and hence the cobordism classes $[\\overline{\\mathcal{M}}_{0,n}]$. Restricting to the hyperbolic formal group law, we recover the Poincar\\'{e} polynomials of $\\overline{\\mathcal{M}}_{0,n}$ as a special case, and obtain new formulas for Hirzebruch $\\chi_y$-genera of $\\overline{\\mathcal{M}}_{0,n}$ twisted by tautological line bundles.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Benjamin Ellis-Bloor"
-    ],
-    "categories": [
-     "math.AG",
-     "math.AT",
-     "math.KT"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.37628",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.37628",
-    "pid": "2610.37628",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Localization, cobordism, and twisted $\\chi_y$-genera of $\\overline{\\mathcal{M}}_{0,n}$",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-28",
-   "paper": {
-    "abstract": "The Maxwell graph of a directed acyclic graph is obtained from its iterated basin and hill boundaries. The unweighted counts of extrema at these levels need not satisfy Morse inequalities. We assign multiplicities by the reduced homology of lower and upper order links and retain the vertices with nonzero local homology. The resulting graph preserves both boundary hierarchies, the local groups, and the homology of all sublevel and superlevel order complexes. Its descending and ascending Morse numbers satisfy the weak and strong Morse inequalities over any field. We also construct a Morse chain complex and compute the local groups in several examples. Finally, we consider homology on the original Maxwell graph and prove analogous inequalities for path homology using relative local groups.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Oleg R. Musin"
-    ],
-    "categories": [
-     "math.AT",
-     "math.CO"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.36372",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.36372",
-    "pid": "2610.36372",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Morse-Maxwell Theory for Directed Acyclic Graph",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-10-28",
-   "paper": {
-    "abstract": "Rational equivalence need not be closed in the Chow topology, and its closure can have infinitely generated homotopy groups. For a connected reduced complex projective variety, we prove that this closure is locally contractible and that its quotient in the algebraically trivial cycles is a finite or countable weak product of circles. The quotient map admits a global continuous section. Consequently, the higher homotopy of the cycle space is carried by the closure and is canonically identified with Lawson homology. We describe the remaining fundamental group quotient and its integral Walker comparison. Applications include smooth projective examples with infinite rank closure homotopy throughout prescribed finite intervals and a family of abelian threefolds with four simultaneously dense, nonconstructible quotient rank strata.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Wenchuan Hu"
-    ],
-    "categories": [
-     "math.AG",
-     "math.AT"
-    ],
-    "date": "2026-10-28",
-    "link": "https://arxiv.org/abs/2610.36913",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2610.36913",
-    "pid": "2610.36913",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Topology of rational equivalence closures and Lawson homology",
-    "watched": []
-   }
-  }
- ],
- "hexagon_since": "2026-11-18",
- "last_page": {
-  "day": "2026-11-18",
-  "papers": [
-   {
-    "abstract": "By regarding the nerves of categories enriched over a monoidal poset as persistence simplicial sets, we investigate an upper bound of the interleaving distance in the homotopy category between the nerves in the sense of Lanary and Scoccola. In particular, it holds that the distance between the nerves for $r$-homotopy equivalent generalized metric spaces is less than or equal to the half of $r$. Moreover, a product on the cochain complex associated with a persistence simplicial set is introduced and related to the cup product on the magnitude cochain complex in the sense of Hepworth. As a consequence, the product gives the multiplicative structure to the cohomological magnitude-path spectral sequence (MPSS) whose first term is isomorphic to the magnitude cohomology ring. Furthermore, we discuss at which term the MPSS for a connected finite digraph collapses by using the interleaving of the enriched nerve of the digraph.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Katsuhiko Kuribayashi"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-11-18",
-    "link": "https://arxiv.org/abs/2611.22433",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.22433",
-    "pid": "2611.22433",
-    "reasons": [
-     "title: spectral sequence"
+     "title: higher categor",
+     "title: koszul dual",
+     "abstract: (infinity,n)",
+     "abstract: presentable"
     ],
     "source": "arxiv",
     "tier": 2,
-    "title": "Enriched nerves, interleaving distances and the multiplicative magnitude-path spectral sequence",
+    "title": "Categorified Koszul duality and deformation theory of higher categories",
     "watched": []
    },
    {
-    "abstract": "We refine the classical pro-homotopy type of the end of a manifold by recording the boundaries of a compact exhaustion together with the bordisms between them. We show that this assignment, the bordism-end, is functorial in embeddings, and independent of the choice of exhaustion. Its target is the free sequential colimit completion of the bordism $\\infty$-category. Along the way of defining the bordism-end, we show that the category of all smooth $d$-dimensional manifolds and embeddings is formally obtained from the analogous category of compact manifolds. Through the formalism of the bordism-end, it follows that a manifold is diffeomorphic to the interior of a compact manifold if and only if its bordism-end is representable. Moreover, this formalism yields a fibre sequence relating the classifying spaces of the compactly supported diffeomorphism group of a manifold and its full diffeomorphism group, and a space of bordism-ends. Finally, we set up the pro-end functorially in embeddings, with target the cospan $\\infty$-category of pro-spaces, and show that it factors through the bordism-end.",
+    "abstract": "Let $R$ be an $\\mathbb{E}_{\\infty}$-ring spectrum of height $m$. The chromatic redshift theorem implies that its $n$-fold iterated algebraic $K$-theory $K^{(n)}(R)$ has height $m+n$. Moreover, there is a natural map $K^{(n)}(R)\\to (T^n\\otimes R)^{hT^n}$, where $T^n\\otimes R$ denotes the $n$-fold iterated topological Hochschild homology. Hence it is natural to ask whether the target also has height $m+n$. Although this fails in general, we prove that it holds whenever $R$ is connective and $m\\geq1$. Our proof is based on an iterative calculation using Wilson spaces and relative topological Hochschild homology. As an application, we determine the support of the $T^n$-homotopy fixed points of $n$-fold iterated topological Hochschild homology of $\\mathrm{BP}\\langle m\\rangle$ for $n=2,3$ with $\\mathrm{BP}\\langle m\\rangle$ equipped with any $\\mathbb{E}_3$-$\\mathrm{MU}$-form.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Fadi Mezher"
+     "Jiaxi Zha"
     ],
     "categories": [
      "math.AT"
     ],
-    "date": "2026-11-18",
-    "link": "https://arxiv.org/abs/2611.23166",
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.23819",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.23166",
-    "pid": "2611.23166",
+    "pdf": "https://arxiv.org/pdf/2611.23819",
+    "pid": "2611.23819",
     "reasons": [
-     "abstract: infinity-categor",
+     "title: topological hochschild homology",
+     "abstract: chromatic redshift",
+     "abstract: ring spectr",
+     "abstract: e_infinity-ring",
+     "abstract: algebraic k-theor"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Chromatic heights of homotopy fixed points of iterated topological Hochschild homology of connective spectra",
+    "watched": []
+   },
+   {
+    "abstract": "Let $M$ be a closed $d$-dimensional smooth manifold and $X:\\Delta^{op}\\rightarrow\\operatorname{Fin}$ a finite simplicial set whose geometric realization is homeomorphic to $M$. Given the $\\infty$-category $\\mathcal{D}\\mathrm{isk}_{/M}$ of disks embedded in $M$ and the path components functor $\\pi_0:\\mathcal{D}\\mathrm{isk}_{/M}\\rightarrow\\operatorname{Fin}$, we construct a cofinal functor $\\Gamma_X:\\Delta^{op}\\rightarrow\\mathcal{D}\\mathrm{isk}_{/M}$ such that $X=\\pi_0\\circ\\Gamma_X$.\n  This result provides an alternative construction of a simplicial model developed by Boavida de Brito, Lambrechts, Pryor and Songhafouo Tsopm\\'en\\'e to compute the space-valued presheaf $\\operatorname{Emb}(-,M):\\mathcal{D}\\mathrm{isk}^{op}\\rightarrow\\mathcal{S}$. We also extend the result to manifolds with a $G$-structure and discuss applications to manifold calculus, factorization homology, and a possible generalization to manifolds with boundary.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Rodrigue Haya Enriquez"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24703",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24703",
+    "pid": "2611.24703",
+    "reasons": [
+     "abstract: infinity-categor"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "A simplicial model for manifold calculus through the configuration category",
+    "watched": []
+   },
+   {
+    "abstract": "Diffeological non-Abelian Hodge theory motivates the study of $C^r$ families of Higgs bundles and flat bundles for finite $r$. In this article, we provide a uniform language for treating moduli stacks parametrizing such objects in terms of diffeology. More specifically, we develop a theory of stacks presentable by diffeological groupoids over the site of $C^r$ manifolds for arbitrary $r$. As an application, we construct moduli stacks over the sites of $C^r$ manifolds parametrizing $C^r$ vector bundles over a smooth manifold, and $C^r$ families of Higgs bundles and of flat bundles over a complex manifold. We also construct $C^r$ versions of the non-Abelian Hodge filtration stack, interpolating between Higgs bundles and flat bundles through $\\lambda$--connections. We show that all these stacks are presentable by diffeological groupoids. Finally, we construct moduli stacks parametrizing $C^r$ families of $\\Delta^n$--shaped diagrams of these objects, and show that they assemble into simplicial stacks whose levels are all presentable by diffeological groupoids.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Mahmud Azam",
+     "Steven Rayan"
+    ],
+    "categories": [
+     "math.DG",
+     "math.AG",
+     "math.CT",
+     "math.CV",
+     "math.RT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.23451",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.23451",
+    "pid": "2611.23451",
+    "reasons": [
      "abstract: presentable"
     ],
     "source": "arxiv",
     "tier": 3,
-    "title": "A bordism perspective on ends of manifolds",
+    "title": "Finite regularity moduli stacks through diffeology",
     "watched": []
    },
    {
-    "abstract": "We develop a theory of infinitesimal gradings for $\\mathbb{Z}/2$-graded $A_\\infty$-categories and use it to detect Calabi--Yau dimensions of monotone Fukaya summands from quantum cohomology. The dimensions we find agree with predictions from Serre functors of Kuznetsov components, such as $2$ for Gushel--Mukai and Verra fourfolds and the fractional value $\\frac{n-2}{n}$ for the symplectic Grassmannian $\\operatorname{IG}(2,2n)$. An infinitesimal grading induces endomorphisms on cohomological morphism spaces, and we prove a straightening theorem that realizes its weights as an actual grading compatible with the $A_\\infty$-structure. We use this grading to show that Dehn twists give faithful braid group representations in the symplectic mapping class groups of Gushel--Mukai and Verra fourfolds.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Yonghwan Kim"
-    ],
-    "categories": [
-     "math.SG",
-     "math.AG"
-    ],
-    "date": "2026-11-18",
-    "link": "https://arxiv.org/abs/2611.23163",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.23163",
-    "pid": "2611.23163",
-    "reasons": [
-     "abstract: infinity-categor",
-     "abstract: straightening"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Calabi--Yau dimensions of monotone Fukaya summands from infinitesimal gradings",
-    "watched": []
-   },
-   {
-    "abstract": "For a $p$-torsionfree $p$-quasisyntomic ring, we construct a fiber sequence relating the $p$-th Nygaard graded piece of absolute prismatic cohomology to the Frobenius--Witt cotangent complex. The latter is an arithmetic analogue of the cotangent complex in which the differential of $p$ need not vanish. We also clarify the relationship between the regularity criterion proved by Mao using the Frobenius--Witt cotangent complex and the regularity criterion established by Bhatt and Mathew using the Nygaard graded piece. This relationship was anticipated by Bhatt and Mathew.",
+    "abstract": "We introduce the notion of semi-exact functors between abelian categories, which are characterised by either preserving or breaking exactness of sequences. We prove semi-exact functors are always exact with respect to a canonically determined exact structure. For a symmetric tensor category $\\Cs$, we define a support theory by considering all $\\Bbbk$-linear symmetric monoidal, semi-exact functors $\\mathscr{C}\\to\\operatorname{Ver}_{p^\\infty}$ up to equivalence, and conjecture that it agrees with the Balmer spectrum of the stable category when $\\mathscr{C}$ is finite. We prove a weak form of this conjecture and other results for Tannakian categories and in characteristic 0. Critical to the positive characteristic case is a functor constructed by Coulembier and Flake who were interested in higher Frobenius functors. We show that their construction, which relies on the theory of abelian envelopes, gives a natural source for semi-exact functors, and at least in the Tannakian setting gives all $\\Bbbk$-linear, symmetric monoidal, semi-exact functors.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Ryo Ishizuka",
-     "Kanau Shimada"
-    ],
-    "categories": [
-     "math.AG",
-     "math.AC",
-     "math.NT"
-    ],
-    "date": "2026-11-18",
-    "link": "https://arxiv.org/abs/2611.22214",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.22214",
-    "pid": "2611.22214",
-    "reasons": [
-     "abstract: prismatic",
-     "abstract: syntomic"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "The Nygaard graded piece, the Frobenius--Witt cotangent complex and regularity criteria",
-    "watched": []
-   },
-   {
-    "abstract": "We show that, for every $\\infty$-topos $\\mathcal{X}$, the profinite shape induces a canonical equivalence between the $\\infty$-category of pro-objects in locally constant constructible sheaves of anima in $\\mathcal{X}$ and the slice $\\infty$-category of profinite anima over the profinite shape $\\widehat{\\Pi}_{\\infty}(\\mathcal{X})$. We deduce this profinite shape equivalence from the monodromy classification theorem by establishing a continuous version of the straightening-unstraightening equivalence for profinite anima. In addition, we explain how the monodromy classification theorem recovers its classical counterparts concerning locally constant sheaves of finite sets and of (abelian) groups.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Tim Holzschuh"
-    ],
-    "categories": [
-     "math.AG",
-     "math.AT"
-    ],
-    "date": "2026-11-18",
-    "link": "https://arxiv.org/abs/2611.23061",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.23061",
-    "pid": "2611.23061",
-    "reasons": [
-     "abstract: infinity-topo",
-     "abstract: straightening",
-     "abstract: sheaves of anima"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "The profinite shape equivalence",
-    "watched": []
-   },
-   {
-    "abstract": "We propose a definition of associative log rings. The role of the commutative monoid is replaced by a variant of a crossed module whose source is a monoid, and we use the resulting group action to control the failure of commutativity. This extends the classical notion of a log ring, even in the commutative case. Natural examples include algebras of logarithmic differential operators. The definition lends itself to a canonical construction of a log enveloping algebra and hence of log bimodules, and we prove that the resulting second log Hochschild cohomology group classifies log square-zero extensions. Along the way, we complete the logarithmic analog of Quillen's classification of abelian group objects in augmented algebras: In exact augmented associative log rings, abelian group objects recover log bimodules. Our constructions enjoy animated analogs, and we develop the basic theory of associative animated log rings \\emph{en route} to our classification of exact log square-zero extensions.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Deik van der Horst",
-     "Tommy Lundemo"
-    ],
-    "categories": [
-     "math.AT",
-     "math.AG",
-     "math.KT"
-    ],
-    "date": "2026-11-18",
-    "link": "https://arxiv.org/abs/2611.23064",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.23064",
-    "pid": "2611.23064",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Associative Log Rings and their Bimodules",
-    "watched": []
-   },
-   {
-    "abstract": "The maximal abelian cover of a connected graph is the quotient of its universal cover by the commutator subgroup of its fundamental group. We provide a complete classification of finite connected graphs with isomorphic maximal abelian covers. For trees or for connected graphs with at least two cycles, the cover determines the base up to isomorphism; in cycle rank one, it determines the primitive cyclic pattern of rooted trees attached to the unique cycle. We also characterize when every automorphism descends to the base and give an orbit-size criterion for splitting the canonical lift extension, answering two questions raised by Baez in 2026.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Frederico Can\\c{c}ado",
-     "Gabriel Coutinho",
-     "Thom\\'as Jung Spier"
-    ],
-    "categories": [
-     "math.CO",
-     "math.AT"
-    ],
-    "date": "2026-11-18",
-    "link": "https://arxiv.org/abs/2611.22993",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.22993",
-    "pid": "2611.22993",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Complete characterization of graphs with common maximal abelian cover",
-    "watched": []
-   },
-   {
-    "abstract": "Distance algebras were introduced by Asao and Ivanov to realize magnitude homology and cohomology of quasi-metric spaces as Tor- and Ext-groups respectively. Let $\\Sigma_L$ be the distance algebra of the Hasse graph of a finite distributive lattice $L$, where the metric is given by the lengths of shortest paths in the graph. We show that $\\Sigma_L$ is Gorenstein over any Gorenstein commutative noetherian ring $R$, and give bound of its self-injective dimension. The proof constructs, for each indecomposable (relative) injective module, a projective resolution that is in general non-minimal. When $R=\\Bbbk$ is a field, we use algebraic Morse theory to reduce it to a minimal resolution, so that the Betti numbers can be obtained as the dimensions of homologies of certain order complexes. As a consequence, we show that the self-injective dimension of $\\Sigma_L$ is the maximal Castelnuovo--Mumford regularity of certain Stanley--Reisner rings. We also show that the first two terms of these minimal resolutions are multiplicity-free, whereas arbitrarily large multiplicities occur in every higher degree. In the appendix, we include a more abstract formulation of the non-minimal projective resolution, namely, a simplicial replacement of a diagram of projective modules.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Aaron Chan",
-     "Bohan Xing"
-    ],
-    "categories": [
-     "math.AC",
-     "math.AT"
-    ],
-    "date": "2026-11-18",
-    "link": "https://arxiv.org/abs/2611.22513",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.22513",
-    "pid": "2611.22513",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Distance algebras of finite distributive lattices are Gorenstein",
-    "watched": []
-   },
-   {
-    "abstract": "We compute the $\\Gamma$-Euler characteristic of a finite-dimensional representation of the compact torus $\\mathbb{T}^k$ where $\\Gamma$ is an arbitrary finitely presented group. We additionally compute the $\\Gamma$-Euler characteristic of the unit sphere in such a representation as well as the corresponding symplectic quotient at a nonzero level of the moment map. In each case, the $\\Gamma$-Euler characteristic is expressed in terms of the weight matrix for the representation as well as a description of the abelianization of $\\Gamma$.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Nathaniel Peters",
-     "Christopher Seaton"
+     "Alexander Sherman"
     ],
     "categories": [
      "math.RT",
-     "math.AT"
+     "math.CT"
     ],
-    "date": "2026-11-18",
-    "link": "https://arxiv.org/abs/2611.22555",
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24471",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.22555",
-    "pid": "2611.22555",
-    "reasons": [],
+    "pdf": "https://arxiv.org/pdf/2611.24471",
+    "pid": "2611.24471",
+    "reasons": [
+     "abstract: balmer spectr"
+    ],
     "source": "arxiv",
-    "tier": 4,
-    "title": "Higher orbifold Euler characteristics of torus representations",
+    "tier": 3,
+    "title": "Semi-exact functors and the conjecture of Coulembier and Flake",
     "watched": []
    },
    {
-    "abstract": "We give a quantum $K$-theoretic analogue of the Whitney relation for the torus-equivariant $K$-ring of the Lagrangian Grassmannian. As a consequence, we give a presentation of the torus-equivariant quantum $K$-ring of the Lagrangian Grassmannian. The strategy for obtaining such relations is to use the quantum $K$-theoretic Whitney relation for the full-flag manifold in type $C$ established by the author and Kato's pushforward map from the quantum $K$-ring of the full-flag manifold to that of the partial flag manifold. Then the Nakayama-type argument established by Gu et al., together with the classical Whitney presentation for the torus-equivariant $K$-ring of the Lagrangian Grassmannian, gives a proof of such a presentation.",
+    "abstract": "Following Botvinnik--Rosenberg \\cite{BotvinnikRosenberg2023}, we define fibered-boundary bordism, introduce sphere-bundle bordism, and prove an exact sequence relating them to ordinary bordism. The sequence also holds when all sphere fibers are required to be non-$D^r$-bounding. Following Debray--Ye--Yu \\cite{DebrayYeYu2026}, we define characteristic cycles with a chosen complement structure trivializing a characteristic class. For the GM and $\\mathrm{KT}^{\\pm}$ cases, deleting tubular neighborhoods and identifying sphere-bundle structures with determinant-twisted base structures give a characteristic exact sequence. This proves the bordism-group consequence of the DYY conjecture for our definitions, without constructing the conjectured map of spectra.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Takafumi Kouno"
+     "Kohei Takeda"
     ],
     "categories": [
-     "math.AG",
-     "math.CO",
-     "math.KT",
-     "math.QA",
-     "math.RT"
+     "math.AT"
     ],
-    "date": "2026-11-18",
-    "link": "https://arxiv.org/abs/2611.21654",
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24036",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.21654",
-    "pid": "2611.21654",
+    "pdf": "https://arxiv.org/pdf/2611.24036",
+    "pid": "2611.24036",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A Geometric Characteristic Long Exact Sequence for Codimension-Two Spin and Pin-plus/minus Bordism",
+    "watched": []
+   },
+   {
+    "abstract": "Given a simplicial set $X$, let $\\operatorname{B}({X})$ denote its poset of nondegenerate simplices. We define a natural stratification $\\left\\vert{X}\\right\\vert\\rightarrow\\operatorname{B}({X})$. When $X$ is locally finite, we prove that this stratification is conical. Moreover, if $X$ is finite, we prove that the exit path category $\\operatorname{Exit}^{\\operatorname{B}({X})}(\\left\\vert{X}\\right\\vert)$ satisfies the geometric realization formula $\\mathop{\\operatorname{colim}}\\limits_{\\sigma:\\Delta[p]\\rightarrow X} \\operatorname{Exit}^{\\operatorname{B}({p})}(\\Delta^p)\\simeq\\operatorname{Exit}^{\\operatorname{B}({X})}(\\left\\vert{X}\\right\\vert)$ where the colimit is indexed by the category of simplices of $X$.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Rodrigue Haya Enriquez"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24680",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24680",
+    "pid": "2611.24680",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A stratified version of geometric realizations",
+    "watched": []
+   },
+   {
+    "abstract": "We show that, after attaching a subcritical handle to $T^*\\bP^2$ to obtain a manifold $M$, the integral wrapped Floer endomorphism algebra of a cotangent fibre admits no spherical refinement for any choice of brane structure; this obstructs the existence of any wrapped Fukaya category for $M$ over the sphere spectrum. We further discuss some features of the resulting Weinstein eight-manifold $M$, which is homotopy equivalent to $S^4$.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Abigail Ward"
+    ],
+    "categories": [
+     "math.SG",
+     "math.AT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24930",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24930",
+    "pid": "2611.24930",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "A Weinstein manifold without any spherical Fukaya category",
+    "watched": []
+   },
+   {
+    "abstract": "We prove the cosmetic crossing conjecture, Problem 1.58 in Kirby's list, and the generalized cosmetic crossing conjecture for every knot whose branched double cover is an L-space; in particular, both hold for all alternating and all quasi-alternating knots. We also prove the oriented knot complement conjecture, Problem 1.81(D), for all closed 3-manifolds with finite fundamental group, in particular for all lens spaces: in such a manifold, every knot whose exterior is irreducible and not a solid torus is determined by its complement. Both results rest on a monotonicity theorem for Heegaard Floer correction terms: if a knot in a rational homology sphere has an isotropic, nonzero homology class, then the sum of all correction terms strictly increases along its surgeries with coefficients -1/j relative to the rational longitude, so no nontrivial surgery yields the original oriented manifold. We also show that every purely cosmetic band surgery on a knot with an L-space branched double cover is weakly nugatory, which answers a question of Rogers for these knots.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Seong-Jin Lee"
+    ],
+    "categories": [
+     "math.GT",
+     "math.AT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24532",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24532",
+    "pid": "2611.24532",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Cosmetic crossings and the knot complement problem",
+    "watched": []
+   },
+   {
+    "abstract": "Hypergraphs are the natural language for group interactions, and topological data analysis has given us several ways to look at them: simplicial and cell complexes, persistent homology, and sheaves. All of these treat a hyperedge as an unordered set. In this paper, we introduce a different and, to our knowledge, new viewpoint that comes from Grothendieck's theory of dessins d'enfants and, unlike these approaches, takes into account the order in which vertices appear in each hyperedge and hyperedges appear around each vertex. A dessin is a bipartite graph drawn on a closed orientable surface. Through Walsh's classical correspondence between hypermaps and bipartite maps, every hypergraph equipped with a cyclic order of incidences at each vertex and inside each hyperedge is a dessin, and therefore determines a surface with faces and a genus. We develop this idea for temporal hypergraphs and build the surface by replaying history: incidences are added in the order in which they occurred, and each new incidence is inserted into the cyclic orders built so far, next to the earlier incidence to which it is related. We prove that every insertion either grows the hypergraph without creating a cycle, closes a cycle locally by splitting a face, or closes it globally by adding a handle; the number of independent cycles equals the number of local plus handle events, and the genus equals the number of handle events. These counts give interpretable, size-controlled measures of how a temporal hypergraph's cycles organize on a surface as it grows. We apply our method to five Stack Exchange communities and show that it separates communities that standard statistics cannot tell apart and quantifies how much the real order of interactions matters. We further discuss what the surface viewpoint adds to existing higher-order network analysis and how it opens a path toward dessin-based learning on hypergraphs.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Mehmet Emin Aktas",
+     "Esra Akbas"
+    ],
+    "categories": [
+     "cs.SI",
+     "math.AT",
+     "math.CO"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24613",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24613",
+    "pid": "2611.24613",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Dessins d'Enfants as a Topological Lens on Temporal Hypergraphs",
+    "watched": []
+   },
+   {
+    "abstract": "In this paper, we address the construction of Eilenberg-MacLane coordinates (functions from datasets to Eilenberg-MacLane spaces $K(G,n)$) that encode nontrivial persistent cohomology classes in arbitrary dimensions $n$ and coefficient group $G$. The construction leverages the connecting homomorphism in the long exact sequence in \\v{C}ech cohomology, from the short exact sequence of sheaves of continuous maps with values in $G$, $EG$ and $BG$. Crucially, the derivation is constructive: we give an explicit, recursive formula for preimages under the connecting homomorphism, which yields a constructive version of a classical cohomology vanishing theorem and, in turn, an algorithm for general Eilenberg-MacLane coordinates. We validate our approach through experiments on synthetic datasets, and present novel examples of $K(\\mathbb{Z}/2, 2)$-coordinates not addressed in prior work.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Tony Xiaochen Xiao",
+     "Jose A. Perea"
+    ],
+    "categories": [
+     "math.AT",
+     "cs.CG"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.23659",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.23659",
+    "pid": "2611.23659",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "From Persistent Cohomology to Maps into Arbitrary Eilenberg-MacLane Spaces",
+    "watched": []
+   },
+   {
+    "abstract": "We prove an explicit stability line for the homology $H_i(\\mathrm{Hur}_n^c,\\mathbb{Q})$ of any Hurwitz space associated to a finite rack $c$ depending only on its homology up to some finite $n$. Moreover, as the range of $n$ increases, the slope of the resulting stability line converges to the optimal slope. Thus, for any Hurwitz space, a finite computation will yield near-optimal bounds on secondary terms for the corresponding arithmetic statistics problem. Our theorem also applies more generally to higher order stability, Frobenius weights, and braided vector spaces.\n  As a special case of our theorem, we can deduce stability lines depending only on when $H_0(\\mathrm{Hur}^c_n,\\mathbb{Q})$ stabilizes, which are sharp in some cases. We apply this to two families of Hurwitz spaces to obtain bounds on the secondary term for (1) the number of $S_d$-degree $d$ function fields with squarefree discriminant, and (2) Cohen-Lenstra moments.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Zhao Yu Ma"
+    ],
+    "categories": [
+     "math.NT",
+     "math.AG",
+     "math.AT",
+     "math.QA"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.23721",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.23721",
+    "pid": "2611.23721",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Optimal homological stability: bounding secondary terms of Cohen-Lenstra moments and $S_d$-fields over $\\mathbb{F}_q[t]$",
+    "watched": []
+   },
+   {
+    "abstract": "We prove that every polyhedral product of disks and their boundary spheres that is a topological manifold admits a stably parallelizable smooth structure. We also show that if a moment-angle complex or a real moment-angle complex admits a smooth structure for which the coordinate action is smooth, then the link of every face of the underlying simplicial complex is a simplicial sphere, and every such smooth structure is stably parallelizable.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Suyoung Choi",
+     "Hyeontae Jang"
+    ],
+    "categories": [
+     "math.AT",
+     "math.GT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24814",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24814",
+    "pid": "2611.24814",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Smooth structures on polyhedral products of disks and spheres",
+    "watched": []
+   },
+   {
+    "abstract": "In this article, an analog of a graded version of Quillen-Suslin's local-global principle was established for Steinberg groups $St(\\Phi,-)$ and Chevalley groups $G(\\Phi,-)$ over a reduced irreducible root system $\\Phi$.",
+    "ai_mode": "",
+    "announce": "cross",
+    "authors": [
+     "Chandan Bhaumik"
+    ],
+    "categories": [
+     "math.GR",
+     "math.KT"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.23853",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.23853",
+    "pid": "2611.23853",
     "reasons": [],
     "source": "arxiv",
     "tier": 5,
-    "title": "Quantum $K$-theoretic Whitney relation for Lagrangian Grassmannian",
+    "title": "Graded version of local-global principle for Steinberg and Chevalley groups",
+    "watched": []
+   },
+   {
+    "abstract": "We prove that unbounded positive traces define KK-elements with real coefficients. Such traces naturally arise from invariant transverse measures on foliations (Connes, 1979) and, more generally, on Lie groupoids (Crainic--Mestre, 2019). As an application, we build a canonical KK-element with real coefficients whose associated map of K-groups is the Godbillon-Vey invariant as constructed by Connes. In the process, we show how Connes' index theorem for measured foliations can be deduced from the Connes-Skandalis longitudinal index theorem, using cyclic cohomology.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Paolo Antonini",
+     "Sara Azzali",
+     "Georges Skandalis"
+    ],
+    "categories": [
+     "math.KT",
+     "math.OA"
+    ],
+    "date": "2026-11-19",
+    "link": "https://arxiv.org/abs/2611.24679",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.24679",
+    "pid": "2611.24679",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 5,
+    "title": "Unbounded traces, Connes' index theorem for measured foliations, and the Godbillon-Vey invariant in KK-theory",
     "watched": []
    }
   ]
@@ -5463,6 +5777,7 @@
   "2206.06000": "2026-10-30",
   "2207.09064": "2026-10-27",
   "2207.14432": "2026-11-18",
+  "2208.02445": "2026-11-19",
   "2208.02575": "2026-10-30",
   "2208.05876": "2026-11-10",
   "2209.03667": "2026-10-30",
@@ -5478,6 +5793,7 @@
   "2212.12358": "2026-10-21",
   "2301.06994": "2026-11-03",
   "2301.12981": "2026-11-11",
+  "2301.13227": "2026-11-19",
   "2302.07810": "2026-11-17",
   "2303.11071": "2026-10-20",
   "2303.12124": "2026-11-02",
@@ -5531,6 +5847,7 @@
   "2401.10528": "2026-10-15",
   "2401.13491": "2026-10-30",
   "2402.00648": "2026-11-10",
+  "2402.07343": "2026-11-19",
   "2402.08262": "2026-10-09",
   "2402.10301": "2026-10-15",
   "2402.11697": "2026-10-21",
@@ -5546,6 +5863,7 @@
   "2403.08308": "2026-11-03",
   "2403.14462": "2026-11-03",
   "2403.17961": "2026-10-27",
+  "2403.18505": "2026-11-19",
   "2404.00945": "2026-10-14",
   "2404.03063": "2026-11-04",
   "2404.03971": "2026-10-14",
@@ -5558,6 +5876,7 @@
   "2405.01428": "2026-10-12",
   "2405.01429": "2026-10-12",
   "2405.01845": "2026-10-14",
+  "2405.05873": "2026-11-19",
   "2405.12559": "2026-10-09",
   "2405.13212": "2026-10-20",
   "2405.13385": "2026-10-26",
@@ -5571,6 +5890,8 @@
   "2406.03584": "2026-10-12",
   "2406.07414": "2026-10-09",
   "2406.13438": "2026-10-16",
+  "2406.19748": "2026-11-19",
+  "2407.00083": "2026-11-19",
   "2407.00971": "2026-10-27",
   "2407.01849": "2026-10-14",
   "2407.05859": "2026-10-14",
@@ -5640,6 +5961,7 @@
   "2412.13123": "2026-10-22",
   "2412.16090": "2026-11-04",
   "2412.17157": "2026-10-20",
+  "2412.18071": "2026-11-19",
   "2412.18592": "2026-10-15",
   "2412.18805": "2026-10-30",
   "2412.18902": "2026-11-06",
@@ -5698,6 +6020,7 @@
   "2504.16771": "2026-11-11",
   "2504.20265": "2026-11-03",
   "2504.20949": "2026-10-30",
+  "2504.21551": "2026-11-19",
   "2505.00680": "2026-10-16",
   "2505.00801": "2026-11-13",
   "2505.01216": "2026-10-22",
@@ -5708,6 +6031,7 @@
   "2505.07297": "2026-10-14",
   "2505.07806": "2026-10-23",
   "2505.08755": "2026-11-13",
+  "2505.08766": "2026-11-19",
   "2505.09015": "2026-11-13",
   "2505.09483": "2026-11-10",
   "2505.10730": "2026-10-22",
@@ -5723,6 +6047,7 @@
   "2505.22832": "2026-10-27",
   "2505.23202": "2026-11-03",
   "2505.24416": "2026-10-14",
+  "2506.01310": "2026-11-19",
   "2506.01345": "2026-10-27",
   "2506.05190": "2026-11-04",
   "2506.06512": "2026-10-21",
@@ -5962,6 +6287,7 @@
   "2601.21973": "2026-10-26",
   "2601.22591": "2026-10-16",
   "2601.23247": "2026-10-15",
+  "2602.01761": "2026-11-19",
   "2602.02976": "2026-10-21",
   "2602.03441": "2026-10-26",
   "2602.04140": "2026-10-12",
@@ -5992,6 +6318,7 @@
   "2602.23126": "2026-11-17",
   "2602.23245": "2026-10-19",
   "2602.23942": "2026-10-12",
+  "2603.00723": "2026-11-19",
   "2603.01310": "2026-10-23",
   "2603.01643": "2026-10-27",
   "2603.01956": "2026-10-30",
@@ -6040,6 +6367,7 @@
   "2603.29157": "2026-11-16",
   "2603.29609": "2026-11-16",
   "2603.29921": "2026-11-17",
+  "2604.00103": "2026-11-19",
   "2604.00289": "2026-10-15",
   "2604.01585": "2026-10-28",
   "2604.02516": "2026-11-16",
@@ -6062,6 +6390,7 @@
   "2604.12541": "2026-11-09",
   "2604.14077": "2026-11-02",
   "2604.14105": "2026-11-10",
+  "2604.15386": "2026-11-19",
   "2604.15843": "2026-10-09",
   "2604.16296": "2026-10-09",
   "2604.16805": "2026-11-03",
@@ -6082,6 +6411,7 @@
   "2604.21900": "2026-10-23",
   "2604.22078": "2026-11-13",
   "2604.22370": "2026-11-17",
+  "2604.22381": "2026-11-19",
   "2604.22578": "2026-10-19",
   "2604.23395": "2026-10-15",
   "2604.24508": "2026-10-09",
@@ -6093,6 +6423,7 @@
   "2604.25595": "2026-10-30",
   "2604.25637": "2026-11-02",
   "2604.26370": "2026-10-15",
+  "2604.26584": "2026-11-19",
   "2605.00704": "2026-10-14",
   "2605.03798": "2026-10-22",
   "2605.06467": "2026-11-09",
@@ -6102,6 +6433,7 @@
   "2605.08507": "2026-10-21",
   "2605.09210": "2026-11-13",
   "2605.09609": "2026-11-06",
+  "2605.09761": "2026-11-19",
   "2605.09828": "2026-10-14",
   "2605.09866": "2026-10-27",
   "2605.10273": "2026-10-14",
@@ -6125,6 +6457,7 @@
   "2605.19898": "2026-11-17",
   "2605.20453": "2026-11-04",
   "2605.21337": "2026-10-09",
+  "2605.21667": "2026-11-19",
   "2605.22071": "2026-10-27",
   "2605.22406": "2026-11-06",
   "2605.22946": "2026-11-10",
@@ -6174,6 +6507,7 @@
   "2606.23622": "2026-11-13",
   "2606.23876": "2026-10-21",
   "2606.23906": "2026-10-20",
+  "2606.24008": "2026-11-19",
   "2606.25516": "2026-10-14",
   "2606.25554": "2026-10-23",
   "2606.25560": "2026-11-03",
@@ -6214,6 +6548,7 @@
   "2607.13270": "2026-11-10",
   "2607.13486": "2026-10-21",
   "2607.13717": "2026-11-17",
+  "2607.13796": "2026-11-19",
   "2607.14128": "2026-10-22",
   "2607.14188": "2026-10-14",
   "2607.14692": "2026-10-27",
@@ -6354,6 +6689,7 @@
   "2609.07522": "2026-11-13",
   "2609.08179": "2026-10-22",
   "2609.08876": "2026-10-30",
+  "2609.09128": "2026-11-19",
   "2609.09633": "2026-11-10",
   "2609.10349": "2026-10-09",
   "2609.10353": "2026-10-20",
@@ -6371,6 +6707,7 @@
   "2609.13687": "2026-10-14",
   "2609.13921": "2026-11-03",
   "2609.14453": "2026-11-17",
+  "2609.14814": "2026-11-19",
   "2609.15419": "2026-10-14",
   "2609.15698": "2026-10-14",
   "2609.15909": "2026-10-09",
@@ -8327,6 +8664,68 @@
   "2611.23162": "2026-11-18",
   "2611.23163": "2026-11-18",
   "2611.23166": "2026-11-18",
+  "2611.23272": "2026-11-19",
+  "2611.23377": "2026-11-19",
+  "2611.23406": "2026-11-19",
+  "2611.23451": "2026-11-19",
+  "2611.23634": "2026-11-19",
+  "2611.23650": "2026-11-19",
+  "2611.23659": "2026-11-19",
+  "2611.23687": "2026-11-19",
+  "2611.23694": "2026-11-19",
+  "2611.23707": "2026-11-19",
+  "2611.23721": "2026-11-19",
+  "2611.23735": "2026-11-19",
+  "2611.23739": "2026-11-19",
+  "2611.23785": "2026-11-19",
+  "2611.23819": "2026-11-19",
+  "2611.23831": "2026-11-19",
+  "2611.23846": "2026-11-19",
+  "2611.23853": "2026-11-19",
+  "2611.23874": "2026-11-19",
+  "2611.23899": "2026-11-19",
+  "2611.23934": "2026-11-19",
+  "2611.23957": "2026-11-19",
+  "2611.24036": "2026-11-19",
+  "2611.24087": "2026-11-19",
+  "2611.24139": "2026-11-19",
+  "2611.24183": "2026-11-19",
+  "2611.24186": "2026-11-19",
+  "2611.24215": "2026-11-19",
+  "2611.24237": "2026-11-19",
+  "2611.24250": "2026-11-19",
+  "2611.24286": "2026-11-19",
+  "2611.24292": "2026-11-19",
+  "2611.24349": "2026-11-19",
+  "2611.24361": "2026-11-19",
+  "2611.24365": "2026-11-19",
+  "2611.24405": "2026-11-19",
+  "2611.24427": "2026-11-19",
+  "2611.24456": "2026-11-19",
+  "2611.24471": "2026-11-19",
+  "2611.24480": "2026-11-19",
+  "2611.24532": "2026-11-19",
+  "2611.24563": "2026-11-19",
+  "2611.24570": "2026-11-19",
+  "2611.24589": "2026-11-19",
+  "2611.24594": "2026-11-19",
+  "2611.24613": "2026-11-19",
+  "2611.24679": "2026-11-19",
+  "2611.24680": "2026-11-19",
+  "2611.24690": "2026-11-19",
+  "2611.24692": "2026-11-19",
+  "2611.24695": "2026-11-19",
+  "2611.24703": "2026-11-19",
+  "2611.24717": "2026-11-19",
+  "2611.24725": "2026-11-19",
+  "2611.24732": "2026-11-19",
+  "2611.24751": "2026-11-19",
+  "2611.24773": "2026-11-19",
+  "2611.24802": "2026-11-19",
+  "2611.24814": "2026-11-19",
+  "2611.24868": "2026-11-19",
+  "2611.24879": "2026-11-19",
+  "2611.24930": "2026-11-19",
   "hexagon:2609.00001": "2026-10-08",
   "hexagon:2609.00102": "2026-10-08",
   "hexagon:2609.00104": "2026-10-08",
