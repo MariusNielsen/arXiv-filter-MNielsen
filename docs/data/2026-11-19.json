@@ -1,6 +1,6 @@
 {
 "day": "2026-11-19",
-"updated": "2026-11-19T07:04:48+00:00",
+"updated": "2026-11-19T08:09:08+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -840,6 +840,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00599",
+"title": "Equal prime divisors in disjoint blocks of consecutive integers",
+"abstract": "We construct infinitely many disjoint pairs of consecutive blocks, of lengths three and four in that order, whose products have identical prime divisors. Their starting positions disprove the finiteness and separation predictions in Erdős’s 1976 formulation. The modern Erdős problem 931 requires the earlier block to be at least as long as the later one and remains open. For any fixed lengths \\(k,\\ell\\ge2\\), the number of equal-support pairs with increasing first terms at most \\(X\\), even allowing overlap, is \\(O_{k,\\ell,\\varepsilon}(X^{2/3+\\varepsilon})\\). In the modern length order, we prove finiteness on fixed conics, on fixed equations in separated rational functions, and for pairs admitting two independent multiplicative relations. We also give exact counts in three strips of bounded separation, without a bound on either starting term.",
+"authors": [
+"Sunay Venkat"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00599v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00599v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2504.21551",
 "title": "Euclidean interval objects in categories with finite products",
 "abstract": "Based on the intuitive notion of convexity, we formulate a universal property defining interval objects in a category with finite products. Interval objects are structures corresponding to closed intervals of the real line, but their definition does not assume a pre-existing notion of real number. The universal property characterises such structures up to isomorphism, supports the definition of functions between intervals, and provides a means of verifying identities between functions. In the category of sets, the universal property characterises closed intervals of real numbers with nonempty interior. In the category of topological spaces, we obtain intervals with the Euclidean topology. We also prove that every elementary topos with natural numbers object contains an interval object; furthermore, we characterise interval objects as intervals of real numbers in the Cauchy completion of the rational numbers within the Dedekind reals.",
@@ -1662,6 +1683,27 @@
 "announce": "new",
 "date": "2026-11-19",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00598",
+"title": "Ramanujan primes and primes of exponent one in products of consecutive integers",
+"abstract": "Let \\(M(L)\\) be the minimum number of primes occurring to exponent one in a product of \\(L\\) consecutive positive integers. Assuming the ordinary \\(abc\\) conjecture, we prove that, for all sufficiently large \\(L\\), \\(M(L)\\) equals the number of Ramanujan primes at most \\(L\\). Thus the least length threshold guaranteeing \\(k\\) such primes is the \\(k\\)th Ramanujan prime for every sufficiently large \\(k\\). The identity holds unconditionally if the last entry is at most \\(\\exp(c(\\log L)^{3/2}/\\sqrt{\\log\\log L})\\), for an absolute \\(c>0\\). We determine the limiting count at every fixed ratio of the starting offset to the length. We also prove unconditionally that the factorial count can exceed the minimum by an unbounded amount, and that ordinary primes contain arbitrarily long runs of consecutive non-Ramanujan primes.",
+"authors": [
+"Sunay Venkat"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00598v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00598v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
