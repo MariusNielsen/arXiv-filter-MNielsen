@@ -1,6 +1,6 @@
 {
 "day": "2026-11-19",
-"updated": "2026-11-19T05:07:25+00:00",
+"updated": "2026-11-19T07:04:48+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -1192,6 +1192,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00597",
+"title": "Integrality and polynomiality in Somos recurrences",
+"abstract": "We prove that the standard Somos-$k$ sequence has a noninteger term for every $k\\geq 8$ and give an explicit upper bound for the index of the first such term. We classify the three-term Somos recurrences with independent coefficients and all initial values equal to $1$ for which every term is a polynomial with integer coefficients in the recurrence coefficients. For each recurrence outside this classification, we bound the first index at which polynomiality fails and determine the reduced denominator at that index. We also show that every odd prime dividing a term of the standard Somos-$4$ sequence occurs to arbitrarily high valuation, with an exact formula along an explicit subsequence, and determine the $2$-adic valuation of every term.",
+"authors": [
+"Hernandez Juan"
+],
+"categories": [
+"math.NT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00597v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00597v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.23634",
 "title": "Irreducible components of affine Deligne-Lusztig variety in the affine flag variety",
 "abstract": "We establish a bijection between elements of stable Demazure crystals and labeled longest increasing paths in the double Bruhat graph. As an application, we show that the orbits of irreducible components of certain special affine Deligne-Lusztig varieties (ADLVs) in the affine flag variety of a split reductive group are counted by weight multiplicities of the associated Demazure modules for the dual group. By decomposing an arbitrary ADLV into strata that are iterated fibrations over these special ADLVs, we then obtain a formula for the number of orbits of irreducible components for ADLVs in the affine flag variety, generalizing the numerical form of the Chen-Zhu conjecture.",
@@ -1559,6 +1581,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00593",
+"title": "Pointwise representation counts for Eisenstein restricted sums",
+"abstract": "Let \\(A\\) consist of the positive integers supported on primes \\(1\\bmod 3\\), including \\(1\\). We count distinct ordered representations \\(n=a+b\\) for \\(n\\equiv2\\bmod6\\) and \\(n=a+3b\\) for \\(n\\equiv4\\bmod6\\), with \\(a,b\\in A\\). In either family prescribe an interval of length \\(H\\) centered at \\(x\\) for one actual summand. Put \\(M=\\min(x,n-x)\\). For every fixed \\(0<\\varepsilon<1\\), if \\(H\\le M\\) and \\(H^3\\ge n^{1+\\varepsilon}M\\), the count has order \\(HJ(n)/\\log n\\) for every sufficiently large admissible \\(n\\). Here \\(J(n)\\) is the product of \\((p-1)/(p-2)\\) over the odd primes \\(p\\equiv2\\bmod3\\) dividing \\(n\\). In particular, central windows of width \\(n^\\theta\\) are allowed for \\(2/3<\\theta<1\\), and windows at a prescribed small summand of size comparable to their width are allowed for \\(1/2<\\theta<1\\). The lower bound combines angular Hecke estimates with a sieve that prescribes small split factors in both summands.",
+"authors": [
+"Roy van Rijn"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00593v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00593v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.24563",
 "title": "Positivity and uniform log-concavity for rank-two Chern coefficients",
 "abstract": "We study the binomial-basis coefficients in the Schur expansion of the Chern classes of symmetric powers of a rank-two bundle. B\\'erczi and Feh\\'er conjectured that these coefficients are nonnegative and log-concave in the Newton index. An inverse-series formula yields an integral gamma-positive refinement with exact support and a positive expression for the derivatives of the shifted Chern quotient. We prove that generalized Bernoulli polynomials of real order at least their degree have simple real zeros. Applied to the shifted quotient, this gives strict ultra-log-concavity in the Schur index at every positive shift. For the original Newton coefficients, we establish strict log-concavity with an explicit multiplicative margin in two uniform regions. A Hahn projection gives a square-root band about the balanced Schur index; a complex saddle estimate extends this to a band of linear width. Uniform estimates for the cumulants of a normalized Schur functional give a terminal Newton region of linear width. Polynomial coefficient identities also establish every row with Schur index at most six or imbalance at most nine. The argument separates log-concavity in the Schur, derivative and Newton indices and identifies the factorial factors in the transfer between the latter two. The unrestricted Newton log-concavity conjecture remains open.",
@@ -1575,6 +1618,28 @@
 "announce": "new",
 "date": "2026-11-19",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00595",
+"title": "Prime Knots with Augmentation-Rank Gaps at Unbounded Bridge Number",
+"abstract": "We construct explicit braid families containing infinitely many distinct hyperbolic prime knots of each bridge number \\(b=5,6\\) and each sufficiently large \\(b\\), with complex augmentation rank at most \\(b-1\\) and meridional rank \\(b\\). Alternating-group colorings force \\(b\\) meridional generators, while two fixed meridian words let a local rank-one obstruction persist as the braid grows. An oriented diagram isotopy realizes the associated two-cusped exteriors as fillings of a single three-cusped exterior. Rigorous interval certificates establish hyperbolicity of that exterior and the two small-bridge exteriors used in the filling argument.",
+"authors": [
+"Roy van Rijn"
+],
+"categories": [
+"math.GT",
+"math.GR"
+],
+"link": "https://hexagonmath.org/abs/2611.00595v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00595v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1720,6 +1785,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00594",
+"title": "Spontaneous X-rays Exclude Gaussian Covariant Classical–Quantum Gravity",
+"abstract": "In classical-quantum gravity the metric stays classical, and complete positivity ties the decoherence of matter to the diffusion of the metric. The covariant theory of Oppenheim and collaborators is viable by its authors' assessment, which does not evaluate the matter noise at keV frequencies. That noise conflicts with XENONnT's search for spontaneous X-rays, by two arguments that fail under different escapes. First, the covariant diffusion makes the conformal mode dynamical; near the light cone slow matter feels it through its rest mass, while Maxwell's equations do not. For translation-invariant kernels and every diffusion weight that is Lorentz invariant in the scalar sector, whatever its regulator or running in $p^2$, the trade-off forces matter noise $s\\geq\\tfrac23|f|/p^2$ on a conserved near-null source, in units of the Diósi-Penrose kernel. Where Newton's law is tested, $|f|=1$ and $\\int s\\,dp^2\\geq9.2$, against a limit of $7.7\\times10^{-8}$ from our likelihood fit to the published XENONnT spectrum: an exclusion by $\\geq1.1\\times10^{8}$ (median expected $6.6\\times10^{7}$). A frame in the scalar weight evades it. Second, general relativity's response to a conserved near-null source has a light-cone pole, which is purely tensor. The resulting bound holds for every positive diffusion weight, with or without a frame. It assumes general relativity's tensor propagator at keV momenta, but no transfer of static tests; an atom's Coulomb field gives the tensor source an order-one share. The margin, $1.7\\times10^{9}$ (median expected $9.8\\times10^{8}$), is an estimate, not a bound. At linear order, a classical theory that survives both needs a frame or a non-perturbative mass above $(0.34~\\mu\\mathrm{m})^{-1}$ in the scalar sector, and a tensor sector off the light cone, or with a form factor, at keV momenta, or a coupling blind to the atom's stress; or a frame carried by the matter coupling, or possibly by the state of an extra field (open); or noise outside the Gaussian class, which for a Poisson record of jumps must deliver its keV emission in multi-photon bursts.",
+"authors": [
+"Marc Sperzel"
+],
+"categories": [
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00594v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00594v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2406.19748",
 "title": "Supersingular Ekedahl-Oort strata and Oort's conjecture",
 "abstract": "Let $\\mathcal{A}_g$ be the moduli space over $\\overline{\\mathbb{F}}_p$ of $g$-dimensional principally polarised abelian varieties, where $p$ is a prime. We show that if $g$ is even and $p\\geq 5$, then every geometric generic member in the maximal supersingular Ekedahl-Oort stratum in $\\mathcal{A}_g$ has automorphism group $\\{ \\pm 1\\}$. This confirms Oort's conjecture in the case of $p\\geq 5$ and even $g$. We also separately prove Oort's conjecture for $g=4$ and $p >2$.",
@@ -1810,6 +1896,29 @@
 "announce": "new",
 "date": "2026-11-19",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00596",
+"title": "The Dimension-Degree Boundary for Gaussian Moment Vanishing",
+"abstract": "We classify complex polynomials of degree at most three in three independent standard real Gaussian variables whose positive moments all vanish. Up to a complex orthogonal linear change of coordinates and a nonzero scalar, every such polynomial has one-sided circular support or belongs to a single exceptional orbit. For every fixed polynomial $Q$, its mixed moments $\\mathbb E[QP^m]$ vanish whenever $m>3\\deg Q$, and the coefficient three is optimal. The proof extracts a Gaussian coordinate in which the polynomial is affine linear, then classifies that family using formal stationary frames and analytic period estimates. Combining this ternary-cubic result with Wilson's two-variable theorem, Liu's quadratic theorem and Long's counterexamples gives the exact dimension-degree boundary for the Gaussian Moments Conjecture: the implication from pure-moment vanishing to eventual mixed-moment vanishing holds universally precisely when there are at most two variables, the degree is at most two, or there are three variables and the degree is at most three. We reproduce the all-order moment identities for the two minimal failures.",
+"authors": [
+"Roy van Rijn"
+],
+"categories": [
+"math.PR",
+"math.AC",
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.00596v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00596v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-18",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
