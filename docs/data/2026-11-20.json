@@ -1,6 +1,6 @@
 {
 "day": "2026-11-20",
-"updated": "2026-11-20T05:05:46+00:00",
+"updated": "2026-11-20T06:05:48+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -33,6 +33,30 @@
 "tier": 2,
 "reasons": [
 "title: comodule"
+],
+"watched_authors": []
+},
+{
+"pid": "2611.26621",
+"title": "Permanence and $144$-periodicity of $x_{153,3}$ in the stable stems at the prime three",
+"abstract": "The class $x_{153,3}$ lies in stable degree $153$ and filtration $3$ on the algebraic starting page of the $3$-primary Adams--Novikov spectral sequence of the sphere. We show that it survives and begins a family with period $144$, answering both parts of a question of Carrick and Davies. A comparison with periodic topological modular forms and a bound on the possible differential targets prove permanence. A divisibility calculation for the mod-$3$ Moore spectrum supplies a lift to a finite spectrum with a degree-$144$ self-map. The resulting iterates have nonzero image in the height-two detector of Carrick and Davies.",
+"authors": [
+"Zheyan Wan"
+],
+"categories": [
+"math.AT"
+],
+"link": "https://arxiv.org/abs/2611.26621",
+"pdf": "https://arxiv.org/pdf/2611.26621",
+"source": "arxiv",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "",
+"other_links": {},
+"tier": 2,
+"reasons": [
+"title: stable stems",
+"abstract: adams-novikov"
 ],
 "watched_authors": []
 },
@@ -697,6 +721,35 @@
 ],
 "link": "https://arxiv.org/abs/2611.25785",
 "pdf": "https://arxiv.org/pdf/2611.25785",
+"source": "arxiv",
+"announce": "cross",
+"date": "2026-11-20",
+"ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "2611.26597",
+"title": "Equivariant iterated Eisenstein integrals for congruence subgroups of level 2",
+"abstract": "The modular properties of holomorphic Eisenstein series for $\\mathrm{SL}_2(\\mathbb{Z})$ and its congruence subgroups do not carry over to their primitives. Instead, the transformation of iterated Eisenstein integrals under congruence subgroups of level $N$ introduces inhomogeneous terms comprising (among others) cyclotomic multiple zeta values of level $N$. We combine iterated Eisenstein integrals for the congruence subgroups of level $N=2$ of arbitrary iteration depth with their complex conjugates and (single-valued) level-2 cyclotomic multiple zeta values such that they define non-holomorphic modular forms. Our construction of these so-called equivariant iterated Eisenstein integrals for $\\Gamma(2)$ and $\\Gamma_0(2)$ proceeds at the level of generating series that take values in an infinite-dimensional (pro-unipotent) Lie group and closely follow Brown's analogous construction in the $\\mathrm{SL}_2(\\mathbb{Z})$ case. The required insertions of cyclotomic multiple zeta values are controlled by zeta generators for level 2 that normalise the corresponding (pro-nilpotent) Lie algebra of the generating series and whose Lie-bracket relations we determine systematically. Upon restriction to Eisenstein series of modular weight~2, we recover single-valued multiple polylogarithms on the genus 0 modular curve $\\Gamma(2)\\backslash \\mathbb{H}$.",
+"authors": [
+"Emiel Claasen",
+"Mehregan Doroudiani",
+"Claude Duhr",
+"Axel Kleinschmidt",
+"Franca Lippert",
+"Oliver Schlotterer",
+"Yoann Sohnle"
+],
+"categories": [
+"hep-th",
+"math.AG",
+"math.NT"
+],
+"link": "https://arxiv.org/abs/2611.26597",
+"pdf": "https://arxiv.org/pdf/2611.26597",
 "source": "arxiv",
 "announce": "cross",
 "date": "2026-11-20",
