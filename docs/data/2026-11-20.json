@@ -1,6 +1,6 @@
 {
 "day": "2026-11-20",
-"updated": "2026-11-20T16:07:56+00:00",
+"updated": "2026-11-20T17:57:42+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -320,6 +320,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00711",
+"title": "A Finite-Regulator Variational–Stochastic Programme: Geometry, Gauge Fields, Matter, and the Arrow of Time",
+"abstract": "We develop a finite-regulator variational–stochastic programme organized by four principles: structured admissible change; compatible transport, dissipation and fluctuations; selection relative to a reference path law; and consistent observation across descriptions. The central question is which relationships between motion, statistics and response follow from shared dynamical data. An exactly solved finite model shows how one transition operator gives thermal relaxation, growth-weighted population dynamics and Bayesian updating. Its unweighted occupancy, selected population endpoints and driven histories have distinct limiting distributions, all determined by the same specified rates. Equilibrium and kinetic inputs then predict a selection response. A martingale constraint gives a financial probability selection, while an underdamped oscillator connects Hamiltonian motion, thermal relaxation and fluctuation–response through one matched reservoir. These examples expose the common operations and the additional meanings supplied by each application. For the regulated field law we derive Gibbs invariance, relative free-energy balance and a quadratic path-irreversibility rate under specified boundary, covariance and reversal conditions. Matched coframe and connection variations recover Einstein–higher-curvature and Yang–Mills equations; quantified remainders delimit their usual low-energy forms. Canonical Yang–Mills dynamics require constant kinetic coefficients. Stable-pole, stress Ward-identity and universal-coupling assumptions connect matter masses, WKB trajectories and tensor-sector inertial–gravitational mass equality. A boundary-dependent Schur criterion characterizes conditional Machian closure. Additive vacuum shifts show why equilibrium alone does not select the cosmological constant, and the declared 331 candidate is a realization rather than a unique group-selection theorem. Coefficient-identification bounds and observation theorems determine which reduced quantities shared calibrated inputs fix. Exact Haar–Gaussian Gram bounds identify six lattice-action coefficients, including a volume-uniform normalized estimate on a periodic family; hidden states, sampling and operator choice delimit this identification. Finite fluid, quantum-noise and scalar-source models supply further balance and response relations. The matched finite-Galerkin fluid projection has injection, transfer and dissipation balances without establishing a continuum cascade. Bell-local, measurement-independent classical models obey CHSH, and shared noise parameters constrain coherence and repeated-readout correlations. For a specified metric common-weight scalar branch, a nonlinear conformal-slope bound, massive-fluid balance and coercive static-response estimate connect its coupling to a source-conditioned circular-radiation threshold. The trace-response illustration lies below three published binary-summary errors; it neither supplies nuclear sensitivities nor excludes arbitrary scalar theories. The construction distinguishes a shared variational organization from a uniquely selected microscopic theory. Physical entropy production requires explicit reservoirs and local detailed balance; quantum completion requires positive physical states and measurement rules, with reflection positivity additionally needed for Euclidean reconstruction. Synthetic and retrospective calculations illustrate conditional predictions. Regulator-independent quantization, unique group–matter selection, independently fixed fundamental parameters, the Yang–Mills mass gap and continuum turbulence remain separate research problems.",
+"authors": [
+"Shipei Hu"
+],
+"categories": [
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00711v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00711v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2609.25174",
 "title": "A geometric realization of socle-projective categories for posets of type $\\mathbb{D}$",
 "abstract": "We introduce posets of type $\\mathbb{D}$, a family of posets described by an admissible Dynkin quiver of type $D_n$ together with a compatible set of extra arrows (alien arrows), and show that their socle-projective representation category is of finite representation type. Continuing, in the same spirit, a program initiated for posets of type $\\mathbb{A}$ [R. Schiffler, R-J. Serna, A geometric realization of socle-projective categories for posets of type $\\mathbb{A}$, J. Pure Appl. Algebra 224 (2020), no. 12, 106436], we build on an existing geometric model for cluster-tilted algebras of type $D_n$, whose geometric combinatorics is more intricate than that of type $\\mathbb{A}$. Our main result establishes a $\\Bbbk$-linear categorical equivalence $\\Theta$ between a full subcategory $(\\mathcal C/T)_F$ of the arc category of a punctured $(n+3)$-gon, whose objects are certain $sp$-arcs, and the category of finitely generated socle-projective $\\Bbbk\\mathscr{P}$-modules, for $\\mathscr{P}$ a poset of type $\\mathbb{D}$. As a consequence, when the set of alien arrows is empty, we conclude that the cluster subalgebra generated by the $sp$-arcs coincides with the full cluster algebra.",
@@ -411,6 +432,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00715",
+"title": "A remark on the independence step in Shkredov's approach to Zaremba's conjecture",
+"abstract": "The proof of Proposition 35 in Shkredov's preprint arXiv:2603.14116v2 applies a repulsion inequality (Corollary 34) to three denominators x, y, z, which must be C-independent for the vector C of formula (116) of that paper. We show that, in the situation of that proof, this independence cannot hold: the identity (75) of the paper, d(y,z)x + d(z,x)y + d(x,y)z = 0, is a nonzero integer relation whose coefficients lie in the box defined by C as soon as two of the three inequalities needed for the contradiction in that proof are satisfied. The same holds for the triple (x, y_0, z) to which Lemma 32 is applied. We also record that the deduction drawn from Proposition 35 in Section 5.2 does not address the second alternative of that proposition. These remarks concern the proofs only: they do not contradict the statements of the theorems of that paper, nor of arXiv:2605.02518v2, whose Section 4 follows the same framework. Nothing in this note has been checked by a professional mathematician or by any third party.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00715v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00715v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00675",
 "title": "A residue obstruction for the family F_2 with (m,n)=(3,5): the degree pair (75,125) in the plane Jacobian problem",
 "abstract": "Guccione, Guccione and Valqui list the possible shapes of a counterexample to the plane Jacobian conjecture of small degree; the first shape of maximal degree 125 is the family F_2 with (m,n)=(3,5), of degrees (75,125). We show that no standard (3,5)-pair of this shape exists. The proof combines three results of Guccione-Guccione-Valqui with the residue theorem on a generic fibre of P: on such a fibre the form y^2 Q dQ has no residue along the left side of the Newton polygon, while its residues along the right side add up to a quantity that cannot vanish. All statements are proved relative to the cited results; the exact computations are reproduced by an ancillary script. The argument has not yet been examined by specialists.",
@@ -448,6 +490,28 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00713",
+"title": "A shape of maximal degree 150 in the plane Jacobian problem: the point (18/5,8) is not a regular corner",
+"abstract": "In the list of Guccione, Guccione, Horruitiner and Valqui of the possible shapes of a counterexample to the plane Jacobian conjecture with degrees at most 150, one shape of maximal degree 150 consists of the standard (3,2)-pairs whose chain of corners is (10,40), (18/5,8), (8/5,3). We show that (18/5,8) is not a regular corner of any (3,2)-pair in K[x^{+-1/5},y]; hence, by a theorem of the four authors, no such pair exists. As in the note hexagon:2611.00709 on the degree pair (126,84), the proof of the theorem uses only results of Guccione-Guccione-Valqui, applied to every root of the edge polynomial, together with elementary arithmetic, which is reproduced by an ancillary script. The argument has not yet been examined by specialists.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.00713v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00713v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
@@ -595,6 +659,72 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00719",
+"title": "All-Order Robust Strictly Positive Real Synthesis for Wide-Interval Polynomial Families",
+"abstract": "We establish a uniform all-order existence theorem for robust strictly positive real (SPR) synthesis of Hurwitz-stable interval polynomial families. Specifically, for every order $n \\ge 1$, we prove that a common real SPR numerator of exact degree $n$ always exists whenever the lower endpoint of each interior coefficient interval is at most $10^{-5}$ times its upper endpoint, while the constant and leading coefficients vary over arbitrary compact positive intervals. The threshold $10^{-5}$ is independent of both the polynomial order $n$ and the stability margin of the family. Under whole-box Hurwitz stability, such wide interior variation forces geometric separation between successive characteristic frequency scales, decoupling the synthesis constraints into $n$ frequency bands; combining Brouwer's fixed-point theorem in small-margin bands with bandwise strict convexity yields a common exact-degree-$n$ SPR numerator across the entire family.",
+"authors": [
+"Tiancheng Xu"
+],
+"categories": [
+"math.OC"
+],
+"link": "https://hexagonmath.org/abs/2611.00719v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00719v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00705",
+"title": "An explicit determinantal formula for limits of iterative proportional fitting with a binary variable",
+"abstract": "Iterative proportional fitting rescales a table cyclically until it has prescribed margins. For a three-way table and its three two-way margins, the limit is in general an algebraic function of the data of degree greater than one, and from the uniform seed table it is the maximum likelihood estimate under the no-three-way-interaction model. We study tables in which one variable is binary, a setting that includes logistic regression of a binary response on two categorical factors and stratified $2\\times2$ tables with a common odds ratio. For $2\\times2\\times K$ tables, we show that the limit is determined by a root of the determinant of an explicit $2^K\\times2^K$ matrix, built from one $2\\times2$ companion pencil per stratum, and we identify all of its roots. For the uniform seed, this exhibits the unconditional maximum likelihood estimate of the common odds ratio as a root of a polynomial of degree $2^K-1$, and gives an elementary proof that this is the maximum likelihood degree of the model. For $2\\times J\\times K$ tables and generic data, the fitting equations form a multiparameter eigenvalue problem, which yields a matrix pencil of size $J^{K-1}K^{J-1}$ whose eigenvalues are the values of one cell at all complex solutions. Finally, every complex solution is a fixed point of the iteration; we characterize the real ones that are linearly attracting, and show that for $2\\times2\\times K$ tables and generic margins only the limit is attracting.",
+"authors": [
+"Shankar Sivarajan"
+],
+"categories": [
+"math.ST",
+"math.AG",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.00705v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00705v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00723",
+"title": "Cases of the Agashe–Ribet–Stein Conjecture",
+"abstract": "We prove the Agashe–Ribet–Stein inequality for optimal elliptic curves over (\\mathbb{Q}) at every prime (p\\geq 5), at (p=3) when (v_3(N)\\leq 4), and at (p=2) when (v_2(N)\\leq 3), where (N) is the conductor.",
+"authors": [
+"Hernandez Juan"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00723v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00723v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00689",
 "title": "Character coefficients for integrals of odd products of hyperbolic tangents",
 "abstract": "For odd $n\\geq 3$, we express the integral of $x^{-2}\\prod_{k=1}^{n}\\tanh(kx)$ on the positive half-line in terms of derivatives of primitive even Dirichlet $L$-functions at $-1$ and logarithms of integers. Finite character sums give every coefficient, including the rational coefficients of the logarithms.",
@@ -636,6 +766,29 @@
 "announce": "replace-cross",
 "date": "2026-11-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00726",
+"title": "Complete periodicity of perpendicular billiards in rational triangles of prime denominator",
+"abstract": "Let $\\Delta$ be a triangle with angles $\\pi a_i/N$, $\\gcd(a_0, a_1, a_2) = 1$, and $N$ odd. The directions perpendicular to the sides of $\\Delta$ form one orbit under the reflection group, and a companion note showed that this direction class is completely periodic whenever it has no swapped pair: two vertex-to-vertex billiard paths, each the reverse of the other, that meet no side at a right angle. Let $p$ be the number of swapped pairs. We prove that when $N$ is prime there are no swapped pairs, so the class is completely periodic and every regular orbit in it meets a side at a right angle. This answers the note's conjecture at prime $N$ and proves Boshernitzan's Conjecture 2.2(b) for every rational triangle with prime denominator placed with a side horizontal. The proof has two halves: a residue modulo $1 - \\zeta_N$ rules out paths between distinct vertices (at an odd prime power $\\ell^k$ it forces $\\ell$ to divide the third angle's numerator), and at prime $N$, where the first homology is one-dimensional over $\\mathbb{Q}(\\zeta_N)$, a closed path is homologous to its mirror image, which an orientation-reversing involution forbids unless they coincide. At composite odd $N$ swapped pairs exist, but if no signed sum of their lengths vanishes, every regular orbit of the class still meets a side at a right angle; so $p \\leq 1$ never breaks complete periodicity at odd $N$, unlike at even $N$. This criterion applies with $p$ unbounded: the triangles $(3, 6m + 2, 12m + 4)$ and $(3, 6m + 1, 12m + 5)$ have exactly $p = m$, with independent lengths for all practical $m$ (computer-assisted). And it is sharp: on four explicit intervals of triangles a pair of mirror-image cylinders meets no side at a right angle (computer-assisted).",
+"authors": [
+"Joshua Boorstein"
+],
+"categories": [
+"math.DS",
+"math.GT",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00726v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00726v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -700,6 +853,27 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-19",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00718",
+"title": "Counterexamples to Robust Strictly Positive Real Synthesis for High-Order Interval Polynomials",
+"abstract": "We show that robust Hurwitz stability does not guarantee equal-degree strictly positive real (SPR) synthesis for high-order interval polynomial families. Specifically, for every order $n \\ge 10$, we construct a monic Hurwitz-stable interval polynomial family with rational endpoints and positive width in every nonleading coefficient such that every nonzero real numerator of degree at most $n$ produces a strictly negative real part at some member and some positive frequency. At order ten, twelve fixed vertex--frequency evaluations on four Kharitonov vertices form a matrix of full column rank $11$ admitting a strictly positive linear dependence, ruling out all nonzero real numerators of degree at most $10$ (even weakly). An additional negative moment enables inductive low-end degree lifting $a(s) \\mapsto s a(s) + \\eta$ to propagate this finite obstruction to every order $n \\ge 10$.",
+"authors": [
+"Tiancheng Xu"
+],
+"categories": [
+"math.OC"
+],
+"link": "https://hexagonmath.org/abs/2611.00718v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00718v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
@@ -783,6 +957,50 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00701",
+"title": "Erdős's 1974 distance-product volume problem resolved: the ball as unique maximizer, sharp inradius stability, and other miscellanea",
+"abstract": "We consider the set of all points of ℝ^d whose distances to n given points have product at most one. Erdős (1974) asks how large its volume can be. We show that in every dimension d ≥ 3, and for every integer n ≥ 1, this volume is at most that of the unit ball. Equality holds only and exactly when all n given points coincide. This completely answers Erdős's question; in the plane, the same statement is Pólya's theorem of 1928. In fact we settle a more general problem, with weighted points. Our theorem also shows that the two-point counterexample in dimension three, reported by Erdős in 1976 and repeated in 2018 and 2026, cannot exist. We also prove a sharp stability estimate: for each fixed d ≥ 3, if such a set falls short of the maximal volume by a small fraction D, it still contains a ball of radius at least 1 − (1/(d − 2) + o(1))D as D tends to zero, uniformly in the number, weights and positions of the points. The same holds for every compactly supported probability measure in place of the points. Two equally weighted points approaching each other show that the coefficient 1/(d − 2) cannot be lowered. Finally, the product of the distances is at most one exactly when their geometric mean is at most one, and we ask what happens when the geometric mean is replaced by the weighted power mean of order p. We show that the same volume bound holds for all placements exactly when p ≥ 2 − d, and that in this range equality again requires coincident points. For p ≥ 2 − d we deduce the bound from the weak estimate of Tang and Wang; for p < 2 − d the polarization theorem of Erdélyi and Saff gives placements that violate it. We prove the equality statement at the endpoint p = 2 − d directly, and for p < 2 − d we compute the leading term of the excess volume of the region of two nearby points.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CA",
+"math.AP"
+],
+"link": "https://hexagonmath.org/abs/2611.00701v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00701v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00700",
+"title": "Erdős's 1974 distance-product volume problem resolved: the ball is always the unique maximizer in d ≥ 2",
+"abstract": "We consider the set of all points of ℝ^d whose distances to n given points have product at most one. Erdős (1974) asks how large its volume can be. We show that in every dimension d ≥ 3, and for every integer n ≥ 1, this volume is at most that of the unit ball. Equality holds only and exactly when all n given points coincide. This completely answers Erdős's question; in the plane, the same statement is Pólya's theorem of 1928. In fact we settle a more general problem, with weighted points. Our theorem also shows that the two-point counterexample in dimension three, reported by Erdős in 1976 and repeated in 2018 and 2026, cannot exist. Our second theorem is a stability estimate in dimension three: if such a set falls short of the maximal volume by a small fraction D, it still contains a ball of radius at least 1 − D − o(D) as D tends to zero, uniformly in the number, weights and positions of the points. The coefficient one is sharp. These results are verified in Lean.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CA",
+"math.AP"
+],
+"link": "https://hexagonmath.org/abs/2611.00700v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00700v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.26185",
 "title": "Euler up-down numbers and quiver representations",
 "abstract": "We show that Euler up-down numbers enumerate isoclasses of representations arising from quiver Grassmannians which provide an explicit realization of PBW degenerate flag varieties. Using this geometric realization, we derive several formulas connecting Euler up-down numbers, median Genocchi numbers, and Motzkin numbers. We also define a new $q$-analogue of Euler up-down numbers and derive several formulas for these polynomials. We describe a natural poset structure on the set of isoclasses of subrepresentations and describe it in terms of the classical degeneration order. Finally, we prove that the finer strata defined by fixing isotypes of sub- and quotient representations are the orbits under the automorphism group of the ambient quiver representation.",
@@ -802,6 +1020,29 @@
 "announce": "new",
 "date": "2026-11-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00707",
+"title": "Existence of locally toroidal regular 4-polytopes",
+"abstract": "We prove the existence half of Schulte–Weiss Problem 16 (2006) and McMullen–Schulte Conjecture 10C7 (2002): the universal regular 4-polytope $\\{\\{4,4\\}_{(s,0)},\\{4,4\\}_{(u,0)}\\}$ exists for every pair of distinct odd integers $s,u\\geq3$, with no coprimality assumption. Here $\\{4,4\\}_{(s,0)}$ is the quotient of the square tessellation by $s\\mathbb Z^2$. Finiteness and group classification remain open. The proof constructs four matrices over a finite field of characteristic two whose local subgroups are isomorphic to the prescribed toroidal groups. A commutator obstruction shows that these subgroups meet exactly in the subgroup on their two shared generators; this equality lifts to the universal presentation. The group theorem, the geometric identification of the toroidal maps, and the construction and universality of the resulting abstract polytope are formalized in Lean. This work has not yet been reviewed by experts. The proofs, the Lean formalization and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.CO",
+"math.GR",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00707v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00707v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1080,6 +1321,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00702",
+"title": "Linear independence of reciprocal and reciprocal-cube sums of Lucas sequences",
+"abstract": "Let $\\eta>1$ be a unit of a real quadratic order, of norm $Q=\\pm1$, and let $U_n=(\\eta^n-\\bar\\eta^n)/(\\eta-\\bar\\eta)$ be its Lucas sequence. We prove that for each sign $\\delta=\\pm1$ the three numbers $1$, $\\sum_{n\\ge1}\\delta^n/U_n$ and $\\sum_{n\\ge1}(\\delta Q)^n/U_n^3$ are linearly independent over $\\mathbb{Q}$. For the Fibonacci numbers this says that $1$, $\\sum_n(-1)^n/F_n$, $\\sum_nF_n^{-3}$ are linearly independent, and so are $1$, $\\sum_nF_n^{-1}$, $\\sum_n(-1)^n/F_n^3$; for $F_{2n}$ it gives $1$, $\\sum_nF_{2n}^{-1}$, $\\sum_nF_{2n}^{-3}$. In particular $\\sum_n(-1)^n/U_n^3$ is irrational for every such sequence. The proof is the Hankel-determinant construction of our earlier papers on $\\sum_nU_n^{-3}$, run with the operator $c_3\\theta(\\theta+1)+c_1$, where the integers $(c_3,c_1)$ come from a hypothetical linear relation, and with a sign attached to the weights. The whole argument is formalised in Lean 4 with Mathlib, using only the standard axioms.",
+"authors": [
+"Shawn Krisman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00702v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00702v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00696",
 "title": "Linear-size sparsification from self-concordant barriers",
 "abstract": "A $\\theta$-self-concordant barrier gives $\\varepsilon$-sparsifiers with $O(\\theta / \\varepsilon^2 + r)$ summands and $r$ exact linear weight constraints. The proof uses a cone-positivity bound with a sharp exponent. Constrained sparsification is monotone under closed lifts on both sides of duality, and jointly lower semicontinuous in the cone and error tolerance. We sharpen the deterministic support bound for hyperbolicity cones and determine the minimum closed hyperbolic lift degree of the nuclear-norm epigraph. We give matching support bounds for this epigraph, the quantum relative entropy cone, and its dual.",
@@ -1092,6 +1354,27 @@
 ],
 "link": "https://hexagonmath.org/abs/2611.00696v1",
 "pdf": "https://hexagonmath.org/pdf/2611.00696v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00704",
+"title": "Many odd-power reciprocal sums of Lucas sequences are irrational",
+"abstract": "Let $a\\ge3$, let $U_0=0$, $U_1=1$, $U_{n+1}=aU_n-U_{n-1}$, and let $\\delta=\\pm1$. We prove that $1$ and the numbers $\\sum_{n\\ge1}\\delta^n/U_n^l$, $l=1,3,\\dots,A-1$, span a $\\mathbb{Q}$-vector space of dimension at least $(\\pi/\\sqrt{12+\\pi^2}+o(1))\\sqrt A$. So infinitely many of these sums with $l$ odd are irrational, for instance infinitely many of $\\sum_n1/F_{2n}^l$. With the known linear independence of $1$, $\\sum_n\\delta^n/U_n$ and $\\sum_n\\delta^n/U_n^3$, one of $\\sum_n\\delta^n/U_n^l$, $l=5,7,\\dots,23$, lies outside the span of these three numbers. The proof adapts the author's construction for odd $q$-zeta values at real quadratic units, with a weighted bilateral sum. No single sum such as $\\sum_n1/U_n^5$ is decided, and sequences of norm $-1$, such as the Fibonacci numbers, are not covered.",
+"authors": [
+"Shawn Krisman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00704v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00704v1",
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-20",
@@ -1545,6 +1828,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00699",
+"title": "Powerful values of quadratic polynomials",
+"abstract": "Let $f$ be a quadratic polynomial with integer coefficients, positive leading coefficient and nonsquare discriminant. We show that the number of $n\\le N$ with $f(n)$ powerful is $O(N^{\\vartheta})$ for every $\\vartheta>293/1220$. A second bound has the exponent $389/1600$ and a constant that grows only polynomially with the coefficients of $f$; it is applied to pairs consisting of a $6$-full or $8$-full integer and a neighbouring powerful integer. A fixed-quadratic substitution also gives a bound for $1+a^3t^3$. The proofs factor $f(n)$ in the quadratic field of its discriminant, apply a determinant method with two contact polynomials to the resulting equation of bidegree three and two, and count the points on the auxiliary curves with the lifted-curve estimate of Counting powerful products of consecutive integers. The main quadratic and mixed-full bounds are formalized in Lean 4 with Mathlib and checked by Lean’s kernel and an independent kernel; the formal statements take three theorems from the literature as explicit hypotheses. The results and exposition were produced and reviewed using AI systems; no human mathematical review has been performed. Section 13 describes the verification and its scope.",
+"authors": [
+"Danny Plymesser"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00699v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00699v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.26246",
 "title": "Presentations of the cohomology ring of Hessenberg varieties for the minimal nilpotent orbit in type A",
 "abstract": "In 2016 Abe and Crooks found a presentation for the cohomology ring of Hessenberg varieties associated with the minimal nilpotent orbit. Specifically, they presented the ring as a quotient of the cohomology ring of the flag variety, and described the kernel of the quotient map as the span of certain Schubert classes. This note improves upon their result in the Lie type A case, by giving a minimal generating set for the kernel. Our description uses substantially fewer generators than that of Abe-Crooks. Our list consists of a set of Schubert polynomials associated to permutations constructed from the Hessenberg function ${\\mathbf h}$.",
@@ -1589,6 +1893,71 @@
 "announce": "new",
 "date": "2026-11-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00703",
+"title": "Products of two logarithms and arithmetic holonomy bounds",
+"abstract": "We prove, assuming the arithmetic holonomy bound of Calegari, Dimitrov and Tang (Theorem 7.0.1 of their preprint arXiv:2408.15403), that $1$, $\\log(1+1/q)$, $\\log(1-1/q)$ and $\\log(1+1/q)\\log(1-1/q)$ are linearly independent over $\\mathbb{Q}$ for every integer $26\\le q\\le53$. Together with Hata's theorem for $q\\ge54$ this gives the four-term independence for every $q\\ge26$. In particular the seven numbers $\\log(1+1/N)\\log(1+1/(N+1))$, $25\\le N\\le31$, are irrational; irrationality was previously known for $N\\ge32$ (Lysov). The proof feeds Lysov's explicit type II Hermite–Padé forms into the holonomy bound, and replaces the arithmetic of the forms by an analytic input: the monodromy of a minimal differential operator of order 13, which we show to be irreducible by interval-arithmetic certificates. Conditionally on the published form of the Calegari–Dimitrov–Tang argument for products of two logarithms, we also widen their Theorem C from $|m/n-1|<10^{-6}$ to $|m/n-1|<3\\cdot10^{-6}$, which gives infinitely many new irrational products $\\log(1+1/m)\\log(1+1/n)$ with $|m-n|\\ge2$, and we show by pooling several pairs that at most one exceptional pair class exists with $|m/n-1|<5\\cdot10^{-5}$, and at most two with $|m/n-1|<10^{-4}$. All certificates are exact or rigorous ball arithmetic and can be reproduced from the accompanying code.",
+"authors": [
+"Shawn Krisman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00703v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00703v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00712",
+"title": "Quantum affine representations and cluster characters",
+"abstract": "We prove that cluster monomials in the shifted cluster algebra of finite simply laced type represent real simple classes. We establish the correspondence between rigid objects and real simple modules in every finite Hernandez--Leclerc window after removing frozen tensor factors, including the correspondence between indecomposable objects and prime modules, and prove the generic-kernel formula for their truncated $q$-characters. We disprove Hernandez's conjectural description of simple modules over truncated shifted quantum affine algebras by a type $G_2$ counterexample.",
+"authors": [
+"Hernandez Juan"
+],
+"categories": [
+"math.QA",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00712v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00712v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00722",
+"title": "Quantum permutations and the Standard Model algebra",
+"abstract": "The finite part of the Standard Model, in the Chamseddine--Connes approach, has algebra $A_F=\\mathbb C\\oplus\\mathbb H\\oplus M_3(\\mathbb C)$, and its quantum isometry groups were computed by Bhowmick, D'Andrea and Dabrowski. We explain how the quantum automorphism group of the complex algebra $B_F=\\mathbb C\\oplus\\mathbb C\\oplus M_2(\\mathbb C)\\oplus M_3(\\mathbb C)$ generated by $A_F$, with its canonical trace, is a cocycle twist of the quantum permutation group $S_{15}^+$, and how the color parts of the quantum isometry groups are twists of $S_9^+$, and of a quantum group $G_3\\subset S_9^+$ preserving an oriented area tensor on $\\mathbb F_3^2$. We prove that $G_3$ is infinite, with classical version of order $216$, while the quantum symmetry group of the unoriented area tensor is classical, of order $432$. With the trace coming from the fermions, the coaction preserves the weak and color summands separately, and the quantum automorphism group becomes a twist of $S_4^+\\,\\hat{*}\\,S_9^+$. We also discuss matrix models and maximality, the fermions and the Heisenberg group of order $27$, the untwisting of color, which leads to color Lie algebras in the sense of Rittenberg, Wyler and Scheunert, the spectral action, and the mixing matrices.",
+"authors": [
+"Teo Banica"
+],
+"categories": [
+"math-ph",
+"math.OA"
+],
+"link": "https://hexagonmath.org/abs/2611.00722v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00722v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1681,6 +2050,27 @@
 "announce": "new",
 "date": "2026-11-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00716",
+"title": "Rational points on intersections of cubic and quadric hypersurfaces in $28$ variables",
+"abstract": "Let $X\\subset\\mathbb{P}^{n-1}$ be a non-singular complete intersection of a cubic and a quadric hypersurface defined over $\\mathbb{Q}$. Browning, Dietmann and Heath-Brown established that $X$ satisfies the Hasse principle when $n\\geq 29$. In this article we improve this result to $n\\geq 28$. More precisely, we establish an asymptotic formula for a smoothly weighted count of the integral points on $X$ in an expanding box, and we deduce that $X$ satisfies weak approximation.",
+"authors": [
+"ESRAFIL ALI MOLLA"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00716v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00716v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1814,6 +2204,28 @@
 "announce": "cross",
 "date": "2026-11-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00725",
+"title": "Semiclassical Asymptotics of Wigner 3j and 6j Symbols at Growing Rank: Phase Horizons and Turning Connections",
+"abstract": "Wigner 3j and 6j symbols encode angular-momentum coupling and recoupling. Their large-spin asymptotics connect to tetrahedral geometry, three-dimensional quantum gravity and quantum topology. We study the intermediate regime in which the rank of a two-large/one-small 3j, one-small 6j, or one-small q-6j symbol grows with the large scale N. In Weyl-midpoint coordinates j+1/2, their exact rank recurrences belong to a common class of even centered Jacobi chains. For this class we identify a generic phase-coherence horizon at rank of order N^{2/3}, where the leading quadratic phase-defect coefficient chi is nonzero. On compact turning-free corridors, a Hamilton-Jacobi effective-angle pullback approximates the physical solution to O(N^{-2}) in natural gauge, uniformly from fixed rank to fixed positive rank ratio; a real discrete-flux amplitude improves the bound to O(N^{-3}) without a new phase correction. Bulk zeros are located to O(N^{-4}), with an O(N^{-3}) Bohr-Sommerfeld law. At simple rank turns with lattice-quantized action we obtain a physically normalized Airy connection; under a forbidden-side bound, its turning-layer bracket is Ai(t) + N^{-4/3} varpi Ai'(t) + O(N^{-2}). Exact hyperbolicity proves that bound for all three symbol families and extends the uniform Airy law through a fixed forbidden-side neighbourhood except for an O(N^{-1} log N) collar at the outer end of that neighbourhood. For 6j and q-6j the rank momentum is a Euclidean or hyperbolic tetrahedral dihedral angle, and the q-6j turning action obeys an exact Schlafli-type quantization identity.",
+"authors": [
+"Antony Lewis"
+],
+"categories": [
+"math-ph",
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.00725v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00725v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2018,6 +2430,94 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00709",
+"title": "The degree pair (126,84) in the plane Jacobian problem: the point (16/3,10) is not a regular corner",
+"abstract": "In the list of Guccione, Guccione, Horruitiner and Valqui of the possible shapes of a counterexample to the plane Jacobian conjecture with degrees at most 150, two shapes have maximal degree 126. One of them consists of the standard (3,2)-pairs of degrees (126,84) whose chain of corners is (12,30), (16/3,10), (11/6,3). We show that (16/3,10) is not a regular corner of any (3,2)-pair in K[x^{+-1/3},y]; hence no such pair exists, and the shape of maximal degree 144 of the same list whose chain passes through (16/3,10) does not occur either. The proof uses only the propositions of Guccione-Guccione-Valqui on regular corners, applied to every root of the edge polynomial at that corner and not only to the root which generates the next corner of the chain, together with elementary arithmetic, which is reproduced by an ancillary script. The other shape of maximal degree 126 is the subject of a companion note. The argument has not yet been examined by specialists.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.00709v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00709v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00717",
+"title": "The degree pair (56,140) in the plane Jacobian problem: exclusion of the shape with starting corner (7,21) and final corner (13/7,3)",
+"abstract": "In the list of Guccione, Guccione, Horruitiner and Valqui of the possible shapes of a counterexample to the plane Jacobian conjecture with degrees at most 150, the family F_11 contributes one shape: the standard (2,5)-pairs of degrees (56,140) with starting corner (7,21) and final corner (13/7,3). We show that no such pair exists, when it is normalised as in Corollary 5.21 of Guccione-Guccione-Valqui. The two sides of the Newton polygon are described by the results of Guccione-Guccione-Valqui; the left side is reduced as in the treatment of the corner (7,21) by the four authors for the degrees (56,84). In suitable polynomial coordinates the pair is then confined to an explicit finite system of polynomial equations, which has no solution: a chain of linear eliminations with rational coefficients leads to 840=0. The eliminations are reproduced by an ancillary script, which also confirms the result by a Groebner basis computation. All statements are proved relative to the cited results. Nothing in this note has been checked by a third party.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.00717v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00717v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00710",
+"title": "The degree pair (84,126) in the plane Jacobian problem: exclusion of the shape with final corner (19/7,5)",
+"abstract": "In the list of Guccione, Guccione, Horruitiner and Valqui of the possible shapes of a counterexample to the plane Jacobian conjecture with degrees at most 150, two shapes have maximal degree 126. One of them consists of the standard (2,3)-pairs of degrees (84,126) with starting corner (7,35) and final corner (19/7,5), normalised as in Corollary 5.21 of Guccione-Guccione-Valqui. We show that no such pair exists. The two sides of the Newton polygon are described by the results of Guccione-Guccione-Valqui; in suitable polynomial coordinates they confine the pair to an explicit finite system of polynomial equations, which is solved order by order and has no solution. All statements are proved relative to the cited results; the final step is an exact computation, reproduced by an ancillary script (SymPy, and Singular for one ideal membership). The other shape of maximal degree 126 is the subject of a companion note. The argument has not yet been examined by specialists.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.00710v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00710v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00724",
+"title": "The degree pair (88,132) in the plane Jacobian problem: exclusion of the shape with starting corner (11,33) and final corner (19/4,8)",
+"abstract": "In the list of Guccione, Guccione, Horruitiner and Valqui of the possible shapes of a counterexample to the plane Jacobian conjecture with degrees at most 150, exactly one shape has maximal degree 132, up to the exchange of the two polynomials: the standard (2,3)-pairs of degrees (88,132) with starting corner (11,33) and final corner (19/4,8). We show that no such pair exists, when it is normalised as in Corollary 5.21 of Guccione-Guccione-Valqui. The two sides of the Newton polygon are described by the results of Guccione-Guccione-Valqui. In suitable polynomial coordinates the pair is confined to an explicit finite system of polynomial equations. Its leading part has exactly two solutions, defined over Q(sqrt(-3)) and exchanged by its non-trivial automorphism; for each of them the system is solved order by order by linear algebra over that field, and the compatibility conditions of the first twelve orders, six polynomials in three unknowns, generate the unit ideal. The computation is exact and is reproduced by an ancillary script (SymPy, and Singular for three Groebner bases). All statements are proved relative to the cited results. Nothing in this note has been checked by a third party.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.00724v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00724v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00681",
 "title": "The edge sums of seven double-six domino frames",
 "abstract": "Partition the 28 double-six dominoes into seven square frames. When the four edge sums of each frame agree, exactly 10,821 sorted lists of the seven sums are attainable. An exact-cover recurrence proves completeness, and a physical arrangement certifies each list.",
@@ -2090,6 +2590,49 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00708",
+"title": "The exact Poisson–binomial comparison in every dimension",
+"abstract": "For coordinatewise ordered Bernoulli parameters with a prescribed total mean gap, the maximum difference of count tails is minimized by homogeneous parameters. For a nondegenerate gap $0<\\Delta<n$, in odd dimension $n=2m+1\\ge3$ the two minimizers are the homogeneous pairs whose likelihood ratios equal one at count $m$ or $m+1$; in even dimension $n\\ge4$ the unique minimizer is the complementary homogeneous pair. We prove the comparison and these equality statements by a global stationary-point reduction, with all boundary faces included. A normalized switch-mass identity orders the homogeneous switching values. The same extremizers give the exact product total-variation minimum. The exceptional two-dimensional equality families are classified in the appendix.",
+"authors": [
+"Christopher D. Long"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00708v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00708v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00720",
+"title": "The ordered 2x2 corner pattern: a removal exponent of at least 9/2, and other partial results",
+"abstract": "Let P = [[1,0],[1,1]]. An ordered induced copy of P in a binary matrix is given by rows i<j and columns c<d with entries (1,0) in row i and (1,1) in row j. Whether P admits a polynomial removal lemma is, to our knowledge, open; it is the last open 2x2 case. This note does not settle it and records partial results. Main result: for every q >= 2 we construct a square binary matrix of side n = 6q^3, with exactly n/6 copies of P, each on a pair of adjacent rows, these pairs being disjoint, whose distance to P-freeness is exactly (n/6)^{4/3} + n/6 entry changes; consequently any removal exponent for P is at least 9/2. Further results: (1) if the columns are split into m consecutive intervals on each of which the matrix is P-free, and any two rows can be made P-free by deleting at most K columns, then the n x n matrix is within 6 m n^{3/2} sqrt(K) + 3mn entry changes of a P-free matrix; (2) two explicit families show that no bound of the form CK per row, or CKn in total, holds with an absolute constant, even for two intervals; (3) for matrices made of two interleaved \"staircase\" classes we give a repair with at most 4K changes per row; (4) the block-repair lemma used by Lupini for the 2x2 identity has no direct analogue for P; (5) for matrices in which every copy uses two adjacent rows, we give two safe repair moves and a matrix with a single copy at linear distance from P-freeness. Statements are labelled proved, computed or open. The results are established facts whose novelty has not been verified. The note was prepared with an AI model; the proofs were examined by independent AI reviews and by computation, and nothing has been checked by a third party.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.CO",
+"cs.DM"
+],
+"link": "https://hexagonmath.org/abs/2611.00720v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00720v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.25072",
 "title": "The Partial Trace Functor on Soergel Bimodules in Type $\\mathbb{B}$",
 "abstract": "We write down some observations about the partial trace functor between the categories of Soergel bimodules of type $\\mathbb{B}_{n+1}$ and $\\mathbb{B}_n$ for future reference. In particular, we observe that, like in type $\\mathbb{A}$, the partial trace sends Soergel bimodules to a semi-infinite $q$-graded sum of Soergel bimodules.",
@@ -2128,6 +2671,28 @@
 "announce": "cross",
 "date": "2026-11-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00714",
+"title": "The starting corner (7,35) in the plane Jacobian problem: the point (18/7,4) is not a regular corner",
+"abstract": "The note hexagon:2611.00710 excludes the standard (2,3)-pairs of degrees (84,126) with starting triple ((7,35),(2,0),(7,-1)) under the additional condition that the polynomial h of degree 5 attached to the first edge has a single root; for the only other pattern left open by elementary arithmetic, a root of multiplicity 4 and a simple root, that note relied on the list of Guccione, Guccione, Horruitiner and Valqui. We show that (18/7,4) is not a regular corner of any (2,3)-pair in K[x^{+-1/7},y]. Hence the condition on h is automatic, and the theorem of that note holds for every pair satisfying the other standing data of that note. The proof uses only the propositions of Guccione-Guccione-Valqui on regular corners, applied to every root of the edge polynomial, together with elementary arithmetic, which is reproduced by an ancillary script. The argument has not yet been examined by specialists.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.00714v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00714v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2287,6 +2852,28 @@
 "announce": "replace-cross",
 "date": "2026-11-20",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00721",
+"title": "Vasconcelos' conjecture on the module of differentials",
+"abstract": "Let $k$ be a field and let $S$ be a local $k$-algebra essentially of finite type whose module of Kähler differentials $\\Omega_{S/k}$ has finite projective dimension. A conjecture of Vasconcelos, in the form studied by Herzog and Briggs, asserts that $S$ is then a complete intersection when $\\operatorname{char}k=0$. We give a complete proof, in particular one independent of the Eisenbud--Mazur conjecture, that $S$ is a reduced complete intersection when $\\operatorname{char}k=0$, and, over an arbitrary field, when some minimal prime of $S$ is a generic point at which $S$ is a field separably generated over $k$; in the latter case $\\operatorname{pd}_S\\Omega_{S/k}\\le1$ and $S$ is essentially smooth at all of its generic points. In positive characteristic $p$, Vasconcelos' conjecture for reduced algebras holds for every such algebra exactly when $[k:k^p]\\le p$.",
+"authors": [
+"Chung Pang Mok",
+"Yiqi Xu"
+],
+"categories": [
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.00721v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00721v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
