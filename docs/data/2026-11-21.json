@@ -1,6 +1,6 @@
 {
 "day": "2026-11-21",
-"updated": "2026-11-21T12:47:12+00:00",
+"updated": "2026-11-21T15:19:16+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -9,6 +9,28 @@
 "math.RT"
 ],
 "papers": [
+{
+"pid": "hexagon:2611.00793",
+"title": "A base-r simplex that is not Ehrhart positive",
+"abstract": "For integers $r\\ge2$ and $d\\ge1$, Solus's base-$r$ $d$-simplex is the convex hull of the standard basis vectors of $\\mathbb{R}^d$ and the point $-(r-1)(1,r,\\dots,r^{d-1})$. Solus introduced these simplices through numeral systems, proved that their $h^*$-polynomials are real-rooted, and observed that computations suggest they are also Ehrhart positive. Fu Liu recorded this as Solus's conjecture that every base-$r$ $d$-simplex is Ehrhart positive, and Liu and Solus restated it for all $r\\ge2$ and $d\\ge1$. We show that the conjecture fails: the base-$14$ $5$-simplex has Ehrhart polynomial \\[ 1-\\tfrac{268}{15}t+\\tfrac{3955}{12}t^2+\\tfrac{5833}{2}t^3+\\tfrac{10343}{12}t^4+\\tfrac{67228}{15}t^5, \\] whose linear coefficient is negative. The proof is an explicit bijection between the lattice points of each dilate and pairs consisting of a residue modulo $14^5$ and a vector of nonnegative integers, which reduces the count to the distribution of one integer-valued height function over the $537{,}824$ residues. Lean checks the whole statement from the definition of the convex hull, including the finite height distribution, by kernel evaluation. This work has not yet been reviewed by experts. The proofs, the Lean formalization and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.CO",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00793v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00793v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
 {
 "pid": "hexagon:2611.00756",
 "title": "A counterexample to Erdős problem 1068",
@@ -560,6 +582,29 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00790",
+"title": "Crystal Structures on Theta Bases",
+"abstract": "We construct crystal operators on the regular theta functions of skew-symmetrizable cluster algebras with polynomial frozen variables. A frozen vertex that becomes a sink under mutation defines a locally nilpotent derivation of the upper cluster algebra. These derivations satisfy the Serre relations. Under mutable reddening, the regular theta basis of the middle algebra is perfect for both the sink and the source derivations. In each seed the $g$-vectors of its elements are the integral points of a rational polyhedral cone. A tropical criterion detects the sink and source operators that form Chevalley pairs. Such pairs give integrable Kac--Moody actions and, under reddening, normal crystals on the regular theta basis. In the skew-symmetric case with mutable reddening and finite-dimensional Jacobian algebra, we compute the order of the theta function attached to a supported presentation weight along each frozen divisor. We illustrate this theory on various examples.",
+"authors": [
+"Jiarui Fei"
+],
+"categories": [
+"math.RT",
+"math.AC",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00790v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00790v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00769",
 "title": "Density of blow-up data and regularity at the blow-up time for the three-dimensional Euler equations",
 "abstract": "Alpöge, Buckmaster and Coiculescu have constructed smooth odd initial data on $\\mathbb T^3$ whose solutions of the incompressible Euler equations blow up in finite time. Running their construction without oddness, with the singularity carried by a fluid particle, we show that data whose solutions blow up in arbitrarily short time are dense among smooth divergence-free fields in $L^\\infty$, $H^1$ and $C^\\alpha$, $0<\\alpha<5/6$. The same holds inside classes of fields invariant under a finite group of isometries of $\\mathbb T^3$, such as the Taylor–Green and Kida classes, with blow-up at the same time along a whole orbit. The Euler equations are not well posed in these topologies, and the result says nothing about instability in $C^{1,\\alpha}$ or in $H^s$, $s>5/2$. For both our solutions and those of Alpöge, Buckmaster and Coiculescu, the velocity stays continuous up to the blow-up time $T$ in $H^1$ and in $C^\\alpha$ for every $0<\\alpha<5/6$, so the enstrophy converges, while $u(T)\\notin C^{5/6}$, $\\operatorname{curl}u(T)$ lies in no $L^p$ with $p>2$, and the vorticity on the particle grows faster than $(T-t)^{-2}$.",
@@ -947,6 +992,29 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00792",
+"title": "On finite-time blow-up of the 2D inviscid Boussinesq equations",
+"abstract": "We construct smooth odd periodic data for the 2D inviscid Boussinesq equations whose temperature gradient becomes unbounded at the origin in finite time. On an accelerating shear with inclination $\\delta$, a wave amplifies its temperature gradient by a factor of at least $\\exp(c/\\sqrt\\delta)$. At the first return of its vorticity to zero, the gradient points downwards with inclination asymptotic to $\\delta/2$. We use the successive zeros of the leading wave vorticity to select return times on successively shorter intervals. An upper bound on the pressure Hessian permits correction of each periodic wave with both particle endpoints prescribed. A transverse Green function bounds the contribution of late forcing to the initial velocity by the inverse of the preceding amplification, yielding smooth initial data for the limiting solution.",
+"authors": [
+"Xi Chen",
+"Hedong Hou",
+"Haoling Xiang"
+],
+"categories": [
+"math.AP"
+],
+"link": "https://hexagonmath.org/abs/2611.00792v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00792v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00743",
 "title": "On several conjectures concerning p-adic continued fractions",
 "abstract": "Let $p$ be an odd prime and let $h\\ge2$ be even. If $(p,h)\\ne(3,2)$, infinitely many real and infinitely many imaginary quadratic fields have the form $\\mathbb Q(\\sqrt D)$, where $D$ is an integer whose $p$-adic square roots have least period $h$ under Browkin's second algorithm. For $(p,h)=(3,2)$, we give two radicands and bound all such radicands in terms of their preperiods. We prove eventual periodicity for quadratic inputs to the fourth algorithm of Wang and Deng at $p=5$ and to Yasutomi's simultaneous algorithm for real quadratic fields at $p=3$. The real approximation error after $n$ digits is $O(n^{-3})$ for Ruban's expansion of a quadratic irrational and for Schneider's expansion of a quadratic $p$-adic unit. For both Browkin algorithms and the alternating algorithm of Murru and Romeo, we determine the real and $p$-adic approximation exponents in terms of the reduced denominator for Haar-almost every input. The real limit is transcendental and has finite irrationality exponent. In each cubic field embedded in $\\mathbb Q_p$, a suitable generator gives eventual periodicity for every basis $1,x,y$ in a variant of the algorithm of Saito, Tamura and Yasutomi that computes the translation after inversion and row reduction. Computing the translation from the input gives nonperiodic expansions on a dense set of bases in every degree at least two. For the $p$-adic Jacobi–Perron algorithm we construct pairs of Liouville numbers on a rational line with infinite expansions that are not eventually periodic. We also prove an irreducibility conjecture for a sequence of polynomials arising from a Pell equation.",
@@ -1027,6 +1095,28 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00791",
+"title": "Rational points on Baxter's curve and roots of unity in the eight-vertex model",
+"abstract": "The Boltzmann weights of the symmetric eight-vertex model with fixed invariants $\\Delta$ and $\\Gamma$ form a curve of genus one, the intersection of two quadrics in $\\PP^3$. When $\\Delta$ and $\\Gamma$ are rational, this curve is an elliptic curve over $\\Q$ with at least eight rational points and full rational $2$-torsion, and the crossing parameter of Baxter's elliptic parametrization corresponds to a rational point on it. By Mazur's theorem, if this point is a torsion point (an elliptic root of unity), its order is $3$, $4$, $6$, or $8$. We give the loci of each exact order explicitly; over $\\C$ they lie in finite-order conditions found by Boukraa and Maillard. Consequently the finite-order loci of orders $5$, $7$, $10$, $12$, and $20$ contain no rational nondegenerate $(\\Delta,\\Gamma)$, and the order-$8$ case, which occurs with rational weights, has no rational counterpart in the six-vertex limit. Away from these loci the crossing point has infinite order, so the curve has positive rank, and its multiples produce infinite families of commuting inhomogeneous transfer matrices with rational weights.",
+"authors": [
+"Shankar Sivarajan"
+],
+"categories": [
+"math-ph",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00791v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00791v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
@@ -1191,6 +1281,27 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00794",
+"title": "The seventh ternary density Hales–Jewett number",
+"abstract": "Let $c_{n,3}$ be the largest size of a subset of $\\{0,1,2\\}^n$ containing no combinatorial line, a triple obtained by varying a nonempty set of coordinates through the same letter while fixing the rest. We give a computer-assisted proof that $c_{7,3}=1302$, confirming Polymath1's tentative conjecture and closing its bounds $1302\\leq c_{7,3}\\leq1348$, recorded by Tao in 2009 and O'Bryant in 2015. The witness realizes Polymath1's known lower bound. Three auxiliary SAT bounds, slicing and global alphabet symmetry give sixteen main slice obligations. Refutations of all nineteen formulas were accepted by FRAT-rs, and in a separate earlier production campaign by drat-trim's lrat-check. Formal verification applies to certificate checking: cake_lpr, verified in HOL4 and compiled with CakeML, accepted refutations of all nineteen formulas across two regeneration campaigns. The SAT encodings, cap induction, symmetry reduction, case cover and counting interpretation are justified by the written proof and separate executable checks; they are outside that formal verification.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00794v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00794v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
