@@ -1,0 +1,1385 @@
+{
+"day": "2026-11-21",
+"updated": "2026-11-21T12:47:12+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2611.00756",
+"title": "A counterexample to Erdős problem 1068",
+"abstract": "We construct in ZFC a simple graph on $2^{\\aleph_0}$ vertices with chromatic number $\\aleph_1$ such that every infinite induced subgraph is disconnected by deleting finitely many vertices. Consequently, the graph contains no infinitely vertex-connected subgraph, giving a negative answer to the unrestricted formulation of Erdős problem 1068. The construction uses independent vertex sets indexed by a tree of countable sequences. Stabilization of the colors occurring above a node and a recursive choice of a vertex rule out countable colorings. Finite initial histories determine finite separators, which exclude all infinite candidates for the required connectivity.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00756v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00756v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00763",
+"title": "A counterexample to Erdős problem 108 via arc graphs",
+"abstract": "For every positive integer $M$, we construct a finite triangle-free graph $G$ of chromatic number at least $M$ in which every ordinary four-cycle-free subgraph is 6-colorable. Consequently, no chromatic threshold forces a subgraph of girth at least five and chromatic number at least seven, which gives a negative answer to Erdős problem 108. The proof uses a multipartite random graph of bounded acyclic outdegree in which every subgraph under a prescribed degree cap is 4-colorable. An arc-graph construction raises the host chromatic number while partitioning each four-cycle-free subgraph into a part controlled by the degree cap and a forest. The linked Lean verification covers the original negative answer. The written proof includes the triangle-free strengthening.",
+"authors": [
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00763v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00763v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00740",
+"title": "A counterexample to the cocircuit diameter conjecture",
+"abstract": "A rationally realizable uniform rank-41 oriented matroid on 80 elements has cocircuit-graph diameter at least $42>41=n-r+2$, refuting the general cocircuit diameter conjecture. We build on the rank-21 example of Adler, De Loera, Klee and Zhang, the non-Hirsch polytope of Matschke, Santos and Weibel, Santos's product construction, and the source certification of Allamigeon, Canu and Strub. A count of negative coordinates confines every potentially shorter walk to two affine sections; projection to the product factors then gives the lower bound. Two rational perturbations make the resulting oriented matroid uniform. Lean 4 separately verifies the matrix existence and walk lower bound for a different realizing matrix; the printed perturbations are proved here, not checked in Lean. This work has not yet been reviewed by experts. The proofs, the Lean formalization, the certificate checkers and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00740v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00740v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00749",
+"title": "A counterexample to the Erdős triangle–four-cycle asymptotic",
+"abstract": "We construct an infinite family of finite simple graphs containing neither a triangle nor a four-cycle. Their edge counts exceed the conjectured leading asymptotic in Erdős Problem 573 by a fixed positive factor. For every positive integer $h$, put $q=659^h$. The graph $G_q$ has $n_q=(1307/659)q^2-q$ and $e_q=(428875/659^2)q^3-(658/659)q^2$. Its limiting ratio to $(n_q/2)^{3/2}$ is $1.0000452143352195\\ldots$. The construction joins 47 affine three-part pieces along a common root part. A multiplicative partition of reciprocal field labels excludes four-cycles across the pieces, and an additive restriction retains enough internal edges while excluding triangles.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00749v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00749v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00747",
+"title": "A divisor-closed criterion for Behrend sequences",
+"abstract": "We give a necessary and sufficient condition for a set of positive integers to be a Behrend sequence. The condition quantifies over sequences of finite divisor-closed sets supported on consecutive prime blocks. For each element at one level, its permitted extensions at the next level retain a prescribed reciprocal mass. We prove that the set of multiples of $A$ has natural density one if and only if $A$ meets every such family. The proof combines the classical Davenport–Erdős finite-approximation theorem with a finite pruning argument for independent geometric prime valuations.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00747v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00747v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00737",
+"title": "A Linear Kontsevich–Zagier Theorem for Compact Exponential Periods on the Affine Line",
+"abstract": "Let $q,r\\in\\overline{\\mathbb{Q}}[x]$, let $\\Delta=\\sum_\\alpha d_\\alpha[\\alpha]$ be a finite degree-zero zero-cycle on $\\mathbb{A}^1(\\overline{\\mathbb{Q}})$ with coefficients in $\\overline{\\mathbb{Q}}$, and let $\\Gamma$ be any finite piecewise $C^1$ one-chain in $\\mathbb{C}$ with $\\partial\\Gamma=\\Delta$. We consider \\[ I_{q,r,\\Delta}(z)=\\int_\\Gamma r(x)e^{zq(x)}\\,dx \\] and the compact exponential period $I_{q,r,\\Delta}(1)$. We define the formal exponential-period space on smooth affine curves using bilinearity, functoriality, and twisted Stokes, and consider the subspace generated by the affine-line periods above and by the zero-dimensional exponential periods $e^\\beta$, $\\beta\\in\\overline{\\mathbb{Q}}$. We prove that the period map is injective on this subspace. Equivalently, every $\\overline{\\mathbb{Q}}$-linear numerical relation among these compact exponential periods is generated by the standard Kontsevich–Zagier operations. The proof first reduces every polynomial differential uniquely modulo $R\\mapsto R'+q'R$. Direct sums of the moment systems from the companion paper Algebraic Exponential Integrals are then used to lift a numerical relation by Beukers' theorem. A direct-sum residue argument makes the resulting relation submodule constant and forces an exponential-polynomial identity. A common finite tree and a Cauchy transform show that its combined inverse-branch densities vanish edge by edge. Finally, a simultaneous finite Galois cover realizes every such functional relation by functoriality in the formal period space.",
+"authors": [
+"Christopher D. Long",
+"Antoine-Auguste Le Blanc"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00737v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00737v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00786",
+"title": "A locally sparse graph with superlinear Ramsey growth",
+"abstract": "We construct a fixed finite bipartite graph $G$ such that every set of at least two vertices spans at most twice its cardinality minus three edges, while the ratio $R(G,H)/e(H)$ is unbounded as $H$ ranges over graphs without isolated vertices. For all sufficiently large $m$, $R(G,K_{2^{570m}})>2^{1144m-1}$. This gives a negative answer to Erdős problem 566. The construction uses a layered two-parent graph and a random subset of a Hamming cube. A conditional-entropy inequality excludes the fixed graph. A bound on the negative Krawtchouk spectrum and an independent-set encoding exclude large independent sets.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00786v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00786v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00773",
+"title": "A periodic-summand characterization for Erdős problem 335",
+"abstract": "We characterize pairs of positive-density subsets of the positive integers for which the ordinary density of their sumset equals the sum of their densities. The modular boundary is controlled by literal residue supports. Above that boundary, the classification consists of parallel Bohr intervals with finite backgrounds, two periodic templates with a literal fringe test, or one sparse exceptional section with an exact terminal condition. This overview states the characterization and explains the proof structure. The linked development gives the detailed mathematical arguments and verifies the complete result in Lean using the original positive-integer counts.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00773v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00773v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00738",
+"title": "A Polynomial Kontsevich–Zagier Theorem for Compact Exponential Periods on the Affine Line",
+"abstract": "Let $q,r\\in\\overline{\\mathbb{Q}}[x]$, let $\\Delta$ be a finite degree-zero zero-cycle on $\\mathbb{A}^1(\\overline{\\mathbb{Q}})$ with coefficients in $\\overline{\\mathbb{Q}}$, and let $\\Gamma$ be any finite piecewise $C^1$ one-chain in $\\mathbb{C}$ with $\\partial\\Gamma=\\Delta$. We consider compact exponential periods \\[ \\int_\\Gamma r(x)e^{q(x)}\\,dx \\] and the zero-dimensional exponential periods $e^\\lambda$, $\\lambda\\in\\overline{\\mathbb{Q}}$. The companion linear theorem identifies every numerical linear relation among these periods with a formal consequence of bilinearity, functoriality, and twisted Stokes. We prove the corresponding polynomial theorem for the commutative algebra generated by the same periods. Every polynomial numerical relation is generated by the companion linear relations, multiplication, and the identities \\[ e^0=1,\\qquad e^\\lambda e^\\mu=e^{\\lambda+\\mu},\\qquad e^\\lambda\\int_\\Gamma r e^q\\,dx =\\int_\\Gamma r e^{q+\\lambda}\\,dx. \\] Equivalently, the period map is injective on the tensor-generated formal algebra of compact exponential periods on the affine line. The new input is a uniform description of the functional polynomial-relation ideal. After adjoining the finitely many exponential functions coming from endpoint values and constant shifts, the affine Picard–Vessiot group of the inhomogeneous moment system has a vector translation kernel and reductive homogeneous quotient. Horizontal projectors are Laurent polynomials in the adjoined exponentials. An explicit gauge built from the spectral projectors of the constant connection matrix separates the coordinates already in the base ring from a full translation block, and the latter coordinates are algebraically independent. Hence the complete functional relation ideal is generated by affine-linear relations. Beukers' lifting theorem transfers this statement to values, and the companion linear Kontsevich–Zagier theorem makes every specialized generator formal.",
+"authors": [
+"Christopher D. Long",
+"Antoine-Auguste Le Blanc"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00738v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00738v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00784",
+"title": "A set mapping with small intersections and no large free set",
+"abstract": "Let $\\mu$ be an uncountable cardinal of countable cofinality and suppose that $2^\\mu=\\mu^+$. We construct a self-avoiding set mapping on $\\mu^+$ whose values have cardinality at most $\\mu$, whose distinct values have intersection of cardinality less than $\\mu$, and which has no free set of cardinality $\\mu^+$. The construction combines a countable neighborhood base with an enumeration of the $\\mu$-sized subsets and a schedule having fewer than $\\mu$ requirements at each bounded depth. Under the generalized continuum hypothesis, this gives a negative answer to the free-set question of Erdős and Hajnal at $\\aleph_{\\omega+1}$.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00784v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00784v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00789",
+"title": "A short proof of Deligne's bound for Frobenius eigenvalues, after Alpöge",
+"abstract": "We write out in full the proof, sketched by L. Alpöge in a footnote of his note of 20 November 2026, of Deligne's bound for the eigenvalues of Frobenius. Let $X$ be a separated scheme of finite type over a finite field with $q$ elements, and let $\\mathcal F$ be a constructible $\\ell$-adic sheaf on $X$ whose Frobenius eigenvalues at each closed point $x$ have absolute value at most $|\\kappa(x)|^{w/2}$. Then the eigenvalues of Frobenius on $H^i_c(X,\\mathcal F)$ have absolute value at most $q^{(w+i)/2}$, and they have absolute value exactly $q^{(w+i)/2}$ if $X$ is smooth and proper and $\\mathcal F$ is lisse and pure of weight $w$. The proof is short. Granted the formalism of étale cohomology (the trace formula, the Künneth formula, Poincaré duality and Artin's vanishing theorem) and a weak Lefschetz theorem for generic hyperplane sections of affine varieties, it takes less than six pages, and its only estimate is the Cauchy–Schwarz inequality for a character sum over a finite field. Lefschetz pencils, monodromy and Rankin's method are not used. The proof was produced by GPT-6 Astra (ChatGPT Pro mode) from that sketch. It was checked by Claude Opus 5.5 at effort high and, independently, by Claude Fable 5.2 at effort max, which also wrote this text. No human has checked it.",
+"authors": [
+"Floris Alderliefste"
+],
+"categories": [
+"math.AG",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00789v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00789v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00761",
+"title": "A uniform square-root lower bound for non-unique sums and a resolution of Erdős problem 14",
+"abstract": "For $A\\subseteq\\mathbb{N}_0$, let $E_A(N)$ count the positive integers at most $N$ without exactly one unordered representation as a sum of two elements of $A$, allowing equal summands. We prove $E_A(N)>\\sqrt{N}/12000$ for every integer $N\\ge 2\\cdot 10^{24}$. Part I of Erdős problem 14 holds with exponent $1/2$, and the existence assertion in part II is false. The common finite estimate is $E_A(2T^4)>T^2/1000-1$ for every integer $T\\ge 10^6$. The proof combines a triple-sum moment identity, pair counting in an arithmetic progression, and incompatible bounds for a finite generating polynomial.",
+"authors": [
+"Liam Kruer",
+"Jensen Kohlmeyer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00761v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00761v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00746",
+"title": "A ZFC counterexample to Taylor's conjecture on finite subgraphs",
+"abstract": "We construct, in ZFC, a graph $G$ of chromatic number $\\aleph_1$ such that every graph whose finite ordinary subgraphs embed into $G$ has chromatic number at most $2^{\\aleph_0}$. Taking the target chromatic number to be $(2^{\\aleph_0})^+$ gives a negative answer to Taylor's conjecture on finite subgraphs. The construction uses hereditarily countable vertex data, finite coordinate inequalities, and a countable-closure reflection argument. A compactness argument transfers the resulting finite coloring properties to the entire finite age of $G$.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00746v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00746v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00736",
+"title": "Algebraic Exponential Integrals: Transcendence and Linear Relations",
+"abstract": "Let $q\\in\\overline{\\mathbb{Q}}[x]$ be nonconstant, and let $\\Delta=\\sum_\\alpha d_\\alpha[\\alpha]$ be a finite degree-zero zero-cycle on $\\mathbb{A}^1(\\overline{\\mathbb{Q}})$ with coefficients in $\\overline{\\mathbb{Q}}$. If $\\Gamma$ is any finite piecewise $C^1$ one-chain in $\\mathbb{C}$ with $\\partial\\Gamma=\\Delta$, put \\[ I_{q,\\Delta}(z)=\\int_\\Gamma e^{zq(x)}\\,dx. \\] We prove that every nonzero function $I_{q,\\Delta}$ is a purely transcendental $E$-function: for every $\\xi\\in\\overline{\\mathbb{Q}}^\\times$, $I_{q,\\Delta}(\\xi)$ is transcendental. Equivalently, \\[ I_{q,\\Delta}(1)\\in\\overline{\\mathbb{Q}} \\quad\\Longleftrightarrow\\quad I_{q,\\Delta}\\equiv0. \\] In particular, $\\int_A^B e^{q(x)}dx$ is transcendental for every pair of distinct algebraic endpoints. For a fixed polynomial $q$, we also determine all $\\overline{\\mathbb{Q}}$-linear relations among finite families of these values: they are exactly the specializations of constant-coefficient functional relations, and the latter are characterized by vanishing of explicit inverse-branch densities on a finite tree in the target of $q$. The proof combines Beukers' lifting theorem with a homogeneous moment connection. A Fourier–Laplace description proves semisimplicity, while an explicit residue calculation shows that every rational horizontal endomorphism is constant. An algebraic value therefore forces an exponential-polynomial identity. Constant-coefficient annihilation and a Cauchy-transform argument then force the original exponential period function to vanish identically.",
+"authors": [
+"Christopher D. Long",
+"Antoine-Auguste Le Blanc"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00736v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00736v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00757",
+"title": "An exact algebraic construction for Erdős's interpolation minimum",
+"abstract": "For distinct nodes in $[-1,1]$, consider the integral of the sum of the squares of their Lagrange cardinal polynomials. We give a finite algebraic construction of its minimum for every positive number of nodes. For $n\\geq2$, put $k=n-1$ and $d=2n(n-1)$. A rational symmetric polynomial matrix of order $(d+1)^k$ determines a nonzero rational polynomial of degree at most $kd(d+1)^k$. The minimum is a specified real root of this polynomial. Its index is obtained from signatures at rational sample points. All steps of the value rule use rational polynomial arithmetic, univariate real root isolation, and rational symmetric elimination.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.00757v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00757v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00774",
+"title": "An exact formula for fork-free sets of integers and the irrationality of their density",
+"abstract": "Let $f(n)$ be the largest size of a subset of $\\{1,\\ldots,n\\}$ in which no element divides two distinct other elements. We prove the exact formula $f(n)=\\sum_{m\\le n,\\,(m,6)=1}(R(n/m)-\\mathbf{1}_{\\mathcal B}(n/m))$, where $R$ is the two-prime grid rank and $\\mathcal B$ is an explicit union of intervals. A matching construction follows from a cutoff recursion whose finite certificates are checked in Lean. The limit $c=\\lim_{n\\to\\infty}f(n)/n=0.67296565119948934747\\ldots$ is irrational. The proof uses rotation returns, a two-cutoff $2$-adic nonvanishing argument, and a three-place Subspace Theorem. The linked Lean development verifies the exact formula, convergence, and irrationality.",
+"authors": [
+"Liam Kruer",
+"Jensen Kohlmeyer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00774v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00774v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00752",
+"title": "An Explicit Removal Estimate for Reciprocal-Sum-Free Sets",
+"abstract": "Let $f(N)$ be the largest cardinality of a subset of $\\{1,\\ldots,N\\}$ containing no three distinct elements with $1/a=1/b+1/c$. We give an explicit uniform removal estimate for finite-prime relaxations of this problem. Together with the smooth-number decomposition, the estimate yields $f(N)=CN+o(N)$ and an effective description of $C$ by finite optimization problems. If $U_V$ is the limiting density obtained by retaining triples with smooth primitive coordinates over the primes at most $2V$, then $0\\le U_V-C\\le (10^{23}+561000)(\\log V)^{-1/140}$ for $V\\ge4$. The proof uses elementary prime estimates, a finite quadratic sieve, and a dyadic decomposition indexed by the larger primitive parameter. We also give rational enclosures of arbitrary prescribed width and an explicit modulus of convergence for $f(N)/N$. The finite-prime framework and the underlying sieve are due to the earlier density-limit argument. The emphasis here is the uniform quantitative estimate.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00752v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00752v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00781",
+"title": "Asymptotically full minimal signed unit-fraction identities",
+"abstract": "Let $f(N)$ be the largest size of a subset of $\\{1,\\ldots,N\\}$ admitting a signed zero sum of its reciprocals with no proper nonempty signed zero subsum. We prove $f(N)=N-o(N)$ using the subset-sum theorem of Liu and Sawhney. The construction joins finitely many large-prime groups by one CRT-chosen unit fraction. The resulting positive sum can be arbitrarily large, although the density cost of excluding those primes is arbitrarily small. A dense coprime-denominator expansion of that sum provides the opposite side and preserves minimality. Earlier public work claims this asymptotic and the protected-prime construction. This version gives an alternative approach through Liu and Sawhney, with an accompanying Lean formalization.",
+"authors": [
+"Jensen Kohlmeyer",
+"Liam Kruer",
+"Will Howe",
+"Grant Huffman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00781v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00781v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00758",
+"title": "Balanced additive complements with bounded representation functions",
+"abstract": "We construct infinite sets $A=\\{a_1<a_2<\\cdots\\}$ and $B=\\{b_1<b_2<\\cdots\\}$ of positive integers such that $|a_i-b_i|\\leq5\\sqrt{b_i}$ for every $i$, every integer at least $16384$ belongs to $A+B$, and the number of ordered representations of any integer as $a+b$ with $a\\in A$ and $b\\in B$ is at most $47005$. In particular, $a_i/b_i\\to1$, giving a negative answer to a conjecture of Erdős and Sárközy. The construction uses two nested prime-power scales, a uniform residue bound, and a local cardinality matching.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00758v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00758v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00730",
+"title": "Boxes with cyclic tiling groups have one layer or size 2 × 2 × 4",
+"abstract": "Kuperberg asked how a box's dimensions determine its tiling group. We prove Conlon's conjecture that this group is cyclic exactly when one side has length one or the box has dimensions $2\\times2\\times4$ in some order. For every box, we also show that the minimum number of generators of its tiling group equals the largest multiplicity of a cyclotomic factor of prime-power index in MacMahon's volume polynomial. This polynomial counts stacks by the number of cubes they contain. It also determines the Smith factors over $\\mathbb{Q}[q,q^{-1}]$ of the box's weighted Carlitz matrix, which presents the tiling group at $q=1$. Each cyclotomic factor of multiplicity $e$ occurs in exactly the last $e$ Smith factors, once in each.",
+"authors": [
+"twinheterodox"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00730v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00730v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00760",
+"title": "Centered Cocircular Central Configurations for Homogeneous and Logarithmic Potentials",
+"abstract": "We classify central configurations of positive masses on a circle centered at their center of mass. For every number of bodies and every potential $r^{-\\alpha}$ with $\\alpha>0$, the only such configurations are equal-mass regular polygons. The same conclusion holds for the logarithmic potential. The proof first separates the equality of the masses from the angular geometry. Comparisons obtained from the force equations then reduce mass equality to inequalities for positive kernels and finite probability laws. Different exponent ranges share these comparisons, while requiring different estimates to complete the argument.",
+"authors": [
+"Chih-Yao Wu"
+],
+"categories": [
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00760v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00760v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00759",
+"title": "Cofinite derivative zeros at the order-one threshold",
+"abstract": "We give a complete probabilistic construction of a transcendental entire function for which every nonempty open set contains a zero of every sufficiently high derivative. The construction has $\\log M(r)=O(r\\log r\\log\\log r)$, hence order exactly one and infinite exponential type. No transcendental entire function of finite exponential type can have this zero property. We also establish a local limiting zero-counting measure for the constructed derivatives. The original existence assertion has prior solution claims, including Eric Hou's preprint. The order-one construction and growth obstruction are the proposed strengthening.",
+"authors": [
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.00759v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00759v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00739",
+"title": "Common Periodic Points of Commuting Interval Maps",
+"abstract": "We construct pairs of commuting continuous self-maps of the compact interval with disjoint periodic-point sets. More precisely, every finite union of sets of positive multiples, including the empty union, is the set of integers n for which two commuting nth iterates have a common fixed point. In the other direction, we show that if either generator has zero topological entropy, the generators act as mutually inverse cyclic permutations on a common finite orbit. We also establish a common fixed-point theorem for two commuting maps that are each monotone on a finite partition, with constant pieces allowed.",
+"authors": [
+"Luke Hammer"
+],
+"categories": [
+"math.GN",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00739v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00739v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00768",
+"title": "Completeness of two floor-doubling sequences",
+"abstract": "We prove that, whenever $\\alpha,\\beta>0$ and $\\alpha/\\beta$ is irrational, every sufficiently large integer is a sum of distinct indexed terms of the two sequences $(\\lfloor 2^n\\alpha\\rfloor)_{n\\ge0}$ and $(\\lfloor 2^n\\beta\\rfloor)_{n\\ge0}$. This answers the doubling case of Erdős problem 354 affirmatively. Missing sums induce a nonproduct invariant coupling of symbolic tower systems. Two binary carry estimates force incompatible conclusions about digit transport and zero runs. The linked Lean proof checks the original indexed-sum formulation.",
+"authors": [
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00768v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00768v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00769",
+"title": "Density of blow-up data and regularity at the blow-up time for the three-dimensional Euler equations",
+"abstract": "Alpöge, Buckmaster and Coiculescu have constructed smooth odd initial data on $\\mathbb T^3$ whose solutions of the incompressible Euler equations blow up in finite time. Running their construction without oddness, with the singularity carried by a fluid particle, we show that data whose solutions blow up in arbitrarily short time are dense among smooth divergence-free fields in $L^\\infty$, $H^1$ and $C^\\alpha$, $0<\\alpha<5/6$. The same holds inside classes of fields invariant under a finite group of isometries of $\\mathbb T^3$, such as the Taylor–Green and Kida classes, with blow-up at the same time along a whole orbit. The Euler equations are not well posed in these topologies, and the result says nothing about instability in $C^{1,\\alpha}$ or in $H^s$, $s>5/2$. For both our solutions and those of Alpöge, Buckmaster and Coiculescu, the velocity stays continuous up to the blow-up time $T$ in $H^1$ and in $C^\\alpha$ for every $0<\\alpha<5/6$, so the enstrophy converges, while $u(T)\\notin C^{5/6}$, $\\operatorname{curl}u(T)$ lies in no $L^p$ with $p>2$, and the vorticity on the particle grows faster than $(T-t)^{-2}$.",
+"authors": [
+"Manvir Jaswal"
+],
+"categories": [
+"math.AP"
+],
+"link": "https://hexagonmath.org/abs/2611.00769v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00769v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00755",
+"title": "Erdős 1057 / JSP-000877: mathematical account of the submitted proof",
+"abstract": "Let $C(x)$ count the Carmichael numbers at most $x$. This account describes the submitted Lean proof of $\\lim_{x\\to\\infty}\\log C(x)/\\log x=1$. It identifies the analytic input from Dirichlet $L$-functions, the construction of smooth shifted primes, and the transfer from those primes to sufficiently many Carmichael numbers for every large bound. It links the complete modular and standalone formal proofs and distinguishes their verified exponent-one endpoint from the stronger claims considered in the historical candidate.",
+"authors": [
+"Jensen Kohlmeyer",
+"Liam Kruer",
+"Will Howe",
+"Grant Huffman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00755v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00755v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00785",
+"title": "Erdős 196: A permutation of the natural numbers with no monotone four-term arithmetic progression",
+"abstract": "We construct a permutation of the natural numbers containing no increasing or decreasing four-term arithmetic progression as a subsequence. This gives a negative answer to Erdős problem 196. The construction extends finite prefixes while preserving closure and consistency of binary preferences. To extend a prefix, we order a new finite block by an adapted binary order and impose saturation at the nodes where the old prefix branches. Finiteness follows from the weight $w(n)=2^{\\rho(n)}n$, where $\\rho$ is a finite binary residue rank. The extension can include any prescribed finite set. Iteration gives a bijection of order type $\\omega$ on the natural numbers. The finite extension theorem, the resulting bijection, and the exact negative answer are formalized in Lean 4.",
+"authors": [
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00785v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00785v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00783",
+"title": "Erdős problem 597 and finite-target independence",
+"abstract": "We study the graph-target partition relation $\\omega_1^2\\to(\\omega_1\\cdot\\omega,H)^2$ from Erdős problem 597. In ZFC we construct a connected bipartite graph of cardinality $\\aleph_1$ and diameter at most three, containing no $K_{\\omega,\\omega}$, for which this relation fails. We also construct a fixed finite $K_4$-free graph $H_0$ for which the relation fails under the continuum hypothesis. Under Martin's axiom at $\\aleph_1$, it holds for every finite graph. Consequently the universal finite-target assertion, and the assertion for $H_0$ itself, are independent of ZFC, relative to the consistency of ZFC.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00783v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00783v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00779",
+"title": "Erdős problem 706 and uniform multiscale refinements",
+"abstract": "We give a detailed exposition of the OpenAI–Galán argument that resolves Erdős problem 706, including character rigidity, its compact-tower and radial arguments, and the transfer from arbitrary colorings to weak measurable colorings for algebraic distances. Galán’s application of Bukh’s theorem gives finite planar graphs with $r$ forbidden distances and chromatic number greater than $4.0485^r$. We also prove a uniform product estimate for normalized compact distance clusters and give quantitative fixed-ratio bounds from weighted unit-distance graphs. The linked Lean verification covers the original negative answer and the elementary bounds $2^r\\le L(r)\\le7^r$.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00779v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00779v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00776",
+"title": "Erdős problem 859: a refutation of the logarithmic density law",
+"abstract": "Let $d_t$ be the natural density of integers $n$ for which $t$ is a sum of distinct positive divisors of $n$. We prove $\\liminf_{t\\to\\infty}(-\\log d_t)/\\log\\log t=\\delta$ and $(\\log t)^\\delta d_t\\to0$, where $\\delta=1-(1+\\log\\log2)/\\log2$. Together these exclude every pure logarithmic power asymptotic with a positive leading coefficient. This exposition gives the exact finite prime model and the density and change-of-measure reductions. It explains the divisor-interval saving and the arithmetic construction and links to the complete formal proof.",
+"authors": [
+"Liam Kruer",
+"Jensen Kohlmeyer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00776v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00776v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00732",
+"title": "Extremizers of the expected missing mass under an entropy constraint",
+"abstract": "For a discrete probability distribution $p=(p_i)$, the expected mass of symbols absent from $t$ independent samples is $\\Phi_t(p)=\\sum_i p_i(1-p_i)^t$. For every positive integer $t$ and finite entropy budget $h\\ge0$, we prove that every $\\ell^1$-local maximizer under $H(p)\\le h$ has at most two distinct positive coordinate values, and all but at most one positive coordinate are equal. This holds on finite and countably infinite alphabets and improves the four-size bound of Berend, Kontorovich, and Zagdanski (2017). On a countably infinite alphabet, we give an exact finite classification of all global maximizers: a unique one-light or uniform candidate is compared with an explicitly bounded family of one-heavy candidates, whose masses are uniquely specified by entropy equations. The one-light or uniform candidate is uniquely optimal for $t=1,2$. For fixed $h>0$, the optimal value $B_t(h)$ satisfies \\[ \\frac{h}{B_t(h)}=\\log t+\\log\\log t+2 +O_h\\!\\left(\\frac{\\log\\log t}{\\log t}\\right). \\] Every optimizer is eventually one-heavy, with $m_t\\sim ht$ equal light atoms of size $q_t\\sim1/(t\\log t)$. The two-size proof combines a three-coordinate entropy-curvature estimate with a finite coefficient comparison. Crossing theorems describe the winning intervals of the candidate distributions, and the classification gives exact extrema for singleton counts, discovery increments, and expected coverage.",
+"authors": [
+"Christopher D. Long"
+],
+"categories": [
+"math.PR",
+"math.IT"
+],
+"link": "https://hexagonmath.org/abs/2611.00732v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00732v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00788",
+"title": "Failure of the Li–Liu spectral hypothesis R under Dirichlet GRH",
+"abstract": "Under Dirichlet GRH, the Li--Liu spectral hypothesis R fails. For every fixed \\(D>0\\) and \\(0<\\varepsilon<1\\), each sufficiently large interval \\([X,2X]\\) contains at least \\(X\\exp(-(\\log X)^\\varepsilon)\\) even integers \\(N\\) for which \\(\\sqrt N\\,\\|T_N\\|>(\\log N)^D\\). We construct these integers unconditionally and use GRH only at the modulus \\(N\\) to obtain the norm bound. Each has at least \\((\\log N)^D\\) representations as a sum of two distinct primes. The proof isolates a matrix entry in which the continuous model cancels and the two arithmetic terms have different Buchstab densities.",
+"authors": [
+"Yilin Liu"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00788v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00788v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00751",
+"title": "Four-cycles one edge above the extremal threshold",
+"abstract": "Let $h(n)$ be the minimum number of four-cycles in an $n$-vertex graph with $\\operatorname{ex}(n,C_4)+1$ edges. We prove that $h(n_j)=o(\\sqrt{n_j})$ for a sequence $n_j=q_j^2+q_j+2$, where the $q_j$ are powers of four tending to infinity. Consequently, no positive constant gives a universal square-root lower bound one edge above the extremal number. The proof combines a polarity-graph construction with a structural analysis of extremal graphs. Signed deficiencies and a secondary degree-and-triangle minimization produce an open packing of size $q$. Completing its adjacency matrix reduces the argument to a trace inequality for a symmetric binary matrix whose residual graph is a union of cycles.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00751v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00751v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00780",
+"title": "Free fermions from integer arithmetic: a Galois-theoretic test for free-fermionic spectra",
+"abstract": "The spectrum of a free-fermionic operator is built from a few single-particle quantities. For operators with rational entries this confines, as is known, the Galois group of the characteristic polynomial of each sector to a hyperoctahedral group, up to elementary abelian $2$-groups. We turn this into a test for free-fermionic spectra that uses only integer arithmetic: Frobenius cycle types modulo primes can prove that a spectrum is not free-fermionic, and an exact recovery of the single-particle data, certified by power sums, confirms it when it is. As a worked example, the test recovers Onsager's dispersion relation from the characteristic polynomial of the Ising transfer matrix. As applications, we prove that the periodic Fendley chain with generic couplings admits no free-fermion solution of the Chapman--Elman--Mann form for a range of sizes, bearing on whether a simplicial clique is necessary for free-fermion solvability, and we detect hidden tensor-product and matchgate structure in any basis. The Galois group grades spectral structure: hyperoctahedral for free fermions, symmetric on subsets with particle-number conservation, apparently imprimitive for the partially decoupled Bethe equations of the exclusion process, and alternating within sectors for the interacting models tested.",
+"authors": [
+"Shankar Sivarajan"
+],
+"categories": [
+"math-ph",
+"math.NT",
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00780v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00780v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00744",
+"title": "Half-line density and the structure of crystalline measures",
+"abstract": "Let µ be a crystalline measure on the real line. Both µand its Fourier transform are locally finite sums of point masses. We prove that µ is a finite sum of translated and modulated lattice Dirac combs if and only if its support and its spectrum each have finite lower linear density on at least one half-line. The two half-lines and the sequences of radii may be chosen independently. If the support of a nonzero measure has lower half-line density d<∞, then d is the infimum of the frequency widths of the nonzero exponential polynomials vanishing on the support. In particular, the number of atoms per unit interval is uniformly bounded. If µ is not a generalized Dirac comb, its spectrum contains at least (1/(2d2)−o(1))T2 points in every interval of length T, uniformly in the position of the interval as T →∞. The proof combines a spectral gap theorem with a finite difference equation for the spectral masses. For a prescribed set Λ of lower density d<∞on one half-line, we describe the space of measures with support and spectrum in Λ and prove the sharp upper bound ⌊d2⌋for its dimension.",
+"authors": [
+"Jamie Martin"
+],
+"categories": [
+"math.CA",
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2611.00744v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00744v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00748",
+"title": "Harmonic dyadic shifts and short sums of factorial divisors",
+"abstract": "Let $h(N)$ be the maximum, over $1\\le R\\le N$, of the least number of distinct positive divisors of a practical integer $N$ whose sum is $R$. We prove $h(n!)=O((\\log n)^9)$. The main ingredient is a finite entropy lemma. A law modulo $2^k$ with entropy at least $gL\\log 2$ in every $L$-bit lower prefix becomes supported on more than half the group after $O(g^{-2}(\\log k)^2)$ independent copies, each multiplied by an independently chosen power of two. The shift distribution is harmonic. A divisor-digit construction supplies $g\\asymp1/\\log k$ at linear factorial index. Positive quotient recursion, binary carrying, and a factorial radix then give the stated bound.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00748v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00748v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00764",
+"title": "Infinitely many decreases in the thresholds for sums of distinct powers",
+"abstract": "Let $T_k$ be the least integer such that every integer at least $T_k$ is a sum of distinct positive $k$th powers. We prove $T_k>T_{k+1}$ for infinitely many $k$. An upper estimate on degrees in every sufficiently large dyadic interval follows from cyclotomic recurrences, exact reduction of rational Fourier phases, and collision estimates for subset sums modulo reserved powers. A lower estimate on infinitely many other degrees follows from the shifted-prime divisor bound of Fan and Pollack. Comparing the two estimates rules out eventual monotonicity.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00764v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00764v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00750",
+"title": "Infinitely many exceptions to a prime-square representation problem of Erdős",
+"abstract": "We prove that infinitely many positive integers have no representation $n=ap^2+b$ with $p$ prime, $a\\geq1$, and $0\\leq b<p$. More precisely, the number of such integers in $(X,2X]$ is of order $X/\\log X$. The lower bound combines a positive-proportion avoidance estimate for large primes with first- and second-moment estimates for a short average of the small-prime sieve. A separated-frequency argument permits the large primes to be added in finitely many blocks. The small-prime moments have quadratic loss in the cutoff exponent, and a boundary estimate makes the large-prime avoidance stable under the averaging shifts.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00750v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00750v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00778",
+"title": "Matching order for Erdős problem 790",
+"abstract": "Let $\\ell(n)$ be the largest size of a subset guaranteed in every $n$-element set of integers in which no element is a sum of at least two distinct other elements. We give an upper bound of order $n/(\\log n)^2$ by propagating mixed averages through a layered construction and lifting repeated-summand relations to distinct summands. Together with Samuel Korsky’s lower bound, this gives matching upper and lower bounds. A linked Lean development proves the upper bound and matching order, with an independent statement bridge.",
+"authors": [
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Will Howe",
+"Liam Kruer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00778v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00778v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00741",
+"title": "Mixed character moments and a zero-free half-plane for unitary Hecke L-functions",
+"abstract": "We prove that for every number field K and every continuous unitary Hecke character ω, the function LK (s,ω) has no zeros in Re s>θ_G, where .8733326374459049352 <θ_G <.8733326374459051924. The same bound holds for Artin L-functions and for L-functions of finite-dimensional continuous unitary Weil representations. We estimate a mixed moment of two ordinary character sums with unequal lengths. Asecond Poisson summation in a signed correlation reduces the estimate to moments at a combined sextic character parameter. A differential equation describes the limiting range of the mixed moment and gives the optimal threshold within the specified reflected numerator comparison. We also determine the optimal saving for a centered cube-free sum in terms of the poles of a quotient of Hecke L-functions.",
+"authors": [
+"Baiying Liu"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00741v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00741v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00771",
+"title": "Monotone classes of bounded game chromatic number have bounded arboricity",
+"abstract": "In the coloring game on a finite graph, Alice and Bob alternately color uncolored vertices with one of $k$ colors so that adjacent vertices get different colors. Alice moves first and wins if every vertex gets colored; Bob wins if some uncolored vertex sees all $k$ colors among its neighbors. The game chromatic number of a graph is the least $k$ for which Alice can force a win. We prove that for every $K$ there is $d$ such that every graph of average degree at least $d$ has a subgraph on which Bob wins the $k$-color game for every $k\\le K$. Consequently, if a class of graphs is closed under taking subgraphs and its game chromatic numbers are bounded, then the edges of each of its graphs can be partitioned into a bounded number of forests, that is, the class has bounded arboricity. This answers Zhu's Question 3 (1999) in the affirmative. The proof combines the theorem of Kühn and Osthus that every graph of large enough average degree contains a subgraph of large average degree with no 4-cycle, with a strategy for Bob that adapts the weighting argument behind Beck's criterion for positional games: Bob uses weights to keep some uncolored vertex that can still be blocked from every color. The rest of the proof is checked in Lean, with the theorem of Kühn and Osthus as an explicit hypothesis. This work has not yet been reviewed by experts. The proofs, the Lean formalization and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00771v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00771v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00743",
+"title": "On several conjectures concerning p-adic continued fractions",
+"abstract": "Let $p$ be an odd prime and let $h\\ge2$ be even. If $(p,h)\\ne(3,2)$, infinitely many real and infinitely many imaginary quadratic fields have the form $\\mathbb Q(\\sqrt D)$, where $D$ is an integer whose $p$-adic square roots have least period $h$ under Browkin's second algorithm. For $(p,h)=(3,2)$, we give two radicands and bound all such radicands in terms of their preperiods. We prove eventual periodicity for quadratic inputs to the fourth algorithm of Wang and Deng at $p=5$ and to Yasutomi's simultaneous algorithm for real quadratic fields at $p=3$. The real approximation error after $n$ digits is $O(n^{-3})$ for Ruban's expansion of a quadratic irrational and for Schneider's expansion of a quadratic $p$-adic unit. For both Browkin algorithms and the alternating algorithm of Murru and Romeo, we determine the real and $p$-adic approximation exponents in terms of the reduced denominator for Haar-almost every input. The real limit is transcendental and has finite irrationality exponent. In each cubic field embedded in $\\mathbb Q_p$, a suitable generator gives eventual periodicity for every basis $1,x,y$ in a variant of the algorithm of Saito, Tamura and Yasutomi that computes the translation after inversion and row reduction. Computing the translation from the input gives nonperiodic expansions on a dense set of bases in every degree at least two. For the $p$-adic Jacobi–Perron algorithm we construct pairs of Liouville numbers on a rational line with infinite expansions that are not eventually periodic. We also prove an irreducibility conjecture for a sequence of polynomials arising from a Pell equation.",
+"authors": [
+"Tomislav Pejkovic"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00743v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00743v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00735",
+"title": "On the Monotonicity of the Speed of Biased Random Walks on GW Trees",
+"abstract": "On a Galton--Watson tree without leaves, the $\\lambda$-biased random walk $(X_n)$ chooses its next step with weight $\\lambda>0$ for the parent and weight one for each child. When $\\lambda $ strictly less than the mean offspring $m$, the walk is transient, with a positive speed $v(\\lambda): =\\lim_{n\\to\\infty}|X_n|/n.$ We study the monotonicity of $v(\\cdot)$, and prove that: \\begin{itemize} \\item If the GW tree has at least two children, then $v(\\cdot)$ is decreasing on $(0,m)$; \\item $v(\\cdot)$ is decreasing on $(0,1) \\cup (\\frac{3+\\sqrt{5}}{2}, m)$. \\end{itemize} We also sketch a computer-assisted proof of strict decrease on $(0,m)$ using exact checks of about $750{,}000$ rational coefficients. The full proof appears in the companion GitHub version~\\cite{FullVersion}.",
+"authors": [
+"Heng Ma"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00735v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00735v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00729",
+"title": "Peaceable queens on boards of size 16 to 20",
+"abstract": "Let $a(n)$ be the largest $m$ such that $m$ white and $m$ black queens can be placed on an $n\\times n$ board with no queen attacking a queen of the other colour (OEIS A250000). The refereed literature and the OEIS gave $a(n)$ for $n\\le15$, and in 2026 Arevalo determined $a(16)$, $a(17)$ and $a(18)$ in an unrefereed, AI-assisted computational note. We prove $a(19)=52$ and $a(20)=58$, which were open, and we confirm $a(16)=37$, $a(17)=42$ and $a(18)=47$ independently, with two separately written programs. In each case $a(n)=\\lfloor7n^2/48\\rfloor$, so the constructions that Ainley gave in 1977 are optimal on these boards. The proof is computer-assisted. As in earlier work, we label each of the $6n-2$ lines of the board white or black, which turns the problem into maximising the smaller of two cell counts. Our new ingredient is the bound: for fixed rows and columns we bound that quantity by Lagrangian duality, and each Lagrangian subproblem is a minimum cut on the $4n-2$ diagonals. With symmetry breaking, the search for $n=20$ meets $5.7\\times10^{10}$ row/column labellings up to symmetry, and a single family of minimum cuts prunes every one of them. That search took 221.9 CPU hours, mostly on cloud machines. A second implementation repeats the whole search for every $n\\le18$. Orbit counts by Burnside's lemma confirm that every search is complete, and exact LP certificates and SAT proofs checked by drat-trim give further checks. As side results we find 26 and 5 inequivalent optimal configurations for $n=16$ and $n=17$ (OEIS A260680), and we confirm by computation that the $20\\times20$ and $22\\times22$ tori admit 51 and 64 queens of each colour but not more (A279405), values that also follow from Harries's exact formula for even tori.",
+"authors": [
+"Jason Davies"
+],
+"categories": [
+"math.CO",
+"math.OC",
+"cs.DM"
+],
+"link": "https://hexagonmath.org/abs/2611.00729v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00729v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00745",
+"title": "Planar rotators with Hadamard couplings",
+"abstract": "A complex Hadamard matrix $H$ of order $N$ can be read as a magnetic flux pattern on an array of $2N$ crossed superconducting wires, coupled by Josephson junctions, the Fourier matrix corresponding to the uniform field of Chandra, Ioffe and Sherrington. The glow of $H$, the law of $\\langle Hb,a\\rangle$ for random phase vectors $a,b$, determines the energy distribution of this system of planar rotators by real projection. We prove moment polynomiality for elementary abelian Fourier matrices, including Walsh matrices, and compute the moments through order 12 for all complex Hadamard matrices, in terms of flux harmonics. The leading high-temperature expansion of the pressure has universal Catalan coefficients, as for Haar unitary couplings. The ground states correspond to bistochastic forms with positive line sums, and we compute the edge asymptotics for $W_2,W_4$. With Villain bonds between neighboring wires and the junction coupling switched off, the Fourier 4th moment crosses over at correlation length $\\sqrt N$.",
+"authors": [
+"Teo Banica"
+],
+"categories": [
+"math.PR",
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00745v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00745v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00782",
+"title": "Recurring differences from overlapping arithmetic progressions",
+"abstract": "We give sufficient conditions for the signed differences occurring infinitely often in a set of natural numbers to have bounded gaps. The hypotheses use pairs of finite arithmetic progressions with coprime step quotients, positive normalized overlap, and bounded mutual distance. Bounded perturbations of the progressions are allowed. A finite circular-gap criterion gives the explicit bound $2gH+4C$, including equality at the overlap threshold. Exact centered pairs yield a finite-intersection theorem. Separated constructions realize these conditions at zero upper Banach density and give examples with no recurrent three-point pattern, no infinite arithmetic progression of recurrent differences, and infinitely many pairwise almost disjoint translates. Further examples describe the rational limiting threshold and the order of the quantitative gap bound.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00782v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00782v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00762",
+"title": "Size Ramsey numbers at high average degree",
+"abstract": "We prove that there is a function $f$ with $f(C)/C\\to\\infty$ such that every finite simple graph $G$ of positive order with $e(G)\\ge C v(G)$ satisfies $\\widehat{R}(G)>f(C)e(G)$ for all sufficiently large $C$. The estimate is uniform in the order, number of components, and component multiplicities of the target. The proof combines an entropy estimate for connected component types with adaptive sampling and sparse marks on intersections of host neighborhoods. Separate arguments handle targets with a narrow degree range and strongly unbalanced incidence targets. Dyadic degree reductions assemble the estimates without a loss depending on the number of degree scales.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00762v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00762v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00767",
+"title": "Small maximal integer Sidon sets by finite phase colorings",
+"abstract": "Every sufficiently large integer interval $\\{1,\\ldots,N\\}$ contains an inclusion-maximal Sidon set of size $O(N^{1/3})$. A quadratic seed supplies exact integer differences, and a periodically labeled family of anchors covers each relevant local window. Finite-dimensional bounds for affine sign patterns give a fixed alphabet of translates and a common periodic word. Two separated alphabets give Sidon, sum-free tags for all primes. The seed blocks every point outside two intervals of length $O(p^2)$ and the multiples of $p$, with $p\\asymp N^{1/3}$. A maximal completion adds only $O(p)$ elements. The linked Lean verification covers the original upper-bound target.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00767v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00767v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00766",
+"title": "Subexponential bounds for distinct-distance subsets",
+"abstract": "Let $f_d(n)$ be the least $m$ such that every set of $m$ points in $\\mathbb R^d$ contains $n$ points whose pairwise distances are all distinct. For every fixed $n\\ge3$ we prove $f_d(n)\\le2^{C_n\\sqrt d\\log_2(d+2)}$, which answers the subexponential-growth question in Erdős problem 1088. A rank–rectangle theorem gives a large rectangle on which a single row or column function describes the entries of a matrix covered by finitely many such functions. The proof uses hyperplane rounding and rank bounds. A geometric induction and successive halving of the affine dimension give the estimate. The pinned Lean source verifies the original subexponential target. The written manuscript supplies the sharper dependence on the number of types and retains its draft status.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00766v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00766v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00742",
+"title": "The $(3,4,\\infty)$ family of complex six-spheres. V. Complex fourfolds from the family",
+"abstract": "We construct compact complex fourfolds diffeomorphic, with their complex orientation, to $3\\mathbb{HP}^2\\#(-\\mathbb{HP}^2)$. They form a family of complex three-tori over $\\mathbb P^1$ with monodromy in $GL_6(\\mathbb Z)$: two multiple fibres, of multiplicities five and four, and one Kuhn cusp. Its periods come from the exterior square of the genus-two pencil $y^2=x^5+\\lambda^3x+\\lambda^4$. The family is parametrized exactly by the half-plane $\\operatorname{Im}\\xi>c_*$, where $c_*\\approx1.09454$ is minus the minimum of an explicit real-analytic period function. We compute the Hodge numbers, the tangent cohomology (the Kuranishi germ is smooth of dimension one) and the automorphism group $\\mathbb C\\times\\mathbb Z/2$, and we show that the family extends analytically across no boundary point of its parameter domain. We also construct a compact complex fourfold outside Fujiki's class $\\mathcal C$ as a small crepant resolution of a Weierstrass model, bimeromorphic to the fibre product of a complex six-sphere with an elliptic surface; give an effective classification of the integral monodromy data of this kind that yield three-connected eight-manifolds, all of which are diffeomorphic to $3\\mathbb{HP}^2\\#(-\\mathbb{HP}^2)$; and describe shifted fibre products of complex dimension five.",
+"authors": [
+"Floris Alderliefste"
+],
+"categories": [
+"math.CV",
+"math.AG",
+"math.GT",
+"math.DG"
+],
+"link": "https://hexagonmath.org/abs/2611.00742v2",
+"pdf": "https://hexagonmath.org/pdf/2611.00742v2",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00727",
+"title": "The Heawood family is not the complete list of excluded minors for Colin de Verdière invariant at most 5",
+"abstract": "We show that two intrinsically knotted graphs $G_1$ and $G_2$ with 23 edges, on 11 and 12 vertices, have Colin de Verdière invariant $\\mu=6$ and no minor in the Heawood family, the 78 graphs obtained from $K_7$ and $K_{3,3,1,1}$ by $\\Delta Y$- and $Y\\Delta$-transformations. So the Heawood family is not the complete list of excluded minors for $\\mu\\le5$, as van der Holst proposed; Mattman and Pavelescu stated this proposal as a conjecture and derived from it that $G_1$ and $G_2$ have $\\mu=5$. More precisely, either the common minor $H$ of $G_1$ and $G_2$, a 4-regular graph with 11 vertices and 22 edges, is an excluded minor for $\\mu\\le5$, or $G_1$ and $G_2$ both are. It follows that the following two conjectures of van der Holst cannot both hold: (a) a graph is 4-flat if and only if $\\mu\\le5$; (b) the Heawood family is the complete list of excluded minors for 4-flat graphs. The lower bound $\\mu\\ge6$ is proved by explicit matrices certified in interval and exact rational arithmetic, and the minor exclusion by exhaustive enumeration. This work has not yet been reviewed by experts. The proofs, the computer checks and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00727v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00727v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00734",
+"title": "The maximum likelihood degree of no-three-way interaction models",
+"abstract": "We prove that for all $I,J,K\\ge2$ the maximum likelihood degree of the no-three-way interaction model of $I\\times J\\times K$ contingency tables is \\[ (-1)^{(I-1)(J-1)}\\int\\beta(M_A)^K\\,d\\chi(A), \\] an integral with respect to the Euler characteristic over the $I\\times J$ matrices $A$ with nonzero entries modulo row and column scaling, where $\\beta(M_A)$ is the beta invariant of the matroid of the columns of $[\\Id_I\\mid A]$. By a theorem of Clarke, Ho\\c{s}ten, Kushnerchuk, and Oldekop, $\\beta(M_A)$ is the maximum likelihood degree of the independence model scaled by $A$. Closed forms were previously known only when one variable is binary, and the formula recovers them. For fixed $I$ and $J$ the maximum likelihood degree is an exponential polynomial in $K$; the coefficient of its largest base $\\binom{I+J-2}{I-1}$ is the maximum likelihood degree of the moduli space $X(I,I+J)$ of points in linearly general position, which counts solutions to the generalized scattering equations of Cachazo, Early, Guevara, and Mizera. The same argument for a generically scaled model expresses the degree of $\\mathcal M_{I,J,K}$ as an Euler-characteristic integral of products of beta invariants. For $3\\times3$ matrices the integral reduces to counting strata of line arrangements, and the maximum likelihood degree of the $3\\times3\\times K$ model is $26\\cdot6^K-60\\cdot5^K+36\\cdot4^K+6\\cdot3^K-9\\cdot2^K+1$; in particular the $3\\times3\\times3$ model has maximum likelihood degree $511$.",
+"authors": [
+"Shankar Sivarajan"
+],
+"categories": [
+"math.AG",
+"math.CO",
+"math.ST"
+],
+"link": "https://hexagonmath.org/abs/2611.00734v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00734v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00754",
+"title": "The sharp asymptotic for distinct multiples in an interval: a Lean formalization",
+"abstract": "Let $f(n)$ be the least nonnegative integer $h$ for which the open interval $(n,n+h)$ contains distinct integers $a_1,\\ldots,a_n$ satisfying $i\\mid a_i$. We give a complete Lean 4 formalization of $f(n)\\sim (\\sqrt{2}/e)n\\sqrt{\\log n}$. The formula was previously announced by David Turturean. The lower bound uses completely multiplicative weights, an exact convolution over powers of $2$ and $3$, and two inverse-exponential profiles. The upper bound constructs fractional matching weights from finite histograms of prime valuations. Explicit oscillation and stability estimates transfer the continuous transport identities to the integer divisibility graph.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00754v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00754v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00753",
+"title": "The sharp deficit in primitive signed reciprocal relations",
+"abstract": "Let $c(N)$ be the largest cardinality of a subset of $\\{1,\\ldots,N\\}$ admitting a signed reciprocal sum equal to zero with no nonempty proper zero subsum under the same signs. We prove $N-c(N)\\sim e^{-\\gamma}N\\log\\log\\log N/\\log\\log N$, where $\\gamma$ is Euler's constant. The construction joins divisor blocks along a path of primes and completes their reciprocal sum while avoiding those primes. For the converse, we prove a sharp harmonic bound for sets whose reciprocals have no nonempty zero subsum modulo an arbitrary integer. Exact rational representation in a dense sign class then turns this modular bound into a lower bound for the omitted denominators.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00753v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00753v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00777",
+"title": "The Square Maximizes the First Nonzero Steklov Eigenvalue Among Convex Quadrilaterals",
+"abstract": "We show that among all convex planar polygons of prescribed perimeter with at most four sides, the square uniquely maximizes the first positive Steklov eigenvalue. If $k \\in (0, \\pi/2)$ denotes the unique root of $\\tan k \\tanh k = 1$, then $L\\sigma_1(\\Omega) \\le 8k\\tanh k$, with equality if and only if $\\Omega$ is a square. By the quadrilateral isoperimetric inequality, the square also uniquely maximizes the area-normalized eigenvalue $\\sqrt{|\\Omega|}\\,\\sigma_1(\\Omega)$ in the same class. Our proof splits the four-dimensional moduli space of convex quadrilaterals into a neighborhood of the square and its complement. Near the square, a weighted combination of the two first Steklov eigenfunctions of the square produces a negative definite Rayleigh defect; its sign on an explicit parameter box is established via an exact degree-$22$ Taylor expansion in ball arithmetic together with an analytic Cauchy remainder estimate. Far from the square, a boundary-variance inequality along a diagonal reduces the remaining shapes to a compact region, which we cover by $940$ closed subboxes using affine and harmonic quadratic trial functions checked in outward-rounded integer interval arithmetic.",
+"authors": [
+"Lüwei Dong",
+"Sirui Yang",
+"Jintao Pan"
+],
+"categories": [
+"math.SP"
+],
+"link": "https://hexagonmath.org/abs/2611.00777v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00777v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00765",
+"title": "The three parts of Erdős Problem 12: counting functions and reciprocal sums",
+"abstract": "We give a unified account of the three numbered questions in Erdős Problem 12 for sets in which no element divides the sum of two distinct larger elements. The positive answer to the square-root counting question and the negative answer to a universal power-saving bound are prior AlphaProof Nexus results of Google DeepMind, presented here with attribution. For the reciprocal-sum question, the new argument proves that one absolute constant bounds the reciprocal sum for every such set, finite or infinite. It combines a restriction estimate for sifted integers, congruence restrictions on prime fibres, and a predictable sum over random prime-factor prefixes. A companion Lean development checks the three original questions and the uniform reciprocal bound.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00765v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00765v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00770",
+"title": "The Turán density of the tight five-cycle",
+"abstract": "The tight five-cycle is the three-uniform hypergraph whose edges are the five cyclically consecutive triples on five distinct vertices. We prove that its Turán density is $2\\sqrt3-3$. This answers the conjecture usually attributed to Mubayi and Rödl, explicitly stated by Mubayi, Pikhurko and Sudakov. Mubayi and Rödl's recursive construction gives the lower bound. The upper bound follows the reduction of Bodnár, León, Liu and Pikhurko, whose theorem concerns forbidding both the tight four-cycle and the tight five-cycle, or a tight cycle of length at least seven not divisible by three. We establish the two estimates needed for the five-cycle alone by exact rational certificates, using weighted link inequalities to include configurations containing a complete four-vertex hypergraph. We give the finite counting argument that turns the certificates into these estimates and then into the density bound. The whole proof, including this counting argument, is checked in Lean; its finite computations run as compiled code, so the check trusts Lean's compiler as well as its kernel. This work has not yet been reviewed by experts. The proofs, the Lean formalization and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00770v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00770v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00733",
+"title": "Two shapes of maximal degree 135 in the plane Jacobian problem: exclusion of the degree pairs (135,90) and (90,135) with corners (9,36) and (17/9,4)",
+"abstract": "In the list of Guccione, Guccione, Horruitiner and Valqui of the possible shapes of a counterexample to the plane Jacobian conjecture with degrees at most 150, two shapes have starting corner (9,36) and final corner (17/9,4): the standard (3,2)-pairs of degrees (135,90) and the standard (2,3)-pairs of degrees (90,135). We show that no such pair exists, when it is normalised as in Corollary 5.21 of Guccione-Guccione-Valqui. The two sides of the Newton polygon are described by the results of Guccione-Guccione-Valqui. In suitable polynomial coordinates the pair is confined to an explicit finite system of polynomial equations. Its leading part is a pair of polynomials of degrees 12 and 8 in one variable with 3 p3 q2' - 2 p3' q2 constant, which is unique up to the symmetries of the system and has rational coefficients; the remaining equations are then solved by three steps of linear algebra over Q, and the 29 compatibility conditions, polynomials in five unknowns, generate the unit ideal. The computation is exact and is reproduced by an ancillary script (SymPy, and Singular for one Groebner basis). All statements are proved relative to the cited results. Nothing in this note has been checked by a third party.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.00733v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00733v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00787",
+"title": "Two smooth summands for every large integer",
+"abstract": "For every $\\varepsilon>0$, every sufficiently large integer $N$ is a sum of two positive integers all of whose prime factors are at most $N^\\varepsilon$. We prove this smooth-summand conjecture of Erdős using weighted dilation graphs, a uniform character-energy estimate, and a positive marked principal term.",
+"authors": [
+"Will Howe",
+"Grant Huffman",
+"Jensen Kohlmeyer",
+"Liam Kruer"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00787v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00787v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00772",
+"title": "Vertex-critical four-chromatic graphs with no small critical edge set",
+"abstract": "For every positive integer $r$, we construct a finite four-chromatic graph such that deleting any vertex lowers the chromatic number, and deleting any set of at most $r$ edges preserves it. The proof combines punctured cyclic three-colorings, an integral height character, an Andrásfai winding bound, and a Chinese remainder construction with an exact classification of its small-deficit characters. Together with the higher-color result of Skottová and Steiner, this gives finite existence for every chromatic number at least four. The accompanying Lean formalization checks the finite-existence theorem.",
+"authors": [
+"Liam Kruer",
+"Jensen Kohlmeyer"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00772v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00772v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
