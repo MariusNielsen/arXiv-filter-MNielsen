@@ -1,6 +1,6 @@
 {
 "day": "2026-11-21",
-"updated": "2026-11-21T15:19:16+00:00",
+"updated": "2026-11-21T16:55:18+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -9,6 +9,29 @@
 "math.RT"
 ],
 "papers": [
+{
+"pid": "hexagon:2611.00800",
+"title": "Holes and Islands of Visible Points on the Triangular Lattice: Midpoint Bond Graphs and Prime-Sieve Bounds",
+"abstract": "For the induced complex on primitive integer pairs in a triangular lattice, we identify first homology with interior components of a half-scale midpoint bond graph. Its complementary planar dual has the visible-site graph as its line graph, giving a bijection between finite visible islands and bounded nonsingleton dual faces. In particular the hole density $h$ is a local Euler-product term plus the island density $b_0$: $h=3J_2-2J_3-J_1+b_0$, with $J_j=\\prod_p(1-j/p^2)$. Each odd prime produces a matching, two primes produce a small forest, and diameter exclusion bounds cycle birth. We refine the bounds by retaining the actual earlier prime sieve at each step. A computer-assisted certificate, including a nonnegative coverage recurrence for islands, yields $0.10917978<h<0.10923225$. A separate length-six finite-path CRT method gives $h>0.10914952$, still below the island certificate, and an exact decomposition distinguishes old-component chords from cycles born among new cross-component bonds. Assuming the random-coprime nonpercolation theorem of Le Fourn--Liu--Martineau, the relative cycle increment of a new prime converges to a conditional connection probability. The planar correspondences, density existence, and numerical bounds do not require this probabilistic input.",
+"authors": [
+"Sabah Noori Jihad"
+],
+"categories": [
+"math.NT",
+"math.AT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00800v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00800v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 4,
+"reasons": [],
+"watched_authors": []
+},
 {
 "pid": "hexagon:2611.00793",
 "title": "A base-r simplex that is not Ehrhart positive",
@@ -140,6 +163,27 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00797",
+"title": "A four-dimensional 4-reptile simplex",
+"abstract": "A $d$-dimensional simplex is a $k$-reptile if it can be tiled by $k$ mutually congruent simplices similar to it. Matoušek and Safernová conjectured that for $d\\ge3$ a $k$-reptile $d$-simplex exists only when $k=m^d$ for an integer $m$, and proved this for $d=3$. Kynčl and Patáková proved that in dimension four $k$ must be a square, noted that every $k$-reptile simplex known in dimension $d\\ge3$ has $k=m^d$, and asked whether a four-dimensional $k$-reptile simplex exists with $k$ a square but not a fourth power. We show that the simplex with vertices $(0,0,0,0)$, $(1,0,0,0)$, $(\\tfrac12,\\tfrac12,0,0)$, $(\\tfrac23,\\tfrac13,\\tfrac13,0)$ and $(\\tfrac34,\\tfrac14,\\tfrac14,\\tfrac14)$, the fundamental alcove of the affine Weyl group of type $F_4$, is a $4$-reptile: it is tiled by four congruent copies of itself scaled by $1/\\sqrt2$, two of them mirror images. This answers the question of Kynčl and Patáková with $k=4$ and disproves the conjecture of Matoušek and Safernová in dimension four. The subdivision itself is due to Felikson and Tumarkin, who found in 2004 that the affine reflection group of type $F_4$ has a reflection subgroup of index $4$ whose fundamental simplex is similar to the alcove. What we add is the observation that this settles the reptile question, a short direct proof of the tiling, and exact computer checks of it. This work has not yet been reviewed by experts. The proofs, the computer checks and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00797v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00797v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
@@ -538,6 +582,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00795",
+"title": "Combinatorial periods of asymmetric billiard trajectories in the regular pentagon",
+"abstract": "We prove that every even integer other than $2$, $12$, $14$ and $18$ is the combinatorial period, the number of bounces before repeating, of a periodic billiard trajectory in the regular pentagon that does not have five-fold rotational symmetry. Davis and Lelièvre conjectured this in 2018 and checked it up to period $4000$, and Kontorovich and Zhang proved it for almost every even number. As they explain, a theorem of Davis, Fuchs and Tabachnikov turns the question into one about vectors. Each vector $(a+b\\varphi,c+d\\varphi)$ obtained from $(0,1)$ by products of four explicit $2\\times2$ matrices, where $\\varphi$ is the golden ratio and $a,b,c,d$ are integers, has the half-period $\\ell=a+b+c+d$, and when a congruence modulo $5$ holds it gives such a trajectory of period $n=2\\ell$. Varying the power of one of the two triangular matrices in such a product gives half-periods in an arithmetic progression. We give $379$ of these progressions, which together contain every half-period $\\ell\\ge2$ except nine values. Six of the nine come from explicit trajectories checked in exact arithmetic; the other three are halves of excluded periods. The covering argument is checked in Lean, assuming the cited theorem. Whether the four excluded periods occur is not treated. This work has not yet been reviewed by experts. The proofs, the Lean formalization and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.DS",
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00795v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00795v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00739",
 "title": "Common Periodic Points of Commuting Interval Maps",
 "abstract": "We construct pairs of commuting continuous self-maps of the compact interval with disjoint periodic-point sets. More precisely, every finite union of sets of positive multiples, including the empty union, is the set of integers n for which two commuting nth iterates have a common fixed point. In the other direction, we show that if either generator has zero topological entropy, the generators act as mutually inverse cyclic permutations on a common finite orbit. We also establish a common fixed-point theorem for two commuting maps that are each monotone on a finite partition, with constant pieces allowed.",
@@ -878,6 +944,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00798",
+"title": "Hooley's twisted cancellation below level $4/15$ does not force primes",
+"abstract": "We work in Ford and Maynard's framework for sieve problems with Type I and Type II information. To Type I information at level $1/2$ and Type II information for factors up to $x^\\nu$, we add Hooley's condition: the parity bias of the sequence in arithmetic progressions is small on average over moduli up to $x^\\alpha$. We construct prime-free sequences that satisfy all three for every Type II range $\\nu < 1/30$ and every twisted level $\\alpha < 4/15$, and strictly below each of four further corners $(\\eta, \\alpha')$ of a staircase in the $(\\nu, \\alpha)$-plane, from $(1/11, 1/10)$ to $(1/20, 1/5)$, that is, for every $\\nu < \\eta$ and every $\\alpha < \\alpha'$. The constructions add to Ford and Maynard's continuum model one function of the total size of the small prime factors for each number of them; these functions solve the twisted conditions exactly. Each case rests on a computer-assisted certificate in exact or directed-rounding integer arithmetic. Independent audits read the certificates' code for every case except $(1/11, 1/10)$ and $(1/14, 1/8)$, whose certificates had an independent review of their formulas and inputs but not of their code. The cases $(1/11, 1/10)$, $(1/14, 1/8)$ and $(1/30, 4/15)$ each rest on a single implementation. Conversely, the term $d = 1$ of Hooley's condition, global parity balance, already forces a positive proportion of primes once $\\nu \\ge 0.116$. For $\\alpha > 1/3$ we exhibit twisted rows that the added functions cannot enter, and we conjecture, on floating-point evidence, that constructions of exactly this form cannot pass $\\alpha = 1/3$ (Conjecture 8.2). We also record what the constructions imply for sieve approaches to Goldbach's problem.",
+"authors": [
+"Wren Aquila"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00798v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00798v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00764",
 "title": "Infinitely many decreases in the thresholds for sums of distinct powers",
 "abstract": "Let $T_k$ be the least integer such that every integer at least $T_k$ is a sum of distinct positive $k$th powers. We prove $T_k>T_{k+1}$ for infinitely many $k$. An upper estimate on degrees in every sufficiently large dyadic interval follows from cyclotomic recurrences, exact reduction of rational Fourier phases, and collision estimates for subset sums modulo reserved powers. A lower estimate on infinitely many other degrees follows from the shifted-prime divisor bound of Fan and Pollack. Comparing the two estimates rules out eventual monotonicity.",
@@ -1148,6 +1235,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00802",
+"title": "Separate fits and joint compatibility in heterogeneous coverage: finite-label models with shared calibration",
+"abstract": "Two preparation experiments can each fit a heterogeneous coverage model and still fail a shared-environment explanation. We characterize joint compatibility for finite-label probability representations with half-step source probes and pointwise calibration error. Absolute weaker-source void probabilities require the weighted calibration marginals to share mass at least $\\kappa=(\\beta_1+\\beta_2-1)_+$. Combining this observed budget with exposure moments and a shared calibration band gives an exact criterion for the closure of the representation. A deterministic-anchor example requires error radius $0.10376$ for separate fits and $0.33048$ for joint compatibility. On an explicit three-moment family, matching bounds identify the first-order heterogeneous coefficient $\\sqrt\\kappa$; four environments preserve the anchors and give second-order stability of the minimum radius over unknown centers. A calibration-preserving moment repair and response-opening geometry yield sharp local inverse bounds with unknown, unequal group masses and first anchors. For prescribed mass and standard-deviation envelopes $p_n,h_n$ with $h_n^2\\le bp_n$, the matching radius-estimation risk is $\\min\\{1,[n^{-1/2}+\\min(h_n,n^{-1/4})]/p_n\\}$. Uniform consistency has a corresponding two-scale necessary and sufficient criterion. Unknown envelopes introduce distinct adaptation costs. An interval honest over the full envelope union has matching expected diameter $\\min\\{1,n^{-1/4}/p_n\\}$ even on the deterministic subclass. Under uniform protection of the deterministic regular risk, point estimators pay a sharp logarithmic cost elsewhere: one scale-free thresholded projection attains $\\min\\{1,[n^{-1/2}+\\min(h_n,(\\log(en)/n)^{1/4})]/p_n\\}$, and a constrained-risk lower bound matches it. The larger mass-unrestricted moment class admits no uniformly consistent radius estimator. Simultaneous Bernoulli confidence events also give finite-sample compatibility certificates.",
+"authors": [
+"HUANG Man"
+],
+"categories": [
+"math.ST",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00802v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00802v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00762",
 "title": "Size Ramsey numbers at high average degree",
 "abstract": "We prove that there is a function $f$ with $f(C)/C\\to\\infty$ such that every finite simple graph $G$ of positive order with $e(G)\\ge C v(G)$ satisfies $\\widehat{R}(G)>f(C)e(G)$ for all sufficiently large $C$. The estimate is uniform in the order, number of components, and component multiplicities of the target. The proof combines an entropy estimate for connected component types with adaptive sampling and sparse marks on intersections of host neighborhoods. Separate arguments handle targets with a narrow degree range and strongly unbalanced incidence targets. Dyadic degree reductions assemble the estimates without a loss depending on the number of degree scales.",
@@ -1244,6 +1353,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00796",
+"title": "The Heawood family is not the complete list of excluded minors for 4-flat graphs",
+"abstract": "A graph is 4-flat if the complex obtained by filling every simple cycle with a separate disk embeds piecewise linearly in four-dimensional space. The Heawood family consists of 78 graphs obtained from $K_7$ and $K_{3,3,1,1}$ by triangle–star and star–triangle transformations. Van der Holst proved that these graphs are not 4-flat; Georgakopoulos and Winter completed the proof that all 78 are excluded minors and conjectured that there are no other excluded minors for 4-flatness. We show that the known eleven-vertex, twenty-two-edge graph $H$ is not 4-flat and has no Heawood-family minor, resolving the completeness question negatively. Mattman and Pierce found by computer search that every proper minor of $H$ is 2-apex; this implies that $H$ itself is a further excluded minor. Mattman and Pierce found $H$, subsequently studied by Kim and Mattman. An earlier paper by the author proved that its one-edge extension $G_1$ has Colin de Verdière invariant 6 and no Heawood-family minor. This made 4-flatness completeness incompatible with van der Holst's proposed equivalence between 4-flatness and invariant at most 5. The new step is an explicit mod-two deleted-product cycle with invariant one. Van der Holst and Pendavingh's obstruction theorem therefore excludes an even map, and hence an embedding, of a cycle subcomplex of $H$ into four-dimensional space. Two separately written exact implementations evaluate the certificate, using moment-curve intersections and the recursive cellular invariant, respectively. This work has not yet been reviewed by experts. The proofs, the computer checks and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.CO",
+"math.GT"
+],
+"link": "https://hexagonmath.org/abs/2611.00796v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00796v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00727",
 "title": "The Heawood family is not the complete list of excluded minors for Colin de Verdière invariant at most 5",
 "abstract": "We show that two intrinsically knotted graphs $G_1$ and $G_2$ with 23 edges, on 11 and 12 vertices, have Colin de Verdière invariant $\\mu=6$ and no minor in the Heawood family, the 78 graphs obtained from $K_7$ and $K_{3,3,1,1}$ by $\\Delta Y$- and $Y\\Delta$-transformations. So the Heawood family is not the complete list of excluded minors for $\\mu\\le5$, as van der Holst proposed; Mattman and Pavelescu stated this proposal as a conjecture and derived from it that $G_1$ and $G_2$ have $\\mu=5$. More precisely, either the common minor $H$ of $G_1$ and $G_2$, a 4-regular graph with 11 vertices and 22 edges, is an excluded minor for $\\mu\\le5$, or $G_1$ and $G_2$ both are. It follows that the following two conjectures of van der Holst cannot both hold: (a) a graph is 4-flat if and only if $\\mu\\le5$; (b) the Heawood family is the complete list of excluded minors for 4-flat graphs. The lower bound $\\mu\\ge6$ is proved by explicit matrices certified in interval and exact rational arithmetic, and the minor exclusion by exhaustive enumeration. This work has not yet been reviewed by experts. The proofs, the computer checks and the text were produced by AI models, working under the author's direction.",
@@ -1281,6 +1412,28 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-20",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00799",
+"title": "The Riemann hypothesis for Dirichlet L-functions [after Levent Alpöge]",
+"abstract": "A reader's guide to L. Alpöge's Lean 4 formalization, announced on 20 November 2026, of the Riemann hypothesis for $\\zeta$ and for every Dirichlet $L$-function. It states in ordinary notation the five theorems of the archive's Main.lean, then follows the chain of declarations behind them. The chain runs through the reduction to an inequality that excludes zeros to the right of $\\frac12$, the analytic argument through ramp sums and Landau's theorem on windows, the origin of that inequality, and a bound for Tate–Shafarevich groups of Tate twists. The guide compares the classical inputs with their archive forms and sets Alpöge's twenty dated steps against the chain. The theorems and their proofs are Alpöge's, and the guide is a reading of his archive. A. Sutherland has compiled the archive and reports that Lean's kernel and two independent kernels accept it.",
+"authors": [
+"Manvir Jaswal"
+],
+"categories": [
+"math.NT",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00799v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00799v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,

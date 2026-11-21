@@ -4,6 +4,32 @@
  ],
  "feed": [
   {
+   "day": "2026-11-21",
+   "paper": {
+    "abstract": "For the induced complex on primitive integer pairs in a triangular lattice, we identify first homology with interior components of a half-scale midpoint bond graph. Its complementary planar dual has the visible-site graph as its line graph, giving a bijection between finite visible islands and bounded nonsingleton dual faces. In particular the hole density $h$ is a local Euler-product term plus the island density $b_0$: $h=3J_2-2J_3-J_1+b_0$, with $J_j=\\prod_p(1-j/p^2)$. Each odd prime produces a matching, two primes produce a small forest, and diameter exclusion bounds cycle birth. We refine the bounds by retaining the actual earlier prime sieve at each step. A computer-assisted certificate, including a nonnegative coverage recurrence for islands, yields $0.10917978<h<0.10923225$. A separate length-six finite-path CRT method gives $h>0.10914952$, still below the island certificate, and an exact decomposition distinguishes old-component chords from cycles born among new cross-component bonds. Assuming the random-coprime nonpercolation theorem of Le Fourn--Liu--Martineau, the relative cycle increment of a new prime converges to a conditional connection probability. The planar correspondences, density existence, and numerical bounds do not require this probabilistic input.",
+    "ai_mode": "mixed",
+    "announce": "new",
+    "authors": [
+     "Sabah Noori Jihad"
+    ],
+    "categories": [
+     "math.NT",
+     "math.AT",
+     "math.CO"
+    ],
+    "date": "2026-11-21",
+    "link": "https://hexagonmath.org/abs/2611.00800v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2611.00800v1",
+    "pid": "hexagon:2611.00800",
+    "reasons": [],
+    "source": "hexagon",
+    "tier": 4,
+    "title": "Holes and Islands of Visible Points on the Triangular Lattice: Midpoint Bond Graphs and Prime-Sieve Bounds",
+    "watched": []
+   }
+  },
+  {
    "day": "2026-11-20",
    "paper": {
     "abstract": "The class $x_{153,3}$ lies in stable degree $153$ and filtration $3$ on the algebraic starting page of the $3$-primary Adams--Novikov spectral sequence of the sphere. We show that it survives and begins a family with period $144$, answering both parts of a question of Carrick and Davies. A comparison with periodic topological modular forms and a bound on the possible differential targets prove permanence. A divisibility calculation for the mod-$3$ Moore spectrum supplies a lift to a finite spectrum with a degree-$144$ self-map. The resulting iterates have nonzero image in the height-two detector of Carrick and Davies.",
@@ -4905,225 +4931,29 @@
  ],
  "hexagon_since": "2026-11-21",
  "last_page": {
-  "day": "2026-11-20",
+  "day": "2026-11-21",
   "papers": [
    {
-    "abstract": "We prove that the homology of symplectic groups with Steinberg module coefficients forms a comodule algebra over the homology of general linear groups with Steinberg module coefficients. We prove a freeness-type result for comodule algebras. We deduce new lower bounds for the high-dimensional cohomology of symplectic groups of number rings and their congruence subgroups.",
-    "ai_mode": "",
+    "abstract": "For the induced complex on primitive integer pairs in a triangular lattice, we identify first homology with interior components of a half-scale midpoint bond graph. Its complementary planar dual has the visible-site graph as its line graph, giving a bijection between finite visible islands and bounded nonsingleton dual faces. In particular the hole density $h$ is a local Euler-product term plus the island density $b_0$: $h=3J_2-2J_3-J_1+b_0$, with $J_j=\\prod_p(1-j/p^2)$. Each odd prime produces a matching, two primes produce a small forest, and diameter exclusion bounds cycle birth. We refine the bounds by retaining the actual earlier prime sieve at each step. A computer-assisted certificate, including a nonnegative coverage recurrence for islands, yields $0.10917978<h<0.10923225$. A separate length-six finite-path CRT method gives $h>0.10914952$, still below the island certificate, and an exact decomposition distinguishes old-component chords from cycles born among new cross-component bonds. Assuming the random-coprime nonpercolation theorem of Le Fourn--Liu--Martineau, the relative cycle increment of a new prime converges to a conditional connection probability. The planar correspondences, density existence, and numerical bounds do not require this probabilistic input.",
+    "ai_mode": "mixed",
     "announce": "new",
     "authors": [
-     "Jeremy Miller",
-     "Urshita Pal",
-     "Peter Patzt"
+     "Sabah Noori Jihad"
     ],
     "categories": [
+     "math.NT",
      "math.AT",
-     "math.KT",
-     "math.NT"
+     "math.CO"
     ],
-    "date": "2026-11-20",
-    "link": "https://arxiv.org/abs/2611.25190",
+    "date": "2026-11-21",
+    "link": "https://hexagonmath.org/abs/2611.00800v1",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.25190",
-    "pid": "2611.25190",
-    "reasons": [
-     "title: comodule"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "Comodule algebras and the cohomology of symplectic groups",
-    "watched": []
-   },
-   {
-    "abstract": "The class $x_{153,3}$ lies in stable degree $153$ and filtration $3$ on the algebraic starting page of the $3$-primary Adams--Novikov spectral sequence of the sphere. We show that it survives and begins a family with period $144$, answering both parts of a question of Carrick and Davies. A comparison with periodic topological modular forms and a bound on the possible differential targets prove permanence. A divisibility calculation for the mod-$3$ Moore spectrum supplies a lift to a finite spectrum with a degree-$144$ self-map. The resulting iterates have nonzero image in the height-two detector of Carrick and Davies.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Zheyan Wan"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-11-20",
-    "link": "https://arxiv.org/abs/2611.26621",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.26621",
-    "pid": "2611.26621",
-    "reasons": [
-     "title: stable stems",
-     "abstract: adams-novikov"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "Permanence and $144$-periodicity of $x_{153,3}$ in the stable stems at the prime three",
-    "watched": []
-   },
-   {
-    "abstract": "Let $R$ be a perfect $\\mathbb F_p$-algebra or a nonzero $p$-torsionfree perfectoid ring and $p$ be an arbitrary prime number. We compute the $RO(C_{p^n})$-graded Tambara functor of $\\operatorname{THH}(R;\\mathbb Z_p)$ for every $n\\ge0$, including all homotopy groups, products, restrictions, transfers, Weyl actions and norms. We also compute genuine cyclotomic restriction.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Dongming Zhang"
-    ],
-    "categories": [
-     "math.AT",
-     "math.KT"
-    ],
-    "date": "2026-11-20",
-    "link": "https://arxiv.org/abs/2611.26155",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.26155",
-    "pid": "2611.26155",
-    "reasons": [
-     "title: thh"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "The $RO(C_{p^n})$-graded Tambara functor of perfectoid THH",
-    "watched": []
-   },
-   {
-    "abstract": "We construct a homotopy coherent product structure extending the Chas-Sullivan product on chains of the free loop space of a manifold. Our construction uses the framework of Morse homology with DG coefficients and perturbed Morse gradient trees. We define an operad given by moduli spaces of Morse gradient trees with a twisted differential. This Morse tree operad receives a map from a suspended A$\\infty$-operad and in turn acts on Morse homology with DG coefficients associated to a fibration over a manifold with a fibrewise monoidal structure.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Jonathan Clivio (IRMA)",
-     "Robin Riegel (IRMA)"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-11-20",
-    "link": "https://arxiv.org/abs/2611.25890",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.25890",
-    "pid": "2611.25890",
-    "reasons": [
-     "abstract: infinity-operad"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "An A $\\infty$ -algebra structure for enriched Morse complexes",
-    "watched": []
-   },
-   {
-    "abstract": "We show that the rational compactly supported cohomology of the moduli space $\\mathcal{A} = \\bigsqcup_{g \\geq 0} \\mathcal{A}_g$ of principally polarized abelian varieties is free as a bigraded module over the Hopf algebra formed by its weight-zero subspace. The action arises from a symplectic analog of the Waldhausen $S$-construction. This structure yields new lower bounds for Betti numbers and the dimensions of the graded pieces of the weight filtration on the cohomology of $\\mathcal{A}_g$. In particular, $\\dim H_c^{2g + k}(\\mathcal{A}_g)$ grows at least exponentially with $g$ for every nonnegative $k \\neq 1, 3$. We also give conjectural descriptions of the full mixed Hodge structures in genera four and five, and of mixed Tate subquotients of $H_c^{2g}(\\mathcal{A}_g)$ associated with shuffle algebras and multiple zeta values in every genus.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Urshita Pal",
-     "Sam Payne"
-    ],
-    "categories": [
-     "math.AG",
-     "math.AT",
-     "math.KT",
-     "math.NT"
-    ],
-    "date": "2026-11-20",
-    "link": "https://arxiv.org/abs/2611.25187",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.25187",
-    "pid": "2611.25187",
+    "pdf": "https://hexagonmath.org/pdf/2611.00800v1",
+    "pid": "hexagon:2611.00800",
     "reasons": [],
-    "source": "arxiv",
+    "source": "hexagon",
     "tier": 4,
-    "title": "A Hopf algebra action on the cohomology of moduli of abelian varieties",
-    "watched": []
-   },
-   {
-    "abstract": "We introduce the determinant Massey product, a secondary operation on the cohomology of commutative dg algebras which is reminiscent of the classical Massey product. We prove some of the elementary properties of this product, compute several examples, and relate them to classical and matric Massey products. When 2 is invertible, a determinant Massey product is a matric Massey product, but over $\\mathbb F_2$, it is not. In this case, we produce a finite-dimensional cdga whose Harrison cohomology does not inject into its Hochschild cohomology, and a divided powers algebra which is formal as an associative dg algebra, but not as a commutative one, with an explicit determinant Massey product witnessing the failure. Over $\\mathbb Q$, we use determinant Massey products to construct a simply-connected coformal space with Koszul cohomology ring and vanishing ordinary Massey products of all orders, which is not formal.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Ois\\'in Flynn-Connolly",
-     "Jos\\'e M. Moreno-Fern\\'andez",
-     "Fernando Muro"
-    ],
-    "categories": [
-     "math.AT",
-     "math.KT",
-     "math.RA"
-    ],
-    "date": "2026-11-20",
-    "link": "https://arxiv.org/abs/2611.25690",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.25690",
-    "pid": "2611.25690",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Determinant Massey products",
-    "watched": []
-   },
-   {
-    "abstract": "Let $X$ be a connected finite-type CW-complex with a map to the circle that is surjective on fundamental groups. If $X$ is formal, the algebraic monodromy of the associated infinite cyclic cover has no Jordan block of size greater than one at the eigenvalue 1, over the rationals; if the $d$-fold cyclic cover of $X$ along the map is formal, the same holds at every $d$-th root of unity. We study how formality of finite abelian covers and Jordan blocks of the monodromy constrain each other. We call $X$ Alexander formal if there are no such blocks at any root of unity, rationally, nor at the eigenvalue 1 modulo any prime $p$. Each condition amounts to the vanishing of certain Massey products along the class of the map; together they say that the rational cochains of every finite cyclic cover along the map, and the mod-$p$ cochains of $X$, are formal as DG modules over the cohomology of the circle. For the complement of a central hyperplane arrangement, with its Milnor fibration, Alexander formality holds exactly when the numbers of hyperplanes in its irreducible factors have no common divisor greater than 1; so the complement of an irreducible arrangement of two or more hyperplanes is never Alexander formal, although it is formal.\n  On the side of covers, we show that a CDGA graded by an abelian group, over a field of characteristic zero in which the characters of the group separate its points, is formal if and only if it is formal as a graded CDGA. Consequently, the strong formality of Kohno and Pajitnov implies formality of every finite abelian cover of $X$; the converse fails, through a Jordan block at an eigenvalue of infinite order, which no finite cover detects. Modulo $p$, eigenvalues of $p$-power order collide with 1, producing Jordan blocks that strong formality allows. The two conditions are incomparable; all four resulting classes contain arrangement complements.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Alexander I. Suciu"
-    ],
-    "categories": [
-     "math.AT",
-     "math.AG"
-    ],
-    "date": "2026-11-20",
-    "link": "https://arxiv.org/abs/2611.25421",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.25421",
-    "pid": "2611.25421",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Formality of finite abelian covers and Jordan blocks of the monodromy",
-    "watched": []
-   },
-   {
-    "abstract": "Persistence diagrams are widely used in topological data analysis to summarize topological and geometric structure in data. We study nonparametric regression where inputs are persistence diagrams and outputs are real-valued. Using kernel-based local averaging estimators defined directly over diagram space with Wasserstein distance, we establish consistency and derive bounds on the rate of convergence under suitable assumptions in the $L^2$-theory. We also present computational experiments that demonstrate strong performance of the proposed estimator, particularly in low data regimes.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Saksham Aggarwal",
-     "James Nichols",
-     "Katharine Turner"
-    ],
-    "categories": [
-     "math.ST",
-     "math.AT",
-     "stat.TH"
-    ],
-    "date": "2026-11-20",
-    "link": "https://arxiv.org/abs/2611.25295",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.25295",
-    "pid": "2611.25295",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Kernel Regression using Persistence Diagrams",
-    "watched": []
-   },
-   {
-    "abstract": "We show that Morse representations can be algebraically described by spectral systems, a notion introduced by B. Matschke for poset-filtered chain complexes. This provides an algebraic alternative to connection matrices and yields algebraic invariants via R-modules over an arbitrary ring R. This approach applies in particular to Conley index theory for semi-flows. We discuss the theory of spectral systems and, as an application to dynamical systems, explain the relation to R. Franzosa's theory of connection matrices. In this context we introduce the concept of a spectral net. In contrast to traditional spectral sequences, spectral nets over a lattice display a rich network of (higher) differentials. In the application to dynamical systems these differentials provide information about connecting orbits.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Samuel Castelo-Mourelle",
-     "Robert Vandervorst"
-    ],
-    "categories": [
-     "math.DS",
-     "math.AT"
-    ],
-    "date": "2026-11-20",
-    "link": "https://arxiv.org/abs/2611.24966",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.24966",
-    "pid": "2611.24966",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Lattice-ordered Spectral Systems for Morse Representations",
+    "title": "Holes and Islands of Visible Points on the Triangular Lattice: Midpoint Bond Graphs and Prime-Sieve Bounds",
     "watched": []
    }
   ]
@@ -9486,6 +9316,13 @@
   "hexagon:2611.00792": "2026-11-21",
   "hexagon:2611.00793": "2026-11-21",
   "hexagon:2611.00794": "2026-11-21",
+  "hexagon:2611.00795": "2026-11-21",
+  "hexagon:2611.00796": "2026-11-21",
+  "hexagon:2611.00797": "2026-11-21",
+  "hexagon:2611.00798": "2026-11-21",
+  "hexagon:2611.00799": "2026-11-21",
+  "hexagon:2611.00800": "2026-11-21",
+  "hexagon:2611.00802": "2026-11-21",
   "math/0111031": "2026-10-27",
   "math/0702082": "2026-10-22"
  }
