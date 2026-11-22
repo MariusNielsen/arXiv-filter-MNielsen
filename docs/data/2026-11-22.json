@@ -1,0 +1,481 @@
+{
+"day": "2026-11-22",
+"updated": "2026-11-22T12:41:27+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2611.00829",
+"title": "Hecke calculations for the conditional vanishing of $K_{4k}(\\mathbb{Z})$ through degree 104",
+"abstract": "In degree 104, two rank-324 Hecke operators over $\\mathbb{Q}(\\sqrt{-3})$, together with classical tests, leave four candidate primes. An integer evaluation matrix of rank 2,925 constructed using $\\mathbb{Q}(\\sqrt{-7})$ has determinant coprime to their product. Together with the certificates for earlier degrees, these computations imply $K_{4k}(\\mathbb{Z})=0$ for $1\\le k\\le26$, assuming the strict Selmer comparison, coverage of the admissible representations, and a simultaneous residual trace condition. The supplement contains the matrices or their generators, exact residues, and replay code.",
+"authors": [
+"Leo Pintar"
+],
+"categories": [
+"math.KT",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00829v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00829v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 5,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00809",
+"title": "A preliminary note on Alpöge's proposed proof of the generalized Riemann hypothesis",
+"abstract": "The main purpose of this preliminary report is to begin looking for some of the sources, provenance, and mathematical history behind the proposed proof of the generalized Riemann hypothesis announced by Levent Alp\\\"{o}ge using a Claude model. The mathematics involved reflects many lifetimes of work, so I would like to recognize as many as possible of the people whose work may have contributed to it: the mathematicians working today, our teachers, and all of our predecessors. This is only a beginning, and I apologize for all the people, papers, and other contributions I may have missed.",
+"authors": [
+"Robin Zhang"
+],
+"categories": [
+"math.NT",
+"math.AG",
+"math.HO",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00809v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00809v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00819",
+"title": "A Stochastic Molecular Mechanism for the Thermodynamic Arrow of Time: Least Action, Equilibrium, and Dissipative Variational Dynamics",
+"abstract": "How macroscopic irreversibility emerges from time-reversible Hamiltonian dynamics remains one of the deepest foundational problems in theoretical physics. The difficulty is structural, not technical. Microscopic equations of motion conserve phase-space volume and obey strict time-reversal invariance. Under the Poincaré recurrence theorem, nearly every trajectory returns arbitrarily close to its initial state; moreover, unitary (quantum) or Liouvillian (classical) evolution preserves relative entropy with respect to any invariant measure. Consequently, ensemble averaging alone cannot single out a thermodynamic arrow of time. Conventional derivations have long navigated this barrier through a split modeling strategy: either dissipation is imposed by hand at the microscopic scale, or uncontrolled approximations are introduced mid-derivation, implicitly injecting time asymmetry into the dynamics they seek to explain. As a result, reversible mechanics built on the principle of least action and dissipative relaxation governed by free-energy gradient flows have been treated as incompatible variational frameworks. Separately, standard system–bath constructions fail globally when extended from Euclidean space to compact manifolds under linear coupling. In this work, we resolve this split paradigm by constructing a unified, end-to-end variational and geometric framework that derives macroscopic irreversibility directly from time-reversible dynamics, without any a priori entropy-production inequality. Rather than treating dissipation as a phenomenological add-on, we show that directed relaxation is encoded structurally from the outset by three intertwined ingredients: conditional initial preparation, retarded bath response, and controlled coarse-graining. Our construction unites the two variational principles long kept apart: least action furnishes the reversible Hamiltonian backbone, while equilibrium statistical mechanics supplies the free-energy reference geometry. We model the environment as a Euclidean bath of harmonic oscillators linearly coupled to the core system and conditionally equilibrated to the core's instantaneous initial configuration. This preparation transforms bath modes into independent, centered Gaussians, cleanly cancelling the spurious initial-slip force while retaining thermal fluctuations and memory kernels. This is the precise point where initial-state conditioning, not the bare Hamiltonian, imprints the arrow of time. On this basis, systematic model reduction follows a rigorous, non-commuting asymptotic hierarchy. Exact bath elimination yields a generalized Langevin equation with nonlocal memory. A Lorentzian spectral density combined with the continuum limit converts this memory into an exponential kernel. Subsequent short-memory and small-mass limits produce instantaneous friction and overdamped diffusion, respectively. Critically, the ordering of these limits is an intrinsic feature of the theorem, not an arbitrary analytical convention, enforced by distinct scale separations. When we extend this framework to compact manifolds such as the torus, we uncover a fundamental geometric obstruction: global linear coupling cannot simultaneously preserve translation invariance and constant mobility. We resolve this obstruction by introducing periodic paired couplings, which restore uniform mobility by averaging over translated copies of the coupling profile. At the macroscopic level, the emergent dynamics selects probability currents under the Onsager–Rayleigh variational principle, which is equivalent to a weighted Wasserstein gradient flow—that is, the probability current follows steepest descent of free energy in a mobility-weighted Wasserstein metric. Lifting the analysis back to full underdamped phase space exposes the geometric mechanism of hypocoercivity: reversible Hamiltonian transport shears perturbations into ever finer filaments, so that thermal diffusion acts efficiently on small scales; together they drive exponential relaxation toward equilibrium. The Markov data-processing inequality then ties the entire multiscale hierarchy together. Equilibrium, we conclude, is not merely a passive asymptotic endpoint. It functions as a persistent reference geometry—the zero of relative entropy with respect to that reference—that organizes kinetic transport, dissipation metrics, and path asymmetry across scales.",
+"authors": [
+"Shipei Hu"
+],
+"categories": [
+"math-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.00819v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00819v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00827",
+"title": "An $83/84$ approximation for a cubic three-occurrence Horn class",
+"abstract": "We study an unweighted MAX-HORN-2SAT class, which is also a class of MAX 2-SAT instances, in which every Boolean variable has exactly three literal occurrences. For a simple cubic graph $H=(V,E)$ the formula $T_H$ satisfies $\\operatorname{OPT}(T_H)=4|V|+|E|+\\alpha(H)$, and every assignment of value $A$ is repaired in polynomial time to an independent set of size at least $A-(4|V|+|E|)$. This gives a polynomial-time $83/84$ approximation from a cubic independent-set approximation and a near-bipartite cut algorithm, an $L$-reduction from cubic MIS, and APX-completeness. For simple $d$-regular graphs the optimum is $(d+1)|V|+|E|+\\alpha(H)$ and the factors are: $(3d+2)/(3d+3)$ from the all-true assignment, which is at least $83/84$ for $d\\ge27$; $83/84$ from the Berman--Fujito guarantee for $d\\ge22$ and, with a semidefinite cut rounding, for $d=21$; and $(21d+20)/(21d+21)$ from any $6/7$-approximate independent set. For arbitrary simple graphs the optimum is $n+3m+\\alpha(H)$. MAX-CUT on a $d$-regular graph $G$ reduces to MAX 2-SAT with the clauses $(x_u\\vee x_v)$ and $(\\neg x_u\\vee\\neg x_v)$ per edge, of value $m+\\operatorname{cut}(S)$. The conflict graph $H(G)$ is $(d+1)$-regular and $\\alpha(H(G))=m+\\operatorname{maxcut}(G)$. A Goemans--Williamson cut gives on $T_{H(G)}$ the factor $1-\\frac{1-\\alpha_\\varepsilon}{6d+12}\\ge83/84$ for every $d\\ge1$, and a $\\gamma$-dependent analysis gives $1-\\frac{0.1053}{6d+11.5}$, where $\\alpha_\\varepsilon=\\alpha_{\\mathrm{GW}}-10^{-5}$ and $\\gamma=\\operatorname{maxcut}(G)/m$. For arbitrary simple graphs without isolated vertices the factor exceeds $0.9932$. A cut guarantee $c_d$ on graphs of maximum degree $d$ gives $1-\\frac{1-c_d}{6d+12}$, which exceeds $0.9977$ in expectation for $d=3$. A ratio on $T_{H(G)}$ and a cut guarantee are equivalent, so the cut recovered is the Goemans--Williamson or bounded-degree cut used, and the MAX-CUT guarantee is not improved. The main consequence is that on the class $\\{T_{H(G)}\\}$ of three-occurrence Horn formulas obtained from MAX-CUT instances the proved factor $83/84$ exceeds the Unique Games thresholds $\\approx0.94616$ and $\\approx0.94017$ that hold for all instances of weighted MAX-HORN-2SAT and of MAX 2-SAT. For a restricted hard-split family with unit vertex rewards and edge-clause weights at least one we obtain $27/28$, and $257/260$ with edge weights four. The Unique Games thresholds of Brakensiek--Huang--Zwick ($\\approx0.94616$), Lewin--Livnat--Zwick ($\\approx0.94017$) for MAX 2-SAT, and Khot--Kindler--Mossel--O'Donnell ($\\approx0.87856$) for MAX-CUT quantify over all instances; the guarantees above concern classes with three occurrences per variable, exceed the first two thresholds, and are consistent with the conjecture. Max-Ones 2-SAT for negative (Horn) formulas equals Maximum Independent Set and Min-Ones 2-SAT for positive formulas equals Minimum Vertex Cover, with the same optima, so the published hardness of these two problems applies to them, and $\\operatorname{OPT}(T_H)=4|V|+|E|+\\operatorname{MaxOnes}(N_H)$ for the cubic negative formula $N_H$. The Lean~4 development formalizes the formula $T_H$ for every degree and every degree sequence, its score decomposition, repair and optimum identity, the arithmetic transfers, the MAX-CUT clause count and lifting step, and the hard-score optima $4m+\\alpha$ and $m+\\alpha$; the Goemans--Williamson, Berman--Fujito and Unique Games statements are explicit hypotheses taken from the literature.",
+"authors": [
+"Frank Vega"
+],
+"categories": [
+"cs.CC",
+"cs.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00827v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00827v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00805",
+"title": "An extriangulated category with no triangulated embedding",
+"abstract": "Over any field, we construct an essentially small hereditary extriangulated category with enough injectives that admits no triangulated embedding, that is, no fully faithful extriangulated functor into a triangulated category. In particular, not every extriangulated category is equivalent as an extriangulated category to a full extension-closed subcategory of a triangulated category. Nevertheless, every countable family of objects lies in a full extension-closed subcategory equivalent as an extriangulated category to a full extension-closed subcategory of an algebraic triangulated category. To construct this example, we build an extriangulated category from any inverse system of vector spaces with surjective transition maps over a nonempty ordinal. We prove that it admits a triangulated embedding if and only if every projection from the inverse limit is surjective. We obtain the counterexample from such an inverse system over the countable ordinals with nonzero initial term and vanishing inverse limit.",
+"authors": [
+"Haruhisa Enomoto"
+],
+"categories": [
+"math.CT",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00805v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00805v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00822",
+"title": "Atkin--Swinnerton-Dyer congruences for Kummer twists of Hauptmoduln",
+"abstract": "We prove that the coefficients of $h=\\sqrt{\\Delta/E_4}=\\sum_{n\\geq1}b(n)q^{n/2}$ satisfy the Atkin--Swinnerton-Dyer congruence $b(mp^r)-a_p(g)b(mp^{r-1})+p^3 b(mp^{r-2})\\equiv0\\pmod{p^{3r}} $ for every prime $p\\geq5$, $m\\geq1$ prime to $p$, and $r\\geq1$, with $b(x)=0$ for nonintegral $x$. Here $a_p(g)$ is the $p$th Hecke eigenvalue of the unique normalised newform $g$ of weight four and level $24$ with trivial character. Since $h$ branches at the elliptic point $\\rho=e^{2\\pi i/3}$, it is not a modular form. In a local uniformising chart of the double cover $s^2=1/j$ above $\\rho$, the associated differential extends holomorphically across the ramification point. It defines a parabolic cohomology class with coefficients in the symmetric square of the elliptic local system. More generally, we study modular differentials twisted by rational powers of a Hauptmodul. When the differential is nonzero and square-integrable on the Kummer cover and the twisted parabolic cohomology consists of two lines of types $(k-1,0)$ and $(0,k-1)$, we prove three-term congruences modulo $p^{(k-1)r}$ at good primes of residue degree one. A comparison of crystalline and \\'etale Frobenius identifies the polynomial of the recurrence with the Frobenius polynomial of a two-dimensional Galois representation. Our local criteria produce further examples, including $E_4j^{-a}$ for every rational $a$ with $1/3<a<2/3$.",
+"authors": [
+"Matija Kazalicki",
+"Siniša Slijepčević"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00822v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00822v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00808",
+"title": "Balanced semiprimes in short intervals under the Riemann hypothesis",
+"abstract": "Assuming the Riemann hypothesis, we show that for every real x ≥ 9.6 × 10³⁷ the open interval of length 384√x (log x)² above x contains at least (14/3)√x distinct products of two primes of size comparable to √x. Their contribution to the sum of the least prime factor divided by the integer is at least 14/9. For every fixed C > 0, we also prove that the composite sum in an interval of length C√x (log x)² is bounded above unconditionally and bounded away from zero under the Riemann hypothesis. We present a computer-assisted proof, verified in Lean 4, that the mean-square estimate of Chirre and Hagen implies the explicit count and weight bounds. The results have not been independently reviewed.",
+"authors": [
+"Adam Henriksson"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00808v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00808v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00816",
+"title": "Cluster-Crystal Realization of KR Cartan Algebras",
+"abstract": "We realize the Cartan algebras of restricted Kirillov--Reshetikhin modules as Cox rings of affine Schubert varieties, with Cartan degree given by the primitive divisor class. This yields upper cluster structures with non-inverted frozen variables for untwisted and diagram-twisted current algebras. In untwisted type, translation of the loop parameter gives a second cluster structure whose frozen variables are indexed by the affine Dynkin nodes. We construct charts adapted to the finite Chevalley operators and both shifted affine simple-root operators. For every untwisted finite simple type, every fundamental node, and every Cartan degree, the translated theta basis carries a finite regular affine crystal. The construction uses a uniform reddening theorem and perfectness of the current operators on theta functions. A degree--level identity obtained from tropical Donaldson--Thomas duality determines the minimum level in divisible degrees and gives a finite minimization formula in all degrees. The crystals are simple, their tensor products are connected, and the divisible-degree crystals have a common limit. The affine theta crystals have the finite characters of the corresponding restricted KR modules; they are identified with quantum KR crystals in every classical type and at the exceptional minuscule and adjoint nodes covered by the available recognition theorems.",
+"authors": [
+"Jiarui Fei"
+],
+"categories": [
+"math.RT",
+"math.AC",
+"math.AG",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00816v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00816v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00813",
+"title": "Factorial Moments in Two Variables: Exact Leaf Transport and Trace Orthogonality",
+"abstract": "Let $\\mathcal{L}(x^ay^b)=a!b!$. We prove factorial-moment nonvanishing for nonzero polynomials in two variables whose highest homogeneous part is not a scalar multiple of $(x+y)^D$. The proof uses an exact radial Mittag–Leffler transform, polynomial monodromy, and Lindemann–Weierstrass. The transform produces vanishing leaf germs containing a pole density and a Volterra correction. The corrections continue with their full integration histories retained and have no negative Puiseux coefficients at a nonzero terminal critical value. The resulting weighted coefficient annihilates the top rational monodromy component, while the unweighted inverse-derivative vector belongs to that component by a zero-trace identity on every proper composition block. Conjugate pairing excludes all nonzero critical values, and endpoint leaf germs dispose of the remaining pure powers. Combining the nonflat theorem with the explicitly stated single-integral nonvanishing theorem of EIT I gives the two-variable Factorial Conjecture. As a formal consequence, the zero-integral polynomials for the product-exponential measure $e^{-x-y}\\,d x\\,d y$ form a Mathieu–Zhao subspace; more strongly, a polynomial whose factorial moments vanish for all sufficiently large powers is zero. Thus the two-dimensional product-exponential case of van den Essen's Integral Conjecture follows. The nonflat argument is independent of EIT I.",
+"authors": [
+"Christopher D. Long"
+],
+"categories": [
+"math.AC",
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.00813v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00813v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00818",
+"title": "Noncommutative curves and surfaces in small degree",
+"abstract": "We study the free analogues of the real algebraic curves and surfaces of small degree, defined by one polynomial equation in $N$ self-adjoint noncommuting variables. In degree 2 and 3 this brings together known results, coming from several sources. A free quadric corresponds to a Hermitian form $H=Q+iP$, the free conics are the quadratic relations classified by Ostrovsky\\u\\i\\ and Samo\\u\\i lenko, which include the free circle, the quantum discs and planes, and the Heisenberg relation, and the free cubics in separated variables are fibered into duals of free products of cyclic groups. Our main new result concerns the elliptic quadrics, for which 3 notions of compactness, which coincide in the classical case, are shown to be different, with sharp thresholds. We also show that any compact free variety, given by finitely many equations, is homeomorphic to a quartic, and that the compact quartic curves, which contain the dynamics of the logistic map, cannot be classified by a list.",
+"authors": [
+"Teo Banica"
+],
+"categories": [
+"math.AG",
+"math.OA"
+],
+"link": "https://hexagonmath.org/abs/2611.00818v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00818v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00814",
+"title": "Optimal coupon packages and stochastic improvement of uniform group drawings",
+"abstract": "A collector repeatedly draws independent packages of at most $s$ coupons from a universe of $n$ coupons. When $s\\mid n$, we prove that the uniform law on the blocks of an $s$-set partition uniquely minimizes the expected completion time, resolving the Fang–Chang optimal-package conjecture. The partition law is stochastically optimal in Poissonized time, also for every common collection multiplicity. The proof combines independent package clocks, Finner's inequality, and strict concavity; an incidence-class tail argument characterizes equality. The same bound proves the lower-bound conjecture of Grunbaum and Yaakobi without their regularity assumptions. A separate elementary discrete-time bound identifies the unique optimal complementary-partition laws whenever $s<n$ and $n-s\\mid n$. For fixed-size packages, a four-coupon perturbation preserves singleton marginals and strictly increases the completion probability at every feasible draw count. This gives an alternative proof and a stochastic strengthening of Schilling's conjecture, previously proved in expectation by Berend and Sher. More generally, perturbations formed from $d$ disjoint pairs preserve all inclusion probabilities below order $d$ and are strictly stochastically monotone in their absolute amplitude, with the direction determined by the parity of $d$. Their inclusion–exclusion coefficients count covering families. Combined with the Johnson-scheme decomposition, this yields the complete alternating signature of the expectation Hessian at the uniform law. The general fixed-draw partition comparison is left as a conjecture; its first feasible draw count follows from the Poissonized bound.",
+"authors": [
+"Christopher D. Long"
+],
+"categories": [
+"math.PR",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00814v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00814v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00812",
+"title": "Outline of Alpöge's proof of the generalised Riemann hypothesis",
+"abstract": "We give an outline of the proof by L. Alpöge, in a formal development in Lean 4, of the Riemann hypothesis and of the generalised Riemann hypothesis for Dirichlet $L$-functions. The main theorem is that $L(s,\\chi)\\neq0$ for $\\operatorname{Re}s>\\frac12$ and every Dirichlet character $\\chi$. A positivity argument reduces it to one-sided bounds, on windows of scales $[Y,Y^{3/2}]$, for positive combinations of Riesz-weighted Chebyshev functions twisted by the powers of a primitive character. These bounds come from hermitian lattices attached to theta lifts over auxiliary abelian CM fields: the inert prime sums of these fields are bounded, prime by prime, by local gains of the lattices, and slope inequalities bound the lattice side. The losses in the inequalities are controlled by bounds, polynomial in the conductor, for Tate--Shafarevich groups of Tate twists, which are proved by Eisenstein congruences; the Galois representations that these need are constructed by theta lifts. We state the argument in standard language as far as we understand it, give many proofs in outline, and say what we do not yet understand. The paper was prepared with the help of Aleph, an AI math research assistant.",
+"authors": [
+"Sinisa Slijepcevic"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00812v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00812v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00815",
+"title": "Proofs of two conjectures of Fomin and Pylyavskyy",
+"abstract": "We prove Conjecture 8.12 of Fomin and Pylyavskyy on direction independence of their cluster structures. We also prove their surface Conjecture 5: the natural map from the tensor-diagram skein algebra to the ring of SL_3-invariants is an isomorphism.",
+"authors": [
+"Hernandez Juan"
+],
+"categories": [
+"math.CO",
+"math.AC",
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2611.00815v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00815v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00817",
+"title": "Pu's inequality for non-reversible Finsler metrics",
+"abstract": "We prove the sharp Holmes--Thompson systolic inequality for every Finsler metric on the real projective plane, with no reversibility assumption. A smooth strongly convex metric attains equality exactly when its geodesic flow is Zoll. The proof cuts along an oriented systole and relates a quadratic boundary-distance integral to that of the symmetrized boundary distance. A reversible metric built from chords and a collar realizes the latter integral in the limit while preserving the systolic lower bound. The result implies the sharp Viterbo inequality for convex bodies in \\(\\mathbb C^2\\) invariant under multiplication by \\(i\\), with rigidity for smooth equality cases.",
+"authors": [
+"Sihan Chen"
+],
+"categories": [
+"math.DG"
+],
+"link": "https://hexagonmath.org/abs/2611.00817v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00817v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00825",
+"title": "Reconstructing the Simulmatics 1960 Simulation: Mathematics, Methods and a Partial Replication",
+"abstract": "In August 1960 the Simulmatics Corporation ran a computer simulation for the Democratic National Committee. It ranked 32 non-Southern states by Kennedy’s likely strength if religion dominated the campaign. Pool and Abelson (1961) reported that this ranking correlated .82 with the November result, using no political data later than October 1958. This paper reconstructs the mathematics behind that result from the published record: the 1961 Public Opinion Quarterly article and the list of 480 voter types later printed in the appendix of Burdick’s The 480 (1964). We make four contributions. First, we write the model as a complete system: a 480-type typology, a pooled issue-cluster estimator, a synthetic-state aggregator and nine cross-pressure equation sets. Second, we show that the model’s one non-trivial step, estimating how many 1958 Democrats were anti-Catholic, is an odds-ratio constrained 2 × 2 table with a unique feasible solution for every odds ratio, and we derive its comparative statics. Third, we prove that the authors’ “lucky guess” benchmark (add 34 per cent of the Catholic share to the 1956 Democratic vote) is the in-sample ratio of two least-squares coefficients, so its correlation is a two-parameter multiple correlation fitted with hindsight. Fourth, we recompute the published benchmarks from public returns. The authors’ printed ranking has a Spearman correlation of 0.755 with Kennedy’s 1960 share across the 32 states (p < 10−6). The model’s own list of failures, the Mountain states, reappears in our data. Six animations, collected in an online story map, accompany the paper..",
+"authors": [
+"John Hessler"
+],
+"categories": [
+"stat.TH",
+"math.GM",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00825v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00825v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00824",
+"title": "Smooth Isometric Embeddings of Closed Manifolds into $\\mathbb{R}^{s_n+5}$ in High Dimensions",
+"abstract": "We prove that for $n\\geq 10^{62}+4$, every closed smooth Riemannian $n$-manifold admits a smooth isometric embedding into $\\R^{s_n+5}$, where $s_n=n(n+1)/2$.",
+"authors": [
+"Wenchang Yang",
+"Yi Wang"
+],
+"categories": [
+"math.DG",
+"math.AP"
+],
+"link": "https://hexagonmath.org/abs/2611.00824v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00824v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00826",
+"title": "The Br\\\"uck conjecture and the growth of entire solutions of a differential equation",
+"abstract": "Br\\\"uck conjectured that if a nonconstant entire function $f$ of finite hyper-order not equal to a positive integer shares a finite value $a$ counting multiplicities with its derivative, then $f'-a=c(f-a)$ for some nonzero constant $c$. We prove this conjecture.",
+"authors": [
+"Pengcheng Fang",
+"Tao Hu",
+"Yanyang Li",
+"Quanyu Tang",
+"Haiqi Zhang"
+],
+"categories": [
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.00826v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00826v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00821",
+"title": "The maximal rank of an even hyperbolic lattice with nonzero exceptional lattice",
+"abstract": "Let $L$ be an even hyperbolic lattice. Its exceptional lattice $E(L)$ consists of the vectors with finite orbit under the stabilizer of a chamber of the $(-2)$-reflection group. We prove that the largest rank for which $E(L)$ can be nonzero is $26$, answering a question of Grabbel, Martin, Mezzedimi, Raitz von Frentz and Schmidt. Conway's lattice $II_{1,25}$ attains the bound. In rank $r\\ge 27$, we construct in each chamber a finite set of deficient cusps $f$ (meaning $\\dim S_f<r-1$, where $S_f$ is the rational span of $f$ and the roots perpendicular to $f$) with $\\bigcap_f S_f=0$. We use these cusps to construct a Zariski-dense subgroup of the chamber group generated by at most $r-1$ Eichler transformations. If $L$ contains a $(-2)$-root, this subgroup is thin and no chamber admits a Weyl vector. For the groups obtained by this cusp construction in rank at least three, we study the principal congruence subgroups defined by the action on $L$. At all sufficiently large levels, the expanding eigenvalue of every systolic element has degree two or four. In rank three the systole divided by the logarithm of the level has lower limit $2$ and upper limit $4$. Every complex projective K3 surface with Picard lattice $U\\oplus\\langle-4m\\rangle^{\\oplus2}$ ($m\\ge3$) or $\\langle2\\rangle\\oplus\\langle-4\\rangle\\oplus D_8(-2)$ admits a symplectic automorphism of maximal Salem degree.",
+"authors": [
+"Ziyuan Hong",
+"Chenglong Yu"
+],
+"categories": [
+"math.NT",
+"math.AG",
+"math.GR"
+],
+"link": "https://hexagonmath.org/abs/2611.00821v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00821v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00807",
+"title": "The product $\\log(1+1/N)\\log(1+2/N)$ and rational conics through two logarithms",
+"abstract": "Put $\\lambda_1=\\log(1+1/N)$ and $\\lambda_2=\\log(1+2/N)$. We prove that $\\lambda_1\\lambda_2$ is irrational for every integer $N\\ge84$ and every even $N\\ge52$, and more strongly that $1,\\lambda_1,\\lambda_2,\\lambda_1\\lambda_2$ are linearly independent over $\\mathbb{Q}$ on the same range. We also prove that $1,\\lambda_1,\\lambda_2,\\lambda_2^2$ are $\\mathbb{Q}$-linearly independent for $N\\ge58$, that $1,\\lambda_1,\\lambda_2,\\lambda_1\\lambda_2,\\lambda_2^2$ are for $N\\ge88$, and that $1,\\lambda_1,\\lambda_2,\\lambda_1^2,\\lambda_1\\lambda_2,\\lambda_2^2$ are for $N\\ge151$: for $N\\ge151$ the point $(\\lambda_1,\\lambda_2)$ lies on no curve of degree at most two defined over $\\mathbb{Q}$. These are instances, not conditional on the conjecture and with rational coefficients, of what the strong four exponentials conjecture predicts for two logarithms. To our knowledge no published result states any of them for $N$ below about $4.5\\cdot10^{11}$. The proofs use explicit two-level Rodrigues forms of type II Hermite-Padé type, linear recurrences in the index proved by exact creative-telescoping certificates, Pituk's theorem on the growth of solutions of Poincaré-type recurrences (read only in restatements, so all results are stated modulo it), exact or ball-arithmetic certificates for the roots of the characteristic polynomials, and a $2$-adic content lemma at odd points that lowers the threshold for even $N$. The irrationality of $\\lambda_1\\lambda_2$ and the four-term independence for $N\\ge103$, and the six-term (conic) independence for $N\\ge151$, are also checked in Lean 4 with Mathlib, by arguments that do not use Pituk's theorem.",
+"authors": [
+"Shawn Krisman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00807v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00807v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00820",
+"title": "The speed of biased random walk on leafless Bienaymé trees is monotone",
+"abstract": "Let $\\nu$ be the offspring variable of a Bienaymé tree without leaves, with finite mean $m>1$. We prove that the speed $v(\\lambda)$ of the $\\lambda$-biased random walk is continuously differentiable on $[0,m)$, with $v'(\\lambda)<0$ for every $0<\\lambda<m$. In particular $v$ is strictly decreasing, which answers a question posed by Lyons, Pemantle and Peres in 1996. Heng Ma recently gave an independent proof of strict monotonicity. Our proof is entirely analytic when $\\mathbb{E}[1/\\nu]\\le 31/49$. In general it also uses two interval-arithmetic computations, for biases between $1$ and $9/5$. The main theorem, including both computations, has been formalized in Lean.",
+"authors": [
+"Igor Kortchemski"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00820v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00820v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00828",
+"title": "Three simplifications in the Alpöge–Claude argument for Dirichlet GRH",
+"abstract": "In the proposed proof of the generalized Riemann hypothesis for Dirichlet $L$-functions by Alpöge and Claude, theta lifts give an upper bound for a smoothed prime sum on certain long intervals. We simplify three steps linking the lifts to the zeros of $L$-functions. Our main result compares the character sums at a common scale and allows greater variation in their weights while preserving the exponent in the prime-sum bound. We also remove a logarithmic loss in the comparison of lattice slopes and give a short deduction of the zero-free conclusion from a classical oscillation theorem, including for families with a possible real zero. The construction of the lifts and the estimates producing the intervals enter as inputs.",
+"authors": [
+"twinheterodox"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00828v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00828v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}

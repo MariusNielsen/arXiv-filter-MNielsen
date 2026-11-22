@@ -4931,29 +4931,28 @@
  ],
  "hexagon_since": "2026-11-21",
  "last_page": {
-  "day": "2026-11-21",
+  "day": "2026-11-22",
   "papers": [
    {
-    "abstract": "For the induced complex on primitive integer pairs in a triangular lattice, we identify first homology with interior components of a half-scale midpoint bond graph. Its complementary planar dual has the visible-site graph as its line graph, giving a bijection between finite visible islands and bounded nonsingleton dual faces. In particular the hole density $h$ is a local Euler-product term plus the island density $b_0$: $h=3J_2-2J_3-J_1+b_0$, with $J_j=\\prod_p(1-j/p^2)$. Each odd prime produces a matching, two primes produce a small forest, and diameter exclusion bounds cycle birth. We refine the bounds by retaining the actual earlier prime sieve at each step. A computer-assisted certificate, including a nonnegative coverage recurrence for islands, yields $0.10917978<h<0.10923225$. A separate length-six finite-path CRT method gives $h>0.10914952$, still below the island certificate, and an exact decomposition distinguishes old-component chords from cycles born among new cross-component bonds. Assuming the random-coprime nonpercolation theorem of Le Fourn--Liu--Martineau, the relative cycle increment of a new prime converges to a conditional connection probability. The planar correspondences, density existence, and numerical bounds do not require this probabilistic input.",
-    "ai_mode": "mixed",
+    "abstract": "In degree 104, two rank-324 Hecke operators over $\\mathbb{Q}(\\sqrt{-3})$, together with classical tests, leave four candidate primes. An integer evaluation matrix of rank 2,925 constructed using $\\mathbb{Q}(\\sqrt{-7})$ has determinant coprime to their product. Together with the certificates for earlier degrees, these computations imply $K_{4k}(\\mathbb{Z})=0$ for $1\\le k\\le26$, assuming the strict Selmer comparison, coverage of the admissible representations, and a simultaneous residual trace condition. The supplement contains the matrices or their generators, exact residues, and replay code.",
+    "ai_mode": "no-human-author-claimed",
     "announce": "new",
     "authors": [
-     "Sabah Noori Jihad"
+     "Leo Pintar"
     ],
     "categories": [
-     "math.NT",
-     "math.AT",
-     "math.CO"
+     "math.KT",
+     "math.NT"
     ],
     "date": "2026-11-21",
-    "link": "https://hexagonmath.org/abs/2611.00800v1",
+    "link": "https://hexagonmath.org/abs/2611.00829v1",
     "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2611.00800v1",
-    "pid": "hexagon:2611.00800",
+    "pdf": "https://hexagonmath.org/pdf/2611.00829v1",
+    "pid": "hexagon:2611.00829",
     "reasons": [],
     "source": "hexagon",
-    "tier": 4,
-    "title": "Holes and Islands of Visible Points on the Triangular Lattice: Midpoint Bond Graphs and Prime-Sieve Bounds",
+    "tier": 5,
+    "title": "Hecke calculations for the conditional vanishing of $K_{4k}(\\mathbb{Z})$ through degree 104",
     "watched": []
    }
   ]
@@ -9323,6 +9322,27 @@
   "hexagon:2611.00799": "2026-11-21",
   "hexagon:2611.00800": "2026-11-21",
   "hexagon:2611.00802": "2026-11-21",
+  "hexagon:2611.00805": "2026-11-22",
+  "hexagon:2611.00807": "2026-11-22",
+  "hexagon:2611.00808": "2026-11-22",
+  "hexagon:2611.00809": "2026-11-22",
+  "hexagon:2611.00812": "2026-11-22",
+  "hexagon:2611.00813": "2026-11-22",
+  "hexagon:2611.00814": "2026-11-22",
+  "hexagon:2611.00815": "2026-11-22",
+  "hexagon:2611.00816": "2026-11-22",
+  "hexagon:2611.00817": "2026-11-22",
+  "hexagon:2611.00818": "2026-11-22",
+  "hexagon:2611.00819": "2026-11-22",
+  "hexagon:2611.00820": "2026-11-22",
+  "hexagon:2611.00821": "2026-11-22",
+  "hexagon:2611.00822": "2026-11-22",
+  "hexagon:2611.00824": "2026-11-22",
+  "hexagon:2611.00825": "2026-11-22",
+  "hexagon:2611.00826": "2026-11-22",
+  "hexagon:2611.00827": "2026-11-22",
+  "hexagon:2611.00828": "2026-11-22",
+  "hexagon:2611.00829": "2026-11-22",
   "math/0111031": "2026-10-27",
   "math/0702082": "2026-10-22"
  }
