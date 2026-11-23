@@ -6,6 +6,59 @@
   {
    "day": "2026-11-23",
    "paper": {
+    "abstract": "We prove completeness of the convex uniform 5-polytope list, conditional on the cited lower-dimensional classifications, the written reductions and the certificate checkers. Its members are Wythoff's constructions of types $A_5$, $B_5$, $D_5$, prisms over uniform 4-polytopes, and products of regular polygons with uniform polyhedra. Conway and Guy announced the four-dimensional classification; M\u00f6ller gave a complete computer-assisted proof. We extend these neighborhood and radius methods to dimension five. Coxeter's and Johnson's constructions supply the known families. Unbounded polygon sizes require products, forced by neighbor distances and prism cells. Lean checks a conditional implication from explicit premises.",
+    "ai_mode": "no-human-author-claimed",
+    "announce": "new",
+    "authors": [
+     "Peter Graham"
+    ],
+    "categories": [
+     "math.MG",
+     "math.CO"
+    ],
+    "date": "2026-11-21",
+    "link": "https://hexagonmath.org/abs/2611.00845v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2611.00845v1",
+    "pid": "hexagon:2611.00845",
+    "reasons": [
+     "abstract: prisms"
+    ],
+    "source": "hexagon",
+    "tier": 3,
+    "title": "The convex uniform 5-polytopes: a computer-assisted classification",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-23",
+   "paper": {
+    "abstract": "For ten distinct points on the unit sphere, we prove that the bicapped square antiprism uniquely minimizes Coulomb energy, up to orthogonal transformations and relabeling. We build on the Lean proof directed by Aravind Karthigeyan of the tricapped trigonal prism's nine-point optimality and uniqueness. We use the three-point positivity method of Bachoc and Vallentin and of Cohn and Woo. A three-point semidefinite bound confines every competitor of no greater energy to short intervals around the candidate's inner products. Gram-determinant tests determine their assignment to pairs; orthogonal alignment and a quantitative local energy inequality then force congruence. The candidate's height is the unique critical point in a rational interval. We formalize the argument in Lean. This work has not yet been reviewed by experts. The proofs, the Lean formalization, the certificate checkers and the text were produced by AI models, working under the author's direction.",
+    "ai_mode": "no-human-author-claimed",
+    "announce": "new",
+    "authors": [
+     "Peter Graham"
+    ],
+    "categories": [
+     "math.MG"
+    ],
+    "date": "2026-11-21",
+    "link": "https://hexagonmath.org/abs/2611.00836v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2611.00836v1",
+    "pid": "hexagon:2611.00836",
+    "reasons": [
+     "abstract: prism"
+    ],
+    "source": "hexagon",
+    "tier": 3,
+    "title": "The Thomson problem for N = 10",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-23",
+   "paper": {
     "abstract": "This article confirms predictions made by Hopkins' chromatic splitting conjecture in stable homotopy theory. A consequence of our main theorem is that a certain map of $K(h-1)$-local $\\mathbb{E}_\\infty$-rings $\\mathbb{S}_{K(h-1)}^{B\\mathbb{Z}}\\to L_{K(h-1)}\\mathbb{S}_{K(h)}$ admits a retract, so long as $p-1$ does not divide $h-1$. If $h=2$ and $p$ is odd, we show this map is an isomorphism. We use methods from the theory of $p$-divisible groups and $p$-adic geometry. Along the way we prove an entirely new kind of \"two-tower isomorphism,\" in analogy with Faltings' isomorphism between the Lubin--Tate and Drinfeld towers, which parametrizes $p$-divisible groups over characteristic $p$ perfectoid spaces with fixed generic fiber in terms of negative Banach--Colmez spaces. Using the two-tower isomorphism, we gain control over the continuous cohomology of the Morava stabilizer group $\\mathbb{G}_h$ with coefficients in $\\pi_*L_{K(h-1)}E_h$. To study the continuous action of $\\mathbb{G}_h$ on $L_{K(h-1)} E_h$, it was necessary to develop the theory of solid Lubin--Tate spectra. Adapting Lurie's constructions, we attach a solid Lubin--Tate spectrum to $p$-divisible groups over a broad class of solid rings in characteristic $p$.",
     "ai_mode": "",
     "announce": "new",
@@ -5174,6 +5227,53 @@
     "watched": []
    },
    {
+    "abstract": "We prove completeness of the convex uniform 5-polytope list, conditional on the cited lower-dimensional classifications, the written reductions and the certificate checkers. Its members are Wythoff's constructions of types $A_5$, $B_5$, $D_5$, prisms over uniform 4-polytopes, and products of regular polygons with uniform polyhedra. Conway and Guy announced the four-dimensional classification; M\u00f6ller gave a complete computer-assisted proof. We extend these neighborhood and radius methods to dimension five. Coxeter's and Johnson's constructions supply the known families. Unbounded polygon sizes require products, forced by neighbor distances and prism cells. Lean checks a conditional implication from explicit premises.",
+    "ai_mode": "no-human-author-claimed",
+    "announce": "new",
+    "authors": [
+     "Peter Graham"
+    ],
+    "categories": [
+     "math.MG",
+     "math.CO"
+    ],
+    "date": "2026-11-21",
+    "link": "https://hexagonmath.org/abs/2611.00845v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2611.00845v1",
+    "pid": "hexagon:2611.00845",
+    "reasons": [
+     "abstract: prisms"
+    ],
+    "source": "hexagon",
+    "tier": 3,
+    "title": "The convex uniform 5-polytopes: a computer-assisted classification",
+    "watched": []
+   },
+   {
+    "abstract": "For ten distinct points on the unit sphere, we prove that the bicapped square antiprism uniquely minimizes Coulomb energy, up to orthogonal transformations and relabeling. We build on the Lean proof directed by Aravind Karthigeyan of the tricapped trigonal prism's nine-point optimality and uniqueness. We use the three-point positivity method of Bachoc and Vallentin and of Cohn and Woo. A three-point semidefinite bound confines every competitor of no greater energy to short intervals around the candidate's inner products. Gram-determinant tests determine their assignment to pairs; orthogonal alignment and a quantitative local energy inequality then force congruence. The candidate's height is the unique critical point in a rational interval. We formalize the argument in Lean. This work has not yet been reviewed by experts. The proofs, the Lean formalization, the certificate checkers and the text were produced by AI models, working under the author's direction.",
+    "ai_mode": "no-human-author-claimed",
+    "announce": "new",
+    "authors": [
+     "Peter Graham"
+    ],
+    "categories": [
+     "math.MG"
+    ],
+    "date": "2026-11-21",
+    "link": "https://hexagonmath.org/abs/2611.00836v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2611.00836v1",
+    "pid": "hexagon:2611.00836",
+    "reasons": [
+     "abstract: prism"
+    ],
+    "source": "hexagon",
+    "tier": 3,
+    "title": "The Thomson problem for N = 10",
+    "watched": []
+   },
+   {
     "abstract": "In topological data analysis, path homology accounts for directed graph while combinatorial Laplacian extends homology groups to spectral theory. However, these approaches are built on a boundary operator with condition $\\partial^2=0$. Mayer homology replaces this condition with $N$-nilpotent boundary map $\\partial^N=0$. By using the primitive $N$-th root of unity in the boundary operator, it relates each degree $n$ to the degrees $n-q$ and $n+N-q$. This work introduces persistent Mayer path homology. We show that Mayer path homology is functorial for strict digraph maps, which gives persistent Mayer path homology for filtered digraphs, and prove that its barcodes are stable under perturbations. For $N=3$ we derive formulas that reduce $\\beta_0^{3,1}$ and $\\beta_2^{3,2}$ to the classes of vertices identified by squares and the rank of a small matrix indexed by triangles. We also introduce the Mayer path Laplacian and its persistence theory, prove that their kernels recover (persistent) Mayer path homology, show that they distinguish digraphs with the same Mayer path Betti numbers, and prove a stability bound for the eigenvalues of the persistent up-Laplacian. We demonstrate that persistent Mayer path homology detects the formation of feed-forward loops, whose formation is not detected by ordinary path homology. In an application to cucurbit[7]uril, filtered by an interatomic distance normalized by van der Waals radii, Mayer path homology separates contacts that only close cycles from contacts that close feed-forward triangles, and changes at almost four times as many filtration values as path homology after the bonded framework is formed.",
     "ai_mode": "",
     "announce": "new",
@@ -9709,6 +9809,23 @@
   "hexagon:2611.00827": "2026-11-22",
   "hexagon:2611.00828": "2026-11-22",
   "hexagon:2611.00829": "2026-11-22",
+  "hexagon:2611.00830": "2026-11-23",
+  "hexagon:2611.00831": "2026-11-23",
+  "hexagon:2611.00834": "2026-11-23",
+  "hexagon:2611.00835": "2026-11-23",
+  "hexagon:2611.00836": "2026-11-23",
+  "hexagon:2611.00837": "2026-11-23",
+  "hexagon:2611.00838": "2026-11-23",
+  "hexagon:2611.00839": "2026-11-23",
+  "hexagon:2611.00840": "2026-11-23",
+  "hexagon:2611.00841": "2026-11-23",
+  "hexagon:2611.00842": "2026-11-23",
+  "hexagon:2611.00843": "2026-11-23",
+  "hexagon:2611.00844": "2026-11-23",
+  "hexagon:2611.00845": "2026-11-23",
+  "hexagon:2611.00846": "2026-11-23",
+  "hexagon:2611.00847": "2026-11-23",
+  "hexagon:2611.00848": "2026-11-23",
   "math/0111031": "2026-10-27",
   "math/0702082": "2026-10-22"
  }

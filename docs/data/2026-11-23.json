@@ -1,6 +1,6 @@
 {
 "day": "2026-11-23",
-"updated": "2026-11-23T05:07:47+00:00",
+"updated": "2026-11-23T16:27:39+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -101,6 +101,53 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00845",
+"title": "The convex uniform 5-polytopes: a computer-assisted classification",
+"abstract": "We prove completeness of the convex uniform 5-polytope list, conditional on the cited lower-dimensional classifications, the written reductions and the certificate checkers. Its members are Wythoff's constructions of types $A_5$, $B_5$, $D_5$, prisms over uniform 4-polytopes, and products of regular polygons with uniform polyhedra. Conway and Guy announced the four-dimensional classification; Möller gave a complete computer-assisted proof. We extend these neighborhood and radius methods to dimension five. Coxeter's and Johnson's constructions supply the known families. Unbounded polygon sizes require products, forced by neighbor distances and prism cells. Lean checks a conditional implication from explicit premises.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.MG",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00845v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00845v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 3,
+"reasons": [
+"abstract: prisms"
+],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00836",
+"title": "The Thomson problem for N = 10",
+"abstract": "For ten distinct points on the unit sphere, we prove that the bicapped square antiprism uniquely minimizes Coulomb energy, up to orthogonal transformations and relabeling. We build on the Lean proof directed by Aravind Karthigeyan of the tricapped trigonal prism's nine-point optimality and uniqueness. We use the three-point positivity method of Bachoc and Vallentin and of Cohn and Woo. A three-point semidefinite bound confines every competitor of no greater energy to short intervals around the candidate's inner products. Gram-determinant tests determine their assignment to pairs; orthogonal alignment and a quantitative local energy inequality then force congruence. The candidate's height is the unique critical point in a rational interval. We formalize the argument in Lean. This work has not yet been reviewed by experts. The proofs, the Lean formalization, the certificate checkers and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.00836v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00836v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 3,
+"reasons": [
+"abstract: prism"
+],
+"watched_authors": []
+},
+{
 "pid": "2611.26982",
 "title": "Persistent Mayer Path Homology and Mayer Path Laplacian",
 "abstract": "In topological data analysis, path homology accounts for directed graph while combinatorial Laplacian extends homology groups to spectral theory. However, these approaches are built on a boundary operator with condition $\\partial^2=0$. Mayer homology replaces this condition with $N$-nilpotent boundary map $\\partial^N=0$. By using the primitive $N$-th root of unity in the boundary operator, it relates each degree $n$ to the degrees $n-q$ and $n+N-q$. This work introduces persistent Mayer path homology. We show that Mayer path homology is functorial for strict digraph maps, which gives persistent Mayer path homology for filtered digraphs, and prove that its barcodes are stable under perturbations. For $N=3$ we derive formulas that reduce $\\beta_0^{3,1}$ and $\\beta_2^{3,2}$ to the classes of vertices identified by squares and the rank of a small matrix indexed by triangles. We also introduce the Mayer path Laplacian and its persistence theory, prove that their kernels recover (persistent) Mayer path homology, show that they distinguish digraphs with the same Mayer path Betti numbers, and prove a stability bound for the eigenvalues of the persistent up-Laplacian. We demonstrate that persistent Mayer path homology detects the formation of feed-forward loops, whose formation is not detected by ordinary path homology. In an application to cucurbit[7]uril, filtered by an interatomic distance normalized by van der Waals radii, Mayer path homology separates contacts that only close cycles from contacts that close feed-forward triangles, and changes at almost four times as many filtration values as path homology after the bonded framework is formed.",
@@ -190,6 +237,115 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00830",
+"title": "$\\gamma(Q_{35})=19$ and certified queen domination numbers up to $n=46$",
+"abstract": "We show that no $18$ queens dominate the $35\\times35$ board, so that the domination number of the queen's graph $Q_{35}$ is $\\gamma(Q_{35})=19$ (OEIS A075458); since 2001 it had been known only that $\\gamma(Q_{35})\\in\\{18,19\\}$. An independent dominating set of $19$ queens found by Östergård and Weakley then gives $i(Q_{35})=19$, and $35$ is the smallest odd $n>15$ with $\\gamma(Q_n)=\\lceil n/2\\rceil+1$. The proof is computer-assisted. It splits a hypothetical dominating set by the box spanned by its outermost empty rows and columns, as in the Hint and Conquer method for even boards, and further by the deficits of occupied lines of the four kinds. Exact counting identities for the border and for the sides of the box make each of the resulting 128,941 cases a small SAT problem. Every case was refuted by CaDiCaL with a DRAT proof checked by drat-trim, in about $81$ CPU hours. The reduction to the cases, the completeness of the case list and the upper bound are formalised in Lean 4 with Mathlib, modulo the CNF encoding and the SAT certificates. A second, separately written encoding, solved with Kissat and without any symmetry breaking, independently refutes the 585 hardest cases and a sample of 2200 others. The same method, with DRAT proofs, gives $\\gamma(Q_{40})=21$, $\\gamma(Q_{42})=22$, $\\gamma(Q_{44})=23$ and $\\gamma(Q_{46})=24$, the first certified values for these boards; they confirm claims made in 2009 on the basis of an uncertified integer-programming computation. With them, $\\gamma(Q_n)$ is known for every $n\\le46$. The method also confirms $\\gamma(Q_{32})=17$, $\\gamma(Q_{34})=18$ and $\\gamma(Q_{36})=19$, and $\\gamma(Q_{26})=14$ and $\\gamma(Q_{28})=15$, which were first established in Hint and Conquer (2026). For $n=26$ and $n=28$ we also give a second, completely independent proof, by a relaxation of the grid of empty rows and columns to covers by diagonals, with DRAT certificates for both of its stages and a complete replay of every certificate formula.",
+"authors": [
+"Jason Davies"
+],
+"categories": [
+"math.CO",
+"cs.DM",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00830v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00830v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00835",
+"title": "A bound for the irrationality exponent of real elliptic periods",
+"abstract": "We prove that every nonzero real period of an elliptic curve over $\\Q$, with or without complex multiplication, has irrationality exponent at most $3$. Equivalently, if $L\\subset\\C$ is a lattice whose Weierstrass invariants $g_2(L)$ and $g_3(L)$ are rational, every nonzero real $\\omega\\in L$ satisfies $\\mu(\\omega)\\le3$. G.~and D.~Chudnovsky proved $\\mu(\\omega)=2$ when the curve has complex multiplication. Their proof uses an interpolation determinant of jets at centres on a two-dimensional grid of periods. Without complex multiplication the only algebraic multiples of a real period inside the lattice are its integer multiples, so the centres lie on a line. We show that the method still works on this one-dimensional grid. The arithmetic is carried out over $\\Z$ in the chart at the origin. A multiplier made periodic along the real period removes the Gaussian factor in the transport of the determinant. The analytic estimate then costs a factor $K^2$ in place of $K$, where $K$ is the number of centres. The two estimates still contradict each other for every exponent larger than $3$. More generally, within the method an analytic cost $K^e$ gives exactly the exponents larger than $e+1$. The bound is ineffective. The proof is formalized in Lean~4.",
+"authors": [
+"Sean Litsey"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00835v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00835v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00840",
+"title": "A counterexample on two kinds of positive dependence",
+"abstract": "We construct a strict bivariate Archimedean copula that is positively quadrant dependent but is not positive measure inducing. This disproves the forward implication in the equivalence conjectured by Sebastian Fuchs and Marco Tschimpke. Their work introduced the positive measure inducing property through a reflected copula sum and established the equivalence for the Frank family. Our example separates the two properties in the full Archimedean class. Its inverse generator is the maximum of two exponential functions. Convexity gives copula validity, and a piecewise linear inequality in logarithmic coordinates gives positive quadrant dependence throughout the unit square. A rectangle strictly inside the open square $(0,1/2)^2$ has a negative increment for the reflected sum, excluding the positive measure required by the definition. All corner estimates use rational arithmetic and squaring, without a density assumption. The complete argument, including generator admissibility, boundary values and the measure-theoretic contradiction, is formalized in Lean. The converse implication and the separate negative-dependence equivalence are not resolved by this example. This work has not yet been reviewed by experts. The proofs, the Lean formalization and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.ST",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.00840v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00840v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00838",
+"title": "A counterexample to the E-derivation part of the LNED conjecture",
+"abstract": "For a field $K$ of characteristic zero and $c\\in K\\setminus\\{0\\}$, let $\\delta_c f(x)=f(x)-f(x+c)$ and $J_c=(x(x-c/2))\\subset K[x]$. We prove that $\\delta_c$ is a locally nilpotent $K$-$\\mathcal{E}$-derivation such that the image of $J_c$ under $\\delta_c$ contains $x^{2m}$ and excludes $x^{2m+1}$ for every $m\\ge1$, refuting the $\\mathcal{E}$-derivation part of Zhao's locally nilpotent derivation and $\\mathcal{E}$-derivation (LNED) conjecture already in one variable. The proof specializes Zhao's Bernoulli-polynomial membership criterion for images of quadratic ideals at $x=c/2$. For any $v$ in an index set $T$, the shift $x_v\\mapsto x_v+1$ in $K[x_i:i\\in T]$, fixing the other variables, gives the same failure of the Mathieu–Zhao condition for the corresponding quadratic ideal.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.00838v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00838v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00837",
+"title": "A quadratic lower bound for intervals in the Hales–Jewett theorem",
+"abstract": "A combinatorial line in $[m]^n$ is $q$-fold if its wildcard set, the set of coordinates that vary along the line, is a union of at most $q$ intervals of consecutive coordinates. Let $I(m,r)$ be the least $q$ such that, for $n$ large, every $r$-coloring of $[m]^n$ has a monochromatic $q$-fold line. We show that $I(m,2)>(m-3)^2/128$ for every $m\\ge3$, so $I(m,r)\\ge I(m,2)$ grows at least quadratically in $m$ for every $r\\ge2$. This answers Question 3.1 of Conlon and Kamčev, who asked whether some $m\\ge4$, $r\\ge2$ and $c>1$ admit $r$-colorings of $[m]^n$ with no monochromatic line whose wildcard set is a union of at most $cr$ intervals: $m=18$, $r=2$ and any $1<c<3/2$ do, for every $n$. For $m=3$ the value is known, $r$ or $r-1$, by work of Conlon and Kamčev, Leader and Räty, and Kamčev and Spiegel; Kamčev and Spiegel noted that $r-1$ is the best explicit lower bound the known methods give, and Shelah's proof of the Hales–Jewett theorem gives the upper bound $\\mathrm{HJ}(m-1,r)$. To rule out lines with at most $Q$ intervals, we color $x$ by the parity of $\\lfloor S(x)/(32Q)\\rfloor$, where $S(x)$ is the sum of the squared differences of consecutive letters of the word $0x$. Along such a line, $S$ is a quadratic in the free letter whose values rise through a whole interval of length $32Q$ in smaller steps, so the line meets both colors. This coloring theorem is proved in Lean from the definitions; the step to $I(m,r)$ is a short argument on paper. This work has not yet been reviewed by experts. The proofs, the Lean formalization and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00837v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00837v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.27475",
 "title": "An affine surface with 3-step nilpotent fundamental group",
 "abstract": "We construct a smooth complex affine surface $Y$ such that $\\pi_1(Y)$ is virtually $3$-step nilpotent, but not virtually $2$-step nilpotent. This gives a negative answer to the quasi-projective version of Campana's nilpotency problem.",
@@ -258,6 +414,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00841",
+"title": "An irrationality measure for $\\zeta(5)$",
+"abstract": "Let $\\mu$ denote the irrationality exponent. We prove that $|\\zeta(5)-p/q|>q^{-87}$ for all integers $p$ and all sufficiently large integers $q$, so $\\mu(\\zeta(5))\\le87$. Fauzan proved that $\\zeta(5)$ is irrational with rationally normalized Hankel determinants, and his argument gives $\\mu(\\zeta(5))\\le260$. Giraudin lowered this to $171$ by a sharper bound for a relative matrix norm. We keep Fauzan's determinants and improve the two other constants of the method. On the arithmetic side a reflection symmetry modulo $p$ of the reduced Gram form gives extra divisibility of the determinants by the primes $p$ with $K/200\\le p\\le K/3$, a second local bound with positive row weights is used for the primes $K/3<p\\le K$, and the prime sum is evaluated exactly over a longer range with a cutoff that grows with $K$. The normalizing factor then grows at most like $e^{1.288003K^2}$. On the analytic side we bound the logarithmic energy by a comparison measure on one interval, a Chebyshev series of degree $60$ against the arcsine density whose positivity is an exact sum of squares. Its potential and energy have closed forms, and the pointwise inequality is checked on $110$ cells in exact arithmetic. This gives decay at the rate $e^{-1.38500086K^2}$. With Giraudin's form of the relative norm estimate the exponent is below $86.54$. The proof is formalized in Lean~4.",
+"authors": [
+"Sean Litsey"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00841v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00841v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "1907.11316",
 "title": "An Open Petri Net Implementation of Gene Regulatory Networks",
 "abstract": "Gene regulatory networks (GRNs) are a central object of systems biology, and many formalisms have been used to model them, among them Petri nets. Ordinary Petri nets, however, provide no built-in way to assemble a large network from smaller, separately specified pieces. Open Petri nets, in the sense of Baez and Master, supply exactly this: an open Petri net is a Petri net with designated boundary places, and open Petri nets are composed by gluing boundaries together (a pushout), giving a symmetric monoidal double category Open(Petri). In this paper we (i) state precisely the standard encoding of activation, inhibition and degradation as Petri net transitions; (ii) distinguish the classical \"Petri nets are monoids\" view of Meseguer and Montanari, which describes how processes inside one net compose, from the open Petri net view, which describes how nets compose; (iii) show, with a worked example, how a GRN can be cut into open Petri net modules along shared genes and recovered exactly by composition, together with simple rules that make such a decomposition correct; and (iv) use the compositional rate-equation semantics of Baez and Pollard to show that the mass-action dynamics of the composite network are obtained by gluing the dynamics of its modules, linking Petri net models of GRNs to their ordinary differential equation counterparts. We close by discussing what the reachability semantics does and does not give for GRN modules, and the limitations of the approach.",
@@ -295,6 +472,27 @@
 "announce": "new",
 "date": "2026-11-23",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00839",
+"title": "Auxiliary primes and interpolation points in the Alpöge–Claude argument for Dirichlet GRH",
+"abstract": "The proposed Alpöge–Claude proof of the generalized Riemann hypothesis for Dirichlet $L$-functions makes two auxiliary choices. Its interpolation points must represent specified cosets in prescribed proportions and have suitable spacings along Frobenius orbits. We prove that the proportions can be exact and that a single set of points meets the spacing requirements on every orbit of sufficiently large order. This removes the loss from exceptional long orbits in the local divisibility estimate. The proof also needs two primes in prescribed arithmetic progressions whose quadratic twists obey a common bound throughout a prescribed interval of scales. At the exponent used for Dirichlet GRH, we give a selection argument that dispenses with estimates for correlations of quadratic symbols among the primes in those progressions.",
+"authors": [
+"twinheterodox"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00839v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00839v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -526,6 +724,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00844",
+"title": "Counterexamples to the conjectured characterization of Hamiltonian degree sequences in digraphs",
+"abstract": "We show that the conjecture of Kühn, Osthus and Treglown (2008), proposed as a digraph analogue of Chvátal's theorem, fails for every order $n\\ge7$ and holds for $3\\le n\\le6$. It states that every digraph whose separately sorted out- and in-degree sequences satisfy two Chvátal-type conditions, and a third condition when the order is even, has a Hamilton cycle. It strengthens Nash-Williams' conjecture of 1975, which assumes strong connectivity instead of the third condition. Guninski found 6-vertex counterexamples to Nash-Williams' conjecture on MathOverflow in 2013 and 2020; the 2013 example was confirmed there by Royle and Thomas and the 2020 ones by DeBiasio. All of them violate the third condition. Our counterexamples are an explicit 7-vertex digraph and an explicit family, and the small orders are settled by exhaustive search. Hence Nash-Williams' conjecture fails for every $n\\ge7$, in addition to Guninski's case $n=6$, and the same search shows that it holds for $3\\le n\\le5$. The family also shows that for every $n\\ge8$ the conditions of either conjecture do not even force a cycle through every pair of vertices, answering a question recorded by Kühn and Osthus after Bermond and Thomassen. The counterexamples are checked in Lean. This work has not yet been reviewed by experts. The proofs, the Lean formalization and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00844v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00844v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2512.23522",
 "title": "Defect of projective hypersurfaces with isolated singularities",
 "abstract": "Let $X$ be a hypersurface with isolated singularities defined by $f$ in ${\\bf P^{n+1}}$ with $n>1$. The difference ${\\rm def}(X):=h^{n+1}(X)-h^{n-1}(X)$ is called the defect of $X$ (for self-duality of the cohomology of $X$). It is known that its vanishing is closely related to ${\\bf Q}$-factoriality of $X$ without assuming rational singularities when $n=3$. This number coincides with the dimension of the cokernel of the inclusion $H^{n-1}(X)\\to{\\rm IH}^{n-1}(X)$, the rank of the morphism from the vanishing cohomologies of $X$ to $H^{n+1}(X)$ for a one-parameter smoothing of $X$ with total space smooth, and also with the dimension of the unipotent monodromy part of the Milnor fiber cohomology of $f$ with degree $n$. In the case $X$ has only weighted homogeneous isolated singularities, the defect ${\\rm def}(X)$ is then given by the $E_2$-term of the spectral sequence of the double complex with differentials ${\\rm d}f\\wedge$ and $\\rm d$ by the $E_2$-degeneration of the pole order spectral sequence. It can be calculated explicitly using a computer even for analogues of the Hirzebruch quintic threefold with more than one hundred ordinary double points found by B.\\ van Geemen and J.\\ Werner in a compatible way with their computation. We give also an example with ${\\rm def}(X)>0$ and $|{\\rm Sing}\\,X|=1$ in the non-projective cone case where $n=3$.",
@@ -564,6 +783,28 @@
 "announce": "new",
 "date": "2026-11-23",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00831",
+"title": "Easiness over characteristic zero fields",
+"abstract": "The easy quantum groups have intertwiners $T_\\pi$, depending on set-theoretic partitions $\\pi$, with integer entries, and so are defined over $\\mathbb Q$. We study them over an arbitrary field $F$ of characteristic 0. Easiness itself does not depend on $F$, and the field comes into play via the $F$-forms: those of $O_N^+$, coming from the central simple algebras with orthogonal involution and from the quadratic forms up to similarity, and a family of $F$-forms of $S_N^+$, coming from the finite étale algebras. We also discuss the quantum symmetries of the free quadrics, described by bilinear forms. We also discuss free probability over $F$, and the $p$-adic case.",
+"authors": [
+"Teo Banica"
+],
+"categories": [
+"math.RA",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00831v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00831v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -842,6 +1083,48 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00847",
+"title": "Irrationality measures for $a\\zeta(3)+b\\pi^4$ and $\\zeta(3)/\\pi^4$",
+"abstract": "Let $\\mu(\\xi)$ denote the irrationality exponent of a real number $\\xi$. We prove that $\\mu(a\\zeta(3)+b\\pi^4)\\le27.49$ for all integers $a$ and $b$ with $b\\ne0$, and that $\\mu(\\zeta(3)/\\pi^4)\\le35.35$. The second bound extends to every quotient $(a\\zeta(3)+b\\pi^4)/(c\\zeta(3)+d\\pi^4)$ with rational $a,b,c,d$ and $ad-bc\\ne0$. Lai proved that $1$, $\\zeta(3)$ and $\\pi^4$ are linearly independent over $\\Q$ with Hankel determinants $J_n(a,b,X)$. We keep his determinants and prove the three estimates that a measure needs. First, the determinants are small on a neighbourhood of the constant, uniformly in the direction $(a,b)$. The proof uses a positive measure on a complex contour whose potential has a closed form. Second, the denominators are bounded prime by prime by an exact law for the $p$-adic valuation. The integral of this law over the primes has a closed form. Third, $J_n$ does not vanish at sizes $n$ tied to several families of primes. The main family consists of the primes $\\ell$ with $8n/3<\\ell<3n-1$. For these primes a reduced Gram matrix is block triangular modulo $\\ell$. Its half-integral block is a Hankel determinant of Bernoulli-type moments, which we evaluate as a product of norms of Wilson polynomials. A counting argument with the prime number theorem in progressions turns this nonvanishing into a measure. The best published bound on the plane was $66.3$, and no measure was known for $\\zeta(3)/\\pi^4$. The proofs are formalized in Lean~4.",
+"authors": [
+"Sean Litsey"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00847v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00847v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00848",
+"title": "Irrationality measures for dilogarithms of rational numbers",
+"abstract": "Let $\\mu$ denote the irrationality exponent. For coprime integers $a$ and $b$ with $0<2|a|\\le b$ we prove an explicit upper bound for $\\mu(\\Li_2(a/b))$ whenever an explicit margin $\\eta(a,b)$ is positive. The margin is the sum of a closed-form arithmetic rate in $\\log b$, $\\log|a|$ and $\\log|b-a|$ and a piecewise affine decay rate in $\\log(b/|a|)$. For example $\\mu(\\Li_2(1/2))\\le228.26$, $\\mu(\\Li_2(1/3))\\le21.52$, $\\mu(\\Li_2(1/4))\\le15.16$, $\\mu(\\Li_2(1/5))\\le12.90$, $\\mu(\\Li_2(-1/2))\\le13.92$ and $\\mu(\\Li_2(-1/3))\\le11.89$. As far as we know these are the first irrationality measures for these numbers. For the numerator $2$ we obtain finite measures for $\\Li_2(2/b)$ for every odd $b\\ge13$ and for $\\Li_2(-2/b)$ for every odd $b\\ge11$. As far as we know this proves for the first time that $\\Li_2(-2/11)$, $\\Li_2(-2/13)$ and $\\Li_2(-2/15)$ are irrational. The same holds for $\\Li_2(-3/50)$, $\\Li_2(4/167)$ and $\\Li_2(-4/177)$. For $6\\le b\\le20$ the bounds improve those of Rhin and Viola, for instance from $783.29$ to $11.72$ at $b=6$ and from $11.94$ to $9.36$ at $b=20$. For $\\Li_2(-1/b)$ with $5\\le b\\le20$ they improve the bounds that follow from Rhin and Viola's linear independence measures. The approximations are Tang's normalized Hankel determinants. Liu and Tan and Zhang used them, with an arithmetic rate of the same shape, to prove irrationality of $\\Li_2(\\pm1/k)$ and of $\\Li_2(p/q)$ in explicit ranges. A measure needs more. We prove that the determinants do not vanish at rational points for a band of primes of positive density, and we prove decay on an exponentially small neighbourhood of $\\Li_2(a/b)$ by a dual certificate for a logarithmic energy problem with capped lattice charges. Concavity of the dual and a transport in $\\log(b/|a|)$ make the decay bound uniform from finitely many certificates. The proof is formalized in Lean~4.",
+"authors": [
+"Sean Litsey"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00848v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00848v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2507.21978",
 "title": "Irreducible representations of pointed Hopf algebras of type $A_2$",
 "abstract": "We classify the irreducible representations of a family of finite-dimensional pointed liftings $H_\\lambda$ of the Nichols algebra associated with the diagram $A_2$ with parameter $q=-1$. We show that these algebras have infinite representation type and construct an indecomposable $H_\\lambda$-module of dimension $n$ for each $n\\in\\mathbb{N}$. Finally, we study a semisimple category $\\underline{\\operatorname{Rep}} H_\\lambda$ arising as a quotient of $\\operatorname{Rep} H_\\lambda$.",
@@ -956,6 +1239,27 @@
 "announce": "replace-cross",
 "date": "2026-11-23",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00843",
+"title": "No post-Lie algebra structures on pairs of perfect and nilpotent Lie algebras",
+"abstract": "Let $\\mathfrak{g}$ and $\\mathfrak{n}$ be finite-dimensional Lie algebras on the same vector space over a field of characteristic zero, with $\\mathfrak{n}$ nilpotent. We prove that if the pair $(\\mathfrak{g},\\mathfrak{n})$ carries a post-Lie algebra structure all of whose right multiplications have trace zero, then $\\mathfrak{g}$ is solvable. Hence no nonzero perfect Lie algebra $\\mathfrak{g}$ admits a post-Lie algebra structure on $(\\mathfrak{g},\\mathfrak{n})$ with $\\mathfrak{n}$ nilpotent. This answers a question of Burde and Dekimpe in the negative and proves the nilpotent case of a conjecture of Burde, Dekimpe and Monadjem. Nonexistence was known for abelian $\\mathfrak{n}$, by a theorem of Helmstetter on left-symmetric algebras; for two-step nilpotent $\\mathfrak{n}$, by Burde and Dekimpe; and for the complex perfect non-semisimple $\\mathfrak{g}$ of dimensions five and six, by Burde and Dekimpe and by Burde, Dekimpe and Monadjem. The proof extends Helmstetter's argument. A post-Lie algebra structure embeds $\\mathfrak{g}$ into the holomorph of $\\mathfrak{n}$. Conjugations chosen by Whitehead's first lemma along the lower central series of $\\mathfrak{n}$ make the translation part of this embedding vanish on a Levi factor of $\\mathfrak{g}$, while its determinant stays equal to one, as in Kriebel's treatment of semisimple $\\mathfrak{n}$. The proof is formalized in Lean with Mathlib, assuming Levi's theorem and Whitehead's first lemma as stated in Weibel's textbook. This work has not yet been reviewed by experts. The proofs, the Lean formalization and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.00843v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00843v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1283,6 +1587,51 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00834",
+"title": "The Egami–Matsumoto conjecture under the Riemann Hypothesis alone: a natural boundary of the Goldbach generating series",
+"abstract": "The Goldbach generating series Φ₂(s) = Σ_{m,n≥1} Λ(m)Λ(n)(m+n)^(−s) continues meromorphically to Re s > 1 under the Riemann Hypothesis (RH), by a theorem of Egami and Matsumoto, who conjectured that the line Re s = 1 is its natural boundary. The complete proofs so far have assumed, besides RH, a hypothesis on additive relations among the ordinates of the zeros of ζ. We prove the conjecture under RH alone, and the corresponding statement for the series Φ_r(s) = Σ Λ(k₁)⋯Λ(k_r)(k₁+⋯+k_r)^(−s) at Re s = r − 1, for every r ≥ 2. RH can be weakened: the continuation and the boundary hold under the hypothesis H∞ that for every δ > 0 only finitely many zeros have real part greater than ½ + δ. The new step is a phase estimate for products of two Gamma values at zeros of large ordinates of opposite signs. It shows that the pairs of zeros whose sums land on one point do not cancel when every such pair consists of zeros whose ordinates exceed in modulus a threshold depending only on a bound for the imaginary part of the point; points of this kind accumulate at every point of the line, and under RH they are dense on it. Under H∞, if RH fails then Φ₂ has a simple pole with positive residue at the real point 2B ∈ (1, 2), where B is the supremum of the real parts of the zeros; so, under H∞, RH holds if and only if Φ₂ has no pole in the real interval (1, 2). A criterion of this kind, through the poles at the points 1 + ρ, follows from work of Bhowmik, Halupczok, Matsumoto and Suzuki; what is new is the pole at 2B, whose residue is a sum of positive terms. The theorems are checked in the Lean 4 proof assistant, as implications from H∞ (or RH) and classical theorems on ζ and Γ stated as hypotheses.",
+"authors": [
+"Louis P. Slothouber"
+],
+"categories": [
+"math.NT",
+"math.CV",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00834v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00834v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00842",
+"title": "The Harborth constant of Cp ⊕ Cp for every prime p ≥ 11",
+"abstract": "The Harborth constant $\\mathsf g(G)$ of a finite abelian group $G$ is the least $k$ such that every $k$-element subset of $G$ contains $\\exp(G)$ distinct elements whose sum is zero; the exponent $\\exp(G)$ is the largest order of an element of $G$. Gao and Thangadurai conjectured that $\\mathsf g(C_n\\oplus C_n)=2n-1$ for odd $n$, and proved it for primes $p\\ge 67$; Gao, Geroldinger and Schmid extended this to $p\\ge47$, and Kemnitz had settled $p\\in\\{3,5,7\\}$. Bajnok's Menu of research problems asks for the primes $11\\le p\\le 43$ (Problem F.100). We prove that $\\mathsf g(C_p\\oplus C_p)=2p-1$ for every prime $p\\ge11$, which answers that problem and, with Kemnitz's values, gives the conjecture for every odd prime. As in the work of Gao and Thangadurai and of Gao, Geroldinger and Schmid, we project the set along a line through $0$, which sorts its points into $p$ parallel lines (fibers), choose a projection in which many pairs of points share a fiber, and use the lifting criterion of Gao and Thangadurai. What is new is a sufficient condition, proved with the theorem of Dias da Silva and Hamidoune, that depends only on how many points each fiber holds and not on where the fibers lie. The analysis of fiber sizes is by hand for $p\\ge17$ and a finite check for $p=11$ and $13$. The proof for $p\\ge11$ and the lower bound for every odd prime are formalized in Lean. This work has not yet been reviewed by experts. The proofs, the Lean formalization and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.CO",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00842v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00842v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2204.08867",
 "title": "The homotopy types of $Sp(n)$-gauge groups over $S^{4m}$",
 "abstract": "Let $m$ and $n$ be two positive integers such that $m < n$. Denote by $P_{n,k}$ the principal $Sp(n)$-bundle over $S^{4m}$ and $\\mathcal{G}_{k,m}(Sp(n))$ be the gauge group of $P_{n,k}$ classified by $k\\varepsilon'$, where $\\varepsilon'$ is a generator of $\\pi_{4m}(B(Sp(n)))\\cong\\mathbb{Z}$. In this article, we will partially classify the homotopy types of $\\mathcal{G}_{k,m}(Sp(n))$ by giving a lower bound for the number of homotopy types of $\\mathcal{G}_{k,m}(Sp(n))$. Also, in special cases $Sp(3)$-gauge groups over $S^8$ and $Sp(4)$-gauge groups over $S^{12}$ we give an upper bound for the number of homotopy types of these gauge groups.",
@@ -1320,6 +1669,28 @@
 "announce": "new",
 "date": "2026-11-23",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00846",
+"title": "The unique shortest rank-state cycle in Beggar-My-Neighbour: Six tricks and 38 individual plays",
+"abstract": "Under chronological pickup and winner-led play, the minimum primitive rank-state cycle lengths for the standard 52-card inventory are six completed tricks and 38 individual plays. One cycle attains both minima and is unique under either criterion, up to cyclic phase and exchange of players. Its 30–22 witness has a short word certificate, and a 26–26 deal enters it after one trick. The trick-period proof excludes 1,201 face itineraries below six tricks and classifies all 21,407 six-trick itineraries. For the global individual-play result, an elementary bound reduces the problem to at most 18 tricks. Two independently implemented enumerators agree on all 43,808 candidate itineraries through 38 plays; exact integer gap constraints leave one itinerary and one rank-and-gap model. A short modular-arithmetic argument independently proves rigidity of that surviving model. With named players there are two oriented cycles, each with six boundary states and 181 backward-reachable rank states, including 19 balanced starts. We also classify period-four deck sizes and prove that fixed-period deck-size sets are semilinear.",
+"authors": [
+"Christopher D. Long"
+],
+"categories": [
+"math.CO",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00846v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00846v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
