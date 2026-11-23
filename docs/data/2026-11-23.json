@@ -1,6 +1,6 @@
 {
 "day": "2026-11-23",
-"updated": "2026-11-23T16:27:39+00:00",
+"updated": "2026-11-23T19:12:52+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -304,6 +304,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00853",
+"title": "A counterexample to a lit-only sigma-game conjecture",
+"abstract": "A move in the sigma-game toggles the neighbors of a vertex; the lit-only game permits such a move only at a lit vertex. The gap for a graph is the largest difference, over starting configurations, between the minimum numbers of lights attainable in these two games. Goldwasser, Wang and Wu conjectured that a connected graph on $n$ vertices with gap greater than $n/2$ must be complete $m$-partite for $m\\equiv3\\pmod4$. We refute their Conjecture 5, published in 2011. The complement of the disjoint union of a six-cycle and an isolated vertex has a starting configuration reducible to zero lights by regular moves but to no fewer than four by lit-only moves. Its lit-only orbit has three configuration types. Replacing every vertex by $m$ independent copies gives connected graphs on $7m$ vertices that are not complete multipartite, with a uniform starting configuration having minimum light numbers $0$ and $4m$. The counterexample and this family are proved in Lean from the definitions. The proofs, the Lean formalization, the certificate checkers and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00853v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00853v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-22",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00838",
 "title": "A counterexample to the E-derivation part of the LNED conjecture",
 "abstract": "For a field $K$ of characteristic zero and $c\\in K\\setminus\\{0\\}$, let $\\delta_c f(x)=f(x)-f(x+c)$ and $J_c=(x(x-c/2))\\subset K[x]$. We prove that $\\delta_c$ is a locally nilpotent $K$-$\\mathcal{E}$-derivation such that the image of $J_c$ under $\\delta_c$ contains $x^{2m}$ and excludes $x^{2m+1}$ for every $m\\ge1$, refuting the $\\mathcal{E}$-derivation part of Zhao's locally nilpotent derivation and $\\mathcal{E}$-derivation (LNED) conjecture already in one variable. The proof specializes Zhao's Bernoulli-polynomial membership criterion for images of quadratic ideals at $x=c/2$. For any $v$ in an index set $T$, the shift $x_v\\mapsto x_v+1$ in $K[x_i:i\\in T]$, fixing the other variables, gives the same failure of the Mathieu–Zhao condition for the corresponding quadratic ideal.",
@@ -318,6 +339,52 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00859",
+"title": "A counterexample to the very sparse greedy conjecture for random hitting sets",
+"abstract": "Let $A$ be a random $m\\times n$ zero-one matrix with independent Bernoulli$(p)$ entries, whose rows are to be hit by a set of columns. Arpino, Dmitriev and Grometto proved that with high probability the linear programming (LP) relaxation, the fractional hitting set, is within a constant factor of the optimum when $mp\\lesssim\\log n$, and the greedy algorithm is within a constant factor of the optimum when $p\\ge n^{-\\delta}$ with $\\delta<1/2$. They conjectured that in the very sparse regime $mp\\to0$ the ratio of the greedy value to the LP value tends to one. We show that this fails. For $m=k$, $n=k^{10}$ and $p=1/(10k^4)$, with the explicit constant $c=1/(196608\\cdot10^9)$, the greedy algorithm that breaks ties by the leftmost column, as in their analysis, uses at least $(1+c/8)$ times the LP value with probability at least $c/4$ for every $k\\ge10^{20}$; these parameters satisfy their Assumption 2. The same holds with probability at least $c/8$ when ties are broken uniformly at random. So the ratio does not converge to one in probability. The obstruction is a path of three triples whose middle triple greedy takes first; exchanging it for its two ends saves half a column per path. The proofs are elementary counting arguments, checked in Lean from the definitions. This work has not yet been reviewed by experts. The proofs, the Lean formalization and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.PR",
+"cs.DS",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00859v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00859v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-22",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00855",
+"title": "A lattice parallelepiped with no unimodular triangulation",
+"abstract": "A lattice polytope has a unimodular triangulation if it can be cut into lattice simplices of the smallest possible volume. Haase, Paffenholz, Piechnik and Santos asked in their 2017 survey whether every lattice parallelepiped, and more generally every lattice zonotope, has one. Such polytopes have the integer decomposition property, and Codenotti and Santos proved that every 3-dimensional lattice parallelepiped can be covered by unimodular simplices. We show that the answer is no in every dimension $d\\ge 4$. The 4-dimensional parallelepiped $P$ spanned by $e_1,e_2,e_3$ and $(1,2,3,5)$ has no unimodular triangulation, and its products with unit cubes give examples in higher dimensions. Its edges at the origin span a cone that Firla and Ziegler showed cannot be triangulated into unimodular cones generated by its Hilbert basis (its minimal generators). Yet the cone of $P$ at each vertex can be so triangulated with lattice points of $P$: the obstruction is not seen at any vertex. The proof is by hand: points of $P$ with coordinates in $\\frac12\\mathbb{Z}$ and $\\frac14\\mathbb{Z}$ force faces into any unimodular triangulation, until one such point lies in none. Checked certificates show that $P$ has a unimodular cover and is, up to lattice equivalence, the unique 4-dimensional example of determinant at most 5. The question in dimension 3 remains open. This work has not yet been reviewed by experts. The proofs, the checking programs and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.CO",
+"math.MG",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.00855v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00855v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-22",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
@@ -679,6 +746,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00857",
+"title": "Competitive equilibrium can fail near equal budgets for three additive agents",
+"abstract": "In a Fisher market with indivisible goods, each agent has a budget of artificial money and a competitive equilibrium is an allocation of all the goods with prices at which every agent gets a most preferred bundle within budget. With exactly equal budgets one good and two agents already have no equilibrium. Babaioff, Nisan and Talgam-Cohen proved that two agents with additive preferences over any number of goods have a competitive equilibrium whenever their budgets are sufficiently close to equal but not equal, and asked whether this extends to more than two agents (their Open Problem 1). It does not. We give three agents with strict additive valuations over five goods such that for every $0<\\delta<1/17$ no competitive equilibrium exists at the budgets $(1-3\\delta,1+2\\delta,1+\\delta)$, nor at any budget vector near them. So every neighborhood of equal budgets contains a set of positive measure on which no equilibrium exists. Adding goods of small value, as in Segal-Halevi's Lemma 5, extends this to every number of goods $m\\ge5$. This answers the case of three additive agents and $m\\ge5$ goods that Segal-Halevi left open: the budgets with no competitive equilibrium can have positive measure. The proof gives, for each allocation of the goods, an exact Farkas (linear-programming duality) certificate that no prices support it; an independent exact linear-programming computation confirms it. This work has not yet been reviewed by experts. The proofs, the computer checks and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.OC",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00857v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00857v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-22",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2601.16765",
 "title": "Components of the nested Hilbert scheme of few points",
 "abstract": "We study the existence and the schematic structure of elementary components of the nested Hilbert scheme on a smooth quasi-projective variety. More precisely, we establish a new lower bound for the existence of non-smoothable nestings of fat points on a smooth $n$-fold, for $n\\geqslant 4$. Moreover, we develop a systematic method for building generically non-reduced elementary components. We also investigate the irreducibility of the Hilbert scheme of points on a singular hypersurface of $\\mathbb A^3$. Explicitly, we show that the Hilbert scheme of points on a hypersurface of $\\mathbb{A}^3$ having a singularity of multiplicity at least 5 admits elementary components.",
@@ -696,6 +785,28 @@
 "announce": "replace",
 "date": "2026-11-23",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00856",
+"title": "Connected quandles that refute Hayashi's conjecture",
+"abstract": "We construct connected quandles of orders 1890 and 5670 whose right translations $x\\mapsto x*y$ have cycles of lengths 60, 84, 140 and 210. Since 60, 84 and 140 do not divide 210, this disproves the conjecture of Hayashi (2013) that in a finite connected quandle the longest cycle length of a right translation is a multiple of all the others. A quandle is a set with a self-distributive operation modeled on conjugation in a group, and quandles give invariants of knots. The conjecture was known for profiles with at most five cycles (Lages and Lopes), for orders up to 47 (Watanabe) and for affine quandles (Kajiwara and Nakayama). Filipi showed that for conjugation quandles it is equivalent to a group-theoretic conjecture, that a power of an element of a finite generating conjugacy class $C$ is central as soon as it commutes with a suitable element of $C$. Our quandles are conjugacy classes of affine maps, so they refute that conjecture too. The four long cycle lengths are each twice the product of three of the primes 2, 3, 5 and 7, while each right translation has order 420. The construction gives an infinite family, including latin counterexamples (every left translation is also a bijection), and no counterexample from it has order below 1890. The proofs are by hand. Independent programs recompute both quandles, and one checks every quandle axiom on the full operation table. This work has not yet been reviewed by experts. The proofs, the checking programs and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.GR",
+"math.GT"
+],
+"link": "https://hexagonmath.org/abs/2611.00856v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00856v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-22",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -926,6 +1037,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00849",
+"title": "Finding Two Connected Factors of a Finite Dynamical System in Quasipolynomial Time",
+"abstract": "Doré, Perrot, Porreca, Riva and Rolland asked whether their tree methods could be used to find two nontrivial connected factors of a given finite dynamical system. We give a deterministic algorithm for this problem. Given the successor table of an \\(N\\)-state system \\(B\\), the algorithm constructs connected systems \\(X\\) and \\(Y\\), each with at least two states, such that \\(X\\times Y\\cong B\\), or determines that no such pair exists. Its bit complexity is \\(\\exp(O((\\log(2N))^3\\log\\log(4N)))\\), even when \\(B\\) is disconnected. All ordered pairs of factor isomorphism types can be listed within the same total bound. The proof uses two predecessor paths to control branching across tree levels and bounds the arithmetic search at each level. Whether one factorization can be found in polynomial time remains open.",
+"authors": [
+"Nuutti Kuosa"
+],
+"categories": [
+"cs.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00849v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00849v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-21",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2607.18493",
 "title": "Finite quotients of full surface braid groups and complex surfaces of general type: cyclic, dihedral, and extra-special quotients",
 "abstract": "Let $\\mathsf{B}_2(\\Sigma_g)$ be the full braid group on two strings on a compact Riemann surface of genus $g$. We compute the number of epimorphisms $\\varphi \\colon \\mathsf{B}_2(\\Sigma_g) \\to G$, where $G$ is a finite cyclic, dihedral or extra-special group, under the assumption that $\\varphi$ does not factor through $\\pi_1(\\operatorname{Sym}^2\\Sigma_g)$. We then apply our algebraic results to the geometric problem of constructing smooth surfaces of general type as Galois covers of $\\operatorname{Sym}^2\\Sigma_g$ branched along the diagonal. Notably, when the branching order is at least $3$, we obtain surfaces with positive signature, i.e. $c_1^2>2c_2$. In particular, we construct two $3$-dimensional families of minimal surfaces of general type with $p_g(S)=154$, $q(S)=2$ and $K_S^2=1269$, such that members of different families have the same numerical invariants, the same Betti numbers and the same positive signature, but different torsion subgroups in their first integral homology groups.",
@@ -990,6 +1122,29 @@
 "announce": "replace",
 "date": "2026-11-23",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00858",
+"title": "Graceful 4-coloring of planar graphs is NP-complete",
+"abstract": "A graceful $k$-coloring of a graph is a proper vertex coloring with colors $1,\\dots,k$ such that, at every vertex, the incident edges receive distinct differences of their endpoint colors. Cyriac Antony, Laavanya D. and Devi Yamini S. proved that deciding graceful $k$-colorability is NP-complete for planar graphs when $k\\ge 5$, and for $k=4$ on graphs of maximum degree three, and they left open the complexity of graceful 4-colorability of planar graphs. We prove that this problem is NP-complete, even for planar graphs of maximum degree three (inputs, as in their formulation, may be disconnected). The hardness comes from the reduction of Édouard Bonnet, Dibyayan Chakraborty and Julien Duron, who proved that deciding whether a cubic planar graph has a perfect matching cut (a perfect matching that is exactly the set of edges leaving some vertex set) is NP-hard; we apply their construction to every instance. What we add is an exact correspondence: for every finite cubic graph $H$, the graph obtained by subdividing each edge of $H$ twice has a graceful 4-coloring if and only if $H$ has a perfect matching cut. This equivalence is proved in Lean from the definitions. This work has not yet been reviewed by experts. The proofs, the Lean formalization and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.CO",
+"cs.CC",
+"cs.DM"
+],
+"link": "https://hexagonmath.org/abs/2611.00858v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00858v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-22",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1142,6 +1297,28 @@
 "announce": "replace-cross",
 "date": "2026-11-23",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00854",
+"title": "KPP fronts in the 1-1-1 ABC flow speed up linearly in every direction",
+"abstract": "Let $V(x,y,z)=(\\sin z+\\cos y,\\ \\sin x+\\cos z,\\ \\sin y+\\cos x)$ be the Arnold–Beltrami–Childress (ABC) flow with $A=B=C=1$, and let $c^*_e(K)$ be the minimal speed of pulsating fronts of $T_t+K\\,V\\cdot\\nabla T=\\Delta T+f(T)$ in the direction $e$, for a reaction $f$ of KPP type. We prove that $\\lim_{K\\to\\infty}c^*_e(K)/K$ exists and is positive for every unit vector $e$. Zlatoš proved that this limit exists and equals a supremum over first integrals of the flow, and Xin, Yu and Zlatoš, who constructed periodic orbits of this flow, pointed out that a positive-measure tube of orbits moving roughly linearly would make the limit positive, but that a rigorous proof of such tubes was not known. We prove that such a tube exists. Two independent interval-arithmetic computations certify an elliptic periodic orbit with nonzero twist; Pöschel's KAM theorem with frequencies as parameters then gives invariant curves of the return map with a Lipschitz label, which yield a Lipschitz first integral supported on the tube. The deduction from the certified facts is checked in Lean, with Zlatoš's and Pöschel's theorems as cited inputs. This work has not yet been reviewed by experts. The proofs, the Lean formalization and the text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.AP",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.00854v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00854v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-22",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1474,6 +1651,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00852",
+"title": "Second Moments of Hecke Traces and Vertical Sato–Tate",
+"abstract": "We relate sums of squared Hecke traces to the distribution of Frobenius traces of elliptic curves over $\\mathbf{F}_p$. For every fixed $1/6\\le a<1/2$, the sum of squared normalized traces at level one up to weight $K=p^a$ is asymptotic to $K^2/48$ on a density-one set of primes. In the same range, fixed-level limits hold on sets of relative density one in the relevant prime classes, with constants that factor over prime powers. We compute the mixed moments between newform spaces at different levels and between character spaces at odd prime level. The connection comes from tossing a coin whose bias is determined by the trace of a uniformly chosen nonsingular Weierstrass equation. The Sato–Tate predictor's excess log loss tends to zero exactly when $T=o(p)$. For $T=\\lfloor\\lambda K^2\\rfloor$ with fixed $\\lambda>0$ it is asymptotic to $T/(96p)$ on the level-one prime set. When $T/p\\to c>0$, we compute the limiting losses along prime subsequences whose residues stabilize modulo each fixed integer. The two nonzero classes modulo $3$ can give different limits. At level one we compute the leading variances across prime intervals for the normalized trace sum and the normalized chi-square divergence.",
+"authors": [
+"Zhongpai Gao"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00852v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00852v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-22",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2508.00215",
 "title": "Solvable points on intersections of quadrics, cubics, and quartics",
 "abstract": "Let $k$ be a field of characteristic not 2 or 3. We establish polynomial bounds on the ambient dimension $N$, such that if $N$ is at least as big as this bound, every intersection $X\\subset\\mathbb{P}^N$ of quadrics, cubics and quartics has a solvable point, and a general one has a dense collection of solvable points, i.e. points in $X(k^{\\mathrm{Sol}})$ where $k^{\\mathrm{Sol}}/k$ is a solvable closure. Our method connects the classical theory of polar hypersurfaces to Fano varieties $\\mathcal{F}(j,X)$ of linear subspaces on $X$, and we use this to obtain improved control on the arithmetic of $\\mathcal{F}(j,X)$",
@@ -1647,6 +1845,27 @@
 "announce": "replace",
 "date": "2026-11-23",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00850",
+"title": "The mean square of the Goldbach error at every large endpoint",
+"abstract": "For every sufficiently large $X$, the sum of squared errors in the Hardy--Littlewood prediction for the log-weighted binary Goldbach count is $\\gg X^2\\log^2 X$ on $(X/1000,X]$, separately in the classes $2$ and $4$ modulo six. For ordinary ordered prime pairs the lower bound is $\\gg X^2/\\log^2 X$. Montgomery and Vaughan obtained these orders on a sequence of sharp endpoints. We localize their norm comparison by removing the unwanted output frequencies in $L^1$. The lower bounds persist when, on each interval of a partition with interval lengths at least $X\\exp(-(\\log X)^{1/3})$, the singular series $\\mathfrak S(k)$ in the prediction is replaced by $a\\,\\mathfrak S(k)+b$, with constants $a,b$ fitted from the data on that interval.",
+"authors": [
+"Wren Aquila"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00850v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00850v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-22",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
