@@ -1,6 +1,6 @@
 {
 "day": "2026-11-24",
-"updated": "2026-11-24T16:21:34+00:00",
+"updated": "2026-11-24T18:52:11+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -589,6 +589,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00988",
+"title": "A conditional bound H_2 <= 19284 from the sharp minorant of the 182 argument",
+"abstract": "Let H_2 = liminf (p_{n+2} - p_n). Assuming a distribution statement for the sharp prime minorant constructed in the recent argument for H_1 <= 182 (GPT-6 Astra, prompted by R. Sharifi), in the form in which that argument uses it, we prove DHL[2240,3] and hence H_2 <= 19284. The best bound announced so far is 19844 (Kapila, hexagon:2610.00419v2). The proof combines Kapila's support-restricted sieve criterion with the minorant and a certificate in ball arithmetic; the programs and data are in the ancillary files. The result is conditional on the stated hypothesis and has not been checked by a third party.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.00988v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00988v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.30544",
 "title": "A corank one Lipschitz normally embedded surface in $\\mathbb{R}^4$ with non-trivial link",
 "abstract": "We show that the knot-triviality theorem for Lipschitz normally embedded (LNE) corank one surface singularities in $\\mathbb{R}^4$ proved by Birbrair, Mendes and Nu\\~no-Ballesteros (2018) does not generalize unrestrictedly. More precisely, we exhibit a polynomial map germ $F:(\\mathbb{R}^2,0)\\to(\\mathbb{R}^4,0)$ of corank one at the origin, with isolated singularity and $2$-jet $(x,0,0,0)$, whose image $X=F(\\mathbb{R}^2)$ is LNE at the origin, yet its link is the granny knot $T\\#T$, and hence non-trivial. The example is obtained via a general uniform-degree homogenization procedure applied to a known polynomial parametrization of the trefoil knot. We also give a finitely $\\mathcal A$-determined polynomial realization with the same LNE and knot properties.",
@@ -613,6 +634,49 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00990",
+"title": "A counterexample to a question of Geiss, Leclerc and Schröer",
+"abstract": "We construct a dual canonical basis element of weight $4\\alpha_0+4\\alpha_1$ in affine type $A_1^{(1)}$ which is not the evaluation function of any finite-dimensional nilpotent preprojective module. We prove that every dual canonical basis element in Dynkin types $A_5$ and $D_4$ is the evaluation function of a finite-dimensional preprojective module, with all bases specialized at $q=1$ over $\\mathbb{C}$.",
+"authors": [
+"Jason Turner"
+],
+"categories": [
+"math.RT",
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2611.00990v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00990v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00999",
+"title": "A counterexample to Terao's conjecture for free hyperplane arrangements over $\\mathbb{F}_{121}$",
+"abstract": "We give a counterexample to Terao's conjecture for free hyperplane arrangements defined over the finite field $\\mathbb{F}_{121}$.",
+"authors": [
+"Shuhei Tsujie"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00999v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00999v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.29308",
 "title": "A Determinant Proof of the Sun--Yang--Zuo Conjecture",
 "abstract": "We give an elementary proof of the determinant identity in \\cite[Conjecture~A.1]{SYZ} over any field of odd characteristic $p$. The proof computes the determinant of a single linear map by dividing by two different monic polynomials. By \\cite[Proposition~A.9]{SYZ}, the identity gives another proof of the Sun--Yang--Zuo conjecture. The conjecture identifies the Higgs--de Rham self-map of the four-pointed projective line with the map induced by multiplication by $p$ on its elliptic double cover.",
@@ -630,6 +694,29 @@
 "announce": "new",
 "date": "2026-11-24",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00996",
+"title": "A finite arithmetic test for simplicity of the Riemann zeros, after Suzuki",
+"abstract": "M. Suzuki proved that, under the Riemann hypothesis, the compressions of the inverse of a self-adjoint differentiation operator to windows of Weil's quadratic form converge in Hilbert-Schmidt norm, and that their eigenvalues recover every distinct zero ordinate of the Riemann zeta function; he notes that the multiplicities are not recovered. The Riemann hypothesis is now a theorem of L. Alpöge. We show that the multiplicities are recovered by even trace powers. Let $S_k=2\\sum_{\\gamma>0}m_\\gamma\\gamma^{-2k}$ be the Taylor moments of $\\log\\xi(1/2+iz)$, which count multiplicity, and let $D_{N,k}$ be $S_k$ minus the trace of the $2k$-th power of a finite compression whose matrix entries come from the explicit formula with finitely many prime powers. Then $D_{N,k}\\ge 2E(T)/T^{2k}$, where $E(T)$ is the number of repeated zeros up to height $T$ counted with their excess multiplicity, and $\\sup_{N,k}(2/D_{N,k})^{1/(2k)}$ equals the height of the first multiple zero. So the zeros up to a height $T$ are simple if and only if one finite arithmetic inequality holds, and all zeros are simple if and only if these heights are unbounded. An equivalent integer form counts the positive eigenvalues of one Hermitian matrix. A computation in ball arithmetic, with prime powers below $e^{12}$ and no zero ordinates as input, certifies that every zero with $0<\\Im\\rho\\le 97.632$ is simple. The mathematics was produced by GPT-6 Astra (ChatGPT Pro mode); Claude Opus 5.5 at effort high checked every proof, wrote this text, and recomputed the certificate with an independently written program. No human has checked this note.",
+"authors": [
+"Floris Alderliefste"
+],
+"categories": [
+"math.NT",
+"math.SP",
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2611.00996v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00996v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1234,6 +1321,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00985",
+"title": "Bayesian Updating with Contextful Arrows",
+"abstract": "Many formulations of Bayesian updating with Markov categories are known, among them the dagger on probability spaces, Bayesian lenses and their dependent version, the recursion of the Bayes filter and conditional composition. A question common to many of them is how to make updating compositional, so that a posterior becomes the next prior; the author's earlier work also raised it, as the relation between sequential and batch updating. This paper gives one answer by composing contextful arrows. The states of a Markov category $\\mathcal{C}$ form a base $\\mathcal{B}=(I/\\mathcal{C})^{\\mathrm{op}}$, and their lifts, the joint states with a given marginal, form a presheaf $L$ on $\\mathcal{B}$. A foot makes $L$ a contextful arrow $\\mathcal{B}\\to\\mathcal{B}$: the marginal foot recovers the chain rule of Bayesian lenses, and the joint foot makes each joint state the next state. With the joint foot, the lifts to an object $Y$ give a strong monoidal functor $K$ from $\\mathcal{C}$ to the monoidal category of contextful arrows on $\\mathcal{B}$, whose runs are conditional composites. Through $K$ the symmetry of $\\mathcal{C}$ becomes a swap of two lifts, and this swap is a Bayesian inversion. The coherence of $K$ then gives the agreement of sequential and batch updating and recovers the recursion of the Bayes filter. These facts are known; here they follow from one strong monoidal functor.",
+"authors": [
+"Kotaro Kamiya"
+],
+"categories": [
+"math.CT",
+"math.ST"
+],
+"link": "https://hexagonmath.org/abs/2611.00985v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00985v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2606.22887",
 "title": "Birational Algebraic Topology",
 "abstract": "Over any qcqs scheme $S$, we show that inverting dense open immersions in $\\mathcal{H}^{\\mathbb{A}^1}(S)$, $log\\mbox{-}\\mathcal{H}^\\Box(S)$, and $\\mathcal{P}_\\Sigma(\\mathrm{Sm}_S)$ yields the same birational $\\infty$-category $\\mathcal{H}^b(S)$. Unlike in $\\mathcal{H}^{\\mathbb{A}^1}(S)$, all Nisnevich truncations and homotopy sheaves (including $\\pi_0^{nis}$) of birational spaces remain birational, and hence $\\mathcal{H}^b(S)$ is Postnikov complete. Moreover, the birational localization $L_{bir}$ commutes with the bar construction, ensuring effective delooping for every grouplike object in $\\mathcal{H}^b(S)$ and yielding an unstable birational higher-connectivity theorem. Building on these results, we establish birational analogs of the van Kampen theorem, the higher Galois theory of coverings, and the Freudenthal suspension theorem. When $S$ is geometrically unibranch with finitely many generic points, we show that $\\mathcal{H}^b(S)$ is in fact an $\\infty$-topos of homotopy dimension zero.\n  Over a perfect field, we identify discrete birational group sheaves with strongly $\\mathbb{A}^1$-invariant sheaves whose $\\mathbb{G}_m$-contraction vanishes, and deduce that $S^{2,1}$-nullification $L^{2,1}$ agrees with $L_{bir}$ on pointed $L^{2,1}$-connected spaces. Finally, over any field, we prove that $L_{bir}$ preserves generic values of $\\pi_0^{\\mathbb{A}^1}$ on motivic colimits of proper schemes; over perfect fields, it therefore detects their $\\mathbb{A}^1$-connectivity and yields an equivalence $\\mathbb{H}_0^{\\mathbb{A}^1} \\simeq \\mathbb{H}_0^b$ for them, answering a question of Asok and Haesemeyer in greater generality.",
@@ -1515,6 +1624,51 @@
 "announce": "cross",
 "date": "2026-11-24",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00987",
+"title": "Constructing finite fields of prime degree from small cyclotomic cofactors and at fixed valuation, after Bach, von zur Gathen, Lenstra, and Pila",
+"abstract": "Bach, von zur Gathen and Lenstra obtained nonresidues from smooth cyclotomic values. Pila used Frobenius on abelian varieties to construct roots of unity of fixed prime order. We use these ideas to construct a monic irreducible polynomial of odd prime degree over a prime field in two ways. The first is algebraic. Its bit cost is polynomial in the degree, the logarithm of the characteristic, a prime cutoff and the remaining cyclotomic cofactor. For degree r, every prime ℓ≠ r up to the cutoff that divides the cyclotomic value and satisfies ℓ≢1(mod r) can be removed to its full valuation without a root of unity as input. The second uses Alpöge's theorem on rational Dirichlet L-functions. For each fixed degree and fixed valuation of the cyclotomic value at that degree, it runs in time polynomial in the logarithm of the characteristic. For fixed odd prime degree r and fixed t, the same analytic input also removes the full powers of odd primes ℓ≠ r up to the cutoff with v_r(ℓ-1)≤ t. In degree three with t=1, this includes all eligible primes up to the cutoff except those congruent to one modulo nine. The exponent in this extension may depend on r,t. Tang obtains the field presentation for every degree and characteristic using OpenAI's prime-field factorization algorithm and the Cureton–Thorner Dedekind zeta estimate. The constructions here give different proofs on the stated input classes. We also bound the exceptional characteristics for short auxiliary-prime and cubic searches. GPT-6 Astra (ChatGPT Pro mode) produced the mathematics and text. Claude Opus 5.5 at effort high made targeted checks; GPT-6.2 Astra at reasoning effort ultra (Codex) made targeted checks and edited this text. No human has checked it.",
+"authors": [
+"Floris Alderliefste"
+],
+"categories": [
+"math.NT",
+"cs.SC",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.00987v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00987v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00983",
+"title": "Convergence of the one-particle quantum symmetric simple exclusion process to the KPZ equation",
+"abstract": "The quantum symmetric simple exclusion process (QSSEP) is a random quantum system describing fermions hopping on a one-dimensional lattice. The dynamics depend on a family of independent complex Brownian motions. When the system contains a single particle, the model boils down to the unitary evolution of a wave function in random environment. We prove that, in a window of size $t^{1/2}$ located at a distance of order $t^{3/4}$ from the origin, the random probability distribution of the quantum particle converges, after a suitable rescaling, to the solution of the multiplicative noise stochastic heat equation, whose logarithm solves the Kardar-Parisi-Zhang equation. Such a convergence is well-understood for random walks in space-time random environment, but the one-particle QSSEP is not a random walk in a random environment. Our proof relies on a Markov duality between the one-particle QSSEP and the symmetric inclusion process.",
+"authors": [
+"Guillaume Barraquand"
+],
+"categories": [
+"math.PR",
+"math.MP"
+],
+"link": "https://hexagonmath.org/abs/2611.00983v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00983v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2005,6 +2159,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00978",
+"title": "Forcing and Avoiding Monochromatic Pairs $\\{x + y,xy\\}$",
+"abstract": "Let $R(r)$ be the least $N$ for which every $r$-coloring of $[N]$ contains a monochromatic pair $\\{x + y,xy\\}$ with $x>y>2$. We prove that $\\exp\\!\\left(c\\cdot\\frac{r\\log r}{\\log\\log r}\\right) \\le R(r) \\le \\exp\\!\\left(2^r r^C\\right)$ for absolute $c,C>0$ and all sufficiently large $r$.",
+"authors": [
+"Samuel Korsky"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00978v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00978v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2609.19895",
 "title": "Fractal Hyper-Trees I. Combinatorial foundations: definition, enumeration, invariants, morphisms and the algebra $\\mathbb C\\oplus\\mathbb H\\oplus M_3(\\mathbb C)$",
 "abstract": "Fractal Hyper-Trees (FHTs) are hypergraphs organized in levels: each level consists of disjoint connected clutters, and every edge strictly contains each lower component that it meets. Connected clutters and Schr{\\\"o}der hierarchies are the two extreme cases. Every FHT decomposes uniquely into the children of its top component, which carry smaller FHTs, and a host, an arbitrary connected clutter on these children. This gives an exact recurrence by size and depth and a species equation; the counts begin 1, 1, 4, 23, 231, 16947, 490083358 and are exact through nine vertices. Four interior moves (fusion, fission, aggregation, explosion) connect the FHTs on a given vertex set; every FHT on at least two vertices descends to the star by moves at distance at most one from the root, and $\\kappa-1$, with $\\kappa$ the number of edges, is its distance to the star. For FHTs with automorphism group $S\\_4$, twisting the real group algebra by the sign character gives $\\mathbb{C}\\oplus\\mathbb{H}\\oplus M\\_3(\\mathbb{C})$, the finite algebra of Connes' description of the Standard Model. Conversely this algebra determines the group up to isomorphism and the class of a real 2-cocycle. The axioms select neither the group nor the twist: with the twist fixed as the sign of the action on the vertices, the algebra occurs exactly when $\\mathrm{Aut}\\,F\\cong S\\_4$ and some automorphism is odd on the vertices, at every size $v\\ge4$. Every finite group is the automorphism group of a flat FHT, and every faithful action on a finite connected simplicial complex is rigidified into a flat FHT with the same reduced integral homology. All computations are deposited and their kind (exhaustive, sampled, exact or numerical) is stated.",
@@ -2296,6 +2471,29 @@
 "announce": "new",
 "date": "2026-11-24",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00986",
+"title": "Grothendieck rings of complex fusion categories: rank 5",
+"abstract": "We classify the Grothendieck rings of fusion categories of rank five over $\\mathbb{C}$. There are exactly seventeen based rings, and each has a unitary realization. Every such fusion category has a pseudo-unitary Galois conjugate and admits a spherical structure. The sharp bounds on the largest fusion multiplicity and the global Frobenius–Perron dimension are four and $48+24\\sqrt{3}$, respectively. The proof first compares the ordinary and signed dimension characters through central induction. Fourier estimates and integral traces establish Galois pseudo-unitarity. We then bound the fusion rules by the action of the invertible objects and by the degree of the dimension field. Exact finite certificates complete the classification.",
+"authors": [
+"Sebastien Palcoux"
+],
+"categories": [
+"math.QA",
+"math.CT",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.00986v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00986v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2750,6 +2948,27 @@
 "announce": "cross",
 "date": "2026-11-24",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00979",
+"title": "Lower Bounds for Self-Avoiding Walks",
+"abstract": "For a uniformly chosen $n$-step self-avoiding walk on the square lattice, we prove that the mean distance between its ends is at least $c n^{1/3}$ for every $n\\ge1$ and at least $c' n^{2/5}$ for infinitely many $n$, for absolute $c, c' > 0$.",
+"authors": [
+"Samuel Korsky"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.00979v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00979v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -3766,6 +3985,29 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00993",
+"title": "Spectrum, semimodules and projectives of the inverse semiring $R_0$ of Faul, Goswami, Joubert and Manuell",
+"abstract": "Faul, Goswami, Joubert and Manuell made the case for inverse semirings, the semirings whose additive monoid is an inverse monoid. One of their basic examples is the semiring $R_0$ obtained from a ring $R$ by adjoining a new zero; they showed that $\\mathbb Z_0$ is the initial inverse semiring and that every module over an inverse semiring has an inverse additive monoid. Caviglia, Faul, Manuell and Mesiti then described every inverse semiring by an idempotent semiring and a lax monoidal functor from it to abelian groups; for $R_0$ the idempotent semiring is the Boolean semifield. For a nonzero commutative ring $R$ we determine the prime spectrum of $R_0$, its congruences, its semimodules and its finitely generated projective semimodules. The spectrum is $\\operatorname{Spec} R$ with one new point below all others, at which the localization is the Boolean semifield. The semimodules are the strong semilattices of $R$-modules: families of $R$-modules indexed by a join-semilattice, with linear maps along the order; this is the counterpart for semimodules of the description of Caviglia, Faul, Manuell and Mesiti. The finitely generated projective ones are classified by finite posets carrying a finitely generated projective $R$-module at each element, and their semilattices of idempotents are exactly the finite distributive lattices. Since the $\\mathbb Z_0$-semimodules are the commutative inverse monoids, the case $R=\\mathbb Z$ is Clifford's theorem together with a classification of the finitely generated projective commutative inverse monoids. Finally, $R\\mapsto R_0$ is fully faithful on commutative rings, and when the units of $R$ have no common nonzero fixed point, the two zeros of $R_0$ are exactly the common fixed points of the units. The construction began as an idea of the depositor's, in a conversation with Gemini 2.5 Pro (Gemini app). The results were produced by Gemini 2.5 Deep Think (Gemini app, Deep Think mode) and by GPT-5-series Pro models (ChatGPT Pro mode, at reasoning effort ultra), checked and written up by Claude Opus 5.5 at effort max, and checked again and edited by Claude Fable 5.2 at effort max. No human has checked the proofs.",
+"authors": [
+"Floris Alderliefste"
+],
+"categories": [
+"math.RA",
+"math.AG",
+"math.CT"
+],
+"link": "https://hexagonmath.org/abs/2611.00993v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00993v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00925",
 "title": "Springer's 1951 conjecture on inverse coefficients settled: true at every odd order, false at every even order from four on",
 "abstract": "Let $g(z)=z+b_1z^{-1}+b_2z^{-2}+\\cdots$ be analytic and one-to-one in $|z|>1$, and let $G(w)=w+B_1w^{-1}+B_2w^{-2}+\\cdots$ be its inverse near infinity. Fix $n\\ge1$, and let $q$ be the least prime divisor of $n+1$. In 1951 Springer conjectured that, among all such $g$, the modulus of the inverse coefficient $B_n$ is largest when $g$ maps $|z|>1$ onto the complement of $q$ straight slits of equal length that issue from the origin at equal angles. At odd orders $n=2m+1$ the conjecture reads $|B_{2m+1}|\\le C_m$, where $C_m=(2m)!/(m!\\,(m+1)!)$ is a Catalan number, with equality only for the maps $z+e^{i\\theta}/z$. This case was known for $m\\le 7$ and for odd functions $g$, and further cases through $m=16$ have been reported. We prove this inequality and the equality statement for every $m$ and every $g$. More precisely, $B_{2m+1}$ lies in the closed disk with center $-2^{-m}C_m\\, b_1^{m+1}$ and radius $(1-2^{-m})C_m$. The proof follows the inverse function along a Loewner evolution and bounds its coefficients, by induction, by those of the inverses of the slit maps $z+t/z$. For $n=2$ the conjecture is a classical theorem of Schiffer and Golusin. For every even $n\\ge 4$ the conjecture is false. When $n+1$ is not divisible by $3$, this failure is due to Chang, Schiffer and Schober (1981) and Kuznetsov (1988). We establish the failure at the remaining orders $n=8,14,20,\\ldots$, and we give explicit counterexamples for every even $n\\ge4$. For even $n\\ge4$ the maximum of $|B_n|$ is, to our knowledge, unknown, but it is at least a positive constant times $2^nn^{-3/2}$, whereas the conjectured bound is only $2/(n+1)$ when $n+1$ is prime. These results are verified in Lean.",
@@ -3802,6 +4044,27 @@
 "announce": "new",
 "date": "2026-11-24",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00994",
+"title": "Stretched-exponential circuit lower bounds for the noncommutative permanent and determinant",
+"abstract": "Over every field, the row-ordered permanent and determinant of an \\(n\\times n\\) matrix have border circuit size greater than \\(2^{n^\\delta}\\) for some \\(\\delta>0\\) and all sufficiently large \\(n\\). The bound persists when only \\(O(n)\\) entries are noncentral and each fails to commute with at most three others. Two increasing runs of a permutation encode a repeated binary word. If no planar crossing admits a strict shortening, a circuit decomposition along chords of a square gives the lower bound \\(2^{n/2-O(\\sqrt{n\\log n})}\\). If a shortening exists, a matrix evaluation transfers OpenAI's stretch theorem through directed Hamiltonian cycles. We also construct hard polynomials on a path whose commutative coefficient tables have linear-size formulas. On a matching, the row-ordered determinant has quasipolynomial-size circuits over every field.",
+"authors": [
+"Yilin Liu"
+],
+"categories": [
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2611.00994v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00994v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -4064,6 +4327,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00989",
+"title": "The knot 17nh_0010647 is not smoothly slice",
+"abstract": "Dunfield and Gong listed three topologically slice knots, 16n68278, 17nh_0010647 and 18nh_00098198, such that the smooth sliceness of any one of them would produce an exotic smooth 4-sphere. We show that 17nh_0010647 is not smoothly slice. The argument combines the super-special RBG link given by Dunfield and Gong for one of the 0-friends of this knot, the trace-embedding argument of Nakamura, and the adjunction inequality of Ren for the even Sq^1-refinement of Rasmussen's invariant. The input from computation is the value s_+^{Sq^1} = 2 for that 0-friend, together with checks of the RBG link. Nothing in this note has been checked by a professional mathematician or by any third party.",
+"authors": [
+"David Niedbala Giraudin"
+],
+"categories": [
+"math.GT"
+],
+"link": "https://hexagonmath.org/abs/2611.00989v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00989v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00941",
 "title": "The lattice of rainbow bases",
 "abstract": "Let \\(E\\) be the labelled union of \\(n\\) bases of an \\(n\\)-dimensional vector space over a field. We determine the integer lattice generated by the incidence vectors of its rainbow bases. It consists of the integer vectors with equal colour sums and component sums equal to the common colour sum times the component ranks, and it is saturated. In particular, the all-one vector is an integer combination of these incidence vectors. Over every field, for every sufficiently large integer \\(k\\), the multiset containing \\(k\\) copies of each label can be partitioned into \\(kn\\) rainbow bases.",
@@ -4102,6 +4386,34 @@
 "announce": "new",
 "date": "2026-11-24",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00982",
+"title": "The Mean-Field Limit of High-Dimensional Euclidean Matching",
+"abstract": "We study the minimal cost of a bipartite matching between two independent samples of $n$ uniform points in dimension $d$, with cost given by the $p$-th power of the distance, in the limit where first $n\\to\\infty$ and then $d\\to\\infty$. For an arbitrary sequence of norms, on the unit cube or on the flat torus, and for $1\\le p=o(d)$, the $\\liminf$ and the $\\limsup$ in $n$ of the volume-normalized cost both equal $1+(1-2\\gamma)p/d+O((p/d)^2)$, where $\\gamma$ is Euler's constant. On the Euclidean flat torus and for $p=\\alpha d$ with $\\alpha>0$ fixed, the $\\liminf$ and the $\\limsup$ in $n$ of the normalized cost converge, as $d\\to\\infty$, to the limiting cost $\\beta_{\\rm bip}(1/\\alpha)$ of the random bipartite assignment problem in pseudo-dimension $1/\\alpha$; for $\\alpha=1$ this value is $\\pi^2/6$. For arbitrary norms on the cube we obtain the same identification for $\\alpha$ below an explicit threshold. The coefficient $1-2\\gamma$ is the right derivative at $0$ of $\\alpha\\mapsto\\beta_{\\rm bip}(1/\\alpha)$. The lower bounds rest on an averaging identity of Xu, a Gamma--Poisson representation of the targets and cavity dual prices. The upper bounds require turning a cavity allocation into an exact transport plan. For $p=o(d)$ this is done with a multiplicatively weighted Poisson race and a norm-adapted pairing of the residual mass. For fixed $\\alpha$ we use a multiscale rescue scheme controlled by high Poisson moments, a periodic $L^p$ flux estimate whose leading constant grows only polynomially in the dimension, and a single lift of the corrected plan to the atomic targets.",
+"authors": [
+"Matteo D'Achille",
+"Michael Goldman",
+"Francesco Grotto",
+"Francesco Mattesini",
+"Dario Trevisan"
+],
+"categories": [
+"math.PR",
+"math.CO",
+"math.MP",
+"cs.DM"
+],
+"link": "https://hexagonmath.org/abs/2611.00982v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00982v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -4540,6 +4852,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.00997",
+"title": "Weak double extension set theory is inconsistent",
+"abstract": "We prove that Kisielewicz's weak double extension set theory DEST is inconsistent: already two of its axioms, mixed extensionality and comprehension, contradict each other. DEST has two membership relations, $\\in$ and $\\varepsilon$; it interprets ZF, and its consistency was an open problem. Holmes showed, using the regularity axiom, that the ordinals of the two relations differ: with the relations suitably named, every $\\varepsilon$-ordinal is an $\\in$-ordinal, and the object $\\mathrm{Ord} = \\{x \\mid x \\text{ is an ordinal}\\}$ is an $\\in$-ordinal but not an $\\varepsilon$-ordinal. We show first that comprehension alone refutes such an asymmetry, in intuitionistic logic. Assume this asymmetry. If $V$ is the universal set and $\\Theta(z)$ says that $z$ omits some ordinal, then the object $A = \\{\\, z \\mid z = V \\;\\vee\\; \\mathrm{ord}(z) \\;\\vee\\; \\bigl(V \\in z \\wedge (z \\in z \\oplus \\Theta(z))\\bigr) \\,\\}$ satisfies $A \\in A \\leftrightarrow A \\notin A$, and the same argument refutes every formula that is asymmetric in this way. We then derive the asymmetry of the ordinals, up to exchanging the two relations, from mixed extensionality and comprehension without the regularity axiom; this is the only use of classical logic. Both parts are formalized in Agda and in Lean 4; a variant of the proof that uses no classical logic is formalized as additional code. The code is at https://github.com/BedrockInstitute/DESTInconsistency.",
+"authors": [
+"Peter Zhang"
+],
+"categories": [
+"math.LO",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.00997v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00997v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.00956",
 "title": "Weighted distribution of residual indices and the contribution of higher-degree primes",
 "abstract": "The residual index at a prime ideal of good reduction counts the cosets of the reduced subgroup in the multiplicative residue group. For a fixed finitely generated group of rank \\(r\\) in a number field, we estimate index frequencies up to norm \\(X\\), uniformly over conditions on the Frobenius action on residue fields in a fixed finite Galois extension. Adjoin roots of unity and radicals of the generators to this extension. If the nontrivial zeta zeros of the resulting fields have real parts uniformly below \\(r/(r + 1)\\), the sum of absolute frequency errors weighted by small powers of the index admits a power saving. Model moments are finite for positive orders below \\(r\\). Under the generalized Riemann hypothesis, empirical moments converge to them for positive orders below \\((r - 1)/(r + 2)\\). For rational generators in a nontrivial finite Galois extension of the rationals, we give an unconditional lower bound for the contribution of higher-degree ideals to the mean above any fixed index cutoff. This contribution diverges in rank one. For two rank-three groups over the Gaussian rationals, the sum of squared indices divided by \\(X^{3/2}/\\log X\\) has lower limit at least \\(329/648\\). This growth exceeds the scale in the literal form of Ambrose’s prime-ideal heuristic.",
@@ -4580,6 +4914,28 @@
 "other_links": {
 "hexagon": "https://hexagonmath.org/abs/2611.00918v1"
 },
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.00995",
+"title": "Windows, Oscillation, and the Critical Line for Dirichlet L-Functions",
+"abstract": "Let $\\Psi(y,\\chi)$ be the von Mangoldt remainder attached to a primitive Dirichlet character $\\chi$, and let $\\sigma_{0}(\\chi)$ be the supremum of the real parts of the nontrivial zeros of $L(s,\\chi)$. We prove a syndetic oscillation theorem: if $\\sigma_{0}(\\chi) > 1/2$ is attained by a zero, then for every $\\theta < \\sigma_{0}(\\chi)$, every $C < \\infty$ and every $\\lambda > 1$, each interval $[Y, Y^{\\lambda}]$ with $Y$ sufficiently large contains a point $y$ with $|\\Psi(y,\\chi)| > C y^{\\theta}$. The kernel width is chosen canonically, so that the amplitude is an explicit function of the rightmost zero alone and both the amplitude and the gap are independent of $\\theta$ and $C$; real zeros are covered by the same statement. Combining this with the identity $\\sigma_{0}(\\chi) = \\inf\\{\\theta : \\Psi(y,\\chi) = O(y^{\\theta})\\}$, proved here from a smoothed explicit formula, we obtain an exact reformulation of the critical-line assertion as a statement about the existence of long clean windows. We then determine the logical strength of the arithmetic input that such a reformulation requires: a bound $|\\Psi(x,\\chi)| \\le A x^{1/2+\\Gamma\\varepsilon}$, uniform in $\\chi$ and valid for every $\\varepsilon > 0$, is equivalent to the critical-line assertion itself, whereas the large sieve in its standard form implies no pointwise exponent below 1. The two halves of the programme are therefore separated by an input of exactly the strength of the conclusion.",
+"authors": [
+"Zeng Chunping"
+],
+"categories": [
+"math.NT",
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.00995v1",
+"pdf": "https://hexagonmath.org/pdf/2611.00995v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-24",
+"ai_mode": "human",
+"other_links": {},
 "tier": 9,
 "reasons": [],
 "watched_authors": []
