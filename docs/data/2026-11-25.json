@@ -1,6 +1,6 @@
 {
 "day": "2026-11-25",
-"updated": "2026-11-25T06:04:54+00:00",
+"updated": "2026-11-25T16:03:56+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -1274,6 +1274,29 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.01038",
+"title": "Hecke Actions and Pure Inner Forms in Families of Real Langlands Parameters",
+"abstract": "Let $H$ be a connected quasi-split real reductive group. We construct, on the stack of flagged Langlands parameters, a compact object for each pure inner form of $H$. Its finite Hecke translates generate a summand of the periodic coherent category. These summands are mutually orthogonal and exhaust the category over the entire marked Cartan. For each quasi-split form the corresponding summand is equivalent, as a finite Hecke module, to the periodic category of sheaves with nilpotent singular support on its enhanced real flag quotient. For a complex group regarded as real, the comparison is monoidal. For the full pure inner class we prove the equivalence on the open set where the roots taking value one span a space of rank at most one. It holds everywhere if each pure inner form is quasi-split or compact modulo its center. The comparisons preserve the marked parameter and the original boundary circle class. For every pure inner form we also compute the maps from an arbitrary standard Hecke translate to its closed generator. The nonzero terms are lines on a finite cover of the norm torus. Their shifts and both Cartan actions agree with those on the real flag variety.",
+"authors": [
+"Minghua Dou",
+"Jiawei Yang"
+],
+"categories": [
+"math.RT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.01038v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01038v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-25",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.31691",
 "title": "Heights and energies of polarized fibrations of varieties II. Fibrations over a polarized base",
 "abstract": "We extend the height and energy inequalities for fibrations over curves to a fibration $f:X\\to Y$ over a polarized variety $(Y,B)$. For an integrable relatively nef adelic line bundle $\\bar L$, we prove a height inequality under the assumption that $L$ is nef on the inverse image of a geometric generic complete-intersection curve in $Y$. We deduce a lower bound for the local energy at almost every complex or nonarchimedean realization of a fixed polarized model when $L$ is $f$-ample. For a slope semistable bundle on a fixed polarized complex variety, we show that the infimum of the energy on its projective bundle equals the infimum of Donaldson's functional on Hermitian quotient metrics, with the normalization given below.",
@@ -1523,6 +1546,27 @@
 "announce": "cross",
 "date": "2026-11-25",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01037",
+"title": "Local Graph Limits Do Not Determine Normalized Adjacency Rank over $\\mathbb F_2$",
+"abstract": "We construct two sequences of finite simple bipartite graphs of maximum degree three with the same Benjamini--Schramm limit and different limiting normalized adjacency ranks over $\\mathbb F_2$. This disproves the finite-field rank convergence conjecture of Ab\\'ert and Szegedy in characteristic two. On these graph sequences, a fixed radius-one XOR rule applied to independent uniform vertex bits has different limiting output entropies per vertex. We also give two sequences of bounded-degree two-dimensional simplicial complexes with the same local limit and different limiting second Betti numbers per vertex over $\\mathbb F_2$. For some absolute $\\varepsilon>0$, estimating the rank over $\\mathbb F_2$ of an $N\\times N$ binary matrix to within $\\varepsilon N$ requires $\\Omega(N)$ row or column queries, even with at most three ones per row and column. For a bounded-degree two-dimensional complex on $M$ vertices, estimating the second Betti number over $\\mathbb F_2$ to within $\\varepsilon M$ requires $\\Omega(M)$ queries, each of which returns all simplices containing a specified vertex. Both bounds hold for randomized adaptive algorithms that succeed with probability at least $2/3$ on every input.",
+"authors": [
+"Yuichi Yoshida"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01037v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01037v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-25",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
