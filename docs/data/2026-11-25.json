@@ -1,6 +1,6 @@
 {
 "day": "2026-11-25",
-"updated": "2026-11-25T17:57:00+00:00",
+"updated": "2026-11-25T19:32:08+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -547,6 +547,29 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-24",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01056",
+"title": "A Machine-Certified Degree-2,799 Counterexample to Smale's Mean Value Conjecture via Envelope-Theorem Barycentric Minimax Optimization and pandroots",
+"abstract": "We construct and unconditionally machine-certify an explicit complex polynomial p(u) in Q(i)[u] of exact degree d = 2,799 satisfying p(0) = 0, p'(0) = 1, and min_{p'(zeta)=0} |p(zeta)/zeta| in [1.0002520813917934477351916, 1.0002520813917934477351917] > 1, setting a new lowest-degree record for explicit counterexamples to Smale's 1981 Mean Value Conjecture (K <= 1). Compared with the October 2026 disproof of Adamczewski and Colbrook (arXiv:2610.36158, degree 29,984, minimum ~1.000000495958) and our November 24, 2026 record (DOI: 10.5281/zenodo.24512942, degree 7,299, minimum ~1.000027196554), the new construction reduces the certified degree by 10.71x and 2.61x respectively, while increasing the certified margin above 1 by 508.3x and 9.27x. By standard leading-term perturbation, counterexamples exist for every degree n >= 2,799. To break through the ~7,300 degree floor of pure analytic conformal-map interpolation, we introduce Envelope-Theorem barycentric minimax optimization in the O(log M)-conditioned Fejer-Lagrange nodal basis with a free anchor a in C and iterative bootstrap degree compression coupled with Maehly's deflated Newton root tracking. The compact 1.3 MB exact Gaussian-integer polynomial with exact 15-bit dyadic anchor a = (22901 - 11056*i) / 2^15 is certified with zero floating-point assumptions in 10.43 s on 10 CPU cores by combining pandroots v0.31.0 (certify_roots_exact, 8.56 s, max radius 2^-795) with an exact BigInt Smale ratio enclosure (1.85 s), independently verified at 700-digit precision in Python mpmath and reproduced on GitHub Actions CI. Code and green CI: https://github.com/ivan-fr/smale-deg2799 | Zenodo DOI: 10.5281/zenodo.24531472.",
+"authors": [
+"Ivan Besevic"
+],
+"categories": [
+"math.CV",
+"math.CA",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.01056v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01056v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-25",
 "ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
@@ -2914,6 +2937,29 @@
 "announce": "new",
 "date": "2026-11-24",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01055",
+"title": "« Le triangulaire d'un carré » : une note inédite attribuée à Sophie Germain (BnF, NAF 4073)",
+"abstract": "Volume NAF 4073 of the Bibliothèque nationale de France gathers letters to and from Sophie Germain. On the verso of folio 32, the cover of an unsigned letter of 13 March 1814, a note in a hand other than the letter's states that \"the triangular number of a square is the sum of the squares of the two consecutive triangular numbers\", and writes ((n²−n)/2)² + ((n²+n)/2)² = (n⁴+n²)/2. It is the only line of mathematics in the volume, and neither the catalogues nor the studies consulted mention it. It is in Germain's hand: the manuscript dated \"circa 1797\" by the bookseller Quaritch and reproduced by Alexanderson gives the same identity in the same notation, after \"J'ai aussi remarqué que\", and writes in symbols what the sentence of NAF 4073 says in words. The identity was known; the note was not. A last section extends Germain's computation to power sums expressed in terms of T_n; every statement is proved in Lean 4.",
+"authors": [
+"Michel Hua"
+],
+"categories": [
+"math.HO",
+"math.CO",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01055v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01055v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-25",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
