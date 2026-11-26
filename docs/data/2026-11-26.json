@@ -1,6 +1,6 @@
 {
 "day": "2026-11-26",
-"updated": "2026-11-26T15:45:05+00:00",
+"updated": "2026-11-26T17:41:33+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -619,6 +619,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.01117",
+"title": "Counting contingency tables, Kostka numbers, and Littlewood--Richardson coefficients with unary inputs is #P-complete",
+"abstract": "We prove that counting contingency tables with prescribed unary margins is $\\#P$-complete under polynomial-time Turing reductions for both cases of tables with nonnegative integer entries and entries in $\\{0,1\\}$. This proves a Conjecture of Pak and Panova. The methods involve modular arithmetic by repeating margins $p$-times and relating to the SETPARTITION problem. The congruences are proven using symmetric function techniques. We also realize each nonnegative table count as a single rectangular Kostka number, and then as a Littlewood--Richardson coefficient with a rectangular factor. Both coefficient problems are therefore $\\#$P-complete for partitions given in unary making Kostka and Littlewood-Richardson coefficients strongly $\\#$P-complete. For permutations in one-line notation, computing a Schubert structure constant is consequently $\\#$P-hard even when all three permutations are Grassmannian with a common descent.",
+"authors": [
+"Greta Panova"
+],
+"categories": [
+"math.CO",
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2611.01117v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01117v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.33837",
 "title": "Decomposition algorithms for rational curves on real classical groups",
 "abstract": "This paper is devoted to an algorithmic investigation of the decomposition problem for rational curves on real classical groups. The main contributions are:\n  (1) We present two Maple-implemented algorithms for decomposing rational curves on real classical groups. The first algorithm decomposes a curve with multiple poles into a unique product of curves with single poles. For rational curves on (indefinite) orthogonal groups, the second algorithm further decomposes single-pole curves into products of low-degree curves. The former only involves linear equations, whereas the latter requires solving both linear and quadratic equations.\n  (2) We compare the decomposition of the same curve with respect to different ambient groups. Through this comparison, we provide an interpretation of the \"multiplication trick\" for motion polynomials within our framework. Moreover, we demonstrate that our second algorithm aligns with this trick.\n  (3) We prove that the solvability of linear equations in the second algorithm is preserved under the extension of the ambient group.\n  For illustration, we provide comprehensive computational examples.",
@@ -748,6 +770,28 @@
 "announce": "new",
 "date": "2026-11-25",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01108",
+"title": "Euler Transport for the Quadratic Dedekind Zeta Function: a Verified Reduction of the Quadratic Factorisation on Prove2Me",
+"abstract": "We report a machine-verified reduction of the quadratic factorisation milestone of the Class Number Formula mission on the Prove2Me platform: for a quadratic number field K with discriminant d and Kronecker character chi, the identity zeta_K(s) = zeta(s) L(s, chi) for Re(s) > 1 together with the residue identity lim_{s->1+} (s-1) zeta_K(s) = L(1, chi) is reduced, with zero loss of constant, to three open lemmas: the Euler-factor transport itself, the nontriviality chi != 1, and an analytic residue transport. The reduction was found by the wormhole method (cross-domain transport along an explicit correspondence) and is packaged for completion by the self-contained-file method measured on the platform's most prolific solver. The parent theorem auto-resolves once the three leaves are proved, and the leaves feed both cases of Dirichlet's class number formula.",
+"authors": [
+"Paul Pajo"
+],
+"categories": [
+"math.NT",
+"math.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.01108v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01108v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -951,6 +995,28 @@
 "announce": "cross",
 "date": "2026-11-26",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01118",
+"title": "Holomorphy for homogeneous polynomials with ordinary singularities",
+"abstract": "We prove a vanishing theorem for twisted Igusa integrals of homogeneous polynomials whose projective hypersurfaces are reduced and have only isolated ordinary multiple points. Under Denef's monodromy exclusion, the integrals on the integer polydisc and its origin residue class vanish outside finitely many places, uniformly in the character. We also compute the integral on every residue class.",
+"authors": [
+"Jason Turner"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.01118v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01118v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1247,6 +1313,29 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.01114",
+"title": "Natural boundaries and real-point limits for class-one Goldbach series",
+"abstract": "For integers $q,r\\ge2$ we study the $r$-fold von Mangoldt Dirichlet series in which every summand is congruent to one modulo $q$. Under the Generalized Riemann Hypothesis at modulus $q$, the known meromorphic continuation to $\\Re s>r-1$ has the line $\\Re s=r-1$ as a natural boundary. The proof allows multiple zeros, zeros shared by different Dirichlet $L$-functions, and coincident sums of ordinates. The character average for class one adds the multiplicities at each ordinate. This gives positive integer weights, up to a common factor, in a sum of Gamma products to which the integer phase cone applies. A normal limit recovers the combined coefficient of all pairs at a given point of the line. The higher-fold boundary follows by reducing to the binary series. Under GRH at modulus $q$, we also subtract a main term, explicit up to an entire function, and compute the positive normal limit at the real boundary point. For the unrestricted series under the Riemann Hypothesis we give the regularized limit at every ordinate, including the real point for $r\\ge3$. Lean 4 checks the class-one results, with the character identity in pointwise form, and the unrestricted limits, taking the applicable classical estimates as premises.",
+"authors": [
+"Louis P. Slothouber"
+],
+"categories": [
+"math.NT",
+"math.CV",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.01114v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01114v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.33310",
 "title": "Nonzero central quotients of the Virasoro enveloping algebra are simple",
 "abstract": "We prove a conjecture of Petukhov and Sierra that the central quotient $\\mathrm{U}(\\mathrm{Vir})/(z-c)$ of the universal enveloping algebra of the Virasoro algebra is simple for all $c \\neq 0$. We extend the result to the $N=1$ super-Virasoro algebras.\n  Our proof reveals a new connection between enveloping algebras and polynomial identity algebras. Although the enveloping algebra itself does not satisfy a polynomial identity, the adjoint action on each filtered piece does satisfy a standard identity. In particular, the Witt algebra $W$, as an adjoint module over itself, satisfies the standard identity $\\mathrm{St}_4$, whereas $\\mathrm{Vir}$ fails by a nonzero multiple of the central charge. Propagating this gap through the PBW filtration of $\\mathrm{U}(\\mathrm{Vir})/(z-c)$, for every nonscalar element, we construct an alternating adjoint operator that lowers its order by exactly one.\n  As applications, we compute the annihilators of all representations with nonzero central character, prove a strengthened form of Etingof's conjecture on nonsplit extensions of $W$-modules, and reduce the classification of prime ideals of $\\mathrm{U}(\\mathrm{Vir})$ to those of $\\mathrm{U}(W)$.",
@@ -1536,6 +1625,29 @@
 "announce": "replace",
 "date": "2026-11-26",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01111",
+"title": "Phase cones for Gamma-weighted atoms of additive Dirichlet series",
+"abstract": "In the continuation of an additive Dirichlet series, several pairs of zeros can contribute to the same candidate singularity. The numerators are products of Gamma values with complex coefficients, so the sum of the numerators, which we call the atom, can vanish. We prove a uniform non-cancellation theorem for these sums. Stirling's formula uniformly on fixed vertical strips is a classical theorem, taken as an explicit premise. The pairs have the form $b+i(u+\\tau)$ and $c-iu$, with bounded $\\tau$, constant $b+c$, and real parts in $[1-B,B]$, where $1/2\\le B<1$. The coefficients lie in a common sector of half-angle $\\delta<\\pi(1-B)$. Every unit bin of heights is finite, and the total coefficient mass in every unit bin with nonnegative base satisfies a uniform polynomial growth bound in that base. The weighted Gamma sum converges absolutely and is nonzero if the least height is sufficiently large and a coefficient there has modulus bounded below. The height threshold depends only on the bounds in the hypotheses. After a common rotation every nonzero head term, at a height close to the least height, has positive projection on the real axis. Exponential decay bounds the sum of the remaining terms. The angle restriction is sharp. We recover the integer-weight cone of the author's earlier paper on the Goldbach generating series. We also explain the two ways a nonzero atom is used. A nonzero atom gives an interior pole where the candidate points are locally finite and both the correction and $\\Gamma$ are regular at the point. Gamma regularity is automatic for sums with positive real part. When the remaining pair sums lie on the boundary line and their numerators are absolutely summable, a nonzero atom gives a nonzero normal limit of the corrected series. The sector theorem and its two specializations have been checked in Lean 4 with Stirling on strips as an explicit premise.",
+"authors": [
+"Louis P. Slothouber"
+],
+"categories": [
+"math.NT",
+"math.CV",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.01111v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01111v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2036,6 +2148,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.01107",
+"title": "Tate classes in prime dimension",
+"abstract": "Let \\(A\\) be a geometrically simple abelian variety of odd prime dimension over a finitely generated field of characteristic \\(p>0\\), and assume that \\(A\\) is nonconstant up to isogeny. For every \\(\\ell\\ne p\\), its rational Tate classes are generated by divisors, with a possible exception in dimension seven for definite quaternionic multiplication and \\(G_2\\) monodromy. In specified endomorphism cases the result holds on every self-power. The proof recognizes one-dimensional tensor directions from the multiplicities in a Frobenius weight polytope. This identifies a Frobenius-stable adjoint subisocrystal and allows its Newton slopes to rule out certain tensor product representations.",
+"authors": [
+"Sihan Chen"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.01107v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01107v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.34187",
 "title": "Tensor ideals of oligomorphic permutation categories",
 "abstract": "We classify tensor ideals for oligomorphic permutation categories $Perm(G,\\mu)$. To this end we define an equivalence relation on the class of transitive smooth $G$-sets. We show that there is a bijection between the tensor ideals of $Perm(G,\\mu)$ and the downward-closed subsets of the poset of equivalence classes. As a corollary we obtain that there is a bijection between tensor ideals and thick tensor ideals. We determine the poset in many cases (mostly in characteristic $0$): the infinite symmetric group, wreath products, products of oligomorphic groups, equivariantizations, finite groups in positive characteristic and the classical groups $GL, O, Sp, U$ over a finite field.",
@@ -2123,6 +2256,27 @@
 "announce": "new",
 "date": "2026-11-26",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01115",
+"title": "The border Waring rank of powers of a square-free monomial",
+"abstract": "For all $n,d\\ge2$, the geometric border Waring rank of $(x_1\\cdots x_n)^{d-1}$ in characteristic zero is $d^{n-1}$. Flag-orbit flattenings and digit projections certify the lower bound. In the auxiliary characteristic, Frobenius makes the tensor invariant under the special linear group, and the flattening carries a highest flag vector to the next one. A nonzero integral minor transfers this bound to characteristic zero at prime-power heights. Splitting the multiplicities into digits multiplies these linear rank bounds and gives the formula at every height. A Schur-complement step propagates sharp certificates to unequal exponents in two directions. Normalized matching determines the border Waring rank when two exponents are sufficiently large compared with all the others. A strict growth argument also gives the conjectured value for every four-variable monomial with a linear factor.",
+"authors": [
+"Yilin Liu"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.01115v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01115v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2351,6 +2505,29 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.01112",
+"title": "The natural boundary of the filtered prime-pair Dirichlet series",
+"abstract": "Let $p$ and $p'$ range independently over the primes. We prove that the filtered prime-pair Dirichlet series \\[ T_0(s)=\\sum_{p,p'}\\frac{\\log p\\,\\log p'}{(p+p')^s} \\left(1-s+s(s+1)\\frac{pp'}{(p+p')^2}\\right) \\] has a meromorphic continuation to $\\Re s>1$ with natural boundary $\\Re s=1$. We assume $H_\\infty$, which says that for every $\\epsilon>0$ only finitely many nontrivial zeta zeros have real part greater than $1/2+\\epsilon$, together with classical facts about $\\zeta$ and $\\Gamma$: symmetries and counts of the zeros, a local expansion of $\\zeta'/\\zeta$, Littlewood's gap estimate and Stirling's formula on strips. The polynomial factor comes from applying the operator $1+x\\,d/dx$ to the exponential sum $\\sum_p(\\log p)\\mathrm{e}^{-px}$, which removes its main term $x^{-1}$ as $x\\to0$. This removes the pairing of the pole of the prime Dirichlet series at $1$ with zeta zeros divided by primes, which gives the known boundary of the unfiltered series. A term from the prime squares and a remainder survive beside the sum over zeros, and squaring the expansion produces pairs of zeros $\\rho,\\rho'$ themselves, with complex weights carrying the factor $(\\rho-1)(\\rho'-1)$. Several pairs can have the same sum, and their weights could cancel there. A sector theorem for weighted Gamma products, proved in a companion paper, shows that they do not cancel at a sum of bounded imaginary part that has at least one representation, provided both zeros of every representation have sufficiently large absolute ordinates. If infinitely many zeros lie off the critical line, this gives poles in $\\Re s>1$ that approach every point of the line $\\Re s=1$. If only finitely many do, we move the pairs involving those zeros into a correction term. The remaining pair sum, multiplied by the distance to $\\Re s=1$, then has a nonzero limit from the right at a dense set of points of that line. The Lean formalization takes the classical inputs as explicit premises.",
+"authors": [
+"Louis P. Slothouber"
+],
+"categories": [
+"math.NT",
+"math.CV",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.01112v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01112v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.01080",
 "title": "The primitive balanced-degree spectrum in the two-pair Image problem",
 "abstract": "Over every characteristic-zero field, the balanced degrees admitting radially primitive, absolutely nonpower two-pair Image counterexamples are precisely $4,6,7,8,\\ldots$. All pure balanced phases through degree three are safe, as are all pure radially primitive balanced quintics. One explicit integer family realizes the failure degrees with a common marker of balanced degree one that detects every positive power. We also prove that an abelian variety with Rosati-compatible rank-two multiplication by a CM field has ordinary primes of density one after finite extension if at most two conjugate embedding pairs have Hodge multiplicities $(1,1)$. The full geometric endomorphism algebra may be larger than the acting field. In the quintic proof, this theorem supplies ordinary reduction for factors of cyclic covers whose Frobenius coefficients detect nonzero polynomial moments.",
@@ -2367,6 +2544,27 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-25",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01113",
+"title": "The tensor rank of the permanent",
+"abstract": "We prove that the ordinary tensor rank of the $n\\times n$ permanent, with one factor for each row, is $2^{n-1}$ over every field of characteristic different from two. Every shortest decomposition for $n\\ge3$ is Glynn's sign formula up to diagonal changes of variables and rescaling of the factors in each summand. In characteristic two the rank is strictly larger for $n\\ge3$. More generally, the rank of the multilinear map computing all square-free coefficients of a product of $k$ linear forms in $n$ variables is $\\sum_{j=0}^{\\lfloor k/2\\rfloor}\\binom{n}{k-2j}$ in characteristic different from two. The proof evaluates arbitrary rank-one summands on subsets of the input slots. A quadratic relation acts injectively on one evaluation space and maps it into the kernel of the next multiplication map. Iteration gives the lower bound. Character interpolation attains it and extends the formula to uniform higher truncations.",
+"authors": [
+"Yilin Liu"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.01113v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01113v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
@@ -2443,6 +2641,50 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.01106",
+"title": "Turán's Hermite strip problem (1967) is resolved: the sharp half-width is 0.90366…",
+"abstract": "Turán asked whether a single strip |Im z| ≤ c contains a zero of every polynomial 1 + 2z + aH_n(z) + bH_m(z), where H_j is the jth Hermite polynomial (normalized so that H_1(z) = 2z), 2 ≤ n < m, and a, b are arbitrary complex numbers. The question appeared in Hayman's 1967 collection of research problems. For trinomials (b = 0), Makai and Turán proved that such a strip exists, and Schmeisser found its least half-width, 0.52891952…, in 1971. For the full family we prove that such a strip exists and find its least half-width, 0.903669747226… = (√3/2) cosh(log(1 + √2)/3). Only two of these polynomials have no zero in the open strip of this half-width: a cubic with a triple zero, and the cubic obtained by conjugating its coefficients a and b. For every pair (n, m) other than (2, 3), each such polynomial has a zero in the open strip |Im z| < 9/10. A compactness argument, without computation, shows that some disk |z| < R, and so a strip, contains a zero of every such polynomial; this alone answers Turán's question, but it gives no value of R. The proof of the exact constant combines analytic bounds with exact arithmetic certificates for finitely many cases; the analytic bounds are proved in the paper, and the certificates and the programs that check them are given in a supplement [1]. These results are verified in Lean.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CV",
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.01106v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01106v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01105",
+"title": "Turán's Hermite strip problem (1967) is resolved: the sharp half-width is 0.90366…, and other miscellanea",
+"abstract": "Turán asked whether a single strip |Im z| ≤ c contains a zero of every polynomial 1 + 2z + aH_n(z) + bH_m(z), where H_j is the jth Hermite polynomial (normalized so that H_1(z) = 2z), 2 ≤ n < m, and a, b are arbitrary complex numbers. The question appeared in Hayman's 1967 collection of research problems. For trinomials (b = 0), Makai and Turán proved that such a strip exists, and Schmeisser found its least half-width, 0.52891952…, in 1971. For the full family we prove that such a strip exists and find its least half-width, 0.903669747226… = (√3/2) cosh(log(1 + √2)/3). Only two of these polynomials have no zero in the open strip of this half-width: a cubic with a triple zero, and the cubic obtained by conjugating its coefficients a and b. If the index pair (2, 3) is excluded, the least half-width is 0.87004537354988…, attained by exactly two conjugate quintics. A compactness argument, without computation, shows that some disk |z| < R, and so a strip, contains a zero of every such polynomial; this alone answers Turán's question, but it gives no value of R. The proof of the exact constant combines analytic bounds with exact arithmetic certificates for finitely many cases; the analytic bounds are proved in the paper, and the certificates and the programs that check them are given in a supplement [1]. The numbered results outside Section 5 and Appendix A.5 are verified in Lean.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CV",
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.01105v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01105v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2410.12821",
 "title": "Uniform lower bound of arithmetic Hilbert--Samuel function of hypersurfaces",
 "abstract": "In this article, we give an explicit and uniform lower bound for the arithmetic Hilbert--Samuel function of projective hypersurfaces in the framework of Arakelov geometry. The bound has optimal dependence on the height of the varieties. As an application, we use this lower bound to study the determinant method.",
@@ -2458,6 +2700,28 @@
 "announce": "replace",
 "date": "2026-11-26",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01104",
+"title": "Uniform Quantum Fourier Transforms from Fast Integer Multiplication",
+"abstract": "We construct a polynomial-time uniform family of unitary circuits for the \\(q\\)-qubit quantum Fourier transform (QFT). For fixed or inverse-polynomial error and every fixed \\(\\delta>0\\), the circuits use \\(O_\\delta(q(\\log\\log q)^{1/2+\\delta})\\) elementary Clifford and \\(T\\) gates in total, including the gates needed to prepare and uncompute auxiliary registers. We obtain this bound by implementing OpenAI’s November 2026 integer multiplication algorithm as a uniform Boolean circuit and reusing a single phase-gradient register for the product phases and leaf rotations in the QFT recursion of Kayal, Mittal, Paraashar, and Saurabh. We also resolve their uniformity question by giving a deterministic classical algorithm that computes the rotation angle in their exact circuit to additive error \\(2^{-d}\\) in time polynomial in \\(q\\) and \\(d\\). Finally, with intermediate measurements and unit-cost exact dyadic phase gates, we combine one product phase with a semiclassical Fourier measurement to implement the exact QFT using \\(O(M(q)+q)\\) gates and measurements on every branch, where \\(M(q)\\) is the Boolean circuit size for multiplying two \\(q\\)-bit integers.",
+"authors": [
+"Kangyun Zhou"
+],
+"categories": [
+"quant-ph",
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2611.01104v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01104v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
