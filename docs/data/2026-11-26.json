@@ -1,6 +1,6 @@
 {
 "day": "2026-11-26",
-"updated": "2026-11-26T17:41:33+00:00",
+"updated": "2026-11-26T19:15:04+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -88,6 +88,29 @@
 "tier": 3,
 "reasons": [
 "abstract: higher categor"
+],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01130",
+"title": "Local Capacity and Thresholds for Simultaneous Egyptian Fraction Packings",
+"abstract": "We study pairwise disjoint sets of denominators in a common interval whose reciprocal sums are prescribed rational numbers. Put $L=\\log N$ and $U=\\log L$. For targets in a fixed compact subinterval of $(1/d,\\infty)$ satisfying a common denominator condition, our sufficient and necessary bounds give the same first two terms in the loss from the harmonic mass of $[d,N]$, namely $U^2/(2L)+U\\log U/L$. The construction also bounds the number of terms in each group. For unit targets, let $\\mathfrak C_N$ be the maximum reciprocal mass compatible with the zero-residue conditions at the primes above $\\sqrt N$. For all but $O(X^{11/12})$ integers $N\\le X$, both the maximum number of disjoint unit sums and the largest integer representable by a single subset are equal to $\\lfloor\\mathfrak C_N\\rfloor$. If $X_j$ denotes either the least height permitting $j$ disjoint unit sums or the least height permitting one representation of $j$, then \\[ \\log X_j=j-\\gamma+\\frac{(\\log j)^2}{2j} +\\frac{\\log j\\,\\log\\log j}{j} +O\\!\\left(\\frac{\\log j\\,\\log\\log\\log j}{j}\\right). \\]",
+"authors": [
+"pengcheng chen"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01130v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01130v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 3,
+"reasons": [
+"abstract: presentable"
 ],
 "watched_authors": []
 },
@@ -247,6 +270,28 @@
 "reasons": [
 "abstract: e_infinity-algebra"
 ],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01125",
+"title": "A counterexample to a folklore conjecture on Gelfand pairs",
+"abstract": "We construct a connected symmetric pair over $\\Q_5$ for which every irreducible unramified principal series has at most one invariant linear form, whereas an explicit irreducible admissible representation has exactly two. The ambient group is the subgroup of $\\GL_2\\times\\GL_2$ defined by $\\det(g_1)\\det(g_2)=1$, and the symmetric subgroup is a twisted diagonal copy of $\\SL_2$. The construction uses the two constituents of the restriction to $\\SL_2(\\Q_5)$ of a quadratic principal series of $\\GL_2(\\Q_5)$. It gives a counterexample to the formulation of a folklore conjecture on Gelfand pairs recorded by Aizenbud and Sayag in terms of generic unramified principal series.",
+"authors": [
+"Rui Chen",
+"Jiewen Wang"
+],
+"categories": [
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.01125v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01125v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
 "watched_authors": []
 },
 {
@@ -430,6 +475,28 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.01123",
+"title": "Algebraic Comparison of Torus Boundary States and an Obstruction to Completion",
+"abstract": "Torus boundary states admit both root-of-unity coordinates and formal-series descriptions, but identifying finite states need not identify their completions. We construct an injective algebraic comparison between compatible Newton interpolation and Hopf-pairing data and the coefficient models of Gukov--Manolescu and Guicardi--Jagadale. The common domain is \\(\\mathbb Z[A,A^{-1}][v]\\), with three copies indexed by the nonzero mod-two residues of half-integral exponent lattices. A chosen filling functional takes value one on its normalized reference state and zero on an independent state. The domain exhausts the finite states generated from the reference state by the specified spectral coordinate over the common coefficient ring. We then impose uniform formal convergence together with discrete root coordinates on the first model and specified uniform Laurent-series topologies on the other two. A cyclotomic interpolation sequence converges to zero in the first model and to the reference state in the other two. Every coordinate projection of the resulting closed relation is therefore noninjective. The obstruction persists in extensions retaining these topologies and the scalar multiples of the reference state. The same sequence produces a zero-framed trefoil limit, whose relation to a negative-definite plumbing retains an explicitly computed framing scalar in the target coefficient field.",
+"authors": [
+"Hao-Yu Sun"
+],
+"categories": [
+"math.GT",
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2611.01123v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01123v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.01073",
 "title": "An exponential lower bound on the exact stabilizer rank",
 "abstract": "For the single-qubit state $|T\\rangle = (|0\\rangle + e^{i\\pi/4}|1\\rangle)/\\sqrt{2}$, we prove that the minimum number of stabilizer states in an exact linear decomposition of $|T\\rangle^{\\otimes n}$ grows exponentially in $n$. The proof combines the tripartite stabilizer normal form with a spectral point obtained from OpenAI's preprint on Euclidean geometry in the asymptotic spectrum of tensors.",
@@ -499,6 +566,30 @@
 "announce": "replace",
 "date": "2026-11-26",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01119",
+"title": "Breaking the Linear-Ansatz Barrier for the Sum-of-Square-Roots Problem: r(n, k) = O(n^{-2k + 1/2}) for All k >= 2, Sharp k = 2 Separation Bounds, and Lean 4 Formalization",
+"abstract": "We prove that for every integer k >= 2, the minimal non-zero separation r(n, k) between two sums of k square roots of integers bounded by n satisfies r(n, k) = O(n^{-2k + 1/2}), improving the 20-year-old constructive upper bound O(n^{-2k + 3/2}) of Qian and Wang (Information Processing Letters, 2006) by a full factor of n for all k >= 2 and matching the birthday-paradox heuristic exponent. We prove that linear radicands hit an insurmountable Vandermonde wall at O(n^{-2k + 3/2}) and bypass it via an even-symmetric quadratic radical ansatz with a single conjugate pair, a universal 3-torsion derivative identity psi_3'(0) = 196608 a delta_Q^10 n_1 c_0^5 != 0, universal R -> infinity nodal scaling limits, Mazur's Torsion Theorem, and Kronecker density. We also provide explicit polynomial families for k = 2, 3, 4, sharp effective lower bounds for k = 2 (r(n, 2) >= 1/(4 n^3 sqrt(n)) for all n >= 1, 4096x sharper than BFMS, and exact asymptotic constant 8/27), an analysis of the 7-moment Diophantine barrier for k = 3 (85.4M candidates tested), and a complete Lean 4.36.0 formalization of our explicit k = 2 and k = 3 theorems (1,222 library lines, zero sorry, zero native_decide, standard axioms [propext, Classical.choice, Quot.sound]).",
+"authors": [
+"Ivan Besevic"
+],
+"categories": [
+"math.NT",
+"cs.CC",
+"cs.CG",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.01119v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01119v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -798,6 +889,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.01129",
+"title": "Eventual interlacing of large-block set-partition polynomials",
+"abstract": "Let $P_n(t)$ count set partitions of $[n]$ by the number of blocks of size at least four. For all sufficiently large $n$, its $\\lfloor n/4\\rfloor$ zeros are simple and negative, and $P_n$ interlaces $P_{n+j}$ strictly in the prescribed direction for $1\\le j\\le4$. The proof matches absolute zero counts at a reciprocal-polynomial limit and an Airy limit, using uniform saddle estimates between them. The global angular minimum on a bounded range of radii is certified with outward-rounded interval arithmetic. We give the limiting empirical zero distribution, fixed-rank asymptotics and adjacent-row displacement at the Airy edge, and effective bounds at both ends. Integer and interval computations certify every nonconstant row through $2004$. We also prove a coefficient-order inequality valid for every block-size threshold.",
+"authors": [
+"Chengyi Fang"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01129v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01129v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.34477",
 "title": "Exact sequences of regular LF-spaces",
 "abstract": "We show that the category of regular LF-spaces has all kernels but, unlike the category of regular LB-spaces, does not have all cokernels. Its topological exact structure, maximal exact structure and maximal deflation-exact structure form a strictly increasing chain of proper subclasses of the class of all kernel-cokernel pairs. To the best of the authors' knowledge, regular LF-spaces in particular provide the first natural example of a category that has all kernels but is not preabelian and whose maximal deflation-exact structure is neither two-sided exact nor equal to the class of all kernel-cokernel pairs.",
@@ -836,6 +948,49 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-25",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01128",
+"title": "Finite attainment in Révész's cosine extremal problem",
+"abstract": "Among nonnegative continuous cosine series with constant term $1$, first coefficient $a$, and nonnegative higher coefficients, consider the infimum of the value at zero. A trigonometric polynomial attains this infimum exactly when $|a|\\leq 4/3$. Outside this interval every admissible polynomial can be improved by introducing one higher frequency, chosen by simultaneous approximation at its zeros. This answers the finite-degree question of Révész, including the case $a=1.85$. As a consequence, every admissible polynomial has objective strictly above Landau's infimum $V$. An explicit sum of two squared moduli of degree $126$ gives $V<34.488157$.",
+"authors": [
+"Mingon Kim"
+],
+"categories": [
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.01128v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01128v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01127",
+"title": "Formally Verified Asymptotic Optimality of Parallel Find-Any Search and Machine-Checked Benchmark Improvements in Lean 4",
+"abstract": "A general finite-n query lower bound and an exact asymptotic optimality theorem are proved in Lean 4.35.0 for parallel GroverFindAny under the frozen specifications of DeepMind's formal-quantum-computation benchmark suite (arXiv:2611.09822v3). While the restricted single-checkpoint infimum rho_* = 1/2 + 1/pi was previously established by Fang and Heunen (2026), it is proved here that inf{R in R : Feasible(m,k,R)} = 1/2 + 1/pi across all OracleDynamicCircuit programs--permitting arbitrary finite workspace, adaptive intermediate measurements, and nested qWhile loops under uniform k-subset averaging, probability-one success, and expected parallel rounds--on all 121 dyadic grid cells. Two supplementary verified constructions are presented: a 5/16-module rewrite by which ArcsinK25ConstCost is reduced from 369,800 to 366,200 (3,662 T x 100 Q, TOFF=0, -0.9735%, with exact compiled counts and a 100-qubit non-vacuity witness), and single-cell (1024, 512) GroverFindAll bounds lowered by 0.038% (sign-only walk) and 0.946% (to 26,768,771,052/10^12 via 14 Kraus filters with restarts, proved uniformly for all n >= 80,000 above the inherited cutoff, exact fallback below); partial THCFactorization foundations are documented in Appendix B. All new derivations, formalizations, audits, and prose were produced purely by AI systems under human supervision; formal claims are machine-checked in Lean 4.35.0 against frozen libraries using standard axioms only, with the flagship FindAny theorems also accepted by two third-party kernels (nanoda, con-ron).",
+"authors": [
+"Robert Kadlec"
+],
+"categories": [
+"quant-ph",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.01127v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01127v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
@@ -971,6 +1126,28 @@
 "announce": "new",
 "date": "2026-11-26",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01121",
+"title": "Heegaard realizations of unified WRT invariants and radial comparisons with $\\widehat Z$: The Poincaré sphere and completion obstructions",
+"abstract": "We compare Heegaard realizations of the Witten--Reshetikhin--Turaev (WRT) invariant, Habiro's unified invariant, and homological-block \\(\\widehat Z\\) series, keeping their distinct coefficient and convergence domains. For the Poincar\\'e sphere, a genus-two gluing adapted to an open-book page computes the canonical extended Reshetikhin--Turaev scalar at every root order \\(k\\ge2\\). An explicit lift to a joint cyclotomic and power-series completion then recovers the oriented block, including its exceptional additive term. For Heegaard gluings with unimodular meridian-to-longitude block, finite Gram-matrix sewing and capping realize Habiro's known unified invariant in arbitrary genus. Composing this realization with Murakami's theorem gives a radial comparison on its stated class of negative-definite unimodular plumbings satisfying its leaf condition. Completion and nonuniqueness obstructions explain why root values alone do not determine a disk series; in particular, the matched-order Bailey polynomials for \\(\\Sigma(2,3,7)\\) do not form the required compatible cyclotomic sequence. A separate rank-one calculation identifies the refined scalar vacuum and its shifted refinement parameter.",
+"authors": [
+"Hao-Yu Sun"
+],
+"categories": [
+"math.GT",
+"math.QA"
+],
+"link": "https://hexagonmath.org/abs/2611.01121v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01121v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -1271,6 +1448,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.01120",
+"title": "Monochromatic or rainbow triangles in three dimensions",
+"abstract": "We prove that every coloring of three-dimensional Euclidean space contains, for every prescribed nondegenerate triangle, a congruent copy whose vertices are either all of the same color or all of different colors. The set of colors is arbitrary and can be infinite. The proof is elementary. Its two geometric ingredients are an odd closed sequence obtained by moving among three concentric circles, and a finite sequence of equal-length steps joining any two points of a sphere.",
+"authors": [
+"Igor Pak"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01120v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01120v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "2611.34918",
 "title": "Monoidal analog of cluster-tilting theory and monoidal reachability of acyclic cluster algebras",
 "abstract": "In this paper, we prove that many analogous facts of cluster-tilting theory holds in monoidal categories from quantum affine algebras or quiver Hecke algebras. We show that a maximal commuting family of real prime modules, which is an analogous object of a cluster-tilting object, is always a laurent family introduced by Kashiwara-Kim-Oh-Park. By using $\\widetilde{\\Lambda}$-invariants, we construct an exchange matrix of each laurent family and show that a laurent family is always completely $\\Lambda$-admissible monoidal seed. We obtain that a pair of real prime modules is an exchange pair if and only if $\\mathfrak{d}$-invariant is $1$.\n  When the category is a monoidal categorification of a cluster algebra of acyclic type, we prove that $\\mathfrak{d}$-invariant is not less than generic Ext invariant by using tropical $F$-invariant introduced by Cao and Fei. Moreover, we show that, the conjecture asserting that real simple modules correspond exactly to cluster monomials holds in these cases.",
@@ -1326,6 +1524,29 @@
 ],
 "link": "https://hexagonmath.org/abs/2611.01114v1",
 "pdf": "https://hexagonmath.org/pdf/2611.01114v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01126",
+"title": "Nested-Ovals Fewnomial Systems: A Universal Two-Parameter Disproof of Kouchnirenko's Conjecture for All (t_1, t_2) >= (3, 3)",
+"abstract": "For positive integers $t_1, \\dots, t_n \\ge 2$, let $\\mathcal{S}_n(t_1, \\dots, t_n)$ denote the maximum number of nondegenerate strictly positive real solutions of a square polynomial system $f_1(x) = \\cdots = f_n(x) = 0$ where each $f_i$ has at most $t_i$ monomials, and write $\\mathcal{S}(t_1, t_2) := \\mathcal{S}_2(t_1, t_2)$. Kouchnirenko's 1975 conjecture posited $\\mathcal{S}_n(t_1, \\dots, t_n) \\le \\prod_{i=1}^n (t_i - 1)$. We introduce a nested-ovals curve family $f_1(u, v) = u + v - 1 + \\sum_{k=1}^{t_1-3} (-1)^{k-1} L^{-k^2} (uv)^{-k} = 0$ coupled to an inductively constructed lower-envelope $t_2$-nomial $F_{t_2}(u, v) = 0$ with an asymmetric tail. We prove four results, all completely formalized in Lean 4 (v4.36.0, Mathlib4, 7,575 lines) with zero sorry, zero native_decide, and only the three standard axioms [propext, Classical.choice, Quot.sound]: (1) $\\mathcal{S}(t_1, t_2) \\ge t_1 t_2 - t_1 - 2 = (t_1 - 1)(t_2 - 1) + (t_2 - 3)$ for all $t_1 \\ge 4, t_2 \\ge 3$ (and $\\mathcal{S}(3, t_2) \\ge 3t_2 - 4$), raising the asymptotic slope in $t_2$ from $t_1 - 1$ to $t_1$ for every fixed $t_1 \\ge 3$; (2) $\\mathcal{S}(t, t) \\ge t^2 - t - 2 = (t - 1)^2 + (t - 3) > (t - 1)^2$ for every $t \\ge 4$; (3) $\\mathcal{S}_n(t, \\dots, t) \\ge (t^2 - t - 2)^{\\lfloor n/2 \\rfloor} (t - 1)^{n \\bmod 2}$ for all $n \\ge 2$ and $t \\ge 4$, yielding an exponential disproof of Kouchnirenko's conjecture for every fixed $t \\ge 4$; (4) An explicit symmetric integer quadrinomial record $\\mathcal{S}(4, 4) \\ge 10$ and $B(2, 4) \\ge 10$ (7 distinct shared monomials, degrees 12 and 47), certified via exact rational 2D Newton-Banach contraction in Lean 4, simultaneous Pandrosion-residue complex root certification (pandsysroots v0.34.0), and 520-digit verification, alongside 520-digit certified systems for $\\mathcal{S}(4,5) \\ge 14$, $\\mathcal{S}(4,6) \\ge 18$, $\\mathcal{S}(5,5) \\ge 17$, and $\\mathcal{S}(5,6) \\ge 22$.",
+"authors": [
+"Ivan BESEVIC"
+],
+"categories": [
+"math.AG",
+"cs.LO",
+"cs.SC"
+],
+"link": "https://hexagonmath.org/abs/2611.01126v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01126v1",
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-26",
@@ -1484,6 +1705,29 @@
 "announce": "new",
 "date": "2026-11-26",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01131",
+"title": "On norm attainment, the absolute value and polar decomposition of bounded functionals on a $C^*$-algebra",
+"abstract": "The absolute value of a bounded linear functional $\\phi$ on a $C^*$-algebra $\\mathfrak{A}$ is the noncommutative counterpart of the total variation of a complex measure. In the literature, it is usually constructed by considering the normal extension of $\\phi$ to the bidual of $\\mathfrak{A}$, and applying Sakai's polar decomposition to this extension. In this article, we provide a direct construction. As our main result, we prove that there is a unique functional $\\rho$ on $\\mathfrak{A}$ such that \\[\\|\\phi(\\,\\cdot\\,B)-\\rho\\|^2\\le 2\\|\\phi\\| \\left( \\|\\phi\\| - \\Re\\phi(B) \\right) \\; \\textrm{ for every contraction } B \\in \\mathfrak{A},\\] and moreover, $\\rho$ is positive. We refer to $\\rho$ as the absolute value of $\\phi$, and denote it by $\\abs{\\phi}$. We further show that our definition agrees with the classical one. The right-hand side of the above inequality may be viewed as a measure of the failure of $\\phi$ to attain its norm at $B$. When $\\phi$ attains its norm at $A$, we get $|\\phi|=\\phi(\\,\\cdot\\,A)$ and further show that $\\phi=|\\phi|(\\,\\cdot\\,A^*)$. In general, we obtain an approximate polar decomposition of $\\phi$ with the help of norming sequences. From this we deduce Sakai's theorem, the Banach-space identification of $\\mathfrak{A}^{**}$ with the enveloping von Neumann algebra, and the Jordan decomposition of a hermitian functional. The organizing principle is an elementary fact about discs in the unit ball of $\\mathfrak{A}$: if $Z+\\lambda D$ lies in the unit ball whenever $|\\lambda|\\le1$, then $|\\phi(Z)|+ |\\phi(D)|\\le \\|\\phi\\|$. In particular, a functional which attains its norm at $Z$ vanishes at $D$. We use four explicit discs: two of them lead to the results above, and the other two give a new proof of Kadison's characterization of the extreme points of the unit ball of $\\mathfrak{A}$. To the best of our knowledge, the above characterization of the absolute value without the bidual, and the polar factorization at arbitrary norming contractions, do not appear in this form in the literature. We hope that the elementary approach taken here may be of use in a first course on operator algebras.",
+"authors": [
+"Gahin Maiti",
+"Soumyashant Nayak"
+],
+"categories": [
+"math.OA",
+"math.FA"
+],
+"link": "https://hexagonmath.org/abs/2611.01131v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01131v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "human",
 "other_links": {},
 "tier": 9,
 "reasons": [],
@@ -2262,6 +2506,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.01116",
+"title": "The border rank of the five-row permanent",
+"abstract": "The five-row permanent has geometric Segre border rank sixteen in characteristic zero and in characteristic two. This settles the five-row case of a question of Han and Song. A degeneration of length fifteen would give compatible subspaces in a product of Grassmannians over the integers. In characteristic two the permanent becomes the determinant, so a common Borel subgroup fixes one such collection. The pair spaces admit six types. On the remaining slot sets, initial coordinates of the subspaces must satisfy implications induced by elementary substitutions and contractions. Two finite Boolean certificates exclude every pair assignment. Properness transfers the obstruction to characteristic zero.",
+"authors": [
+"Yilin Liu"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.01116v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01116v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.01115",
 "title": "The border Waring rank of powers of a square-free monomial",
 "abstract": "For all $n,d\\ge2$, the geometric border Waring rank of $(x_1\\cdots x_n)^{d-1}$ in characteristic zero is $d^{n-1}$. Flag-orbit flattenings and digit projections certify the lower bound. In the auxiliary characteristic, Frobenius makes the tensor invariant under the special linear group, and the flattening carries a highest flag vector to the next one. A nonzero integral minor transfers this bound to characteristic zero at prime-power heights. Splitting the multiplicities into digits multiplies these linear rank bounds and gives the formula at every height. A Schur-complement step propagates sharp certificates to unequal exponents in two directions. Normalized matching determines the border Waring rank when two exponents are sufficiently large compared with all the others. A strict growth argument also gives the conjectured value for every four-variable monomial with a linear factor.",
@@ -2786,6 +3051,32 @@
 "announce": "new",
 "date": "2026-11-25",
 "ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01124",
+"title": "Working Backwards from the Formal Proof of the Riemann Hypothesis: Mathematical Discovery by Navigating Evolving Relational Topologies",
+"abstract": "The AI-assisted formal proof of the Riemann hypothesis released in 2026 raises fundamental questions about the future of mathematics. Mathematical proofs may increasingly exceed the length, complexity, and other limits within which human mathematicians can independently validate, reconstruct, or understand them using existing tools. Could AI eventually produce mathematics faster than humans can meaningfully contribute to it? Could the proliferation of mathematical objects whose generative relationships cannot be reconstructed threaten the functional coherence of mathematics as a collectively navigable body of knowledge? Or could these developments instead signal the beginning of a fundamentally different mathematics? This paper investigates these questions by proposing a general functional model of mathematical information and identifying a potential systematic blind spot in mathematical discovery. The central hypothesis is that any human or artificial mathematical observer lacking a model of information with adequate functional and energetic closure may be unable to systematically distinguish between two classes of mathematical operations: local coherence (L) operations, composed through direct relationships among sufficiently known functions and operands using functional information that is complete with respect to the targeted problem; and global coherence (G) operations, composed or generated through potentially indirect relationships among partially known functions and operands using partial functional information and recursive assessment. Where discovering a mathematical object requires generating or correcting relationships outside an observer's existing operative closure, that observer may correctly execute its available mathematics while remaining systematically unable to discover the object. The distinction concerns two different mathematical capabilities: navigating relationships that are already operable, and discovering the dynamics through which new relationships become operable. The proposed functional model represents mathematical information within an evolving mathematical information space (M-space), in which mathematical objects, operators, assessments, histories, corrections, and their functional work requirements become operands of further mathematical operations. Functional and energetic closure provide the proposed conditions for recursively navigating and correcting these relationships under finite available work. Mathematical discovery can consequently be investigated as navigation through a target-relative fitness landscape whose operative topology may itself change through discovery. A further M-Tower conjecture investigates whether embedding the same representation of mathematical information into every dimension N (collectively the M-Tower of M-space) creates a series of representations capable of together representing any geometric, topological, algebraic, and calculational relationships through recursively composable mathematical structures across dimensions. The model predicts that a second-order model of information (one with an explicit model of itself through which it can correct itself) can combinatorially with each use and exponentially in total, expand the navigability and discoverability of mathematical information, as well as capacity to make mathematics understandable to humans. Prior work has developed representation-changing and operator-generating methods for substantial classes of problems; the additional conjecture here is that a single recursively correctable, functionally and energetically closed infrastructure can support these discovery dynamics across mathematical and other functional domains. Working backwards from the documented Riemann hypothesis proof, this paper investigates these predictions. The established bounded results demonstrate conditions under which mathematical information is lost or recovered and previously unavailable mathematical continuations become operable. Finally, the model identifies and strongly types mathematical contributions humans can currently make, including cross-domain functional-pattern discovery, generation of mathematical relationships, global-coherence assessment, and transmission of reconstructible mathematical understanding. It also identifies functional and energetic conditions under which future human contributions may remain unavailable to particular artificial systems. The resulting implication is not that mathematics is ending for humans, but that a new and very different mathematics may be beginning.",
+"authors": [
+"Andy E Williams"
+],
+"categories": [
+"math.LO",
+"math.DS",
+"math.GM",
+"math.IT",
+"cs.AI",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.01124v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01124v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "human",
 "other_links": {},
 "tier": 9,
 "reasons": [],
