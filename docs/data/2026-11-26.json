@@ -1,6 +1,6 @@
 {
 "day": "2026-11-26",
-"updated": "2026-11-26T05:04:39+00:00",
+"updated": "2026-11-26T15:45:05+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -379,6 +379,27 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-25",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01102",
+"title": "A proposed proof of Cazenave's Conjecture 6(iii)",
+"abstract": "We give a proposed proof of Cazenave's Conjecture 6(iii). For every finite simple connected graph on at least two vertices, the square of the largest Laplacian eigenvalue is at least four times the second-largest adjacency eigenvalue plus eight. The argument treats graphs of maximum degree three using exact Rayleigh quotients for small subgraphs and bounds on the adjacency eigenvalues.",
+"authors": [
+"Rafael Coba Bruges"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01102v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01102v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
 "ai_mode": "no-human-author-claimed",
 "other_links": {},
 "tier": 9,
@@ -815,6 +836,28 @@
 "announce": "cross",
 "date": "2026-11-26",
 "ai_mode": "",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01101",
+"title": "Gaussian Continued Fractions of the Non-Real Zeros of the Goodspeed Function",
+"abstract": "We investigate Gaussian continued fractions of the phase coordinates associated with the non-real zeros of the Goodspeed function \\[ G(z)=\\frac{1}{\\pi^2} \\left( \\sin^2(\\pi z)+ \\sin^2\\left(\\pi\\frac{\\Gamma(z)+1}{z}\\right) \\right). \\] An exact logarithmic correction identifies the first Gaussian continued-fraction digit at sufficiently high zeros and yields exponential bounds for the next digit. For a canonical sequence of non-real zeros accumulating at the origin, we establish four distinct asymptotic laws for the continued-fraction digits. One of these integer-valued digit sequences determines the first two nontrivial coefficients of the underlying holomorphic germ. We further prove that the subsequent Gaussian digit eventually belongs to an explicitly determined alphabet of 31 Gaussian integers, and calculate the limiting frequency of every state. The frequency law follows from the asymptotic geometry of the zero sequence and equidistribution of a fractional-power phase. These results provide a continued-fraction and symbolic description of a distinguished non-real zero family, independently of conjectures concerning the global classification of Goodspeed zeros.",
+"authors": [
+"Samuel A. HAMBLETON"
+],
+"categories": [
+"math.NT",
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.01101v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01101v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
 "reasons": [],
