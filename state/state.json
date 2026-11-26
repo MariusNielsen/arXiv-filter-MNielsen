@@ -4,6 +4,250 @@
  ],
  "feed": [
   {
+   "day": "2026-11-26",
+   "paper": {
+    "abstract": "We prove the generalized Segal conjecture, extending work of Bergsaker and Rognes and confirming a conjecture by the author: for every finite group $G$ and every bounded-below spectrum $X$, the Hill--Hopkins--Ravenel norm $N_e^G X$ becomes Borel-complete after completion at the augmentation ideal of the Burnside ring. Equivalently, for every non-trivial finite $p$-group $G$, the proper Tate diagonal $X\\to(X^{\\otimes G})^{\\varphi G}$ is a $p$-completion. The proof reduces to the case $X=\\Fp$, established by Bergsaker and Rognes, and removes the finiteness hypotheses from their theorem by abstract manipulations.\n  As an application of this result, we refine the coalgebraic Frobenius to an oriented circle action (i.e. an action of the monoidal category $B\\mathbb N$) on the category of bounded-below, $p$-complete $\\mathbb{E}_\\infty$-coalgebras, confirming another conjecture by the author. The construction is based on Yuan's approach to Frobenius actions via partial algebraic $K$-theory.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Thomas Nikolaus"
+    ],
+    "categories": [
+     "math.AT",
+     "math.KT"
+    ],
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.33372",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.33372",
+    "pid": "2611.33372",
+    "reasons": [
+     "author: Thomas Nikolaus",
+     "abstract: algebraic k-theor"
+    ],
+    "source": "arxiv",
+    "tier": 1,
+    "title": "The generalized Segal conjecture and the coalgebraic Frobenius",
+    "watched": [
+     "Thomas Nikolaus"
+    ]
+   }
+  },
+  {
+   "day": "2026-11-26",
+   "paper": {
+    "abstract": "We construct explicit symmetric-function realizations of the torus-equivariant $K$-homology of affine Grassmannians of types B and D. More precisely, we realize the extended $K$-theoretic Peterson algebras as subalgebras of a completed ring of equivariant symmetric functions and identify their Schubert classes in terms of symmetric functions. We introduce two new families of equivariant symmetric functions for each of types B and D and prove that these functions represent the classes of the structure sheaves of Schubert varieties and the ideal sheaves of their boundaries, respectively. We establish several fundamental properties of these functions, including translation factorization formulas and explicit expressions for the classes indexed by small affine Grassmannian elements. In type D, we further describe the action of the affine Dynkin diagram automorphism interchanging the two spin nodes and show how it intertwines the Schubert bases with a nontrivial transformation of the equivariant parameters.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Koushik Brahma",
+     "Takeshi Ikeda",
+     "Mark Shimozono"
+    ],
+    "categories": [
+     "math.AG",
+     "math.CO",
+     "math.KT",
+     "math.RT"
+    ],
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.34174",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.34174",
+    "pid": "2611.34174",
+    "reasons": [
+     "title: equivariant"
+    ],
+    "source": "arxiv",
+    "tier": 2,
+    "title": "Equivariant $K$-homology of affine Grassmannians of orthogonal groups",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-26",
+   "paper": {
+    "abstract": "Rewriting is a computational method to solve word problems: deciding whether two compound expressions, or words, are equivalent with respect to a set of identities. Higher rewriting generalizes rewriting to higher-dimensional words, or cells, in higher categories.\n  Following Guiraud and Malbos, we use higher rewriting to generalize Mac Lane's coherence theorem. Our result concerns strong linearly distributive categories: categories equipped with two unital tensor products related by invertible distributors. We show that in a strong linearly distributive category every formal diagram commutes.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Max Demirdilek",
+     "Christian Reiher",
+     "Christoph Schweigert"
+    ],
+    "categories": [
+     "math.CT",
+     "cs.LO",
+     "math.QA"
+    ],
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.34596",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.34596",
+    "pid": "2611.34596",
+    "reasons": [
+     "abstract: higher categor"
+    ],
+    "source": "arxiv",
+    "tier": 3,
+    "title": "Higher rewriting for strong linearly distributive coherence",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-26",
+   "paper": {
+    "abstract": "We study $E_d$-enhancements of the geometric $L_\\infty$-algebras associated to secondary polytopes of finite configurations in $\\mathbb R^d$, $d\\geq2$. We construct an action of the semialgebraic chains of the Fulton--MacPherson operad on the shifted algebra $B_A=\\mathfrak g_A[1-d]$ when $|A|\\leq3d$. The action recovers the prescribed higher Lie operations on fundamental chains. The construction is obtained from a general extension theorem for weighted shifted $L_\\infty$-algebras, using reflection to control relative cohomology obstructions. For $|A|\\leq3d-1$, the resulting reflection-compatible integration actions are homotopic relative to their shifted Lie structure. We also give an abstract enhancement without a cardinality bound, direct formulas for circuits, and explicit operations for convex pentagons and hexagons.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Longfei Li"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.34431",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.34431",
+    "pid": "2611.34431",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "$E_d$-Enhancements of $L_\\infty$-Algebras Associated to Secondary Polytopes",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-26",
+   "paper": {
+    "abstract": "The deleted square of a topological space is a subspace of the Cartesian product of this space with itself, obtained by removing the diagonal. Conjecturally, the deleted square of a cone over a graph has the homotopy type of a wedge sum of spheres of dimensions at most 3. We propose a geometric construction that is a key motivation for the conjecture and provides a major step towards its proof, while yielding direct results on deleted squares of certain families of graphs.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Andrzej T. Karolak"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.33558",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.33558",
+    "pid": "2611.33558",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Deleted square of a cone over a graph",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-26",
+   "paper": {
+    "abstract": "The strict simplicial complexity $SC_{\\rm strict}(K)$, Gonz\\'alez's simplicial complexity at subdivision level zero, is one less than the least number of contiguity domains covering the ordered product $K\\times K$. We bound it from both sides. For upper bounds, every product of two vertex stars is a domain, which gives $SC_{\\rm strict}(K)\\le\\rho(K)-1$ for an exactly computable set-cover number $\\rho(K)$; the bound is sharp on every even-dimensional simplex boundary. A GPU annealer that evolves whole systems of contiguity chains finds three-domain covers of $\\partial\\Delta^3,\\dots,\\partial\\Delta^7$ and of the cube boundary. Seeded by star covers, it descends from $24$ to $5$ domains on the icosahedron boundary, and an exact SAT completion of its stalled state gives $SC_{\\rm strict}\\le3$ there. For lower bounds, a subcomplex of $K\\times K$ is rigid if its two projections are joined by no contiguity chain of any length; $k$ domains can cover $K\\times K$ only if $k$ classes of facets avoid every rigid subcomplex, a finite SAT problem. Rigid subcomplexes arise from hollow triangles over essential empty triangles and, on complexes without dominated vertices, from the graph of every order-preserving simplicial self-map other than the identity. The resultingchain-length-free bounds give $SC_{\\rm strict}(\\partial\\Delta^{n+1})=2>1=TC(S^n)$ for $n=3,5,7,9$, $SC_{\\rm strict}=2>1$ for the five-vertex M\\\"obius band, $SC_{\\rm strict}\\ge3>2$ for the seven-vertex torus, and $4\\le SC_{\\rm strict}\\le5$ and $4\\le SC_{\\rm strict}\\le6$ for two triangulations of $\\mathbb{RP}^2$. They also sort the annealer's stalls: on these two triangulations of $\\mathbb{RP}^2$, the Klein bottle and $\\partial\\Delta^4$, almost every uncovered\n  facet closes a rigid subcomplex in every domain, while the icosahedron stall was a search failure.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "M. Perez",
+     "J. Flores"
+    ],
+    "categories": [
+     "math.AT",
+     "cs.RO",
+     "math.CO"
+    ],
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.33804",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.33804",
+    "pid": "2611.33804",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Explicit covers and rigid obstructions for simplicial complexity: from spheres to surfaces",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-26",
+   "paper": {
+    "abstract": "Let a compact torus act on a closed manifold $X$ with isolated fixed points. The face poset $S(X)$ of the action is covered by the lattices of flats of the linear matroids of tangent weights at the fixed points. We study how much of the cohomology of $X$ these combinatorial data see. Local equivariant cohomology. The group $H^*_T(X, X\\setminus pt)$, embedded in $H^*_T(pt)$ by restriction, is the principal ideal generated by the product of the tangent weights. It determines the weights up to scalars, with multiplicities, and hence the local lattice $S(X)_{\\geq pt}$. Local matroids do not suffice. Two connected regular semisimple Hessenberg varieties in $\\mathrm{Fl}(\\mathbb{C}^5)$, with torus actions of complexity one, have isomorphic weight matroids at all fixed points, and hence the same Chow rings, Orlik\u2013Solomon algebras and Kazhdan\u2013Lusztig polynomials there, but different Betti numbers. The face poset determines the Betti numbers of every regular semisimple Hessenberg variety of type A, full or partial, and of the isospectral manifolds of Ayzenberg and Buchstaber. The reason is rigidity: the cluster-permutohedron $\\mathrm{Cl}_\\Gamma$ determines the graph $\\Gamma$, by an elementary argument that recovers the vertices of $\\Gamma$ from stars of edges. Simply-laced types. The same holds for regular semisimple Hessenberg varieties of types A, D and E: the face poset determines the Weyl group together with the lines spanned by the roots of the Hessenberg ideal, up to isometry. A formula. The Poincar\u00e9 polynomial is a sum over the face poset, $P_X(q)=\\sum_{\\sigma\\in S(X)}(q-1)^{\\mathrm{rk}\\,\\sigma}e_\\sigma(q)$, in which $e_\\sigma$ is a sum of Tutte polynomials of the matroids of weights that are negative on a generic circle. For toric manifolds this is the $h$-vector formula.",
+    "ai_mode": "no-human-author-claimed",
+    "announce": "new",
+    "authors": [
+     "David Mikheev"
+    ],
+    "categories": [
+     "math.AT",
+     "math.AG",
+     "math.CO",
+     "math.RT",
+     "math.SG"
+    ],
+    "date": "2026-11-25",
+    "link": "https://hexagonmath.org/abs/2611.01086v1",
+    "other_links": {},
+    "pdf": "https://hexagonmath.org/pdf/2611.01086v1",
+    "pid": "hexagon:2611.01086",
+    "reasons": [],
+    "source": "hexagon",
+    "tier": 4,
+    "title": "Face posets, local weight matroids and Betti numbers of torus actions",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-26",
+   "paper": {
+    "abstract": "In stable homotopy theory, there are a variety of ways to construct a point-set level smash product of spectra, each with its own advantages and limitations. These constructions often involve internalizing some graded external product. In this paper, we aim to formalize this process through a general categorical framework, providing a common language for these constructions. We propose a general theory for internalizing a graded monoidal product, investigate its 2-categorical properties, and use this framework to recover both Day convolution and the smash product of $S$-modules.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Bryce Goldman"
+    ],
+    "categories": [
+     "math.CT",
+     "math.AT"
+    ],
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.33663",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.33663",
+    "pid": "2611.33663",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Graded Monoidal Categories and Internalization",
+    "watched": []
+   }
+  },
+  {
+   "day": "2026-11-26",
+   "paper": {
+    "abstract": "Let \\(A\\) be a connected graded commutative differential graded algebra over \\(\\mathbb Q\\) whose cohomology is a finite-dimensional Poincar\\'e duality algebra of formal dimension \\(N\\ge2\\). Assuming that its Bianchi-Massey tensor vanishes, we prove that the normalized pentagonal tensor of Nagy and Nordstr\\\"om, in [preprint (2021), arXiv:2105.13660], vanishes if and only if the fourth Harrison obstruction vanishes after eliminating the third operation. This gives a fourth-order counterpart to the third-order comparison of Fiorenza and L\\^e, in [Ann. Sc. Norm. Super. Pisa Cl. Sci. (5), published online 7 March 2025], and answers the vanishing question in L\\^e's proposed comparison, in [preprint (2026), arXiv:2603.01219], under the hypothesis that the Bianchi-Massey tensor vanishes. The result applies to closed, connected, oriented manifolds with no upper dimension bound. We also extend Zhou's sphere-bundle formality criterion in [Algebr. Geom. Topol. 25 (2025), pp. 2297--2315] to two-stage oriented sphere bundles with positive odd fibre dimensions over a closed, connected, oriented, rationally formal base, provided that the second Euler class is pulled back from the original base. Their total spaces are rationally formal precisely when the Bianchi-Massey and normalized pentagonal tensors vanish. Our method develops the model-based strategy in Zhou's proof within a commutative bar-cobar framework, providing a starting point for constructing higher tensors and comparing them with higher-order formality obstructions.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Chaoshun Yang",
+     "Xiugui Liu"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.34315",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.34315",
+    "pid": "2611.34315",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "The pentagonal tensor and the fourth obstruction to formality",
+    "watched": []
+   }
+  },
+  {
    "day": "2026-11-25",
    "paper": {
     "abstract": "The classifying space BM of a monoid M is the geometric realization of the nerve of M, regarded as a category with one object; its fundamental group is the universal group U(M), the group generated by the elements of M with the multiplication table of M as relations. Let M be finite. We prove that if the integral homology of BM vanishes in all large degrees, then U(M) is trivial; more precisely, if a prime p divides the order of U(M), then H_k(BM; F_p) \u2260 0 for infinitely many k. It follows that three conditions on a finite monoid are equivalent: BM is homotopy equivalent to a finite CW complex; it is homotopy equivalent to a finite-dimensional one; its homology is bounded. In that case BM is simply connected. Together with a theorem of Ben-Bassat, that every finite simply connected CW complex is homotopy equivalent to BM for a finite monoid M, this determines these homotopy types: they are the finite simply connected complexes. A conjecture of the same paper, that every connected finite CW complex with finite fundamental group is of the form BM with M finite, is therefore false; the real projective plane is a counterexample. The proof compares the K-theory of BM with that of the classifying space of a finite group contained in M, through Atiyah's completion theorem. Two examples are worked out: a monoid with six elements whose classifying space is simply connected and has homology in every degree from 2 on (it is a wedge of spheres), and a monoid with 23 elements whose classifying space is the complex projective plane.",
@@ -4920,709 +5164,227 @@
     "title": "Projected and Reflected Sliced Wasserstein Kernels for Persistence Diagrams",
     "watched": []
    }
-  },
-  {
-   "day": "2026-11-04",
-   "paper": {
-    "abstract": "We study the tensor triangular geometry of derived categories of valuation domains, obtaining complete ring-theoretic characterizations of their main structural properties. In particular, although valuation domains are almost always non-noetherian, their derived categories always satisfy the local-to-global principle and hence the detection property. We establish precise criteria for homological detection, stratification, and homological stratification, revealing a clear hierarchy among these properties. Notably, we obtain examples of derived categories of commutative rings that are homologically stratified and satisfy the local-to-global principle, but are not stratified. We also determine when the category of modules over a valuation domain has Gabriel dimension, and use this to provide a negative answer to a question of Balchin, G\\'omez and Stevenson. Overall, valuation domains provide a rich class of non-noetherian rings whose derived categories can be understood in considerable depth.",
+  }
+ ],
+ "hexagon_since": "2026-11-26",
+ "last_page": {
+  "day": "2026-11-26",
+  "papers": [
+   {
+    "abstract": "We prove the generalized Segal conjecture, extending work of Bergsaker and Rognes and confirming a conjecture by the author: for every finite group $G$ and every bounded-below spectrum $X$, the Hill--Hopkins--Ravenel norm $N_e^G X$ becomes Borel-complete after completion at the augmentation ideal of the Burnside ring. Equivalently, for every non-trivial finite $p$-group $G$, the proper Tate diagonal $X\\to(X^{\\otimes G})^{\\varphi G}$ is a $p$-completion. The proof reduces to the case $X=\\Fp$, established by Bergsaker and Rognes, and removes the finiteness hypotheses from their theorem by abstract manipulations.\n  As an application of this result, we refine the coalgebraic Frobenius to an oriented circle action (i.e. an action of the monoidal category $B\\mathbb N$) on the category of bounded-below, $p$-complete $\\mathbb{E}_\\infty$-coalgebras, confirming another conjecture by the author. The construction is based on Yuan's approach to Frobenius actions via partial algebraic $K$-theory.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Tobias Barthel",
-     "Drew Heard",
-     "Beren Sanders",
-     "Changhan Zou"
+     "Thomas Nikolaus"
     ],
     "categories": [
-     "math.CT",
-     "math.AC",
-     "math.AT"
+     "math.AT",
+     "math.KT"
     ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.05298",
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.33372",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.05298",
-    "pid": "2611.05298",
+    "pdf": "https://arxiv.org/pdf/2611.33372",
+    "pid": "2611.33372",
     "reasons": [
-     "author: Tobias Barthel",
-     "author: Drew Heard",
-     "author: Beren Sanders",
-     "title: tensor triangular"
-    ],
-    "source": "arxiv",
-    "tier": 1,
-    "title": "The tensor triangular geometry of valuation domains",
-    "watched": [
-     "Beren Sanders",
-     "Drew Heard",
-     "Tobias Barthel"
-    ]
-   }
-  },
-  {
-   "day": "2026-11-04",
-   "paper": {
-    "abstract": "We construct an endofunctor on (small) simplicial sets which freely adjoins a zero object to a (small) infinity-category, as the co-cone construction freely adjoins a terminal object. We then prove that this endofunctor induces a left adjoint to the inclusion of the infinity-category of (small) pointed infinity-categories and morphisms that preserve zero objects into the infinity-category of (small) infinity-categories. This adjunction, in turn, leads to the definition of a coherent choice of nullhomotopies on a pointed infinity-category. A coherent choice of nullhomotopies is a non-canonical, coherent choice of \"higher zeroes\" on a pointed infinity-category, mirroring the obvious definition of higher zeroes on the differential graded nerve of a differential graded category of chain complexes over an additive category. We then show that coherent choices of nullhomotopies give an alternate characterization of fiber sequences in pointed infinity-categories, generalizing the 1-categorical definition of kernels in terms of morphisms that compose to zero.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Thomas Rush Brown"
-    ],
-    "categories": [
-     "math.CT",
-     "math.AT"
-    ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.04167",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.04167",
-    "pid": "2611.04167",
-    "reasons": [
-     "title: infinity-categor"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "Higher zeroes in pointed infinity-categories",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-11-04",
-   "paper": {
-    "abstract": "In this paper we classify the algebraic K-theory of sets equipped with an action by a finite abelian monoid. The main tool developed for this purpose is an Orbit-Stabilizer Theorem, which gives a decomposition of monoid sets analogous to the decomposition given by the Orbit-Stabilizer Theorem for G-sets.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Maru Sarazola",
-     "Brandon T. Shapiro",
-     "Inna Zakharevich"
-    ],
-    "categories": [
-     "math.KT",
-     "math.RT"
-    ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.05265",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.05265",
-    "pid": "2611.05265",
-    "reasons": [
+     "author: Thomas Nikolaus",
      "abstract: algebraic k-theor"
     ],
     "source": "arxiv",
-    "tier": 3,
-    "title": "$K$-theory of finite monoid sets",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-11-04",
-   "paper": {
-    "abstract": "We characterise the commutative rings of weak global dimension at most one whose derived categories can be stratified by the Balmer-Favi support theory. For such rings, this yields a bijective correspondence between the class of localising subcategories of the derived category, and the subsets of the Zariski spectrum. For a large class of rings of weak global dimension at most one including all valuation domains, this occurs if and only if the ring is locally strongly discrete, if and only if the Telescope conjecture holds, and if and only if the module category has Gabriel dimension. However, we also give an example of a valuation domain where all these conditions fail, and yet the residue fields generate its derived category and we can classify all the localising subcategories of $D(R)$. Additionally, in the same example, we show that the Balchin-Stevenson smashing support cannot stratify $D(R)$ either.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Jan \\v{S}\\v{t}ov\\'i\\v{c}ek",
-     "Florian Tecklenburg"
-    ],
-    "categories": [
-     "math.CT",
-     "math.AC"
-    ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.05247",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.05247",
-    "pid": "2611.05247",
-    "reasons": [
-     "abstract: telescope conjecture"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Localisations of rings of weak global dimension at most one",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-11-04",
-   "paper": {
-    "abstract": "We study the Farrell--Jones conjecture for graph products of pairs and for fundamental groups of polyhedral products. We introduce a pair-deletion decomposition and a local notion of FJ-admissibility, and prove a vertexwise combination theorem for graph products of pairs. The criterion applies, in particular, to ordinary graph products, free-factor pairs, suitable normal pairs, and classes controlled by acylindrical Bass--Serre actions.\n  For polyhedral products, we combine these results with their description by relative graph products and graph products of pairs. We also obtain bounds and exact computations for amenable category, together with applications to simplicial volume and Borel rigidity of closed aspherical polyhedral-product manifolds.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "I. Gkeneralis",
-     "S. Prassidis"
-    ],
-    "categories": [
-     "math.GT",
-     "math.AT"
-    ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.03847",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.03847",
-    "pid": "2611.03847",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Combination Theorems and the Farrell--Jones Conjecture for Graph Products of Pairs",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-11-04",
-   "paper": {
-    "abstract": "We compare linking-form bounds with the smooth and locally flat nonorientable 4-genera of low-crossing knots. For every prime knot with at most 13 crossings whose Witt-level linking-form bound is at least 2, this bound equals both genera. We also exhibit 41 prime knots with 12 or 13 crossings that bound locally flat M\\\"obius bands but no smooth ones, and whose smooth nonorientable 4-genus is 2. Our methods combine linking forms, Heegaard Floer correction terms and definite-lattice obstructions with explicit band constructions. They determine 3,300 of the 3,525 values left unknown in KnotInfo on 2 November 2026; the remaining 225 knots have range $[1,2]$. We obtain new lower bounds of 2 for 2,102 knots with 14 crossings and correct previously reported values for three knots with 11 crossings.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Seong-Jin Lee"
-    ],
-    "categories": [
-     "math.GT",
-     "math.AT"
-    ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.04243",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.04243",
-    "pid": "2611.04243",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Smooth and Topological Nonorientable Four-Genera of Low-Crossing Knots",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-11-04",
-   "paper": {
-    "abstract": "For any odd prime number $p$, we solve the topological period-index problem for a $p$-primary element of the Brauer group of a CW-complex of dimension not greater than $2p+2$.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Diarmuid Crowley",
-     "Xing Gu"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.04265",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.04265",
-    "pid": "2611.04265",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "The $p$-local topologoical period-index problem in dimensions $2p+2$ and below",
-    "watched": []
-   }
-  },
-  {
-   "day": "2026-11-04",
-   "paper": {
-    "abstract": "Fix an odd prime $p$ and let $A$ be the mod $p$ Steenrod algebra. There is a normal sub-Hopf algebra $D$ of $A$, and we show that the cohomology of $A$ is $F$-isomorphic to the subalgebra of the cohomology of $D$ which is invariant under the $A$-action. We also show that the sub-Hopf algebras of $A$ with bounded profile function detect nilpotence in cohomology.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "John H. Palmieri"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-11-04",
-    "link": "https://arxiv.org/abs/2611.04013",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.04013",
-    "pid": "2611.04013",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Toward Quillen stratification for the odd primary Steenrod algebra",
-    "watched": []
-   }
-  }
- ],
- "hexagon_since": "2026-11-25",
- "last_page": {
-  "day": "2026-11-25",
-  "papers": [
+    "tier": 1,
+    "title": "The generalized Segal conjecture and the coalgebraic Frobenius",
+    "watched": [
+     "Thomas Nikolaus"
+    ]
+   },
    {
-    "abstract": "We derive a local fixed-point formula for the equivariant index of Heisenberg elliptic operators on closed contact manifolds equipped with an action of a compact Lie group preserving the contact form. The formula expresses the character of the equivariant index in terms of a cyclic-cohomological character of the noncommutative Heisenberg principal symbol. The main new ingredient is the construction of traces, one on each fixed-point set, defined by integration over twisted conjugacy classes in the Heisenberg group. The proof proceeds by a K-theoretic reduction to the equivariant index theorem of our paper \"Toeplitz operators on contact manifolds and equivariant K-homology\".",
+    "abstract": "We construct explicit symmetric-function realizations of the torus-equivariant $K$-homology of affine Grassmannians of types B and D. More precisely, we realize the extended $K$-theoretic Peterson algebras as subalgebras of a completed ring of equivariant symmetric functions and identify their Schubert classes in terms of symmetric functions. We introduce two new families of equivariant symmetric functions for each of types B and D and prove that these functions represent the classes of the structure sheaves of Schubert varieties and the ideal sheaves of their boundaries, respectively. We establish several fundamental properties of these functions, including translation factorization formulas and explicit expressions for the classes indexed by small affine Grassmannian elements. In type D, we further describe the action of the affine Dynkin diagram automorphism interchanging the two spin nodes and show how it intertwines the Schubert bases with a nontrivial transformation of the equivariant parameters.",
     "ai_mode": "",
-    "announce": "cross",
+    "announce": "new",
     "authors": [
-     "Alexander Gorokhovsky",
-     "Erik van Erp"
+     "Koushik Brahma",
+     "Takeshi Ikeda",
+     "Mark Shimozono"
     ],
     "categories": [
-     "math.FA",
+     "math.AG",
+     "math.CO",
      "math.KT",
-     "math.OA"
+     "math.RT"
     ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.31538",
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.34174",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.31538",
-    "pid": "2611.31538",
+    "pdf": "https://arxiv.org/pdf/2611.34174",
+    "pid": "2611.34174",
     "reasons": [
      "title: equivariant"
     ],
     "source": "arxiv",
     "tier": 2,
-    "title": "An equivariant index theorem for the Heisenberg calculus",
+    "title": "Equivariant $K$-homology of affine Grassmannians of orthogonal groups",
     "watched": []
    },
    {
-    "abstract": "We propose a definition of symmetric monoidal $(\\infty,n)$-categories as special left double $(\\infty,n)$-fibrations over the category of finite pointed sets. The definition makes sense in a general model of $(\\infty,n)$-categories, under a mild condition on its discrete objects, and when the model is left proper and combinatorial we construct model structures whose fibrant objects are exactly these fibrations. For $n=1$ we show that the definition recovers Lurie's symmetric monoidal $(\\infty,1)$-categories: the homotopy theory of special left double $(\\infty,1)$-fibrations is equivalent to that of special coCartesian fibrations over the category of finite pointed sets. The equivalence is realized by an explicit Quillen equivalence, and two constructions, the staircase and coCartesian strings, translate between the two descriptions.",
+    "abstract": "Rewriting is a computational method to solve word problems: deciding whether two compound expressions, or words, are equivalent with respect to a set of identities. Higher rewriting generalizes rewriting to higher-dimensional words, or cells, in higher categories.\n  Following Guiraud and Malbos, we use higher rewriting to generalize Mac Lane's coherence theorem. Our result concerns strong linearly distributive categories: categories equipped with two unital tensor products related by invertible distributors. We show that in a strong linearly distributive category every formal diagram commutes.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Arghan Dutta"
+     "Max Demirdilek",
+     "Christian Reiher",
+     "Christoph Schweigert"
     ],
     "categories": [
      "math.CT",
-     "math.AT"
-    ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.33107",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.33107",
-    "pid": "2611.33107",
-    "reasons": [
-     "title: (infinity,n)",
-     "abstract: cocartesian fibration"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "An internal approach to symmetric monoidal $(\\infty,n)$-categories",
-    "watched": []
-   },
-   {
-    "abstract": "We construct a topos for Borel mathematics: statements which are true in Borel mathemaics correspond in a precise way to statements which are true in the internal logic of this topos. We investigate several other properties of this topos, including proving that it satisfies a Borel analogue of the Church-Turing thesis: the statement that every function on a standard Borel space is Borel. We also show that an earlier construction of a similar \"Borel topos\" by van Osdol does not suit these purposes because of an error in that paper.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Joseph Helfer",
-     "Patrick Lutz",
-     "Forte Shinko"
-    ],
-    "categories": [
-     "math.LO",
-     "math.CT"
-    ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.31809",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.31809",
-    "pid": "2611.31809",
-    "reasons": [
-     "title: topos"
-    ],
-    "source": "arxiv",
-    "tier": 2,
-    "title": "The Borel Topos",
-    "watched": []
-   },
-   {
-    "abstract": "The positive-characteristic analogue of motivic cohomology with coefficients in an Anderson A-motive M over a function field of transcendence degree one was introduced in an earlier work of the author. In this paper, we prove that, when M arises as the dual of the A-motive of an Anderson module E that is abelian, uniformizable, and has everywhere good reduction, the corresponding A-motivic cohomology coincides with the module of Taelman units of E, up to a twist by the module of K\\\"ahler differentials of A. To this end, we recast the theory of Anderson generating functions in the spirit of earlier work of Maurischat and the author on special functions.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Quentin Gazda"
-    ],
-    "categories": [
-     "math.AG",
-     "math.NT"
-    ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.32767",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.32767",
-    "pid": "2611.32767",
-    "reasons": [
-     "abstract: motivic cohomolog"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "A Barsotti-Weil isomorphism for Taelman units",
-    "watched": []
-   },
-   {
-    "abstract": "For a finite group $G$, we characterize the $2$-slices of $G$-spectra in the regular slice filtration in terms of their homotopy Mackey functors and $k$-invariant. We explicitly compute this for cyclic $p$-groups and the alternating group $A_4$.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Surojit Ghosh",
-     "Ankit Kumar"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.32512",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.32512",
-    "pid": "2611.32512",
-    "reasons": [
-     "abstract: mackey functor",
-     "abstract: g-spectr",
-     "abstract: slice filtration"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Characterizing $2$-slices over finite groups",
-    "watched": []
-   },
-   {
-    "abstract": "We study stable equivalences defined by bimodule tensor identities over a commutative ring $R$. For the $R$-split exact structure, these identities preserve positive Hochschild homology and positive Hochschild cohomology with its cup product, Gerstenhaber bracket and, in prime characteristic, restricted power. A triangular comparison also identifies the relative singular Hochschild cochain complexes as $B_\\infty$-algebras. For reduced pairs of finite-dimensional Frobenius algebras over an algebraically closed field, with diagonalizable Nakayama automorphisms, we construct compatible Frobenius functionals and compare the Tate--Hochschild BV operators in all degrees.\n  For flat algebras over $R$ we give a Hochschild-cohomological criterion for comparing marked associative deformations. It applies to biadjoint Morita-type pairs and, by reduction, to all stable equivalences of Morita type between finite-dimensional algebras over any field. We compare the Bezrukavnikov--Ginzburg maps in characteristic zero by using a common triangular deformation or by lifting a two-sided tilting complex. We also compare marked module deformations over local Artin rings and their augmented universal rings.\n  Further applications concern connected outer automorphism group schemes over perfect fields, the kernels of the quotient maps on ordinary algebraic $K$-theory, and the nonconnective $K$-theory of enhanced relative singularity categories. We construct biadjoint representatives over Henselian Noetherian local rings and relative stable tensor functors for almost $\\nu$-stable derived equivalences. We also answer a question of Abe and Hoshino about preservation of the Gorenstein condition in a fixed codimension.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Shengyong Pan"
-    ],
-    "categories": [
-     "math.RT",
-     "math.CT"
-    ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.32253",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.32253",
-    "pid": "2611.32253",
-    "reasons": [
-     "abstract: algebraic k-theor"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Hochschild operations and other invariants of stable equivalences of Morita type",
-    "watched": []
-   },
-   {
-    "abstract": "On 20 November 2026, Levent Alp\u00f6ge released a commentless Lean 4 formalization, developed with Claude, proving the Riemann hypothesis and the Generalized Riemann Hypothesis for all Dirichlet $L$-functions across $175{,}187$ source modules ($17{,}374{,}215$ lines; $1{,}484{,}733$ compiled kernel declarations). While independent kernel replays confirm formal validity from the three standard Lean axioms, no conventional mathematical paper accompanied the archive. We give a compact, self-contained five-stage mathematical blueprint of the argument from a windowed prime-power inequality to the five root theorems of Main.lean, anchored to an index of $240$ kernel-live declarations ($233$ public declarations across $104$ modules plus $7$ structure fields and Mathlib theorems), each pinned by exact source line, kernel export_id, and five-root reachability bitmask in solution.ndjson. First, a gamma-localized Landau derivative dichotomy excludes zeros in $\\operatorname{Re} s > \\theta$ from a one-sided bound $G_{\\mathcal{F}}(y) \\le C y^\\theta$ on arbitrarily distant windows $[Z, Z^{3/2}]$ without global sign assumptions. Second, character orthogonality on $G = (\\mathbb{Z}/2\\mathbb{Z})^2 \\times H$ over CM towers of degree $[E:\\mathbb{Q}] = 4n \\asymp x^{2+8\\varepsilon}$ isolates odd inert prime powers via $\\mathrm{ASK} - \\mathrm{MAIN} = \\mathrm{De}$. Third, along an $m$-step unitary theta ladder ($m \\asymp x^{1/2-\\varepsilon/16}$, $k \\asymp x^{9/2+10\\varepsilon}$), supersingular height-$2$ Lubin-Tate formal groups supply net $\\ell$-adic jet valuation rate $\\gamma_\\ell = \\frac{1}{\\ell - 1} - \\frac{1}{\\ell^2 - 1} = \\frac{\\ell}{\\ell^2 - 1} = \\sum_{e\\,\\mathrm{odd}} \\ell^{-e}$ against rate $0$ at split primes. Fourth, averaging a four-clause Bost-Arakelov slope chain with Chowla-Selberg CM period evaluation cancels intermediate heights, while block-shared divisor budgets replace $O(m^2)$ prefix compounding ($x^{2/3}$ barrier) by $O(m)$; a four-wall linear program over $(a, \\kappa)$ at $\\nu = 2$ uniquely selects $(a, \\kappa) = (1/2, 9/2)$ and $\\theta_* = 1/2$. We also record three classical consequences, resolve archive homonym collisions, and verify $27$ companion algebraic, LP, Lubin-Tate, slope-telescope, and carrier-isomorphism theorems in a zero-import Lean 4.33.1 module.",
-    "ai_mode": "mixed",
-    "announce": "new",
-    "authors": [
-     "Igor Zhuk"
-    ],
-    "categories": [
-     "math.NT",
-     "math.AG",
-     "cs.LO"
-    ],
-    "date": "2026-11-25",
-    "link": "https://hexagonmath.org/abs/2611.01031v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2611.01031v1",
-    "pid": "hexagon:2611.01031",
-    "reasons": [
-     "abstract: lubin-tate"
-    ],
-    "source": "hexagon",
-    "tier": 3,
-    "title": "Mathematical Blueprint and 240-Declaration Kernel Index for the Alp\u00f6ge\u2013Claude Lean 4 Proof of the Riemann Hypothesis",
-    "watched": []
-   },
-   {
-    "abstract": "In a recent paper, Tobias Fritz and the second author identified $\\sigma C^*$-algebras as a tentative noncommutative analogue of measurable spaces. We advance this analogy by establishing monadicity of $\\sigma C^*$-algebras over $C^*$-algebras and proving several results of interest to both the category theory and operator algebra communities. In detail, we show that:\n  - The associated probabilistic morphisms, $\\sigma$-cpu maps, admit a description via a comonad closely related to the Giry monad. Equivalently, $\\sigma$-cpu maps can be characterized by a universal property.\n  - The category of $\\sigma C^*$-algebras and $\\sigma$-homomorphisms is locally $\\aleph_1$-presentable.\n  - $\\sigma C^*$-algebras have a tensor product induced by the maximal tensor product of $C^*$-algebras and satisfying an analogous universal property.\n  - The notion of CP-instruments, defined as $\\sigma$-additive assignments from a $\\sigma$-algebra to a space of completely positive maps, can be adapted to this setting by taking as target the set of $\\sigma$-normal completely positive maps between $\\sigma C^*$-algebras. This yields a bijective correspondence with $\\sigma$-cpu maps out of the tensor product of the previous item.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Fosco Loregian",
-     "Antonio Lorenzin"
-    ],
-    "categories": [
-     "math.OA",
-     "math.CT",
-     "math.FA"
-    ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.32363",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.32363",
-    "pid": "2611.32363",
-    "reasons": [
-     "abstract: presentable"
-    ],
-    "source": "arxiv",
-    "tier": 3,
-    "title": "Monadicity of noncommutative measurable spaces over $C^{\\ast}$-algebras",
-    "watched": []
-   },
-   {
-    "abstract": "The classifying space BM of a monoid M is the geometric realization of the nerve of M, regarded as a category with one object; its fundamental group is the universal group U(M), the group generated by the elements of M with the multiplication table of M as relations. Let M be finite. We prove that if the integral homology of BM vanishes in all large degrees, then U(M) is trivial; more precisely, if a prime p divides the order of U(M), then H_k(BM; F_p) \u2260 0 for infinitely many k. It follows that three conditions on a finite monoid are equivalent: BM is homotopy equivalent to a finite CW complex; it is homotopy equivalent to a finite-dimensional one; its homology is bounded. In that case BM is simply connected. Together with a theorem of Ben-Bassat, that every finite simply connected CW complex is homotopy equivalent to BM for a finite monoid M, this determines these homotopy types: they are the finite simply connected complexes. A conjecture of the same paper, that every connected finite CW complex with finite fundamental group is of the form BM with M finite, is therefore false; the real projective plane is a counterexample. The proof compares the K-theory of BM with that of the classifying space of a finite group contained in M, through Atiyah's completion theorem. Two examples are worked out: a monoid with six elements whose classifying space is simply connected and has homology in every degree from 2 on (it is a wedge of spheres), and a monoid with 23 elements whose classifying space is the complex projective plane.",
-    "ai_mode": "no-human-author-claimed",
-    "announce": "new",
-    "authors": [
-     "Floris Alderliefste"
-    ],
-    "categories": [
-     "math.AT",
-     "math.GR",
-     "math.KT"
-    ],
-    "date": "2026-11-25",
-    "link": "https://hexagonmath.org/abs/2611.01042v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2611.01042v1",
-    "pid": "hexagon:2611.01042",
-    "reasons": [],
-    "source": "hexagon",
-    "tier": 4,
-    "title": "Classifying spaces of finite monoids with bounded homology",
-    "watched": []
-   },
-   {
-    "abstract": "Let $M$ be a complete Riemannian $n$-manifold, $n\\geq 2$, and suppose that either $M$ is negatively curved, or that it is a locally symmetric space of non-compact type. Via integration over straight simplices, every top-degree bounded differential form $\\omega\\in \\Omega_b^n(M)$ defines a bounded cohomology class in $H^n_b(M)$. We prove that every such class belongs to the annihilator of the cup product in the whole graded algebra $H^{\\geq 1}_b(M)$. In the case of closed orientable surfaces, this generalizes a result of Marasco, and, via transfer, provides a new proof of the fact that the cup product of the bounded Euler class of $SL(2,\\mathbb{R})$ with itself vanishes. Our result also applies to degree-3 bounded classes constructed by Soma and Farre, thus showing that, for surface groups and for free groups, the annihilator of the cup product is infinite dimensional also in degree 3.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Michelle Bucher",
-     "Roberto Frigerio"
-    ],
-    "categories": [
-     "math.GT",
-     "math.AT",
-     "math.DG"
-    ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.32555",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.32555",
-    "pid": "2611.32555",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Cup products with volume classes in bounded cohomology",
-    "watched": []
-   },
-   {
-    "abstract": "For a non-empty connected small category we compare four properties: being filtered; exactness of colimits of abelian groups; Grothendieck's total asphericity, which says that colimits of simplicial sets over the category are homotopy colimits; and being quasi-filtered, which means that two arrows with a common source can be completed to a commutative square and that two parallel arrows are equalized by an integral combination of arrows whose coefficients sum to 1. Each implies the next. We give a category of finite ordered hypergraphs that is totally aspherical and whose colimits are exact over no non-zero ring, and we show that the category of finite ordered two-graphs (sets of triples that meet every four-element set in an even number of triples) is quasi-filtered and not totally aspherical. With the example of Isbell and Mitchell, the three implications are strict. A conjecture in Grothendieck's Les D\u00e9rivateurs, that totally aspherical categories are filtered, is therefore false; it holds for sifted categories, those over which colimits of sets commute with finite products.",
-    "ai_mode": "no-human-author-claimed",
-    "announce": "new",
-    "authors": [
-     "Floris Alderliefste"
-    ],
-    "categories": [
-     "math.CT",
-     "math.AT",
-     "math.CO"
-    ],
-    "date": "2026-11-25",
-    "link": "https://hexagonmath.org/abs/2611.01026v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2611.01026v1",
-    "pid": "hexagon:2611.01026",
-    "reasons": [],
-    "source": "hexagon",
-    "tier": 4,
-    "title": "Exact, total and filtered small categories",
-    "watched": []
-   },
-   {
-    "abstract": "We construct a Poisson bracket on the cohomology of locally constant prefactorization algebras on $\\mathbb{R}^m$ that provides an obstruction to formality in every dimension $m\\geqslant 2$. Our construction combines colored obstruction sequences to formality with linking spheres and generalizes the two-dimensional bracket of Bruinsma, Schenkel, and Vicedo. We use it to extend their non-formality theorem for Lie algebra factorization envelopes to all higher dimensions. We also establish new non-formality results for factorization envelopes of Lie algebras, their compactifications and generalizations to $L_\\infty$-algebras, free BF-type theories, higher abelian Chern-Simons theories and their compactifications.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Coline Emprin",
-     "Alex Takeda"
-    ],
-    "categories": [
-     "math.AT",
-     "math-ph",
-     "math.MP",
+     "cs.LO",
      "math.QA"
     ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.33125",
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.34596",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.33125",
-    "pid": "2611.33125",
-    "reasons": [],
+    "pdf": "https://arxiv.org/pdf/2611.34596",
+    "pid": "2611.34596",
+    "reasons": [
+     "abstract: higher categor"
+    ],
     "source": "arxiv",
-    "tier": 4,
-    "title": "Non-formality of prefactorization algebras",
+    "tier": 3,
+    "title": "Higher rewriting for strong linearly distributive coherence",
     "watched": []
    },
    {
-    "abstract": "Homotopy theory has traditionally been approached either through topological spaces or through categories of presheaves on suitable combinatorial categories, a perspective subsumed by Grothendieck's theory of test categories. In this paper, we develop a more algebraic viewpoint: homotopy types can be represented by actions of a single monoid on sets.\n  This monoid is obtained by identifying all the objects of the semisimplicial category while retaining its face operators. Every CW homotopy type is the classifying space of the translation category of one of its actions, and its truncation at dimension n is finitely presented and realizes exactly the homotopy types of dimension at most n.\n  The construction rests on a general result: every set-valued functor on a small category freely generates an action of its universal monoid, and its category of elements is a full coreflective subcategory of the resulting translation category. Hence every weak test category gives rise to a monoid whose actions realize all homotopy types; when the category has more than one object, however, this monoid is not itself a weak test category, so that a single monoid may realize all homotopy types without modelling homotopy theory as a localization. The obstruction lies in identifying objects, not in having a single one: there are strict test categories with a single object, such as the monoid of all self-maps of an infinite set and a countable monoid of primitive recursive functions.",
+    "abstract": "We study $E_d$-enhancements of the geometric $L_\\infty$-algebras associated to secondary polytopes of finite configurations in $\\mathbb R^d$, $d\\geq2$. We construct an action of the semialgebraic chains of the Fulton--MacPherson operad on the shifted algebra $B_A=\\mathfrak g_A[1-d]$ when $|A|\\leq3d$. The action recovers the prescribed higher Lie operations on fundamental chains. The construction is obtained from a general extension theorem for weighted shifted $L_\\infty$-algebras, using reflection to control relative cohomology obstructions. For $|A|\\leq3d-1$, the resulting reflection-compatible integration actions are homotopic relative to their shifted Lie structure. We also give an abstract enhancement without a cardinality bound, direct formulas for circuits, and explicit operations for convex pentagons and hexagons.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Isaac Carcac\\'ia-Campos"
+     "Longfei Li"
     ],
     "categories": [
-     "math.AT",
-     "math.CT"
-    ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.32655",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.32655",
-    "pid": "2611.32655",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "One monoid to realize them all: a master monoid for homotopy types",
-    "watched": []
-   },
-   {
-    "abstract": "We describe a product between framed 1-flow categories and show that it satisfies the expected Cartan formula on its second Steenrod squares. We also describe a dual framed 1-flow category and show that, like the Spanier-Whitehead dual of spectra, the homology groups of a framed 1-flow category can be shown to be isomorphic to the cohomology groups of its dual and that this isomorphism can be shown to cooperate with the framed 1-flow category structure in a suitable sense.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Chris Johnson"
-    ],
-    "categories": [
-     "math.AT",
-     "math.GT"
-    ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.31337",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.31337",
-    "pid": "2611.31337",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Products and duality for framed 1-flow categories",
-    "watched": []
-   },
-   {
-    "abstract": "We construct infinitely many closed oriented smooth 4-manifolds which are all stably diffeomorphic but pairwise not homotopy equivalent. Our examples are distinguished by their second homotopy modules, and provide the first examples which demonstrate that stable diffeomorphism does not determine the second homotopy module. They have fundamental group $(\\mathbb{Z}/4)^4*\\mathbb{Z}$ and arise as doubles of presentation 2-complexes. In contrast, we give criteria for isomorphism of second homotopy modules of doubles of 2-complexes, covering finite abelian, quaternion, dihedral and symmetric fundamental groups. We also establish non-injectivity of the doubling construction by showing that there exist homotopically distinct presentation 2-complexes over $Q_{28}$ whose doubles are homotopy equivalent.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Tommy Hofmann",
-     "John Nicholson"
-    ],
-    "categories": [
-     "math.GT",
      "math.AT"
     ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.31642",
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.34431",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.31642",
-    "pid": "2611.31642",
+    "pdf": "https://arxiv.org/pdf/2611.34431",
+    "pid": "2611.34431",
     "reasons": [],
     "source": "arxiv",
     "tier": 4,
-    "title": "Second homotopy modules and infinite homotopy stable classes of four-manifolds",
+    "title": "$E_d$-Enhancements of $L_\\infty$-Algebras Associated to Secondary Polytopes",
     "watched": []
    },
    {
-    "abstract": "The L\u00b2-Betti numbers b_p\u207d\u00b2\u207e of a finite complex measure the square-summable harmonic p-chains on its universal cover. Singer's conjecture says that for a closed aspherical manifold of dimension n, one whose universal cover is contractible, they vanish outside the middle degree n/2. A manuscript of OpenAI dated 25 September 2026, released on 6 October 2026, proves the conjecture in dimension four; it is not refereed. Its proof assumes b\u2081\u207d\u00b2\u207e > 0, builds from functions of finite energy on the fundamental group \u0393 a compact boundary on which \u0393 acts, and reaches a contradiction; dimension four enters only in a preliminary section. We show that the same argument gives b\u2081\u207d\u00b2\u207e = b_{n\u22121}\u207d\u00b2\u207e = 0 for every finite aspherical Poincar\u00e9 complex of formal dimension n \u2265 3, hence for every closed aspherical topological manifold of dimension at least three (Theorem A), and for every finitely presented Poincar\u00e9 duality group of dimension n \u2265 3 (Theorem B). To do so we state what Sections 3-10 of the manuscript prove as a criterion for groups (Theorem C): a finitely presented torsion-free group with one end, with H\u00b2(\u0393; F\u2082\u0393) = 0 and with no splitting over a finite or two-ended subgroup, has b\u2081\u207d\u00b2\u207e = 0; and we prove, in every dimension n \u2265 3, the facts about \u0393 that the criterion needs. Theorems A and B depend on the manuscript's argument, which we cite and do not reproduce. One AI referee has followed that argument line by line and found no fault; no human has checked it, or this paper.",
+    "abstract": "The deleted square of a topological space is a subspace of the Cartesian product of this space with itself, obtained by removing the diagonal. Conjecturally, the deleted square of a cone over a graph has the homotopy type of a wedge sum of spheres of dimensions at most 3. We propose a geometric construction that is a key motivation for the conjecture and provides a major step towards its proof, while yielding direct results on deleted squares of certain families of graphs.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Andrzej T. Karolak"
+    ],
+    "categories": [
+     "math.AT"
+    ],
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.33558",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.33558",
+    "pid": "2611.33558",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Deleted square of a cone over a graph",
+    "watched": []
+   },
+   {
+    "abstract": "The strict simplicial complexity $SC_{\\rm strict}(K)$, Gonz\\'alez's simplicial complexity at subdivision level zero, is one less than the least number of contiguity domains covering the ordered product $K\\times K$. We bound it from both sides. For upper bounds, every product of two vertex stars is a domain, which gives $SC_{\\rm strict}(K)\\le\\rho(K)-1$ for an exactly computable set-cover number $\\rho(K)$; the bound is sharp on every even-dimensional simplex boundary. A GPU annealer that evolves whole systems of contiguity chains finds three-domain covers of $\\partial\\Delta^3,\\dots,\\partial\\Delta^7$ and of the cube boundary. Seeded by star covers, it descends from $24$ to $5$ domains on the icosahedron boundary, and an exact SAT completion of its stalled state gives $SC_{\\rm strict}\\le3$ there. For lower bounds, a subcomplex of $K\\times K$ is rigid if its two projections are joined by no contiguity chain of any length; $k$ domains can cover $K\\times K$ only if $k$ classes of facets avoid every rigid subcomplex, a finite SAT problem. Rigid subcomplexes arise from hollow triangles over essential empty triangles and, on complexes without dominated vertices, from the graph of every order-preserving simplicial self-map other than the identity. The resultingchain-length-free bounds give $SC_{\\rm strict}(\\partial\\Delta^{n+1})=2>1=TC(S^n)$ for $n=3,5,7,9$, $SC_{\\rm strict}=2>1$ for the five-vertex M\\\"obius band, $SC_{\\rm strict}\\ge3>2$ for the seven-vertex torus, and $4\\le SC_{\\rm strict}\\le5$ and $4\\le SC_{\\rm strict}\\le6$ for two triangulations of $\\mathbb{RP}^2$. They also sort the annealer's stalls: on these two triangulations of $\\mathbb{RP}^2$, the Klein bottle and $\\partial\\Delta^4$, almost every uncovered\n  facet closes a rigid subcomplex in every domain, while the icosahedron stall was a search failure.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "M. Perez",
+     "J. Flores"
+    ],
+    "categories": [
+     "math.AT",
+     "cs.RO",
+     "math.CO"
+    ],
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.33804",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.33804",
+    "pid": "2611.33804",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Explicit covers and rigid obstructions for simplicial complexity: from spheres to surfaces",
+    "watched": []
+   },
+   {
+    "abstract": "Let a compact torus act on a closed manifold $X$ with isolated fixed points. The face poset $S(X)$ of the action is covered by the lattices of flats of the linear matroids of tangent weights at the fixed points. We study how much of the cohomology of $X$ these combinatorial data see. Local equivariant cohomology. The group $H^*_T(X, X\\setminus pt)$, embedded in $H^*_T(pt)$ by restriction, is the principal ideal generated by the product of the tangent weights. It determines the weights up to scalars, with multiplicities, and hence the local lattice $S(X)_{\\geq pt}$. Local matroids do not suffice. Two connected regular semisimple Hessenberg varieties in $\\mathrm{Fl}(\\mathbb{C}^5)$, with torus actions of complexity one, have isomorphic weight matroids at all fixed points, and hence the same Chow rings, Orlik\u2013Solomon algebras and Kazhdan\u2013Lusztig polynomials there, but different Betti numbers. The face poset determines the Betti numbers of every regular semisimple Hessenberg variety of type A, full or partial, and of the isospectral manifolds of Ayzenberg and Buchstaber. The reason is rigidity: the cluster-permutohedron $\\mathrm{Cl}_\\Gamma$ determines the graph $\\Gamma$, by an elementary argument that recovers the vertices of $\\Gamma$ from stars of edges. Simply-laced types. The same holds for regular semisimple Hessenberg varieties of types A, D and E: the face poset determines the Weyl group together with the lines spanned by the roots of the Hessenberg ideal, up to isometry. A formula. The Poincar\u00e9 polynomial is a sum over the face poset, $P_X(q)=\\sum_{\\sigma\\in S(X)}(q-1)^{\\mathrm{rk}\\,\\sigma}e_\\sigma(q)$, in which $e_\\sigma$ is a sum of Tutte polynomials of the matroids of weights that are negative on a generic circle. For toric manifolds this is the $h$-vector formula.",
     "ai_mode": "no-human-author-claimed",
     "announce": "new",
     "authors": [
-     "Floris Alderliefste"
+     "David Mikheev"
     ],
     "categories": [
-     "math.GT",
-     "math.GR",
-     "math.AT"
-    ],
-    "date": "2026-11-25",
-    "link": "https://hexagonmath.org/abs/2611.01043v1",
-    "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2611.01043v1",
-    "pid": "hexagon:2611.01043",
-    "reasons": [],
-    "source": "hexagon",
-    "tier": 4,
-    "title": "The first L\u00b2-Betti number of aspherical manifolds and Poincar\u00e9 duality groups of dimension at least three",
-    "watched": []
-   },
-   {
-    "abstract": "An element of the profinite Grothendieck-Teichm\u00fcller group $\\widehat{\\mathrm{GT}}$ of Drinfeld is a pair $(\\lambda,f)$, with $\\lambda$ a unit of $\\widehat{\\mathbb Z}$ and $f$ in the free profinite group $\\widehat F_2$ on $x$ and $y$, that satisfies three relations and for which $x\\mapsto x^\\lambda$, $y\\mapsto f^{-1}y^\\lambda f$ is an automorphism of $\\widehat F_2$. Lochak and Schneps asked in 2006 whether this last requirement follows from the others, and whether it holds with no relation at all (Question 1.1 of their list of open problems). We prove that it follows, and from less: if $\\lambda\\in1+2\\widehat{\\mathbb Z}$ and $f\\in\\widehat F_2$ satisfy the two-cycle and three-cycle relations (I) and (II), then $\\lambda$ is a unit and the endomorphism is an automorphism. The pentagon relation is not used. Relation (I) alone does not suffice: for $\\lambda=1$ and $f=xyx^{-1}y^{-1}$ the endomorphism is not surjective. It follows that the Grothendieck-Teichm\u00fcller monoid, in the profinite form of Horel and of Boavida de Brito, Horel and Robertson, is equal to its group of units; that every endomorphism of the profinite operad of parenthesized braids that fixes the objects is an automorphism; and, by their theorems, that every homotopy endomorphism of the profinite completion of the little 2-discs operad, or of the genus zero surface operad, is a homotopy automorphism. The proof counts boundary components of finite covers in homology. An endomorphism of the profinite completion of the fundamental group of a compact surface with boundary that sends every boundary generator to a conjugate of a unit power of a boundary generator, bijectively on boundary components, is an automorphism; on a sphere with at least three holes the exponents of such an endomorphism are equal, and are zero or a unit. The criterion for unit exponents and the case of unit $\\lambda$ were produced by GPT-6 Astra (ChatGPT Pro mode) and checked by Claude Opus 5.5 at effort high. Claude Fable 5.2 at effort max checked them again, found the statements for exponents that are not assumed to be units and the example above, and wrote this text. Claude Opus 5.5 at effort max checked these additions independently. No human has checked any of it.",
-    "ai_mode": "no-human-author-claimed",
-    "announce": "new",
-    "authors": [
-     "Floris Alderliefste"
-    ],
-    "categories": [
-     "math.GR",
      "math.AT",
-     "math.NT",
-     "math.AG"
+     "math.AG",
+     "math.CO",
+     "math.RT",
+     "math.SG"
     ],
     "date": "2026-11-25",
-    "link": "https://hexagonmath.org/abs/2611.01024v1",
+    "link": "https://hexagonmath.org/abs/2611.01086v1",
     "other_links": {},
-    "pdf": "https://hexagonmath.org/pdf/2611.01024v1",
-    "pid": "hexagon:2611.01024",
+    "pdf": "https://hexagonmath.org/pdf/2611.01086v1",
+    "pid": "hexagon:2611.01086",
     "reasons": [],
     "source": "hexagon",
     "tier": 4,
-    "title": "The profinite Grothendieck-Teichm\u00fcller monoid is a group, on a question of Lochak and Schneps",
+    "title": "Face posets, local weight matroids and Betti numbers of torus actions",
     "watched": []
    },
    {
-    "abstract": "We study topological inference for the degree-Cech bifiltration from noisy samples of a manifold. Under a model combining uniform sampling on the manifold with uniform noise, we show that suitable choices of the radius and degree parameters recover the homotopy type of the underlying manifold with high probability. The analysis explains how the degree parameter suppresses sufficiently distant outliers while the radius scale captures topological signals. Our results provide theoretical support for the common intuition that degree bifiltrations carry meaningful topological information in the presence of noise.",
+    "abstract": "In stable homotopy theory, there are a variety of ways to construct a point-set level smash product of spectra, each with its own advantages and limitations. These constructions often involve internalizing some graded external product. In this paper, we aim to formalize this process through a general categorical framework, providing a common language for these constructions. We propose a general theory for internalizing a graded monoidal product, investigate its 2-categorical properties, and use this framework to recover both Day convolution and the smash product of $S$-modules.",
     "ai_mode": "",
     "announce": "new",
     "authors": [
-     "Michael Kerber",
-     "Bria Razanaparany"
+     "Bryce Goldman"
+    ],
+    "categories": [
+     "math.CT",
+     "math.AT"
+    ],
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.33663",
+    "other_links": {},
+    "pdf": "https://arxiv.org/pdf/2611.33663",
+    "pid": "2611.33663",
+    "reasons": [],
+    "source": "arxiv",
+    "tier": 4,
+    "title": "Graded Monoidal Categories and Internalization",
+    "watched": []
+   },
+   {
+    "abstract": "Let \\(A\\) be a connected graded commutative differential graded algebra over \\(\\mathbb Q\\) whose cohomology is a finite-dimensional Poincar\\'e duality algebra of formal dimension \\(N\\ge2\\). Assuming that its Bianchi-Massey tensor vanishes, we prove that the normalized pentagonal tensor of Nagy and Nordstr\\\"om, in [preprint (2021), arXiv:2105.13660], vanishes if and only if the fourth Harrison obstruction vanishes after eliminating the third operation. This gives a fourth-order counterpart to the third-order comparison of Fiorenza and L\\^e, in [Ann. Sc. Norm. Super. Pisa Cl. Sci. (5), published online 7 March 2025], and answers the vanishing question in L\\^e's proposed comparison, in [preprint (2026), arXiv:2603.01219], under the hypothesis that the Bianchi-Massey tensor vanishes. The result applies to closed, connected, oriented manifolds with no upper dimension bound. We also extend Zhou's sphere-bundle formality criterion in [Algebr. Geom. Topol. 25 (2025), pp. 2297--2315] to two-stage oriented sphere bundles with positive odd fibre dimensions over a closed, connected, oriented, rationally formal base, provided that the second Euler class is pulled back from the original base. Their total spaces are rationally formal precisely when the Bianchi-Massey and normalized pentagonal tensors vanish. Our method develops the model-based strategy in Zhou's proof within a commutative bar-cobar framework, providing a starting point for constructing higher tensors and comparing them with higher-order formality obstructions.",
+    "ai_mode": "",
+    "announce": "new",
+    "authors": [
+     "Chaoshun Yang",
+     "Xiugui Liu"
     ],
     "categories": [
      "math.AT"
     ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.31505",
+    "date": "2026-11-26",
+    "link": "https://arxiv.org/abs/2611.34315",
     "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.31505",
-    "pid": "2611.31505",
+    "pdf": "https://arxiv.org/pdf/2611.34315",
+    "pid": "2611.34315",
     "reasons": [],
     "source": "arxiv",
     "tier": 4,
-    "title": "Topological Inference for degree-Cech complexes",
-    "watched": []
-   },
-   {
-    "abstract": "The vanishing of the L^2-Betti numbers of the universal covering of a closed manifold is an obstruction to fibring over the circle. When the L^2-Betti numbers vanish we introduce a secondary obstruction based on the asymptotic behaviour of the twisted L^2-torsion function at 0 and infinity. We provide a number of examples showing the invariant is indeed non-trivial.",
-    "ai_mode": "",
-    "announce": "new",
-    "authors": [
-     "Sam Hughes",
-     "Wolfgang Lueck"
-    ],
-    "categories": [
-     "math.AT"
-    ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.32771",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.32771",
-    "pid": "2611.32771",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 4,
-    "title": "Twisted $L^2$-torsion functions obstruct fibring over the circle",
-    "watched": []
-   },
-   {
-    "abstract": "Recently, OpenAI found a proof of the positivity of Serre's intersection multiplicity. The two main ingredients are a descent result on rational $K$-theory with support; and a construction of certain category of asymptotic complexes that identifies with the category of perfect complexes over a connective (non-commutative) derived ring. In this article, we present a simpler proof of Serre positivity that circumvents the second step; instead, we use a ``reduction to the diagonal\" trick via the $A_{\\text{inf}}$-construction.",
-    "ai_mode": "",
-    "announce": "cross",
-    "authors": [
-     "Linquan Ma"
-    ],
-    "categories": [
-     "math.AC",
-     "math.KT"
-    ],
-    "date": "2026-11-25",
-    "link": "https://arxiv.org/abs/2611.31796",
-    "other_links": {},
-    "pdf": "https://arxiv.org/pdf/2611.31796",
-    "pid": "2611.31796",
-    "reasons": [],
-    "source": "arxiv",
-    "tier": 5,
-    "title": "A short proof of Serre positivity",
+    "title": "The pentagonal tensor and the fourth obstruction to formality",
     "watched": []
    }
   ]
@@ -5705,6 +5467,7 @@
   "2208.02445": "2026-11-19",
   "2208.02575": "2026-10-30",
   "2208.05876": "2026-11-10",
+  "2209.01099": "2026-11-26",
   "2209.02979": "2026-11-24",
   "2209.03667": "2026-10-30",
   "2209.05429": "2026-11-04",
@@ -5747,6 +5510,7 @@
   "2307.06020": "2026-10-21",
   "2307.16657": "2026-10-14",
   "2308.00884": "2026-11-17",
+  "2308.00903": "2026-11-26",
   "2308.01652": "2026-11-23",
   "2308.08548": "2026-10-19",
   "2308.10957": "2026-11-02",
@@ -5767,6 +5531,7 @@
   "2311.07356": "2026-10-16",
   "2311.07549": "2026-10-19",
   "2311.13408": "2026-10-16",
+  "2311.13572": "2026-11-26",
   "2311.16264": "2026-11-20",
   "2312.00594": "2026-10-14",
   "2312.01106": "2026-11-23",
@@ -5827,7 +5592,9 @@
   "2406.01348": "2026-11-09",
   "2406.01999": "2026-11-16",
   "2406.03584": "2026-10-12",
+  "2406.05674": "2026-11-26",
   "2406.07414": "2026-10-09",
+  "2406.11922": "2026-11-26",
   "2406.13438": "2026-10-16",
   "2406.19748": "2026-11-19",
   "2407.00083": "2026-11-19",
@@ -5875,8 +5642,10 @@
   "2410.05994": "2026-10-21",
   "2410.06947": "2026-10-20",
   "2410.09574": "2026-10-30",
+  "2410.09899": "2026-11-26",
   "2410.10126": "2026-10-16",
   "2410.10552": "2026-10-08",
+  "2410.12821": "2026-11-26",
   "2410.13168": "2026-10-14",
   "2410.13606": "2026-11-24",
   "2410.14065": "2026-10-30",
@@ -5924,6 +5693,7 @@
   "2501.06421": "2026-10-27",
   "2501.07551": "2026-10-20",
   "2501.09272": "2026-11-11",
+  "2501.10164": "2026-11-26",
   "2501.10239": "2026-11-20",
   "2501.13229": "2026-11-09",
   "2501.13651": "2026-11-17",
@@ -5970,6 +5740,7 @@
   "2503.22150": "2026-10-20",
   "2503.23382": "2026-11-23",
   "2504.01701": "2026-10-14",
+  "2504.03969": "2026-11-26",
   "2504.05134": "2026-10-14",
   "2504.08717": "2026-10-20",
   "2504.11403": "2026-10-14",
@@ -6068,6 +5839,7 @@
   "2508.12062": "2026-11-05",
   "2508.12423": "2026-11-11",
   "2508.12462": "2026-10-15",
+  "2508.13395": "2026-11-26",
   "2508.15022": "2026-10-14",
   "2508.15974": "2026-10-21",
   "2508.17485": "2026-10-09",
@@ -6093,6 +5865,7 @@
   "2509.07720": "2026-10-15",
   "2509.09047": "2026-11-06",
   "2509.09323": "2026-11-25",
+  "2509.10603": "2026-11-26",
   "2509.11423": "2026-11-13",
   "2509.11664": "2026-10-14",
   "2509.12186": "2026-11-10",
@@ -6100,6 +5873,7 @@
   "2509.14940": "2026-11-24",
   "2509.15825": "2026-11-10",
   "2509.16042": "2026-11-13",
+  "2509.16102": "2026-11-26",
   "2509.16933": "2026-11-09",
   "2509.17001": "2026-10-20",
   "2509.17456": "2026-11-17",
@@ -6156,6 +5930,7 @@
   "2510.19659": "2026-10-27",
   "2510.19683": "2026-10-20",
   "2510.20325": "2026-11-02",
+  "2510.20732": "2026-11-26",
   "2510.21497": "2026-10-22",
   "2510.21594": "2026-10-30",
   "2510.22612": "2026-11-05",
@@ -6177,6 +5952,7 @@
   "2511.02324": "2026-11-17",
   "2511.02425": "2026-10-14",
   "2511.02641": "2026-11-13",
+  "2511.02677": "2026-11-26",
   "2511.04582": "2026-11-10",
   "2511.04836": "2026-10-23",
   "2511.05837": "2026-11-25",
@@ -6200,6 +5976,7 @@
   "2511.18395": "2026-10-12",
   "2511.18453": "2026-11-17",
   "2511.19282": "2026-10-08",
+  "2511.20805": "2026-11-26",
   "2511.21396": "2026-11-04",
   "2511.21648": "2026-10-08",
   "2511.21918": "2026-10-23",
@@ -6399,6 +6176,7 @@
   "2604.17757": "2026-10-14",
   "2604.17792": "2026-10-27",
   "2604.17799": "2026-11-06",
+  "2604.18054": "2026-11-26",
   "2604.18074": "2026-11-03",
   "2604.18793": "2026-11-17",
   "2604.20091": "2026-11-03",
@@ -6426,6 +6204,7 @@
   "2604.25842": "2026-11-25",
   "2604.26370": "2026-10-15",
   "2604.26584": "2026-11-19",
+  "2604.27874": "2026-11-26",
   "2605.00704": "2026-10-14",
   "2605.03798": "2026-10-22",
   "2605.06467": "2026-11-09",
@@ -6552,6 +6331,8 @@
   "2607.07053": "2026-11-10",
   "2607.07355": "2026-10-27",
   "2607.07558": "2026-11-13",
+  "2607.08308": "2026-11-26",
+  "2607.09028": "2026-11-26",
   "2607.09538": "2026-11-17",
   "2607.10010": "2026-10-22",
   "2607.10602": "2026-11-11",
@@ -6590,6 +6371,7 @@
   "2607.19133": "2026-10-30",
   "2607.19251": "2026-11-06",
   "2607.19457": "2026-10-20",
+  "2607.19587": "2026-11-26",
   "2607.19882": "2026-10-09",
   "2607.19952": "2026-11-05",
   "2607.20597": "2026-10-27",
@@ -6716,7 +6498,9 @@
   "2609.06824": "2026-11-04",
   "2609.06845": "2026-10-15",
   "2609.07522": "2026-11-13",
+  "2609.07769": "2026-11-26",
   "2609.08179": "2026-10-22",
+  "2609.08781": "2026-11-26",
   "2609.08876": "2026-10-30",
   "2609.09128": "2026-11-19",
   "2609.09633": "2026-11-10",
@@ -6789,6 +6573,7 @@
   "2609.28495": "2026-10-12",
   "2609.29011": "2026-10-19",
   "2609.29568": "2026-10-09",
+  "2609.30242": "2026-11-26",
   "2609.30422": "2026-10-30",
   "2609.30591": "2026-11-10",
   "2609.30637": "2026-10-19",
@@ -6827,6 +6612,7 @@
   "2609.39745": "2026-10-08",
   "2609.39943": "2026-11-10",
   "2609.40298": "2026-10-15",
+  "2610.00089": "2026-11-26",
   "2610.00250": "2026-10-26",
   "2610.00335": "2026-11-25",
   "2610.01155": "2026-11-10",
@@ -9011,6 +8797,57 @@
   "2611.33116": "2026-11-25",
   "2611.33125": "2026-11-25",
   "2611.33152": "2026-11-25",
+  "2611.33310": "2026-11-26",
+  "2611.33321": "2026-11-26",
+  "2611.33372": "2026-11-26",
+  "2611.33418": "2026-11-26",
+  "2611.33491": "2026-11-26",
+  "2611.33530": "2026-11-26",
+  "2611.33558": "2026-11-26",
+  "2611.33572": "2026-11-26",
+  "2611.33638": "2026-11-26",
+  "2611.33663": "2026-11-26",
+  "2611.33669": "2026-11-26",
+  "2611.33675": "2026-11-26",
+  "2611.33697": "2026-11-26",
+  "2611.33771": "2026-11-26",
+  "2611.33778": "2026-11-26",
+  "2611.33804": "2026-11-26",
+  "2611.33837": "2026-11-26",
+  "2611.33838": "2026-11-26",
+  "2611.33845": "2026-11-26",
+  "2611.33908": "2026-11-26",
+  "2611.33976": "2026-11-26",
+  "2611.33994": "2026-11-26",
+  "2611.34041": "2026-11-26",
+  "2611.34052": "2026-11-26",
+  "2611.34110": "2026-11-26",
+  "2611.34174": "2026-11-26",
+  "2611.34177": "2026-11-26",
+  "2611.34187": "2026-11-26",
+  "2611.34216": "2026-11-26",
+  "2611.34231": "2026-11-26",
+  "2611.34282": "2026-11-26",
+  "2611.34315": "2026-11-26",
+  "2611.34318": "2026-11-26",
+  "2611.34342": "2026-11-26",
+  "2611.34431": "2026-11-26",
+  "2611.34477": "2026-11-26",
+  "2611.34497": "2026-11-26",
+  "2611.34498": "2026-11-26",
+  "2611.34570": "2026-11-26",
+  "2611.34580": "2026-11-26",
+  "2611.34594": "2026-11-26",
+  "2611.34596": "2026-11-26",
+  "2611.34633": "2026-11-26",
+  "2611.34654": "2026-11-26",
+  "2611.34664": "2026-11-26",
+  "2611.34749": "2026-11-26",
+  "2611.34774": "2026-11-26",
+  "2611.34793": "2026-11-26",
+  "2611.34844": "2026-11-26",
+  "2611.34918": "2026-11-26",
+  "2611.34933": "2026-11-26",
   "hexagon:2609.00001": "2026-10-08",
   "hexagon:2609.00102": "2026-10-08",
   "hexagon:2609.00104": "2026-10-08",
@@ -10511,6 +10348,41 @@
   "hexagon:2611.01053": "2026-11-25",
   "hexagon:2611.01055": "2026-11-25",
   "hexagon:2611.01056": "2026-11-25",
+  "hexagon:2611.01057": "2026-11-26",
+  "hexagon:2611.01058": "2026-11-26",
+  "hexagon:2611.01059": "2026-11-26",
+  "hexagon:2611.01061": "2026-11-26",
+  "hexagon:2611.01062": "2026-11-26",
+  "hexagon:2611.01066": "2026-11-26",
+  "hexagon:2611.01067": "2026-11-26",
+  "hexagon:2611.01068": "2026-11-26",
+  "hexagon:2611.01069": "2026-11-26",
+  "hexagon:2611.01070": "2026-11-26",
+  "hexagon:2611.01073": "2026-11-26",
+  "hexagon:2611.01074": "2026-11-26",
+  "hexagon:2611.01075": "2026-11-26",
+  "hexagon:2611.01076": "2026-11-26",
+  "hexagon:2611.01077": "2026-11-26",
+  "hexagon:2611.01078": "2026-11-26",
+  "hexagon:2611.01079": "2026-11-26",
+  "hexagon:2611.01080": "2026-11-26",
+  "hexagon:2611.01082": "2026-11-26",
+  "hexagon:2611.01083": "2026-11-26",
+  "hexagon:2611.01084": "2026-11-26",
+  "hexagon:2611.01086": "2026-11-26",
+  "hexagon:2611.01087": "2026-11-26",
+  "hexagon:2611.01088": "2026-11-26",
+  "hexagon:2611.01089": "2026-11-26",
+  "hexagon:2611.01090": "2026-11-26",
+  "hexagon:2611.01091": "2026-11-26",
+  "hexagon:2611.01092": "2026-11-26",
+  "hexagon:2611.01093": "2026-11-26",
+  "hexagon:2611.01094": "2026-11-26",
+  "hexagon:2611.01095": "2026-11-26",
+  "hexagon:2611.01097": "2026-11-26",
+  "hexagon:2611.01098": "2026-11-26",
+  "hexagon:2611.01099": "2026-11-26",
+  "hexagon:2611.01100": "2026-11-26",
   "math/0111031": "2026-10-27",
   "math/0301151": "2026-11-24",
   "math/0304105": "2026-11-24",
