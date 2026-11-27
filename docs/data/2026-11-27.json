@@ -1,0 +1,167 @@
+{
+"day": "2026-11-27",
+"updated": "2026-11-27T19:08:58+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2611.01137",
+"title": "A Sharp Spherical Submersion and a 2,621-Fold Improvement on the Asymptotic Lower Bound for Positive Maxwell Equilibria",
+"abstract": "We prove that n strictly positive point charges confined to the unit sphere S^2 in R^3 admit at least M^+_{S^2}(n) >= (2*sqrt(2)/3 - o(1)) n^(3/2) ~= 0.942809 n^(3/2) isolated, strictly nondegenerate electrostatic equilibrium points, improving Kintali's August 2026 superlinear positive-charge lower bound (3.596e-4 - o(1)) n^(3/2) by a factor greater than 2,621. Non-asymptotically, for every D >= 3, n(D) = (floor(D/2) + 1)(D + 1) positive charges on S^2 yield at least N(D) = D(D-1)(D-2)/3 nondegenerate equilibria in the open unit ball B^3, overtaking the 10n linear slope of Arathoon-Ball-Kvalheim (July 2026) already at D = 21 (n = 242 positive charges: N(21) = 2,660 > 2,420). The proof combines a Closed-Form Nested Complex-Plane Harmonic Lattice (333x denser than Kintali's 12-wave packet, with a 4-line exact 3x3 Hessian determinant) and a Sharp Spherical D-Design Submersion Theorem on S^2 (full rank (D+1)^2 - 1 for every D >= 1 via mod-(D+1) DFT decoupling and Hermite double-root counting, using 4x fewer charges). All core theorems are unconditionally formalized in Lean 4.36.0 (zero sorry, zero native_decide, standard axioms only), and explicit exact-rational S^2 Coulomb realizations at D = 4, 5, 6 (n = 15, 18, 28 charges; 8, 20, 40 equilibria) are certified in pure Rust via pandsysroots 0.34.0 and 768/1024-bit Pandrosion V31 + 3D interval Krawczyk in 178 ms.",
+"authors": [
+"Ivan Besevic"
+],
+"categories": [
+"math.MP",
+"math.AG",
+"math.CA",
+"math.CV",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.01137v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01137v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01135",
+"title": "Generalized Burau representations and quantum gates: arrangements, compact closures, and prior results",
+"abstract": "We study two constructions of Burau-type representations and their quantum-gate realizations. For finite Coxeter arrangements, we collect Squier’s explicit matrices and determine when their invariant Hermitian forms are positive definite in terms of the Coxeter exponents. A direct rank-two proof gives a compact-closure formula for 0 <|θ|<min{π/h,π/10}, including roots of unity. For E6,E7,E8, this formula holds throughout the parameter interval where the invariant Hermitian form is positive definite, except at the undeformed Coxeter specialization. These exceptional-type conclusions also follow from Freedman–Larsen–Wang and are not claimed as new classification theorems. The eight-dimensional gates give the stated non-Clifford and three-qubit universality conclusions. For arbitrary affine arrangements, we now carry out the separate construction from a unitary rank-one seed through directional middle convolution to quantum gates. Specializing Negami’s prior invariant-form and signature theorems gives explicit definiteness conditions, including the middle quotient at resonance. We verify colored braid transport for unequal weights, give a sufficient condition for full unitary closure and non-Clifford gates, and an exact finite-image test for rational phases with finite-image base character. The output lives on the directional closure when collision hyperplanes must be added. The appendices retain the Dynkin dictionary, arbitrary-rank algebraic convolution formulas, and the based six-line example. This note provides explicit applications, proofs, conventions, and reproducible code; the two constructions are not identified in general.",
+"authors": [
+"Haru Negami"
+],
+"categories": [
+"math.RT",
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.01135v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01135v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01144",
+"title": "L. Fejes Tóth's strong-solidity conjecture (1979) holds for {7,3}",
+"abstract": "A packing of open circular discs in the sphere, Euclidean plane, or hyperbolic plane is solid if no finite subset can be rearranged so as to form, together with the rest, a packing not congruent to the original one; it is strongly solid if it remains solid after any one circle is removed. L. Fejes Tóth conjectured that the face-incircles of the regular trihedral tiling {p,3} form a strongly solid packing for every p >= 6. A. Bezdek (1979) proved the conjecture for all p >= 8, leaving p = 6 (Euclidean) and p = 7 (hyperbolic) open. We prove that the face-incircles of {7,3} form a strongly solid packing, leaving the Euclidean hexagonal packing {6,3} as the sole remaining open case. Combining this with an exact evaluation of the grade of saturatedness g_7 = 3, we obtain the order of solidity k_7 = 1 = g_7 - 2, settling L. Fejes Tóth's (1980) order-of-solidity formula at p = 7. The proof is elementary, self-contained, and computer-free. At p = 7, Bezdek's strict hyperbolic distance inequality degenerates to an exact equality reducing to an algebraic identity in Q(cos(pi/7)), and concentric-zone runs shorten so his one-by-one joining order deadlocks; we overcome both obstructions with a sharp geometric pinning lemma and a single nine-site closing lemma tailored to the dual triangulation {3,7}. These results are verified in Lean.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.MG",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01144v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01144v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01143",
+"title": "L. Fejes Tóth's strong-solidity conjecture (1979) holds for {7,3}, and other miscellanea",
+"abstract": "A packing of open circular discs in the sphere, Euclidean plane, or hyperbolic plane is solid if no finite subset can be rearranged so as to form, together with the rest, a packing not congruent to the original one; it is strongly solid if it remains solid after any one circle is removed. L. Fejes Tóth conjectured that the face-incircles of the regular trihedral tiling {p,3} form a strongly solid packing for every p >= 6. A. Bezdek (1979) proved the conjecture for all p >= 8, leaving p = 6 (Euclidean) and p = 7 (hyperbolic) open. In Part I we prove that the face-incircles of {7,3} form a strongly solid packing, leaving the Euclidean hexagonal packing {6,3} as the sole remaining open case. Combining this with an exact evaluation of the grade of saturatedness g_7 = 3, we obtain the order of solidity k_7 = 1 = g_7 - 2, settling L. Fejes Tóth's (1980) order-of-solidity formula at p = 7. In Part II we give self-contained proofs of structural results and obstructions for the remaining open Euclidean case p = 6, including a no-hole theorem, a quadratic triangle-count bound, an explicit 30-circle D_6-symmetric packing in which every overlapped lattice site is overlapped by at least two circles, and a near-lattice rigidity theorem up to 5/26 of a lattice side (1/5 for all-triangular families). The unrestricted Euclidean conjecture for p = 6 remains open. Theorem 1.1 and Corollary 1.2 are verified in Lean.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.MG",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01143v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01143v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01140",
+"title": "On Artin $L$-functions with a cubic complement",
+"abstract": "We prove quantitative bounds for exceptional primes in the cyclic descent of Artin representations whose projective image is a Frobenius group with abelian kernel and complement of order three. These bounds imply natural density zero and yield unconditional holomorphy regions for the corresponding Artin $L$-functions. The absence of real zeros of an associated Dedekind zeta function on $(0,1)$ implies cuspidal automorphy and entire continuation. We also prove the holomorphy of adjoint Artin $L$-functions for primitive representations with solvable image.",
+"authors": [
+"Hernandez Juan"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01140v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01140v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01141",
+"title": "Polynomial thresholds for graceful leaf extensions of arbitrary trees",
+"abstract": "Let $H$ be any tree on $n$ vertices, and attach new leaves at its vertices in any prescribed numbers. The resulting tree is graceful whenever its final edge count is at least $3,955,201 n^7$. No graceful labeling of $H$ is assumed, and no positive lower bound is required at an individual attachment site. The proof uses the parities of the same prescribed leaf counts to control two competing constructions. For a tree with $h$ internal vertices the resulting sufficient edge bound is $3,955,201h^7$. The construction lemmas and the uniform estimate are formalized in Lean.",
+"authors": [
+"Akram Younso"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01141v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01141v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01132",
+"title": "There is no symmetric configuration $93_{10}$",
+"abstract": "A symmetric configuration $v_k$ is a set of $v$ points and $v$ lines, with $k$ points on every line and $k$ lines through every point, such that two points lie on at most one common line. We prove that no configuration $93_{10}$ exists. No cyclicity or automorphism is assumed. The parameters have deficiency two, $v=k^2-k+3$, and we use the method of our earlier paper on $59_8$: the points not collinear with a given point form a $2$-regular “leave” graph, its cycle lengths obey exact moment and periodicity conditions, and the incidence matrix gives a factorization $G=BB^{\\top}$ of an explicit integer Gram matrix $G$ built from those cycles. For $93_{10}$ the conditions leave $37$ possible cycle structures. Ten have an even number of cycles and fail a determinant condition, $25$ fail a local quadratic-form count modulo $49$ or $625$, one fails a cross-moment identity, and the last, three $31$-cycles, is excluded by a finite analysis of circulant blocks. The entire nonexistence proof, including every finite computation on its formal proof path, is checked by the Lean 4 kernel with the standard axioms only. The text also gives alternative arithmetic cross-checks. We also record smaller results proved in Lean by the same method: every $113_{11}$ has a Hamiltonian leave graph, and a $75_9$ cannot have one. We also formalize, for two $75_9$ profiles, the parity theorem of Philbrook and Peet.",
+"authors": [
+"John Tripodo"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01132v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01132v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
