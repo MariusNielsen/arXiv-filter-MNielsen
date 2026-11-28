@@ -1,0 +1,1591 @@
+{
+"day": "2026-11-28",
+"updated": "2026-11-28T13:13:22+00:00",
+"categories": [
+"math.AT",
+"math.AG",
+"math.CT",
+"math.KT",
+"math.RT"
+],
+"papers": [
+{
+"pid": "hexagon:2611.01170",
+"title": "Essential dimension of principal congruence covers of Shimura varieties",
+"abstract": "We prove that the principal congruence cover $S(p) →S$ of a Shimura variety is geometrically $p$-incompressible for all sufficiently large good primes p. For varieties of pre-abelian type, $p >dim S+ 3 $ suffices. The proof reformulates the obstruction to compression in [4, 6] in terms of the classifying stack $B\\mathcal F$ of the finite flat group scheme governing the local cover. An invariant differential on the special fibre of $B\\mathcal F$ allows us to apply the prismatic restriction method of [5].",
+"authors": [
+"Mark Kisin"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.01170v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01170v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 3,
+"reasons": [
+"abstract: prismatic"
+],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01167",
+"title": "A Conjugacy-Circle Estimate on SU(2) and Strong Banach Property (T) for Real Higher Rank Groups of Type B_2 and BC_2",
+"abstract": "We prove that every connected simple real Lie group $G$ of real rank at least two (with arbitrary, possibly infinite center) and every lattice $\\Gamma \\subset G$ satisfies strong Banach property $(T)$ with respect to every class of complex Banach spaces of uniformly nontrivial Rademacher type, as do finite products of higher rank groups and their lattices (Theorem B). The core new analytic ingredient is a uniform spectral-decay estimate for the conjugacy-circle averaging operators $S_\\theta$ on $\\mathrm{SU}(2)$ acting on $L^2(\\mathrm{SU}(2); E)$ (Theorem A and Corollary 1.2), supplying the groups of restricted root type $B_2$ and $BC_2$---such as $\\mathrm{Sp}_4(\\mathbb{R})$, its universal cover $\\widetilde{\\mathrm{Sp}}_4(\\mathbb{R})$, $\\mathrm{SO}_0(2,n)$ ($n \\ge 3$), and their lattices such as $\\mathrm{Sp}_4(\\mathbb{Z})$---not directly covered by the $S^2$ latitude estimate. Every external input is a published, refereed result: we derive the base-$A$ digit and bilinear-shift estimates (after Yao) directly from Bourgain's 1982 Hausdorff--Young theorem, give a short second proof of the $S^2$ latitude estimate, and write out in full the two-step strong property $(T)$ proof for $\\mathrm{Sp}_4(\\mathbb{R})$, $\\widetilde{\\mathrm{Sp}}_4(\\mathbb{R})$, and all higher rank connected simple real Lie groups. The core geometric, fold, freezing, and Littlewood--Paley Hölder engine of Sections 3--5 is formally verified in Lean 4 under explicit structured hypotheses (zero sorry, standard axioms only), while Sections 2, 6, 7, and 8 are paper proofs; this manuscript has not yet been refereed.",
+"authors": [
+"Jack Ryan"
+],
+"categories": [
+"math.FA",
+"math.GR",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.01167v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01167v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01156",
+"title": "A finite certificate for graceful labelings of subcubic lobsters",
+"abstract": "A lobster is a tree with a path at distance at most two from every vertex. We give a computer-assisted proof that every lobster of maximum degree at most three admits a graceful labeling. We encode the branches along a path by a word on four letters. Short labeled blocks can be joined whenever the label at their common boundary satisfies a rank condition. An explicit table of 6,104 blocks meets these local conditions and parses every nonempty word. The latter assertion is a finite computation on a directed graph of 278,215 reachable states. The supplement contains the table, a labeling algorithm, and an independent verification by finite automata.",
+"authors": [
+"Akram Younso"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01156v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01156v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01180",
+"title": "A Machine-Certified Degree-2,419 Counterexample to Smale's Mean Value Conjecture via Harmonic-Measure Szego Tilting, Elliptical Conformal Geometry, and pandroots",
+"abstract": "We construct and unconditionally machine-certify an explicit complex polynomial p(u) in Q(i)[u] of exact degree d = 2,419 satisfying p(0) = 0, p'(0) = 1, and min_{p'(zeta)=0} |p(zeta)/zeta| in [1.0000076862557887941186081, 1.0000076862557887941186082] > 1, setting a new lowest-degree record for explicit counterexamples to Smale's 1981 Mean Value Conjecture (K <= 1). Compared with the October 2026 disproof of Adamczewski and Colbrook (arXiv:2610.36158, degree 29,984) and our previous records of degree 7,299 (DOI: 10.5281/zenodo.24512942) and degree 2,799 (DOI: 10.5281/zenodo.24531472), this lowers the certified degree by 380 degrees (-13.6%) below 2,799, by 3.02x below 7,299, and by 12.40x below 29,984, while retaining a margin above 1 that is 15.5x larger than in arXiv:2610.36158. By standard leading-term perturbation, counterexamples exist for every degree n >= 2,419. To break through the ~2,700 minimax floor of the circular Pac-Man domain, we introduce: (i) an explicit conformal boundary invariant J_EQ(Omega, a, b_w) leading to an elliptical Pac-Man domain (ellip85, -12.1% in J_EQ); (ii) harmonic-measure-equalized Szego outer-factor tilting via the exact Hilbert transform, enabling direct cold-start optimization at degree 2,419 without multi-stage compression; and (iii) harmonic-measure preconditioned Envelope-Theorem L-BFGS with an exact C^1 pairwise critical-point repulsion barrier and leading-coefficient barrier. The 1.3 MB exact Gaussian-integer polynomial with exact 15-bit dyadic anchor a = (19069 - 11166*i)/2^15 is certified with zero floating-point assumptions in 8.95 s on 10 CPU cores by combining pandroots v0.31.0 (certify_roots_exact, 7.23 s, max radius 2^-986) with exact BigInt Smale ratio bounds (1.69 s), independently verified at 700-digit precision in Python mpmath and reproduced on green GitHub Actions CI. Code and green CI: https://github.com/ivan-fr/smale-deg2419 | Zenodo DOI: 10.5281/zenodo.24583377.",
+"authors": [
+"Ivan Besevic"
+],
+"categories": [
+"math.CV",
+"math.CA",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.01180v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01180v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01186",
+"title": "A sharp phase neighbourhood for consecutive lonely runners",
+"abstract": "For the speeds $1,\\ldots,p-1$, with $p\\ge7$ prime, we determine the loneliness as a function of all initial phases on the largest centred cube supporting the local formula. It equals $1/p$ plus the maximum of the absolute values of $(p-1)/2$ explicit linear forms. The first competing peaks arise at Farey denominator sum $p+1$. An obstruction on doubling orbits yields a larger tube in which loneliness cannot fall below $1/p$ whenever doubling modulo sign has odd order.",
+"authors": [
+"Chengyi Fang"
+],
+"categories": [
+"math.NT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01186v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01186v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01158",
+"title": "A two-pole test of the Liu (2018) conjecture on the norm of the Bergman projection",
+"abstract": "Liu conjectured that the norm of the Bergman projection P on L^p of the upper half-plane equals Γ(2/p)Γ(2/p'), where 1/p + 1/p' = 1. Near p = 2 the conjecture implies the inequality K(F) = ||(I − P)(F log|F|)||^2 / ||F||^2 ≤ π^2/12 for every zero-free F in the Bergman space A^2 satisfying the integrability and pointwise domination hypotheses of Proposition 3.1. Let S(z) = −∑_j a_j/(z − w_j) be a finite sum of simple poles with a_j > 0 and Im w_j < 0 (such an S maps the upper half-plane into itself). Then K(S^{1+ε}) tends to π^2/12 as ε → 0^+, with a slope σ(S) at ε = 0. For one pole, σ = π^2/6 − (3/2)ζ(3) < 0. We prove that σ(S) < 0 for every S with two poles, so for each such S, K(S^{1+ε}) < π^2/12 for all sufficiently small ε > 0 (depending on S). The proof is computer-assisted. The slope has an explicit finite-part integral formula. Its negativity is proved analytically when the poles are deep compared with their distance apart, and when the masses are very unequal. All other cases are reached by integrating the depth derivative of the finite-part integral down from infinite depth: for depths above a small threshold this derivative is bounded by interval arithmetic, while explicit estimates cover smaller depths. Liu's conjecture itself remains open. The two-pole results (Theorems 1.1 and 3.5) use the computer-checked bounds of Proposition 6.1. These results are verified in Lean.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.01158v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01158v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01162",
+"title": "A uniform lower bound for the doubling ratio of $\\sum_{k\\le n}\\tau(2^k-1)$",
+"abstract": "Let $f(n)=\\sum_{k\\le n}\\tau(2^k-1)$, where $\\tau$ is the divisor function. Erdős asked whether $f(2n)/f(n)$ has a limit (Erdős Problem #893). Kovač and Luca proved that $\\limsup f(2n)/f(n)=\\infty$, so no finite limit exists, and that $f(2n)/f(n)\\to\\infty$ under either of two conjectures on Mersenne-type numbers. We prove that $f(2n)\\ge 3f(n)$ for every $n\\ge1$, with equality exactly for $n=1,2,4$ in the range we computed. We isolate the obstruction to going further: the terms $\\tau(2^{2^a}-1)$ and the Fermat numbers $F_a=2^{2^a}+1$. Finally, we show that $f(2n)/f(n)\\to\\infty$ follows from a weak upper bound on $\\omega(\\Phi_d(2))$ needed only for those $d$ whose odd part has boundedly many divisors; this hypothesis is implied by the second conjecture of Kovač and Luca.",
+"authors": [
+"Ken Saso"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01162v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01162v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01179",
+"title": "An effective chamber of strange duality",
+"abstract": "We prove strange duality on the projective plane in an explicit chamber of positive ranks. We also determine the nef and ample thresholds of determinant line bundles on the full moduli spaces of one-dimensional sheaves on del Pezzo surfaces of degree one.",
+"authors": [
+"Bob Smith"
+],
+"categories": [
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.01179v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01179v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01177",
+"title": "An Elementary Carry-Free Proof of h(n!) = O((log n)^3 log log n) for Erdős Problem #18",
+"abstract": "A positive integer $m$ is called practical if every integer $1 \\le t \\le m$ can be written as a sum of distinct positive divisors of $m$. For practical $m$, let $h(m)$ denote the smallest integer such that every $1 \\le t \\le m$ is a sum of at most $h(m)$ distinct positive divisors of $m$. Answering all three parts of Erdős Problem #18 in one elementary theorem, we prove unconditionally that $h(n!) = O((\\log n)^3 \\log\\log(n+16))$, improving the November 2026 frontier $O((\\log n)^9)$ of Howe-Huffman-Kohlmeyer-Kruer (hexagon:2611.00748v1) by nearly six powers of $\\log n$ and approaching the information-theoretic lower bound $\\Omega((\\log n)^2)$ up to a factor of $\\log n \\cdot \\log\\log n$. Our proof abandons 2-adic covering modulo $2^k$ and its carry chains, working instead in a carry-free Chinese Remainder product of prime fields $\\mathbb{Z}/M'\\mathbb{Z} \\cong \\prod_{q \\in Q'} \\mathbb{F}_q$. Three elementary ingredients drive the bound: (i) a pointwise KL contraction inequality on $\\mathbb{F}_q$ with absolute constant $c_1 = 1/484$ yielding dilation entropy gain linear in $H_{\\mathrm{nat}}(V)$; (ii) an elementary 2-factor smooth Finset pigeonhole dilator $c_1 c_2 \\mid m!$ hitting every residue in $\\mathbb{F}_q^*$ with probability at least $\\frac{1/40}{q-1}$ using zero character sums; and (iii) adaptive greedy CRT coordinate matching paired with an 11-prime strip tail recursion $m \\mapsto m/2$. Zero analytic number theory is used beyond Erdős (1932). The entire proof is formally verified end-to-end in Lean 4.36.0 + Mathlib4 (13,586 lines, zero sorry, standard axioms only).",
+"authors": [
+"vinnor"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01177v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01177v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01199",
+"title": "An isolated quartic correlation under signed prime dilations",
+"abstract": "Can a sign sequence reverse under prescribed prime dilations, cancel at every nonzero translate of a quartic correlation, and retain a bias at zero? For any prime set $S$ containing $2,3$ with $\\sum_{p\\in S}p^{-1}<\\infty$, we construct such a sequence and prescribe its zero-shift mean on a set of positive density. Cancellation is uniform over displacements up to the dyadic interval length and phases of any fixed polynomial degree. If $\\sum_{p\\in S}p^{-1/4}<\\infty$, the centred sum is $O(\\sqrt{X\\log X})$. We characterize which affine quadruples inherit the bias. A three-adic quadratic division model has four-sign moment $1/6$ at a three-divisible origin. Its binary spectral density has a second-derivative increment of order $|t|\\log(1/|t|)$ at zero. For each prescribed diverging lower cutoff, integer realizations combine the model word laws with local Gowers uniformity and signed dilation in density at every fixed prime. For the single sign, we identify the first order at which the cutoff must be chosen in advance. It is $U^2$ for the rotation law and $U^3$ for the quadratic law. For an explicit cutoff a moving prime band has positive dilation defect.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.01199v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01199v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01151",
+"title": "Arithmetic aspects of complex Hadamard matrices",
+"abstract": "The eigenvalues of a complex Hadamard matrix having roots of unity as entries are Weil numbers. In prime order $p$ this produces an abelian variety over $\\mathbb F_p$, whose Frobenius map and Verschiebung are given by the matrix and by its adjoint. In order 2 we recover the abelian varieties over $\\mathbb F_2$ having a single point. For the matrices which are equivalent to the Fourier matrix $F_p$ we compute the Hodge polygon, we bound the Newton polygons, we study the finite order case, where exotic examples appear, and we estimate the traces of the powers, by using the Deligne bounds. We also show that the McNulty-Weigert matrices of order $2q$ are isolated precisely when a certain cross-ratio is not a square modulo $q$, and we discuss spin models and Ising arrays.",
+"authors": [
+"Teo Banica"
+],
+"categories": [
+"math.CO",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01151v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01151v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01185",
+"title": "Arrow's Theorem in Elementary Arithmetic",
+"abstract": "We prove the finite version of Arrow's theorem in $I\\Delta_0+\\mathrm{exp}$ for weak individual and social preferences. The combinatorial argument uses a finite primeness principle: if a disjoint union of coalitions is winning, one of its parts is winning. The first winning prefix therefore produces a winning singleton. A separate profile argument shows that this voter controls strict social comparisons even when other voters are indifferent. All auxiliary profiles use at most three ranks. We give an explicit arithmetization, construct these profiles by bounded binary comprehension, and justify the bounded search for the first winning prefix. Profiles and welfare tables are coded below $2^{nm^2}$ and $2^{m^2 2^{nm^2}}$, respectively. For the full-domain finite arithmetization specified here, the result establishes the elementary arithmetic upper bound proposed in Eastaugh's Conjecture 4.6.",
+"authors": [
+"Santiago Calderón Rodríguez"
+],
+"categories": [
+"math.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.01185v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01185v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01200",
+"title": "Averaged Vaughan decompositions for a quartic Liouville correlation",
+"abstract": "A smoothed Vaughan decomposition of the Liouville function contains a short-divisor term whose mean square stays positive at a single cutoff. We compute the mixed second moment of its actual coefficient, with the product of the two short divisors required to divide the integer. The estimate is uniform in two cutoff scales on an ordinary dyadic interval and on fixed affine images. For a cutoff derivative supported on $[1/2,1]$, the limiting kernel vanishes when the logarithms of the cutoffs differ by a factor of at least two. With this profile fixed, the kernel determines the optimal first-order error among all probability averages on an interval of scales. On an interval of length $H$ in $\\log\\log U$, the uniform average attains the leading one-site mean square $\\kappa_w/H$. Its excess over the optimum has exact order $H^{-2}$. We compute the gain from assigning additional mass to the two endpoint cutoffs and bound the mass of each subinterval for any nearly optimal distribution. On a fixed finite grid both factors of the remaining convolution have power size. Uniform moments allow simultaneous replacement at $n,n+1,3n+1,3n+2$. The remaining bilinear sums retain three Liouville signs on the same product, whose correlation is open.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01200v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01200v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01198",
+"title": "Bernoulli components and single-pair tests in logarithmic Liouville systems",
+"abstract": "Fix a logarithmic limiting law of the Liouville signs. An observer sees the products of two signs at one fixed lag. We determine the optimal probability of predicting the present product from its own past, however distant. Beyond the length of the pair the answer depends only on the two conditional biases. At shorter gaps it depends on the absolute bias of a single sign. Unless the law is fair Bernoulli, the advantage over one half is positive uniformly over all nonzero lags. The proof combines the nilpotent--Bernoulli structure of Frantzikinakis and Host with multiplicative recurrence. An entropy argument gives the optimal predictor for every finite product of signs and every gap. In the same fixed law, the fair Bernoulli law is the only possible atom of the ergodic decomposition, and its mass is determined by the least frequencies of finite words. For a particular quartic Liouville correlation, we relate its bias to the discrete spectra of two pairs and transfer a rectangle of prime translates to a conditioned eight-sign mean on actual prime factors. Both the existence of an arithmetic predictive advantage and the vanishing of that conditioned mean remain open.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.DS",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.01198v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01198v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01173",
+"title": "Bernoulli domination of determinantal measures",
+"abstract": "We characterize the Bernoulli product measures stochastically dominated by a determinantal measure on an arbitrary countable set. The necessary inclusion inequalities on finite subsets are sufficient, including for inhomogeneous parameters and singular kernels. The proof rounds logarithmic parameters in a submodular base polytope; one rounding distribution works for every increasing event. For equivariant kernels on countable groups, a quantitative compression inequality proves the two Fuglede--Kadison comparison bounds proposed by Lyons. When the determinant is positive, its parameter is optimal exactly when the subgroup generated by the kernel support is amenable. Thus the optimality assertion in Lyons's conjecture fails in general. We also obtain invariant monotone couplings at the Fuglede--Kadison parameters on sofic groups. For adjacency kernels on regular trees we compute the exact Bernoulli thresholds by combining greedy-tree moment inequalities with leaf elimination.",
+"authors": [
+"Sihan Chen"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.01173v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01173v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01153",
+"title": "Both Liouville signs at a fixed even total with a prime or semiprime summand",
+"abstract": "Let $N=m+n$ be a prescribed large even integer and let $m$ vary in a central interval through primes and products of two distinct primes greater than $x^{2/13}$. After revealing the full $z$-smooth part of $n$, every function of that observation predicts the Liouville sign of the remaining cofactor incorrectly on at least one quarter of the population, even with an arbitrary nonnegative weight decreasing under divisibility. Here $z$ may be a sufficiently small fixed power of $x$. The quarter bound also holds separately on every admissible smooth part of polylogarithmic size. When both factors of the semiprime must exceed $x^{11/40}$, each sign still occupies a positive proportion. The proof uses distribution of the Liouville function in progressions, a linear lower sieve, and the unsigned density of the excluded factor shapes.",
+"authors": [
+"Wren Aquila"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01153v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01153v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01178",
+"title": "Cases of Denef's holomorphy conjecture",
+"abstract": "We prove Denef's holomorphy conjecture for isolated surface singularities given by two ordinary homogeneous terms, or by two terms homogeneous for common positive weights with coprime degrees and ordinary multiplicity at least ten. We also prove residual holomorphy for $A(z)g(x,y)+B(z)h(x,y)$, holomorphy on zero-centred parameter balls for Cayley families of reduced surfaces with sufficiently large exponents, vanishing for larger Plücker castlings, and equality of origin integrals under sufficiently high order perturbations.",
+"authors": [
+"Jason Turner"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.01178v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01178v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01163",
+"title": "Chollet's Permanent Conjecture Through Order Ten",
+"abstract": "We prove Chollet's permanent conjecture, $\\operatorname{per}(A \\circ B) \\le \\operatorname{per}(A)\\operatorname{per}(B)$, for all $n \\times n$ complex Hermitian positive semidefinite matrices $A$ and $B$ of every order $1 \\le n \\le 10$. This advances the unrestricted complex positive semidefinite frontier by four orders beyond the August 2026 record of $n \\le 6$ due to Li, Zhao, and Luo. Our proof combines two new ingredients: (i) a two-parameter double-border spectral induction ($q \\to q + 2$) that scales the two orthogonal eigendirections of a maximal $2 \\times 2$ principal block independently and reduces positivity of the resulting tridiagonal border operators on $\\operatorname{Sym}^k(\\mathbb{C}^2)$ to univariate rational polynomials certified in the Bernstein basis; and (ii) for small off-diagonal entries at $n = 10$, a $3 \\times 3$ triangle-packing Lieb lower bound paired with Okumura's sharp traceless cubic bound (proved via a two-line sum-of-squares identity) and a cycle-index Frobenius-derangement upper bound. All polynomial inequalities are verified in zero-floating-point exact rational arithmetic, with a substantial core (207 of 480 double-border checks plus all prerequisite, $r = 1$, and $n = 10$ small-entry Bernstein certificates) kernel-verified in Lean 4.27.0. We also report the observed limits of our schedule search at orders $n = 11$ and $n = 12$, where an uncertified intermediate off-diagonal gap remains open.",
+"authors": [
+"Jon McBee"
+],
+"categories": [
+"math.CO",
+"math.CA",
+"math.RA",
+"math.SP"
+],
+"link": "https://hexagonmath.org/abs/2611.01163v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01163v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01169",
+"title": "Color-split frame reductions for queen domination on even boards of sizes 50 through 64",
+"abstract": "For every even $n$ from 50 through 64, the queen's graph $Q_n$ has domination and independent domination numbers $\\gamma(Q_n)=i(Q_n)=n/2+1$. To prove the lower bounds, we group $n/2$-queen placements by their outermost empty rows and columns and refine the resulting counts by chessboard color. We refute all 290,542 SAT instances with DRAT proofs checked by drat-trim. The published independent placements of Östergård and Weakley give matching upper bounds for both parameters. We also give a 31-queen independent placement on $Q_{60}$ and report the time, memory, and storage used by the computations.",
+"authors": [
+"Edwin Chan"
+],
+"categories": [
+"math.CO",
+"cs.DM",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.01169v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01169v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01188",
+"title": "Compatible local replacements for shifted lonely runners",
+"abstract": "Write $1/(n+1+E_n)$ for the infimal covering radius of $n$ shifted runners with distinct positive integer speeds. Combining three rules of Daria Poliakova and selecting compatible phases at shared speeds gives $$ E_n\\ge\\max\\left\\{\\left\\lfloor n/125\\right\\rfloor,\\left\\lfloor\\frac{36071n-11671970}{4337929}\\right\\rfloor\\right\\}\\quad(n\\ge1),\\qquad \\liminf_{n\\to\\infty} E_n/n\\ge\\frac{577511}{69406489}. $$ Sixteen exact recipes yield a recursive schedule. One gives 476 distinct speeds at radius at most $1/481$. Lean verifies that configuration and the integer counting step for the first bound. We also give a finite decision procedure for the local affine class with arbitrary positive odd added speeds and real phase parameters.",
+"authors": [
+"Chengyi Fang"
+],
+"categories": [
+"math.CO",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01188v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01188v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01184",
+"title": "Counterexamples to Kac's conjecture on dense simple subalgebras",
+"abstract": "We give counterexamples to Kac's 1974 conjecture on dense simple subalgebras in all four polynomial Cartan series.",
+"authors": [
+"Qiyue Tang"
+],
+"categories": [
+"math.RA",
+"math.RT"
+],
+"link": "https://hexagonmath.org/abs/2611.01184v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01184v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01206",
+"title": "Critical divisor weights and the localisation of parity defects",
+"abstract": "At smoothing parameter zero the derivative of $\\prod_{p\\mid n}(1-p^{-s})$ is the von Mangoldt function. We study its normalised correlation at $n,n+2$ as the two parameters vary on the scale $1/\\log X$. Every subsequential defect from the reference profile is the Laplace transform of $xyD$, where $D$ is supported on the part of $[1/2,1]^2$ satisfying $7\\min(x,y)+6\\max(x,y)\\ge7$. This bounds the defect at $(m,m)$ by $O((1+m)^C e^{-14m/13})$ and the relative error for two generalised von Mangoldt weights of equal fixed order $j$ by $O((1+j)^C(36/169)^j)$. The separation of this support from its reflection makes the weighted mass on opposite Liouville signs determine all four limiting profiles. With a von Mangoldt weight at the second site, Fourier observations up to index $K$ on the even sector at the first site recover the normalised twin-prime defect with error $O(1/K)$ and coefficient norm at most one. A local estimate at divisor size $X^{1/2}$ removes the ambiguity caused by reflection. Here $K$ is fixed before $X\\to\\infty$. The observations themselves are arithmetic inputs. Under generalised Elliott--Halberstam up to level one the support reduces to a point, giving an explicit scalar form of Bombieri's parity principle. A separate application gives nonvanishing signed Taylor coefficients on four affine forms.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01206v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01206v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01168",
+"title": "Critical tangents and local multifractal spectra of tempered multifractional multistable motion",
+"abstract": "We study a tempered moving average with Hurst parameter $H(t)$ at the observation time and stability index $\\alpha(x)$ at the noise location. Suppose $\\alpha$ is continuous at $u$ and the increments of $H$ have a profile at scale $r^{H(u)}$. The tangent is the sum of a linear fractional stable motion independent of the original noise and the profile multiplied by the Hurst derivative of the original field. Convergence holds stably in finite-dimensional distributions and in $L^p(K)$ on each compact interval $K$ for $0<p<\\alpha(u)$. At $H(u)\\alpha(u)=1$ we give conditions for convergence in the Skorokhod $M_1$ topology. For the spectrum, assume $H$ is continuous and locally Lipschitz off $u$, with $q=H-1/\\alpha$ positive off $u$ and $q(u)\\ge0$. If $1/\\alpha$ is $\\gamma$-Hölder for $\\gamma\\ge1/2$, a comparison with a fractional integral gives the exact local spectrum $\\alpha(u)(s-q(u))$ for $q(u)<s<H(u)$. If $3\\gamma>1+1/\\alpha(u)$ and the pointwise exponent at $u$ equals $H(u)$ almost surely, the local behavior of $H$ determines the upper endpoint. We exhibit critical contacts with pointwise exponent $H(u)$ and local uniform exponent zero, although all nearby pointwise exponents are positive.",
+"authors": [
+"Zhenyu Sun"
+],
+"categories": [
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.01168v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01168v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01166",
+"title": "Crossing distances and quantum reflection groups",
+"abstract": "The easy quantum groups $U_N\\subset G\\subset U_N^+$ of Mang and Weber, coming from pairings whose strings may cross only at certain distances, are indexed by the additive semigroups $D\\subset\\mathbb N_0$. We associate to each such quantum group $U_N^D$ a quantum reflection group $H_N\\subset H_N^{D'}\\subset H_N^+$, generated by $H_N$ and by diagonal group duals, coming from reflections placed on the integer line, which commute exactly at the distances in $D$. The correspondence $U_N^D\\to H_N^{D'}$ is one-to-one, it reverses inclusions, and $D$ can be recovered from the diagonal tori of either partner. When $0\\in D$ the 2 partners generate $U_N^+$, at any $N\\geq3$. We also compute the laws of the main characters, which are sums of a Poisson number of reflections, respectively shifted mixed Gaussian variables, and we relate them to each other.",
+"authors": [
+"Teo Banica"
+],
+"categories": [
+"math.QA",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01166v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01166v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01201",
+"title": "Elliptic root numbers and a signed squarefree variance for a quartic Liouville correlation",
+"abstract": "We compare the Liouville sign of $D(n)=n(n+1)(3n+1)(3n+2)$ with root numbers in a non-isotrivial family of elliptic curves. A local formula gives the exact density of agreement. One explicit prime parameter has 1276 digits. Under Dirichlet GRH a single prime below $10^{282}$ gives agreement above $99.9929039\\%$. Unconditionally an explicit product of $417$ curves, all with prime parameters at most $70\\,891$, gives agreement above $99.9962654\\%$. The signed masses of the positive even valuation strata can be recovered either from corrected twists at one fixed spectral point $0<\\Re s<1/2$, using the full prime-indexed family of numerators, or from the logarithmic means of the uncorrected root numbers by averaging over primes. The latter also recovers the sum of the squared masses. The short-interval variance of the corrected twists has an explicit signed covariance form on the $\\sqrt H$ scale. We determine its kernel, stability modulus and constrained minimum near bias $1/3$. A bound of $0.01386$ on the variance coefficient at index $29$, or either of two tests on $512$ signed means, would force the quartic bias below $1/3$. Estimating these arithmetic means remains open. A joint law of marked valuations gives uniform comparison on short progressions.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.01201v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01201v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01214",
+"title": "Equality of the ordinary and boundary asymptotic costs for the random matching problem",
+"abstract": "For a stationary random measure on $\\R^d$, $d\\ge3$, we show that the periodic, ordinary and boundary $p$-transport costs to Lebesgue measure on large cubes have the same limit per unit volume, for every $p\\ge1$. We assume the concentration hypothesis of Huesmann, Goldman and Trevisan, a centering condition on the optimal stationary displacement and, for $p=1$, that the measure is atomic. This extends their quadratic result. The theorem applies to compound Poisson measures with exponentially integrable marks and, for $p>1$ and $d\\ge5$, to Brownian interlacements. In particular, it gives the equality of the ordinary and boundary constants conjectured by Caglioti, Goldman, Pieroni and Trevisan, and, through an identity of Xu, of the Barthe--Bordenave constants for bipartite matching when $1\\le p<d/2$.",
+"authors": [
+"Michael Goldman",
+"Martin Huesmann",
+"Dario Trevisan",
+"Arthur Wachtel"
+],
+"categories": [
+"math.AP",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.01214v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01214v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01193",
+"title": "Exact Matching (Papadimitriou–Yannakakis, 1982) in Deterministic Time 2^(n^o(1)) from Permanent Lower Bounds",
+"abstract": "In 1982 Papadimitriou and Yannakakis posed the Exact Matching problem: given a graph whose edges are colored red and blue and an integer k, decide whether the graph contains a perfect matching with exactly k red edges. Mulmuley, Vazirani, and Vazirani placed Exact Matching in randomized polynomial time (RNC ⊆ RP) in 1987, yet on general n-vertex graphs no unconditional deterministic subexponential (2^{o(n)}) algorithm was known. Suppose arithmetic circuits over Q computing the μ × μ permanent require more than μ^{c (log_2 μ)^{1/3}} gates for some constant c > 0 and all sufficiently large μ. While any superpolynomial permanent lower bound already implies deterministic time 2^{s^ε} (for every fixed ε > 0) for low-degree polynomial identity testing (PIT)—deciding whether a polynomial given by an arithmetic circuit is identically zero—via Kabanets and Impagliazzo (2004), and 2^{n^ε} for Exact Matching via division-free Pfaffians, working out the quantitative tradeoff yields a strictly faster uniform bound beating 2^{s^ε} for every ε > 0. Writing exp_2(t) := 2^t, we prove under this hypothesis that PIT—given an integer s ≥ 2 and an integer arithmetic circuit of encoding length at most s computing a polynomial of total degree and coefficient bit-length at most s—runs in deterministic time exp_2(exp_2(K (log_2 s)^{3/4})) = 2^{s^{o(1)}}, for a constant K > 0 depending only on the lower-bound parameters. On general n-vertex graphs (n ≥ 2), Exact Matching—together with witness recovery, finding a perfect matching of prescribed total weight for integer edge weights bounded by n^C, and finding a perfect matching of prescribed label sum in any finite abelian group of order at most n^C—then runs in deterministic time exp_2(exp_2(K' (log_2 n)^{3/4})) = 2^{n^{o(1)}} (with K' depending also on C for the weighted and group-labeled variants). Instantiating this hypothesis with the recent permanent lower bound of Claude (Anthropic, November 2026; machine-checked in Lean 4, not yet human-refereed) conditionally places all of these problems in deterministic time 2^{n^{o(1)}}, and a stronger unrefereed bound of OpenAI conditionally sharpens the Exact Matching time bound to exp_2(exp_2(O((log_2 n)^{1/2} log_2 log_2(n+2)))). These conditional derandomization bounds combine Kabanets–Impagliazzo hardness–randomness tradeoffs with division-free Pfaffian circuits over integral group rings. Under the stated permanent lower bound, Lean verifies test correctness, the matching reductions and the evaluation count. The running-time bounds are outside this verification.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"cs.CC",
+"math.CO",
+"cs.DS"
+],
+"link": "https://hexagonmath.org/abs/2611.01193v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01193v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01209",
+"title": "Exact Selmer dimensions and signed averages in two elliptic families",
+"abstract": "For every integer $k\\ge1$ we determine the full $2$-Selmer dimension of $y^2=x^3+4(18k+1)x^2+4x$. One global square class can contribute two dimensions. Subtracting the $2$-rank of an imaginary quadratic class group leaves an explicit integer-valued law, independent of two Gaussian prime counts on the full parameter line and of four at triangular parameters $k=n(n+1)/2$. Correcting Selmer parity at $2,3,7$ recovers the Liouville sign of $4k(9k+1)$ with limiting frequencies of $97.5370\\%$ and $95.1742\\%$, respectively, to four decimal places. On the full parameter line, raw and corrected parities are logarithmically balanced on each fixed progression, even at a prescribed value of the integer difference of positive density. In a second elliptic family, two relative Selmer parities from cyclic cubic trace-zero twists yield opposite root-number-weighted means of order $(\\log X)^{-4/3}$. We compute the first two coefficients on every fixed stratum of positive even valuations. Each prescribed prime $11,19,23\\bmod24$ delays the leading exponent by one, and each prime $1\\bmod24$ reverses its sign. The second coefficients have the same sign for the two cubic parities.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.01209v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01209v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01224",
+"title": "Exact square and near-square Zarankiewicz numbers for $K_{3,3}$ through order 23",
+"abstract": "We determine the maximum number of ones in an $n\\times n$ binary matrix avoiding an all-ones $3\\times3$ submatrix for $17\\le n\\le23$. The maxima are $138,150,164,180,193,210,225$. We also determine the intervening $n\\times(n+1)$ maxima for $17\\le n\\le22$. The extremal $22\\times22$ matrix is unique up to row and column permutations. For the upper bounds we mark a line, enumerate the induced families of sets, and test which families can carry the remaining entries. At $22\\times23$, local bounds on the degrees incident with a column give two incompatible counts of the same incidences at weight 217. A matrix with 216 ones attains the bound. At the next order we obtain $240\\le z(24,24;3,3)\\le243$.",
+"authors": [
+"Jason Davies"
+],
+"categories": [
+"math.CO",
+"cs.DM"
+],
+"link": "https://hexagonmath.org/abs/2611.01224v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01224v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01152",
+"title": "Five-Checker Machine-Verified Results on Alpöge's Riemann Hypothesis Architecture: Sphere-Free Behrend Sets, Positive L-Function Windows, Sub-Polynomial Barriers, and Structural Decompression",
+"abstract": "Motivated by a structural audit of Levent Alpöge's Lean 4.33.1 Riemann Hypothesis formalization at the principal character (PrincipalSupply.hSup, 1,264,848 declarations), this paper presents 14 archive-free Lean 4.33.1 modules (147 exported targets across five runs spanning three checking lineages) and a psi = 1 audit. Four contributions separate adaptations, formalizations, and diagnostics: (i) a fixed-base Moser (1953) sum-of-squares variant for signed NoRel with C = 12 in the Lean type (vs. archive C = 32), a K-level p-adic lift (varpi^{(K-1)d} loss), an all-K Smith normal form proof for Lambda_K (cf. Miller-Stanton), and an R-general Chain II arc-cost layer; (ii) a five-checker arbitrary-pole (m >= 1) lambda-window Landau engine (cf. Kaczorowski-Pintz, Jaswal, Slijepčević), unconditional PositiveLFunctionData records for zeta, quadratic Dirichlet products, and five abelian products (degrees 2, 4), and conditional full GRH under cofinal windows and zero symmetry (Dedekind bridges external to Mathlib); (iii) a conditional sub-polynomial window analysis W(U) = o(U) via an abstract formal one-sided Ingham (1936) attained-supremum mechanism, superoscillation pole-density transitions, and a formal bound W < pi * sum(1/lambda_j) (cf. Kozma-Oravecz) yielding O(log U) single-band and O((log U)^2) multi-band barriers for finite trigonometric polynomials (unattained-supremum and W/log U -> inf, W/U -> 0 open for zeta); and (iv) a dependency map, outer-interface decompression (not re-proving the arithmetic core), 60-cluster catalogue, native .olean auditor, refined-DAG Mathlib extraction scan (14 zero-archive-dep subgraphs; Hironaka has one 806-byte dep), and three-stage reported live cuts over 897 recompiled archive modules (P+F+cm+Hironaka+Stickelberger; 27/27 landmarks absent, -4,084 arch+proj decls vs. Stage 1). All technical work was executed by AI systems under human supervision.",
+"authors": [
+"Robert Kadlec"
+],
+"categories": [
+"math.NT",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.01152v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01152v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01154",
+"title": "From the Riemann Hypothesis to the Lindelöf Hypothesis: A Lean 4 Formalization via Two-Disk Interpolation",
+"abstract": "We give an explicit proof of the classical implication from the Riemann hypothesis to the Lindelöf hypothesis, together with a Lean 4 implementation. A normalized holomorphic logarithm on a zero-free disk, two Borel–Carathéodory estimates and Hadamard interpolation first establish subpower growth on every strictly smaller disk. A second interpolation, applied to the zeta function itself, reaches the closed disk of radius 3/2 about $2+it$ without requiring nonvanishing on its boundary. The implementation uses Mathlib and a pinned Abel-continuation estimate from PrimeNumberTheoremAnd (PNT+). The final declaration has precisely the eventual positive-height Lindelöf conclusion with RH as its sole mathematical premise. The author’s reported local run compiled 28 modules and reported only the standard axioms propext, Classical.choice and Quot.sound for this declaration. We distinguish this evidence from a fresh rebuild of the exact archived source, which remains outstanding, and provide a statement-level correspondence, dependency inventory and reproducibility protocol. The contribution is a documented formalization of a known conditional theorem, not a proof of RH or of unconditional Lindelöf.",
+"authors": [
+"Rafik Zeraoulia"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01154v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01154v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01194",
+"title": "Genus Bounds, Symmetric Monodromy, Cover Rigidity, and Formal Algebraic Descent for the Curve of Simultaneous Reality",
+"abstract": "Assuming the three global companion inputs (G1)-(G3) of Section 1 (bidegree and reduction, smooth-cover ramification and singular-locus data, and generic correction partition with elimination degree bounds) for the simultaneous-reality curve of bidegree (1156, 269), the characteristic-zero genus satisfies 6,631 <= g(C) <= 16,570. At p = 1,000,003 the special curve E_p has geometric genus 6,631 and total delta invariant 302,909, of which 292,970 units are resolved on the arithmetic normalization: 250,035 ordinary nodes, 1,568 ordinary triple points (4,704 units), and all 38,231 units above R = 25 via an explicit integral degree-66 separator whose residues admit a closed-form algebraic description. Every local analytic lemma used in this chain is proved self-contained here, together with a characteristic-zero factorization of the leading elimination coefficient ell(R) over Q and a full 1,398-slice deterministic proof of the special-fiber conductor identities. Exact genus 6,631 in characteristic zero and good reduction at p remain conditional on arithmetic integrality lifts for 9,939 delta units at the remaining 125 special base places. Assuming Global Inputs (G1)-(G2), full arithmetic and geometric monodromy S_269 and a trivial deck group are proved in both characteristics. The smooth-cover ramification divisor excludes every nonidentity base transformation in the special fiber, and under (G1)-(G3) a semistable contracted-genus bound yields trivial cover-preserving automorphisms in characteristic zero without assuming global good reduction. Using only the lower bound g(C) >= 6,631, the Castelnuovo-Severi inequality forces degree at least 26 for every nonconstant map to a smooth projective curve of genus at most seven not factoring through pi_R. Five archived checker invocations spanning three independent codebases across four runtimes (lean and leanchecker on Lean 4.33.1, together with con-leche, its Rust port con-ron, and nanoda_bin on one exported environment) certify algebraic integral descent over a commutative ring, localization transfer, and a conditional bidegree genus-squeeze implication (with the remaining inequality supplied as a hypothesis). A separate auxiliary open-source dual-route verifier for a restricted exact-rational class of plane curves certifies genera 0, 2, 8 for singular curves of degrees 5, 7, 7; the genus-eight curve has gonality three (trigonal) and is non-hyperelliptic. All new derivations, formalizations, symbolic and finite-field audits, and text were produced entirely by AI systems under human direction and supervision.",
+"authors": [
+"Robert Kadlec"
+],
+"categories": [
+"math.AG",
+"math.NT",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.01194v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01194v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01216",
+"title": "How fast Smale's mean value constants (1981) approach 4",
+"abstract": "For a complex polynomial $p$ of degree $d \\ge 2$ with $p(0) = 0$ and $p'(0) \\ne 0$, let $S(p)$ be the minimum of $|p(c)/(c p'(0))|$ over the critical points $c$ of $p$, and let $K(d)$ be the supremum of $S(p)$ over all such $p$ of degree $d$. In 1981 Smale proved that $K(d) \\le 4$ for every $d$. It is known that $K(d) < 4$ for every $d$, and the author recently proved that $K(d) \\to 4$ as $d \\to \\infty$. We prove that $K(d) \\le (4/y) e^{-\\mu(y^{1/d})}$ for every $0 < y < 1$, where $\\mu$ is the Grötzsch ring function, and deduce that $K(d) < 4 - 4/\\log d$ for every $d \\ge 8$; for large $d$ the best earlier bound was $K(d) < 4 - 2.263/\\sqrt{d}$, due to Crane. In a companion paper, the author shows that the true order of $4 - K(d)$ is $(\\log d)^{-1/2}$, up to a factor $\\sqrt{\\log\\log\\log d}$. Theorem 1.1 and Corollary 1.2 are verified in Lean.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.01216v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01216v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01215",
+"title": "How fast Smale's mean value constants (1981) approach 4, and other miscellanea",
+"abstract": "For a complex polynomial $p$ of degree $d \\ge 2$ with $p(0) = 0$ and $p'(0) \\ne 0$, let $S(p)$ be the minimum of $|p(c)/(c p'(0))|$ over the critical points $c$ of $p$, and let $K(d)$ be the supremum of $S(p)$ over all such $p$ of degree $d$. In 1981 Smale proved that $K(d) \\le 4$ for every $d$. It is known that $K(d) < 4$ for every $d$, and the author recently proved that $K(d) \\to 4$ as $d \\to \\infty$. We study how fast $K(d)$ approaches $4$. We prove that $K(d) \\le (4/y) e^{-\\mu(y^{1/d})}$ for every $0 < y < 1$, where $\\mu$ is the Grötzsch ring function, and deduce that $K(d) < 4 - 4/\\log d$ for every $d \\ge 8$; for large $d$ the best earlier bound was $K(d) < 4 - 2.263/\\sqrt{d}$, due to Crane. We also prove that $4 - K(d) \\ge \\min(1.1 \\cdot 10^{-4}, 0.056/\\sqrt{\\log d})$ for every $d \\ge 2$ and, in the other direction, that $4 - K(d) \\le 4.9 \\cdot 10^{4} \\sqrt{\\log\\log\\log d / \\log d}$ for every $d \\ge \\exp(1.04 \\cdot 10^{10})$. Thus $4 - K(d)$ is of order $1/\\sqrt{\\log d}$, up to constant factors and the factor $\\sqrt{\\log\\log\\log d}$. Theorem 1.1 and Corollary 1.2 are verified in Lean.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.01215v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01215v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01187",
+"title": "How many pigeons make a refutation cheap? A coefficient-mass dichotomy for the plain pigeonhole principle",
+"abstract": "Potechin and Zhang asked how the minimum total coefficient size of a Nullstellensatz refutation of the pigeonhole principle changes as one increases the number $m$ of pigeons beyond $n+1$ for $n$ holes or adds functionality axioms. For the complete unary encoding with real coefficients, we prove that without functionality the mass is exponential in $n$ at every bounded ratio $m/n>1$, but subexponential whenever $m/n\\to\\infty$. The lower bound comes from a signed measure on strings: deleting a row preserves its constraint bounds, while restoring that row amplifies its total mass. For the upper bound, coupled interpolating masks charge every residual to a genuine same-hole collision on the full Boolean cube. At $m=2n$ the plain mass is at least $\\exp(0.149n-8)$, whereas adding the within-row functionality axioms reduces it to $O(n^{5/2})$. With functionality and $m=\\Theta(n)$, the mass is polynomial exactly when $(2n-m)_+=O(\\sqrt{n\\log n})$; above any fixed ratio larger than two it is of order $n^2$. The threshold for polynomial mass on the full cube without functionality remains open. The principal results are also verified in Lean.",
+"authors": [
+"John Tripodo"
+],
+"categories": [
+"cs.CC"
+],
+"link": "https://hexagonmath.org/abs/2611.01187v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01187v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01145",
+"title": "Improved approximations for the perimeter of an ellipse",
+"abstract": "We give three closed formulas, with three, four and six square roots, for the perimeter $P$ of an ellipse with semi-axes $a\\ge b\\ge0$. In exact arithmetic their maximum relative errors over all eccentricities, $4.0\\times10^{-8}$, $4.1\\times10^{-17}$ and $8.1\\times10^{-37}$, lie below the unit roundoff of single, double and quadruple precision, respectively, and evaluated in that precision they are accurate to within about six units of it (for quadruple precision, as estimated with $34$-digit decimal arithmetic). Each formula writes a fixed number of steps of the arithmetic--geometric mean (AGM) as one expression, in a form that avoids the harmful cancellation. For flat ellipses, where any fixed number of AGM steps eventually fails (as $b\\to0$ it tends to $2\\pi a$ instead of $4a$), it switches to an approximation based on Legendre's relation, which expresses the complete elliptic integral $E$ of the second kind exactly through the integral $K$ of the first kind and two power series in $b/a$: the AGM steps supply an estimate of $K$, and the series are truncated to short polynomials. A final term makes the formula continuous at the switch, and we give the range of its coefficient that suffices for each precision. We prove that for every switch point and every accuracy there are such continuous formulas, and that the error of the continuous formula is at most that of the AGM branch plus twice that of the flat-ellipse branch. The formulas are exact at $b=0$ and at $b=a$; numerically, they are increasing in $b$ and more accurate than Ramanujan's second approximation at every eccentricity, by factors of at least $289$, $2.8\\times10^{11}$ and $4.1\\times10^{32}$. With the latency of three, four or six AGM steps, they are faster than an AGM loop of the same accuracy for flat ellipses, where the loop needs more steps. We also study nested-radical generalisations $P\\approx\\pi(a+b)(1+3h/D)$ of Ramanujan's second approximation, with $h=((a-b)/(a+b))^2$ and $D$ a constant plus nested square roots of a polynomial in $h$. Ramanujan's formula is a degenerate member of a one-parameter family of double-nested forms that agree with the Gauss--Kummer series through $h^4$. We derive double- and triple-nested formulas with integer coefficients and double-, triple- and quadruple-nested formulas with real coefficients: formulas that are, as verified numerically, nowhere less accurate than Ramanujan's, formulas that agree with the series to the highest order possible for their depth, and minimax formulas. The best of them reduce the maximum error of Ramanujan's formula by up to five orders of magnitude. We also give a numerically stable evaluation in powers of $1-h$, tabulate the errors of all formulas at seven eccentricities where the perimeter has a closed form, and compare their cost with that of the AGM in double and single precision.",
+"authors": [
+"Mika Inki"
+],
+"categories": [
+"math.CA",
+"math.NA"
+],
+"link": "https://hexagonmath.org/abs/2611.01145v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01145v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01204",
+"title": "Joint cofactor signs in prime-factor windows on consecutive integers",
+"abstract": "Choose an integer $V<v\\le2V$ with prescribed large prime factors at $v$ and $v-1$. We count these integers and show that all four pairs of cofactor Liouville signs occur equally often, with a power-of-logarithm saving uniform over separate bounded marks on the two prime labels. One site may retain its entire rough part while the other reveals a finite partition of its prime. Revealing both prime labels reconstructs the integer. For the number of prime factors of the short cofactor of $v$, we determine what each label contributes. The opposite label is independent of this count up to every inverse power of $\\log V$. The first label produces an explicit discrepancy of order $(\\log\\log V)^{-1/2}$, whose leading term is already captured by one bit. We also compute the leading error in a common rounded Gaussian approximation and the transition for residues modulo $k$. The argument for the count uses dispersion alone. For the signs, we extend two-point graph estimates to rough-part observations and transfer the classical nine-state Möbius law to these populations. The asymmetric four-prime window counts tuples. For four balanced primes the signed bounds hold at every large scale, and the mass asymptotic holds on a set of scales of logarithmic density one.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.01204v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01204v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01195",
+"title": "Local Compensation of Vaughan Remainders with Prescribed Divisors",
+"abstract": "Prescribe odd coprime divisors $a\\asymp X^{1/4}$, $b\\asymp X^{3/5}$ in $X<am=bk-2\\le 2X$, and give each prime $k$ weight $\\log k$. We ask how much of the signed remainder in Vaughan's identity cancels within each pair $(a,b)$. At the common cutoff $z=X^{1/8}(\\log X)^{-C}$, three disjoint conditions on the divisors of $m$ give respectively four, minus four and six times the local singular main term. The errors, summed in absolute value over the divisor pairs, save a power of $\\log X$. The third contribution covers asymptotically all the negative mass on the rough integers when its positive net value is capped at the available negative mass in each cell and the resulting amounts are summed. After all three families are removed, the mass of each sign still exceeds any fixed power of $\\log\\log X$ times the local main term in a set of cells of singular-series measure tending to one. The proof uses a type I estimate up to $X^{1/4}$ for an additional divisor and classical estimates for the support and second moment of a truncated Möbius sum. The prime-weighted results also hold uniformly for $am+bk=h$ at even centres $3X\\le h\\le4X$.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01195v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01195v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01142",
+"title": "Nim-values of two-move and symmetric three-move vector subtraction games, with machine-checked proofs",
+"abstract": "In a vector subtraction game a token sits at a point of ℕⁿ, a move subtracts one of finitely many fixed vectors, and the player who cannot move loses. For the symmetric three-move game T(a,b) with moves (a,b), (b,a), (a+b,a+b), Larsson, Saha and Yokoo determined the winner when b ≤ 2a; for b > 2a they show pictures of two games and leave the analysis open, and we know of no solution of any such game in the literature. We show that these games are governed by a translation: for an explicit vector w depending on a and b, the Sprague-Grundy value is unchanged under translation by w above the diagonal, and is periodic along the diagonal in a band next to it. A reduction theorem, proved for all a ≤ b, says that both statements hold everywhere once they hold on an explicit finite window, so that they determine the game from a finite table. We prove the two statements (i) for every m ≥ 2 when a ≤ 3 and (2m−1)a ≤ b ≤ 2ma; (ii) for every a when 2 ≤ m ≤ 14 and (2m−1)a ≤ b ≤ 2ma; (iii) for 1792 individual games, of which 862 lie in the complementary ranges 2ma < b < (2m+1)a, where a single formula for w fits every game tested and the general statement remains a conjecture. We also complete the known cases: the full Sprague-Grundy values of every two-move game in every dimension, by a three-case parity rule, and of T(a,b) for a ≤ b ≤ 2a. The reduction theorem, the two complete cases and 72 of the individual games are formally verified in Lean 4 with Mathlib. Results (i) and (ii) rest on an SMT solver and the other individual games on a short program; for each claim the paper states which check stands behind it.",
+"authors": [
+"Shubham Hemant Chakrawar"
+],
+"categories": [
+"math.CO",
+"cs.DM",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.01142v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01142v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01165",
+"title": "Numerical nonvanishing of mock plectic invariants",
+"abstract": "We certify nonvanishing of the mock plectic invariant for sixteen of eighteen triples consisting of a rational elliptic curve, an imaginary quadratic field and an inert prime of multiplicative reduction. In this cost-selected cohort the curve has rational rank two and its quadratic twist has rank zero. Fornea and Gehrmann related the invariant to the first anticyclotomic derivative of a Heegner class. Their explicit reciprocity law turns a nonzero linear coefficient of a finite theta element into a witness. We compute the coefficients by evaluating a residual quaternionic eigenfunction on ring-class orbits. Two searches remain inconclusive. The public cosmosgeek0/BSD archive gave the finite-moment criterion and a witness at conductor 109, which we reproduce independently. A second table gives six nonvanishing certificates, five beyond the cohort. Assuming the divisor inequality of Fornea and Gehrmann's Theorem 3.3 at the augmentation prime, the six unit coefficients give an index bound. Under the same hypothesis, for their conductor-817 example the strict Selmer characteristic ideal has one exceptional factor fewer than the square of the Heegner index, and the extended Selmer group realizes the square. Under Fornea's comparison theorem the six coefficients also detect plectic Heegner classes. This work has not yet been reviewed by experts. The proofs, computations, code and text were produced by AI models, working under the author's direction.",
+"authors": [
+"Peter Graham"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01165v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01165v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01196",
+"title": "Observations and Shift Decoding in Divisor Incidences",
+"abstract": "Hall and Tenenbaum's theorem on local divisor maxima gives the Gaussian success profile for guessing a hidden shift when each origin is weighted by its number of divisors. We extend this profile to uniform sampling of quadruples $(h,n,a,b)$ with $X<n\\le2X$, $1\\le h\\le H$, $a\\mid n$ and $b\\mid n+h$, for coprime odd $a,b$ in dyadic intervals of sizes $X^{1/4}$ and $X^{3/5}$. Given $v=n+h$, the best list of $Q$ guesses succeeds with probability tending to $1-\\Phi(t)$ when $\\log(H/Q)=(2\\log2-1)L+t(\\log2)\\sqrt{2L}+o(\\sqrt L)$, where $L=\\log\\log X$, $H$ is polylogarithmic and $\\Phi$ is the standard normal distribution function. Ranking trial origins by their number $\\omega_y$ of distinct prime factors up to $y=X^{1/L^4}$ attains the limit even against the best list given $(v,b)$. On the sampled origin, the positive part of $\\log H+L-(\\log2)\\omega_y(n)$ approximates both posterior information and log rank with mean absolute error $O(\\log(2L))$. At shift two we count incidences with both cofactors prime. Given $a$ and $(n+2)/b$, the discrepancy for $b\\bmod q$, summed over cells and averaged over primes $S<q\\le2S$, is $o(X)$ exactly when $S\\log X=o(X^{7/20})$, for $X^\\varepsilon\\le S\\le X^{7/20}$ and fixed $\\varepsilon>0$.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.PR",
+"math.IT"
+],
+"link": "https://hexagonmath.org/abs/2611.01196v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01196v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01171",
+"title": "On the planes of Cartan's cubics and the missing seven",
+"abstract": "A complex field $z$ with the interaction $\\operatorname{Re} z^3$ has three preferred directions, yet its energy $|\\nabla W|^2$ depends only on the length of the field. The question is when several such fields can be coupled only through terms in three different fields, so that each can still be excited alone, with the energy of the whole again depending only on length. This happens only for four or thirteen fields, with the cubic of $\\mathfrak{su}(3)$ or of the exceptional Jordan algebra. The question names no number system, and beyond four fields its only answer is built on the octonions. Seven, the count the quaternions would give, is missing. Conditions on pairs of fields allow it, and the obstruction lies in triples: any two fields pass a fixed total of two units of coupling to the others, and over the quaternions each of the five others takes at least $1-1/\\sqrt3>2/5$. The fields span planes that are three-outcome tests in a Jordan algebra, and orthogonal planes are unbiased tests. Hence $\\mathbb H^3$ does not have the seven mutually unbiased bases that a count of dimensions allows, and compact $\\mathfrak{sp}(3)$ has no orthogonal decomposition into Cartan subalgebras. Any six such bases would extend to a seventh, so $\\mathbb H^3$ has at most five. With two units per pair, thirteen planes carry total coupling $52$ on at least $52$ triples. Equality holds exactly when the closed sets of four planes form the projective plane of order three, and such a system is unique up to automorphism. With the three-field terms scaled by $t>0$, $t\\neq1$, the energy shows the planes and, among such cubics, determines the cubic up to sign. The one-loop renormalization flow carries every $t>0$ to $t=1$, where the planes are no longer visible.",
+"authors": [
+"Robert R. MacGregor"
+],
+"categories": [
+"math.RA",
+"math.DG",
+"math.RT",
+"cs.LO",
+"quant-ph"
+],
+"link": "https://hexagonmath.org/abs/2611.01171v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01171v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01189",
+"title": "One-runner extension and phase stability of a 57-runner shifted configuration",
+"abstract": "Fix the 57-runner configuration credited to tomdif in the public shifted lonely runner certificate collection. Over every additional distinct positive integer speed and arbitrary real phase, the optimal covering radius is $1359451/79000000$. A single speed, $528344$, attains it, with a closed interval of optimal phases. The exact radius and a perturbation barrier are Lean-verified. An independent weighted residual certificate shows that seven extra runners, even with repeated speeds, cannot cover the time circle at radius $1/59$. Any 58-runner cover at that radius shares at most 50 speed–phase pairs with the fixed configuration. We also give restricted exclusion computations for coordinated phase changes and for several deletion-and-insertion problems.",
+"authors": [
+"Chengyi Fang"
+],
+"categories": [
+"math.NT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01189v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01189v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01203",
+"title": "Parity information in a rough cofactor and exact reconstruction thresholds",
+"abstract": "Remove the prime powers of base at most $y$ from an integer $n$ sampled uniformly on $(X,2X]$. Given the remaining cofactor and $n\\bmod M$, we study the joint Liouville sign of the small parts of $n,n+1,3n+1,3n+2$. For $y=X^{1/(C\\log\\log X)}$, $C>0$ fixed, we determine the first-order law of the signed observation cells uniformly for $1\\le M\\le y$. Guessing the integer, certifying it, predicting the sign and certifying it have a common Dickman transition, with error $O_C(1/\\log y)$ for all $M$, and distinct first corrections. The signed law also holds under von Mangoldt weighting of the cofactor. For prime cofactors counted with unit weight, the variation of prime density contributes a further term, visible when $\\log M$ is of order $\\sqrt{\\log X}$. For products of unlabelled cofactors we deduce almost-everywhere reconstruction from a polynomial-ratio estimate of Wang and Xu and sharpen the local collision count by Pell equations. For three neighbouring small parts we determine the subpolynomial cutoff for predicting $\\lambda(n)$ and construct a positive-density set on which the three observations recover the integer while each pair has many compatible origins.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.PR",
+"math.IT"
+],
+"link": "https://hexagonmath.org/abs/2611.01203v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01203v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01205",
+"title": "Polynomial phases in ordinary two-point correlations of multiplicative functions",
+"abstract": "Can a polynomial phase detect a correlation of two shifted multiplicative functions that no fixed arithmetic progression detects? The coefficients may change with the length of the ordinary average. We evaluate the limiting maximum for a sequence $n^{i\\tau}b(n)$ when $b$ is approximable in mean by periodic sequences. It factors into a rational maximum and an oscillatory integral optimized over polynomials on the unit interval. In fixed degree $d$, the latter loses $\\tau^2/(2(d+1)^2)+O_d(\\tau^4)$ from one at small twist and has order $|\\tau|^{-1/(d+1)}$ at large twist. For general shifted products we propose that every persistent peak has a fixed rational center and bounded rescaled coefficient drifts along a subsequence. This would give the progression equivalence. We prove a rational-profile formula under that localization hypothesis and present the signed graph comparisons behind the proposed argument. A second candidate estimate gives a logarithmic saving for the adjacent Liouville pair with a moving quadratic phase. Applications distinguish a common shift with a truncated sign, which uses an established cofactor law, from configurations of eight or ten distinct origins, which require additional polynomial estimates.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.CA"
+],
+"link": "https://hexagonmath.org/abs/2611.01205v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01205v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01223",
+"title": "Primitive-Product Circular Permutations over Finite Fields: The Shifts Minus One and Plus One in Sun's Conjecture",
+"abstract": "In 2013, Zhi-Wei Sun conjectured that for every finite field F_q of order q > 7, there exist circular permutations (a_1,...,a_{q-1}) and (b_1,...,b_{q-1}) of F_q^* such that a_i a_{i+1} - 1 (respectively, b_i b_{i+1} + 1) is a primitive element of F_q for every 1 <= i <= q - 1 (indices modulo q - 1). Recently, Luo and She (arXiv:2610.06289, 2026) resolved the analogous problem with constant term a_0 = 0 for all q > 4, while for a_0 != 0 they established existence only for q > 18,888,871. We prove the two cases with shifts -1 and +1 for all finite fields F_q with q > 7. Our analytic advance combines the sharp vertex-cut formulation of the Chvatal-Erdos theorem, the exact minimum degree delta(G) >= phi(q-1)-1, a variance-sharpened Jacobi-sum Expander Mixing Lemma, Cohen-Huczynska-Trudgian lower sieves, and e-free upper sieves on both I x (F_q^* \\ I) and A x (A U S) into a unified four-inequality double-squeeze criterion. This collapses the unconditional analytic threshold from q > 18,888,871 down to q >= 8,100, and a certified integer-arithmetic range check over 7 < q < 8,100 leaves only 44 exceptional prime powers (largest q = 4,621, a 4,087x reduction). Sign transport (b_k = sqrt(-1) a_k for q = 1 (mod 4), and characteristic 2 for q = 16), explicit algebraic constructions for F_16 and F_27, and explicit Hamiltonian cycles for the remaining 42 prime and quadratic-extension fields complete the proof. Every step of both proofs has been independently machine-checked in Lean 4.33.1 with zero sorry, zero native_decide, and only the standard axioms {propext, Classical.choice, Quot.sound}.",
+"authors": [
+"Sai Smaran S B"
+],
+"categories": [
+"math.NT",
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01223v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01223v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01181",
+"title": "Quadrics and strong maximal rank",
+"abstract": "We prove the quadratic Strong Maximal Rank Conjecture on the injective side of its original numerical range, including the dimension of every failure component. The proof combines a bound for the projective incidence of quadratic relations with a positive Chern intersection. We also obtain uniform quadratic-kernel bounds and rank estimates for higher multiplication cokernels.",
+"authors": [
+"Bob Smith"
+],
+"categories": [
+"math.AG",
+"math.AC"
+],
+"link": "https://hexagonmath.org/abs/2611.01181v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01181v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01210",
+"title": "Reflected Liouville correlations and joint smoothness laws",
+"abstract": "Does each prescribed pair of Liouville signs occur in a quarter of the ordered decompositions of every large integer? We reduce this conjecture of Corrádi and Kátai to a marked correlation estimate and give a candidate proof of that estimate. Random colours on prime divisors make the two marking weights independent on coprime summands. Their exact mean can be inverted on a set of density tending to one. With a suitable number of colours, a marked saving $(\\log N)^{-\\beta}$ for any fixed $\\beta>51/160$ suffices for the reduction. At one summand we prove, using the classical prime number theorem, that the sign is fair even after imposing smoothness and testing the part supported on small primes. At two summands the marked estimate gives the product of two fair signs and two Dickman smoothness laws, with uniform absolute error $o(N)$ over intervals and over both threshold exponents in $[0,1/4]$. The candidate proof adapts the dilation graphs of Howe, Huffman, Kohlmeyer and Kruer to signed sources and dispersed prime groups. It uses a uniform estimate for primes twisted by Dirichlet characters, deduced in that work from a zero-free half-plane $\\Re s>7/8$.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01210v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01210v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01183",
+"title": "Runs Off The Floor: Exponential fibre growth for a vincular stack-sorting map",
+"abstract": "Ever dealt the same cards two ways and got the same result? Let $M_n$ be the maximum fibre size of the greedy stack-sorting map on permutations of $[n]$ whose stack, read from top to bottom, avoids the vincular pattern $1\\underline{23}$. We construct large fibres by opening new slots in the stack while keeping the same output across different deals. Two slots already give $M_n\\ge n2^{n-5}$ for $n\\ge5$, so $M_n>2^{n-2}$ for every $n\\ge9$, contrary to Zhao's conjecture. Allowing the number of slots to vary gives \\[ M_n\\ge \\frac{\\lambda^{n-2}}{\\lfloor(n+1)/2\\rfloor}\\qquad(n\\ge2), \\] where $\\lambda\\approx2.247$ is the unique root of $t^3-2t^2-t+1=0$ in $(2,9/4)$. Thus $\\liminf_{n\\to\\infty}M_n^{1/n}\\ge\\lambda>2$. Value complementation gives the same maximum fibre sizes for the map avoiding $3\\underline{21}$.",
+"authors": [
+"Sunny Sun"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01183v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01183v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01227",
+"title": "Rényi Entropies of Reciprocal Subset Sums",
+"abstract": "Let Y_n be the sum of X_a/a over a = 1, ..., n for independent fair Bernoulli variables X_a. We prove that the absolute difference between the Rényi entropies of any two distinct fixed nonnegative orders, including the endpoint orders, is comparable to the logarithm of the number of distinct reciprocal subset sums. The proof decodes many independent factors with the same nonuniform six-denominator law. For a uniformly chosen configuration, the logarithm of the size of its fibre concentrates about n log 2 - H_1(Y_n) within O(n/log n), a smaller scale than the entropy gaps. Both conclusions extend to a fixed number of disjoint labelled subsets. As an application of support estimates and modular collision counting, we give a scale for injectivity of reduction modulo primes, with a common exceptional set on the injective side.",
+"authors": [
+"pengcheng chen"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01227v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01227v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01190",
+"title": "Separated-Weights Interpolation on Higher-Genus CM Abelian Varieties and Irrationality Measure Two for Beta Values",
+"abstract": "We extend separated-weights jet surjectivity from one-dimensional group varieties to every absolutely simple complex abelian variety A/C of arbitrary dimension g >= 1 with any effective ample Cartier divisor L. Combining this interpolation theorem with canonical Galois descent of second-kind algebraic 1-forms, covariant translated Appell-Humbert theta gauges, and a multivariable determinant argument over Galois composita, we prove mu(T) = 2 for every nonzero real period or quasi-period T of a Q-rational CM eigenclass on an absolutely simple CM abelian variety over Q. Beyond the genus-1 first-kind rational CM elliptic case treated concurrently by G. V. and D. V. Chudnovsky, this yields higher-genus and second-kind bounds mu(B(a/b, a/b)) = mu(pi/B(a/b, a/b)) = 2 and Beta Flint-Hills convergence sum_{n >= 1} n^{-s} sin^{-2}(n B(a/b, a/b)) < infinity (s > 2) for all reduced a/b in (0, 1/2) with b = 4 or 4 nmid b; for example, in genus 2, mu(B(1/5, 1/5)) = mu(pi/B(1/5, 1/5)) = 2 with B(1/5, 1/5) = Gamma(1/5)^2/Gamma(2/5). Using Fermat quotients y^b = x^r(1-x)^s (b >= 5) we obtain mu = 2 for asymmetric and 4 | b Beta values on all primitive CM factors (existing iff b not in {8, 12}), and at b in {8, 12} we classify all 32 reduced pairs (4 with mu = 2, 28 with mu <= 2d), showing that every level b >= 3 admits a reduced Beta value with mu = 2. Nine five-kernel-verified Lean 4.33.1 modules (147 targets) verify the determinant engine (cond. Thm. 3.5, Prop. 5.5), Galois/Cauchy bridge, g >= 1 Jacobi/Riemann theta gauges, genus-2 C^2/Lambda_{tau_5}, Sec. 2 Hensel/jet-drop/Stage 2-3 bookkeeping, and Cor. 3.9; algebraic geometry and curve-period proofs remain in prose without human peer review.",
+"authors": [
+"Robert Kadlec"
+],
+"categories": [
+"math.NT",
+"math.AG"
+],
+"link": "https://hexagonmath.org/abs/2611.01190v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01190v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01226",
+"title": "SHARP SECOND-ORDER ENTROPY ASYMPTOTICS FOR DISJOINT EGYPTIAN FRACTION REPRESENTATIONS",
+"abstract": "Let P(N,m) count ordered families of m pairwise disjoint subsets of {1,...,N}, each with reciprocal sum one. As N tends to infinity, uniformly over feasible pairs with m asymptotic to log N, we prove that log P(N,m) equals N log m minus (3/2) N (log log N)^2 / log N, with error O(N log log N log log log N / log N). The coefficient 3/2 comes from forced omissions and restrictions on the labels available within blocks of multiples of large primes. A rational-grid construction that tolerates missing denominators and forbidden prime factors gives the matching lower bound. We also prove that, for all sufficiently large m, the least height admitting such a family equals the least height at which m is a sum of distinct reciprocals. The same entropy estimate holds for partitions of every support attaining the latter threshold. Finally, we derive a variational formula for the limiting entropy of any fixed vector of positive rational targets, allowing repeated coordinates.",
+"authors": [
+"pengcheng chen"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01226v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01226v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01225",
+"title": "SHARP TWO-TERM CAPACITY ASYMPTOTICS FOR EGYPTIAN FRACTIONS VIA RATIONAL GRID REPRESENTATIONS",
+"abstract": "Let T_*(m) be the least N such that m is a sum of distinct reciprocals of positive integers at most N. As m tends to infinity, we prove that log T_*(m) = m - gamma + (log m)^2/(2m) + (log m)(log log m)/m + O((log m)(log log log m)/m), where gamma is the Euler–Mascheroni constant. The leading correction gives the constant 1/2 conjectured by Croot for the capacity loss. The proof combines a fixed rational grid with adaptive scaling, a bound on the local deletion cost, and an estimate for exceptional primes based on the number of distinct rational subset sums. We also show that, as p tends to infinity through the primes, the least k for which the subset sums of the modular inverses of 1,...,k cover every residue class modulo p is (log p)(log log p)^(1+o(1)).",
+"authors": [
+"pengcheng chen"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01225v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01225v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01202",
+"title": "Shifted-cofactor cancellation and a multiplicity threshold for product representations",
+"abstract": "Let $d\\in(D,2D]$ and $m\\in(U,V]$ be independent with harmonic weights, and suppose the observer knows their product. Restrict $d$ to have $k$ prime factors counted with multiplicity, with $k/\\log\\log D\\to r\\in[0,2)$. For any fixed integer $b\\ge1$, the sharp threshold for cancellation of $\\lambda(m+b)$ on every window with $\\log(V/U)\\to\\infty$ is the root $r_*=0.542211\\ldots$ of $(1+r)\\log(1+r)-r\\log r=1$. Equality is included at every rate of approach. Cancellation holds uniformly in a test of the product, a divisor coefficient and a bounded multiplicative cofactor weight. It also holds for $\\mu(m+b)$. If the observer additionally receives a message drawn from $d$ alone, bounded conditional entropy of the message given the product still forces the optimal probability of predicting $\\lambda(m+b)$ to tend to $1/2$. Below $r_*$, products with a unique eligible divisor have positive mass on sufficiently wide windows or when $U$ exceeds a sufficiently large fixed power of $2D$. This holds on every widening window for $r<0.481545\\ldots$, and the recovery probability tends to one for $1\\le k=o(\\log\\log D)$. The proof combines logarithmic two-point cancellation with a count of prime reallocations. At equality it uses the first favorable cutoff among finitely many scales.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.PR",
+"math.IT"
+],
+"link": "https://hexagonmath.org/abs/2611.01202v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01202v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01221",
+"title": "Signed prime Lambert sums and independence in arithmetic progressions",
+"abstract": "Assign a sign $\\varepsilon_p\\in\\{-1,1\\}$ to each prime $p$. We prove that $\\sum_p\\varepsilon_p/(2^p-1)$ is irrational for every choice of signs. Tao and Teräväinen proved the all-positive case, answering a question of Erdős. We also show that for each fixed modulus $d\\ge2$, the sums of $1/(2^p-1)$ over primes in the reduced residue classes, together with $1$, are linearly independent over $\\mathbb{Q}$. As $d$ varies, the class sums span an infinite-dimensional space over $\\mathbb{Q}$, and refinement to a common modulus determines every rational relation among them and $1$.",
+"authors": [
+"twinheterodox"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01221v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01221v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01229",
+"title": "Springer coefficients, boundary moments, polynomial zeros, and regular stars",
+"abstract": "For centered exterior univalent maps we prove the Springer inverse-coefficient bound in every order indexed by \\(k\\geq751\\), with equality precisely for unit slit maps. The energy estimate uses an explicit multiplier that is linear up to one cutoff and constant thereafter. We determine the sharp radial boundary-moment maxima and give quantitative deficits for real exponents \\(4\\leq p\\leq8\\). In the same range, the normalized derivative-zero moments of polynomials with connected lemniscates have a strict upper bound equal to their supremum across degrees. The regular \\(m\\)-arm star maximizes the polynomial factor constant among \\(m\\)-fold rotationally symmetric plane continua precisely when \\(m\\) is even. We give a quantitative even-order bound and classify equality, and construct a strict counterexample in every odd order \\(m\\geq3\\).",
+"authors": [
+"Cheng Li"
+],
+"categories": [
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.01229v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01229v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01197",
+"title": "Square-class collisions and complete fourth moments for two split quartics",
+"abstract": "We count ordered quadruples of distinct integers $2\\le n_i\\le X$ for which the product of the four values of $F(n)=n(n+1)(n+2)(n+3)$ is a square. The count is $O_\\varepsilon(X^{5/3+\\varepsilon})$, with no restriction on the square parts. The identity $F(3n-3)=9G(n)$ gives the same bound for $G(n)=n(n-1)(3n-1)(3n-2)$. Two uniform estimates drive the proof. A prescribed nonidentity square class contains $O_\\varepsilon(X^{2/3+\\varepsilon})$ ordered pair products. The number of arguments whose squarefree kernel is at most $T$ and divisible by a prescribed squarefree $q$ is $O_\\varepsilon(X^\\varepsilon\\min\\{1+X/q,\\sqrt{T/q}\\})$. The count gives a complete fourth-moment asymptotic for independent fair signs on the primes extended completely multiplicatively. With common signs the two sums have normalized mixed fourth moment tending to $11/9$, reflecting their overlap. A uniformly sampled unordered pair is determined by its product class with error $O_\\varepsilon(X^{-1/3+\\varepsilon})$.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.01197v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01197v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01161",
+"title": "Supersingular curves and Oort's conjecture on Newton polygons",
+"abstract": "Let $k$ be an algebraically closed field of characteristic $p>0$. Van der Geer asked which genera occur for smooth supersingular curves in a fixed prime characteristic. We show that genera five and six occur for every prime $p$. More precisely, in each of these two genera the locus of smooth supersingular curves over $k$ has an irreducible component of dimension at least three. We also prove that if $C_1$ and $C_2$ are smooth curves over $k$ of positive genera $g_1$ and $g_2$ with $g_1+g_2\\leq 5$, then there is a smooth curve over $k$ of genus $g_1+g_2$ whose Jacobian has the same Newton polygon as $\\text{Jac}(C_1)\\times\\text{Jac}(C_2)$. This verifies Oort's amalgamation conjecture in total genus at most five.",
+"authors": [
+"Anwesh Ray"
+],
+"categories": [
+"math.AG",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01161v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01161v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "human",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01164",
+"title": "The Alon–Tarsi (1992) conjecture: for n > 2, congruences modulo divisors of (n!)³ can prove it only at Drisko's orders",
+"abstract": "A Latin square of even order is even or odd according to the product of the signs of its rows and columns, read as permutations. The Alon–Tarsi conjecture (1992) says that for every even n the numbers L^e_n and L^o_n of even and odd Latin squares of order n are different. Drisko proved it for n = p + 1, p an odd prime (Drisko's orders), by showing that p^3 does not divide L^e_n − L^o_n; here p^3 divides (n!)^3, the order of the group that renames the rows, the columns and the symbols. Stones and Wanless observed that a congruence modulo a divisor of (n!)^3 can prove the conjecture at order n only through a prime factor of c_n = (n!)^3 / gcd(L^e_n − L^o_n, (n!)^3). They found c_n for n ≤ 9, and their results show that no prime q with n/2 < q < n − 1 divides it. We determine c_n for every even n ≥ 8: c_n = n − 1 if n − 1 is prime, and c_n = 1 otherwise. So, for n > 2, such congruences can prove the conjecture at Drisko's orders and only there, and the smallest open order, 26, needs a different method. The main tool is an exact identity expressing L^e_n − L^o_n, up to sign, as (n − 1)! times a circuit-partition-polynomial value for the complete directed graph with two loops at each vertex. Successive vertex removals give a quadratic lower bound for the exponent of each fixed prime. A separate signed count of fixed Latin squares handles q = n/2. These results are verified in Lean.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CO",
+"math.GR",
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01164v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01164v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01147",
+"title": "The Avkhadiev–Wirths (2006) generalized Goodman conjecture is true",
+"abstract": "Let f be meromorphic and one-to-one in the unit disk, with a simple pole at a point p in (0, 1), f(0) = 0 and f'(0) = 1. Its Taylor coefficients a_n at the origin satisfy the sharp bound |a_n| ≤ A_n(p) = (1 − p^{2n})/((1 − p^2)p^{n−1}). Goodman conjectured this bound, and Jenkins showed that it follows from the Bieberbach conjecture, now de Branges' theorem. Let h be a holomorphic self-map of the disk with h(0) = 0. Then f ∘ h may have poles, but it is holomorphic near 0. In 2006 Avkhadiev and Wirths conjectured that its Taylor coefficients satisfy the same bound. Their 2009 book named this the generalized Goodman conjecture. It is the meromorphic counterpart of Rogosinski's generalized Bieberbach conjecture, which de Branges' work settled. It was known for n ≤ 2, for n = 3 with p < 0.7, for n ≥ 4 with p < 1/(2n − 2), and for some classes of f. We prove it for every n and every p. The proof combines three tools: Rogosinski's reduction, by which the nth Taylor coefficient of f ∘ h equals the nth coefficient of Ef, for a holomorphic E with |E| ≤ 1 that depends on n; Jenkins' conformal map of the disk slit along [p, 1) onto the disk, a map that fixes 0 and has positive coefficients of z, z^2, z^3, …; and Robertson's inequality for odd univalent functions. For n ≥ 2, equality holds only when f(z) = z/((1 − pz)(1 − z/p)) and h is a rotation. As a consequence, we prove two conjectures of Avkhadiev and Wirths (2008): sharp bounds for the derivatives of a meromorphic map from the disk, or from a convex domain, into a simply connected domain of the sphere. These results are verified in Lean.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.01147v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01147v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01146",
+"title": "The Avkhadiev–Wirths (2006) generalized Goodman conjecture is true, and other miscellanea",
+"abstract": "Let f be meromorphic and one-to-one in the unit disk, with a simple pole at a point p in (0, 1), f(0) = 0 and f'(0) = 1. Its Taylor coefficients a_n at the origin satisfy the sharp bound |a_n| ≤ A_n(p) = (1 − p^{2n})/((1 − p^2)p^{n−1}). Goodman conjectured this bound, and Jenkins showed that it follows from the Bieberbach conjecture, now de Branges' theorem. Let h be a holomorphic self-map of the disk with h(0) = 0. Then f ∘ h may have poles, but it is holomorphic near 0. In 2006 Avkhadiev and Wirths conjectured that its Taylor coefficients satisfy the same bound. Their 2009 book named this the generalized Goodman conjecture. It is the meromorphic counterpart of Rogosinski's generalized Bieberbach conjecture, which de Branges' work settled. It was known for n ≤ 2, for n = 3 with p < 0.7, for n ≥ 4 with p < 1/(2n − 2), and for some classes of f. We prove it for every n and every p. The proof combines three tools: Rogosinski's reduction, by which the nth Taylor coefficient of f ∘ h equals the nth coefficient of Ef, for a holomorphic E with |E| ≤ 1 that depends on n; Jenkins' conformal map of the disk slit along [p, 1) onto the disk, a map that fixes 0 and has positive coefficients of z, z^2, z^3, …; and Robertson's inequality for odd univalent functions. For n ≥ 2, equality holds only when f(z) = z/((1 − pz)(1 − z/p)) and h is a rotation. As a consequence, we prove two conjectures of Avkhadiev and Wirths (2008): sharp bounds for the derivatives of a meromorphic map from the disk, or from a convex domain, into a simply connected domain of the sphere. We also prove the following. When h has a zero of order at least d at 0 and n ≥ d, the nth coefficient is at most A_m(p) in modulus, with m = ⌊n/d⌋, and this bound is attained exactly when m divides n; for d = 2 and n = 5 we find the exact maximum. For n ≥ 2, near-extremal coefficients force f and h near their extremal forms. Finally, a sharp bound for the derivatives of a meromorphic map from any simply connected source domain Ω at a point z_0, in terms of a single number τ(Ω, z_0), gives both bounds of 2008 and also covers sources that contain ∞. The numbered results of Sections 1–5 (the focused version) are verified in Lean.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.01146v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01146v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01191",
+"title": "The Complexity of Factoring Sums of Cycles",
+"abstract": "A sum of directed cycles represents a finite dynamical system whose transition map is a permutation. Its decomposition into a direct product of two nontrivial systems is a classical algorithmic problem, also studied as conjugated tensor decomposition of a permutation. We establish its decision and counting complexity. For explicit transition tables, deciding nontrivial factorization is NP-complete, and counting unordered nontrivial factor pairs up to isomorphism is \\#P-complete under parsimonious reductions. The reduction classifies every nontrivial factor pair: for suitable sums $A,B$ of odd-length cycles, the nontrivial pairs of $B+C_2A$ are exactly $\\{A,X+C_2\\}$ with $AX=B$, where $C_2$ is a two-cycle. Both factors are irreducible, and the target $B+C_2A$ has $|B|+2|A|$ states. We give a self-contained parsimonious reduction from 3-SAT to the required division instances, including the decoding of arbitrary quotients and a polynomial bound on the explicit state space. For binary cycle-list encodings, a sparse-witness argument gives NP-completeness as well. We also give an elementary proof of the output-length obstruction to \\#P membership for counting all binary factor pairs, a consequence of earlier bounds on the number of quotients.",
+"authors": [
+"Nuutti Kuosa"
+],
+"categories": [
+"cs.CC",
+"cs.DM"
+],
+"link": "https://hexagonmath.org/abs/2611.01191v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01191v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01150",
+"title": "The Esperet–Hendrey–Lagoutte–Marseloo–Norin–Steiner (2025) flow reconfiguration problem: a positive answer (k = 40)",
+"abstract": "Given an oriented finite multigraph $G$ and an abelian group $\\Gamma$, a nowhere-zero $\\Gamma$-flow assigns each edge a value in $\\Gamma\\setminus\\{0\\}$ with equal incoming and outgoing sums at every vertex. The reconfiguration graph $F(G,\\Gamma)$ connects two nowhere-zero $\\Gamma$-flows when the support of their difference is a cycle; write $M_k(G)=F(G,\\mathbb{Z}_k)$, and let $I_k(G)$ be the analogous graph on integer flows $F$ with $1\\le|F(e)|\\le k-1$ on every edge. Problem 1.2 of Esperet, Hendrey, Lagoutte, Marseloo, Norin, and Steiner (2025) asked whether a uniform integer $k\\ge 5$ independent of $G$ makes $I_k(G)$ connected for every finite bridgeless loopless multigraph $G$; previously only the graph-dependent bound $k=36\\,|E(G)|(|V(G)|+1)$ was known. We answer Problem 1.2 positively: $I_k(G)$ is connected for every finite bridgeless loopless multigraph $G$ (and $M_k(G)$ is connected with loops allowed) whenever $k$ is a positive multiple of $40$, $48$, or $66$—in particular for $k=40$. We also prove that $F(G,\\Gamma)$ is connected for every finite bridgeless multigraph $G$ and every finite abelian group $\\Gamma$ that is not cyclic of prime-power order and whose order has a divisor $d$ with $4\\le d\\le|\\Gamma|/10$. In particular, every abelian group of order $40$ works, lowering the smallest order of a group (with $|\\Gamma|\\ge 3$) proved universal in Esperet et al. (2025) from $|\\mathbb{F}_2^8|=256$ to $40$. Both results follow from a single master theorem for reconfiguration under a restricted set of steps in a quotient $\\Gamma/B$, combined with a Markov-chain averaging lemma in direct products and a lifting lemma for proper-divisor steps in $\\mathbb{Z}_k$. These results are verified in Lean.",
+"authors": [
+"Dave Goel"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01150v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01150v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01220",
+"title": "The Exact Joint Spectral Envelope of the Second-Largest Adjacency and Laplacian Eigenvalues",
+"abstract": "For finite simple connected graphs on at least two vertices, write $\\lambda_2$ and $\\mu_2$ for the second-largest adjacency and ordinary Laplacian eigenvalues. We determine $F(t)=\\inf\\{\\mu_2(G):\\lambda_2(G)\\ge t\\}$ for all $0\\le t\\le2$ and classify every minimizer. A double-star staircase accumulates at $1$. Above $\\sqrt3$ there are twenty transition levels followed by an infinite sequence of six-level blocks beginning at the smallest possible index $4$. The proof combines a sharp maximum-degree reduction, explicit Schur-complement comparisons valid on algebraic intervals, and finite certificates based on exact characteristic-polynomial root counts. We also obtain the optimal coefficient $8/\\sqrt3$ in a quadratic lower bound and the exact gap for nonstars in Cazenave's inequality.",
+"authors": [
+"Qirui Zhu",
+"Jiayuan Wang"
+],
+"categories": [
+"math.CO"
+],
+"link": "https://hexagonmath.org/abs/2611.01220v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01220v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01217",
+"title": "The Lorentzian Calderón problem",
+"abstract": "We prove uniqueness for Calderón's inverse problem on Lorentzian manifolds. More precisely, if two globally hyperbolic Lorentzian metrics agree with the Minkowski metric outside a compact set and have the same exterior measurements for waves, we prove that the metrics are equal up to a diffeomorphism that is the identity in the exterior. A similar result was proved in \\cite{ORS26} if one of the metrics was close to Minkowski. More generally, we prove that the Minkowski exterior condition can be replaced by another geometric condition when recovering a metric or a potential. We also give counterexamples showing that some geometric condition is needed. The proof is based on a layer stripping approach, where the local uniqueness step is provided by a localized version of the weighted $L^2$ estimates for plane waves in \\cite{ORS26}. The localization is made possible by a geometric reduction adapted from \\cite{KLU18}.",
+"authors": [
+"Matti Lassas",
+"Lauri Oksanen",
+"Mikko Salo"
+],
+"categories": [
+"math.AP",
+"math.DG"
+],
+"link": "https://hexagonmath.org/abs/2611.01217v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01217v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01149",
+"title": "The order of excluded minors for surfaces",
+"abstract": "Each closed surface $S$ has a finite list of excluded minors, and a graph embeds in $S$ if and only if none of its minors are on the list. How many vertices can these excluded minors have? Houdaigoui and Kawarabayashi conjectured an almost linear upper bound in the Euler genus $g$ of $S$. For nonorientable surfaces, we prove the conjecture by showing that every excluded minor has $O\\!\\left(g(\\log g)^2(\\log\\log g)^2\\right)$ vertices as $g\\to\\infty$. For orientable surfaces, we disprove it by exhibiting an excluded minor with $(g+2)^2$ vertices for every even $g\\ge2$.",
+"authors": [
+"Alec Shelley"
+],
+"categories": [
+"math.CO",
+"math.GT"
+],
+"link": "https://hexagonmath.org/abs/2611.01149v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01149v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01155",
+"title": "Three-generated matrix algebras containing a four-regular element",
+"abstract": "Let A, B, C be pairwise commuting complex n by n matrices. We prove that the dimension of the algebra they generate is at most n whenever this algebra contains an element whose eigenspaces all have dimension at most four. The eigenvalues and Jordan block lengths are arbitrary. The proof reduces to commuting nilpotent operators, studies the top and socle of a minimal counterexample, and uses a canonical-module minor identity to bound an extension with a curvilinear quotient. A change of generators then treats a four-regular element anywhere in the generated algebra. The matrix theorem is verified in Lean.",
+"authors": [
+"Yan-cheng Lin"
+],
+"categories": [
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.01155v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01155v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01219",
+"title": "Topology of amplituhedra",
+"abstract": "We prove that the amplituhedron is homeomorphic to a closed ball for arbitrary positive external data when $m=2$, or when $m$ is positive and even and $n-k-m=3$. For $m=2$, we also prove that every source fiber is a closed ball and every open Lam stratum is an open ball. For $m=4$, we establish the convexity of complete Grassmann linear sections and show that the boundary has the homotopy type of a sphere. We further prove contractibility for $m=3,4$ and establish quantitative estimates for Plücker forms and lifting maps.",
+"authors": [
+"Hernandez Juan"
+],
+"categories": [
+"math.AG",
+"math.CO",
+"math.GT"
+],
+"link": "https://hexagonmath.org/abs/2611.01219v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01219v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01228",
+"title": "Tracial joint spectral measures and Hanner inequalities",
+"abstract": "We construct a positive tracial joint spectral measure for every bounded self-adjoint pair in a finite von Neumann algebra equipped with a faithful normal tracial state. For pencils invertible in every real direction, we obtain a density from Brown's logarithmic potential formula. A \\(2\\times2\\) enlargement and a norm limit extend positivity to arbitrary pencils. Consequently, every real two-dimensional subspace of a Haagerup \\(L_p\\)-space embeds real-linearly and isometrically into a commutative \\(L_p\\)-space for \\(0<p<\\infty\\). This gives the Hanner inequalities for \\(1\\le p<\\infty\\). Further consequences include commuting matrix models for shuffle traces with a fixed even number of occurrences and a sign theorem for higher-order spectral shift functions of bounded tracial Schatten perturbations in semifinite von Neumann algebras.",
+"authors": [
+"Sihan Chen"
+],
+"categories": [
+"math.OA"
+],
+"link": "https://hexagonmath.org/abs/2611.01228v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01228v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01212",
+"title": "Two-sided bounds for site percolation on the square lattice",
+"abstract": "For independent site percolation on the infinite square lattice with nearest-neighbor adjacency, we prove 0.55855 ≤ p_c ≤ 0.63345. For the lower bound we thin the children of a two-layer exploration according to their joint outcomes. A missing-neighbor constraint and bounds on the posterior of each explored column give stochastic domination at every depth. For the upper bound we couple boundary partitions on two offset tilings by 4 × 4 blocks. An intermediate occupation field with independent factors of sizes 9, 3, 3, 1 respects both tilings. Integer transports certify both couplings. Relative to the endpoints 0.556921 and 0.6463 in Niedbala Giraudin's 2026 preprint, the lower bound increases by 0.001629 and the upper bound decreases by 0.01285. The finite certificates and independent checking programs accompany the paper.",
+"authors": [
+"Su XU"
+],
+"categories": [
+"math.PR",
+"math.RA"
+],
+"link": "https://hexagonmath.org/abs/2611.01212v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01212v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01208",
+"title": "Units in the Ring of Values of Siegel E-Functions in the Broad Sense",
+"abstract": "We determine the units in the ring of values at algebraic points of Siegel $E$-functions in the broad sense. They are precisely the numbers $\\alpha e^\\beta$ with $\\alpha\\in\\overline{\\mathbb{Q}}^\\times$ and $\\beta\\in\\overline{\\mathbb{Q}}$. Starting from an inverse relation between two values, we use division by an algebraic zero to obtain a relation in the fibre of a finite differential module. A common tensor comparison preserves this relation and, after a finite Kummer covering, can be chosen globally over $\\overline{\\mathbb{Q}}$ and normalized at the evaluation point. Its analytic realization produces two reciprocal functions with algebraic Laurent coefficients and controlled growth. We then prove directly that such a function is an algebraic constant times an integral power of the variable times the exponential of a polynomial with algebraic coefficients. Evaluation at the normalized point gives the unit classification. The proof applies directly to the broad class; the corresponding statement for the strict class follows as a corollary.",
+"authors": [
+"Niklas Fraccaro",
+"David Christopher Lapierre"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01208v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01208v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01207",
+"title": "Visible prime factors under neighbouring critical divisor weights",
+"abstract": "A positive divisor weight marks one prime $P$ of an integer $X<n\\le2X$. We compare the law of $(n,P)$ before and after reweighting at $n+2$. For fixed $t\\ge0$ and $u\\to\\infty$ with $u=o(\\log X)$, the total variation distances for the exact cofactor $n/P$, the mark $P$ and the origin $n$ tend to $0$, $e^{-t}$ and $1$, respectively. When further factors are revealed in uniform order, the distance equals the probability, under the first law, of exhausting the factorisation up to $o(1)$, uniformly over stopping rules. A second deletion compares all incomplete records. We also determine the joint law of $n/P$, the exact neighbouring mark and the neighbouring prime divisors up to $y=X^{o(1)}$. The approximation is in total variation, with conditional error tending to zero in mean over the cofactor. At $y=X^{1/V}$ the reference conditioned on a visible neighbouring mark has distance $e^{-u/V}+o(1)$. The mark, the other small primes and the full factor count give independent exponential, Poisson-process and Gaussian limits on their respective scales.",
+"authors": [
+"Brice Pouly"
+],
+"categories": [
+"math.NT",
+"math.PR"
+],
+"link": "https://hexagonmath.org/abs/2611.01207v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01207v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+}
+]
+}
