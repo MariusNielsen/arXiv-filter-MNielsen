@@ -1,6 +1,6 @@
 {
 "day": "2026-11-28",
-"updated": "2026-11-28T13:13:22+00:00",
+"updated": "2026-11-28T16:08:40+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -112,6 +112,27 @@
 ],
 "link": "https://hexagonmath.org/abs/2611.01186v1",
 "pdf": "https://hexagonmath.org/pdf/2611.01186v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01222",
+"title": "A three-dimensional delta symbol method and its application to intersections of three quadratic forms",
+"abstract": "Using a new three-dimensional delta symbol with a Kloosterman refinement, we prove the asymptotic formula for the number of integral points of bounded height on a non-singular intersection of three quadrics in at least $22$ variables, improving on the $27$ variables required by Birch and by Rydin Myerson.",
+"authors": [
+"Esrafil Ali Molla"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01222v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01222v1",
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-27",
@@ -1450,6 +1471,33 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01230",
+"title": "Three-Dimensional Entropic Domains for TSP Complexity via 3-SAT: Foundations of the GCT-STL Research Program on P versus NP",
+"abstract": "In the context of the P versus NP problem, this paper establishes the mathematical foundations of the GCT-STL research program using $TSP_{dec}$ as a canonical NP-complete representative and its polynomial reduction to 3-SAT with an exact materialized 3-CNF artifact. The framework is organized into four interacting systems: a Fundamental Mathematical Representation System, a Logical and Computational-Complexity Formal System, a Computational-Heuristic-Experimental and Simulation System, and a transversal Mathematical and Symbolic Formalization and Certification System, complemented by an AI-Assisted Neuro-Symbolic Discovery and Formalization Layer. Within the Fundamental Mathematical Representation System, nine provenance-controlled descriptors D1–D9 are organized across three computational-information domains: semantic/geometric (S), temporal/computational (T), and logical/syntactic (L). They are assembled into the canonical raw Valiant–González tensorial signature $R0:=T_{VG}^{raw}$, supported by explicit SourceMap and Provenance Bundle contracts and by three foundational entropy results. Paper I-A situates R0 within the branched four-representation architecture $R0 \\rightarrow R1=L_{VG}$ and $R0 \\rightarrow R2=T_{VG}^{H} \\rightarrow R3=R_{VG}$, where R1 is a componentwise logarithmic scale complement, R2 the canonical entropic/information representation, and R3 the exact-envelope normalized representation. The Full STL Tensorial Coupling Principle remains an open and falsifiable hypothesis concerning a possible obstruction in the complete coupled S–T–L structure rather than in any individual domain. The logical-complexity system defines $Cost_{STL},P_{STL},NP_{STL}$, and the minimal route $F1:P\\subseteq P_{STL}$; $F2:TSP_{dec}\\notin P_{STL}$; $F3_{std}:TSP_{dec}\\in NP$; and the conditional bridge $F4:F1\\land F2\\land F3_{std}\\Rightarrow P\\neq NP$. F1 and F2 remain open; empirical robustness and candidate obstructions remain discovery-level, while universality, representation transfer, and lower-bound transfer remain theorem-level obligations. Accordingly, Paper I-A does not prove P ≠ NP; it establishes the representational, logical, and methodological foundations for the subsequent GCT-STL program, whose companion papers develop the full four-representation mathematics, the logical-computational and heuristic-experimental architectures, formalization and certification, and the later experimental and obstruction-theoretic stages.",
+"authors": [
+"Renato R. González"
+],
+"categories": [
+"cs.CC",
+"math.CO",
+"math.IT",
+"cs.AI",
+"cs.DS",
+"cs.FL",
+"cs.IT"
+],
+"link": "https://hexagonmath.org/abs/2611.01230v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01230v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
 "ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
