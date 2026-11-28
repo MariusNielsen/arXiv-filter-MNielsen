@@ -1,6 +1,6 @@
 {
 "day": "2026-11-28",
-"updated": "2026-11-28T16:08:40+00:00",
+"updated": "2026-11-28T17:44:59+00:00",
 "categories": [
 "math.AT",
 "math.AG",
@@ -691,6 +691,29 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.01238",
+"title": "From Lean to a Natural-Language Proof of the Riemann Hypothesis: A Multi-Agent AI Approach Using a Proof Dependency Graph",
+"abstract": "This paper presents an engineering method for reconstructing formalized mathematical arguments as natural-language proofs. GPT generated the entire text. Starting from the weighted Lean version of Levent Alpöge’s argument for the classical Riemann hypothesis, we organize the main inferences in a directed acyclic graph (DAG) and develop the proofs node by node. At each refinement we check that the upstream conclusions jointly supply all the premises needed downstream for the same mathematical objects. We use precise theorems from the literature to avoid repeating known derivations. When a weaker statement suffices for a step and has a proof independent of the stronger statement, we remove that step’s dependence on the latter. The resulting weighted proof is logically independent of the Lean code and can be checked from the paper and the cited mathematical literature alone. A multi-agent system independently reviewed the main line of the proof and its key derivations.",
+"authors": [
+"Jiewen Wang"
+],
+"categories": [
+"math.NT",
+"math.RT",
+"cs.AI"
+],
+"link": "https://hexagonmath.org/abs/2611.01238v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01238v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.01154",
 "title": "From the Riemann Hypothesis to the Lindelöf Hypothesis: A Lean 4 Formalization via Two-Disk Interpolation",
 "abstract": "We give an explicit proof of the classical implication from the Riemann hypothesis to the Lindelöf hypothesis, together with a Lean 4 implementation. A normalized holomorphic logarithm on a zero-free disk, two Borel–Carathéodory estimates and Hadamard interpolation first establish subpower growth on every strictly smaller disk. A second interpolation, applied to the zeta function itself, reaches the closed disk of radius 3/2 about $2+it$ without requiring nonvanishing on its boundary. The implementation uses Mathlib and a pinned Abel-continuation estimate from PrimeNumberTheoremAnd (PNT+). The final declaration has precisely the eventual positive-height Lindelöf conclusion with RH as its sole mathematical premise. The author’s reported local run compiled 28 modules and reported only the standard axioms propext, Classical.choice and Quot.sound for this declaration. We distinguish this evidence from a fresh rebuild of the exact archived source, which remains outstanding, and provide a statement-level correspondence, dependency inventory and reproducibility protocol. The contribution is a documented formalization of a known conditional theorem, not a proof of RH or of unconditional Lindelöf.",
@@ -863,6 +886,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.01235",
+"title": "Local volume minimality of Meissner's bodies",
+"abstract": "Let $M\\subset\\mathbb{R}^3$ be either of the two Meissner bodies of constant width one. We prove that there exist $c,\\varepsilon>0$ such that $\\operatorname{vol}(K)-\\operatorname{vol}(M)\\ge c\\,\\delta(K,M)^{3/2}$ for every body $K$ of constant width one with $\\delta(K,M)<\\varepsilon$, where $\\delta$ is the Hausdorff distance modulo rigid motions. Thus each Meissner body is a strict local minimizer of volume in the full class of bodies of constant width. The exponent $3/2$ is sharp. The proof uses a normalization by six support values, one-dimensional inequalities on the sphere, and an estimate of the gradient term in the quadratic formula for volume. Sharpness is obtained by changing the retained arc in one short pair of dual edges.",
+"authors": [
+"Andriy Prymak"
+],
+"categories": [
+"math.MG"
+],
+"link": "https://hexagonmath.org/abs/2611.01235v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01235v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.01142",
 "title": "Nim-values of two-move and symmetric three-move vector subtraction games, with machine-checked proofs",
 "abstract": "In a vector subtraction game a token sits at a point of ℕⁿ, a move subtracts one of finitely many fixed vectors, and the player who cannot move loses. For the symmetric three-move game T(a,b) with moves (a,b), (b,a), (a+b,a+b), Larsson, Saha and Yokoo determined the winner when b ≤ 2a; for b > 2a they show pictures of two games and leave the analysis open, and we know of no solution of any such game in the literature. We show that these games are governed by a translation: for an explicit vector w depending on a and b, the Sprague-Grundy value is unchanged under translation by w above the diagonal, and is periodic along the diagonal in a band next to it. A reduction theorem, proved for all a ≤ b, says that both statements hold everywhere once they hold on an explicit finite window, so that they determine the game from a finite table. We prove the two statements (i) for every m ≥ 2 when a ≤ 3 and (2m−1)a ≤ b ≤ 2ma; (ii) for every a when 2 ≤ m ≤ 14 and (2m−1)a ≤ b ≤ 2ma; (iii) for 1792 individual games, of which 862 lie in the complementary ranges 2ma < b < (2m+1)a, where a single formula for w fits every game tested and the general statement remains a conjecture. We also complete the known cases: the full Sprague-Grundy values of every two-move game in every dimension, by a three-case parity rule, and of T(a,b) for a ≤ b ≤ 2a. The reduction theorem, the two complete cases and 72 of the individual games are formally verified in Lean 4 with Mathlib. Results (i) and (ii) rest on an SMT solver and the other individual games on a short program; for each claim the paper states which check stands behind it.",
@@ -930,6 +974,27 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.01218",
+"title": "On a complete written proof of the Generalized Riemann Hypothesis for Dirichlet L-Functions",
+"abstract": "In this paper, we show that every nontrivial zero of any Dirichlet L-function has real part 1/2. The proof follows Sernau’s shorter arrangement of the Alpöge construction. We provide a complete written account of the proof, relying solely on results from the existing mathematical literature, without reference to any part of the Lean formalization.",
+"authors": [
+"Baiying Liu"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01218v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01218v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.01171",
 "title": "On the planes of Cartan's cubics and the missing seven",
 "abstract": "A complex field $z$ with the interaction $\\operatorname{Re} z^3$ has three preferred directions, yet its energy $|\\nabla W|^2$ depends only on the length of the field. The question is when several such fields can be coupled only through terms in three different fields, so that each can still be excited alone, with the energy of the whole again depending only on length. This happens only for four or thirteen fields, with the cubic of $\\mathfrak{su}(3)$ or of the exceptional Jordan algebra. The question names no number system, and beyond four fields its only answer is built on the octonions. Seven, the count the quaternions would give, is missing. Conditions on pairs of fields allow it, and the obstruction lies in triples: any two fields pass a fixed total of two units of coupling to the others, and over the quaternions each of the five others takes at least $1-1/\\sqrt3>2/5$. The fields span planes that are three-outcome tests in a Jordan algebra, and orthogonal planes are unbiased tests. Hence $\\mathbb H^3$ does not have the seven mutually unbiased bases that a count of dimensions allows, and compact $\\mathfrak{sp}(3)$ has no orthogonal decomposition into Cartan subalgebras. Any six such bases would extend to a seventh, so $\\mathbb H^3$ has at most five. With two units per pair, thirteen planes carry total coupling $52$ on at least $52$ triples. Equality holds exactly when the closed sets of four planes form the projective plane of order three, and such a system is unique up to automorphism. With the three-field terms scaled by $t>0$, $t\\neq1$, the energy shows the planes and, among such cubics, determines the cubic up to sign. The one-loop renormalization flow carries every $t>0$ to $t=1$, where the planes are no longer visible.",
@@ -990,6 +1055,27 @@
 ],
 "link": "https://hexagonmath.org/abs/2611.01203v1",
 "pdf": "https://hexagonmath.org/pdf/2611.01203v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01239",
+"title": "Period lines and elliptic logarithms: four exponentials at ratios of CM periods, and the reach of Waldschmidt's method",
+"abstract": "We give a criterion under which Waldschmidt's subgroup theorem with period term (1988), applied subgroup by subgroup on a line of codimension two through a period vector of three columns of weight two, proves a four exponentials statement. The criterion is a finite check on which coordinates of the group a subgroup can kill, together with bounds on a few relation spaces that come from classical transcendence results. Once the criterion is in place, individual instances are cheap. The most natural ones are these. Let $E_1,E_2,E_3$ be elliptic curves over $\\overline{\\mathbb{Q}}$ with complex multiplication, with periods $\\Omega_j$ such that $t=\\Omega_2/\\Omega_1$ and $t'=\\Omega_3/\\Omega_1$ are linearly independent over $\\mathbb{Q}$. Then for every nonzero logarithm $\\lambda$ of an algebraic number and every nonzero elliptic logarithm $u$ of an algebraic point of $E_1$, the numbers $e^{\\lambda t},e^{\\lambda t'},e^{ut},e^{ut'}$ are not all algebraic. If the CM fields are distinct, the same holds for $e^{tu_1},e^{t'u_1},e^{tu_2},e^{t'u_2}$, with $u_j$ an elliptic logarithm of a non-torsion algebraic point of $E_j$. The ratios $t,t'$ have period weight $0$. For all pairs of data, four exponentials was previously known at transcendental CM-period exponents only in classes of weight $\\pm1$ and $\\pm2$ (the latter being $\\overline{\\mathbb{Q}}^\\times\\pi^{\\pm1}$), unless an unexpected period relation holds; at weight $0$ only some particular pairs had been treated, with both rows on a single curve. The statements above are also for particular pairs, with rows given by logarithms of algebraic numbers or on different curves. We also show where the method stops. Within an explicit model, the hyperplane count reaches only the classes treated earlier, $\\overline{\\mathbb{Q}}^\\times\\pi^{\\pm1}$, and their Möbius images. On codimension-two lines through one period vector, a strict count from two data that is not already given by a projection forces three columns of weight two, which is exactly the setting of the criterion. Finally we record how complex conjugation splits the complex-exponent instances $2^\\sigma,3^\\sigma\\in O_K$.",
+"authors": [
+"Shawn Krisman"
+],
+"categories": [
+"math.NT"
+],
+"link": "https://hexagonmath.org/abs/2611.01239v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01239v1",
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-27",
@@ -1077,6 +1163,30 @@
 ],
 "link": "https://hexagonmath.org/abs/2611.01210v1",
 "pdf": "https://hexagonmath.org/pdf/2611.01210v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01174",
+"title": "ROBIN-TYPE CRITERIA FOR DIRICHLET, DEDEKIND, AND AUTOMORPHIC RIEMANN HYPOTHESES WITH FORMAL PROOFS IN LEAN",
+"abstract": "We prove Robin-type arithmetic equivalences for generalized Riemann hypotheses and verify their proofs in Lean at the specified analytic interfaces. For every number field K, Dedekind RH is equivalent to an eventual bound on the normalized ideal divisor sum. The main term is eγκK loglogNa, with correction eγκK(12+3log|DK|)/√logNa. Here κK is the residue of ζK at 1. Lean checks this equivalence and the cyclotomic factorization that yields a criterion for all Dirichlet L-functions. For a fixed field we determine the sharp eventual ideal coefficient as a completed logarithmic derivative minus 2√2 − 2. For standard L-functions of unitary cuspidal representations of GLn, a one-sided square-root bound on a triangular prime-power sum characterizes critical-line location. Its converse uses Landau’s theorem and the sign of a possible real pole. The formal proof isolates the analytic data used by this argument. Lean constructs those data for the actual rank-one Hecke family over every number field, including Dedekind norm twists. For higher ranks the Lean equivalence takes the Euler, continuation, growth, and functional-equation conditions as hypotheses. The paper supplies them for actual standard functions using cited analytic theorems. We express the sharp eventual triangular coefficient by a critical-line zero sum. Both sharp constants are proved in the manuscript and lie outside the Lean verification. The same coefficients give conditional tests for simplicity and prescribed multiplicity. The published verification compares and replays six location and four multiplicity equivalences. We give their exact statement types, pinned dependencies and recorded checker outputs, and describe an external replay that combines three of the arithmetic results with the Alpöge–Claude zero-location proofs.",
+"authors": [
+"Jonas Whidden"
+],
+"categories": [
+"math.NT",
+"math.CV",
+"math.LO",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.01174v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01174v1",
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-27",
@@ -1280,6 +1390,29 @@
 "watched_authors": []
 },
 {
+"pid": "hexagon:2611.01233",
+"title": "Stable Type Proportions under Partial Information in Branching Trees",
+"abstract": "We study the type proportions of finite ancestor-closed sets obtained by sequential exploration of multitype branching trees. When a vertex enters the frontier, the explorer sees its type and a local signal about its own offspring. Let $G$ be the conditional mean offspring matrix on type–signal states and $L$ the projection onto physical types. Under bounded, everywhere nonempty offspring and irreducible supercritical $G$, the almost surely attainable state limits along stopping-time exhaustions are exactly the probability rows $x$ with $xG\\geq x$. The physical limits stable under adjoining all children are exactly those $xL$ for which $xGL=(xG\\mathbf{1})xL$. In a binary model the stable interval has radius equal to the mean absolute deviation of the posterior offspring probability from a median. Every point of this interval is attained along all exploration steps by an exhaustive priority rule with a sparse oldest-first schedule. An appendix records the corresponding deterministic cutoff results.",
+"authors": [
+"Viktor Diakin"
+],
+"categories": [
+"math.PR",
+"math.CO",
+"math.IT"
+],
+"link": "https://hexagonmath.org/abs/2611.01233v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01233v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "no-human-author-claimed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
 "pid": "hexagon:2611.01161",
 "title": "Supersingular curves and Oort's conjecture on Newton polygons",
 "abstract": "Let $k$ be an algebraically closed field of characteristic $p>0$. Van der Geer asked which genera occur for smooth supersingular curves in a fixed prime characteristic. We show that genera five and six occur for every prime $p$. More precisely, in each of these two genera the locus of smooth supersingular curves over $k$ has an irreducible component of dimension at least three. We also prove that if $C_1$ and $C_2$ are smooth curves over $k$ of positive genera $g_1$ and $g_2$ with $g_1+g_2\\leq 5$, then there is a smooth curve over $k$ of genus $g_1+g_2$ whose Jacobian has the same Newton polygon as $\\text{Jac}(C_1)\\times\\text{Jac}(C_2)$. This verifies Oort's amalgamation conjecture in total genus at most five.",
@@ -1471,6 +1604,53 @@
 "source": "hexagon",
 "announce": "new",
 "date": "2026-11-26",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01236",
+"title": "The Rhythm of Primes: On the Formally Verified Proof of the Generalized Riemann Hypothesis for Dirichlet L-functions",
+"abstract": "We give a complete account of a proof, due to L. Alpöge working with Claude, that no Dirichlet $L$-function vanishes in the half-plane $\\operatorname{Re} s>1/2$; in particular every nontrivial zero of the Riemann zeta function has real part $1/2$. The proof was found and formalised in Lean 4; we follow the shorter formalisation grh-lean, which we rebuilt and checked, and each statement of the paper is tied to the Lean declarations that prove it. The argument is a descendant of Stepanov's method for curves over finite fields. A one-sided bound for a weighted sum of the von Mangoldt function over a residue class, whose weights $1-\\chi_K(n)$ come from an imaginary quadratic field, excludes zeros by Landau's theorem on Dirichlet integrals of one sign. The bound is proved by comparing two estimates for chains of $m\\asymp\\sqrt x$ theta lifts between definite unitary groups over a CM field: an upper bound, in which the divisibility of derivatives of theta functions of CM elliptic curves at each prime reproduces the prime sums, and a lower bound from a product formula for Gram determinants, in which each prime reads the integral structure through its own twist and the norms of the lifts are Hecke $L$-values controlled by the Rallis inner product formula and by congruences, bounded through Selmer groups of anticyclotomic twists. A second-moment estimate shows that few translates of a Poincaré series span the space of target forms. The main term cancels between the two estimates, and the remainder is bounded by $x^{-1/2+\\varepsilon}$.",
+"authors": [
+"Vincent Liu"
+],
+"categories": [
+"math.NT",
+"math.AG",
+"math.RT",
+"cs.LO"
+],
+"link": "https://hexagonmath.org/abs/2611.01236v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01236v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
+"ai_mode": "mixed",
+"other_links": {},
+"tier": 9,
+"reasons": [],
+"watched_authors": []
+},
+{
+"pid": "hexagon:2611.01232",
+"title": "The Zalcman conjecture for all sufficiently large indices",
+"abstract": "We prove the Zalcman conjecture for all sufficiently large integers $n$. More precisely, there exists an integer $N\\ge3$ such that every normalized univalent function $f(z)=z+\\sum_{j=2}^{\\infty}a_jz^j$ in the unit disk satisfies \\[ |a_n^2-a_{2n-1}|\\le(n-1)^2,\\qquad n\\ge N, \\] with equality if and only if $f$ is a rotation of the Koebe function.",
+"authors": [
+"Yuyam Cheung",
+"Tao Hu",
+"Quanyu Tang"
+],
+"categories": [
+"math.CV"
+],
+"link": "https://hexagonmath.org/abs/2611.01232v1",
+"pdf": "https://hexagonmath.org/pdf/2611.01232v1",
+"source": "hexagon",
+"announce": "new",
+"date": "2026-11-27",
 "ai_mode": "mixed",
 "other_links": {},
 "tier": 9,
